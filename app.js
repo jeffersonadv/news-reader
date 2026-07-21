@@ -46,6 +46,11 @@ const btnSaveToken = document.getElementById('btn-save-token');
 const githubTokenInput = document.getElementById('github-token-input');
 const btnNextNews = document.getElementById('btn-next-news');
 
+// Elementos do Overlay de Carregamento
+const updateLoadingOverlay = document.getElementById('update-loading-overlay');
+const updateProgressBar = document.getElementById('update-progress-bar');
+const updateStatusText = document.getElementById('update-status-text');
+
 // Elementos do Modal de Bloqueio
 const blockModal = document.getElementById('block-modal');
 const modalWordsList = document.getElementById('modal-words-list');
@@ -608,7 +613,7 @@ function scrollToNextUnread() {
     }
 }
 
-// Dispara o fluxo do GitHub Actions remotamente
+// Dispara o fluxo do GitHub Actions remotamente com indicador de progresso e recarregamento automático
 async function triggerGitHubUpdate() {
     if (!githubToken) {
         alert("Por favor, configure seu Token do GitHub na aba 'Filtros' para ativar a atualização sob demanda.");
@@ -620,8 +625,6 @@ async function triggerGitHubUpdate() {
     icon.classList.add('spin');
     btnTriggerUpdate.disabled = true;
 
-    // Obtém o nome do usuário e repositório da URL atual do GitHub Pages
-    // Formato padrão: https://jeffersonadv.github.io/news-reader/
     let owner = "jeffersonadv";
     let repo = "news-reader";
     
@@ -633,10 +636,11 @@ async function triggerGitHubUpdate() {
         repo = path.split('/')[1] || "news-reader";
     }
 
-    const url = `https://api.github.com/repos/${owner}/${repo}/actions/workflows/update_news.yml/dispatches`;
+    const dispatchUrl = `https://api.github.com/repos/${owner}/${repo}/actions/workflows/update_news.yml/dispatches`;
+    const runsUrl = `https://api.github.com/repos/${owner}/${repo}/actions/runs?workflow_id=update_news.yml&per_page=1`;
 
     try {
-        const response = await fetch(url, {
+        const response = await fetch(dispatchUrl, {
             method: 'POST',
             headers: {
                 'Authorization': `Bearer ${githubToken}`,
@@ -646,12 +650,97 @@ async function triggerGitHubUpdate() {
             body: JSON.stringify({ ref: 'main' })
         });
 
-        if (response.status === 204) {
-            alert("Solicitação enviada com sucesso! O GitHub Actions está processando a atualização na nuvem. Aguarde de 15 a 30 segundos e recarregue a página.");
-        } else {
+        if (response.status !== 204) {
             const errData = await response.json().catch(() => ({}));
             throw new Error(errData.message || `Código HTTP ${response.status}`);
         }
+
+        // --- INICIALIZA E EXIBE O OVERLAY DE CARREGAMENTO ---
+        updateProgressBar.style.width = '0%';
+        updateStatusText.textContent = 'Disparando robô no GitHub...';
+        updateLoadingOverlay.classList.add('active');
+
+        let progress = 0;
+        const duration = 20000; // 20 segundos de limite estimado
+        const intervalTime = 100; // Incrementa a cada 100ms
+        const totalSteps = duration / intervalTime;
+        const startTime = Date.parse(new Date().toUTCString());
+
+        // Timer para animação da barra de progresso (limita em 92% até que a API retorne sucesso)
+        const progressInterval = setInterval(() => {
+            if (progress < 92) {
+                progress += 92 / totalSteps;
+                updateProgressBar.style.width = `${Math.min(progress, 92)}%`;
+            }
+        }, intervalTime);
+
+        // Polling para checar o status do workflow no GitHub
+        let checkCount = 0;
+        const checkInterval = setInterval(async () => {
+            checkCount++;
+            updateStatusText.textContent = `Aguardando raspagem (tentativa ${checkCount})...`;
+
+            try {
+                const runRes = await fetch(runsUrl, {
+                    headers: {
+                        'Authorization': `Bearer ${githubToken}`,
+                        'Accept': 'application/vnd.github.v3+json'
+                    }
+                });
+                
+                if (runRes.ok) {
+                    const runData = await runRes.json();
+                    const latestRun = runData.workflow_runs && runData.workflow_runs[0];
+                    
+                    if (latestRun) {
+                        const runCreatedTime = Date.parse(latestRun.created_at);
+                        const isOurRun = runCreatedTime >= (startTime - 60000); // Iniciado no último minuto
+
+                        if (isOurRun) {
+                            if (latestRun.status === 'completed') {
+                                clearInterval(checkInterval);
+                                clearInterval(progressInterval);
+                                
+                                if (latestRun.conclusion === 'success') {
+                                    updateStatusText.textContent = 'Notícias atualizadas com sucesso! Atualizando feed...';
+                                    updateProgressBar.style.width = '100%';
+                                    
+                                    // Aguarda 1 segundo e recarrega os dados de notícias localmente
+                                    setTimeout(async () => {
+                                        await loadNews();
+                                        updateLoadingOverlay.classList.remove('active');
+                                    }, 1000);
+                                } else {
+                                    updateStatusText.textContent = `Robô falhou: ${latestRun.conclusion}`;
+                                    setTimeout(() => {
+                                        updateLoadingOverlay.classList.remove('active');
+                                        alert("O robô do GitHub falhou ao executar a raspagem. Veja os detalhes no seu painel de Actions.");
+                                    }, 2000);
+                                }
+                            } else if (latestRun.status === 'in_progress') {
+                                updateStatusText.textContent = 'Robô em execução: raspando notícias do UOL...';
+                            }
+                        }
+                    }
+                }
+            } catch (err) {
+                console.error("Erro ao verificar status do workflow:", err);
+            }
+
+            // Fallback de tempo limite (25 segundos)
+            if (checkCount >= 10) { // 10 checagens de 3s = 30 segundos
+                clearInterval(checkInterval);
+                clearInterval(progressInterval);
+                updateStatusText.textContent = 'Tempo limite atingido. Tentando recarregar feed...';
+                updateProgressBar.style.width = '100%';
+                
+                setTimeout(async () => {
+                    await loadNews();
+                    updateLoadingOverlay.classList.remove('active');
+                }, 1000);
+            }
+        }, 3000); // Checa a cada 3 segundos
+
     } catch (error) {
         console.error("Erro ao disparar atualização:", error);
         alert(`Erro ao atualizar: ${error.message}. Verifique se o seu Token está correto e tem permissão 'actions:write'.`);

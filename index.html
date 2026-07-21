@@ -132,6 +132,19 @@
         <p>&copy; 2026 News Reader. Feito de forma eficiente e 100% gratuita.</p>
     </footer>
 
+    <!-- Overlay de Carregamento para Atualização Remota -->
+    <div id="update-loading-overlay" class="loading-overlay">
+        <div class="overlay-content">
+            <i class="fa-solid fa-arrows-rotate fa-spin loading-spinner"></i>
+            <h3>Buscando novas notícias...</h3>
+            <p>O robô do GitHub Actions está realizando a raspagem na nuvem.</p>
+            <div class="progress-bar-container">
+                <div id="update-progress-bar" class="progress-bar"></div>
+            </div>
+            <span id="update-status-text">Iniciando robô...</span>
+        </div>
+    </div>
+
     <script src="app.js?v=1.3"></script>
 </body>
 </html>
