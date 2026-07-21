@@ -108,6 +108,23 @@ def scrape_uol():
                         if current_is_video:
                             source_label = 'Canal UOL'
                             
+                        # Extrai notícias relacionadas vinculadas a esta matéria principal
+                        relateds_list = []
+                        relateds = obj.get('relateds')
+                        if isinstance(relateds, list):
+                            for rel in relateds:
+                                rel_title = rel.get('title') or rel.get('headline')
+                                rel_link = rel.get('link') or rel.get('url') or rel.get('href')
+                                if rel_title and rel_link and isinstance(rel_title, str) and isinstance(rel_link, str):
+                                    if rel_link.startswith('//'):
+                                        rel_link = 'https:' + rel_link
+                                    elif rel_link.startswith('/'):
+                                        rel_link = 'https://www.uol.com.br' + rel_link
+                                    relateds_list.append({
+                                        'title': rel_title.strip(),
+                                        'link': rel_link.strip()
+                                    })
+
                         extracted_items.append({
                             'title': title.strip(),
                             'link': link.strip(),
@@ -115,10 +132,15 @@ def scrape_uol():
                             'source': source_label,
                             'is_main': current_is_main,
                             'is_carousel': is_carousel,
-                            'is_video': current_is_video
+                            'is_video': current_is_video,
+                            'relateds': relateds_list
                         })
                 
                 for k, val in obj.items():
+                    # Ignora a recursividade direta na chave relateds para não gerar cards independentes
+                    if k == 'relateds':
+                        continue
+
                     child_is_main = current_is_main
                     child_is_carousel = is_carousel
                     child_is_video = current_is_video
@@ -153,6 +175,8 @@ def scrape_uol():
                     unique_news_dict[url]['is_carousel'] = True
                 if news.get('is_video'):
                     unique_news_dict[url]['is_video'] = True
+                if news.get('relateds') and not unique_news_dict[url].get('relateds'):
+                    unique_news_dict[url]['relateds'] = news['relateds']
                 if news['source'] == 'Canal UOL':
                     unique_news_dict[url]['source'] = 'Canal UOL'
                 

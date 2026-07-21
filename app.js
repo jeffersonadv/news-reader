@@ -1,6 +1,7 @@
 // Configurações e Estado do App
 let newsData = [];
 let readUrls = new Set(JSON.parse(localStorage.getItem('news_reader_read') || '[]'));
+let savedUrls = new Set(JSON.parse(localStorage.getItem('news_reader_saved') || '[]'));
 let mutedKeywords = JSON.parse(localStorage.getItem('news_reader_muted') || '[]');
 // Exceções de notícias relevantes que ignoram o silenciamento
 const DEFAULT_EXCEPTIONS = ["investiga", "fraude", "desvio", "polícia", "preso", "presa", "prisão", "processo", "justiça", "denúncia", "crime", "acusa", "morte", "morreu", "matou", "matar"];
@@ -20,21 +21,26 @@ const STOP_WORDS = new Set([
 // Elementos do DOM
 const secFeed = document.getElementById('sec-feed');
 const secHistory = document.getElementById('sec-history');
+const secSaved = document.getElementById('sec-saved');
 const secSettings = document.getElementById('sec-settings');
 const newsGrid = document.getElementById('news-grid');
 const historyGrid = document.getElementById('history-grid');
+const savedGrid = document.getElementById('saved-grid');
 const keywordsList = document.getElementById('keywords-list');
 const keywordInput = document.getElementById('keyword-input');
 const searchInput = document.getElementById('search-input');
 const historyCountSpan = document.getElementById('history-count');
 const feedCountSpan = document.getElementById('feed-count');
+const savedCountSpan = document.getElementById('saved-count');
 
 // Elementos de Navegação
 const btnFeed = document.getElementById('btn-feed');
 const btnHistory = document.getElementById('btn-history');
+const btnSaved = document.getElementById('btn-saved');
 const btnSettings = document.getElementById('btn-settings');
 const btnAddKeyword = document.getElementById('btn-add-keyword');
 const btnClearHistory = document.getElementById('btn-clear-history');
+const btnClearSaved = document.getElementById('btn-clear-saved');
 
 // Elementos de Exceções
 const exceptionsList = document.getElementById('exceptions-list');
@@ -59,8 +65,12 @@ const btnCloseModal = document.getElementById('close-modal');
 
 // Roteador de Seções (Tabs)
 function switchSection(activeButton, sectionToShow) {
-    [btnFeed, btnHistory, btnSettings].forEach(btn => btn.classList.remove('active'));
-    [secFeed, secHistory, secSettings].forEach(sec => sec.classList.add('hidden'));
+    [btnFeed, btnHistory, btnSaved, btnSettings].forEach(btn => {
+        if (btn) btn.classList.remove('active');
+    });
+    [secFeed, secHistory, secSaved, secSettings].forEach(sec => {
+        if (sec) sec.classList.add('hidden');
+    });
     
     activeButton.classList.add('active');
     sectionToShow.classList.remove('hidden');
@@ -70,6 +80,8 @@ function switchSection(activeButton, sectionToShow) {
         renderFeed();
     } else if (sectionToShow === secHistory) {
         renderHistory();
+    } else if (sectionToShow === secSaved) {
+        renderSaved();
     } else if (sectionToShow === secSettings) {
         renderMutedKeywords();
         renderExceptionKeywords();
@@ -82,6 +94,7 @@ function switchSection(activeButton, sectionToShow) {
 
 btnFeed.addEventListener('click', () => switchSection(btnFeed, secFeed));
 btnHistory.addEventListener('click', () => switchSection(btnHistory, secHistory));
+btnSaved.addEventListener('click', () => switchSection(btnSaved, secSaved));
 btnSettings.addEventListener('click', () => switchSection(btnSettings, secSettings));
 
 // Inicialização do Intersection Observer para marcação automática
@@ -139,6 +152,7 @@ async function loadNews() {
         }
         newsData = await response.json();
         updateHistoryCount();
+        updateSavedCount();
         renderFeed();
     } catch (error) {
         newsGrid.innerHTML = `
@@ -169,10 +183,23 @@ function updateFeedCount() {
     feedCountSpan.textContent = unreadCount;
 }
 
+// Atualiza o contador de notícias salvas
+function updateSavedCount() {
+    if (savedCountSpan) {
+        savedCountSpan.textContent = savedUrls.size;
+    }
+}
+
 // Salva o histórico de lidas no localStorage
 function saveReadHistory() {
     localStorage.setItem('news_reader_read', JSON.stringify(Array.from(readUrls)));
     updateHistoryCount();
+}
+
+// Salva as notícias salvas no localStorage
+function saveSavedHistory() {
+    localStorage.setItem('news_reader_saved', JSON.stringify(Array.from(savedUrls)));
+    updateSavedCount();
 }
 
 // Salva palavras silenciadas no localStorage
@@ -303,6 +330,43 @@ function renderHistory() {
     });
 }
 
+// Renderiza o Histórico de Salvas (com as últimas salvas no topo/inverso)
+function renderSaved() {
+    savedGrid.innerHTML = '';
+    
+    // Obtém a ordem reversa dos links salvos (o Set mantém a ordem de inserção, reverse coloca os últimos primeiro)
+    const savedUrlsOrdered = Array.from(savedUrls).reverse();
+    
+    // Cria um dicionário para mapeamento rápido de links para notícias
+    const newsByLink = {};
+    newsData.forEach(item => {
+        newsByLink[item.link] = item;
+    });
+
+    const savedItems = [];
+    savedUrlsOrdered.forEach(url => {
+        if (newsByLink[url]) {
+            savedItems.push(newsByLink[url]);
+        }
+    });
+
+    if (savedItems.length === 0) {
+        savedGrid.innerHTML = `
+            <div class="empty-state">
+                <i class="fa-solid fa-bookmark"></i>
+                <p>Nenhuma notícia salva ainda.</p>
+            </div>
+        `;
+        return;
+    }
+
+    savedItems.forEach(news => {
+        // Se a notícia ainda não foi lida, renderiza com botões do Feed, senão com os botões normais
+        const card = createNewsCard(news, !readUrls.has(news.link));
+        savedGrid.appendChild(card);
+    });
+}
+
 // Cria a estrutura HTML do Card de Notícia
 function createNewsCard(news, isFeedMode) {
     const card = document.createElement('article');
@@ -339,6 +403,24 @@ function createNewsCard(news, isFeedMode) {
         badgesHtml = `<div class="card-badges">${badgesHtml}</div>`;
     }
 
+    // Estrutura de notícias adicionais relacionadas
+    let relatedsHtml = '';
+    if (news.relateds && news.relateds.length > 0) {
+        relatedsHtml = `
+            <div class="card-relateds">
+                <ul>
+                    ${news.relateds.map(rel => `
+                        <li>
+                            <a href="${rel.link}" target="_blank" class="related-link">
+                                ${rel.title}
+                            </a>
+                        </li>
+                    `).join('')}
+                </ul>
+            </div>
+        `;
+    }
+
     card.innerHTML = `
         <div class="card-img-wrapper">
             ${imgHtml}
@@ -348,6 +430,7 @@ function createNewsCard(news, isFeedMode) {
         <div class="card-content">
             ${badgesHtml}
             <h3 class="card-title">${news.title}</h3>
+            ${relatedsHtml}
             <div class="card-actions">
                 ${isFeedMode ? `
                     <button class="card-btn btn-read" title="Marcar como lida">
@@ -364,6 +447,9 @@ function createNewsCard(news, isFeedMode) {
                         <i class="fa-solid fa-eye-slash"></i>
                     </button>
                 `}
+                <button class="card-btn btn-save" title="${savedUrls.has(news.link) ? 'Remover das salvas' : 'Salvar para ler depois'}">
+                    <i class="${savedUrls.has(news.link) ? 'fa-solid' : 'fa-regular'} fa-bookmark"></i>
+                </button>
                 <button class="card-btn btn-whatsapp" title="Encaminhar para o WhatsApp">
                     <i class="fa-brands fa-whatsapp"></i>
                 </button>
@@ -395,6 +481,28 @@ function createNewsCard(news, isFeedMode) {
     card.querySelector('.btn-mute').addEventListener('click', (e) => {
         e.stopPropagation();
         openMuteModal(news.title);
+    });
+
+    // Ouvinte do botão de Salvar (Bookmark)
+    card.querySelector('.btn-save').addEventListener('click', (e) => {
+        e.stopPropagation();
+        const icon = e.currentTarget.querySelector('i');
+        if (savedUrls.has(news.link)) {
+            savedUrls.delete(news.link);
+            icon.className = 'fa-regular fa-bookmark';
+            e.currentTarget.title = 'Salvar para ler depois';
+            if (!secSaved.classList.contains('hidden')) {
+                card.remove();
+                if (savedGrid.querySelectorAll('.news-card').length === 0) {
+                    renderSaved();
+                }
+            }
+        } else {
+            savedUrls.add(news.link);
+            icon.className = 'fa-solid fa-bookmark';
+            e.currentTarget.title = 'Remover das salvas';
+        }
+        saveSavedHistory();
     });
 
     // Compartilhamentos
@@ -650,7 +758,7 @@ function updateFabVisibility() {
     }
 }
 
-// Rola suavemente até o próximo item não lido do feed
+// Rola suavemente até o próximo item não lido do feed de forma sequencial real
 function scrollToNextUnread() {
     const cards = Array.from(newsGrid.querySelectorAll('.news-card'));
     const unreadCards = cards.filter(card => {
@@ -662,12 +770,32 @@ function scrollToNextUnread() {
         return;
     }
 
-    // Acha a primeira notícia não lida cujo topo está abaixo ou parcialmente na tela
-    // Usamos 80px de margem por causa do cabeçalho fixo
-    const nextCard = unreadCards.find(card => {
+    // Acha a notícia atualmente mais próxima do topo da tela (focada)
+    let currentIndex = -1;
+    let minDiff = Infinity;
+    cards.forEach((card, index) => {
         const rect = card.getBoundingClientRect();
-        return rect.top > 85;
-    }) || unreadCards[0]; // Se não achar (todos acima), rola para a primeira não lida restante
+        const diff = Math.abs(rect.top - 85);
+        if (diff < minDiff) {
+            minDiff = diff;
+            currentIndex = index;
+        }
+    });
+
+    // Procura a primeira notícia não lida abaixo da atual
+    let nextCard = null;
+    for (let i = currentIndex + 1; i < cards.length; i++) {
+        const card = cards[i];
+        if (!readUrls.has(card.dataset.url) && card.style.opacity !== '0.35') {
+            nextCard = card;
+            break;
+        }
+    }
+
+    // Se não houver mais nenhuma não lida abaixo do ponto atual, rola para a primeira não lida da lista
+    if (!nextCard) {
+        nextCard = unreadCards[0];
+    }
 
     if (nextCard) {
         nextCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -841,8 +969,19 @@ btnClearHistory.addEventListener('click', () => {
     }
 });
 
+// Limpar notícias salvas
+btnClearSaved.addEventListener('click', () => {
+    if (confirm('Tem certeza de que deseja remover todas as notícias salvas?')) {
+        savedUrls.clear();
+        saveSavedHistory();
+        renderSaved();
+        updateFabVisibility();
+    }
+});
+
 // Inicia aplicação
 document.addEventListener('DOMContentLoaded', () => {
     loadNews();
+    updateSavedCount();
     updateFabVisibility();
 });

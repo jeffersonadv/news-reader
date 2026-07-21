@@ -889,3 +889,81 @@ body {
     transform: scale(1.15);
     color: var(--accent-color);
 }
+
+/* Botão de Configurações no Cabeçalho */
+.header-settings-btn {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border-glass);
+    color: var(--text-secondary);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.25rem;
+    transition: all var(--transition-speed) ease;
+}
+
+.header-settings-btn:hover {
+    color: var(--text-primary);
+    background: rgba(255, 255, 255, 0.15);
+    transform: scale(1.05);
+}
+
+.header-settings-btn.active {
+    color: var(--text-primary);
+    background: var(--accent-color);
+    border-color: var(--accent-color);
+    box-shadow: 0 0 10px rgba(88, 101, 242, 0.5);
+}
+
+/* Estilização das Notícias Relacionadas (Estética UOL) */
+.card-relateds {
+    margin-top: 0.8rem;
+    padding-top: 0.8rem;
+    border-top: 1px dashed rgba(255, 255, 255, 0.08);
+}
+
+.card-relateds ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.card-relateds li {
+    position: relative;
+    padding-left: 1.1rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.35;
+}
+
+.card-relateds li::before {
+    content: '';
+    position: absolute;
+    left: 0.2rem;
+    top: 0.45rem;
+    width: 5px;
+    height: 5px;
+    background-color: #ef4444; /* Quadrado vermelho idêntico ao do UOL */
+    border-radius: 1px;
+}
+
+.card-relateds li:last-child {
+    margin-bottom: 0;
+}
+
+.related-link {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.86rem;
+    font-weight: 500;
+    display: inline-block;
+    transition: color 0.15s ease;
+}
+
+.related-link:hover {
+    color: var(--text-primary);
+    text-decoration: none;
+}

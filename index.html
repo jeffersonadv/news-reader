@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
     <!-- FontAwesome para ícones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css?v=1.4">
+    <link rel="stylesheet" href="style.css?v=1.5">
 </head>
 <body>
     <header class="app-header">
@@ -20,12 +20,13 @@
                 <i class="fa-solid fa-bolt logo-icon"></i>
                 <h1>News<span>Reader</span></h1>
                 <button id="btn-trigger-update" class="update-trigger-btn" title="Atualizar notícias na nuvem"><i class="fa-solid fa-arrows-rotate"></i></button>
+                <button id="btn-settings" class="header-settings-btn" title="Filtros e Configurações"><i class="fa-solid fa-sliders"></i></button>
             </div>
             
             <nav class="navigation">
                 <button id="btn-feed" class="nav-btn active"><i class="fa-solid fa-newspaper"></i> Feed <span class="nav-badge" id="feed-count">0</span></button>
                 <button id="btn-history" class="nav-btn"><i class="fa-solid fa-clock-rotate-left"></i> Lidas <span class="nav-badge" id="history-count">0</span></button>
-                <button id="btn-settings" class="nav-btn"><i class="fa-solid fa-sliders"></i> Filtros</button>
+                <button id="btn-saved" class="nav-btn"><i class="fa-solid fa-bookmark"></i> Salvas <span class="nav-badge" id="saved-count">0</span></button>
             </nav>
         </div>
     </header>
@@ -58,6 +59,17 @@
             </div>
             <div id="history-grid" class="news-grid">
                 <!-- Cards de notícias lidas serão inseridos aqui -->
+            </div>
+        </section>
+
+        <!-- Saved Section -->
+        <section id="sec-saved" class="content-section hidden">
+            <div class="section-header">
+                <h2>Notícias Salvas</h2>
+                <button id="btn-clear-saved" class="action-btn danger"><i class="fa-solid fa-trash-can"></i> Limpar Salvas</button>
+            </div>
+            <div id="saved-grid" class="news-grid">
+                <!-- Cards de notícias salvas serão inseridos aqui -->
             </div>
         </section>
 
@@ -145,6 +157,6 @@
         </div>
     </div>
 
-    <script src="app.js?v=1.4"></script>
+    <script src="app.js?v=1.5"></script>
 </body>
 </html>

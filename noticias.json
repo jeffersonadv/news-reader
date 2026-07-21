@@ -6,7 +6,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Escale a sua seleção brasileira",
@@ -15,7 +16,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "PF decide demitir Eduardo Bolsonaro por abandono do cargo de escrivão",
@@ -24,34 +26,17 @@
     "source": "Folha",
     "is_main": true,
     "is_carousel": false,
-    "is_video": false
-  },
-  {
-    "title": "Qual o salário e as funções do cargo do qual o filho de Bolsonaro foi demitido da PF",
-    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/21/qual-o-salario-do-cargo-do-qual-eduardo-bolsonaro-foi-demitido-da-pf.ghtm",
-    "photo": "",
-    "source": "UOL",
-    "is_main": true,
-    "is_carousel": false,
-    "is_video": false
-  },
-  {
-    "title": "'Green card de Eduardo Bolsonaro não impede deportação', diz professora",
-    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/21/green-card-de-eduardo-bolsonaro-nao-impede-deportacao-diz-professora.ghtm",
-    "photo": "",
-    "source": "UOL",
-    "is_main": true,
-    "is_carousel": false,
-    "is_video": false
-  },
-  {
-    "title": "Testemunhas de Jeová lutam na Alemanha por documentos sobre perseguição nazista",
-    "link": "https://www1.folha.uol.com.br/mundo/2026/07/testemunhas-de-jeova-lutam-por-arquivos-da-alemanha-nazista.shtml",
-    "photo": "https://imguol.com/c/home/66/2026/07/21/annemarie-kusserow-era-a-filha-mais-velha-de-familia-que-foi-perseguida-durante-o-regime-nazista-na-alemanha-1784647366634_v2_450x253.jpg?982223",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Qual o salário e as funções do cargo do qual o filho de Bolsonaro deve ser demitido",
+        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/21/qual-o-salario-do-cargo-do-qual-eduardo-bolsonaro-foi-demitido-da-pf.ghtm"
+      },
+      {
+        "title": "'Green card de Eduardo Bolsonaro não impede deportação', diz professora",
+        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/21/green-card-de-eduardo-bolsonaro-nao-impede-deportacao-diz-professora.ghtm"
+      }
+    ]
   },
   {
     "title": "Sua muito até parado? Pode ser mais do que só calor ou nervoso",
@@ -60,7 +45,18 @@
     "source": "Canal UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": true
+    "is_video": true,
+    "relateds": []
+  },
+  {
+    "title": "Testemunhas de Jeová lutam na Alemanha por documentos sobre perseguição nazista",
+    "link": "https://www1.folha.uol.com.br/mundo/2026/07/testemunhas-de-jeova-lutam-por-arquivos-da-alemanha-nazista.shtml",
+    "photo": "https://imguol.com/c/home/66/2026/07/21/annemarie-kusserow-era-a-filha-mais-velha-de-familia-que-foi-perseguida-durante-o-regime-nazista-na-alemanha-1784647366634_v2_450x253.jpg?982223",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Por que toxoplasmose, doença de Isa Scherer, é perigosa para grávidas",
@@ -69,7 +65,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Que tal copiar a força-tarefa do BC americano?",
@@ -78,7 +75,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Eleitor vê ato de Moraes sobre Flávio como político",
@@ -87,7 +85,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Copa expôs as vísceras apodrecidas do poder",
@@ -96,7 +95,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Futebol brasileiro vive em um universo paralelo",
@@ -105,7 +105,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Sem aliança, centrão critica Flávio Bolsonaro por inabilidade e favorecimento à família",
@@ -114,16 +115,17 @@
     "source": "Folha",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
-  },
-  {
-    "title": "Candidatos à Presidência poderão gastar até R$ 133,4 mi na campanha, decide TSE",
-    "link": "https://www1.folha.uol.com.br/poder/2026/07/candidatos-a-presidencia-poderao-gastar-ate-r-1334-milhoes-na-campanha-de-2026-decide-tse.shtml",
-    "photo": "",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Candidatos à Presidência poderão gastar até R$ 133,4 mi na campanha, decide TSE",
+        "link": "https://www1.folha.uol.com.br/poder/2026/07/candidatos-a-presidencia-poderao-gastar-ate-r-1334-milhoes-na-campanha-de-2026-decide-tse.shtml"
+      },
+      {
+        "title": "RealTime Big Data: Após queda, Flávio oscila para cima e volta a empatar com Lula no 2º turno",
+        "link": "https://www.uol.com.br/flash/?c=60a1f0542d9f5e7c679d6b61db4cdd20260720"
+      }
+    ]
   },
   {
     "title": "Emendas para o SUS bancam mais material de escritório do que equipamentos de saúde",
@@ -132,16 +134,13 @@
     "source": "Folha",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
-  },
-  {
-    "title": "Câmara diz ao STF que não houve desvio em emendas",
-    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/21/camara-diz-ao-stf-que-nao-houve-desvio-de-emendas-e-fala-em-transparencia.ghtm",
-    "photo": "",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Câmara diz ao STF que não houve desvio em emendas",
+        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/21/camara-diz-ao-stf-que-nao-houve-desvio-de-emendas-e-fala-em-transparencia.ghtm"
+      }
+    ]
   },
   {
     "title": "Governo prepara distribuição de R$ 13 bi de lucro do FGTS; veja quanto você receberá",
@@ -150,7 +149,8 @@
     "source": "Folha",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Posse de Trump foi vitrine para Michelle mostrar força sem Bolsonaro",
@@ -159,7 +159,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "PF intima Jaques Wagner para depor no caso Master",
@@ -168,16 +169,13 @@
     "source": "Folha",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
-  },
-  {
-    "title": "'Wagner pode encarar mais de 40 anos de pena se condenado', diz jurista",
-    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/21/jaques-wagner-pode-encarar-mais-de-40-anos-de-pena-se-condenado-diz-jurista.ghtm",
-    "photo": "",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "'Wagner pode encarar mais de 40 anos de pena se condenado', diz jurista",
+        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/21/jaques-wagner-pode-encarar-mais-de-40-anos-de-pena-se-condenado-diz-jurista.ghtm"
+      }
+    ]
   },
   {
     "title": "Família de ministro do TCU venceu edital de R$ 1 bi no Porto de Santos",
@@ -186,7 +184,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Filho de Gilmar Mendes vira o cartola mais poderoso da CBF",
@@ -195,7 +194,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "O truque que ajuda a tirar a gordura dos botões do fogão sem fazer força",
@@ -204,7 +204,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Surto da doença dos legionários mata quatro pessoas em Nova York; entenda o que é",
@@ -213,7 +214,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Adidas Breaknet sai a R$ 198 com cupom; creme antiolheira Océane está por R$ 50",
@@ -222,7 +224,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Por que um fundo topou pagar R$ 1,4 bilhão por três galpões logísticos em Guarulhos (SP)",
@@ -231,16 +234,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
-  },
-  {
-    "title": "Haddad: SP não caminhou porque Tarcísio almejava a Presidência",
-    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/21/haddad-entrevista.ghtm",
-    "photo": "",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Ricardo Salles: Governo foi irresponsável ao não tentar negociar tarifaço com EUA",
@@ -249,25 +244,17 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
-  },
-  {
-    "title": "Ataques a Michelle Bolsonaro são injustos, diz Salles",
-    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/20/ataques-a-michelle-bolsonaro-sao-injustos-diz-ricardo-salles.ghtm",
-    "photo": "",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false
-  },
-  {
-    "title": "Salles: André do Prado (PL) 'se finge de direita' e 'é filhote de Valdemar'",
-    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/20/andre-do-prado-se-finge-de-direita-diz-ricardo-salles.ghtm",
-    "photo": "",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Ataques a Michelle Bolsonaro são injustos, diz Salles",
+        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/20/ataques-a-michelle-bolsonaro-sao-injustos-diz-ricardo-salles.ghtm"
+      },
+      {
+        "title": "Salles: André do Prado (PL) 'se finge de direita' e 'é filhote de Valdemar'",
+        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/20/andre-do-prado-se-finge-de-direita-diz-ricardo-salles.ghtm"
+      }
+    ]
   },
   {
     "title": "DF atrasa pagamentos para manter dinheiro no BRB e evitar quebra do banco",
@@ -276,7 +263,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Suspeitos transferiram R$ 8.000 e gravaram vídeos antes de matar empresário em SP",
@@ -285,7 +273,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Capitã da PM chega morta a hospital de BH, e marido, sargento da corporação, é preso",
@@ -293,8 +282,9 @@
     "photo": "https://imguol.com/c/home/58/2026/07/21/capita-da-pm-michele-leao-azevedo-1784642710259_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": true,
-    "is_video": false
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Morre aos 18 anos a atriz Kaylee Hottle, de 'Godzilla x Kong', após acidente, diz TMZ",
@@ -303,7 +293,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Corinthians sofre quarto transfer ban após dívida de R$ 6 milhões por Charles",
@@ -312,7 +303,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Lionel Messi derrotou um inimigo invencível: o tempo",
@@ -321,7 +313,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Há caminhos legais para que Netanyahu seja preso nos Estados Unidos",
@@ -330,7 +323,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Requião Filho pede ajuda de Alckmin para atrair PSB no Paraná",
@@ -339,7 +333,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Green card de Eduardo Bolsonaro custou 30 moedas de prata",
@@ -348,7 +343,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Fratura na prótese peniana: estudo brasileiro mostra o tamanho do problema",
@@ -357,7 +353,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Mesmo no cemitério, as pessoas ainda acreditam na vida",
@@ -366,7 +363,8 @@
     "source": "Folha",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Jovens do PT lançam movimento nacional para disputar a Câmara dos Deputados",
@@ -375,7 +373,8 @@
     "source": "Folha",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "A imagem mais bonita da Copa do Mundo",
@@ -384,7 +383,8 @@
     "source": "Folha",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Lula e Flávio têm fragilidades expostas na campanha",
@@ -393,7 +393,8 @@
     "source": "Folha",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Regina Casé mistura ciência e humor para falar de crise climática",
@@ -402,7 +403,8 @@
     "source": "Folha",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Quem vai pagar pelo conteúdo adulto de Cristian Cravinhos? A IA revela",
@@ -411,7 +413,8 @@
     "source": "Folha",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Doenças e venenos: por que agentes de saúde têm aposentadoria especial?",
@@ -420,7 +423,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Janela já movimenta R$ 26 bilhões; Brasil gasta menos que a Grécia",
@@ -429,7 +433,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Flip: 8 dicas preciosas para curtir a festa literária",
@@ -438,7 +443,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Quando o futebol brasileiro se perdeu",
@@ -447,7 +453,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Master vendeu ao BRB carteiras que tinham sido cedidas ao BTG",
@@ -456,7 +463,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Antes só do que mal acompanhada",
@@ -465,7 +473,8 @@
     "source": "Folha",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Jabutis proliferam para atender a interesses localizados",
@@ -474,7 +483,8 @@
     "source": "Folha",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "O que não diz a ciência sobre mulheres trans no esporte",
@@ -483,7 +493,8 @@
     "source": "Folha",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "O sertão de Guimarães Rosa ganha as cordas da viola de Paulo Freire na Flip",
@@ -492,7 +503,8 @@
     "source": "Folha",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Cão frentista de São Paulo morre durante passeio na Argentina",
@@ -501,7 +513,8 @@
     "source": "Folha",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Recusa de Flávio à escolta da Polícia Federal é política",
@@ -510,16 +523,28 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
-    "title": "Médico conta detalhes da 'naturalização facial' de Vini Jr.",
-    "link": "https://cenapop.uol.com.br/noticias/famosos/vini-jr-naturalizacao-facial.html",
-    "photo": "https://imguol.com/c/home/86/2026/07/21/dermatologista-alessandro-alarcao-falou-sobre-procedimento-realizado-por-vini-jr-1784637375361_v2_300x225.jpg",
+    "title": "Qual o salário e as funções do cargo do qual o filho de Bolsonaro foi demitido da PF",
+    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/21/qual-o-salario-do-cargo-do-qual-eduardo-bolsonaro-foi-demitido-da-pf.ghtm",
+    "photo": "",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Francielly Freduzeski vira psicóloga e abre consultório",
+    "link": "https://www.uol.com.br/splash/noticias/2026/07/21/francielly-freduzeski-psicologa.ghtm",
+    "photo": "https://imguol.com/c/home/e1/2026/07/21/franciely-freduzeski-em-seu-novo-consultorio-de-psicologia-1784660177270_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Galisteu resgata ensaio nu, e fãs elogiam: 'Tudo é perfeito'",
@@ -528,7 +553,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Virginia Fonseca mostra novo procedimento estético no rosto",
@@ -537,7 +563,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Victor Sá chora em apresentação no São Paulo e festeja: 'É uma honra estar aqui'",
@@ -546,25 +573,17 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
-  },
-  {
-    "title": "Sem acordo, renovação de Calleri vira novela",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/21/renovacao-do-calleri-esta-travada-sem-acordo-novela-para-segundo-semestre.ghtm",
-    "photo": "",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false
-  },
-  {
-    "title": "Dorival Jr. tem 'carta branca' e ganha poder de chancela no clube",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/21/dorival-jr-tem-carta-branca-no-sao-paulo-diz-valentim-furlan.ghtm",
-    "photo": "",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Sem acordo, renovação de Calleri vira novela",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/21/renovacao-do-calleri-esta-travada-sem-acordo-novela-para-segundo-semestre.ghtm"
+      },
+      {
+        "title": "Dorival Jr. tem 'carta branca' e ganha poder de chancela no clube",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/21/dorival-jr-tem-carta-branca-no-sao-paulo-diz-valentim-furlan.ghtm"
+      }
+    ]
   },
   {
     "title": "O que são convenções partidárias? Prazo para definir candidatos já começou",
@@ -573,16 +592,18 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
-    "title": "'Nada mudou nas relações de exploração', diz Itamar Vieira Junior, que estará na Flip",
-    "link": "https://tab.uol.com.br/noticias/redacao/2026/07/21/itamar-vieira-junior-nada-mudou-nas-relacoes-de-exploracao.htm",
-    "photo": "https://imguol.com/c/tab/52/2026/07/21/itamar-vieira-junior-falou-sobre-sua-experiencia-com-a-trilogia-da-terra-1784642796121_v2_300x225.png",
-    "source": "UOL",
+    "title": "Morre o ator João Signorelli, de 'Caminho das Índias' e 'Salve Jorge'",
+    "link": "https://www1.folha.uol.com.br/ilustrada/2026/07/morre-o-ator-joao-signorelli-de-caminho-das-indias-e-salve-jorge-aos-70-anos.shtml",
+    "photo": "https://imguol.com/c/entretenimento/2014/02/25/joao-signorelli-volta-aos-palcos-com-o-monologo-gandhi-um-lider-servidor-1393358520189_300x225.jpg",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Embraer acerta a venda de até 58 aviões para três companhias aéreas",
@@ -591,7 +612,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Milton Nascimento tem alta após internação por pneumonia no Rio",
@@ -600,7 +622,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "IA quebra barreira e resolve enigma matemático sem solução há 87 anos",
@@ -609,7 +632,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "É possível achar um substituto para Messi? Como deverá ser a Argentina da Copa-30",
@@ -618,16 +642,23 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Messi chega à Argentina",
+        "link": "https://www.uol.com.br/esporte/ultimas-noticias/agencia/2026/07/21/messi-desembarca-na-argentina-com-a-familia-para-descansar-apos-amargar-o-vice-da-copa.htm"
+      }
+    ]
   },
   {
-    "title": "Messi chega à Argentina",
-    "link": "https://www.uol.com.br/esporte/ultimas-noticias/agencia/2026/07/21/messi-desembarca-na-argentina-com-a-familia-para-descansar-apos-amargar-o-vice-da-copa.htm",
-    "photo": "",
+    "title": "Filipina grávida é salva de cárcere privado em SP; homem retinha passaporte e foi preso",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/07/21/pm-resgata-filipina-mantida-em-carcere-privado-na-zona-norte-de-sp.ghtm",
+    "photo": "https://imguol.com/c/home/6d/2026/07/21/filipina-e-o-filho-sendo-levados-para-delegacia-apos-resgate-21julho2026-1784659527848_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Saiba como Palmeiras, Corinthians, São Paulo e Santos voltam após pausa da Copa",
@@ -636,7 +667,8 @@
     "source": "Folha",
     "is_main": true,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Arrascaeta é relacionado e pode voltar a jogar pelo Flamengo após 3 meses",
@@ -645,7 +677,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Fluminense anuncia retorno de Fred, agora como técnico do sub-20",
@@ -654,7 +687,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Promessa camaronesa é regularizada e fica à disposição de Abel no Palmeiras",
@@ -663,7 +697,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Atleta de 15 anos morre após choque elétrico em atração de parque na Itália",
@@ -672,7 +707,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Presidente de LaLiga critica possível Copa com 64 seleções e pede saída de Infantino",
@@ -681,7 +717,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Saudades da Copa? Seleções terão Super Data Fifa entre setembro e outubro",
@@ -690,7 +727,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "'Criança petulante': jornal detona Messi por confusão com Cucurella na Copa",
@@ -699,7 +737,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Dor de cabeça boa? Almada é nome ideal para revezar com Arrascaeta, diz Sá",
@@ -708,7 +747,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Astro de 'Yellowstone' relata acidente após levar coice de vaca em gravação",
@@ -717,7 +757,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Cantor gospel Diogo Nascimento morre aos 41 anos",
@@ -726,7 +767,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Show de Harry Styles hoje em SP é cancelado; produtora cita 'problema de saúde na turnê'",
@@ -735,7 +777,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Não é o que parece: ex-bailarina brinca que fez 'teste do sofá' no Faustão",
@@ -744,7 +787,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Louvre reabre Galeria Apollo nove meses após roubo e sem joias remanescentes",
@@ -753,25 +797,38 @@
     "source": "Folha",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
-    "title": "Irã intensifica ataques após retomar hostilidades contra os EUA: 'Guerra total'",
-    "link": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/07/21/ira-intensifica-ataques-duas-semanas-apos-retomar-hostilidades-contra-eua.htm",
-    "photo": "https://imguol.com/c/noticias/a4/2026/07/15/15jul26---captura-de-tela-de-video-divulgado-pelo-site-sepah-news-da-guarda-revolucionaria-do-ira-irgc-mostra-supostamente-um-missil-sendo-lancado-de-um-local-nao-revelado-em-direcao-a-alvos-dos-1784142388921_v2_450x337.png",
+    "title": "Maior onda de falências em 20 anos ameaça empregos na Alemanha, diz estudo",
+    "link": "https://economia.uol.com.br/noticias/deutsche-welle/2026/07/21/maior-onda-de-falencias-em-20-anos-ameaca-milhares-de-empregos-na-alemanha.htm",
+    "photo": "https://imguol.com/c/entretenimento/db/2025/01/17/volkswagen-t-roc-cabrio-na-fabrica-1737124616331_v2_450x337.jpg",
     "source": "UOL",
     "is_main": true,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
-    "title": "SP: farmácias reforçam segurança após assaltos por canetas emagrecedoras",
-    "link": "https://www1.folha.uol.com.br/cotidiano/2026/07/farmacias-reforcam-seguranca-apos-mortes-em-assaltos-por-canetas-emagrecedoras-em-sp.shtml",
-    "photo": "https://imguol.com/c/home/67/2026/07/21/movimentacao-de-segurancas-em-frente-a-uma-farmacia-na-avenida-sapopemba-na-zona-leste-de-sao-paulo-1784652733132_v2_450x253.jpg",
+    "title": "Sobrevivente de terremoto em 1967 ajuda em novo desastre na Venezuela",
+    "link": "https://www1.folha.uol.com.br/mundo/2026/07/sobrevivente-de-terremoto-em-1967-agora-ajuda-vitimas-de-novo-desastre-na-venezuela.shtml",
+    "photo": "https://imguol.com/c/home/90/2026/07/21/venezuela-1784658840365_450x253.jpg",
     "source": "Folha",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Ford anuncia recall de modelos Mustang produzidos entre 2024 e 2026",
+    "link": "https://www1.folha.uol.com.br/mercado/2026/07/ford-anuncia-recall-de-modelos-mustang-produzidos-entre-2024-e-2026.shtml",
+    "photo": "https://imguol.com/c/parceiros/ab/2025/11/01/ford-mustang-dark-horse-br-1762013123071_v2_300x300.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Governo Trump pede quebra de sigilo de jornalistas do New York Times e de seus familiares",
@@ -780,7 +837,8 @@
     "source": "Folha",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Aos 82, ela conseguiu mudar lei para curtir 'happy hour' em lar de idosos",
@@ -789,16 +847,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
-  },
-  {
-    "title": "Dieta saudável é inacessível para 2,69 bilhões de pessoas, diz ONU",
-    "link": "https://www.uol.com.br/vivabem/noticias/redacao/2026/07/21/dieta-saudavel-e-inacessivel-para-269-bilhoes-de-pessoas-diz-onu.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/5d/2025/04/25/prato-de-comida-saudavel-arroz-com-legumes-e-file-de-frango-1745597231770_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Familiares de presos mortos em São Paulo recorrem à Justiça por velório e enterro",
@@ -807,7 +857,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Doméstica resgatada de trabalho escravo no RJ receberá indenização de R$ 645 mil",
@@ -816,7 +867,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Padre é nomeado exorcista em SP; arquidiocese cita necessidades espirituais",
@@ -825,16 +877,18 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
-    "title": "A epidemia de violência contra professores no Brasil: 'Fui ameaçada pelo pai de um aluno'",
-    "link": "https://www1.folha.uol.com.br/educacao/2026/07/a-epidemia-de-violencia-contra-professores-no-brasil-fui-ameacada-de-morte-pelo-pai-de-um-aluno-de-6-anos.shtml",
-    "photo": "https://imguol.com/c/noticias/cf/2026/03/17/sala-de-aula-escola-educacao-1773752009025_v2_300x225.jpg",
-    "source": "Folha",
+    "title": "Vírus deixa Espanha em estado de alerta e ameaça fronteira com Portugal",
+    "link": "https://noticias.uol.com.br/saude/ultimas-noticias/redacao/2026/07/21/virus-deixa-espanha-em-estado-de-alerta-e-ameaca-fronteira-com-portugal.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/e6/2020/04/25/mosquito-culex-1587840760126_v2_300x225.jpg",
+    "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Furadeira e parafusadeira WAP é ideal para quem é o 'faz-tudo' da casa",
@@ -843,7 +897,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Projetor, robô aspirador e mais itens estão em oferta na Shopee",
@@ -852,7 +907,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Tênis de corrida sai por menos de R$ 270 com cupom do UOL",
@@ -861,7 +917,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Fatores genéticos podem influenciar nos problemas respiratórios?",
@@ -870,7 +927,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Pesquisa descobre 'gene da ansiedade' em camundongos e como desativá-lo",
@@ -879,7 +937,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Grávida pode pintar cabelo? Veja opinião de médicos e escolha produto ideal",
@@ -888,7 +947,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Osteomielite: o que é infecção rara que fez atriz perder parte da coluna",
@@ -897,7 +957,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Bateu a crise? Olhe para a missão de vida do seu signo e ache respostas",
@@ -906,7 +967,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Numerologia: o que o mês do nascimento revela sobre você no amor e sexo",
@@ -915,7 +977,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Disfarça olheiras e espinhas: aprenda a usar o corretivo e como escolher",
@@ -924,7 +987,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Como beijar bem? Veja 11 dicas para você arrasar com a boca e o que não fazer",
@@ -933,7 +997,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Seu pai gosta de tecnologia? 18 ideias para presentá-lo no Dia dos Pais",
@@ -942,7 +1007,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "'Deu uma bela esticada': creme antirrugas da Cicatricure sai a R$ 35,90",
@@ -951,7 +1017,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Fabricante do Ozempic acusa laboratório do Mounjaro de propaganda enganosa",
@@ -960,7 +1027,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Filha de Caroline Bittencourt relembra morte da mãe: 'Perdi minha casa'",
@@ -969,7 +1037,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Sem saber, virei 'garota-propaganda' de um acusado de estupro",
@@ -978,7 +1047,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Amarração amorosa existe? Tem consequência? Veja o que diz Márcia Sensitiva",
@@ -987,7 +1057,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "E se o amor da sua vida for sua melhor amiga?",
@@ -996,7 +1067,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Meteorito que matou dinossauros era composto por material 'intocado'",
@@ -1005,7 +1077,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Google conecta novo cabo transatlântico entre Portugal e EUA",
@@ -1014,7 +1087,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Sem decisão pelo Congresso, decretos que elevam responsabilidades de big techs entram em vigor",
@@ -1023,7 +1097,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Arthur Nestrovski: O Tempo das Palavras",
@@ -1032,7 +1107,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Natalia Timerman: O dia em que voltei a ler",
@@ -1041,7 +1117,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Ondas de calor estão entre eventos climáticos extremos que mais crescem",
@@ -1050,7 +1127,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Como sua tigela de açaí pode estar deixando os tucanos sem floresta",
@@ -1059,7 +1137,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Márcia Sensitiva fala sobre elevação espiritual",
@@ -1068,7 +1147,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Nubia Oliiver: 'Plataforma adulta foi minha salvação financeira'",
@@ -1077,7 +1157,8 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Segurança e privacidade",
@@ -1086,6 +1167,7 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false
+    "is_video": false,
+    "relateds": []
   }
 ]
