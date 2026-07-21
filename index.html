@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Reader - Seu Feed de Notícias Inteligente</title>
+    <meta name="description" content="Um leitor de notícias inteligente, limpo, rápido e focado em produtividade. Marque notícias lidas automaticamente e silencie termos indesejados.">
+    <!-- Google Fonts: Outfit e Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="app-header">
+        <div class="header-container">
+            <div class="logo">
+                <i class="fa-solid fa-bolt logo-icon"></i>
+                <h1>News<span>Reader</span></h1>
+            </div>
+            
+            <nav class="navigation">
+                <button id="btn-feed" class="nav-btn active"><i class="fa-solid fa-newspaper"></i> Feed</button>
+                <button id="btn-history" class="nav-btn"><i class="fa-solid fa-history"></i> Lidas (<span id="history-count">0</span>)</button>
+                <button id="btn-settings" class="nav-btn"><i class="fa-solid fa-sliders"></i> Filtros</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="app-main">
+        <!-- Feed Section -->
+        <section id="sec-feed" class="content-section">
+            <div class="section-header">
+                <h2>Notícias Recentes</h2>
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="text" id="search-input" placeholder="Buscar no feed...">
+                </div>
+            </div>
+            
+            <div id="news-grid" class="news-grid">
+                <!-- Cards de notícias serão inseridos aqui dinamicamente -->
+                <div class="loading-state">
+                    <i class="fa-solid fa-circle-notch fa-spin"></i>
+                    <p>Carregando as últimas notícias...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- History Section -->
+        <section id="sec-history" class="content-section hidden">
+            <div class="section-header">
+                <h2>Histórico de Leitura</h2>
+                <button id="btn-clear-history" class="action-btn danger"><i class="fa-solid fa-trash-can"></i> Limpar Histórico</button>
+            </div>
+            <div id="history-grid" class="news-grid">
+                <!-- Cards de notícias lidas serão inseridos aqui -->
+            </div>
+        </section>
+
+        <!-- Settings / Filters Section -->
+        <section id="sec-settings" class="content-section hidden">
+            <div class="settings-card">
+                <h2>Filtros Inteligentes (Palavras Silenciadas)</h2>
+                <p class="settings-desc">Adicione termos e palavras-chave que você deseja ocultar do seu feed de notícias. Qualquer notícia contendo estas palavras será filtrada automaticamente.</p>
+                
+                <div class="keyword-form">
+                    <input type="text" id="keyword-input" placeholder="Ex: pet, futebol, reality show...">
+                    <button id="btn-add-keyword" class="action-btn"><i class="fa-solid fa-plus"></i> Adicionar</button>
+                </div>
+
+                <div class="muted-keywords-container">
+                    <h3>Palavras Silenciadas Atualmente:</h3>
+                    <div id="keywords-list" class="keywords-list">
+                        <!-- Badges de palavras-chave serão adicionados aqui -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal para Bloqueio de Palavra-Chave a partir do Card -->
+    <div id="block-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Ocultar Este Assunto</h3>
+                <button class="close-modal-btn" id="close-modal"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="modal-body">
+                <p>Selecione a palavra-chave que melhor define o assunto que você deseja bloquear do seu feed:</p>
+                <div id="modal-words-list" class="modal-words-list">
+                    <!-- Palavras sugeridas do título da notícia -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="app-footer">
+        <p>&copy; 2026 News Reader. Feito de forma eficiente e 100% gratuita.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

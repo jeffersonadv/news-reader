@@ -1,0 +1,36 @@
+name: Atualizar Notícias
+
+on:
+  schedule:
+    # Roda a cada hora (no minuto 0)
+    - cron: '0 * * * *'
+  workflow_dispatch:
+    # Permite executar manualmente pelo painel do GitHub Actions
+
+permissions:
+  contents: write
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Código
+      uses: actions/checkout@v3
+
+    - name: Configurar Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Executar Raspador UOL
+      run: python execution/scrape_uol.py
+
+    - name: Commit e Push das alterações
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add noticias.json
+        # Commit apenas se houver alterações
+        git diff-index --quiet HEAD || git commit -m "chore: atualiza feed de notícias [skip ci]"
+        git push
