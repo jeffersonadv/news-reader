@@ -990,6 +990,7 @@ exceptionInput.addEventListener('keypress', (e) => {
 function updateFabVisibility() {
     const isFeedActive = !secFeed.classList.contains('hidden');
     const isHistoryActive = !secHistory.classList.contains('hidden');
+    const isSavedActive = !secSaved.classList.contains('hidden');
     
     // Conta cards que não possuem a classe de opacidade reduzida ou marcação de lidos
     const visibleUnreadCards = Array.from(newsGrid.querySelectorAll('.news-card')).filter(card => {
@@ -1002,9 +1003,11 @@ function updateFabVisibility() {
         btnNextNews.classList.add('hidden');
     }
 
-    // Gerencia o botão FAB verde para rolar para o topo da lista de lidas
+    // Gerencia o botão FAB verde para rolar para o topo da lista de lidas ou salvas
     const hasHistoryCards = historyGrid.querySelectorAll('.news-card').length > 0;
-    if (isHistoryActive && hasHistoryCards) {
+    const hasSavedCards = savedGrid.querySelectorAll('.news-card').length > 0;
+    
+    if ((isHistoryActive && hasHistoryCards) || (isSavedActive && hasSavedCards)) {
         btnTopHistory.classList.remove('hidden');
     } else {
         btnTopHistory.classList.add('hidden');
@@ -1255,11 +1258,14 @@ searchInput.addEventListener('input', () => {
     updateFabVisibility();
 });
 
-// Evento de clique para pular para o topo da aba Lidas
+// Evento de clique para pular para o topo da aba Lidas ou Salvas
 btnTopHistory.addEventListener('click', () => {
-    const firstCard = historyGrid.querySelector('.news-card');
-    if (firstCard) {
-        firstCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    const activeSection = document.querySelector('.content-section:not(.hidden)');
+    if (activeSection) {
+        const firstCard = activeSection.querySelector('.news-card');
+        if (firstCard) {
+            firstCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
     }
 });
 
