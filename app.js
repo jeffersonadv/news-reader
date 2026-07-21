@@ -277,7 +277,6 @@ function isMuted(title) {
 function renderFeed() {
     newsGrid.innerHTML = '';
     autoReadObserver.disconnect(); // Limpa observadores anteriores
-    updateFeedCount();
 
     const query = searchInput.value.toLowerCase().trim();
     
@@ -298,6 +297,13 @@ function renderFeed() {
         const bMain = b.is_main ? 1 : 0;
         return bMain - aMain; // Coloca o destaque antes das demais notícias
     });
+
+    // Atualiza temporariamente o contador com o resultado da busca
+    if (query) {
+        if (feedCountSpan) feedCountSpan.textContent = filteredNews.length;
+    } else {
+        updateFeedCount();
+    }
 
     if (filteredNews.length === 0) {
         newsGrid.innerHTML = `
@@ -347,6 +353,13 @@ function renderHistory() {
         }
     });
 
+    // Atualiza temporariamente o contador com o resultado da busca
+    if (query) {
+        if (historyCountSpan) historyCountSpan.textContent = readItems.length;
+    } else {
+        updateHistoryCount();
+    }
+
     if (readItems.length === 0) {
         historyGrid.innerHTML = `
             <div class="empty-state">
@@ -389,6 +402,13 @@ function renderSaved() {
         }
     });
 
+    // Atualiza temporariamente o contador com o resultado da busca
+    if (query) {
+        if (savedCountSpan) savedCountSpan.textContent = savedItems.length;
+    } else {
+        updateSavedCount();
+    }
+
     if (savedItems.length === 0) {
         savedGrid.innerHTML = `
             <div class="empty-state">
@@ -405,11 +425,22 @@ function renderSaved() {
     });
 }
 
+// Destaca o termo pesquisado envolvendo-o em uma tag mark
+function highlightText(text, query) {
+    if (!query) return text;
+    const escapedQuery = query.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+    const regex = new RegExp(`(${escapedQuery})`, 'gi');
+    return text.replace(regex, '<mark class="search-highlight">$1</mark>');
+}
+
 // Cria a estrutura HTML do Card de Notícia
 function createNewsCard(news, isFeedMode) {
     const card = document.createElement('article');
     card.className = 'news-card';
     card.dataset.url = news.link;
+
+    const query = searchInput ? searchInput.value.trim() : '';
+    const highlightedTitle = highlightText(news.title, query);
 
     // Adiciona classes específicas se existirem metadados
     if (news.is_main) card.classList.add('card-main');
@@ -450,7 +481,7 @@ function createNewsCard(news, isFeedMode) {
                     ${news.relateds.map(rel => `
                         <li>
                             <a href="${rel.link}" target="_blank" class="related-link">
-                                ${rel.title}
+                                ${highlightText(rel.title, query)}
                             </a>
                         </li>
                     `).join('')}
@@ -467,7 +498,7 @@ function createNewsCard(news, isFeedMode) {
         </div>
         <div class="card-content">
             ${badgesHtml}
-            <h3 class="card-title">${news.title}</h3>
+            <h3 class="card-title">${highlightedTitle}</h3>
             ${relatedsHtml}
             <div class="card-actions">
                 ${isFeedMode ? `
