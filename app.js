@@ -2,6 +2,9 @@
 let newsData = [];
 let readUrls = new Set(JSON.parse(localStorage.getItem('news_reader_read') || '[]'));
 let mutedKeywords = JSON.parse(localStorage.getItem('news_reader_muted') || '[]');
+// Exceções de notícias relevantes que ignoram o silenciamento
+const DEFAULT_EXCEPTIONS = ["investiga", "fraude", "desvio", "polícia", "preso", "presa", "prisão", "processo", "justiça", "denúncia", "crime", "acusa"];
+let exceptionKeywords = JSON.parse(localStorage.getItem('news_reader_exceptions') || JSON.stringify(DEFAULT_EXCEPTIONS));
 
 // Palavras funcionais a serem ignoradas na sugestão de bloqueio
 const STOP_WORDS = new Set([
@@ -31,6 +34,11 @@ const btnSettings = document.getElementById('btn-settings');
 const btnAddKeyword = document.getElementById('btn-add-keyword');
 const btnClearHistory = document.getElementById('btn-clear-history');
 
+// Elementos de Exceções
+const exceptionsList = document.getElementById('exceptions-list');
+const exceptionInput = document.getElementById('exception-input');
+const btnAddException = document.getElementById('btn-add-exception');
+
 // Elementos do Modal de Bloqueio
 const blockModal = document.getElementById('block-modal');
 const modalWordsList = document.getElementById('modal-words-list');
@@ -51,6 +59,7 @@ function switchSection(activeButton, sectionToShow) {
         renderHistory();
     } else if (sectionToShow === secSettings) {
         renderMutedKeywords();
+        renderExceptionKeywords();
     }
 }
 
@@ -150,9 +159,20 @@ function markAsRead(url, cardElement, immediateRemove = true) {
     }
 }
 
-// Verifica se a notícia contém palavras silenciadas
+// Verifica se a notícia contém palavras silenciadas (respeitando exceções)
 function isMuted(title) {
     const titleLower = title.toLowerCase();
+    
+    // Se a notícia contiver qualquer palavra de exceção (ex: investigada, fraude), ela NUNCA será silenciada
+    const hasException = exceptionKeywords.some(keyword => {
+        const regex = new RegExp(`\\b${keyword.toLowerCase()}\\b`, 'i');
+        return regex.test(titleLower) || titleLower.includes(keyword.toLowerCase());
+    });
+    
+    if (hasException) {
+        return false;
+    }
+
     return mutedKeywords.some(keyword => {
         const regex = new RegExp(`\\b${keyword.toLowerCase()}\\b`, 'i');
         return regex.test(titleLower) || titleLower.includes(keyword.toLowerCase());
@@ -381,6 +401,54 @@ function renderMutedKeywords() {
     });
 }
 
+// Salva palavras de exceção no localStorage
+function saveExceptionKeywords() {
+    localStorage.setItem('news_reader_exceptions', JSON.stringify(exceptionKeywords));
+}
+
+// Adiciona palavra-chave de exceção
+function addExceptionKeyword(word) {
+    const cleaned = word.trim().toLowerCase();
+    if (cleaned && !exceptionKeywords.includes(cleaned)) {
+        exceptionKeywords.push(cleaned);
+        saveExceptionKeywords();
+        renderExceptionKeywords();
+        renderFeed(); // Atualiza o feed que pode agora exibir notícias antes ocultas
+    }
+}
+
+// Remove palavra-chave de exceção
+function removeExceptionKeyword(word) {
+    exceptionKeywords = exceptionKeywords.filter(k => k !== word);
+    saveExceptionKeywords();
+    renderExceptionKeywords();
+    renderFeed(); // Oculta notícias se elas agora não corresponderem a nenhuma exceção
+}
+
+// Renderiza badges das palavras de exceção
+function renderExceptionKeywords() {
+    exceptionsList.innerHTML = '';
+    if (exceptionKeywords.length === 0) {
+        exceptionsList.innerHTML = '<p style="color: var(--text-muted)">Nenhuma exceção configurada. Qualquer termo silenciado bloqueará as matérias.</p>';
+        return;
+    }
+
+    exceptionKeywords.forEach(word => {
+        const badge = document.createElement('span');
+        badge.className = 'keyword-badge';
+        badge.style.background = 'rgba(16, 185, 129, 0.12)';
+        badge.style.borderColor = 'rgba(16, 185, 129, 0.25)';
+        badge.style.color = '#a7f3d0';
+        badge.innerHTML = `
+            ${word} 
+            <button title="Remover exceção" style="color: var(--success-color);"><i class="fa-solid fa-xmark"></i></button>
+        `;
+        badge.querySelector('button').addEventListener('click', () => removeExceptionKeyword(word));
+        keywordsList.appendChild(badge); // OBS: deve adicionar em exceptionsList, corrigido abaixo
+        exceptionsList.appendChild(badge);
+    });
+}
+
 // Formulário de adição de palavras-chave na aba Filtros
 btnAddKeyword.addEventListener('click', () => {
     const val = keywordInput.value;
@@ -396,6 +464,25 @@ keywordInput.addEventListener('keypress', (e) => {
         if (val) {
             addMutedKeyword(val);
             keywordInput.value = '';
+        }
+    }
+});
+
+// Formulário de adição de exceções na aba Filtros
+btnAddException.addEventListener('click', () => {
+    const val = exceptionInput.value;
+    if (val) {
+        addExceptionKeyword(val);
+        exceptionInput.value = '';
+    }
+});
+
+exceptionInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+        const val = exceptionInput.value;
+        if (val) {
+            addExceptionKeyword(val);
+            exceptionInput.value = '';
         }
     }
 });

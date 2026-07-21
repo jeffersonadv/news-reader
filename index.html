@@ -77,6 +77,23 @@
                         <!-- Badges de palavras-chave serão adicionados aqui -->
                     </div>
                 </div>
+
+                <hr class="settings-divider" style="margin: 2rem 0; border: 0; border-top: 1px solid var(--border-glass);">
+
+                <h2>Exceções de Relevância (Forçar Exibição)</h2>
+                <p class="settings-desc">Se uma notícia contiver alguma destas palavras de alta relevância (ex: investigada, crime, fraude), ela **será exibida** mesmo que contenha uma palavra silenciada acima.</p>
+                
+                <div class="keyword-form">
+                    <input type="text" id="exception-input" placeholder="Ex: investigado, fraude, polícia...">
+                    <button id="btn-add-exception" class="action-btn"><i class="fa-solid fa-plus"></i> Adicionar</button>
+                </div>
+
+                <div class="muted-keywords-container">
+                    <h3>Palavras de Exceção Atuais:</h3>
+                    <div id="exceptions-list" class="keywords-list">
+                        <!-- Badges de exceções serão adicionados aqui -->
+                    </div>
+                </div>
             </div>
         </section>
     </main>
