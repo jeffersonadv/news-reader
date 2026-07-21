@@ -35,16 +35,6 @@
     ]
   },
   {
-    "title": "Sua muito até parado? Pode ser mais do que só calor ou nervoso",
-    "link": "https://videos.uol.com.br/view/17360881",
-    "photo": "https://thumb.mais.uol.com.br/17360881-large.jpg",
-    "source": "Canal UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": true,
-    "relateds": []
-  },
-  {
     "title": "Luiza Oliveira: Copa mostrou Atlanta ao mundo, mas escondeu suas feridas abertas",
     "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/21/atlanta-convive-com-crise-de-moradores-de-rua-durante-grandes-eventos.ghtm",
     "photo": "https://imguol.com/c/esporte/02/2026/07/21/acampamento-de-pessoas-em-situacao-de-rua-em-atlanta-a-poucos-quilometros-do-estadio-que-recebeu-a-semifinal-argentina-2-x-1-inglaterra-1784648848362_v2_450x253.jpg",
@@ -62,6 +52,16 @@
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Sua muito até parado? Pode ser mais do que só calor ou nervoso",
+    "link": "https://videos.uol.com.br/view/17360881",
+    "photo": "https://thumb.mais.uol.com.br/17360881-large.jpg",
+    "source": "Canal UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": true,
     "relateds": []
   },
   {
@@ -204,26 +204,6 @@
     "relateds": []
   },
   {
-    "title": "Por que toxoplasmose, doença de Isa Scherer, é perigosa para grávidas",
-    "link": "https://www.uol.com.br/vivabem/noticias/redacao/2026/07/21/por-que-toxoplasmose-doenca-de-isa-scherer-e-perigosa-para-gravidas.ghtm",
-    "photo": "https://imguol.com/c/noticias/14/2026/07/21/isa-scherer-gravida-de-tom-1784653534224_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Time vive clima pesado com atrasos antes de decisão na Sul-Americana",
-    "link": "https://www.uol.com.br/play/ao-vivo/canal-uol/3/",
-    "photo": "https://imguol.com/c/esporte/cc/2025/12/07/marcelo-teixeira-presidente-do-santos-fez-pronunciamento-apos-encerramento-do-brasileirao-1765147097484_v2_150x112.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Fone sem fio JBL está com R$ 119 de desconto; TV Samsung com soundbar têm 29% off",
     "link": "https://www.uol.com.br/guia-de-compras/ao-vivo/2025/06/18/monitor-de-ofertas-uol.htm",
     "photo": "https://imguol.com/c/guia-de-compras/20/2026/07/21/fone-de-ouvido-wave-beam-2-jbl-1784658497928_v2_150x112.png",
@@ -232,6 +212,21 @@
     "is_carousel": true,
     "is_video": false,
     "relateds": []
+  },
+  {
+    "title": "Memphis faz contraproposta, mas valores não empolgam Corinthians",
+    "link": "https://www.uol.com.br/esporte/colunas/samir-carvalho/2026/07/21/memphis-faz-contraproposta-mas-valores-nao-empolgam-corinthians.htm",
+    "photo": "https://imguol.com/c/esporte/86/2026/07/19/memphis-ainda-nao-se-reapresentou-no-corinthians-apos-a-copa-do-mundo-1784516051912_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": true,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Time sofre quarto transfer ban após dívida por Charles",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/21/corinthians-sofre-4-transfer-ban-apos-divida-de-r-6-mi-por-charles.ghtm"
+      }
+    ]
   },
   {
     "title": "Por que um fundo topou pagar R$ 1,4 bilhão por três galpões logísticos em Guarulhos (SP)",
@@ -244,16 +239,6 @@
     "relateds": []
   },
   {
-    "title": "Marinha terá de pagar indenização de R$ 300 mil por ofensas a João Cândido",
-    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/21/marinha-tera-de-pagar-indenizacao-de-r-300-mil-apos-ofensas-a-joao-candido.htm",
-    "photo": "https://imguol.com/c/noticias/08/2024/04/05/joao-candido-lendo-o-manifesto-dos-marinheiros-1712335815798_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Amiga de Lulinha aciona STF para apurar suspeita de vazamento de diálogos para Flávio",
     "link": "https://www1.folha.uol.com.br/colunas/monicabergamo/2026/07/amiga-de-lulinha-aciona-stf-para-apurar-suspeita-de-vazamento-de-dialogos-para-flavio-bolsonaro.shtml",
     "photo": "",
@@ -261,7 +246,12 @@
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "PF nega que tenha vazado áudio de Flávio cobrando Vorcaro",
+        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/21/pf-nega-vazamento-de-audio-de-flavio-cobrando-dinheiro-de-vorcaro.ghtm"
+      }
+    ]
   },
   {
     "title": "Sem acordo, partidos de direita fazem convenções com chapa pura ou sem vice",
@@ -279,6 +269,26 @@
     ]
   },
   {
+    "title": "Marinha terá de pagar indenização de R$ 300 mil por ofensas a João Cândido",
+    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/21/marinha-tera-de-pagar-indenizacao-de-r-300-mil-apos-ofensas-a-joao-candido.htm",
+    "photo": "https://imguol.com/c/noticias/08/2024/04/05/joao-candido-lendo-o-manifesto-dos-marinheiros-1712335815798_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "São Paulo não paga parcela pela compra de Marcos Antônio e sofre tranfer ban",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/21/sao-paulo-nao-paga-parcela-da-compra-de-marcos-antonio-e-sofre-tranfer-ban.ghtm",
+    "photo": "https://imguol.com/c/esporte/35/2026/04/15/marcos-antonio-meio-campista-do-sao-paulo-em-jogo-contra-o-ohiggins-na-sul-americana-1776223067472_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Suspeitos transferiram R$ 8.000 e gravaram vídeos antes de matar empresário em SP",
     "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/07/21/caso-empresario-carapicuiba-sao-paulo.ghtm",
     "photo": "https://imguol.com/c/home/b6/2026/07/21/marcelo-magalhaes-de-almeida-de-31-anos-foi-visto-pela-ultima-vez-na-noite-de-quinta-feira-16-1784655729803_v2_300x225.png",
@@ -289,32 +299,12 @@
     "relateds": []
   },
   {
-    "title": "Capitã da PM chega morta a hospital de BH, e marido, sargento da corporação, é preso",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/07/21/capita-morta-bh.ghtm",
-    "photo": "https://imguol.com/c/home/58/2026/07/21/capita-da-pm-michele-leao-azevedo-1784642710259_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Morre aos 18 anos a atriz Kaylee Hottle, de 'Godzilla x Kong', após acidente, diz TMZ",
     "link": "https://www.uol.com.br/splash/noticias/2026/07/21/atriz-surda-de-godzilla-x-kong-kaylee-hottle-morre-aos-18-em-acidente.ghtm",
     "photo": "https://imguol.com/c/entretenimento/80/2026/07/21/kaylee-hottle-durante-lancamento-de-godzilla-x-kong-the-new-empire-em-2024-1784648003353_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Corinthians sofre quarto transfer ban após dívida de R$ 6 milhões por Charles",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/21/corinthians-sofre-4-transfer-ban-apos-divida-de-r-6-mi-por-charles.ghtm",
-    "photo": "https://imguol.com/c/esporte/3e/2025/10/25/charles-festeja-gol-durante-vitoria-x-corinthians-partida-do-brasileirao-1761425891712_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
     "is_video": false,
     "relateds": []
   },
@@ -559,6 +549,16 @@
     "relateds": []
   },
   {
+    "title": "Beth Goulart, que vive Clarice Lispector nos palcos, conta como descobriu a escritora",
+    "link": "https://www.uol.com.br/universa/noticias/redacao/2026/07/21/antes-de-viver-clarice-beth-goulart-conta-como-descobriu-a-escritora.ghtm",
+    "photo": "https://imguol.com/c/home/ca/2026/07/21/beth-goulart-no-na-pilha-com-tati-bernardi-1784665482335_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Morre o ator João Signorelli, de 'Caminho das Índias' e 'Salve Jorge', aos 70 anos",
     "link": "https://www1.folha.uol.com.br/ilustrada/2026/07/morre-o-ator-joao-signorelli-de-caminho-das-indias-e-salve-jorge-aos-70-anos.shtml",
     "photo": "https://imguol.com/c/entretenimento/2014/02/25/joao-signorelli-volta-aos-palcos-com-o-monologo-gandhi-um-lider-servidor-1393358520189_300x225.jpg",
@@ -572,16 +572,6 @@
     "title": "Padre é nomeado exorcista no interior de SP; arquidiocese cita necessidades espirituais",
     "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/07/21/padre-e-nomeado-exorcista-em-sp-arquidiocese-cita-necessidades-espirituais.ghtm",
     "photo": "https://imguol.com/c/home/85/2026/07/21/padre-kleber-tostes-e-nomeado-exorcista-pela-arquidiocese-metropolitana-de-ribeirao-preto-em-sao-paulo-1784655967735_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Milton Nascimento tem alta após internação por pneumonia no Rio",
-    "link": "https://www.uol.com.br/splash/noticias/2026/07/21/milton-nascimento-tem-alta-apos-internacao-por-pneumonia.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/21/2026/07/17/milton-nascimento-1784300412277_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -609,33 +599,39 @@
     "relateds": []
   },
   {
-    "title": "Victor Sá chora em apresentação no São Paulo e festeja: 'É uma honra estar aqui'",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/21/victor-sa-chora-em-apresentacao-no-sao-paulo-e-festeja-honra-estar-aqui.ghtm",
-    "photo": "https://imguol.com/c/esporte/dd/2026/07/21/victor-sa-e-apresentado-como-reforco-do-sao-paul-ao-lado-do-executivo-rafinha-no-ct-da-barra-funda-1784651284328_v2_300x225.jpg",
+    "title": "Capitã da PM chega morta a hospital de BH, e marido, sargento da corporação, é preso",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/07/21/capita-morta-bh.ghtm",
+    "photo": "https://imguol.com/c/home/58/2026/07/21/capita-da-pm-michele-leao-azevedo-1784642710259_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": [
-      {
-        "title": "Sem acordo, renovação de Calleri vira novela",
-        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/21/renovacao-do-calleri-esta-travada-sem-acordo-novela-para-segundo-semestre.ghtm"
-      },
-      {
-        "title": "Dorival Jr. tem 'carta branca' e ganha poder de chancela no clube",
-        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/21/dorival-jr-tem-carta-branca-no-sao-paulo-diz-valentim-furlan.ghtm"
-      }
-    ]
+    "relateds": []
   },
   {
-    "title": "Memphis faz contraproposta, mas valores não empolgam Corinthians",
-    "link": "https://www.uol.com.br/esporte/colunas/samir-carvalho/2026/07/21/memphis-faz-contraproposta-mas-valores-nao-empolgam-corinthians.htm",
-    "photo": "https://imguol.com/c/esporte/86/2026/07/19/memphis-ainda-nao-se-reapresentou-no-corinthians-apos-a-copa-do-mundo-1784516051912_v2_450x337.jpg",
+    "title": "Embraer e empresa sueca assinam acordo para ampliar produção de caças no Brasil",
+    "link": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/07/21/embraer-e-saab-assinam-acordo-para-producao-de-20-gripen-adicionais-no-brasil.htm",
+    "photo": "https://imguol.com/c/parceiros/57/2026/06/13/contingenciamento-adiciona-incerteza-ao-programa-gripen-da-fab-1781384867429_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "São Paulo registra Victor Sá e Buta, que estão disponíveis contra Athletico",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/21/sao-paulo-registra-buta-e-torce-para-ter-victor-sa-mesmo-com-transfer-ban.ghtm",
+    "photo": "https://imguol.com/c/esporte/1f/2026/07/01/sao-paulo-anunciou-a-contratacao-de-victor-sa-1782914148565_v2_450x337.jpg",
     "source": "UOL",
     "is_main": true,
     "is_carousel": false,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Victor Sá chora em apresentação e festeja: 'É uma honra estar aqui'",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/21/victor-sa-chora-em-apresentacao-no-sao-paulo-e-festeja-honra-estar-aqui.ghtm"
+      }
+    ]
   },
   {
     "title": "Saiba como Palmeiras, Corinthians, São Paulo e Santos voltam após a Copa",
@@ -748,9 +744,9 @@
     "relateds": []
   },
   {
-    "title": "Show de Harry Styles hoje em SP é cancelado; produtora cita 'problema de saúde na turnê'",
-    "link": "https://www.uol.com.br/splash/noticias/2026/07/21/show-de-harry-styles-hoje-no-morumbis-e-cancelado.htm",
-    "photo": "https://imguol.com/c/home/61/2026/07/21/harry-styles-na-estreia-da-residencia-brasileira-da-turne-together-together-na-sexta-17-no-morumbis-em-sp-1784638447982_v2_300x225.jpg",
+    "title": "Milton Nascimento tem alta após internação por pneumonia no Rio",
+    "link": "https://www.uol.com.br/splash/noticias/2026/07/21/milton-nascimento-tem-alta-apos-internacao-por-pneumonia.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/21/2026/07/17/milton-nascimento-1784300412277_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -988,6 +984,26 @@
     "relateds": []
   },
   {
+    "title": "Suco de beterraba: entenda os benefícios e qual a quantidade recomendada",
+    "link": "https://www.uol.com.br/vivabem/noticias/redacao/2026/07/21/suco-de-beterraba-entenda-os-beneficios-e-qual-a-quantidade-recomendada.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/a7/2017/11/17/beterraba-suco-crua-1510937746041_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Por que toxoplasmose, doença de Isa Scherer, é perigosa para grávidas?",
+    "link": "https://www.uol.com.br/vivabem/noticias/redacao/2026/07/21/por-que-toxoplasmose-doenca-de-isa-scherer-e-perigosa-para-gravidas.ghtm",
+    "photo": "https://imguol.com/c/noticias/14/2026/07/21/isa-scherer-gravida-de-tom-1784653534224_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Você conhece aquela pessoa gostosa? E não é pela aparência",
     "link": "https://www3.uol.com.br/redirect-flash/voce-conhece-aquela-pessoa-gostosa-e-nao-e-pela-aparencia.htm",
     "photo": "https://imguol.com/c/entretenimento/3f/2026/03/31/ana-emery-1774985893314_v2_300x225.jpg",
@@ -1028,9 +1044,9 @@
     "relateds": []
   },
   {
-    "title": "Meteorito que matou dinossauros era composto por material 'intocado'",
-    "link": "https://www.uol.com.br/tilt/ultimas-noticias/deutschewelle/2026/07/21/meteorito-que-matou-dinossauros-era-composto-por-material-intocado.htm",
-    "photo": "https://imguol.com/c/noticias/2015/06/08/recriacao-artistica-do-meteorito-de-10-km-de-diametro-que-provocou-a-extincao-dos-dinossauros-1433799923439_450x253.jpg",
+    "title": "Cientistas identificam indícios de 2 estrelas companheiras que explodiram",
+    "link": "https://www.uol.com.br/tilt/noticias/reuters/2026/07/21/cientistas-identificam-indicios-de-2-estrelas-companheiras-que-explodiram.htm",
+    "photo": "https://imguol.com/c/noticias/71/2026/07/21/nebulosa-medusa-formalmente-chamada-de-ic-443-formada-quando-uma-estrela-com-massa-entre-15-e-25-vezes-maior-que-a-do-sol-explodiu-no-final-de-seu-ciclo-de-vida-1784666673360_v2_450x253.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1038,9 +1054,9 @@
     "relateds": []
   },
   {
-    "title": "Sem decisão pelo Congresso, decretos que elevam responsabilidades de big techs entram em vigor",
-    "link": "https://www.uol.com.br/tilt/ultimas-noticias/estado/2026/07/21/sem-decisao-pelo-congresso-decretos-que-elevam-responsabilidades-de-big-techs-entram-em-vigor.htm",
-    "photo": "https://imguol.com/c/noticias/fb/2023/04/04/logos-das-big-tech-amazon-apple-facebook-and-google-1680641314107_v2_300x300.jpg",
+    "title": "Meteorito que matou dinossauros era composto por material 'intocado'",
+    "link": "https://www.uol.com.br/tilt/ultimas-noticias/deutschewelle/2026/07/21/meteorito-que-matou-dinossauros-era-composto-por-material-intocado.htm",
+    "photo": "https://imguol.com/c/noticias/2015/06/08/recriacao-artistica-do-meteorito-de-10-km-de-diametro-que-provocou-a-extincao-dos-dinossauros-1433799923439_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1101,6 +1117,65 @@
     "title": "Segurança e privacidade",
     "link": "https://sobreuol.noticias.uol.com.br/normas-de-seguranca-e-privacidade.html",
     "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Time vive clima pesado com atrasos antes de decisão na Sul-Americana",
+    "link": "https://www.uol.com.br/play/ao-vivo/canal-uol/3/",
+    "photo": "https://imguol.com/c/esporte/cc/2025/12/07/marcelo-teixeira-presidente-do-santos-fez-pronunciamento-apos-encerramento-do-brasileirao-1765147097484_v2_150x112.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Corinthians sofre quarto transfer ban após dívida de R$ 6 milhões por Charles",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/21/corinthians-sofre-4-transfer-ban-apos-divida-de-r-6-mi-por-charles.ghtm",
+    "photo": "https://imguol.com/c/esporte/3e/2025/10/25/charles-festeja-gol-durante-vitoria-x-corinthians-partida-do-brasileirao-1761425891712_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Victor Sá chora em apresentação no São Paulo e festeja: 'É uma honra estar aqui'",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/21/victor-sa-chora-em-apresentacao-no-sao-paulo-e-festeja-honra-estar-aqui.ghtm",
+    "photo": "https://imguol.com/c/esporte/dd/2026/07/21/victor-sa-e-apresentado-como-reforco-do-sao-paul-ao-lado-do-executivo-rafinha-no-ct-da-barra-funda-1784651284328_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Sem acordo, renovação de Calleri vira novela",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/21/renovacao-do-calleri-esta-travada-sem-acordo-novela-para-segundo-semestre.ghtm"
+      },
+      {
+        "title": "Dorival Jr. tem 'carta branca' e ganha poder de chancela no clube",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/21/dorival-jr-tem-carta-branca-no-sao-paulo-diz-valentim-furlan.ghtm"
+      }
+    ]
+  },
+  {
+    "title": "Show de Harry Styles hoje em SP é cancelado; produtora cita 'problema de saúde na turnê'",
+    "link": "https://www.uol.com.br/splash/noticias/2026/07/21/show-de-harry-styles-hoje-no-morumbis-e-cancelado.htm",
+    "photo": "https://imguol.com/c/home/61/2026/07/21/harry-styles-na-estreia-da-residencia-brasileira-da-turne-together-together-na-sexta-17-no-morumbis-em-sp-1784638447982_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Sem decisão pelo Congresso, decretos que elevam responsabilidades de big techs entram em vigor",
+    "link": "https://www.uol.com.br/tilt/ultimas-noticias/estado/2026/07/21/sem-decisao-pelo-congresso-decretos-que-elevam-responsabilidades-de-big-techs-entram-em-vigor.htm",
+    "photo": "https://imguol.com/c/noticias/fb/2023/04/04/logos-das-big-tech-amazon-apple-facebook-and-google-1680641314107_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
