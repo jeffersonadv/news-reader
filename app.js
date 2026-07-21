@@ -304,9 +304,7 @@ async function syncWithRepo() {
         const headers = {
             'Authorization': `token ${githubToken}`,
             'Content-Type': 'application/json',
-            'Accept': 'application/vnd.github.v3+json',
-            'Cache-Control': 'no-cache, no-store, must-revalidate',
-            'Pragma': 'no-cache'
+            'Accept': 'application/vnd.github.v3+json'
         };
 
         // 1. Busca os dados remotos mais recentes do arquivo sync.json no repositório antes de gravar
@@ -405,9 +403,7 @@ async function loadSyncDataFromRepo() {
     try {
         const headers = {
             'Authorization': `token ${githubToken}`,
-            'Accept': 'application/vnd.github.v3+json',
-            'Cache-Control': 'no-cache, no-store, must-revalidate',
-            'Pragma': 'no-cache'
+            'Accept': 'application/vnd.github.v3+json'
         };
 
         const res = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${syncFilePath}?t=${new Date().getTime()}`, { headers });
