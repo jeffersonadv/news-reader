@@ -310,6 +310,8 @@ async function syncWithRepo() {
         // 1. Busca os dados remotos mais recentes do arquivo sync.json no repositório antes de gravar
         let remoteRead = [];
         let remoteSaved = [];
+        let remoteMuted = [];
+        let remoteExceptions = [];
         let sha = '';
 
         const getRes = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${syncFilePath}?t=${new Date().getTime()}`, { headers });
@@ -328,28 +330,50 @@ async function syncWithRepo() {
                 if (remoteData.saved && Array.isArray(remoteData.saved)) {
                     remoteSaved = remoteData.saved;
                 }
+                if (remoteData.muted && Array.isArray(remoteData.muted)) {
+                    remoteMuted = remoteData.muted;
+                }
+                if (remoteData.exceptions && Array.isArray(remoteData.exceptions)) {
+                    remoteExceptions = remoteData.exceptions;
+                }
             }
         }
 
         // 2. Mescla o conteúdo remoto com o conteúdo local para não apagar nenhuma alteração
         const beforeReadSize = readUrls.size;
         const beforeSavedSize = savedUrls.size;
+        const beforeMutedSize = mutedKeywords.length;
+        const beforeExceptionsSize = exceptionKeywords.length;
 
         remoteRead.forEach(url => readUrls.add(url));
         remoteSaved.forEach(url => savedUrls.add(url));
+        
+        remoteMuted.forEach(word => {
+            if (!mutedKeywords.includes(word)) mutedKeywords.push(word);
+        });
+        remoteExceptions.forEach(word => {
+            if (!exceptionKeywords.includes(word)) exceptionKeywords.push(word);
+        });
 
-        const dataChanged = (readUrls.size !== beforeReadSize) || (savedUrls.size !== beforeSavedSize);
+        const dataChanged = (readUrls.size !== beforeReadSize) || 
+                            (savedUrls.size !== beforeSavedSize) || 
+                            (mutedKeywords.length !== beforeMutedSize) || 
+                            (exceptionKeywords.length !== beforeExceptionsSize);
 
         if (dataChanged) {
             // Atualiza os registros locais se o servidor trouxe novidades
             localStorage.setItem('news_reader_read', JSON.stringify(Array.from(readUrls)));
             localStorage.setItem('news_reader_saved', JSON.stringify(Array.from(savedUrls)));
+            localStorage.setItem('news_reader_muted', JSON.stringify(mutedKeywords));
+            localStorage.setItem('news_reader_exceptions', JSON.stringify(exceptionKeywords));
         }
 
         // 3. Prepara o payload com os dados mesclados finais
         const syncData = {
             read: Array.from(readUrls),
-            saved: Array.from(savedUrls)
+            saved: Array.from(savedUrls),
+            muted: mutedKeywords,
+            exceptions: exceptionKeywords
         };
 
         const b64Content = btoa(unescape(encodeURIComponent(JSON.stringify(syncData))));
@@ -381,6 +405,10 @@ async function syncWithRepo() {
                 if (activeSection === secFeed) renderFeed();
                 else if (activeSection === secHistory) renderHistory();
                 else if (activeSection === secSaved) renderSaved();
+                else if (activeSection === secSettings) {
+                    renderMutedKeywords();
+                    renderExceptionKeywords();
+                }
             }
         } else {
             const errData = await res.json().catch(() => ({}));
@@ -439,6 +467,26 @@ async function loadSyncDataFromRepo() {
                         changed = true;
                     }
                 }
+                if (syncData.muted && Array.isArray(syncData.muted)) {
+                    const beforeSize = mutedKeywords.length;
+                    syncData.muted.forEach(word => {
+                        if (!mutedKeywords.includes(word)) mutedKeywords.push(word);
+                    });
+                    if (mutedKeywords.length !== beforeSize) {
+                        localStorage.setItem('news_reader_muted', JSON.stringify(mutedKeywords));
+                        changed = true;
+                    }
+                }
+                if (syncData.exceptions && Array.isArray(syncData.exceptions)) {
+                    const beforeSize = exceptionKeywords.length;
+                    syncData.exceptions.forEach(word => {
+                        if (!exceptionKeywords.includes(word)) exceptionKeywords.push(word);
+                    });
+                    if (exceptionKeywords.length !== beforeSize) {
+                        localStorage.setItem('news_reader_exceptions', JSON.stringify(exceptionKeywords));
+                        changed = true;
+                    }
+                }
 
                 updateSyncStatusUI('success');
 
@@ -449,6 +497,10 @@ async function loadSyncDataFromRepo() {
                     if (activeSection === secFeed) renderFeed();
                     else if (activeSection === secHistory) renderHistory();
                     else if (activeSection === secSaved) renderSaved();
+                    else if (activeSection === secSettings) {
+                        renderMutedKeywords();
+                        renderExceptionKeywords();
+                    }
                 }
             } else {
                 updateSyncStatusUI('success', 'Nuvem vazia.');
