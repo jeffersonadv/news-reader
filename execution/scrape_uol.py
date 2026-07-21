@@ -181,15 +181,54 @@ def scrape_uol():
                     unique_news_dict[url]['source'] = 'Canal UOL'
                 
         unique_news = list(unique_news_dict.values())
-                
-        print(f"Total de notícias extraídas de forma recursiva: {len(unique_news)}")
+                 
+        print(f"Total de notícias novas extraídas: {len(unique_news)}")
         
         # Caminho do arquivo de saída
         output_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         output_file = os.path.join(output_dir, "noticias.json")
         
+        # 1. Tenta carregar as notícias já existentes do feed histórico
+        existing_news = []
+        if os.path.exists(output_file):
+            try:
+                with open(output_file, 'r', encoding='utf-8') as f:
+                    existing_news = json.load(f)
+                if not isinstance(existing_news, list):
+                    existing_news = []
+            except Exception as read_err:
+                print(f"Aviso: Não foi possível ler o arquivo noticias.json anterior: {read_err}")
+        
+        # 2. Mescla as notícias: Novas entram primeiro para aparecer no topo.
+        combined_news_dict = {}
+        for news in unique_news:
+            combined_news_dict[news['link']] = news
+            
+        for old_news in existing_news:
+            url = old_news['link']
+            if url not in combined_news_dict:
+                # Mantém no histórico cumulativo
+                combined_news_dict[url] = old_news
+            else:
+                # Se já foi capturada na nova rodada, enriquece metadados
+                new_item = combined_news_dict[url]
+                if not new_item.get('photo') and old_news.get('photo'):
+                    new_item['photo'] = old_news['photo']
+                if old_news.get('relateds') and not new_item.get('relateds'):
+                    new_item['relateds'] = old_news['relateds']
+                for flag in ['is_main', 'is_carousel', 'is_video']:
+                    if old_news.get(flag):
+                        new_item[flag] = True
+
+        # Converte de volta para lista (mantendo a ordem: novas primeiro, acumuladas depois)
+        merged_news = list(combined_news_dict.values())
+        
+        # 3. Limita o feed acumulado às 500 notícias mais recentes
+        final_news = merged_news[:500]
+        print(f"Total de notícias consolidadas no feed (histórico + novas): {len(final_news)}")
+        
         with open(output_file, 'w', encoding='utf-8') as f:
-            json.dump(unique_news, f, ensure_ascii=False, indent=2)
+            json.dump(final_news, f, ensure_ascii=False, indent=2)
             
         print(f"Arquivo salvo com sucesso em: {output_file}")
         return True
