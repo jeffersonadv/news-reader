@@ -115,7 +115,7 @@ window.addEventListener('scroll', () => {
 // Carregar Notícias do noticias.json
 async function loadNews() {
     try {
-        const response = await fetch('noticias.json');
+        const response = await fetch('noticias.json?t=' + new Date().getTime());
         if (!response.ok) {
             throw new Error('Falha ao carregar as notícias. Execute o raspador primeiro.');
         }
@@ -263,9 +263,10 @@ function createNewsCard(news, isFeedMode) {
     card.className = 'news-card';
     card.dataset.url = news.link;
 
-    // Trata imagens em branco com placeholder moderno
-    const imgHtml = news.photo 
-        ? `<img src="${news.photo}" alt="Imagem da notícia" class="card-img" loading="lazy" referrerpolicy="no-referrer">`
+    // Trata imagens em branco com placeholder moderno e usa proxy de imagens gratuito para contornar bloqueios de hotlink
+    const proxiedPhoto = news.photo ? `https://images.weserv.nl/?url=${encodeURIComponent(news.photo)}` : "";
+    const imgHtml = proxiedPhoto 
+        ? `<img src="${proxiedPhoto}" alt="Imagem da notícia" class="card-img" loading="lazy">`
         : `<div class="card-img" style="background: linear-gradient(135deg, #1e293b, #0f172a); display: flex; align-items: center; justify-content: center; height: 100%; width: 100%;"><i class="fa-solid fa-newspaper" style="font-size: 2.5rem; color: rgba(255,255,255,0.1)"></i></div>`;
 
     card.innerHTML = `
