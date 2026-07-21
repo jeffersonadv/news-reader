@@ -52,6 +52,7 @@ const btnTriggerUpdate = document.getElementById('btn-trigger-update');
 const btnSaveToken = document.getElementById('btn-save-token');
 const githubTokenInput = document.getElementById('github-token-input');
 const btnNextNews = document.getElementById('btn-next-news');
+const btnTopHistory = document.getElementById('btn-top-history');
 const syncStatusIndicator = document.getElementById('sync-status-indicator');
 const btnForceSync = document.getElementById('btn-force-sync');
 
@@ -988,6 +989,8 @@ exceptionInput.addEventListener('keypress', (e) => {
 // Controla a visibilidade do botão flutuante (FAB)
 function updateFabVisibility() {
     const isFeedActive = !secFeed.classList.contains('hidden');
+    const isHistoryActive = !secHistory.classList.contains('hidden');
+    
     // Conta cards que não possuem a classe de opacidade reduzida ou marcação de lidos
     const visibleUnreadCards = Array.from(newsGrid.querySelectorAll('.news-card')).filter(card => {
         return !readUrls.has(card.dataset.url) && card.style.opacity !== '0.35';
@@ -997,6 +1000,14 @@ function updateFabVisibility() {
         btnNextNews.classList.remove('hidden');
     } else {
         btnNextNews.classList.add('hidden');
+    }
+
+    // Gerencia o botão FAB verde para rolar para o topo da lista de lidas
+    const hasHistoryCards = historyGrid.querySelectorAll('.news-card').length > 0;
+    if (isHistoryActive && hasHistoryCards) {
+        btnTopHistory.classList.remove('hidden');
+    } else {
+        btnTopHistory.classList.add('hidden');
     }
 }
 
@@ -1242,6 +1253,14 @@ searchInput.addEventListener('input', () => {
         renderSaved();
     }
     updateFabVisibility();
+});
+
+// Evento de clique para pular para o topo da aba Lidas
+btnTopHistory.addEventListener('click', () => {
+    const firstCard = historyGrid.querySelector('.news-card');
+    if (firstCard) {
+        firstCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
 });
 
 // Limpar todo histórico

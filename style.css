@@ -708,14 +708,45 @@ body {
     transform: translateY(-2px) scale(0.95);
 }
 
-.fab-next-btn.hidden {
+/* Botão Flutuante (FAB) de Retorno do Histórico (Verde) */
+.fab-top-history-btn {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: linear-gradient(135deg, #10b981, #059669);
+    color: var(--text-primary);
+    border: none;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 20px rgba(16, 185, 129, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    z-index: 99;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.fab-top-history-btn:hover {
+    transform: translateY(-4px) scale(1.05);
+    background: linear-gradient(135deg, #059669, #047857);
+    box-shadow: 0 6px 24px rgba(16, 185, 129, 0.6);
+}
+
+.fab-top-history-btn:active {
+    transform: translateY(-2px) scale(0.95);
+}
+
+.fab-next-btn.hidden, .fab-top-history-btn.hidden {
     opacity: 0;
     pointer-events: none;
     transform: scale(0.5);
 }
 
 @media (max-width: 768px) {
-    .fab-next-btn {
+    .fab-next-btn, .fab-top-history-btn {
         bottom: 1.5rem;
         right: 1.5rem;
         width: 48px;
