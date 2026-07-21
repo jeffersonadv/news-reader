@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
     <!-- FontAwesome para ícones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css?v=1.7">
+    <link rel="stylesheet" href="style.css?v=1.8">
 </head>
 <body>
     <header class="app-header">
@@ -111,8 +111,20 @@
 
                 <hr class="settings-divider" style="margin: 2rem 0; border: 0; border-top: 1px solid var(--border-glass);">
 
-                <h2>Configuração de Atualização Remota</h2>
-                <p class="settings-desc">Para atualizar as notícias sob demanda diretamente pelo botão de atualizar no topo, insira abaixo um Token de Acesso Pessoal do GitHub (PAT) com a permissão <code>actions:write</code>. Este token fica gravado localmente apenas no seu navegador.</p>
+                <h2>Sincronização Nuvem (Celular / Computador)</h2>
+                <p class="settings-desc">O aplicativo utiliza um Gist privado em sua conta do GitHub para compartilhar as notícias lidas e salvas entre todos os seus dispositivos.</p>
+                
+                <div class="keyword-form" style="margin-bottom: 1.5rem; display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;">
+                    <div id="sync-status-indicator" style="font-size: 0.95rem; color: var(--text-secondary); display: flex; align-items: center; gap: 0.5rem;">
+                        <i class="fa-solid fa-circle-question" style="color: var(--text-muted);"></i> <span>Status da sincronização: Carregando...</span>
+                    </div>
+                    <button id="btn-force-sync" class="action-btn" style="white-space: nowrap;"><i class="fa-solid fa-arrows-rotate"></i> Sincronizar Agora</button>
+                </div>
+
+                <hr class="settings-divider" style="margin: 2rem 0; border: 0; border-top: 1px solid var(--border-glass);">
+
+                <h2>Configuração de Atualização Remota e Sincronização</h2>
+                <p class="settings-desc">Para atualizar as notícias sob demanda e ativar a sincronização multi-dispositivo, insira abaixo um Token de Acesso Pessoal do GitHub (PAT) com as permissões <code>actions:write</code> e <code>gist</code>. Este token fica gravado localmente apenas no seu navegador.</p>
                 
                 <div class="keyword-form">
                     <input type="password" id="github-token-input" placeholder="ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx">
@@ -158,6 +170,6 @@
         </div>
     </div>
 
-    <script src="app.js?v=1.7"></script>
+    <script src="app.js?v=1.8"></script>
 </body>
 </html>

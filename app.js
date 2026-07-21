@@ -52,6 +52,8 @@ const btnTriggerUpdate = document.getElementById('btn-trigger-update');
 const btnSaveToken = document.getElementById('btn-save-token');
 const githubTokenInput = document.getElementById('github-token-input');
 const btnNextNews = document.getElementById('btn-next-news');
+const syncStatusIndicator = document.getElementById('sync-status-indicator');
+const btnForceSync = document.getElementById('btn-force-sync');
 
 // Elementos do Overlay de Carregamento
 const updateLoadingOverlay = document.getElementById('update-loading-overlay');
@@ -222,12 +224,50 @@ function saveSavedHistory() {
     syncWithGitHub();
 }
 
-// Mecanismo de Sincronização em Nuvem via GitHub Gists (Sem custo de BD)
+// Mecanismo de Sincronização em Nuvem via GitHub Gists (Sem custo de BD e sem cache de CDN)
 let gistId = localStorage.getItem('news_reader_gist_id') || '';
 
-async function syncWithGitHub() {
-    if (!githubToken) return;
+// Atualiza o status visual da sincronização na tela
+function updateSyncStatusUI(status, message = '') {
+    if (!syncStatusIndicator) return;
     
+    let iconClass = '';
+    let iconColor = '';
+    let text = '';
+    
+    switch (status) {
+        case 'no_token':
+            iconClass = 'fa-solid fa-circle-question';
+            iconColor = 'var(--text-muted)';
+            text = 'Token não configurado. Sincronização inativa.';
+            break;
+        case 'loading':
+            iconClass = 'fa-solid fa-circle-notch fa-spin';
+            iconColor = 'var(--accent-color)';
+            text = message || 'Conectando ao GitHub...';
+            break;
+        case 'success':
+            iconClass = 'fa-solid fa-circle-check';
+            iconColor = '#22c55e';
+            text = message || 'Sincronizado com a nuvem!';
+            break;
+        case 'error':
+            iconClass = 'fa-solid fa-circle-exclamation';
+            iconColor = '#ef4444';
+            text = message || 'Erro ao sincronizar. Verifique se o token tem a permissão "gist".';
+            break;
+    }
+    
+    syncStatusIndicator.innerHTML = `<i class="${iconClass}" style="color: ${iconColor};"></i> <span>${text}</span>`;
+}
+
+async function syncWithGitHub() {
+    if (!githubToken) {
+        updateSyncStatusUI('no_token');
+        return;
+    }
+    
+    updateSyncStatusUI('loading', 'Enviando atualizações para a nuvem...');
     try {
         const headers = {
             'Authorization': `token ${githubToken}`,
@@ -253,17 +293,18 @@ async function syncWithGitHub() {
                     }
                 })
             });
-            if (!res.ok) {
-                if (res.status === 404) {
-                    gistId = '';
-                    localStorage.removeItem('news_reader_gist_id');
-                    await syncWithGitHub();
-                } else {
-                    console.error('Falha ao atualizar Gist de sincronização:', res.statusText);
-                }
+            if (res.ok) {
+                updateSyncStatusUI('success');
+            } else if (res.status === 404) {
+                gistId = '';
+                localStorage.removeItem('news_reader_gist_id');
+                await syncWithGitHub();
+            } else {
+                console.error('Falha ao atualizar Gist de sincronização:', res.statusText);
+                updateSyncStatusUI('error', `Falha ao salvar: ${res.statusText}`);
             }
         } else {
-            // Cria um novo Gist de sincronização na conta do usuário
+            // Busca na lista do usuário se já existe um Gist com esse arquivo
             const listRes = await fetch('https://api.github.com/gists', { headers });
             if (listRes.ok) {
                 const gists = await listRes.json();
@@ -276,6 +317,7 @@ async function syncWithGitHub() {
                 }
             }
 
+            // Cria um novo Gist privado
             const res = await fetch('https://api.github.com/gists', {
                 method: 'POST',
                 headers,
@@ -294,15 +336,24 @@ async function syncWithGitHub() {
                 gistId = data.id;
                 localStorage.setItem('news_reader_gist_id', gistId);
                 console.log('Gist de sincronização criado com ID:', gistId);
+                updateSyncStatusUI('success');
+            } else {
+                updateSyncStatusUI('error', `Erro na criação: ${res.statusText}`);
             }
         }
     } catch (error) {
         console.error('Erro ao sincronizar com o GitHub:', error);
+        updateSyncStatusUI('error', `Erro de conexão: ${error.message}`);
     }
 }
 
 async function loadSyncDataFromGist(gistObj = null) {
-    if (!githubToken) return;
+    if (!githubToken) {
+        updateSyncStatusUI('no_token');
+        return;
+    }
+    
+    updateSyncStatusUI('loading', 'Baixando dados da nuvem...');
     try {
         const headers = {
             'Authorization': `token ${githubToken}`
@@ -322,20 +373,37 @@ async function loadSyncDataFromGist(gistObj = null) {
             const listRes = await fetch('https://api.github.com/gists', { headers });
             if (listRes.ok) {
                 const gists = await listRes.json();
-                gist = gists.find(g => g.files && g.files['news_reader_sync.json']);
-                if (gist) {
-                    gistId = gist.id;
+                const foundGist = gists.find(g => g.files && g.files['news_reader_sync.json']);
+                if (foundGist) {
+                    gistId = foundGist.id;
                     localStorage.setItem('news_reader_gist_id', gistId);
+                    // Busca os detalhes completos para trazer a propriedade "content" sem cache
+                    const detailRes = await fetch(`https://api.github.com/gists/${gistId}`, { headers });
+                    if (detailRes.ok) {
+                        gist = await detailRes.json();
+                    }
                 }
             }
         }
 
+        // Lê os arquivos direto do corpo do Gist detalhado (evita raw_url com CDN e bypassa cache)
         if (gist && gist.files && gist.files['news_reader_sync.json']) {
-            const fileUrl = gist.files['news_reader_sync.json'].raw_url;
-            const fileRes = await fetch(fileUrl, { headers });
-            if (fileRes.ok) {
-                const syncData = await fileRes.json();
+            const fileData = gist.files['news_reader_sync.json'];
+            
+            // Se o conteúdo completo não veio no header, ou se quisermos ter certeza de pegar o payload atualizado
+            let fileContent = fileData.content;
+            if (!fileContent && fileData.raw_url) {
+                // Fallback para ler do raw_url se necessário (mas com cache buster)
+                const fileRes = await fetch(fileData.raw_url + '?t=' + new Date().getTime(), { headers });
+                if (fileRes.ok) {
+                    fileContent = await fileRes.text();
+                }
+            }
+
+            if (fileContent) {
+                const syncData = JSON.parse(fileContent);
                 let changed = false;
+                
                 if (syncData.read && Array.isArray(syncData.read)) {
                     const beforeSize = readUrls.size;
                     syncData.read.forEach(url => readUrls.add(url));
@@ -353,6 +421,8 @@ async function loadSyncDataFromGist(gistObj = null) {
                     }
                 }
 
+                updateSyncStatusUI('success');
+
                 if (changed) {
                     updateHistoryCount();
                     updateSavedCount();
@@ -361,10 +431,15 @@ async function loadSyncDataFromGist(gistObj = null) {
                     else if (activeSection === secHistory) renderHistory();
                     else if (activeSection === secSaved) renderSaved();
                 }
+            } else {
+                updateSyncStatusUI('success', 'Nuvem vazia.');
             }
+        } else {
+            updateSyncStatusUI('success', 'Nenhum backup encontrado. Será gerado ao ler ou salvar.');
         }
     } catch (err) {
         console.error('Erro ao ler do Gist de sincronização:', err);
+        updateSyncStatusUI('error', `Erro ao baixar: ${err.message}`);
     }
 }
 
@@ -1170,12 +1245,19 @@ async function triggerGitHubUpdate() {
     }
 }
 
-// Evento de salvamento do token
+// Evento de salvamento do token (inicia sincronização imediatamente se configurado)
 btnSaveToken.addEventListener('click', () => {
     const val = githubTokenInput.value.trim();
     githubToken = val;
     localStorage.setItem('news_reader_gh_token', val);
     alert("Token do GitHub salvo com sucesso!");
+    if (githubToken) {
+        loadSyncDataFromGist().then(() => {
+            syncWithGitHub();
+        });
+    } else {
+        updateSyncStatusUI('no_token');
+    }
 });
 
 // Evento de disparo da atualização
@@ -1184,7 +1266,22 @@ btnTriggerUpdate.addEventListener('click', triggerGitHubUpdate);
 // Evento de clique para pular para a próxima notícia
 btnNextNews.addEventListener('click', scrollToNextUnread);
 
-// Busca dinâmica no Feed
+// Botão de Sincronização Manual (Forçar Sincronização)
+btnForceSync.addEventListener('click', async () => {
+    const icon = btnForceSync.querySelector('i');
+    if (icon) icon.classList.add('fa-spin');
+    btnForceSync.disabled = true;
+    try {
+        await loadSyncDataFromGist();
+        await syncWithGitHub();
+    } catch (err) {
+        console.error(err);
+    } finally {
+        if (icon) icon.classList.remove('fa-spin');
+        btnForceSync.disabled = false;
+    }
+});
+
 // Busca dinâmica nas três abas principais
 searchInput.addEventListener('input', () => {
     const activeSection = document.querySelector('.content-section:not(.hidden)');
@@ -1223,4 +1320,11 @@ document.addEventListener('DOMContentLoaded', () => {
     loadNews();
     updateSavedCount();
     updateFabVisibility();
+    
+    // Inicializa o status do backup/sincronização na aba filtros
+    if (!githubToken) {
+        updateSyncStatusUI('no_token');
+    } else {
+        updateSyncStatusUI('loading', 'Aguardando carregamento inicial...');
+    }
 });
