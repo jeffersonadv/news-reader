@@ -174,8 +174,13 @@ async function loadNews() {
         newsData = await response.json();
         updateHistoryCount();
         updateSavedCount();
+
+        // IMPORTANTE: Aguarda a sincronização com a nuvem ANTES de renderizar o feed.
+        // Sem o await, o feed era renderizado com o localStorage local (vazio em dispositivos
+        // novos), e notícias já lidas em outro dispositivo apareciam indevidamente como não lidas.
+        await loadSyncDataFromRepo();
+
         renderFeed();
-        loadSyncDataFromRepo();
     } catch (error) {
         newsGrid.innerHTML = `
             <div class="empty-state">
@@ -187,6 +192,7 @@ async function loadNews() {
         console.error(error);
     }
 }
+
 
 // Atualiza o contador de histórico e feed no menu
 function updateHistoryCount() {
