@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
     <!-- FontAwesome para ícones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css?v=1.2">
+    <link rel="stylesheet" href="style.css?v=1.3">
 </head>
 <body>
     <header class="app-header">
@@ -19,11 +19,12 @@
             <div class="logo">
                 <i class="fa-solid fa-bolt logo-icon"></i>
                 <h1>News<span>Reader</span></h1>
+                <button id="btn-trigger-update" class="update-trigger-btn" title="Atualizar notícias na nuvem"><i class="fa-solid fa-arrows-rotate"></i></button>
             </div>
             
             <nav class="navigation">
                 <button id="btn-feed" class="nav-btn active"><i class="fa-solid fa-newspaper"></i> Feed</button>
-                <button id="btn-history" class="nav-btn"><i class="fa-solid fa-history"></i> Lidas (<span id="history-count">0</span>)</button>
+                <button id="btn-history" class="nav-btn"><i class="fa-solid fa-clock-rotate-left"></i> Lidas <span class="nav-badge" id="history-count">0</span></button>
                 <button id="btn-settings" class="nav-btn"><i class="fa-solid fa-sliders"></i> Filtros</button>
             </nav>
         </div>
@@ -94,9 +95,22 @@
                         <!-- Badges de exceções serão adicionados aqui -->
                     </div>
                 </div>
+
+                <hr class="settings-divider" style="margin: 2rem 0; border: 0; border-top: 1px solid var(--border-glass);">
+
+                <h2>Configuração de Atualização Remota</h2>
+                <p class="settings-desc">Para atualizar as notícias sob demanda diretamente pelo botão de atualizar no topo, insira abaixo um Token de Acesso Pessoal do GitHub (PAT) com a permissão <code>actions:write</code>. Este token fica gravado localmente apenas no seu navegador.</p>
+                
+                <div class="keyword-form">
+                    <input type="password" id="github-token-input" placeholder="ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx">
+                    <button id="btn-save-token" class="action-btn"><i class="fa-solid fa-floppy-disk"></i> Salvar</button>
+                </div>
             </div>
         </section>
     </main>
+
+    <!-- Botão Flutuante (FAB) para ir para a próxima notícia -->
+    <button id="btn-next-news" class="fab-next-btn" title="Pular para a próxima notícia"><i class="fa-solid fa-arrow-down"></i></button>
 
     <!-- Modal para Bloqueio de Palavra-Chave a partir do Card -->
     <div id="block-modal" class="modal">
@@ -118,6 +132,6 @@
         <p>&copy; 2026 News Reader. Feito de forma eficiente e 100% gratuita.</p>
     </footer>
 
-    <script src="app.js?v=1.2"></script>
+    <script src="app.js?v=1.3"></script>
 </body>
 </html>

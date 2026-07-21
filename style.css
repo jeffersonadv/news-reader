@@ -112,10 +112,27 @@ body {
     font-weight: 600;
     cursor: pointer;
     border-radius: 8px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 0.5rem;
+    white-space: nowrap;
     transition: all var(--transition-speed) ease;
+}
+
+.nav-badge {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--text-primary);
+    padding: 0.15rem 0.5rem;
+    font-size: 0.8rem;
+    border-radius: 99px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    display: inline-block;
+    transition: background var(--transition-speed) ease;
+}
+
+.nav-btn.active .nav-badge {
+    background: rgba(255, 255, 255, 0.25);
 }
 
 .nav-btn:hover {
@@ -620,5 +637,84 @@ body {
     
     .search-box {
         max-width: 100%;
+    }
+}
+
+/* Botão de Atualização Manual no Topo */
+.update-trigger-btn {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border-glass);
+    color: var(--text-secondary);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5rem;
+    transition: all var(--transition-speed) ease;
+}
+
+.update-trigger-btn:hover {
+    color: var(--text-primary);
+    background: rgba(255, 255, 255, 0.15);
+    transform: scale(1.05);
+}
+
+.update-trigger-btn i.spin {
+    animation: spin 1s linear infinite;
+    color: var(--accent-color);
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Botão Flutuante (FAB) de Próxima Notícia */
+.fab-next-btn {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: var(--accent-color);
+    color: var(--text-primary);
+    border: none;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 20px rgba(88, 101, 242, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    z-index: 99;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.fab-next-btn:hover {
+    transform: translateY(-4px) scale(1.05);
+    background: var(--accent-hover);
+    box-shadow: 0 6px 24px rgba(88, 101, 242, 0.7);
+}
+
+.fab-next-btn:active {
+    transform: translateY(-2px) scale(0.95);
+}
+
+.fab-next-btn.hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.5);
+}
+
+@media (max-width: 768px) {
+    .fab-next-btn {
+        bottom: 1.5rem;
+        right: 1.5rem;
+        width: 48px;
+        height: 48px;
+        font-size: 1.1rem;
     }
 }

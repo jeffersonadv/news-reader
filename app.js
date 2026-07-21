@@ -5,6 +5,7 @@ let mutedKeywords = JSON.parse(localStorage.getItem('news_reader_muted') || '[]'
 // Exceções de notícias relevantes que ignoram o silenciamento
 const DEFAULT_EXCEPTIONS = ["investiga", "fraude", "desvio", "polícia", "preso", "presa", "prisão", "processo", "justiça", "denúncia", "crime", "acusa", "morte", "morreu", "matou", "matar"];
 let exceptionKeywords = JSON.parse(localStorage.getItem('news_reader_exceptions') || JSON.stringify(DEFAULT_EXCEPTIONS));
+let githubToken = localStorage.getItem('news_reader_gh_token') || '';
 
 // Palavras funcionais a serem ignoradas na sugestão de bloqueio
 const STOP_WORDS = new Set([
@@ -39,6 +40,12 @@ const exceptionsList = document.getElementById('exceptions-list');
 const exceptionInput = document.getElementById('exception-input');
 const btnAddException = document.getElementById('btn-add-exception');
 
+// Elementos de Configuração do GitHub Token e Botão Flutuante
+const btnTriggerUpdate = document.getElementById('btn-trigger-update');
+const btnSaveToken = document.getElementById('btn-save-token');
+const githubTokenInput = document.getElementById('github-token-input');
+const btnNextNews = document.getElementById('btn-next-news');
+
 // Elementos do Modal de Bloqueio
 const blockModal = document.getElementById('block-modal');
 const modalWordsList = document.getElementById('modal-words-list');
@@ -60,7 +67,11 @@ function switchSection(activeButton, sectionToShow) {
     } else if (sectionToShow === secSettings) {
         renderMutedKeywords();
         renderExceptionKeywords();
+        // Carrega o token salvo no input
+        githubTokenInput.value = githubToken;
     }
+    
+    updateFabVisibility();
 }
 
 btnFeed.addEventListener('click', () => switchSection(btnFeed, secFeed));
@@ -109,6 +120,7 @@ window.addEventListener('scroll', () => {
                 }
             }
         });
+        updateFabVisibility();
     }
 });
 
@@ -557,9 +569,116 @@ exceptionInput.addEventListener('keypress', (e) => {
     }
 });
 
+// Controla a visibilidade do botão flutuante (FAB)
+function updateFabVisibility() {
+    const isFeedActive = !secFeed.classList.contains('hidden');
+    // Conta cards que não possuem a classe de opacidade reduzida ou marcação de lidos
+    const visibleUnreadCards = Array.from(newsGrid.querySelectorAll('.news-card')).filter(card => {
+        return !readUrls.has(card.dataset.url) && card.style.opacity !== '0.35';
+    });
+
+    if (isFeedActive && visibleUnreadCards.length > 0) {
+        btnNextNews.classList.remove('hidden');
+    } else {
+        btnNextNews.classList.add('hidden');
+    }
+}
+
+// Rola suavemente até o próximo item não lido do feed
+function scrollToNextUnread() {
+    const cards = Array.from(newsGrid.querySelectorAll('.news-card'));
+    const unreadCards = cards.filter(card => {
+        return !readUrls.has(card.dataset.url) && card.style.opacity !== '0.35';
+    });
+
+    if (unreadCards.length === 0) {
+        updateFabVisibility();
+        return;
+    }
+
+    // Acha a primeira notícia não lida cujo topo está abaixo ou parcialmente na tela
+    // Usamos 80px de margem por causa do cabeçalho fixo
+    const nextCard = unreadCards.find(card => {
+        const rect = card.getBoundingClientRect();
+        return rect.top > 85;
+    }) || unreadCards[0]; // Se não achar (todos acima), rola para a primeira não lida restante
+
+    if (nextCard) {
+        nextCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+}
+
+// Dispara o fluxo do GitHub Actions remotamente
+async function triggerGitHubUpdate() {
+    if (!githubToken) {
+        alert("Por favor, configure seu Token do GitHub na aba 'Filtros' para ativar a atualização sob demanda.");
+        switchSection(btnSettings, secSettings);
+        return;
+    }
+
+    const icon = btnTriggerUpdate.querySelector('i');
+    icon.classList.add('spin');
+    btnTriggerUpdate.disabled = true;
+
+    // Obtém o nome do usuário e repositório da URL atual do GitHub Pages
+    // Formato padrão: https://jeffersonadv.github.io/news-reader/
+    let owner = "jeffersonadv";
+    let repo = "news-reader";
+    
+    const host = window.location.hostname;
+    const path = window.location.pathname;
+    
+    if (host.includes('.github.io')) {
+        owner = host.split('.')[0];
+        repo = path.split('/')[1] || "news-reader";
+    }
+
+    const url = `https://api.github.com/repos/${owner}/${repo}/actions/workflows/update_news.yml/dispatches`;
+
+    try {
+        const response = await fetch(url, {
+            method: 'POST',
+            headers: {
+                'Authorization': `Bearer ${githubToken}`,
+                'Accept': 'application/vnd.github.v3+json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ ref: 'main' })
+        });
+
+        if (response.status === 204) {
+            alert("Solicitação enviada com sucesso! O GitHub Actions está processando a atualização na nuvem. Aguarde de 15 a 30 segundos e recarregue a página.");
+        } else {
+            const errData = await response.json().catch(() => ({}));
+            throw new Error(errData.message || `Código HTTP ${response.status}`);
+        }
+    } catch (error) {
+        console.error("Erro ao disparar atualização:", error);
+        alert(`Erro ao atualizar: ${error.message}. Verifique se o seu Token está correto e tem permissão 'actions:write'.`);
+    } finally {
+        icon.classList.remove('spin');
+        btnTriggerUpdate.disabled = false;
+    }
+}
+
+// Evento de salvamento do token
+btnSaveToken.addEventListener('click', () => {
+    const val = githubTokenInput.value.trim();
+    githubToken = val;
+    localStorage.setItem('news_reader_gh_token', val);
+    alert("Token do GitHub salvo com sucesso!");
+});
+
+// Evento de disparo da atualização
+btnTriggerUpdate.addEventListener('click', triggerGitHubUpdate);
+
+// Evento de clique para pular para a próxima notícia
+btnNextNews.addEventListener('click', scrollToNextUnread);
+
 // Busca dinâmica no Feed
 searchInput.addEventListener('input', () => {
     renderFeed();
+    updateFabVisibility();
 });
 
 // Limpar todo histórico
@@ -568,10 +687,12 @@ btnClearHistory.addEventListener('click', () => {
         readUrls.clear();
         saveReadHistory();
         renderHistory();
+        updateFabVisibility();
     }
 });
 
 // Inicia aplicação
 document.addEventListener('DOMContentLoaded', () => {
     loadNews();
+    updateFabVisibility();
 });
