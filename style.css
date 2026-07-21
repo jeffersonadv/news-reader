@@ -191,6 +191,11 @@ body {
     width: 100%;
 }
 
+.search-box.global-search {
+    max-width: 450px;
+    margin: 0 auto 2rem auto;
+}
+
 .search-icon {
     position: absolute;
     left: 1rem;

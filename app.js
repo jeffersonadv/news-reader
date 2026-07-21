@@ -75,6 +75,23 @@ function switchSection(activeButton, sectionToShow) {
     activeButton.classList.add('active');
     sectionToShow.classList.remove('hidden');
 
+    // Reseta o campo de busca e ajusta o placeholder com base na aba ativa
+    if (searchInput) {
+        searchInput.value = '';
+        if (sectionToShow === secFeed) {
+            searchInput.placeholder = "Buscar no feed...";
+            searchInput.style.display = "block";
+        } else if (sectionToShow === secHistory) {
+            searchInput.placeholder = "Buscar nas lidas...";
+            searchInput.style.display = "block";
+        } else if (sectionToShow === secSaved) {
+            searchInput.placeholder = "Buscar nas salvas...";
+            searchInput.style.display = "block";
+        } else {
+            searchInput.style.display = "none"; // Esconde busca na aba de filtros
+        }
+    }
+
     // Sempre re-renderiza ao trocar de aba para refletir novos estados
     if (sectionToShow === secFeed) {
         renderFeed();
@@ -265,11 +282,18 @@ function renderFeed() {
     const query = searchInput.value.toLowerCase().trim();
     
     // Filtra notícias: não lidas, não silenciadas e de acordo com a busca
-    const filteredNews = newsData.filter(news => {
+    let filteredNews = newsData.filter(news => {
         const matchesRead = !readUrls.has(news.link);
         const matchesMute = !isMuted(news.title);
         const matchesQuery = query ? news.title.toLowerCase().includes(query) : true;
         return matchesRead && matchesMute && matchesQuery;
+    });
+
+    // Ordena de modo que os destaques do UOL (is_main === true) apareçam primeiro no topo
+    filteredNews.sort((a, b) => {
+        const aMain = a.is_main ? 1 : 0;
+        const bMain = b.is_main ? 1 : 0;
+        return bMain - aMain; // Coloca o destaque antes das demais notícias
     });
 
     if (filteredNews.length === 0) {
@@ -298,10 +322,9 @@ function renderFeed() {
 function renderHistory() {
     historyGrid.innerHTML = '';
     
-    // Obtém a ordem reversa dos links lidos (o Set mantém a ordem de inserção, reverse coloca os últimos primeiro)
+    const query = searchInput.value.toLowerCase().trim();
     const readUrlsOrdered = Array.from(readUrls).reverse();
     
-    // Cria um dicionário para mapeamento rápido de links para notícias
     const newsByLink = {};
     newsData.forEach(item => {
         newsByLink[item.link] = item;
@@ -310,7 +333,11 @@ function renderHistory() {
     const readItems = [];
     readUrlsOrdered.forEach(url => {
         if (newsByLink[url]) {
-            readItems.push(newsByLink[url]);
+            const newsItem = newsByLink[url];
+            const matchesQuery = query ? newsItem.title.toLowerCase().includes(query) : true;
+            if (matchesQuery) {
+                readItems.push(newsItem);
+            }
         }
     });
 
@@ -318,7 +345,7 @@ function renderHistory() {
         historyGrid.innerHTML = `
             <div class="empty-state">
                 <i class="fa-solid fa-history"></i>
-                <p>Nenhuma notícia lida ainda.</p>
+                <p>${query ? 'Nenhuma notícia lida corresponde à busca.' : 'Nenhuma notícia lida ainda.'}</p>
             </div>
         `;
         return;
@@ -334,10 +361,9 @@ function renderHistory() {
 function renderSaved() {
     savedGrid.innerHTML = '';
     
-    // Obtém a ordem reversa dos links salvos (o Set mantém a ordem de inserção, reverse coloca os últimos primeiro)
+    const query = searchInput.value.toLowerCase().trim();
     const savedUrlsOrdered = Array.from(savedUrls).reverse();
     
-    // Cria um dicionário para mapeamento rápido de links para notícias
     const newsByLink = {};
     newsData.forEach(item => {
         newsByLink[item.link] = item;
@@ -346,7 +372,11 @@ function renderSaved() {
     const savedItems = [];
     savedUrlsOrdered.forEach(url => {
         if (newsByLink[url]) {
-            savedItems.push(newsByLink[url]);
+            const newsItem = newsByLink[url];
+            const matchesQuery = query ? newsItem.title.toLowerCase().includes(query) : true;
+            if (matchesQuery) {
+                savedItems.push(newsItem);
+            }
         }
     });
 
@@ -354,14 +384,13 @@ function renderSaved() {
         savedGrid.innerHTML = `
             <div class="empty-state">
                 <i class="fa-solid fa-bookmark"></i>
-                <p>Nenhuma notícia salva ainda.</p>
+                <p>${query ? 'Nenhuma notícia salva corresponde à busca.' : 'Nenhuma notícia salva ainda.'}</p>
             </div>
         `;
         return;
     }
 
     savedItems.forEach(news => {
-        // Se a notícia ainda não foi lida, renderiza com botões do Feed, senão com os botões normais
         const card = createNewsCard(news, !readUrls.has(news.link));
         savedGrid.appendChild(card);
     });
@@ -954,8 +983,16 @@ btnTriggerUpdate.addEventListener('click', triggerGitHubUpdate);
 btnNextNews.addEventListener('click', scrollToNextUnread);
 
 // Busca dinâmica no Feed
+// Busca dinâmica nas três abas principais
 searchInput.addEventListener('input', () => {
-    renderFeed();
+    const activeSection = document.querySelector('.content-section:not(.hidden)');
+    if (activeSection === secFeed) {
+        renderFeed();
+    } else if (activeSection === secHistory) {
+        renderHistory();
+    } else if (activeSection === secSaved) {
+        renderSaved();
+    }
     updateFabVisibility();
 });
 
