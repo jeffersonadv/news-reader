@@ -214,18 +214,20 @@ function updateSavedCount() {
 function saveReadHistory() {
     localStorage.setItem('news_reader_read', JSON.stringify(Array.from(readUrls)));
     updateHistoryCount();
-    syncWithGitHub();
+    syncWithRepo();
 }
 
 // Salva as notícias salvas no localStorage e sincroniza na nuvem
 function saveSavedHistory() {
     localStorage.setItem('news_reader_saved', JSON.stringify(Array.from(savedUrls)));
     updateSavedCount();
-    syncWithGitHub();
+    syncWithRepo();
 }
 
-// Mecanismo de Sincronização em Nuvem via GitHub Gists (Sem custo de BD e sem cache de CDN)
-let gistId = localStorage.getItem('news_reader_gist_id') || '';
+// Mecanismo de Sincronização em Nuvem via Repositório GitHub (Bypassa limitação de tokens sem permissão gist)
+const repoOwner = "jeffersonadv";
+const repoName = "news-reader";
+const syncFilePath = "sync.json";
 
 // Atualiza o status visual da sincronização na tela
 function updateSyncStatusUI(status, message = '') {
@@ -249,29 +251,30 @@ function updateSyncStatusUI(status, message = '') {
         case 'success':
             iconClass = 'fa-solid fa-circle-check';
             iconColor = '#22c55e';
-            text = message || 'Sincronizado com a nuvem!';
+            text = message || 'Sincronizado com o repositório!';
             break;
         case 'error':
             iconClass = 'fa-solid fa-circle-exclamation';
             iconColor = '#ef4444';
-            text = message || 'Erro ao sincronizar. Verifique se o token tem a permissão "gist".';
+            text = message || 'Erro ao sincronizar. Verifique se o token tem permissões corretas.';
             break;
     }
     
     syncStatusIndicator.innerHTML = `<i class="${iconClass}" style="color: ${iconColor};"></i> <span>${text}</span>`;
 }
 
-async function syncWithGitHub() {
+async function syncWithRepo() {
     if (!githubToken) {
         updateSyncStatusUI('no_token');
         return;
     }
     
-    updateSyncStatusUI('loading', 'Enviando atualizações para a nuvem...');
+    updateSyncStatusUI('loading', 'Sincronizando com o repositório...');
     try {
         const headers = {
             'Authorization': `token ${githubToken}`,
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
+            'Accept': 'application/vnd.github.v3+json'
         };
 
         const syncData = {
@@ -279,127 +282,73 @@ async function syncWithGitHub() {
             saved: Array.from(savedUrls)
         };
 
-        if (gistId) {
-            // Atualiza o Gist de sincronização existente
-            const res = await fetch(`https://api.github.com/gists/${gistId}`, {
-                method: 'PATCH',
-                headers,
-                body: JSON.stringify({
-                    description: 'News Reader Sync Data',
-                    files: {
-                        'news_reader_sync.json': {
-                            content: JSON.stringify(syncData)
-                        }
-                    }
-                })
-            });
-            if (res.ok) {
-                updateSyncStatusUI('success');
-            } else if (res.status === 404) {
-                gistId = '';
-                localStorage.removeItem('news_reader_gist_id');
-                await syncWithGitHub();
-            } else {
-                console.error('Falha ao atualizar Gist de sincronização:', res.statusText);
-                updateSyncStatusUI('error', `Falha ao salvar: ${res.statusText}`);
-            }
-        } else {
-            // Busca na lista do usuário se já existe um Gist com esse arquivo
-            const listRes = await fetch('https://api.github.com/gists', { headers });
-            if (listRes.ok) {
-                const gists = await listRes.json();
-                const existingGist = gists.find(g => g.files && g.files['news_reader_sync.json']);
-                if (existingGist) {
-                    gistId = existingGist.id;
-                    localStorage.setItem('news_reader_gist_id', gistId);
-                    await loadSyncDataFromGist(existingGist);
-                    return;
-                }
-            }
+        // Codifica o JSON em Base64 de forma segura para caracteres UTF-8
+        const b64Content = btoa(unescape(encodeURIComponent(JSON.stringify(syncData))));
 
-            // Cria um novo Gist privado
-            const res = await fetch('https://api.github.com/gists', {
-                method: 'POST',
-                headers,
-                body: JSON.stringify({
-                    description: 'News Reader Sync Data',
-                    public: false,
-                    files: {
-                        'news_reader_sync.json': {
-                            content: JSON.stringify(syncData)
-                        }
-                    }
-                })
-            });
-            if (res.ok) {
-                const data = await res.json();
-                gistId = data.id;
-                localStorage.setItem('news_reader_gist_id', gistId);
-                console.log('Gist de sincronização criado com ID:', gistId);
-                updateSyncStatusUI('success');
-            } else {
-                updateSyncStatusUI('error', `Erro na criação: ${res.statusText}`);
-            }
+        // Recupera o SHA atual do arquivo no repositório para evitar conflito de gravação
+        let sha = localStorage.getItem('news_reader_sync_sha') || '';
+        const getRes = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${syncFilePath}?t=${new Date().getTime()}`, { headers });
+        if (getRes.ok) {
+            const getData = await getRes.json();
+            sha = getData.sha;
+            localStorage.setItem('news_reader_sync_sha', sha);
+        }
+
+        const body = {
+            message: 'chore: update sync data [skip ci]',
+            content: b64Content
+        };
+        if (sha) {
+            body.sha = sha;
+        }
+
+        const res = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${syncFilePath}`, {
+            method: 'PUT',
+            headers,
+            body: JSON.stringify(body)
+        });
+
+        if (res.ok) {
+            const data = await res.json();
+            localStorage.setItem('news_reader_sync_sha', data.content.sha);
+            updateSyncStatusUI('success');
+        } else {
+            const errData = await res.json().catch(() => ({}));
+            console.error('Falha ao sincronizar com o repositório:', errData.message || res.statusText);
+            updateSyncStatusUI('error', `Falha ao salvar: ${errData.message || res.statusText}`);
         }
     } catch (error) {
-        console.error('Erro ao sincronizar com o GitHub:', error);
+        console.error('Erro ao sincronizar com o repositório:', error);
         updateSyncStatusUI('error', `Erro de conexão: ${error.message}`);
     }
 }
 
-async function loadSyncDataFromGist(gistObj = null) {
+async function loadSyncDataFromRepo() {
     if (!githubToken) {
         updateSyncStatusUI('no_token');
         return;
     }
     
-    updateSyncStatusUI('loading', 'Baixando dados da nuvem...');
+    updateSyncStatusUI('loading', 'Baixando dados do repositório...');
     try {
         const headers = {
-            'Authorization': `token ${githubToken}`
+            'Authorization': `token ${githubToken}`,
+            'Accept': 'application/vnd.github.v3+json'
         };
-        let gist = gistObj;
-        if (!gist && gistId) {
-            const res = await fetch(`https://api.github.com/gists/${gistId}`, { headers });
-            if (res.ok) {
-                gist = await res.json();
-            } else if (res.status === 404) {
-                gistId = '';
-                localStorage.removeItem('news_reader_gist_id');
-            }
+
+        const res = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${syncFilePath}?t=${new Date().getTime()}`, { headers });
+        
+        if (res.status === 404) {
+            updateSyncStatusUI('success', 'Nenhum backup encontrado. Será gerado ao ler ou salvar.');
+            return;
         }
 
-        if (!gist) {
-            const listRes = await fetch('https://api.github.com/gists', { headers });
-            if (listRes.ok) {
-                const gists = await listRes.json();
-                const foundGist = gists.find(g => g.files && g.files['news_reader_sync.json']);
-                if (foundGist) {
-                    gistId = foundGist.id;
-                    localStorage.setItem('news_reader_gist_id', gistId);
-                    // Busca os detalhes completos para trazer a propriedade "content" sem cache
-                    const detailRes = await fetch(`https://api.github.com/gists/${gistId}`, { headers });
-                    if (detailRes.ok) {
-                        gist = await detailRes.json();
-                    }
-                }
-            }
-        }
-
-        // Lê os arquivos direto do corpo do Gist detalhado (evita raw_url com CDN e bypassa cache)
-        if (gist && gist.files && gist.files['news_reader_sync.json']) {
-            const fileData = gist.files['news_reader_sync.json'];
+        if (res.ok) {
+            const data = await res.json();
+            localStorage.setItem('news_reader_sync_sha', data.sha);
             
-            // Se o conteúdo completo não veio no header, ou se quisermos ter certeza de pegar o payload atualizado
-            let fileContent = fileData.content;
-            if (!fileContent && fileData.raw_url) {
-                // Fallback para ler do raw_url se necessário (mas com cache buster)
-                const fileRes = await fetch(fileData.raw_url + '?t=' + new Date().getTime(), { headers });
-                if (fileRes.ok) {
-                    fileContent = await fileRes.text();
-                }
-            }
-
+            // Decodifica Base64 em UTF-8 de forma segura
+            const fileContent = decodeURIComponent(escape(atob(data.content.replace(/\s/g, ''))));
             if (fileContent) {
                 const syncData = JSON.parse(fileContent);
                 let changed = false;
@@ -435,10 +384,10 @@ async function loadSyncDataFromGist(gistObj = null) {
                 updateSyncStatusUI('success', 'Nuvem vazia.');
             }
         } else {
-            updateSyncStatusUI('success', 'Nenhum backup encontrado. Será gerado ao ler ou salvar.');
+            updateSyncStatusUI('error', `Erro ao baixar: ${res.statusText}`);
         }
     } catch (err) {
-        console.error('Erro ao ler do Gist de sincronização:', err);
+        console.error('Erro ao ler do repositório:', err);
         updateSyncStatusUI('error', `Erro ao baixar: ${err.message}`);
     }
 }
