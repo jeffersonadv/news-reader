@@ -55,6 +55,7 @@ const btnNextNews = document.getElementById('btn-next-news');
 const btnTopHistory = document.getElementById('btn-top-history');
 const syncStatusIndicator = document.getElementById('sync-status-indicator');
 const btnForceSync = document.getElementById('btn-force-sync');
+const miniSyncIndicator = document.getElementById('mini-sync-indicator');
 
 // Elementos do Overlay de Carregamento
 const updateLoadingOverlay = document.getElementById('update-loading-overlay');
@@ -232,36 +233,64 @@ const syncFilePath = "sync.json";
 
 // Atualiza o status visual da sincronização na tela
 function updateSyncStatusUI(status, message = '') {
-    if (!syncStatusIndicator) return;
-    
-    let iconClass = '';
-    let iconColor = '';
-    let text = '';
-    
-    switch (status) {
-        case 'no_token':
-            iconClass = 'fa-solid fa-circle-question';
-            iconColor = 'var(--text-muted)';
-            text = 'Token não configurado. Sincronização inativa.';
-            break;
-        case 'loading':
-            iconClass = 'fa-solid fa-circle-notch fa-spin';
-            iconColor = 'var(--accent-color)';
-            text = message || 'Conectando ao GitHub...';
-            break;
-        case 'success':
-            iconClass = 'fa-solid fa-circle-check';
-            iconColor = '#22c55e';
-            text = message || 'Sincronizado com o repositório!';
-            break;
-        case 'error':
-            iconClass = 'fa-solid fa-circle-exclamation';
-            iconColor = '#ef4444';
-            text = message || 'Erro ao sincronizar. Verifique se o token tem permissões corretas.';
-            break;
+    // 1. Atualiza o indicador textual completo (aba Filtros)
+    if (syncStatusIndicator) {
+        let iconClass = '';
+        let iconColor = '';
+        let text = '';
+        
+        switch (status) {
+            case 'no_token':
+                iconClass = 'fa-solid fa-circle-question';
+                iconColor = 'var(--text-muted)';
+                text = 'Token não configurado. Sincronização inativa.';
+                break;
+            case 'loading':
+                iconClass = 'fa-solid fa-circle-notch fa-spin';
+                iconColor = 'var(--accent-color)';
+                text = message || 'Conectando ao GitHub...';
+                break;
+            case 'success':
+                iconClass = 'fa-solid fa-circle-check';
+                iconColor = '#22c55e';
+                text = message || 'Sincronizado com o repositório!';
+                break;
+            case 'error':
+                iconClass = 'fa-solid fa-circle-exclamation';
+                iconColor = '#ef4444';
+                text = message || 'Erro ao sincronizar. Verifique se o token tem permissões corretas.';
+                break;
+        }
+        syncStatusIndicator.innerHTML = `<i class="${iconClass}" style="color: ${iconColor};"></i> <span>${text}</span>`;
     }
-    
-    syncStatusIndicator.innerHTML = `<i class="${iconClass}" style="color: ${iconColor};"></i> <span>${text}</span>`;
+
+    // 2. Atualiza o mini-indicador de bolinha no cabeçalho
+    if (miniSyncIndicator) {
+        let miniColor = 'var(--text-muted)';
+        let miniTitle = '';
+        
+        switch (status) {
+            case 'no_token':
+                miniColor = 'var(--text-muted)';
+                miniTitle = 'Sincronização inativa (sem Token)';
+                break;
+            case 'loading':
+                miniColor = 'var(--accent-color)';
+                miniTitle = 'Sincronizando...';
+                break;
+            case 'success':
+                miniColor = '#22c55e';
+                miniTitle = 'Sincronizado com a nuvem';
+                break;
+            case 'error':
+                miniColor = '#ef4444';
+                miniTitle = 'Erro de sincronização';
+                break;
+        }
+        miniSyncIndicator.innerHTML = `<i class="fa-solid fa-circle"></i>`;
+        miniSyncIndicator.style.color = miniColor;
+        miniSyncIndicator.title = miniTitle;
+    }
 }
 
 async function syncWithRepo() {
@@ -275,25 +304,57 @@ async function syncWithRepo() {
         const headers = {
             'Authorization': `token ${githubToken}`,
             'Content-Type': 'application/json',
-            'Accept': 'application/vnd.github.v3+json'
+            'Accept': 'application/vnd.github.v3+json',
+            'Cache-Control': 'no-cache, no-store, must-revalidate',
+            'Pragma': 'no-cache'
         };
 
-        const syncData = {
-            read: Array.from(readUrls),
-            saved: Array.from(savedUrls)
-        };
+        // 1. Busca os dados remotos mais recentes do arquivo sync.json no repositório antes de gravar
+        let remoteRead = [];
+        let remoteSaved = [];
+        let sha = '';
 
-        // Codifica o JSON em Base64 de forma segura para caracteres UTF-8
-        const b64Content = btoa(unescape(encodeURIComponent(JSON.stringify(syncData))));
-
-        // Recupera o SHA atual do arquivo no repositório para evitar conflito de gravação
-        let sha = localStorage.getItem('news_reader_sync_sha') || '';
         const getRes = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${syncFilePath}?t=${new Date().getTime()}`, { headers });
         if (getRes.ok) {
             const getData = await getRes.json();
             sha = getData.sha;
             localStorage.setItem('news_reader_sync_sha', sha);
+            
+            // Decodifica o conteúdo remoto
+            const fileContent = decodeURIComponent(escape(atob(getData.content.replace(/\s/g, ''))));
+            if (fileContent) {
+                const remoteData = JSON.parse(fileContent);
+                if (remoteData.read && Array.isArray(remoteData.read)) {
+                    remoteRead = remoteData.read;
+                }
+                if (remoteData.saved && Array.isArray(remoteData.saved)) {
+                    remoteSaved = remoteData.saved;
+                }
+            }
         }
+
+        // 2. Mescla o conteúdo remoto com o conteúdo local para não apagar nenhuma alteração
+        const beforeReadSize = readUrls.size;
+        const beforeSavedSize = savedUrls.size;
+
+        remoteRead.forEach(url => readUrls.add(url));
+        remoteSaved.forEach(url => savedUrls.add(url));
+
+        const dataChanged = (readUrls.size !== beforeReadSize) || (savedUrls.size !== beforeSavedSize);
+
+        if (dataChanged) {
+            // Atualiza os registros locais se o servidor trouxe novidades
+            localStorage.setItem('news_reader_read', JSON.stringify(Array.from(readUrls)));
+            localStorage.setItem('news_reader_saved', JSON.stringify(Array.from(savedUrls)));
+        }
+
+        // 3. Prepara o payload com os dados mesclados finais
+        const syncData = {
+            read: Array.from(readUrls),
+            saved: Array.from(savedUrls)
+        };
+
+        const b64Content = btoa(unescape(encodeURIComponent(JSON.stringify(syncData))));
 
         const body = {
             message: 'chore: update sync data [skip ci]',
@@ -303,6 +364,7 @@ async function syncWithRepo() {
             body.sha = sha;
         }
 
+        // 4. Grava os dados finais de volta no repositório
         const res = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${syncFilePath}`, {
             method: 'PUT',
             headers,
@@ -313,6 +375,15 @@ async function syncWithRepo() {
             const data = await res.json();
             localStorage.setItem('news_reader_sync_sha', data.content.sha);
             updateSyncStatusUI('success');
+            
+            if (dataChanged) {
+                updateHistoryCount();
+                updateSavedCount();
+                const activeSection = document.querySelector('.content-section:not(.hidden)');
+                if (activeSection === secFeed) renderFeed();
+                else if (activeSection === secHistory) renderHistory();
+                else if (activeSection === secSaved) renderSaved();
+            }
         } else {
             const errData = await res.json().catch(() => ({}));
             console.error('Falha ao sincronizar com o repositório:', errData.message || res.statusText);
@@ -334,7 +405,9 @@ async function loadSyncDataFromRepo() {
     try {
         const headers = {
             'Authorization': `token ${githubToken}`,
-            'Accept': 'application/vnd.github.v3+json'
+            'Accept': 'application/vnd.github.v3+json',
+            'Cache-Control': 'no-cache, no-store, must-revalidate',
+            'Pragma': 'no-cache'
         };
 
         const res = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${syncFilePath}?t=${new Date().getTime()}`, { headers });
