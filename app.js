@@ -173,7 +173,7 @@ async function loadNews() {
         updateHistoryCount();
         updateSavedCount();
         renderFeed();
-        loadSyncDataFromGist();
+        loadSyncDataFromRepo();
     } catch (error) {
         newsGrid.innerHTML = `
             <div class="empty-state">
@@ -1201,8 +1201,8 @@ btnSaveToken.addEventListener('click', () => {
     localStorage.setItem('news_reader_gh_token', val);
     alert("Token do GitHub salvo com sucesso!");
     if (githubToken) {
-        loadSyncDataFromGist().then(() => {
-            syncWithGitHub();
+        loadSyncDataFromRepo().then(() => {
+            syncWithRepo();
         });
     } else {
         updateSyncStatusUI('no_token');
@@ -1221,8 +1221,8 @@ btnForceSync.addEventListener('click', async () => {
     if (icon) icon.classList.add('fa-spin');
     btnForceSync.disabled = true;
     try {
-        await loadSyncDataFromGist();
-        await syncWithGitHub();
+        await loadSyncDataFromRepo();
+        await syncWithRepo();
     } catch (err) {
         console.error(err);
     } finally {
