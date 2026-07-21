@@ -494,7 +494,6 @@ function renderExceptionKeywords() {
             <button title="Remover exceção" style="color: var(--success-color);"><i class="fa-solid fa-xmark"></i></button>
         `;
         badge.querySelector('button').addEventListener('click', () => removeExceptionKeyword(word));
-        keywordsList.appendChild(badge); // OBS: deve adicionar em exceptionsList, corrigido abaixo
         exceptionsList.appendChild(badge);
     });
 }
