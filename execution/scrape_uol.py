@@ -110,14 +110,17 @@ def scrape_uol():
                     
         scan_recursive(state)
         
-        # Filtra e remove duplicadas
-        unique_news = []
-        seen_urls = set()
+        # Filtra e remove duplicadas priorizando as que contêm fotos
+        unique_news_dict = {}
         for news in extracted_items:
             url = news['link']
-            if url not in seen_urls:
-                seen_urls.add(url)
-                unique_news.append(news)
+            if url not in unique_news_dict:
+                unique_news_dict[url] = news
+            elif news['photo'] and not unique_news_dict[url]['photo']:
+                # Se já vimos esse link mas a versão anterior estava sem foto, atualiza com a foto
+                unique_news_dict[url]['photo'] = news['photo']
+                
+        unique_news = list(unique_news_dict.values())
                 
         print(f"Total de notícias extraídas de forma recursiva: {len(unique_news)}")
         
