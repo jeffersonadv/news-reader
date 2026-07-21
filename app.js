@@ -91,6 +91,27 @@ const autoReadObserver = new IntersectionObserver((entries) => {
     threshold: 0.1 // Dispara quando pelo menos 10% do card está/estava visível
 });
 
+// Detector de fim de rolagem para marcar notícias do final da página como lidas
+window.addEventListener('scroll', () => {
+    // Só funciona se estivermos vendo o Feed
+    if (secFeed.classList.contains('hidden')) return;
+    
+    // Verifica se chegou a menos de 60px do fundo do documento
+    if ((window.innerHeight + window.scrollY) >= (document.documentElement.scrollHeight - 60)) {
+        const unreadCards = newsGrid.querySelectorAll('.news-card');
+        unreadCards.forEach(card => {
+            const url = card.dataset.url;
+            if (!readUrls.has(url)) {
+                const rect = card.getBoundingClientRect();
+                // Se o card está parcialmente ou totalmente visível na tela
+                if (rect.top < window.innerHeight && rect.bottom > 0) {
+                    markAsRead(url, card, false); // Marca suavemente
+                }
+            }
+        });
+    }
+});
+
 // Carregar Notícias do noticias.json
 async function loadNews() {
     try {

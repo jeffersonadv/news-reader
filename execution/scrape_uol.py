@@ -5,7 +5,7 @@ import json
 import os
 
 def scrape_uol():
-    print("Iniciando raspagem do UOL...")
+    print("Iniciando raspagem completa do UOL...")
     
     # Configuração para ignorar erros de SSL
     ctx = ssl.create_default_context()
@@ -24,7 +24,7 @@ def scrape_uol():
         with urllib.request.urlopen(req, context=ctx) as response:
             html = response.read().decode('utf-8', errors='ignore')
             
-        # Localiza e decodifica a variável __INITIAL_STATE__
+        # Localiza a variável __INITIAL_STATE__
         match = re.search(r'__INITIAL_STATE__\s*=\s*(\{)', html)
         if not match:
             print("Erro: Não foi possível localizar __INITIAL_STATE__ na página.")
@@ -34,70 +34,94 @@ def scrape_uol():
         decoder = json.JSONDecoder()
         state, _ = decoder.raw_decode(html, start_index)
         
-        items = state.get("items", {})
-        news_items = []
+        extracted_items = []
         
-        # Extrai notícias estruturadas com títulos, links e fotos de componentes conhecidos
-        for k, v in items.items():
-            if isinstance(v, dict) and 'items' in v:
-                v_items = v['items']
-                if isinstance(v_items, list):
-                    for item in v_items:
-                        if isinstance(item, dict) and 'title' in item and 'link' in item:
-                            title = item.get('title')
-                            link = item.get('link')
-                            
-                            # Extração da foto
-                            photo = item.get('photo')
+        # Scanner recursivo para varrer todo o JSON de estado do UOL por links de notícias válidas
+        def scan_recursive(obj):
+            if isinstance(obj, dict):
+                title = obj.get('title') or obj.get('headline')
+                link = obj.get('link') or obj.get('url') or obj.get('href')
+                
+                if title and link and isinstance(title, str) and isinstance(link, str):
+                    link_lower = link.lower()
+                    
+                    # Filtro para identificar se o link corresponde a um artigo real
+                    is_article = (
+                        '.htm' in link_lower or 
+                        '.ghtm' in link_lower or 
+                        '.shtml' in link_lower or
+                        '/noticias/' in link_lower or 
+                        '/colunas/' in link_lower or 
+                        '/ao-vivo/' in link_lower or 
+                        'redirect-flash' in link_lower or
+                        '/reportagem/' in link_lower
+                    )
+                    
+                    # Validação do título para descartar links curtos de menus ou navegação
+                    if is_article and len(title) > 20 and not any(x in link_lower for x in ['/social/', '/playlist/', '/videos/', '/email/']):
+                        # Tenta extrair a foto
+                        photo_url = ""
+                        photo = obj.get('photo') or obj.get('image') or obj.get('thumbnail')
+                        if isinstance(photo, str):
+                            photo_url = photo
+                        elif isinstance(photo, dict):
+                            images = photo.get('images', [])
+                            if images and isinstance(images, list) and isinstance(images[0], dict):
+                                photo_url = images[0].get('src') or images[0].get('url') or ""
+                            if not photo_url:
+                                photo_url = photo.get('url') or photo.get('src') or ""
+                                
+                        # Fallback de busca de imagens no mesmo objeto
+                        if not photo_url:
+                            for k, v in obj.items():
+                                if any(x in k.lower() for x in ['img', 'image', 'photo', 'thumb', 'pic']):
+                                    if isinstance(v, str) and (v.startswith('http') or v.startswith('//') or v.startswith('/')):
+                                        photo_url = v
+                                        break
+                                        
+                        # Normalização das URLs
+                        if photo_url and isinstance(photo_url, str):
+                            if photo_url.startswith('//'):
+                                photo_url = 'https:' + photo_url
+                            elif photo_url.startswith('/'):
+                                photo_url = 'https://www.uol.com.br' + photo_url
+                        else:
                             photo_url = ""
-                            if isinstance(photo, str):
-                                photo_url = photo
-                            elif isinstance(photo, dict):
-                                images_list = photo.get('images')
-                                if isinstance(images_list, list) and len(images_list) > 0:
-                                    first_img = images_list[0]
-                                    if isinstance(first_img, dict):
-                                        photo_url = first_img.get('src') or first_img.get('url') or ""
-                                if not photo_url:
-                                    # Fallback em outras propriedades da foto
-                                    photo_url = photo.get('url') or photo.get('src') or ""
-                                    
-                            # Normalização da URL da foto
-                            if photo_url and isinstance(photo_url, str):
-                                if photo_url.startswith('//'):
-                                    photo_url = 'https:' + photo_url
-                            else:
-                                photo_url = ""
-                                
-                            # Normalização da URL do link
-                            if link and isinstance(link, str):
-                                if link.startswith('//'):
-                                    link = 'https:' + link
-                                elif link.startswith('/'):
-                                    link = 'https://www.uol.com.br' + link
-                            else:
-                                link = ""
-                                
-                            if title and link and len(title) > 20:
-                                news_items.append({
-                                    'title': title.strip(),
-                                    'link': link.strip(),
-                                    'photo': photo_url,
-                                    'source': 'UOL'
-                                })
-                                
-        # Filtra e remove duplicadas baseando-se no link
+                            
+                        if link.startswith('//'):
+                            link = 'https:' + link
+                        elif link.startswith('/'):
+                            link = 'https://www.uol.com.br' + link
+                            
+                        extracted_items.append({
+                            'title': title.strip(),
+                            'link': link.strip(),
+                            'photo': photo_url,
+                            'source': 'Folha' if 'folha.uol.com.br' in link_lower else 'UOL'
+                        })
+                
+                # Continua a busca recursiva
+                for val in obj.values():
+                    scan_recursive(val)
+                    
+            elif isinstance(obj, list):
+                for val in obj:
+                    scan_recursive(val)
+                    
+        scan_recursive(state)
+        
+        # Filtra e remove duplicadas
         unique_news = []
         seen_urls = set()
-        for news in news_items:
+        for news in extracted_items:
             url = news['link']
-            if url not in seen_urls and not any(x in url.lower() for x in ['/social/', '/playlist/', '/videos/']):
+            if url not in seen_urls:
                 seen_urls.add(url)
                 unique_news.append(news)
                 
-        print(f"Total de notícias extraídas com sucesso: {len(unique_news)}")
+        print(f"Total de notícias extraídas de forma recursiva: {len(unique_news)}")
         
-        # Cria a pasta raiz se não existir
+        # Caminho do arquivo de saída
         output_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         output_file = os.path.join(output_dir, "noticias.json")
         
