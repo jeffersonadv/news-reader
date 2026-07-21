@@ -309,17 +309,44 @@ function createNewsCard(news, isFeedMode) {
     card.className = 'news-card';
     card.dataset.url = news.link;
 
+    // Adiciona classes específicas se existirem metadados
+    if (news.is_main) card.classList.add('card-main');
+    if (news.is_carousel) card.classList.add('card-carousel');
+    if (news.is_video) card.classList.add('card-video');
+
     // Trata imagens em branco com placeholder moderno
     const imgHtml = news.photo 
         ? `<img src="${news.photo}" alt="Imagem da notícia" class="card-img" loading="lazy" referrerpolicy="no-referrer">`
         : `<div class="card-img" style="background: linear-gradient(135deg, #1e293b, #0f172a); display: flex; align-items: center; justify-content: center; height: 100%; width: 100%;"><i class="fa-solid fa-newspaper" style="font-size: 2.5rem; color: rgba(255,255,255,0.1)"></i></div>`;
 
+    // Overlay especial de Play se for vídeo do Canal UOL
+    const playOverlay = news.is_video 
+        ? `<div class="video-play-overlay"><i class="fa-solid fa-play"></i></div>` 
+        : '';
+
+    // Badges visuais do card
+    let badgesHtml = '';
+    if (news.is_main) {
+        badgesHtml += `<span class="card-badge badge-main"><i class="fa-solid fa-star"></i> Destaque</span>`;
+    }
+    if (news.is_carousel) {
+        badgesHtml += `<span class="card-badge badge-carousel"><i class="fa-solid fa-images"></i> Carrossel</span>`;
+    }
+    if (news.is_video) {
+        badgesHtml += `<span class="card-badge badge-video"><i class="fa-solid fa-circle-play"></i> Canal UOL</span>`;
+    }
+    if (badgesHtml) {
+        badgesHtml = `<div class="card-badges">${badgesHtml}</div>`;
+    }
+
     card.innerHTML = `
         <div class="card-img-wrapper">
             ${imgHtml}
+            ${playOverlay}
             <span class="card-source">${news.source || 'UOL'}</span>
         </div>
         <div class="card-content">
+            ${badgesHtml}
             <h3 class="card-title">${news.title}</h3>
             <div class="card-actions">
                 ${isFeedMode ? `

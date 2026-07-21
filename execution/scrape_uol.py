@@ -37,15 +37,24 @@ def scrape_uol():
         extracted_items = []
         
         # Scanner recursivo para varrer todo o JSON de estado do UOL por links de notícias válidas
-        def scan_recursive(obj):
+        def scan_recursive(obj, is_main=False, is_carousel=False, is_video=False, parent_key=""):
             if isinstance(obj, dict):
+                component = obj.get('component', '')
+                category = obj.get('category', '')
+                current_is_main = is_main
+                if component == 'CardHeadlineMain' or category == 'card-headline-main':
+                    current_is_main = True
+                
+                current_is_video = is_video
+                if parent_key == 'headlineVideo' or obj.get('type') == 'live' or obj.get('labelLive') == 'AO VIVO':
+                    current_is_video = True
+                
                 title = obj.get('title') or obj.get('headline')
-                link = obj.get('link') or obj.get('url') or obj.get('href')
+                link = obj.get('link') or obj.get('url') or obj.get('href') or obj.get('linkMais')
                 
                 if title and link and isinstance(title, str) and isinstance(link, str):
                     link_lower = link.lower()
                     
-                    # Filtro para identificar se o link corresponde a um artigo real
                     is_article = (
                         '.htm' in link_lower or 
                         '.ghtm' in link_lower or 
@@ -54,24 +63,27 @@ def scrape_uol():
                         '/colunas/' in link_lower or 
                         '/ao-vivo/' in link_lower or 
                         'redirect-flash' in link_lower or
-                        '/reportagem/' in link_lower
+                        '/reportagem/' in link_lower or
+                        'videos.uol.com.br' in link_lower
                     )
                     
-                    # Validação do título para descartar links curtos de menus ou navegação
-                    if is_article and len(title) > 20 and not any(x in link_lower for x in ['/social/', '/playlist/', '/videos/', '/email/']):
-                        # Tenta extrair a foto
+                    if is_article and len(title) > 20 and not any(x in link_lower for x in ['/social/', '/playlist/', '/videos/index', '/email/']):
                         photo_url = ""
-                        photo = obj.get('photo') or obj.get('image') or obj.get('thumbnail')
-                        if isinstance(photo, str):
-                            photo_url = photo
-                        elif isinstance(photo, dict):
-                            images = photo.get('images', [])
-                            if images and isinstance(images, list) and isinstance(images[0], dict):
-                                photo_url = images[0].get('src') or images[0].get('url') or ""
-                            if not photo_url:
-                                photo_url = photo.get('url') or photo.get('src') or ""
-                                
-                        # Fallback de busca de imagens no mesmo objeto
+                        media_id = obj.get('mediaId')
+                        if media_id and current_is_video:
+                            photo_url = f"https://thumb.mais.uol.com.br/{media_id}-large.jpg"
+                        
+                        if not photo_url:
+                            photo = obj.get('photo') or obj.get('image') or obj.get('thumbnail')
+                            if isinstance(photo, str):
+                                photo_url = photo
+                            elif isinstance(photo, dict):
+                                images = photo.get('images', [])
+                                if images and isinstance(images, list) and isinstance(images[0], dict):
+                                    photo_url = images[0].get('src') or images[0].get('url') or ""
+                                if not photo_url:
+                                    photo_url = photo.get('url') or photo.get('src') or ""
+                                    
                         if not photo_url:
                             for k, v in obj.items():
                                 if any(x in k.lower() for x in ['img', 'image', 'photo', 'thumb', 'pic']):
@@ -79,7 +91,6 @@ def scrape_uol():
                                         photo_url = v
                                         break
                                         
-                        # Normalização das URLs
                         if photo_url and isinstance(photo_url, str):
                             if photo_url.startswith('//'):
                                 photo_url = 'https:' + photo_url
@@ -93,32 +104,57 @@ def scrape_uol():
                         elif link.startswith('/'):
                             link = 'https://www.uol.com.br' + link
                             
+                        source_label = 'Folha' if 'folha.uol.com.br' in link_lower else 'UOL'
+                        if current_is_video:
+                            source_label = 'Canal UOL'
+                            
                         extracted_items.append({
                             'title': title.strip(),
                             'link': link.strip(),
                             'photo': photo_url,
-                            'source': 'Folha' if 'folha.uol.com.br' in link_lower else 'UOL'
+                            'source': source_label,
+                            'is_main': current_is_main,
+                            'is_carousel': is_carousel,
+                            'is_video': current_is_video
                         })
                 
-                # Continua a busca recursiva
-                for val in obj.values():
-                    scan_recursive(val)
+                for k, val in obj.items():
+                    child_is_main = current_is_main
+                    child_is_carousel = is_carousel
+                    child_is_video = current_is_video
+                    
+                    if k in ['mainHighlights', 'headlineHybrid']:
+                        child_is_main = True
+                    if k in ['headlineCollection', 'asideRows']:
+                        child_is_carousel = True
+                    if k == 'headlineVideo':
+                        child_is_video = True
+                        
+                    scan_recursive(val, is_main=child_is_main, is_carousel=child_is_carousel, is_video=child_is_video, parent_key=k)
                     
             elif isinstance(obj, list):
                 for val in obj:
-                    scan_recursive(val)
+                    scan_recursive(val, is_main, is_carousel, is_video, parent_key)
                     
         scan_recursive(state)
         
-        # Filtra e remove duplicadas priorizando as que contêm fotos
+        # Filtra e remove duplicadas priorizando as que contêm fotos e mesclando metadados
         unique_news_dict = {}
         for news in extracted_items:
             url = news['link']
             if url not in unique_news_dict:
                 unique_news_dict[url] = news
-            elif news['photo'] and not unique_news_dict[url]['photo']:
-                # Se já vimos esse link mas a versão anterior estava sem foto, atualiza com a foto
-                unique_news_dict[url]['photo'] = news['photo']
+            else:
+                if news['photo'] and not unique_news_dict[url]['photo']:
+                    unique_news_dict[url]['photo'] = news['photo']
+                if news.get('is_main'):
+                    unique_news_dict[url]['is_main'] = True
+                if news.get('is_carousel'):
+                    unique_news_dict[url]['is_carousel'] = True
+                if news.get('is_video'):
+                    unique_news_dict[url]['is_video'] = True
+                if news['source'] == 'Canal UOL':
+                    unique_news_dict[url]['source'] = 'Canal UOL'
                 
         unique_news = list(unique_news_dict.values())
                 
