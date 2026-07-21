@@ -327,17 +327,67 @@ function createNewsCard(news, isFeedMode) {
 function openMuteModal(title) {
     modalWordsList.innerHTML = '';
     
-    // Limpa a string de pontuações e quebra em palavras únicas relevantes
+    // 1. Extrai nomes próprios contíguos (Ex: Márcia Sensitiva, Caroline Bittencourt)
+    const properNounRegex = /([A-ZÀ-Ý][a-zà-ÿ]+(?:\s+(?:de|da|do|dos|das)\s+[A-ZÀ-Ý][a-zà-ÿ]+|\s+[A-ZÀ-Ý][a-zà-ÿ]+)+)/g;
+    const properNouns = [];
+    let match;
+    while ((match = properNounRegex.exec(title)) !== null) {
+        properNouns.push(match[1].trim().toLowerCase());
+    }
+    
+    // 2. Limpa a string de pontuações e quebra em palavras únicas relevantes
     const cleanTitle = title.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?"'“]/g, " ");
     const words = cleanTitle.split(/\s+/)
         .map(w => w.toLowerCase().trim())
         .filter(w => w.length > 2 && !STOP_WORDS.has(w));
         
     const uniqueWords = Array.from(new Set(words));
+    const uniqueProperNouns = Array.from(new Set(properNouns));
 
-    if (uniqueWords.length === 0) {
+    if (uniqueWords.length === 0 && uniqueProperNouns.length === 0) {
         modalWordsList.innerHTML = '<p style="color: var(--text-muted)">Nenhuma palavra relevante identificada.</p>';
     } else {
+        // Adiciona nomes próprios em destaque primeiro
+        if (uniqueProperNouns.length > 0) {
+            const header = document.createElement('h4');
+            header.textContent = "Assuntos/Nomes Compostos:";
+            header.style.width = "100%";
+            header.style.color = "var(--text-secondary)";
+            header.style.fontSize = "0.9rem";
+            header.style.margin = "0.5rem 0";
+            modalWordsList.appendChild(header);
+
+            uniqueProperNouns.forEach(phrase => {
+                const btn = document.createElement('button');
+                btn.className = 'word-btn';
+                btn.style.borderColor = 'var(--accent-color)';
+                btn.style.background = 'rgba(88, 101, 242, 0.1)';
+                btn.innerHTML = `<i class="fa-solid fa-users-slash"></i> <strong>${phrase}</strong>`;
+                btn.addEventListener('click', () => {
+                    addMutedKeyword(phrase);
+                    closeMuteModal();
+                });
+                modalWordsList.appendChild(btn);
+                
+                // Remove as palavras que compõem o nome próprio da lista de palavras individuais para não duplicar
+                phrase.split(/\s+/).forEach(w => {
+                    const idx = uniqueWords.indexOf(w);
+                    if (idx > -1) uniqueWords.splice(idx, 1);
+                });
+            });
+
+            if (uniqueWords.length > 0) {
+                const header2 = document.createElement('h4');
+                header2.textContent = "Palavras Individuais:";
+                header2.style.width = "100%";
+                header2.style.color = "var(--text-secondary)";
+                header2.style.fontSize = "0.9rem";
+                header2.style.margin = "1rem 0 0.5rem 0";
+                modalWordsList.appendChild(header2);
+            }
+        }
+
+        // Adiciona palavras individuais
         uniqueWords.forEach(word => {
             const btn = document.createElement('button');
             btn.className = 'word-btn';
