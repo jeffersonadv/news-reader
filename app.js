@@ -281,11 +281,14 @@ function renderFeed() {
 
     const query = searchInput.value.toLowerCase().trim();
     
-    // Filtra notícias: não lidas, não silenciadas e de acordo com a busca
+    // Filtra notícias: não lidas, não silenciadas e de acordo com a busca (incluindo sub-notícias)
     let filteredNews = newsData.filter(news => {
         const matchesRead = !readUrls.has(news.link);
         const matchesMute = !isMuted(news.title);
-        const matchesQuery = query ? news.title.toLowerCase().includes(query) : true;
+        const matchesQuery = query ? (
+            news.title.toLowerCase().includes(query) || 
+            (news.relateds && news.relateds.some(rel => rel.title.toLowerCase().includes(query)))
+        ) : true;
         return matchesRead && matchesMute && matchesQuery;
     });
 
@@ -334,7 +337,10 @@ function renderHistory() {
     readUrlsOrdered.forEach(url => {
         if (newsByLink[url]) {
             const newsItem = newsByLink[url];
-            const matchesQuery = query ? newsItem.title.toLowerCase().includes(query) : true;
+            const matchesQuery = query ? (
+                newsItem.title.toLowerCase().includes(query) ||
+                (newsItem.relateds && newsItem.relateds.some(rel => rel.title.toLowerCase().includes(query)))
+            ) : true;
             if (matchesQuery) {
                 readItems.push(newsItem);
             }
@@ -373,7 +379,10 @@ function renderSaved() {
     savedUrlsOrdered.forEach(url => {
         if (newsByLink[url]) {
             const newsItem = newsByLink[url];
-            const matchesQuery = query ? newsItem.title.toLowerCase().includes(query) : true;
+            const matchesQuery = query ? (
+                newsItem.title.toLowerCase().includes(query) ||
+                (newsItem.relateds && newsItem.relateds.some(rel => rel.title.toLowerCase().includes(query)))
+            ) : true;
             if (matchesQuery) {
                 savedItems.push(newsItem);
             }
