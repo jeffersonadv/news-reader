@@ -3,7 +3,7 @@ let newsData = [];
 let readUrls = new Set(JSON.parse(localStorage.getItem('news_reader_read') || '[]'));
 let mutedKeywords = JSON.parse(localStorage.getItem('news_reader_muted') || '[]');
 // Exceções de notícias relevantes que ignoram o silenciamento
-const DEFAULT_EXCEPTIONS = ["investiga", "fraude", "desvio", "polícia", "preso", "presa", "prisão", "processo", "justiça", "denúncia", "crime", "acusa"];
+const DEFAULT_EXCEPTIONS = ["investiga", "fraude", "desvio", "polícia", "preso", "presa", "prisão", "processo", "justiça", "denúncia", "crime", "acusa", "morte", "morreu", "matou", "matar"];
 let exceptionKeywords = JSON.parse(localStorage.getItem('news_reader_exceptions') || JSON.stringify(DEFAULT_EXCEPTIONS));
 
 // Palavras funcionais a serem ignoradas na sugestão de bloqueio
