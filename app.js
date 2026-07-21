@@ -171,6 +171,7 @@ async function loadNews() {
         updateHistoryCount();
         updateSavedCount();
         renderFeed();
+        loadSyncDataFromGist();
     } catch (error) {
         newsGrid.innerHTML = `
             <div class="empty-state">
@@ -207,16 +208,164 @@ function updateSavedCount() {
     }
 }
 
-// Salva o histórico de lidas no localStorage
+// Salva o histórico de lidas no localStorage e sincroniza na nuvem
 function saveReadHistory() {
     localStorage.setItem('news_reader_read', JSON.stringify(Array.from(readUrls)));
     updateHistoryCount();
+    syncWithGitHub();
 }
 
-// Salva as notícias salvas no localStorage
+// Salva as notícias salvas no localStorage e sincroniza na nuvem
 function saveSavedHistory() {
     localStorage.setItem('news_reader_saved', JSON.stringify(Array.from(savedUrls)));
     updateSavedCount();
+    syncWithGitHub();
+}
+
+// Mecanismo de Sincronização em Nuvem via GitHub Gists (Sem custo de BD)
+let gistId = localStorage.getItem('news_reader_gist_id') || '';
+
+async function syncWithGitHub() {
+    if (!githubToken) return;
+    
+    try {
+        const headers = {
+            'Authorization': `token ${githubToken}`,
+            'Content-Type': 'application/json'
+        };
+
+        const syncData = {
+            read: Array.from(readUrls),
+            saved: Array.from(savedUrls)
+        };
+
+        if (gistId) {
+            // Atualiza o Gist de sincronização existente
+            const res = await fetch(`https://api.github.com/gists/${gistId}`, {
+                method: 'PATCH',
+                headers,
+                body: JSON.stringify({
+                    description: 'News Reader Sync Data',
+                    files: {
+                        'news_reader_sync.json': {
+                            content: JSON.stringify(syncData)
+                        }
+                    }
+                })
+            });
+            if (!res.ok) {
+                if (res.status === 404) {
+                    gistId = '';
+                    localStorage.removeItem('news_reader_gist_id');
+                    await syncWithGitHub();
+                } else {
+                    console.error('Falha ao atualizar Gist de sincronização:', res.statusText);
+                }
+            }
+        } else {
+            // Cria um novo Gist de sincronização na conta do usuário
+            const listRes = await fetch('https://api.github.com/gists', { headers });
+            if (listRes.ok) {
+                const gists = await listRes.json();
+                const existingGist = gists.find(g => g.files && g.files['news_reader_sync.json']);
+                if (existingGist) {
+                    gistId = existingGist.id;
+                    localStorage.setItem('news_reader_gist_id', gistId);
+                    await loadSyncDataFromGist(existingGist);
+                    return;
+                }
+            }
+
+            const res = await fetch('https://api.github.com/gists', {
+                method: 'POST',
+                headers,
+                body: JSON.stringify({
+                    description: 'News Reader Sync Data',
+                    public: false,
+                    files: {
+                        'news_reader_sync.json': {
+                            content: JSON.stringify(syncData)
+                        }
+                    }
+                })
+            });
+            if (res.ok) {
+                const data = await res.json();
+                gistId = data.id;
+                localStorage.setItem('news_reader_gist_id', gistId);
+                console.log('Gist de sincronização criado com ID:', gistId);
+            }
+        }
+    } catch (error) {
+        console.error('Erro ao sincronizar com o GitHub:', error);
+    }
+}
+
+async function loadSyncDataFromGist(gistObj = null) {
+    if (!githubToken) return;
+    try {
+        const headers = {
+            'Authorization': `token ${githubToken}`
+        };
+        let gist = gistObj;
+        if (!gist && gistId) {
+            const res = await fetch(`https://api.github.com/gists/${gistId}`, { headers });
+            if (res.ok) {
+                gist = await res.json();
+            } else if (res.status === 404) {
+                gistId = '';
+                localStorage.removeItem('news_reader_gist_id');
+            }
+        }
+
+        if (!gist) {
+            const listRes = await fetch('https://api.github.com/gists', { headers });
+            if (listRes.ok) {
+                const gists = await listRes.json();
+                gist = gists.find(g => g.files && g.files['news_reader_sync.json']);
+                if (gist) {
+                    gistId = gist.id;
+                    localStorage.setItem('news_reader_gist_id', gistId);
+                }
+            }
+        }
+
+        if (gist && gist.files && gist.files['news_reader_sync.json']) {
+            const fileUrl = gist.files['news_reader_sync.json'].raw_url;
+            const fileRes = await fetch(fileUrl, { headers });
+            if (fileRes.ok) {
+                const syncData = await fileRes.json();
+                let changed = false;
+                if (syncData.read && Array.isArray(syncData.read)) {
+                    const beforeSize = readUrls.size;
+                    syncData.read.forEach(url => readUrls.add(url));
+                    if (readUrls.size !== beforeSize) {
+                        localStorage.setItem('news_reader_read', JSON.stringify(Array.from(readUrls)));
+                        changed = true;
+                    }
+                }
+                if (syncData.saved && Array.isArray(syncData.saved)) {
+                    const beforeSize = savedUrls.size;
+                    syncData.saved.forEach(url => savedUrls.add(url));
+                    if (savedUrls.size !== beforeSize) {
+                        localStorage.setItem('news_reader_saved', JSON.stringify(Array.from(savedUrls)));
+                        changed = true;
+                    }
+                }
+
+                if (changed) {
+                    updateHistoryCount();
+                    updateSavedCount();
+                    const activeSection = document.querySelector('.content-section:not(.hidden)');
+                    if (activeSection === secFeed) renderFeed();
+                    else if (activeSection === secHistory) renderHistory();
+                    else if (activeSection === secSaved) renderSaved();
+                }
+            }
+        }
+    } catch (err) {
+        console.error('Erro ao ler do Gist de sincronização:', err);
+    }
 }
 
 // Salva palavras silenciadas no localStorage
@@ -842,22 +991,35 @@ function scrollToNextUnread() {
     // Acha a notícia atualmente mais próxima do topo da tela (focada)
     let currentIndex = -1;
     let minDiff = Infinity;
+    let currentCardRect = null;
     cards.forEach((card, index) => {
         const rect = card.getBoundingClientRect();
         const diff = Math.abs(rect.top - 85);
         if (diff < minDiff) {
             minDiff = diff;
             currentIndex = index;
+            currentCardRect = rect;
         }
     });
 
-    // Procura a primeira notícia não lida abaixo da atual
+    const isDesktop = window.innerWidth > 768;
+
+    // Procura a primeira notícia não lida abaixo da atual (ou em uma linha inferior se for desktop)
     let nextCard = null;
     for (let i = currentIndex + 1; i < cards.length; i++) {
         const card = cards[i];
         if (!readUrls.has(card.dataset.url) && card.style.opacity !== '0.35') {
-            nextCard = card;
-            break;
+            if (isDesktop && currentCardRect) {
+                const cardRect = card.getBoundingClientRect();
+                // O topo do próximo card precisa estar pelo menos 50px abaixo do topo do card atual (nova linha)
+                if (cardRect.top > currentCardRect.top + 50) {
+                    nextCard = card;
+                    break;
+                }
+            } else {
+                nextCard = card;
+                break;
+            }
         }
     }
 
