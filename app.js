@@ -27,6 +27,7 @@ const keywordsList = document.getElementById('keywords-list');
 const keywordInput = document.getElementById('keyword-input');
 const searchInput = document.getElementById('search-input');
 const historyCountSpan = document.getElementById('history-count');
+const feedCountSpan = document.getElementById('feed-count');
 
 // Elementos de Navegação
 const btnFeed = document.getElementById('btn-feed');
@@ -151,9 +152,21 @@ async function loadNews() {
     }
 }
 
-// Atualiza o contador de histórico no menu
+// Atualiza o contador de histórico e feed no menu
 function updateHistoryCount() {
-    historyCountSpan.textContent = readUrls.size;
+    if (historyCountSpan) {
+        historyCountSpan.textContent = readUrls.size;
+    }
+    updateFeedCount();
+}
+
+// Atualiza o contador de notícias não lidas (feed)
+function updateFeedCount() {
+    if (!feedCountSpan) return;
+    const unreadCount = newsData.filter(news => {
+        return !readUrls.has(news.link) && !isMuted(news.title);
+    }).length;
+    feedCountSpan.textContent = unreadCount;
 }
 
 // Salva o histórico de lidas no localStorage
@@ -192,7 +205,6 @@ function markAsRead(url, cardElement, immediateRemove = true) {
             // Se for via scroll, apenas adiciona um estilo sutil de "lido" (dimming)
             // para não quebrar a rolagem abruptamente. A notícia desaparecerá na próxima carga.
             cardElement.style.opacity = '0.35';
-            cardElement.style.pointerEvents = 'none';
         }
     }
 }
@@ -221,6 +233,7 @@ function isMuted(title) {
 function renderFeed() {
     newsGrid.innerHTML = '';
     autoReadObserver.disconnect(); // Limpa observadores anteriores
+    updateFeedCount();
 
     const query = searchInput.value.toLowerCase().trim();
     
@@ -240,6 +253,7 @@ function renderFeed() {
                 <p style="font-size: 0.9rem; color: var(--text-muted);">Você leu todas as notícias ou os seus filtros silenciaram os conteúdos recentes.</p>
             </div>
         `;
+        updateFabVisibility();
         return;
     }
 
@@ -249,14 +263,29 @@ function renderFeed() {
         // Observa o card para marcação automática ao rolar
         autoReadObserver.observe(card);
     });
+
+    updateFabVisibility();
 }
 
-// Renderiza o Histórico de Lidas
+// Renderiza o Histórico de Lidas (com as últimas lidas no topo/inverso)
 function renderHistory() {
     historyGrid.innerHTML = '';
     
-    // Filtra as notícias carregadas que estão no histórico
-    const readItems = newsData.filter(news => readUrls.has(news.link));
+    // Obtém a ordem reversa dos links lidos (o Set mantém a ordem de inserção, reverse coloca os últimos primeiro)
+    const readUrlsOrdered = Array.from(readUrls).reverse();
+    
+    // Cria um dicionário para mapeamento rápido de links para notícias
+    const newsByLink = {};
+    newsData.forEach(item => {
+        newsByLink[item.link] = item;
+    });
+
+    const readItems = [];
+    readUrlsOrdered.forEach(url => {
+        if (newsByLink[url]) {
+            readItems.push(newsByLink[url]);
+        }
+    });
 
     if (readItems.length === 0) {
         historyGrid.innerHTML = `
@@ -304,6 +333,9 @@ function createNewsCard(news, isFeedMode) {
                     <button class="card-btn btn-unread" title="Mover de volta para o feed" style="flex: 1;">
                         <i class="fa-solid fa-arrow-rotate-left"></i> Não lida
                     </button>
+                    <button class="card-btn btn-mute" title="Ocultar este assunto">
+                        <i class="fa-solid fa-eye-slash"></i>
+                    </button>
                 `}
                 <button class="card-btn btn-whatsapp" title="Encaminhar para o WhatsApp">
                     <i class="fa-brands fa-whatsapp"></i>
@@ -320,10 +352,6 @@ function createNewsCard(news, isFeedMode) {
         card.querySelector('.btn-read').addEventListener('click', () => {
             markAsRead(news.link, card, true);
         });
-        card.querySelector('.btn-mute').addEventListener('click', (e) => {
-            e.stopPropagation();
-            openMuteModal(news.title);
-        });
     } else {
         card.querySelector('.btn-unread').addEventListener('click', () => {
             readUrls.delete(news.link);
@@ -335,6 +363,12 @@ function createNewsCard(news, isFeedMode) {
             }
         });
     }
+
+    // Ouvinte do botão de silenciamento (comum para Feed e Histórico)
+    card.querySelector('.btn-mute').addEventListener('click', (e) => {
+        e.stopPropagation();
+        openMuteModal(news.title);
+    });
 
     // Compartilhamentos
     card.querySelector('.btn-whatsapp').addEventListener('click', (e) => {
