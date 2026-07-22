@@ -676,6 +676,14 @@ function renderFeed() {
     newsGrid.innerHTML = '';
     autoReadObserver.disconnect(); // Limpa observadores anteriores
 
+    // Recuperação de emergência caso o set em memória tenha sido esvaziado indevidamente
+    if (readUrls.size === 0) {
+        const localRead = JSON.parse(localStorage.getItem('news_reader_read') || '[]');
+        if (localRead.length > 0) {
+            readUrls = new Set(localRead);
+        }
+    }
+
     const query = searchInput.value.toLowerCase().trim();
     
     // Filtra notícias: não lidas, não silenciadas e de acordo com a busca (incluindo sub-notícias)
