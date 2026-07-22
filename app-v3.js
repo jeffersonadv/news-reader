@@ -139,6 +139,12 @@ const autoReadObserver = new IntersectionObserver((entries) => {
             seenCards.add(url);
         } else {
             // Card saiu da tela
+            // Se o card deixou de intersectar simplesmente porque foi removido ou recriado no DOM, ignoramos
+            if (!document.body.contains(card)) {
+                seenCards.delete(url);
+                return;
+            }
+            
             // Verifica se o card saiu pelo topo da tela (rolagem para baixo)
             const bounding = entry.boundingClientRect;
             if (bounding.top < 0 && seenCards.has(url)) {
