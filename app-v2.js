@@ -1,6 +1,9 @@
 // Configurações e Estado do App
 let newsData = [];
 let readUrls = new Set(JSON.parse(localStorage.getItem('news_reader_read') || '[]'));
+// historyUrls controla o que APARECE na aba Lidas (limpável pelo usuário).
+// readUrls controla o que NÃO APARECE no Feed (nunca limpo automaticamente).
+let historyUrls = new Set(JSON.parse(localStorage.getItem('news_reader_history') || '[]'));
 let savedUrls = new Set(JSON.parse(localStorage.getItem('news_reader_saved') || '[]'));
 let mutedKeywords = JSON.parse(localStorage.getItem('news_reader_muted') || '[]');
 // Exceções de notícias relevantes que ignoram o silenciamento
@@ -199,7 +202,7 @@ async function loadNews() {
 // Atualiza o contador de histórico e feed no menu
 function updateHistoryCount() {
     if (historyCountSpan) {
-        historyCountSpan.textContent = readUrls.size;
+        historyCountSpan.textContent = historyUrls.size;
     }
     updateFeedCount();
 }
@@ -223,6 +226,7 @@ function updateSavedCount() {
 // Salva o histórico de lidas no localStorage e sincroniza na nuvem
 function saveReadHistory() {
     localStorage.setItem('news_reader_read', JSON.stringify(Array.from(readUrls)));
+    localStorage.setItem('news_reader_history', JSON.stringify(Array.from(historyUrls)));
     updateHistoryCount();
     syncWithRepo();
 }
@@ -357,12 +361,16 @@ async function syncWithRepo() {
 
         const beforeReadSize = readUrls.size;
         const beforeSavedSize = savedUrls.size;
+        const beforeHistorySize = historyUrls.size;
         const beforeMutedSize = mutedKeywords.length;
         const beforeExceptionsSize = exceptionKeywords.length;
 
         if (!clearHappenedDuringFetch) {
             remoteRead.forEach(url => readUrls.add(url));
             remoteSaved.forEach(url => savedUrls.add(url));
+            if (remoteData && Array.isArray(remoteData.history)) {
+                remoteData.history.forEach(url => historyUrls.add(url));
+            }
             remoteMuted.forEach(word => {
                 if (!mutedKeywords.includes(word)) mutedKeywords.push(word);
             });
@@ -373,12 +381,14 @@ async function syncWithRepo() {
 
         const dataChanged = (readUrls.size !== beforeReadSize) || 
                             (savedUrls.size !== beforeSavedSize) || 
+                            (historyUrls.size !== beforeHistorySize) ||
                             (mutedKeywords.length !== beforeMutedSize) || 
                             (exceptionKeywords.length !== beforeExceptionsSize);
 
         if (dataChanged) {
             // Atualiza os registros locais se o servidor trouxe novidades
             localStorage.setItem('news_reader_read', JSON.stringify(Array.from(readUrls)));
+            localStorage.setItem('news_reader_history', JSON.stringify(Array.from(historyUrls)));
             localStorage.setItem('news_reader_saved', JSON.stringify(Array.from(savedUrls)));
             localStorage.setItem('news_reader_muted', JSON.stringify(mutedKeywords));
             localStorage.setItem('news_reader_exceptions', JSON.stringify(exceptionKeywords));
@@ -387,6 +397,7 @@ async function syncWithRepo() {
         // 3. Prepara o payload com os dados mesclados finais
         const syncData = {
             read: Array.from(readUrls),
+            history: Array.from(historyUrls),
             saved: Array.from(savedUrls),
             muted: mutedKeywords,
             exceptions: exceptionKeywords
@@ -460,6 +471,7 @@ async function overwriteRepoSync() {
 
         const syncData = {
             read: Array.from(readUrls),
+            history: Array.from(historyUrls),
             saved: Array.from(savedUrls),
             muted: mutedKeywords,
             exceptions: exceptionKeywords
@@ -524,12 +536,23 @@ async function loadSyncDataFromRepo() {
 
                 if (Array.isArray(syncData.read)) {
                     const cloudRead = new Set(syncData.read);
-                    // Detecta diferença (tamanho diferente OU a nuvem tem itens que o local não tem ou vice-versa)
                     const localIsIdentical = readUrls.size === cloudRead.size &&
                         [...cloudRead].every(url => readUrls.has(url));
                     if (!localIsIdentical) {
                         readUrls = cloudRead;
                         localStorage.setItem('news_reader_read', JSON.stringify(syncData.read));
+                        changed = true;
+                    }
+                }
+
+                // history: substitui local pelo da nuvem (propaga limpezas entre dispositivos)
+                if (Array.isArray(syncData.history)) {
+                    const cloudHistory = new Set(syncData.history);
+                    const localIsIdentical = historyUrls.size === cloudHistory.size &&
+                        [...cloudHistory].every(url => historyUrls.has(url));
+                    if (!localIsIdentical) {
+                        historyUrls = cloudHistory;
+                        localStorage.setItem('news_reader_history', JSON.stringify(syncData.history));
                         changed = true;
                     }
                 }
@@ -601,6 +624,7 @@ function markAsRead(url, cardElement, immediateRemove = true) {
     if (readUrls.has(url)) return;
 
     readUrls.add(url);
+    historyUrls.add(url); // historyUrls controla a aba Lidas (limpável)
     saveReadHistory();
 
     if (cardElement) {
@@ -704,7 +728,8 @@ function renderHistory() {
     historyGrid.innerHTML = '';
     
     const query = searchInput.value.toLowerCase().trim();
-    const readUrlsOrdered = Array.from(readUrls).reverse();
+    // Usa historyUrls (limpável) em vez de readUrls (permanente)
+    const historyOrdered = Array.from(historyUrls).reverse();
     
     const newsByLink = {};
     newsData.forEach(item => {
@@ -712,7 +737,7 @@ function renderHistory() {
     });
 
     const readItems = [];
-    readUrlsOrdered.forEach(url => {
+    historyOrdered.forEach(url => {
         if (newsByLink[url]) {
             const newsItem = newsByLink[url];
             const matchesQuery = query ? (
@@ -908,7 +933,9 @@ function createNewsCard(news, isFeedMode) {
         });
     } else {
         card.querySelector('.btn-unread').addEventListener('click', () => {
+            // Remove dos dois sets: volta ao Feed E sai da aba Lidas
             readUrls.delete(news.link);
+            historyUrls.delete(news.link);
             saveReadHistory();
             card.remove();
             const remainingHistory = historyGrid.querySelectorAll('.news-card');
@@ -1467,16 +1494,16 @@ btnTopHistory.addEventListener('click', () => {
     }
 });
 
-// Limpar todo histórico
+// Limpar todo histórico (zera a aba Lidas, mas NÃO devolve ao Feed)
 btnClearHistory.addEventListener('click', async () => {
-    if (confirm('Tem certeza de que deseja limpar todo o seu histórico de leitura?')) {
+    if (confirm('Tem certeza de que deseja limpar o histórico de leitura?\n\nAs notícias já lidas continuarão ocultas do Feed.')) {
         // Marca o momento do clear ANTES de qualquer await, para bloquear syncs em voo
         lastClearTime = Date.now();
-        readUrls.clear();
-        localStorage.setItem('news_reader_read', JSON.stringify([]));
+        // Limpa APENAS historyUrls (aba Lidas) — readUrls (filtro do Feed) permanece intacto
+        historyUrls.clear();
+        localStorage.setItem('news_reader_history', JSON.stringify([]));
         updateHistoryCount();
         renderHistory();
-        renderFeed();
         updateFabVisibility();
         // Aguarda um tick para dar tempo aos syncs em voo de detectarem o lastClearTime
         await new Promise(r => setTimeout(r, 100));
