@@ -7,6 +7,8 @@ let mutedKeywords = JSON.parse(localStorage.getItem('news_reader_muted') || '[]'
 const DEFAULT_EXCEPTIONS = ["investiga", "fraude", "desvio", "polícia", "preso", "presa", "prisão", "processo", "justiça", "denúncia", "crime", "acusa", "morte", "morreu", "matou", "matar"];
 let exceptionKeywords = JSON.parse(localStorage.getItem('news_reader_exceptions') || JSON.stringify(DEFAULT_EXCEPTIONS));
 let githubToken = localStorage.getItem('news_reader_gh_token') || '';
+// Registra o timestamp do último clear para evitar que syncs em voo restaurem dados limpos
+let lastClearTime = 0;
 
 // Palavras funcionais a serem ignoradas na sugestão de bloqueio
 const STOP_WORDS = new Set([
@@ -313,7 +315,10 @@ async function syncWithRepo() {
             'Accept': 'application/vnd.github.v3+json'
         };
 
-        // 1. Busca os dados remotos mais recentes do arquivo sync.json no repositório antes de gravar
+        // 1. Registra o momento de início deste sync para detectar clears concorrentes
+        const syncStartTime = Date.now();
+
+        // 2. Busca os dados remotos mais recentes do arquivo sync.json no repositório antes de gravar
         let remoteRead = [];
         let remoteSaved = [];
         let remoteMuted = [];
@@ -345,21 +350,26 @@ async function syncWithRepo() {
             }
         }
 
-        // 2. Mescla o conteúdo remoto com o conteúdo local para não apagar nenhuma alteração
+        // 3. Mescla o conteúdo remoto com o local — MAS apenas se nenhum clear ocorreu
+        // durante o await acima. Se lastClearTime > syncStartTime, um clear foi disparado
+        // enquanto buscávamos os dados: descartamos a mesclagem e subimos só o estado atual.
+        const clearHappenedDuringFetch = lastClearTime > syncStartTime;
+
         const beforeReadSize = readUrls.size;
         const beforeSavedSize = savedUrls.size;
         const beforeMutedSize = mutedKeywords.length;
         const beforeExceptionsSize = exceptionKeywords.length;
 
-        remoteRead.forEach(url => readUrls.add(url));
-        remoteSaved.forEach(url => savedUrls.add(url));
-        
-        remoteMuted.forEach(word => {
-            if (!mutedKeywords.includes(word)) mutedKeywords.push(word);
-        });
-        remoteExceptions.forEach(word => {
-            if (!exceptionKeywords.includes(word)) exceptionKeywords.push(word);
-        });
+        if (!clearHappenedDuringFetch) {
+            remoteRead.forEach(url => readUrls.add(url));
+            remoteSaved.forEach(url => savedUrls.add(url));
+            remoteMuted.forEach(word => {
+                if (!mutedKeywords.includes(word)) mutedKeywords.push(word);
+            });
+            remoteExceptions.forEach(word => {
+                if (!exceptionKeywords.includes(word)) exceptionKeywords.push(word);
+            });
+        }
 
         const dataChanged = (readUrls.size !== beforeReadSize) || 
                             (savedUrls.size !== beforeSavedSize) || 
@@ -1460,13 +1470,16 @@ btnTopHistory.addEventListener('click', () => {
 // Limpar todo histórico
 btnClearHistory.addEventListener('click', async () => {
     if (confirm('Tem certeza de que deseja limpar todo o seu histórico de leitura?')) {
+        // Marca o momento do clear ANTES de qualquer await, para bloquear syncs em voo
+        lastClearTime = Date.now();
         readUrls.clear();
-        // Persiste localmente
         localStorage.setItem('news_reader_read', JSON.stringify([]));
         updateHistoryCount();
         renderHistory();
         renderFeed();
         updateFabVisibility();
+        // Aguarda um tick para dar tempo aos syncs em voo de detectarem o lastClearTime
+        await new Promise(r => setTimeout(r, 100));
         // Sobrescreve a nuvem sem mesclar (evita que os dados limpados voltem)
         await overwriteRepoSync();
     }
@@ -1475,12 +1488,15 @@ btnClearHistory.addEventListener('click', async () => {
 // Limpar notícias salvas
 btnClearSaved.addEventListener('click', async () => {
     if (confirm('Tem certeza de que deseja remover todas as notícias salvas?')) {
+        // Marca o momento do clear ANTES de qualquer await, para bloquear syncs em voo
+        lastClearTime = Date.now();
         savedUrls.clear();
-        // Persiste localmente
         localStorage.setItem('news_reader_saved', JSON.stringify([]));
         updateSavedCount();
         renderSaved();
         updateFabVisibility();
+        // Aguarda um tick para dar tempo aos syncs em voo de detectarem o lastClearTime
+        await new Promise(r => setTimeout(r, 100));
         // Sobrescreve a nuvem sem mesclar (evita que os dados limpos voltem)
         await overwriteRepoSync();
     }
