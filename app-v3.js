@@ -479,7 +479,6 @@ async function executeSyncWithRepo() {
         }
     }
 }
-}
 
 // Grava o estado atual diretamente na nuvem SEM mesclar dados remotos.
 // Usado exclusivamente após operações de limpeza (Limpar Histórico / Limpar Salvas),
