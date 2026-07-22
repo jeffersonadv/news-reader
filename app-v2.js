@@ -506,40 +506,50 @@ async function loadSyncDataFromRepo() {
             const fileContent = decodeURIComponent(escape(atob(data.content.replace(/\s/g, ''))));
             if (fileContent) {
                 const syncData = JSON.parse(fileContent);
+
+                // A nuvem é a fonte de verdade. Substitui o estado local completamente
+                // em vez de mesclar. Isso garante que operações de limpeza feitas em
+                // qualquer dispositivo se propaguem corretamente para todos os outros.
                 let changed = false;
-                
-                if (syncData.read && Array.isArray(syncData.read)) {
-                    const beforeSize = readUrls.size;
-                    syncData.read.forEach(url => readUrls.add(url));
-                    if (readUrls.size !== beforeSize) {
-                        localStorage.setItem('news_reader_read', JSON.stringify(Array.from(readUrls)));
+
+                if (Array.isArray(syncData.read)) {
+                    const cloudRead = new Set(syncData.read);
+                    // Detecta diferença (tamanho diferente OU a nuvem tem itens que o local não tem ou vice-versa)
+                    const localIsIdentical = readUrls.size === cloudRead.size &&
+                        [...cloudRead].every(url => readUrls.has(url));
+                    if (!localIsIdentical) {
+                        readUrls = cloudRead;
+                        localStorage.setItem('news_reader_read', JSON.stringify(syncData.read));
                         changed = true;
                     }
                 }
-                if (syncData.saved && Array.isArray(syncData.saved)) {
-                    const beforeSize = savedUrls.size;
-                    syncData.saved.forEach(url => savedUrls.add(url));
-                    if (savedUrls.size !== beforeSize) {
-                        localStorage.setItem('news_reader_saved', JSON.stringify(Array.from(savedUrls)));
+
+                if (Array.isArray(syncData.saved)) {
+                    const cloudSaved = new Set(syncData.saved);
+                    const localIsIdentical = savedUrls.size === cloudSaved.size &&
+                        [...cloudSaved].every(url => savedUrls.has(url));
+                    if (!localIsIdentical) {
+                        savedUrls = cloudSaved;
+                        localStorage.setItem('news_reader_saved', JSON.stringify(syncData.saved));
                         changed = true;
                     }
                 }
-                if (syncData.muted && Array.isArray(syncData.muted)) {
-                    const beforeSize = mutedKeywords.length;
-                    syncData.muted.forEach(word => {
-                        if (!mutedKeywords.includes(word)) mutedKeywords.push(word);
-                    });
-                    if (mutedKeywords.length !== beforeSize) {
+
+                if (Array.isArray(syncData.muted)) {
+                    const localSorted = [...mutedKeywords].sort().join(',');
+                    const cloudSorted = [...syncData.muted].sort().join(',');
+                    if (localSorted !== cloudSorted) {
+                        mutedKeywords = syncData.muted;
                         localStorage.setItem('news_reader_muted', JSON.stringify(mutedKeywords));
                         changed = true;
                     }
                 }
-                if (syncData.exceptions && Array.isArray(syncData.exceptions)) {
-                    const beforeSize = exceptionKeywords.length;
-                    syncData.exceptions.forEach(word => {
-                        if (!exceptionKeywords.includes(word)) exceptionKeywords.push(word);
-                    });
-                    if (exceptionKeywords.length !== beforeSize) {
+
+                if (Array.isArray(syncData.exceptions)) {
+                    const localSorted = [...exceptionKeywords].sort().join(',');
+                    const cloudSorted = [...syncData.exceptions].sort().join(',');
+                    if (localSorted !== cloudSorted) {
+                        exceptionKeywords = syncData.exceptions;
                         localStorage.setItem('news_reader_exceptions', JSON.stringify(exceptionKeywords));
                         changed = true;
                     }
