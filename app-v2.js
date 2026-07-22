@@ -427,6 +427,57 @@ async function syncWithRepo() {
     }
 }
 
+// Grava o estado atual diretamente na nuvem SEM mesclar dados remotos.
+// Usado exclusivamente após operações de limpeza (Limpar Histórico / Limpar Salvas),
+// onde a intenção é substituir — não acumular — o conteúdo remoto.
+async function overwriteRepoSync() {
+    if (!githubToken) return;
+    updateSyncStatusUI('loading', 'Sobrescrevendo dados na nuvem...');
+    try {
+        const headers = {
+            'Authorization': `token ${githubToken}`,
+            'Content-Type': 'application/json',
+            'Accept': 'application/vnd.github.v3+json'
+        };
+
+        // Busca o SHA atual (necessário para o PUT, mas sem mesclar conteúdo)
+        let sha = '';
+        const getRes = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${syncFilePath}?t=${new Date().getTime()}`, { headers });
+        if (getRes.ok) {
+            const getData = await getRes.json();
+            sha = getData.sha;
+        }
+
+        const syncData = {
+            read: Array.from(readUrls),
+            saved: Array.from(savedUrls),
+            muted: mutedKeywords,
+            exceptions: exceptionKeywords
+        };
+
+        const b64Content = btoa(unescape(encodeURIComponent(JSON.stringify(syncData))));
+        const body = { message: 'chore: clear sync data [skip ci]', content: b64Content };
+        if (sha) body.sha = sha;
+
+        const res = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${syncFilePath}`, {
+            method: 'PUT',
+            headers,
+            body: JSON.stringify(body)
+        });
+
+        if (res.ok) {
+            const data = await res.json();
+            localStorage.setItem('news_reader_sync_sha', data.content.sha);
+            updateSyncStatusUI('success', 'Dados limpos e sincronizados!');
+        } else {
+            const errData = await res.json().catch(() => ({}));
+            updateSyncStatusUI('error', `Falha ao sobrescrever: ${errData.message || res.statusText}`);
+        }
+    } catch (error) {
+        updateSyncStatusUI('error', `Erro de conexão: ${error.message}`);
+    }
+}
+
 async function loadSyncDataFromRepo() {
     if (!githubToken) {
         updateSyncStatusUI('no_token');
@@ -1397,22 +1448,31 @@ btnTopHistory.addEventListener('click', () => {
 });
 
 // Limpar todo histórico
-btnClearHistory.addEventListener('click', () => {
+btnClearHistory.addEventListener('click', async () => {
     if (confirm('Tem certeza de que deseja limpar todo o seu histórico de leitura?')) {
         readUrls.clear();
-        saveReadHistory();
+        // Persiste localmente
+        localStorage.setItem('news_reader_read', JSON.stringify([]));
+        updateHistoryCount();
         renderHistory();
+        renderFeed();
         updateFabVisibility();
+        // Sobrescreve a nuvem sem mesclar (evita que os dados limpados voltem)
+        await overwriteRepoSync();
     }
 });
 
 // Limpar notícias salvas
-btnClearSaved.addEventListener('click', () => {
+btnClearSaved.addEventListener('click', async () => {
     if (confirm('Tem certeza de que deseja remover todas as notícias salvas?')) {
         savedUrls.clear();
-        saveSavedHistory();
+        // Persiste localmente
+        localStorage.setItem('news_reader_saved', JSON.stringify([]));
+        updateSavedCount();
         renderSaved();
         updateFabVisibility();
+        // Sobrescreve a nuvem sem mesclar (evita que os dados limpos voltem)
+        await overwriteRepoSync();
     }
 });
 
