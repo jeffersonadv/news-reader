@@ -12,6 +12,10 @@ let exceptionKeywords = JSON.parse(localStorage.getItem('news_reader_exceptions'
 let githubToken = localStorage.getItem('news_reader_gh_token') || '';
 // Registra o timestamp do último clear para evitar que syncs em voo restaurem dados limpos
 let lastClearTime = 0;
+// Variáveis para debouncing e enfileiramento das chamadas de sincronização com o GitHub (evita erros 409)
+let syncTimeoutId = null;
+let isSyncing = false;
+let syncPending = false;
 
 // Palavras funcionais a serem ignoradas na sugestão de bloqueio
 const STOP_WORDS = new Set([
@@ -310,7 +314,26 @@ async function syncWithRepo() {
         updateSyncStatusUI('no_token');
         return;
     }
-    
+
+    // Se já estiver realizando uma sincronização, marca que há um sync pendente para rodar logo em seguida
+    if (isSyncing) {
+        syncPending = true;
+        return;
+    }
+
+    // Implementa um pequeno atraso (debounce) para agrupar marcações em lote
+    if (syncTimeoutId) {
+        clearTimeout(syncTimeoutId);
+    }
+
+    syncTimeoutId = setTimeout(async () => {
+        syncTimeoutId = null;
+        await executeSyncWithRepo();
+    }, 1500);
+}
+
+async function executeSyncWithRepo() {
+    isSyncing = true;
     updateSyncStatusUI('loading', 'Sincronizando com o repositório...');
     try {
         const headers = {
@@ -447,7 +470,15 @@ async function syncWithRepo() {
     } catch (error) {
         console.error('Erro ao sincronizar com o repositório:', error);
         updateSyncStatusUI('error', `Erro de conexão: ${error.message}`);
+    } finally {
+        isSyncing = false;
+        // Se houveram novas mudanças enquanto sincronizava, executa novamente
+        if (syncPending) {
+            syncPending = false;
+            syncWithRepo();
+        }
     }
+}
 }
 
 // Grava o estado atual diretamente na nuvem SEM mesclar dados remotos.
