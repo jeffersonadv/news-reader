@@ -997,7 +997,8 @@ function createNewsCard(news, mode) {
             }
         });
     } else if (mode === 'saved') {
-        card.querySelector('.btn-remove-saved').addEventListener('click', () => {
+        card.querySelector('.btn-remove-saved').addEventListener('click', (e) => {
+            e.stopPropagation(); // Impede a propagação do clique para o card inteiro
             // Remove apenas de salvas (sem alterar se é lida ou não lida)
             savedUrls.delete(news.link);
             saveSavedHistory();
