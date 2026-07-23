@@ -760,7 +760,7 @@ function renderFeed() {
     }
 
     filteredNews.forEach(news => {
-        const card = createNewsCard(news, true);
+        const card = createNewsCard(news, 'feed');
         newsGrid.appendChild(card);
         // Observa o card para marcação automática ao rolar
         autoReadObserver.observe(card);
@@ -814,7 +814,7 @@ function renderHistory() {
     }
 
     readItems.forEach(news => {
-        const card = createNewsCard(news, false);
+        const card = createNewsCard(news, 'history');
         historyGrid.appendChild(card);
     });
 }
@@ -863,7 +863,7 @@ function renderSaved() {
     }
 
     savedItems.forEach(news => {
-        const card = createNewsCard(news, !readUrls.has(news.link));
+        const card = createNewsCard(news, 'saved');
         savedGrid.appendChild(card);
     });
 }
@@ -877,7 +877,7 @@ function highlightText(text, query) {
 }
 
 // Cria a estrutura HTML do Card de Notícia
-function createNewsCard(news, isFeedMode) {
+function createNewsCard(news, mode) {
     const card = document.createElement('article');
     card.className = 'news-card';
     card.dataset.url = news.link;
@@ -944,16 +944,23 @@ function createNewsCard(news, isFeedMode) {
             <h3 class="card-title">${highlightedTitle}</h3>
             ${relatedsHtml}
             <div class="card-actions">
-                ${isFeedMode ? `
+                ${mode === 'feed' ? `
                     <button class="card-btn btn-read" title="Marcar como lida">
                         <i class="fa-solid fa-check"></i> Lida
                     </button>
                     <button class="card-btn btn-mute" title="Ocultar este assunto">
                         <i class="fa-solid fa-eye-slash"></i>
                     </button>
-                ` : `
+                ` : mode === 'history' ? `
                     <button class="card-btn btn-unread" title="Mover de volta para o feed" style="flex: 1;">
                         <i class="fa-solid fa-arrow-rotate-left"></i> Não lida
+                    </button>
+                    <button class="card-btn btn-mute" title="Ocultar este assunto">
+                        <i class="fa-solid fa-eye-slash"></i>
+                    </button>
+                ` : `
+                    <button class="card-btn btn-remove-saved" title="Remover das salvas" style="flex: 1; color: #ef4444; border-color: rgba(239, 68, 68, 0.2);">
+                        <i class="fa-solid fa-trash-can"></i> Remover
                     </button>
                     <button class="card-btn btn-mute" title="Ocultar este assunto">
                         <i class="fa-solid fa-eye-slash"></i>
@@ -973,11 +980,11 @@ function createNewsCard(news, isFeedMode) {
     `;
 
     // Eventos do Card
-    if (isFeedMode) {
+    if (mode === 'feed') {
         card.querySelector('.btn-read').addEventListener('click', () => {
             markAsRead(news.link, card, true);
         });
-    } else {
+    } else if (mode === 'history') {
         card.querySelector('.btn-unread').addEventListener('click', () => {
             // Remove dos dois sets: volta ao Feed E sai da aba Lidas
             readUrls.delete(news.link);
@@ -987,6 +994,17 @@ function createNewsCard(news, isFeedMode) {
             const remainingHistory = historyGrid.querySelectorAll('.news-card');
             if (remainingHistory.length === 0) {
                 renderHistory();
+            }
+        });
+    } else if (mode === 'saved') {
+        card.querySelector('.btn-remove-saved').addEventListener('click', () => {
+            // Remove apenas de salvas (sem alterar se é lida ou não lida)
+            savedUrls.delete(news.link);
+            saveSavedHistory();
+            card.remove();
+            const remainingSaved = savedGrid.querySelectorAll('.news-card');
+            if (remainingSaved.length === 0) {
+                renderSaved();
             }
         });
     }
