@@ -981,11 +981,15 @@ function createNewsCard(news, mode) {
 
     // Eventos do Card
     if (mode === 'feed') {
-        card.querySelector('.btn-read').addEventListener('click', () => {
+        card.querySelector('.btn-read').addEventListener('click', (e) => {
+            e.stopPropagation();
+            e.preventDefault();
             markAsRead(news.link, card, true);
         });
     } else if (mode === 'history') {
-        card.querySelector('.btn-unread').addEventListener('click', () => {
+        card.querySelector('.btn-unread').addEventListener('click', (e) => {
+            e.stopPropagation();
+            e.preventDefault();
             // Remove dos dois sets: volta ao Feed E sai da aba Lidas
             readUrls.delete(news.link);
             historyUrls.delete(news.link);
@@ -998,7 +1002,8 @@ function createNewsCard(news, mode) {
         });
     } else if (mode === 'saved') {
         card.querySelector('.btn-remove-saved').addEventListener('click', (e) => {
-            e.stopPropagation(); // Impede a propagação do clique para o card inteiro
+            e.stopPropagation();
+            e.preventDefault();
             // Remove apenas de salvas (sem alterar se é lida ou não lida)
             savedUrls.delete(news.link);
             saveSavedHistory();
@@ -1019,6 +1024,7 @@ function createNewsCard(news, mode) {
     // Ouvinte do botão de Salvar (Bookmark)
     card.querySelector('.btn-save').addEventListener('click', (e) => {
         e.stopPropagation();
+        e.preventDefault();
         const icon = e.currentTarget.querySelector('i');
         if (savedUrls.has(news.link)) {
             savedUrls.delete(news.link);
