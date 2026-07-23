@@ -27,16 +27,25 @@
     "is_main": true,
     "is_carousel": true,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Responsável por operação, Trivia Trens não dá prazo para normalizar o serviço",
+        "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/07/23/trivia-trens-problema-linhas-hoje.ghtm"
+      },
+      {
+        "title": "Rodízio de veículos na zona leste de São Paulo é suspenso após falha em trens",
+        "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/07/23/cet-suspensao-rodizio.ghtm"
+      }
+    ]
   },
   {
-    "title": "Novo fenômeno da Espanha nasceu na África e foi vizinho de Lamine Yamal",
-    "link": "https://www.uol.com.br/esporte/futebol/colunas/futebol-pelo-mundo/2026/07/23/novo-fenomeno-da-espanha-nasceu-na-africa-e-foi-vizinho-de-lamine-yamal.htm",
-    "photo": "https://imguol.com/c/esporte/39/2026/07/22/ebrima-tunkara-novo-fenomeno-da-base-do-barcelona-e-da-selecao-da-espanha-1784724862236_v2_450x253.png",
-    "source": "UOL",
+    "title": "Sua muito até parado? Pode ser mais do que só calor ou nervoso",
+    "link": "https://videos.uol.com.br/view/17360881",
+    "photo": "https://thumb.mais.uol.com.br/17360881-large.jpg",
+    "source": "Canal UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false,
+    "is_video": true,
     "relateds": []
   },
   {
@@ -47,16 +56,6 @@
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Sua muito até parado? Pode ser mais do que só calor ou nervoso",
-    "link": "https://videos.uol.com.br/view/17360881",
-    "photo": "https://thumb.mais.uol.com.br/17360881-large.jpg",
-    "source": "Canal UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": true,
     "relateds": []
   },
   {
@@ -100,25 +99,6 @@
     "relateds": []
   },
   {
-    "title": "Letícia Casado: À espera de gesto de Flávio, Michelle deve faltar em convenção do PL",
-    "link": "https://noticias.uol.com.br/colunas/leticia-casado/2026/07/23/michelle-convencao-flavio.htm",
-    "photo": "",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Por votos da direita, Caiado sobe tom contra Flávio, e bolsonaristas reagem",
-        "link": "https://noticias.uol.com.br/eleicoes/2026/07/23/por-votos-da-direita-caiado-sobe-tom-contra-flavio-e-bolsonaristas-reagem.ghtm"
-      },
-      {
-        "title": "Questionado sobre fala de Flávio, Tarcísio diz que confia nas urnas",
-        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/22/nao-tenho-nada-a-ver-com-isso-diz-tarcisio-sobre-tarifaco.ghtm"
-      }
-    ]
-  },
-  {
     "title": "Amigo de Juscelino Filho obtém contratos em estrutura bilionária do 5G",
     "link": "https://tab.uol.com.br/noticias/redacao/2026/07/23/amigo-de-juscelino-filho-obtem-contratos-em-estrutura-bilionaria-do-5g.htm",
     "photo": "https://imguol.com/c/tab/67/2026/07/22/joao-magalhaes-amigo-de-juscelino-filho-1784754334027_v2_300x225.jpg",
@@ -144,14 +124,19 @@
     ]
   },
   {
-    "title": "Maiores convênios do Novo PAC tiveram licitação com disputa mínima",
-    "link": "https://noticias.uol.com.br/colunas/natalia-portinari/2026/07/23/maiores-convenios-do-novo-pac-tiveram-licitacao-com-disputa-minima.htm",
+    "title": "Por votos da direita, Caiado sobe tom contra Flávio, e bolsonaristas reagem",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/07/23/por-votos-da-direita-caiado-sobe-tom-contra-flavio-e-bolsonaristas-reagem.ghtm",
     "photo": "",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": false,
+    "is_carousel": true,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Casado: À espera de gesto de Flávio, Michelle deve faltar em convenção do PL",
+        "link": "https://noticias.uol.com.br/colunas/leticia-casado/2026/07/23/michelle-convencao-flavio.htm"
+      }
+    ]
   },
   {
     "title": "Família de ministro do TCU venceu edital de R$ 1 bi no Porto de Santos",
@@ -194,12 +179,12 @@
     "relateds": []
   },
   {
-    "title": "Deputado italiano contrário a Zambelli diz que ela sumiu",
-    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/22/deputado-que-entregou-zambelli-na-italia-diz-que-ninguem-sabe-onde-ela-esta.htm",
-    "photo": "https://imguol.com/c/noticias/84/2026/07/22/angelo-bonelli-eurodeputado-1784738144214_v2_300x225.png",
+    "title": "De offshores aos fundos e sociedades anônimas: a mudança na ocultação de patrimônio",
+    "link": "https://noticias.uol.com.br/videos/2026/07/23/uol-prime-132-fundos-de-investimento.htm",
+    "photo": "https://imguol.com/c/noticias/c0/2023/08/04/investimentos-acoes-empresas-bolsas-de-valores-ibovespa-lucro-rendimentos-riqueza-dinheiro-1691155973793_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": true,
+    "is_carousel": false,
     "is_video": false,
     "relateds": []
   },
@@ -213,15 +198,19 @@
     "is_video": false,
     "relateds": [
       {
-        "title": "Fla goleia Chapecoense",
+        "title": "Pedro dá show, e Flamengo goleia Chapecoense",
         "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/22/chapecoense-x-flamengo-pelo-campeonato-brasileiro.ghtm"
+      },
+      {
+        "title": "Jardim despista sobre Almada e prevê retorno gradual de Arrascaeta ao Fla",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/23/jardim-despista-sobre-almada-e-preve-retorno-gradual-de-arrascaeta-ao-fla.ghtm"
       }
     ]
   },
   {
-    "title": "Cantor Roberto Carlos passa por cirurgia na vesícula",
-    "link": "https://www.uol.com.br/splash/noticias/2026/07/22/roberto-carlos-passa-por-cirurgia-informa-assessoria.ghtm",
-    "photo": "https://imguol.com/c/splash/cf/2025/11/14/roberto-carlos-1763127324484_v2_300x225.jpg",
+    "title": "Maiores convênios do Novo PAC tiveram licitação com disputa mínima",
+    "link": "https://noticias.uol.com.br/colunas/natalia-portinari/2026/07/23/maiores-convenios-do-novo-pac-tiveram-licitacao-com-disputa-minima.htm",
+    "photo": "",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -229,24 +218,19 @@
     "relateds": []
   },
   {
-    "title": "Câmara dos EUA aprova orçamento de R$ 480 bi para guerra contra Irã",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/07/22/camara-dos-eua-aprova-orcamento-de-r-480-bilhoes-para-guerra-contra-ira.ghtm",
+    "title": "Gás do Povo provoca guerra dos botijões entre fabricante nacional e importador da China",
+    "link": "https://www1.folha.uol.com.br/mercado/2026/07/gas-do-povo-provoca-guerra-dos-botijoes-entre-fabricantes-nacionais-e-importadores-da-china.shtml",
     "photo": "",
-    "source": "UOL",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": [
-      {
-        "title": "EUA voltam a bombardear Irã pela 12ª noite",
-        "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/07/22/eua-voltam-a-bombardear-cidades-iranianas-pela-12-noite.ghtm"
-      }
-    ]
+    "relateds": []
   },
   {
-    "title": "Influenciadora tem dados pessoais vazados após chamar BTS de 'afeminados'",
-    "link": "https://f5.folha.uol.com.br/celebridades/2026/07/influenciadora-tem-dados-pessoais-vazados-apos-chamar-bts-de-afeminados.shtml",
-    "photo": "https://imguol.com/c/home/ca/2026/07/22/pietra-bertolazzi-a-esq-e-jin-integrante-do-bts-a-dir-1784753675418_v2_300x225.jpg",
+    "title": "Zanin autoriza investigação da PF sobre Moura Ribeiro, ministro do STJ",
+    "link": "https://www1.folha.uol.com.br/poder/2026/07/zanin-autoriza-investigacao-da-pf-sobre-moura-ribeiro-ministro-do-stj.shtml",
+    "photo": "https://imguol.com/c/home/75/2026/07/23/o-ministro-moura-ribeiro-do-stj-1784806901235_v2_300x225.jpg",
     "source": "Folha",
     "is_main": false,
     "is_carousel": false,
@@ -264,29 +248,24 @@
     "relateds": []
   },
   {
-    "title": "Sindicatos e aposentados retomam protestos contra ajustes econômicos de Milei",
-    "link": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/07/22/sindicatos-e-aposentados-retomam-protestos-contra-ajuste-de-milei.htm",
-    "photo": "https://imguol.com/c/home/5c/2026/07/22/this-aerial-view-shows-labor-unions-retirees-and-social-organizations-taking-part-in-a-protest-against-the-economic-adjustment-measures-implemented-by-argentinas-president-javier-milei-in-buenos-1784766684910_v2_300x225.jpg",
+    "title": "Novo fenômeno da Espanha nasceu na África e foi vizinho de Lamine Yamal",
+    "link": "https://www.uol.com.br/esporte/futebol/colunas/futebol-pelo-mundo/2026/07/23/novo-fenomeno-da-espanha-nasceu-na-africa-e-foi-vizinho-de-lamine-yamal.htm",
+    "photo": "https://imguol.com/c/esporte/39/2026/07/22/ebrima-tunkara-novo-fenomeno-da-base-do-barcelona-e-da-selecao-da-espanha-1784724862236_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "'Dança dos Famosos não é uma competição justa', diz ex-bailarina do Faustão",
+    "link": "https://www.uol.com.br/splash/noticias/2026/07/23/ex-bailarina-do-faustao-danca-dos-famosos-nao-e-uma-competicao-justa.ghtm",
+    "photo": "https://imguol.com/c/splash/b7/2026/07/17/ex-bailarina-do-faustao-danca-dos-famosos-nao-e-uma-competicao-justa-1784298857826_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
     "relateds": []
-  },
-  {
-    "title": "Ameaça e vandalismo: argentinos que vivem no Brasil relatam ataque xenofóbico",
-    "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/07/22/argentinos-que-vivem-no-brasil-relatam-ataques-racistas-e-xenofobos.ghtm",
-    "photo": "https://imguol.com/c/noticias/d2/2026/07/22/ameaca-enviada-em-grupo-de-whatsapp-durante-a-copa-do-mundo-1784731407368_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Brasileira em Buenos Aires fala em medo de pisar na rua",
-        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/22/medo-de-pisar-na-rua-o-dia-de-estudante-brasileira-ameacada-na-argentina.ghtm"
-      }
-    ]
   },
   {
     "title": "Athletico vira sobre o São Paulo sem teto nem perspectiva",
@@ -529,9 +508,9 @@
     "relateds": []
   },
   {
-    "title": "Qual nível de testosterona é ideal e o que ela realmente faz no seu corpo",
-    "link": "https://www.uol.com.br/vivabem/noticias/redacao/2026/07/22/mais-testosterona-homem-mais-forte.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/b7/2023/06/06/homem-musculoso-idoso-velho-mais-velho-musculos-1686078085298_v2_300x300.jpg",
+    "title": "Turista americana sofre lesão genital em Honduras; socorro custou R$ 270 mil",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/07/22/turista-sofre-lesao-genital-em-honduras-socorro-custou-r-270-mil.ghtm",
+    "photo": "https://imguol.com/c/home/80/2026/07/22/kirsten-lindsey-28-sofreu-a-lesao-durante-salto-com-corda-em-honduras-1784764446196_v2_300x225.png?1784764449783",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -539,9 +518,9 @@
     "relateds": []
   },
   {
-    "title": "Por votos da direita, Caiado sobe tom contra Flávio, e bolsonaristas reagem",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/07/23/por-votos-da-direita-caiado-sobe-tom-contra-flavio-e-bolsonaristas-reagem.ghtm",
-    "photo": "",
+    "title": "Thaila Ayala 'expõe' compras inúteis do marido Renato Góes",
+    "link": "https://www.uol.com.br/splash/noticias/2026/07/22/thaila-ayala-expoe-renato-goes-e-mostra-compras-inuteis-do-marido.ghtm",
+    "photo": "https://imguol.com/c/splash/66/2026/07/22/thaila-ayala-expos-as-compras-online-de-renato-goes-nas-redes-sociais-1784771241788_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -559,29 +538,9 @@
     "relateds": []
   },
   {
-    "title": "Fãs de Deolane fazem ato na Av. Paulista pela liberdade dela",
-    "link": "https://f5.folha.uol.com.br/voceviu/2026/07/fas-de-deolane-bezerra-fazem-ato-na-avenida-paulista-e-pedem-liberdade-da-influenciadora.shtml",
-    "photo": "https://imguol.com/c/home/0c/2026/07/22/manifestantes-protestam-por-liberdade-de-deolane-bezerra-1784752629541_v2_300x225.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Ghostface do cinema estreia no OnlyFans com Carmen Electra",
-    "link": "https://www.uol.com.br/splash/noticias/2026/07/22/ghostface-de-todo-mundo-em-panico-estreia-no-onlyfans-com-carmen-electra.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/b4/2026/07/22/ghostface-e-carmen-electra-em-video-para-o-onlyfans-1784758694384_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Lito Sousa é diagnosticado com inflamação do sistema nervoso central",
-    "link": "https://www.uol.com.br/splash/noticias/2026/07/22/lito-sousa.ghtm",
-    "photo": "https://imguol.com/c/splash/85/2026/07/18/o-youtuber-lito-sousa-revelou-o-diagnostico-de-cancer-de-prostata-1784378434856_v2_300x225.jpg",
+    "title": "Atriz Cristiana Oliveira sobre menopausa: 'Aceitei meu corpo como ele é hoje'",
+    "link": "https://www.uol.com.br/vivabem/noticias/redacao/2026/07/23/cristiana-oliveira-sobre-menopausa-aceitei-meu-corpo-como-ele-e-hoje.ghtm",
+    "photo": "https://imguol.com/c/galeria/86/2026/07/21/cristiana-oliveira-em-evento-de-vivabem-sobre-obesidade-1784664980737_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -589,9 +548,9 @@
     "relateds": []
   },
   {
-    "title": "Turista americana sofre lesão genital em Honduras; socorro custou R$ 270 mil",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/07/22/turista-sofre-lesao-genital-em-honduras-socorro-custou-r-270-mil.ghtm",
-    "photo": "https://imguol.com/c/home/80/2026/07/22/kirsten-lindsey-28-sofreu-a-lesao-durante-salto-com-corda-em-honduras-1784764446196_v2_300x225.png?1784764449783",
+    "title": "Larissa Teixeira: Para quem sente dor todo dia, qualquer desconforto parece normal",
+    "link": "https://www.uol.com.br/vivabem/colunas/opiniao/2026/07/23/para-quem-sente-dor-todos-os-dias-qualquer-desconforto-parece-normal.htm",
+    "photo": "https://imguol.com/c/entretenimento/a8/2026/07/21/dores-nas-costas-1784655235318_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -599,9 +558,9 @@
     "relateds": []
   },
   {
-    "title": "Estudante desaparece após trocar viagem de ônibus por carro entre SC e PR",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/07/22/estudante-da-ufsc-desaparece-apos-trocar-viajem-de-onibus-por-carro-em-sc.ghtm",
-    "photo": "https://imguol.com/c/home/ce/2026/07/22/mayara-kemmer-klaus-desapareceu-durante-trajeto-entre-joinville-sc-e-londrina-pr-1784749178043_v2_300x225.jpg?1784749184508",
+    "title": "De quedas à liderança da Série C: reconstrução da Inter de Limeira terá dinheiro árabe",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/23/de-quedas-a-lideranca-da-serie-c-reconstrucao-da-inter-tera-dinheiro-arabe.ghtm",
+    "photo": "https://imguol.com/c/esporte/e5/2026/07/22/ronaldo-e-roberto-carlos-sao-amigos-desde-a-epoca-de-jogador-1784725500641_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -609,9 +568,9 @@
     "relateds": []
   },
   {
-    "title": "'Assédio por pelos': entenda polêmica após Japão liberar bermuda no ambiente de trabalho",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/07/22/japao-libera-bermudas-no-trabalho-e-cria-polemica-por-pelos-nas-pernas.ghtm",
-    "photo": "https://imguol.com/c/noticias/09/2026/07/22/por-que-homens-de-bermuda-no-trabalho-estao-causando-polemica-no-japao-1784731059344_v2_300x225.png",
+    "title": "Viagens em grupo só para mulheres ajudam a vencer o medo e viram tendência",
+    "link": "https://www.uol.com.br/nossa/noticias/redacao/2026/07/23/por-que-mulheres-estao-mudando-a-forma-de-conhecer-o-mundo.htm",
+    "photo": "https://imguol.com/c/entretenimento/95/2026/07/22/grupo-de-viagem-para-mulheres-1784757951779_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -619,19 +578,9 @@
     "relateds": []
   },
   {
-    "title": "Bebê morre ao prender a cabeça em creche de São Paulo; funcionários são investigados",
-    "link": "https://www1.folha.uol.com.br/cotidiano/2026/07/bebe-morre-durante-atividade-em-creche-de-sao-paulo-funcionarios-sao-investigados.shtml",
-    "photo": "https://imguol.com/c/home/17/2026/07/22/abdoulaye-dieng-de-um-ano-e-quatro-meses-que-morreu-apos-ocorrencia-em-creche-1784756830667_v2_300x225.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Irmãos do ator Chadwick Boseman pedem remoção de viúva da gestão do espólio",
-    "link": "https://www.uol.com.br/splash/noticias/2026/07/22/chadwick-boseman-espolio.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/0e/2022/11/09/chadwick-boseman-como-o-pantera-negra-novo-filme-honra-legado-do-ator-e-se-conecta-a-outros-filmes-da-marvel-1668028424473_v2_300x225.jpg",
+    "title": "Pés de spa por R$ 32: máscara esfoliante Océane tem 40% off hoje",
+    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/07/23/pes-de-spa-por-r-26-mascara-esfoliante-oceane-tem-51-off-na-amazon.ghtm",
+    "photo": "https://imguol.com/c/guia-de-compras/7d/2026/07/15/oceane-mascara-esfoliante-para-pes-com-oleo-de-coco-1784125939894_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -639,9 +588,9 @@
     "relateds": []
   },
   {
-    "title": "Kaylee Hottle, atriz de 'Godzilla vs. Kong', morreu de traumatismo, diz site",
-    "link": "https://www.uol.com.br/splash/noticias/2026/07/22/kaylee-hottle-tem-causa-da-morte-revelada.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/80/2026/07/21/kaylee-hottle-durante-lancamento-de-godzilla-x-kong-the-new-empire-em-2024-1784648003353_v2_300x225.jpg",
+    "title": "Programa prepara startups para escalar IA com controle de custos e se adequar à LGPD",
+    "link": "https://economia.uol.com.br/colunas/aline-sordili/2026/07/23/programa-prepara-startups-para-escalar-ia-com-controle-de-custos-e-de-lgpd.htm",
+    "photo": "https://imguol.com/c/noticias/64/2026/01/16/o-aluno-carlos-henrique-rodrigues-de-jesus-e-o-coordenador-de-startups-heinz-rahmig-no-laboratorio-do-centro-de-excelencia-em-inteligencia-artificial-da-universidade-federal-de-goias-1768565714534_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -649,29 +598,9 @@
     "relateds": []
   },
   {
-    "title": "Após ameaças, prefeito de Nova York diz não poder prender Netanyahu",
-    "link": "https://noticias.uol.com.br/ultimas-noticias/reuters/2026/07/22/por-que-o-prefeito-de-nova-york-nao-pode-prender-netanyahu.htm",
-    "photo": "https://imguol.com/c/noticias/61/2026/06/15/15jun26---primeiro-ministro-de-israel-benjamin-netanyahu-durante-coletiva-de-imprensa-em-jerusalem-1781570528649_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Após decisão, Blaze nega dar comissão a influencers por perda de apostador",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/07/22/bet-decisao-justica-julho-2026.ghtm",
-    "photo": "https://imguol.com/c/home/6b/2026/07/22/a-influenciadora-virginia-fonseca-durante-depoimento-a-cpi-das-bets-no-senado-federal-em-abril-de-2025---1784749646074_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Leilões de imóveis em 21 estados têm opção por R$ 25 mil e descontos de 79%",
-    "link": "https://economia.uol.com.br/noticias/redacao/2026/07/22/leiloes-de-imoveis-em-21-estados-tem-opcao-por-r-25-mil-e-descontos-de-79.ghtm",
-    "photo": "https://imguol.com/c/noticias/51/2026/07/22/imovel-em-fortaleza-dos-valor-rs-esta-no-leilao-do-santander-1784758312127_v2_300x225.jpg",
+    "title": "Julio Segala explica por que o Kumon ensina alunos a aprenderem sozinhos",
+    "link": "https://economia.uol.com.br/noticias/redacao/2026/07/23/julio-segala-do-kumon-no-diva-de-cnpj.ghtm",
+    "photo": "https://imguol.com/c/noticias/dc/2026/07/21/jose-julio-segala-vice-presidente-de-operacoes-e-marketing-do-kumon-no-diva-de-cnpj-1784637460372_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -759,41 +688,21 @@
     "relateds": []
   },
   {
+    "title": "'Cara de Barro' ganha trailer e promete terror corporal no universo da DC",
+    "link": "https://www1.folha.uol.com.br/ilustrada/2026/04/cara-de-barro-ganha-trailer-e-promete-terror-corporal-no-universo-da-dc-veja.shtml",
+    "photo": "https://imguol.com/c/home/55/2026/07/23/cena-do-filme-clayface-de-james-watkins-1784807953422_v2_450x253.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Anitta expande império com turnê, já Ludmilla mergulha em show íntimo",
     "link": "https://www.uol.com.br/toca/noticias/2026/07/22/anitta-expande-imperio-enquanto-ludmilla-mergulha-em-show-intimo.ghtm",
-    "photo": "https://imguol.com/c/toca/0b/2026/07/22/anitta-inicia-turne-em-agosto-ludmilla-faz-show-unico-do-album-fragmentos-amanha-no-rio-1784746304761_v2_450x337.png",
+    "photo": "https://imguol.com/c/toca/0b/2026/07/22/anitta-inicia-turne-em-agosto-ludmilla-faz-show-unico-do-album-fragmentos-amanha-no-rio-1784746304761_v2_300x300.png",
     "source": "UOL",
     "is_main": true,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Ator de 'A Odisseia' diz que ficou 14 horas por dia sem enxergar em filmagens",
-    "link": "https://www.uol.com.br/splash/noticias/2026/07/22/ator-de-a-odisseia-ficou-sem-enxergar-por-14-horas-em-filmagens.ghtm",
-    "photo": "https://imguol.com/c/splash/98/2026/07/22/john-leguizamo-em-cena-de-a-odisseia-1784754571895_v2_450x253.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Cantor português Luís Represas, ex-vocalista do Trovante, morre aos 69 anos",
-    "link": "https://www.uol.com.br/splash/noticias/2026/07/22/luis-represas-ex-vocalista-do-trovante-morre-aos-69-anos.ghtm",
-    "photo": "https://imguol.com/55/2026/07/22/cantor-portugues-luis-represas-1784742570568_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Carolina Dieckmmann diz que perdeu contratos após raspar a cabeça em novela",
-    "link": "https://www.uol.com.br/splash/noticias/2026/07/22/carolina-dieckmmann-diz-que-perdeu-contratos-apos-raspar-a-cabeca-em-novela.ghtm",
-    "photo": "https://imguol.com/c/splash/a7/2026/07/22/carolina-dieckmmann-afirmou-que-nao-recebeu-pagamento-extra-para-raspar-a-cabeca-em-lacos-de-familia-1784757641497_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
     "is_carousel": true,
     "is_video": false,
     "relateds": []
@@ -809,9 +718,9 @@
     "relateds": []
   },
   {
-    "title": "'Quem Ama Cuida': Suely toma coragem e joga bomba no colo de Pedro",
-    "link": "https://www.uol.com.br/splash/noticias/2026/07/22/quem-ama-cuida-suely-entrega-crimes-de-ademir-e-deixa-pedro-em-choque.ghtm",
-    "photo": "https://imguol.com/c/splash/9f/2026/07/22/suely-julia-stockler-e-pedro-chay-suede-em-quem-ama-cuida-1784753271093_v2_300x225.jpg",
+    "title": "Irmãos do ator Chadwick Boseman pedem remoção de viúva da gestão do espólio",
+    "link": "https://www.uol.com.br/splash/noticias/2026/07/22/chadwick-boseman-espolio.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/0e/2022/11/09/chadwick-boseman-como-o-pantera-negra-novo-filme-honra-legado-do-ator-e-se-conecta-a-outros-filmes-da-marvel-1668028424473_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -819,10 +728,20 @@
     "relateds": []
   },
   {
-    "title": "Cassado, Deltan pede que TRE o declare elegível; especialistas contestam",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/07/22/deltan-inelegibilidade.ghtm",
-    "photo": "https://imguol.com/c/noticias/12/2023/07/27/o-ex-procurador-e-deputado-cassado-deltan-dallagnol-na-camara-dos-deputados-1690478352650_v2_450x337.jpg",
+    "title": "Lito Sousa é diagnosticado com inflamação do sistema nervoso central",
+    "link": "https://www.uol.com.br/splash/noticias/2026/07/22/lito-sousa.ghtm",
+    "photo": "https://imguol.com/c/splash/85/2026/07/18/o-youtuber-lito-sousa-revelou-o-diagnostico-de-cancer-de-prostata-1784378434856_v2_300x225.jpg",
     "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Falsa delegacia da Polícia Federal é descoberta pela Interpol na África",
+    "link": "https://www1.folha.uol.com.br/cotidiano/2026/07/falsa-delegacia-da-policia-federal-e-descoberta-pela-interpol-na-africa.shtml",
+    "photo": "https://imguol.com/c/home/4f/2026/07/23/niformes-e-equipamentos-em-delegacia-falsa-da-policia-federal-na-africa-1784807083852_v2_450x337.jpg",
+    "source": "Folha",
     "is_main": true,
     "is_carousel": false,
     "is_video": false,
@@ -889,19 +808,14 @@
     "relateds": []
   },
   {
-    "title": "Pai que confessou ter agredido o filho é proibido de ir a seu velório no RS",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/07/22/caso-oliver-pai-que-confessou-espancar-filho-e-proibido-de-ir-ao-velorio.ghtm",
-    "photo": "https://imguol.com/c/noticias/74/2026/07/16/o-menino-oliver-morreu-apos-ser-agredido-pelo-pai-segundo-a-policia-civil-1784237103469_v2_300x225.png",
-    "source": "UOL",
+    "title": "Bebê morre ao prender a cabeça em creche de São Paulo; funcionários são investigados",
+    "link": "https://www1.folha.uol.com.br/cotidiano/2026/07/bebe-morre-durante-atividade-em-creche-de-sao-paulo-funcionarios-sao-investigados.shtml",
+    "photo": "https://imguol.com/c/home/17/2026/07/22/abdoulaye-dieng-de-um-ano-e-quatro-meses-que-morreu-apos-ocorrencia-em-creche-1784756830667_v2_300x225.jpg",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": [
-      {
-        "title": "Menino morto é velado na presença da mãe presa",
-        "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/07/22/funeral-crianca-morta-3-anos-rs.ghtm"
-      }
-    ]
+    "relateds": []
   },
   {
     "title": "Pivô da crise entre Flávio e Michelle no CE, Priscila Costa deixa disputa ao Senado",
@@ -1024,16 +938,6 @@
     "relateds": []
   },
   {
-    "title": "Pés de spa por R$ 32: máscara esfoliante Océane tem 40% off hoje",
-    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/07/23/pes-de-spa-por-r-26-mascara-esfoliante-oceane-tem-51-off-na-amazon.ghtm",
-    "photo": "https://imguol.com/c/guia-de-compras/7d/2026/07/15/oceane-mascara-esfoliante-para-pes-com-oleo-de-coco-1784125939894_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Suporte articulado para dois monitores vale o investimento? Veja no review",
     "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/07/23/suporte-para-monitores-elg-f160n-e-excelente-para-quem-quer-otimizar-espaco.htm",
     "photo": "https://imguol.com/c/guia-de-compras/04/2026/07/03/suporte-para-monitores-1783099535515_v2_300x225.jpg",
@@ -1064,9 +968,9 @@
     "relateds": []
   },
   {
-    "title": "Cristiana Oliveira sobre menopausa: 'Aceitei meu corpo como ele é hoje'",
-    "link": "https://www.uol.com.br/vivabem/noticias/redacao/2026/07/23/cristiana-oliveira-sobre-menopausa-aceitei-meu-corpo-como-ele-e-hoje.ghtm",
-    "photo": "https://imguol.com/c/galeria/86/2026/07/21/cristiana-oliveira-em-evento-de-vivabem-sobre-obesidade-1784664980737_v2_300x225.jpg",
+    "title": "Bem-estar: o que realmente controla a sensação de felicidade no cérebro?",
+    "link": "https://www.uol.com.br/vivabem/noticias/redacao/2026/07/23/bem-estar-o-que-realmente-controla-a-sensacao-de-felicidade-no-cerebro.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/0f/2025/08/22/felicidade-1755893635205_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1074,9 +978,9 @@
     "relateds": []
   },
   {
-    "title": "Para quem sente dor todos os dias, qualquer desconforto parece normal",
-    "link": "https://www.uol.com.br/vivabem/colunas/opiniao/2026/07/23/para-quem-sente-dor-todos-os-dias-qualquer-desconforto-parece-normal.htm",
-    "photo": "https://imguol.com/c/entretenimento/a8/2026/07/21/dores-nas-costas-1784655235318_v2_300x225.jpg",
+    "title": "Do crescimento ao envelhecimento: por que precisamos de proteína?",
+    "link": "https://www.uol.com.br/vivabem/noticias/redacao/2026/07/23/do-crescimento-ao-envelhecimento-por-que-precisamos-de-proteina.htm",
+    "photo": "https://imguol.com/c/entretenimento/ef/2021/09/17/alimentos-fontes-de-proteina-1631909159941_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1084,9 +988,9 @@
     "relateds": []
   },
   {
-    "title": "Quais são os sintomas de pedra na vesícula? Veja quando cirurgia é indicada",
-    "link": "https://www.uol.com.br/vivabem/noticias/redacao/2026/07/22/quais-sao-os-sintomas-de-pedra-na-vesicula-veja-sinais-de-alerta-para-cirurgia.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/bd/2023/07/01/homem-com-dor-de-barriga-colica-desconforto-abdominal-1688242578366_v2_300x225.jpg",
+    "title": "Intestino preso? 6 estratégias que podem ajudar a fazer cocô",
+    "link": "https://www.uol.com.br/vivabem/noticias/redacao/2026/07/23/intestino-preso-6-estrategias-que-podem-ajudar-a-fazer-coco.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/af/2021/11/08/jovem-no-banheiro-prisao-de-ventre-1636374807306_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1097,16 +1001,6 @@
     "title": "Deusa Zendaya: segredos de estilo da atriz que você pode levar para vida",
     "link": "https://www3.uol.com.br/redirect-flash/deusa-zendaya-os-segredos-de-estilo-da-atriz-que-voce-pode-levar-para-sua-vida.htm",
     "photo": "https://imguol.com/c/parceiros/83/2026/07/18/zendaya-1784391604941_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Viagens em grupo só para mulheres ajudam a vencer o medo e viram tendência",
-    "link": "https://www.uol.com.br/nossa/noticias/redacao/2026/07/23/por-que-mulheres-estao-mudando-a-forma-de-conhecer-o-mundo.htm",
-    "photo": "https://imguol.com/c/entretenimento/95/2026/07/22/grupo-de-viagem-para-mulheres-1784757951779_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1144,9 +1038,19 @@
     "relateds": []
   },
   {
+    "title": "UE impõe nova multa de R$ 5,1 bilhões ao Google por práticas abusivas",
+    "link": "https://www.uol.com.br/tilt/ultimas-noticias/deutschewelle/2026/07/23/ue-impoe-nova-multa-de-r-51-milhoes-ao-google-por-praticas-abusivas.htm",
+    "photo": "https://imguol.com/c/noticias/74/2026/07/21/logo-do-google-do-lado-de-fora-do-escritorio-da-empresa-em-londres24-de-junho-de-2025-reuterscarlos-jasso-1784647159663_v2_450x253.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Usar IA de ponta virou uma espécie de jogo do tigrinho",
     "link": "https://www.uol.com.br/tilt/colunas/carlos-affonso-de-souza/2026/07/23/usar-ia-de-ponta-virou-uma-especie-de-jogo-do-tigrinho.htm",
-    "photo": "https://imguol.com/c/noticias/5f/2026/07/01/icone-do-claude-chatbot-de-ia-desenvolvido-pela-anthropic-1782905141304_v2_450x253.jpg",
+    "photo": "https://imguol.com/c/noticias/5f/2026/07/01/icone-do-claude-chatbot-de-ia-desenvolvido-pela-anthropic-1782905141304_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1157,16 +1061,6 @@
     "title": "Claude Skill: como criar truque de IA que fez a Anthropic ofuscar rivais",
     "link": "https://www.uol.com.br/tilt/noticias/redacao/2026/07/23/claude-skill-como-criar-truque-de-ia-que-fez-a-anthropic-ofuscar-rivais.ghtm",
     "photo": "https://imguol.com/c/noticias/b6/2026/04/08/logotipo-do-app-claude-desenvolvido-pela-anthropic-1775671043284_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "EUA: adolescente retira ação contra Meta por dependência em redes sociais",
-    "link": "https://www.uol.com.br/tilt/noticias/afp/2026/07/22/eua-adolescente-retira-acao-contra-meta-por-dependencia-em-redes-sociais.htm",
-    "photo": "https://imguol.com/c/noticias/08/2026/07/17/logotipo-da-meta-porte-de-versailles-em-paris-franca11-de-junho-de-2025reutersgonzalo-fuentes-1784311788915_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1247,6 +1141,270 @@
     "title": "Segurança e privacidade",
     "link": "https://sobreuol.noticias.uol.com.br/normas-de-seguranca-e-privacidade.html",
     "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Letícia Casado: À espera de gesto de Flávio, Michelle deve faltar em convenção do PL",
+    "link": "https://noticias.uol.com.br/colunas/leticia-casado/2026/07/23/michelle-convencao-flavio.htm",
+    "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Por votos da direita, Caiado sobe tom contra Flávio, e bolsonaristas reagem",
+        "link": "https://noticias.uol.com.br/eleicoes/2026/07/23/por-votos-da-direita-caiado-sobe-tom-contra-flavio-e-bolsonaristas-reagem.ghtm"
+      },
+      {
+        "title": "Questionado sobre fala de Flávio, Tarcísio diz que confia nas urnas",
+        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/22/nao-tenho-nada-a-ver-com-isso-diz-tarcisio-sobre-tarifaco.ghtm"
+      }
+    ]
+  },
+  {
+    "title": "Deputado italiano contrário a Zambelli diz que ela sumiu",
+    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/22/deputado-que-entregou-zambelli-na-italia-diz-que-ninguem-sabe-onde-ela-esta.htm",
+    "photo": "https://imguol.com/c/noticias/84/2026/07/22/angelo-bonelli-eurodeputado-1784738144214_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Cantor Roberto Carlos passa por cirurgia na vesícula",
+    "link": "https://www.uol.com.br/splash/noticias/2026/07/22/roberto-carlos-passa-por-cirurgia-informa-assessoria.ghtm",
+    "photo": "https://imguol.com/c/splash/cf/2025/11/14/roberto-carlos-1763127324484_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Câmara dos EUA aprova orçamento de R$ 480 bi para guerra contra Irã",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/07/22/camara-dos-eua-aprova-orcamento-de-r-480-bilhoes-para-guerra-contra-ira.ghtm",
+    "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "EUA voltam a bombardear Irã pela 12ª noite",
+        "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/07/22/eua-voltam-a-bombardear-cidades-iranianas-pela-12-noite.ghtm"
+      }
+    ]
+  },
+  {
+    "title": "Influenciadora tem dados pessoais vazados após chamar BTS de 'afeminados'",
+    "link": "https://f5.folha.uol.com.br/celebridades/2026/07/influenciadora-tem-dados-pessoais-vazados-apos-chamar-bts-de-afeminados.shtml",
+    "photo": "https://imguol.com/c/home/ca/2026/07/22/pietra-bertolazzi-a-esq-e-jin-integrante-do-bts-a-dir-1784753675418_v2_300x225.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Sindicatos e aposentados retomam protestos contra ajustes econômicos de Milei",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/07/22/sindicatos-e-aposentados-retomam-protestos-contra-ajuste-de-milei.htm",
+    "photo": "https://imguol.com/c/home/5c/2026/07/22/this-aerial-view-shows-labor-unions-retirees-and-social-organizations-taking-part-in-a-protest-against-the-economic-adjustment-measures-implemented-by-argentinas-president-javier-milei-in-buenos-1784766684910_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Ameaça e vandalismo: argentinos que vivem no Brasil relatam ataque xenofóbico",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/07/22/argentinos-que-vivem-no-brasil-relatam-ataques-racistas-e-xenofobos.ghtm",
+    "photo": "https://imguol.com/c/noticias/d2/2026/07/22/ameaca-enviada-em-grupo-de-whatsapp-durante-a-copa-do-mundo-1784731407368_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Brasileira em Buenos Aires fala em medo de pisar na rua",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/22/medo-de-pisar-na-rua-o-dia-de-estudante-brasileira-ameacada-na-argentina.ghtm"
+      }
+    ]
+  },
+  {
+    "title": "Qual nível de testosterona é ideal e o que ela realmente faz no seu corpo",
+    "link": "https://www.uol.com.br/vivabem/noticias/redacao/2026/07/22/mais-testosterona-homem-mais-forte.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/b7/2023/06/06/homem-musculoso-idoso-velho-mais-velho-musculos-1686078085298_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Fãs de Deolane fazem ato na Av. Paulista pela liberdade dela",
+    "link": "https://f5.folha.uol.com.br/voceviu/2026/07/fas-de-deolane-bezerra-fazem-ato-na-avenida-paulista-e-pedem-liberdade-da-influenciadora.shtml",
+    "photo": "https://imguol.com/c/home/0c/2026/07/22/manifestantes-protestam-por-liberdade-de-deolane-bezerra-1784752629541_v2_300x225.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Ghostface do cinema estreia no OnlyFans com Carmen Electra",
+    "link": "https://www.uol.com.br/splash/noticias/2026/07/22/ghostface-de-todo-mundo-em-panico-estreia-no-onlyfans-com-carmen-electra.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/b4/2026/07/22/ghostface-e-carmen-electra-em-video-para-o-onlyfans-1784758694384_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Estudante desaparece após trocar viagem de ônibus por carro entre SC e PR",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/07/22/estudante-da-ufsc-desaparece-apos-trocar-viajem-de-onibus-por-carro-em-sc.ghtm",
+    "photo": "https://imguol.com/c/home/ce/2026/07/22/mayara-kemmer-klaus-desapareceu-durante-trajeto-entre-joinville-sc-e-londrina-pr-1784749178043_v2_300x225.jpg?1784749184508",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "'Assédio por pelos': entenda polêmica após Japão liberar bermuda no ambiente de trabalho",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/07/22/japao-libera-bermudas-no-trabalho-e-cria-polemica-por-pelos-nas-pernas.ghtm",
+    "photo": "https://imguol.com/c/noticias/09/2026/07/22/por-que-homens-de-bermuda-no-trabalho-estao-causando-polemica-no-japao-1784731059344_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Kaylee Hottle, atriz de 'Godzilla vs. Kong', morreu de traumatismo, diz site",
+    "link": "https://www.uol.com.br/splash/noticias/2026/07/22/kaylee-hottle-tem-causa-da-morte-revelada.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/80/2026/07/21/kaylee-hottle-durante-lancamento-de-godzilla-x-kong-the-new-empire-em-2024-1784648003353_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Após ameaças, prefeito de Nova York diz não poder prender Netanyahu",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/reuters/2026/07/22/por-que-o-prefeito-de-nova-york-nao-pode-prender-netanyahu.htm",
+    "photo": "https://imguol.com/c/noticias/61/2026/06/15/15jun26---primeiro-ministro-de-israel-benjamin-netanyahu-durante-coletiva-de-imprensa-em-jerusalem-1781570528649_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Após decisão, Blaze nega dar comissão a influencers por perda de apostador",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/07/22/bet-decisao-justica-julho-2026.ghtm",
+    "photo": "https://imguol.com/c/home/6b/2026/07/22/a-influenciadora-virginia-fonseca-durante-depoimento-a-cpi-das-bets-no-senado-federal-em-abril-de-2025---1784749646074_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Leilões de imóveis em 21 estados têm opção por R$ 25 mil e descontos de 79%",
+    "link": "https://economia.uol.com.br/noticias/redacao/2026/07/22/leiloes-de-imoveis-em-21-estados-tem-opcao-por-r-25-mil-e-descontos-de-79.ghtm",
+    "photo": "https://imguol.com/c/noticias/51/2026/07/22/imovel-em-fortaleza-dos-valor-rs-esta-no-leilao-do-santander-1784758312127_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Ator de 'A Odisseia' diz que ficou 14 horas por dia sem enxergar em filmagens",
+    "link": "https://www.uol.com.br/splash/noticias/2026/07/22/ator-de-a-odisseia-ficou-sem-enxergar-por-14-horas-em-filmagens.ghtm",
+    "photo": "https://imguol.com/c/splash/98/2026/07/22/john-leguizamo-em-cena-de-a-odisseia-1784754571895_v2_450x253.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Cantor português Luís Represas, ex-vocalista do Trovante, morre aos 69 anos",
+    "link": "https://www.uol.com.br/splash/noticias/2026/07/22/luis-represas-ex-vocalista-do-trovante-morre-aos-69-anos.ghtm",
+    "photo": "https://imguol.com/55/2026/07/22/cantor-portugues-luis-represas-1784742570568_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Carolina Dieckmmann diz que perdeu contratos após raspar a cabeça em novela",
+    "link": "https://www.uol.com.br/splash/noticias/2026/07/22/carolina-dieckmmann-diz-que-perdeu-contratos-apos-raspar-a-cabeca-em-novela.ghtm",
+    "photo": "https://imguol.com/c/splash/a7/2026/07/22/carolina-dieckmmann-afirmou-que-nao-recebeu-pagamento-extra-para-raspar-a-cabeca-em-lacos-de-familia-1784757641497_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "'Quem Ama Cuida': Suely toma coragem e joga bomba no colo de Pedro",
+    "link": "https://www.uol.com.br/splash/noticias/2026/07/22/quem-ama-cuida-suely-entrega-crimes-de-ademir-e-deixa-pedro-em-choque.ghtm",
+    "photo": "https://imguol.com/c/splash/9f/2026/07/22/suely-julia-stockler-e-pedro-chay-suede-em-quem-ama-cuida-1784753271093_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Cassado, Deltan pede que TRE o declare elegível; especialistas contestam",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/07/22/deltan-inelegibilidade.ghtm",
+    "photo": "https://imguol.com/c/noticias/12/2023/07/27/o-ex-procurador-e-deputado-cassado-deltan-dallagnol-na-camara-dos-deputados-1690478352650_v2_450x337.jpg",
+    "source": "UOL",
+    "is_main": true,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Pai que confessou ter agredido o filho é proibido de ir a seu velório no RS",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/07/22/caso-oliver-pai-que-confessou-espancar-filho-e-proibido-de-ir-ao-velorio.ghtm",
+    "photo": "https://imguol.com/c/noticias/74/2026/07/16/o-menino-oliver-morreu-apos-ser-agredido-pelo-pai-segundo-a-policia-civil-1784237103469_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Menino morto é velado na presença da mãe presa",
+        "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/07/22/funeral-crianca-morta-3-anos-rs.ghtm"
+      }
+    ]
+  },
+  {
+    "title": "Quais são os sintomas de pedra na vesícula? Veja quando cirurgia é indicada",
+    "link": "https://www.uol.com.br/vivabem/noticias/redacao/2026/07/22/quais-sao-os-sintomas-de-pedra-na-vesicula-veja-sinais-de-alerta-para-cirurgia.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/bd/2023/07/01/homem-com-dor-de-barriga-colica-desconforto-abdominal-1688242578366_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "EUA: adolescente retira ação contra Meta por dependência em redes sociais",
+    "link": "https://www.uol.com.br/tilt/noticias/afp/2026/07/22/eua-adolescente-retira-acao-contra-meta-por-dependencia-em-redes-sociais.htm",
+    "photo": "https://imguol.com/c/noticias/08/2026/07/17/logotipo-da-meta-porte-de-versailles-em-paris-franca11-de-junho-de-2025reutersgonzalo-fuentes-1784311788915_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -5182,116 +5340,6 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Eleitor vê ato de Moraes sobre Flávio como político",
-    "link": "https://noticias.uol.com.br/colunas/carla-araujo/2026/07/21/decisao-moraes-proibir-visitas-flavio-e-bolsonaro-e-politica-pesquisa.htm",
-    "photo": "https://conteudo.imguol.com.br/fe/2020/03/12/carla-araujo-150-1584023422273_100x100.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Copa expôs as vísceras apodrecidas do poder",
-    "link": "https://www.uol.com.br/esporte/colunas/milly-lacombe/2026/07/20/a-copa-que-expos-as-visceras-apodrecidas-do-poder.htm",
-    "photo": "https://conteudo.imguol.com.br/03/2021/01/29/milly-lacombe-autor-2-1611928982961_100x100.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Antes só do que mal acompanhada",
-    "link": "https://www1.folha.uol.com.br/colunas/miriangoldenberg/2026/07/antes-so-do-que-mal-acompanhada.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/57/2019/01/08/retrato-da-colunista-da-folha-mirian-goldenberg-para-o-novo-site-do-jornal-1546944683136_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Jabutis proliferam para atender a interesses localizados",
-    "link": "https://www1.folha.uol.com.br/colunas/jerson-kelman/2026/07/jabutis-proliferam-para-atender-a-interesses-localizados.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/b5/2024/04/02/jerson-kelman-e-engenheiro-e-foi-professor-da-coppe-ufrj-e-dirigente-de-ana-aneel-light-enersul-e-sabesp-1712068589378_v2_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "O sertão de Guimarães Rosa ganha as cordas da viola de Paulo Freire na Flip",
-    "link": "https://www1.folha.uol.com.br/blogs/musica-em-letras/2026/07/o-sertao-de-guimaraes-rosa-ganha-as-cordas-da-viola-de-paulo-freire-na-flip.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/ee/2023/02/01/musica-em-letras-1675278889247_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Cão frentista de São Paulo morre durante passeio na Argentina",
-    "link": "https://www1.folha.uol.com.br/blogs/bom-pra-cachorro/2026/07/cao-frentista-de-sp-morre-durante-passeio-na-argentina.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/0b/2023/04/11/livia-marra-1681241758443_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Galisteu resgata ensaio nu, e fãs elogiam: 'Tudo é perfeito'",
-    "link": "https://www.uol.com.br/splash/noticias/2026/07/20/adriane-galisteu-ensaio-nu.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/9d/2026/07/20/adriane-galisteu-resgata-ensaio-nu-ha-20-anos-1784600681367_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "O que são convenções partidárias? Prazo para definir candidatos já começou",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/07/21/o-que-sao-convencoes-partidarias-prazo-para-definir-candidatos-ja-comecou.ghtm",
-    "photo": "",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "IA quebra barreira e resolve enigma matemático sem solução há 87 anos",
-    "link": "https://www.uol.com.br/tilt/colunas/iagora/2026/07/21/ia-quebra-barreira-e-resolve-enigma-matematico-sem-solucao-ha-87-anos.ghtm",
-    "photo": "https://imguol.com/c/noticias/7c/2026/07/20/ia-ajuda-a-resolver-enigma-matematico-1784579639257_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Atleta de 15 anos morre após choque elétrico em atração de parque na Itália",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/21/jovem-jogador-morre-apos-choque-eletrico-em-atracao-de-parque-na-italia.ghtm",
-    "photo": "https://imguol.com/c/esporte/eb/2026/07/21/alessio-colletti-jogador-de-futebol-de-15-anos-morreu-em-spotorno-na-italia-1784638614741_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Dor de cabeça boa? Almada é nome ideal para revezar com Arrascaeta, diz Sá",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/21/dor-de-cabeca-boa-almada-e-nome-ideal-para-revesar-com-arrascaeta-diz-gabriel-sa.ghtm",
-    "photo": "https://imguol.com/c/esporte/7d/2025/03/21/almada-comemora-gol-marcado-pela-argentina-contra-o-uruguai-nas-eliminatorias-1742606595154_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
     "is_video": false,
     "relateds": []
   }
