@@ -234,18 +234,26 @@ function updateSavedCount() {
 }
 
 // Salva o histórico de lidas no localStorage e sincroniza na nuvem
-function saveReadHistory() {
+function saveReadHistory(isDeletion = false) {
     localStorage.setItem('news_reader_read', JSON.stringify(Array.from(readUrls)));
     localStorage.setItem('news_reader_history', JSON.stringify(Array.from(historyUrls)));
     updateHistoryCount();
-    syncWithRepo();
+    if (isDeletion) {
+        overwriteRepoSync();
+    } else {
+        syncWithRepo();
+    }
 }
 
 // Salva as notícias salvas no localStorage e sincroniza na nuvem
-function saveSavedHistory() {
+function saveSavedHistory(isDeletion = false) {
     localStorage.setItem('news_reader_saved', JSON.stringify(Array.from(savedUrls)));
     updateSavedCount();
-    syncWithRepo();
+    if (isDeletion) {
+        overwriteRepoSync();
+    } else {
+        syncWithRepo();
+    }
 }
 
 // Mecanismo de Sincronização em Nuvem via Repositório GitHub (Bypassa limitação de tokens sem permissão gist)
@@ -993,7 +1001,7 @@ function createNewsCard(news, mode) {
             // Remove dos dois sets: volta ao Feed E sai da aba Lidas
             readUrls.delete(news.link);
             historyUrls.delete(news.link);
-            saveReadHistory();
+            saveReadHistory(true); // true indica deleção/remoção (chama overwriteRepoSync)
             card.remove();
             const remainingHistory = historyGrid.querySelectorAll('.news-card');
             if (remainingHistory.length === 0) {
@@ -1006,7 +1014,7 @@ function createNewsCard(news, mode) {
             e.preventDefault();
             // Remove apenas de salvas (sem alterar se é lida ou não lida)
             savedUrls.delete(news.link);
-            saveSavedHistory();
+            saveSavedHistory(true); // true indica deleção/remoção (chama overwriteRepoSync)
             card.remove();
             const remainingSaved = savedGrid.querySelectorAll('.news-card');
             if (remainingSaved.length === 0) {
@@ -1036,12 +1044,13 @@ function createNewsCard(news, mode) {
                     renderSaved();
                 }
             }
+            saveSavedHistory(true); // true indica deleção/remoção (chama overwriteRepoSync)
         } else {
             savedUrls.add(news.link);
             icon.className = 'fa-solid fa-bookmark';
             e.currentTarget.title = 'Remover das salvas';
+            saveSavedHistory(false); // false indica adição (chama syncWithRepo)
         }
-        saveSavedHistory();
     });
 
     // Compartilhamentos
