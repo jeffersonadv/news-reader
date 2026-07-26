@@ -27,17 +27,16 @@
     "is_main": true,
     "is_carousel": true,
     "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "PSD oficializa candidatura de Ronaldo Caiado à Presidência; assista",
-    "link": "https://noticias.uol.com.br/ao-vivo/2026/07/26/ronaldo-caiado-oficializa-candidatura-a-presidencia-em-evento-do-psd.htm",
-    "photo": "",
-    "source": "UOL",
-    "is_main": true,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Lula critica tarifas de Trump em artigo no Washington Post: 'Ninguém nos vencerá com mentiras'",
+        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/26/lula-artigo-washington-post.ghtm"
+      },
+      {
+        "title": "Vitórias na América Latina estimularam governo Trump a antagonizar Brasil, avaliam especialistas",
+        "link": "https://www1.folha.uol.com.br/mundo/2026/07/vitorias-na-america-latina-estimularam-governo-trump-a-antagonizar-brasil-avaliam-especialistas.shtml"
+      }
+    ]
   },
   {
     "title": "As vinícolas para degustar vinhos em MG, perto de São Paulo (mas sem bate-volta)",
@@ -120,21 +119,6 @@
     "relateds": []
   },
   {
-    "title": "Golpe de R$ 4 bilhões forjou dados de gigantes do mercado, descobriu a Fazenda de SP",
-    "link": "https://tab.uol.com.br/noticias/redacao/2026/07/26/como-a-secretaria-da-fazenda-de-sp-descobriu-um-rombo-de-r-4-bilhoes.htm",
-    "photo": "https://imguol.com/c/tab/df/2026/07/24/sede-da-sefaz-sp-secretaria-da-fazenda-de-sao-paulo-1784915808129_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Outro lado: o que dizem o advogado Nelson Wilians e as empresas citadas",
-        "link": "https://tab.uol.com.br/noticias/redacao/2026/07/26/outro-lado-o-que-dizem-o-advogado-nelson-wilians-e-as-empresas-citadas.htm"
-      }
-    ]
-  },
-  {
     "title": "Brasil leva virada da Turquia e amarga quinto vice da Liga das Nações",
     "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/07/26/brasil-turquia-final-liga-das-nacoes.ghtm",
     "photo": "https://imguol.com/c/esporte/79/2026/07/26/rosamaria-disputa-ponto-durante-a-final-da-liga-das-nacoes-entre-brasil-e-turquia-1785073891438_v2_300x225.jpg",
@@ -150,19 +134,34 @@
     ]
   },
   {
-    "title": "Caiado cita INSS e Master em ataque a adversários: 'Surpresinha todo dia'",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/07/26/caiado-cita-inss-e-master-em-ataque-a-adversarios-surpresinha-todo-dia.htm",
-    "photo": "https://imguol.com/c/home/05/2026/07/26/26jul2026---ronaldo-caiado-se-lanca-candidato-a-presidente-com-ataques-a-adversarios-surpresinha-todo-dia-1785074141225_v2_300x225.jpg",
+    "title": "GP da Hungria de F1: Norris vence a 1ª do ano, e Bortoleto é 11º",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/07/26/gp-da-hungria.ghtm",
+    "photo": "https://imguol.com/c/esporte/9e/2026/07/26/lando-norris-da-mclaren-no-gp-da-hungria-de-formula-1-1785077162615_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
   {
-    "title": "GP da Hungria de F1: Norris vence a 1ª do ano, e Bortoleto é 11º",
-    "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/07/26/gp-da-hungria.ghtm",
-    "photo": "https://imguol.com/c/esporte/9e/2026/07/26/lando-norris-da-mclaren-no-gp-da-hungria-de-formula-1-1785077162615_v2_300x225.jpg",
+    "title": "Golpe de R$ 4 bilhões forjou dados de gigantes do mercado, descobriu a Fazenda de SP",
+    "link": "https://tab.uol.com.br/noticias/redacao/2026/07/26/como-a-secretaria-da-fazenda-de-sp-descobriu-um-rombo-de-r-4-bilhoes.htm",
+    "photo": "https://imguol.com/c/tab/df/2026/07/24/sede-da-sefaz-sp-secretaria-da-fazenda-de-sao-paulo-1784915808129_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "O que dizem Nelson Wilians e as empresas citadas",
+        "link": "https://tab.uol.com.br/noticias/redacao/2026/07/26/outro-lado-o-que-dizem-o-advogado-nelson-wilians-e-as-empresas-citadas.htm"
+      }
+    ]
+  },
+  {
+    "title": "Caiado chama PT de bandido e liga Flávio a caso Master: 'Rejeitados'",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/07/26/caiado-cita-inss-e-master-em-ataque-a-adversarios-surpresinha-todo-dia.htm",
+    "photo": "https://imguol.com/c/home/05/2026/07/26/26jul2026---ronaldo-caiado-se-lanca-candidato-a-presidente-com-ataques-a-adversarios-surpresinha-todo-dia-1785074141225_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -312,7 +311,7 @@
   {
     "title": "A estratégia de defesa do ex-presidente Julio Casares",
     "link": "https://www.uol.com.br/esporte/colunas/pvc/2026/07/26/a-estrategia-de-defesa-do-ex-presidente-julio-casares.htm",
-    "photo": "https://imguol.com/c/esporte/63/2026/07/25/julio-casares-ex-presidente-do-sao-paulo-em-entrevista-ao-uol-1785018289847_v2_100x100.jpg",
+    "photo": "https://conteudo.imguol.com.br/c/home/40/2019/01/14/pvc-1547459239301_100x100.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -530,9 +529,9 @@
     "relateds": []
   },
   {
-    "title": "Giulia Costa, filha de Flávia Alessandra, posa de fio-dental em viagem",
-    "link": "https://cenapop.uol.com.br/noticias/famosos/giulia-costa-biquini-porto-rico.html",
-    "photo": "https://imguol.com/c/home/1a/2026/07/25/giulia-costa-posou-de-fio-dental-em-porto-rico-e-recebeu-elogios-1784989776735_v2_300x225.png",
+    "title": "Influenciadora Luísa Marilac é internada com inchaço na perna",
+    "link": "https://www.uol.com.br/splash/noticias/2026/07/26/luisa-marilac-e-internada.ghtm",
+    "photo": "https://imguol.com/c/splash/9f/2026/07/26/luisa-marilac-1785077370943_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -709,6 +708,16 @@
     "relateds": []
   },
   {
+    "title": "Salas Imax no Brasil exibem 'A Odisseia' com imagens cortadas; entenda formato",
+    "link": "https://guia.folha.uol.com.br/cinema/2026/07/salas-de-imax-no-brasil-exibem-a-odisseia-com-imagens-cortadas-entenda-formato.shtml",
+    "photo": "https://imguol.com/c/noticias/60/2026/07/25/odisseu-interpretado-por-matt-damon-no-filme-a-odisseia-de-christopher-nolan-1784996684955_v2_300x300.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Opinião: Mark Fisher levou cultura pop e saúde mental para luta contra capitalismo",
     "link": "https://www1.folha.uol.com.br/ilustrissima/2026/07/mark-fisher-levou-cultura-pop-e-saude-mental-para-luta-contra-capitalismo.shtml",
     "photo": "https://imguol.com/c/home/74/2026/07/26/o-filosofo-britanico-mark-fisher-autor-de-o-estranho-e-o-sinistro-1785065950064_v2_300x300.jpg",
@@ -769,29 +778,29 @@
     "relateds": []
   },
   {
+    "title": "+Milionária 375: prêmio acumulado é de R$ 76 milhões; veja resultado",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/redacao/2026/07/26/milionaria-concurso-375-sorteio-26-de-julho.ghtm",
+    "photo": "https://imguol.com/67/2020/05/18/dinheiro-moeda-real-1589822622769_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Quina acumula e prêmio sobe para R$ 23 milhões; confira dezenas sorteadas",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/redacao/2026/07/26/quina-concurso-7075-sorteio-26-de-julho.ghtm",
+    "photo": "https://imguol.com/c/noticias/d3/2026/05/11/quina---loterias-caixa-1778545495048_v2_300x300.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Brasil discute reformulação da atenção primária na saúde em meio a crise no setor",
     "link": "https://www1.folha.uol.com.br/equilibrioesaude/2026/07/brasil-discute-reformulacao-da-atencao-primaria-em-meio-a-sobrecarga-de-profissionais-e-falta-de-remedio-em-postos.shtml",
     "photo": "https://imguol.com/c/home/4f/2026/07/26/profissional-de-saude-com-pacientes-em-frente-a-ubs-vila-jaguara-na-zona-oeste-de-sao-paulo-1785070714347_v2_300x300.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Fuvest aplica hoje 2º simulado do vestibular 2027; veja horários e o que levar",
-    "link": "https://www1.folha.uol.com.br/educacao/2026/07/fuvest-aplica-2o-simulado-do-vestibular-2027-neste-domingo-veja-horarios-e-o-que-levar.shtml",
-    "photo": "https://imguol.com/c/noticias/9f/2021/04/23/estudantes-fazem-vestibular-para-a-ufrgs-universidade-federal-do-rio-grande-do-sul-1619202199319_v2_300x300.png",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Atropelamento em parada LGBT+ na Alemanha deixa pelo menos um morto",
-    "link": "https://www1.folha.uol.com.br/mundo/2026/07/parada-lgbt-e-interrompida-na-alemanha-apos-carro-avancar-contra-pessoas.shtml",
-    "photo": "https://imguol.com/c/home/e2/2026/07/25/alemanha-1785021475918_300x300.jpg",
     "source": "Folha",
     "is_main": false,
     "is_carousel": true,
@@ -949,9 +958,9 @@
     "relateds": []
   },
   {
-    "title": "Camiseta de treino está por R$ 30 na Decathlon: 'não encolhe e não desbota'",
-    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/07/26/camiseta-barata-para-malhar-modelo-da-domyos-e-opcao-que-faz-suceso.ghtm",
-    "photo": "https://imguol.com/c/guia-de-compras/4e/2026/07/24/camiseta-da-domyos-promete-ser-respiravel-para-evaporacao-do-suor-durante-os-treinos-1784909990014_v2_300x225.png",
+    "title": "Bacia retrátil que vira tábua de corte faz sucesso por R$ 20; conheça",
+    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/07/26/bacio-retratil-que-vira-tabua-de-corte-faz-sucesso-na-shopee-e-custa-r-20.ghtm",
+    "photo": "https://imguol.com/c/guia-de-compras/3d/2026/07/21/bacia-retratil-e-tabua-de-corte-top-rio-1784643601721_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -959,9 +968,9 @@
     "relateds": []
   },
   {
-    "title": "Macaco de pelúcia entra em oferta e sai a R$ 20: 'minha doguinha não larga'",
-    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/07/25/pelucia-para-pets-sucesso-na-amazon-sai-por-r-20-veja-o-que-dizem.ghtm",
-    "photo": "https://imguol.com/c/guia-de-compras/9e/2025/09/22/macaco-de-pelucia-promete-ajudar-a-reduzir-o-estresse-dos-animais-1758570285835_v2_300x225.png",
+    "title": "Camiseta de treino está por R$ 30 na Decathlon: 'não encolhe e não desbota'",
+    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/07/26/camiseta-barata-para-malhar-modelo-da-domyos-e-opcao-que-faz-suceso.ghtm",
+    "photo": "https://imguol.com/c/guia-de-compras/4e/2026/07/24/camiseta-da-domyos-promete-ser-respiravel-para-evaporacao-do-suor-durante-os-treinos-1784909990014_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1122,6 +1131,56 @@
     "title": "Segurança e privacidade",
     "link": "https://sobreuol.noticias.uol.com.br/normas-de-seguranca-e-privacidade.html",
     "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "PSD oficializa candidatura de Ronaldo Caiado à Presidência; assista",
+    "link": "https://noticias.uol.com.br/ao-vivo/2026/07/26/ronaldo-caiado-oficializa-candidatura-a-presidencia-em-evento-do-psd.htm",
+    "photo": "",
+    "source": "UOL",
+    "is_main": true,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Giulia Costa, filha de Flávia Alessandra, posa de fio-dental em viagem",
+    "link": "https://cenapop.uol.com.br/noticias/famosos/giulia-costa-biquini-porto-rico.html",
+    "photo": "https://imguol.com/c/home/1a/2026/07/25/giulia-costa-posou-de-fio-dental-em-porto-rico-e-recebeu-elogios-1784989776735_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Fuvest aplica hoje 2º simulado do vestibular 2027; veja horários e o que levar",
+    "link": "https://www1.folha.uol.com.br/educacao/2026/07/fuvest-aplica-2o-simulado-do-vestibular-2027-neste-domingo-veja-horarios-e-o-que-levar.shtml",
+    "photo": "https://imguol.com/c/noticias/9f/2021/04/23/estudantes-fazem-vestibular-para-a-ufrgs-universidade-federal-do-rio-grande-do-sul-1619202199319_v2_300x300.png",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Atropelamento em parada LGBT+ na Alemanha deixa pelo menos um morto",
+    "link": "https://www1.folha.uol.com.br/mundo/2026/07/parada-lgbt-e-interrompida-na-alemanha-apos-carro-avancar-contra-pessoas.shtml",
+    "photo": "https://imguol.com/c/home/e2/2026/07/25/alemanha-1785021475918_300x300.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Macaco de pelúcia entra em oferta e sai a R$ 20: 'minha doguinha não larga'",
+    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/07/25/pelucia-para-pets-sucesso-na-amazon-sai-por-r-20-veja-o-que-dizem.ghtm",
+    "photo": "https://imguol.com/c/guia-de-compras/9e/2025/09/22/macaco-de-pelucia-promete-ajudar-a-reduzir-o-estresse-dos-animais-1758570285835_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -5228,56 +5287,6 @@
     "source": "UOL",
     "is_main": true,
     "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Guardiola recusa seleção italiana, que agora tenta Andrea Pirlo, diz jornal",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/24/guardiola-recusa-selecao-italiana-que-agora-tenta-pirlo-diz-jornal.ghtm",
-    "photo": "https://imguol.com/c/esporte/5d/2026/05/19/pep-guardiola-tecnico-do-manchester-city-lamenta-durante-partida-contra-o-bournemouth-pela-37-rodada-da-premier-league-1779219200151_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Meia da Austrália na Copa testa positivo para cocaína em abordagem policial",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/24/meia-da-australia-na-copa-testa-positivo-para-cocaina-em-abordagem-policial.ghtm",
-    "photo": "https://imguol.com/c/esporte/e7/2026/06/12/cristian-volpato-foi-convocado-para-a-copa-sem-nem-ter-estreado-pela-australia-1781284934446_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Conselheiros do Santos pedem reunião com Teixeira devido à crise financeira",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/24/conselheiros-do-santos-pedem-reuniao-com-teixeira-devido-a-crise-financeira.ghtm",
-    "photo": "https://imguol.com/c/esporte/50/2026/06/22/marcelo-teixeira-durante-reuniao-do-conselho-deliberativo-do-santos-1782167986781_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Com show de Tom Zé, festival debate direitos humanos por meio da arte em São Paulo",
-    "link": "https://guia.folha.uol.com.br/cinema/2026/07/com-show-de-tom-ze-festival-debate-direitos-humanos-por-meio-da-arte-em-sao-paulo.shtml",
-    "photo": "https://imguol.com/c/entretenimento/34/2018/09/13/retrato-do-cantor-tom-ze-1536851734238_v2_450x337.jpg",
-    "source": "Folha",
-    "is_main": true,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Com Camila Pitanga e Bete Coelho, 'Lia Lia' navega pelas faces de uma mulher",
-    "link": "https://www1.folha.uol.com.br/ilustrada/2026/07/com-camila-pitanga-e-bete-coelho-peca-lia-lia-navega-pelas-faces-de-uma-mulher.shtml",
-    "photo": "https://imguol.com/c/home/0d/2026/07/24/camila-pitanga-e-bete-coelho-na-peca-lia-lia-1784890713306_v2_450x253.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
     "is_video": false,
     "relateds": []
   }
