@@ -263,6 +263,10 @@ body {
     overflow: hidden;
 }
 
+.card-img-wrapper.card-img-hidden {
+    display: none !important;
+}
+
 .card-img {
     position: absolute;
     top: 0;

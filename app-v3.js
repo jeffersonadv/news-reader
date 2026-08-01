@@ -850,6 +850,38 @@ function renderSaved() {
             if (matchesQuery) {
                 savedItems.push(newsItem);
             }
+        } else {
+            // Notícia antiga que saiu do noticias.json. Criamos uma versão sintética.
+            let fallbackTitle = "Notícia Salva Anteriormente";
+            try {
+                const urlObj = new URL(url);
+                const pathParts = urlObj.pathname.split('/');
+                const lastPart = pathParts[pathParts.length - 1];
+                if (lastPart) {
+                    const rawName = lastPart.replace(/\.(g?htm|shtml)$/, '').replace(/-/g, ' ');
+                    if (rawName.length > 5) {
+                        fallbackTitle = rawName.charAt(0).toUpperCase() + rawName.slice(1);
+                    }
+                }
+            } catch (e) {
+                fallbackTitle = url;
+            }
+
+            const newsItem = {
+                title: fallbackTitle,
+                link: url,
+                photo: "",
+                source: "Salva",
+                is_main: false,
+                is_carousel: false,
+                is_video: false,
+                relateds: []
+            };
+
+            const matchesQuery = query ? newsItem.title.toLowerCase().includes(query) : true;
+            if (matchesQuery) {
+                savedItems.push(newsItem);
+            }
         }
     });
 
@@ -898,15 +930,25 @@ function createNewsCard(news, mode) {
     if (news.is_carousel) card.classList.add('card-carousel');
     if (news.is_video) card.classList.add('card-video');
 
-    // Trata imagens em branco com placeholder moderno
-    const imgHtml = news.photo 
-        ? `<img src="${news.photo}" alt="Imagem da notícia" class="card-img" loading="lazy" referrerpolicy="no-referrer">`
-        : `<div class="card-img" style="background: linear-gradient(135deg, #1e293b, #0f172a); display: flex; align-items: center; justify-content: center; height: 100%; width: 100%;"><i class="fa-solid fa-newspaper" style="font-size: 2.5rem; color: rgba(255,255,255,0.1)"></i></div>`;
-
+    // Se a foto não existir, o wrapper da imagem já começará oculto
+    const hasPhoto = !!news.photo;
+    
     // Overlay especial de Play se for vídeo do Canal UOL
     const playOverlay = news.is_video 
         ? `<div class="video-play-overlay"><i class="fa-solid fa-play"></i></div>` 
         : '';
+
+    const imgHtml = hasPhoto 
+        ? `<img src="${news.photo}" alt="Imagem da notícia" class="card-img" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentElement.classList.add('card-img-hidden')">`
+        : '';
+
+    const imgWrapperHtml = hasPhoto
+        ? `<div class="card-img-wrapper">
+            ${imgHtml}
+            ${playOverlay}
+            <span class="card-source">${news.source || 'UOL'}</span>
+           </div>`
+        : `<div class="card-img-wrapper card-img-hidden"></div>`;
 
     // Badges visuais do card
     let badgesHtml = '';
@@ -942,11 +984,7 @@ function createNewsCard(news, mode) {
     }
 
     card.innerHTML = `
-        <div class="card-img-wrapper">
-            ${imgHtml}
-            ${playOverlay}
-            <span class="card-source">${news.source || 'UOL'}</span>
-        </div>
+        ${imgWrapperHtml}
         <div class="card-content">
             ${badgesHtml}
             <h3 class="card-title">${highlightedTitle}</h3>
