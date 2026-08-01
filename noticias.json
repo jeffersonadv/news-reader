@@ -1,13 +1,18 @@
 [
   {
-    "title": "Vasco e Fluminense se enfrentam pela Copa do Brasil; siga",
-    "link": "https://placar.uol.com.br/esporte/futebol/copa-do-brasil/2026/08/01/vasco-x-fluminense.htm",
-    "photo": "https://imguol.com/c/home/6d/2026/08/01/vasco-x-fluminense---copa-do-brasil-1785617912914_450x600.jpg?1785618066524",
+    "title": "Após questionamento de Moraes, Flávio usa novo vídeo com Jair Bolsonaro",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/08/01/pl-oficializa-carlos-bolsonaro-e-de-toni-ao-senado-em-convencao-em-sc.ghtm",
+    "photo": "https://imguol.com/c/noticias/35/2026/08/01/1ago2026---flavio-bolsonaro-com-o-governador-jorginho-mello-na-chegada-a-convencao-estadual-do-pl-em-sc-1785610420105_v2_450x337.jpg",
     "source": "UOL",
     "is_main": true,
-    "is_carousel": false,
+    "is_carousel": true,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Bolsonaro pede liberação de visita de cunhada por possível internação de Michelle",
+        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/01/bolsonaro-pede-liberacao-de-visita-por-possivel-internacao-de-michelle.ghtm"
+      }
+    ]
   },
   {
     "title": "Sua muito até parado? Pode ser mais do que só calor ou nervoso",
@@ -80,24 +85,33 @@
     "relateds": []
   },
   {
-    "title": "Bolsonaro pede liberação de visita de cunhada por possível internação de Michelle",
-    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/01/bolsonaro-pede-liberacao-de-visita-por-possivel-internacao-de-michelle.ghtm",
-    "photo": "",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Após questionamento de Moraes, Flávio usa novo vídeo com Jair Bolsonaro",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/08/01/pl-oficializa-carlos-bolsonaro-e-de-toni-ao-senado-em-convencao-em-sc.ghtm",
-    "photo": "https://imguol.com/c/noticias/35/2026/08/01/1ago2026---flavio-bolsonaro-com-o-governador-jorginho-mello-na-chegada-a-convencao-estadual-do-pl-em-sc-1785610420105_v2_300x225.jpg",
-    "source": "UOL",
+    "title": "Michelle Bolsonaro será candidata ao Senado, diz Bia Kicis",
+    "link": "https://www1.folha.uol.com.br/poder/2026/08/michelle-bolsonaro-sera-candidata-ao-senado-diz-bia-kicis.shtml",
+    "photo": "https://imguol.com/c/home/03/2026/07/03/prime-michelle-chamada-1783109109958_v2_300x225.jpg",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
     "relateds": []
+  },
+  {
+    "title": "Muitas faltas, zero gol: Vasco e Fluminense empatam nas oitavas da Copa do Brasil",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/01/vasco-fluminense-copa-do-brasil.ghtm",
+    "photo": "https://imguol.com/c/home/d4/2026/08/01/paulo-henrique-e-guga-se-estranharam-durante-a-partida-entre-vasco-e-fluminense-pela-copa-do-brasil-1785623502699_v2_300x225.jpg?1785623508239",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "PVC: Flu joga melhor, mas para na defesa do Vasco",
+        "link": "https://www.uol.com.br/esporte/colunas/pvc/2026/08/01/fluminense-joga-melhor-mas-para-na-defesa-do-vasco-em-empate-no-maracana.htm"
+      },
+      {
+        "title": "Veja a tabela da competição",
+        "link": "https://www.uol.com.br/esporte/futebol/campeonatos/copa-do-brasil/"
+      }
+    ]
   },
   {
     "title": "Tarcísio diz que ama Bolsonaro, defende legado e pede mais 4 anos em São Paulo",
@@ -115,27 +129,27 @@
     ]
   },
   {
-    "title": "Em convenção na Bahia, Lula pede voto para Rui Costa e Jaques Wagner: 'O Senado está ruim'",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/08/01/lula-na-convencao-do-pt-na-bahia.ghtm",
-    "photo": "https://imguol.com/c/noticias/52/2026/08/01/presidente-da-republica-luiz-inacio-lula-da-silva-durante-convencao-federacao-brasil-da-esperanca-no-parque-de-exposicoes-salvador-1785601987289_v2_300x225.jpg",
+    "title": "Lula une esquerda pela 1ª vez, mas sofre com investigação contra filho",
+    "link": "https://noticias.uol.com.br/colunas/carla-araujo/2026/08/01/lula-une-esquerda-pela-1-vez-mas-sofre-com-investigacao-contra-filho.htm",
+    "photo": "https://imguol.com/c/noticias/34/2026/07/29/28jul26---o-presidente-lula-durante-visita-ao-hospital-federal-de-andarai-no-rio-de-janeiro-1785357388666_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
     "relateds": [
       {
-        "title": "Pedir voto é vedado pela lei eleitoral até 16 de agosto",
-        "link": "https://noticias.uol.com.br/eleicoes/2026/08/01/lula-pede-voto-na-bahia-vedado-lei-eleitoral-ate-16-de-agosto.ghtm"
+        "title": "Em convenção na Bahia, Lula pede voto para Rui Costa e Jaques Wagner",
+        "link": "https://noticias.uol.com.br/eleicoes/2026/08/01/lula-na-convencao-do-pt-na-bahia.ghtm"
       }
     ]
   },
   {
-    "title": "Moro mira Lula e minimiza Flávio em caso Master ao se lançar no Paraná",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/08/01/convencao-moro-pl-parana.ghtm",
-    "photo": "https://imguol.com/c/noticias/0e/2026/08/01/1ago2026---ao-lado-da-mulher-rosangela-sergio-moro-e-oficializado-candidato-ao-governo-com-filipe-barros-pl-e-deltan-dallagnol-novo-ao-senado-durante-convencao-do-pl-em-curitiba-1785596757138_v2_300x225.jpg",
+    "title": "Missão lança candidaturas e 'desafia' Lula e Flávio para debate com Renan",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/08/01/missao-renan-santos-candidatura-presidente-eleicoes-2026.ghtm",
+    "photo": "",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": true,
+    "is_carousel": false,
     "is_video": false,
     "relateds": []
   },
@@ -170,17 +184,7 @@
     "relateds": []
   },
   {
-    "title": "10 cidades brasileiras para visitar antes de ficarem 'superturísticas'",
-    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/01/cidades-brasileiras-para-visitar-antes-de-ficarem-super-turisticas.ghtm",
-    "photo": "https://imguol.com/c/guia-de-compras/b8/2026/07/30/aiuruoca-1785445095136_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Renan Santos fala no congresso do Partido Missão",
+    "title": "Assista ao congresso do Partido Missão com Renan Santos",
     "link": "https://noticias.uol.com.br/ao-vivo/2026/07/31/renan-santos-fala-ao-vivo-em-congresso-do-partido-missao.htm",
     "photo": "https://imguol.com/c/parceiros/ef/2026/07/13/renan-santos-pre-candidato-a-presidencia-da-republica-1783985954600_v2_150x112.jpg",
     "source": "UOL",
@@ -195,17 +199,17 @@
     "photo": "https://imguol.com/c/noticias/aa/2026/08/01/crime-aconteceu-na-fabrica-da-bombril-em-sao-bernardo-do-campo-1785590510098_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
   {
-    "title": "Espanha critica resposta da União Europeia à crise em Ceuta: 'Egoísta'",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/01/espanha-critica-resposta-da-ue-apos-mortes-na-crise-em-ceuta.ghtm",
-    "photo": "",
+    "title": "Maratonista olímpico Danielzinho é encontrado na zona leste de SP após 44 dias",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/08/01/ex-maratonista-olimpico-daniel-do-nascimento-e-encontrado-em-sp-apos-44-dias.ghtm",
+    "photo": "https://imguol.com/c/esporte/07/2026/08/01/o-ex-maratonista-olimpico-daniel-do-nascimento-ao-lado-de-um-gcm-apos-ser-localizado-em-sao-paulo-1785619956057_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
@@ -230,29 +234,14 @@
     "relateds": []
   },
   {
-    "title": "Atentado mata três em restaurante de luxo de Moscou",
-    "link": "https://www1.folha.uol.com.br/mundo/2026/08/explosao-mata-ao-menos-3-em-restaurante-de-luxo-em-moscou.shtml",
+    "title": "Espanha critica resposta da União Europeia à crise em Ceuta: 'Egoísta'",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/01/espanha-critica-resposta-da-ue-apos-mortes-na-crise-em-ceuta.ghtm",
     "photo": "",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Endrick marca em estreia de Mourinho, mas Real só empata com a Fiorentina",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/01/real-madridfiorentinaamistoso-internacional-como-foi.ghtm",
-    "photo": "https://imguol.com/c/esporte/9e/2026/08/01/endrick-comemora-gol-marcado-pelo-real-madrid-em-amistoso-contra-a-fiorentina-1785602037957_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": [
-      {
-        "title": "Endrick não se encaixa no perfil e pode ser emprestado, diz jornal",
-        "link": "https://www.uol.com.br/esporte/ultimas-noticias/agencia/2026/08/01/endrick-nao-se-encaixa-no-perfil-de-mourinho-e-pode-ser-emprestado-diz-site.htm"
-      }
-    ]
+    "relateds": []
   },
   {
     "title": "Ao menos 13 pessoas morrem em queda de avião com turistas no sul do Peru",
@@ -261,6 +250,16 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Moro mira Lula e minimiza Flávio em caso Master ao se lançar no Paraná",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/08/01/convencao-moro-pl-parana.ghtm",
+    "photo": "https://imguol.com/c/noticias/0e/2026/08/01/1ago2026---ao-lado-da-mulher-rosangela-sergio-moro-e-oficializado-candidato-ao-governo-com-filipe-barros-pl-e-deltan-dallagnol-novo-ao-senado-durante-convencao-do-pl-em-curitiba-1785596757138_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
@@ -515,9 +514,9 @@
     "relateds": []
   },
   {
-    "title": "Funcionário mata três colegas na fábrica da Bombril em SP, diz polícia",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/01/mortes-funcionarios-fabrica-bombril-sao-bernardo-do-campo.ghtm",
-    "photo": "https://imguol.com/c/noticias/aa/2026/08/01/crime-aconteceu-na-fabrica-da-bombril-em-sao-bernardo-do-campo-1785590510098_v2_300x225.jpg",
+    "title": "Aline Mineiro nega ter cometido 'atos obscenos' em condomínio",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/01/aline-mineiro-nota.ghtm",
+    "photo": "https://imguol.com/c/splash/9b/2026/08/01/aline-mineiro-negou-ter-cometido-atos-obscenos-no-condominio-onde-mora-1785592254679_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -565,29 +564,34 @@
     "relateds": []
   },
   {
-    "title": "Aline Mineiro nega ter cometido 'atos obscenos' em condomínio",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/01/aline-mineiro-nota.ghtm",
-    "photo": "https://imguol.com/c/splash/9b/2026/08/01/aline-mineiro-negou-ter-cometido-atos-obscenos-no-condominio-onde-mora-1785592254679_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Nirmal Purja, ícone do montanhismo mundial, morre em avalanche no Paquistão",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/01/nirmal-purja-icone-do-montanhismo-mundial-morre-em-avalanche-no-paquistao.ghtm",
-    "photo": "https://imguol.com/c/esporte/97/2019/10/29/nirmal-nims-purja-reivindica-recorde-no-alpinismo-1572352329281_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Nando Reis relembra saída dos Titãs: 'Me senti excluído'",
     "link": "https://www.uol.com.br/universa/noticias/redacao/2026/08/01/nando-reis-relembra-saida-dos-titas-me-senti-excluido.ghtm",
     "photo": "https://imguol.com/c/entretenimento/4d/2026/07/28/nando-reis-no-programa-desculpa-alguma-coisa-1785272979587_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Endrick marca em estreia de Mourinho, mas Real só empata com a Fiorentina",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/01/real-madridfiorentinaamistoso-internacional-como-foi.ghtm",
+    "photo": "https://imguol.com/c/esporte/9e/2026/08/01/endrick-comemora-gol-marcado-pelo-real-madrid-em-amistoso-contra-a-fiorentina-1785602037957_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Endrick não se encaixa no perfil e pode ser emprestado, diz jornal",
+        "link": "https://www.uol.com.br/esporte/ultimas-noticias/agencia/2026/08/01/endrick-nao-se-encaixa-no-perfil-de-mourinho-e-pode-ser-emprestado-diz-site.htm"
+      }
+    ]
+  },
+  {
+    "title": "Lucca, do São Paulo, sofre acidente de carro e tem suspeita de fratura no rosto",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/01/sao-paulo-lucca-sofre-acidente-de-carro-e-tem-suspeita-de-fratura-no-rosto.ghtm",
+    "photo": "https://imguol.com/c/esporte/c2/2026/01/24/lucca-do-sao-paulo-durante-duelo-com-palmeiras-no-campeonato-paulista-1769299218924_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -767,16 +771,6 @@
     "title": "BRTs de R$ 1 bilhão começam a ganhar forma em SP após mais de uma década",
     "link": "https://www1.folha.uol.com.br/cotidiano/2026/08/brts-de-r-1-bilhao-comecam-a-ganhar-forma-em-sao-paulo-apos-espera-de-mais-de-uma-decada.shtml",
     "photo": "https://imguol.com/c/home/7c/2026/08/01/construcao-do-brt-radial-promessa-e-que-obras-civis-do-corredor-de-onibus-rapido-fiquem-prontas-ate-o-fim-do-ano-1785590515534_450x337.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Ele achava que um suplemento fitness era seguro, mas acabou em surto psicótico",
-    "link": "https://www1.folha.uol.com.br/equilibrio/2026/08/ele-achava-que-um-suplemento-fitness-era-seguro-mas-acabou-em-surto-psicotico.shtml",
-    "photo": "https://imguol.com/c/home/23/2026/08/01/homem-jovem-sentado-em-cadeira-sob-varanda-coberta-segurando-oculos-ao-fundo-lareira-de-pedra-e-balanco-verde-com-almofadas-ambiente-externo-com-arvores-e-luz-natural-daniel-murphy-passou-de-um-marido-1785600692602_300x300.jpg?1785600779818",
     "source": "Folha",
     "is_main": false,
     "is_carousel": true,
@@ -989,6 +983,16 @@
     "relateds": []
   },
   {
+    "title": "10 cidades brasileiras para visitar antes de ficarem 'superturísticas'",
+    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/01/cidades-brasileiras-para-visitar-antes-de-ficarem-super-turisticas.ghtm",
+    "photo": "https://imguol.com/c/guia-de-compras/b8/2026/07/30/aiuruoca-1785445095136_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Influencer internado espremeu espinha no 'triângulo da morte'; veja riscos",
     "link": "https://www.uol.com.br/vivabem/noticias/redacao/2026/07/30/espremer-espinha-pode-matar-entenda-o-que-e-a-triangulo-da-morte-do-rosto.ghtm",
     "photo": "https://imguol.com/c/splash/12/2026/07/25/o-influenciador-ken-de-cg-que-teve-os-labios-infeccionados-apos-espremer-uma-espinha-1785008239615_v2_300x225.jpg",
@@ -1145,6 +1149,81 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Vasco e Fluminense se enfrentam pela Copa do Brasil; siga",
+    "link": "https://placar.uol.com.br/esporte/futebol/copa-do-brasil/2026/08/01/vasco-x-fluminense.htm",
+    "photo": "https://imguol.com/c/home/6d/2026/08/01/vasco-x-fluminense---copa-do-brasil-1785617912914_450x600.jpg?1785618066524",
+    "source": "UOL",
+    "is_main": true,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Bolsonaro pede liberação de visita de cunhada por possível internação de Michelle",
+    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/01/bolsonaro-pede-liberacao-de-visita-por-possivel-internacao-de-michelle.ghtm",
+    "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Em convenção na Bahia, Lula pede voto para Rui Costa e Jaques Wagner: 'O Senado está ruim'",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/08/01/lula-na-convencao-do-pt-na-bahia.ghtm",
+    "photo": "https://imguol.com/c/noticias/52/2026/08/01/presidente-da-republica-luiz-inacio-lula-da-silva-durante-convencao-federacao-brasil-da-esperanca-no-parque-de-exposicoes-salvador-1785601987289_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Pedir voto é vedado pela lei eleitoral até 16 de agosto",
+        "link": "https://noticias.uol.com.br/eleicoes/2026/08/01/lula-pede-voto-na-bahia-vedado-lei-eleitoral-ate-16-de-agosto.ghtm"
+      }
+    ]
+  },
+  {
+    "title": "Atentado mata três em restaurante de luxo de Moscou",
+    "link": "https://www1.folha.uol.com.br/mundo/2026/08/explosao-mata-ao-menos-3-em-restaurante-de-luxo-em-moscou.shtml",
+    "photo": "",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Funcionário mata três colegas na fábrica da Bombril em SP, diz polícia",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/01/mortes-funcionarios-fabrica-bombril-sao-bernardo-do-campo.ghtm",
+    "photo": "https://imguol.com/c/noticias/aa/2026/08/01/crime-aconteceu-na-fabrica-da-bombril-em-sao-bernardo-do-campo-1785590510098_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Nirmal Purja, ícone do montanhismo mundial, morre em avalanche no Paquistão",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/01/nirmal-purja-icone-do-montanhismo-mundial-morre-em-avalanche-no-paquistao.ghtm",
+    "photo": "https://imguol.com/c/esporte/97/2019/10/29/nirmal-nims-purja-reivindica-recorde-no-alpinismo-1572352329281_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Ele achava que um suplemento fitness era seguro, mas acabou em surto psicótico",
+    "link": "https://www1.folha.uol.com.br/equilibrio/2026/08/ele-achava-que-um-suplemento-fitness-era-seguro-mas-acabou-em-surto-psicotico.shtml",
+    "photo": "https://imguol.com/c/home/23/2026/08/01/homem-jovem-sentado-em-cadeira-sob-varanda-coberta-segurando-oculos-ao-fundo-lareira-de-pedra-e-balanco-verde-com-almofadas-ambiente-externo-com-arvores-e-luz-natural-daniel-murphy-passou-de-um-marido-1785600692602_300x300.jpg?1785600779818",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
