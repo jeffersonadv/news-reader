@@ -7,7 +7,12 @@
     "is_main": true,
     "is_carousel": false,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Com China e atrito com Milei, Brasil perde espaço na Argentina",
+        "link": "https://economia.uol.com.br/noticias/redacao/2026/08/01/comercio-bilateral-brasil-argentina-milei-lula-china.ghtm"
+      }
+    ]
   },
   {
     "title": "Pesquisadores identificam 21 pegadas de espécie humana primitiva no Quênia",
@@ -80,6 +85,31 @@
     "relateds": []
   },
   {
+    "title": "Uefa cita 'esquema secreto' e diz que perdeu confiança em Infantino na Fifa",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/01/uefa-cita-esquema-secreto-e-diz-que-perdeu-confianca-em-infantino-na-fifa.ghtm",
+    "photo": "https://imguol.com/c/esporte/3a/2026/02/19/gianni-infantino-presidente-da-fifa-ao-lado-de-aleksander-ceferin-presidente-da-uefa-1771529216393_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "O que está acontecendo em Ceuta? Entenda a crise migratória na Espanha",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/07/31/o-que-esta-acontecendo-em-ceuta-entenda-crise-migratoria-na-espanha.ghtm",
+    "photo": "https://imguol.com/c/noticias/1a/2026/08/01/quase-todos-os-imigrantes-que-entraram-na-cidade-ja-retornaram-a-marrocos-segundo-a-espanha-1785586969594_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Cerca de 70 mil migrantes retornam a Marrocos vindos de Ceuta",
+        "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/01/cerca-de-69500-migrantes-estao-retornando-ao-marrocos-vindos-de-ceuta.ghtm"
+      }
+    ]
+  },
+  {
     "title": "Itamaraty veta cônsul de Israel em SP e aponta dupla nacionalidade como obstáculo",
     "link": "https://www1.folha.uol.com.br/mundo/2026/07/itamaraty-veta-consul-de-israel-em-sao-paulo-e-aponta-obstaculo-de-dupla-nacionalidade.shtml",
     "photo": "https://imguol.com/c/home/fe/2026/08/01/a-diplomata-israelense-vivian-aisen---1785582805939_v2_300x225.jpg",
@@ -90,32 +120,9 @@
     "relateds": []
   },
   {
-    "title": "O que está acontecendo em Ceuta? Entenda a crise migratória na Espanha",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/07/31/o-que-esta-acontecendo-em-ceuta-entenda-crise-migratoria-na-espanha.ghtm",
-    "photo": "https://imguol.com/c/noticias/f9/2026/07/31/31jul2026---um-migrante-do-marrocos-reage-ao-chegar-a-fronteira-espanhola-em-ceuta-1785503424072_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Marrocos prende ao menos 70 pessoas por violência após travessia para Ceuta",
-        "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/01/marrocos-prende-violencia-apos-travessia-em-massa-em-ceuta.ghtm"
-      },
-      {
-        "title": "Cerca de 69,5 mil migrantes estão retornando a Marrocos vindos de Ceuta",
-        "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/01/cerca-de-69500-migrantes-estao-retornando-ao-marrocos-vindos-de-ceuta.ghtm"
-      },
-      {
-        "title": "'Já esperávamos': brasileira relata reações à crise migratória na Espanha",
-        "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/07/31/ja-esperavamos-brasileira-relata-clima-na-espanha-apos-crise-migratoria.ghtm"
-      }
-    ]
-  },
-  {
-    "title": "Gasolina com 32% de etanol passa a valer hoje",
-    "link": "https://economia.uol.com.br/noticias/redacao/2026/08/01/gasolina-com-32-de-etanol-passa-a-valer-neste-sabado.ghtm",
-    "photo": "",
+    "title": "Hospital da Criança de São Luís é investigado por 297 mortes em dois anos e meio",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/01/mp-sus-e-policia-investigam-216-mortes-de-criancas-em-hospital-de-sao-luis.ghtm",
+    "photo": "https://imguol.com/c/noticias/ac/2026/07/28/protesto-de-maes-e-pais-de-criancas-mortas-em-sao-luis-colocou-cruzes-em-praca-na-frente-do-hospital-1785263964736_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -123,19 +130,9 @@
     "relateds": []
   },
   {
-    "title": "Confiança na família despenca, aponta pesquisa; vício e bets destroem lares",
-    "link": "https://noticias.uol.com.br/colunas/a-hora/2026/08/01/confianca-na-familia-despenca-diz-pesquisa-vicio-e-bets-destroem-lares.htm",
-    "photo": "https://imguol.com/c/noticias/3c/2026/06/19/bets-casa-de-apostas-apostador-1781872053869_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Tarcísio oficializa candidatura hoje com apoio de 95% dos prefeitos de São Paulo",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/07/31/tarcisio-oficializa-candidatura-hoje-com-o-apoio-de-95-dos-prefeitos-de-sp.htm",
-    "photo": "https://imguol.com/c/home/0b/2026/07/31/18dez2025---o-governador-de-sao-paulo-tarcisio-de-freitas-republicanos-em-evento-de-balanco-da-gestao-1785530000066_v2_300x225.jpg?1785530006302",
+    "title": "Republicanos oficializa Tarcísio como candidato à reeleição em SP; acompanhe o evento",
+    "link": "https://noticias.uol.com.br/ao-vivo/2026/08/01/republicanos-convencao-tarcisio-sao-paulo.htm",
+    "photo": "https://imguol.com/c/noticias/be/2026/08/01/palco-da-convencao-do-republicanos-recebeu-superproducao-1785583235026_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -178,19 +175,24 @@
     "relateds": []
   },
   {
-    "title": "André Mendonça autoriza 2º inquérito da PF contra Lulinha",
-    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/31/mendonca-autoriza-nova-investigacao-sobre-lulinha-a-pedido-da-pf.ghtm",
-    "photo": "https://imguol.com/c/noticias/0f/2024/03/27/lobista-foi-condenado-a-indenizar-lulinha-filho-do-presidente-lula-1711543789105_v2_300x225.jpg",
+    "title": "Estêvão marca após lesão, mas Tottenham bate Chelsea com gol de Richarlison",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/01/estevao-marca-apos-lesao-mas-tottenham-bate-chelsea-com-gol-de-richarlison.ghtm",
+    "photo": "https://imguol.com/c/esporte/ca/2026/08/01/estevao-do-chelsea-fez-seu-primeiro-gol-apos-a-lesao-que-o-tirou-da-copa-do-mundo-1785587507629_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": [
-      {
-        "title": "'Existem grupos na PF tentando interferir na eleição', diz advogado de Lulinha",
-        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/31/defesa-de-lulinha-ha-grupos-na-pf-tentando-interferir-na-eleicao.ghtm"
-      }
-    ]
+    "relateds": []
+  },
+  {
+    "title": "Gasolina com 32% de etanol passa a valer hoje",
+    "link": "https://economia.uol.com.br/noticias/redacao/2026/08/01/gasolina-com-32-de-etanol-passa-a-valer-neste-sabado.ghtm",
+    "photo": "https://imguol.com/c/noticias/58/2026/04/09/posto-de-gasolina-posto-de-combustivel-gasolina-etanol-abastecimento-combustiveis-1775732639438_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Witzel tenta nova surpresa no RJ e busca carona em sucesso de governador interino",
@@ -206,36 +208,6 @@
         "link": "https://noticias.uol.com.br/eleicoes/2026/08/01/decisivo-no-rio-eleitorado-do-interior-cresce-e-ve-o-da-capital-diminuir.htm"
       }
     ]
-  },
-  {
-    "title": "Suspeitos trocam tiros com a PF em área próxima ao aeroporto de Guarulhos, em SP",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/07/31/ocorrendia-no-aeroporto-de-guarulhos-em-sao-paulo.ghtm",
-    "photo": "https://imguol.com/c/noticias/eb/2026/07/31/carro-da-policia-federal-em-area-proxima-ao-aeroporto-de-guarulhos-sp-1785525276794_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Intoxicação por agrotóxico banido na Europa salta 1.100% em oito anos no Brasil",
-    "link": "https://noticias.uol.com.br/colunas/leonardo-sakamoto/2026/07/31/intoxicacao-por-agrotoxico-banido-na-europa-salta-1100-em-8-anos-no-brasil.htm",
-    "photo": "",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Fim de semana em São Paulo deve ser com tempo firme e calor à tarde",
-    "link": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/07/31/fim-de-semana-em-sao-paulo-deve-ser-com-tempo-firme-e-calor-a-tarde-sem-chuva-veja-previsao.htm",
-    "photo": "https://imguol.com/c/noticias/66/2022/08/08/calor-deve-voltar-a-regiao-sul-e-sudeste-do-brasil-a-partir-da-proxima-semana-1660004123081_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
   },
   {
     "title": "Cade recomenda aprovar investimento da American Airlines na Azul",
@@ -258,9 +230,29 @@
     "relateds": []
   },
   {
-    "title": "EUA barram importações de 43 empresas chinesas por trabalho forçado",
-    "link": "https://economia.uol.com.br/noticias/redacao/2026/07/31/china-eua-sancao-trabalhos-forcados.ghtm",
-    "photo": "",
+    "title": "Palmeiras aproveita pausa do Fla, e Abel deve poupar jogadores na Copa do Brasil",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/01/palmeiras-marca-flamengo-e-abel-prepara-mudancas-na-copa-do-brasil.ghtm",
+    "photo": "https://imguol.com/c/esporte/41/2026/07/24/abel-ferreira-comanda-treino-do-palmeiras-na-academia-de-futebol-1784924069033_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Acordo entre Osmar Stabile e CBF atrasou reforma do gramado do Corinthians",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/01/acordo-entre-osmar-stabile-e-cbf-atrasou-reforma-do-gramado-do-corinthians.ghtm",
+    "photo": "https://imguol.com/c/esporte/2c/2026/07/31/osmar-stabile-presidente-do-corinthians-antes-da-partida-contra-o-athletico-pelo-brasileirao-1785501831383_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Confiança na família despenca, aponta pesquisa; vício e bets destroem lares",
+    "link": "https://noticias.uol.com.br/colunas/a-hora/2026/08/01/confianca-na-familia-despenca-diz-pesquisa-vicio-e-bets-destroem-lares.htm",
+    "photo": "https://imguol.com/c/noticias/3c/2026/06/19/bets-casa-de-apostas-apostador-1781872053869_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -498,39 +490,14 @@
     "relateds": []
   },
   {
-    "title": "'Já esperávamos': brasileira relata reações à crise migratória na Espanha",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/07/31/ja-esperavamos-brasileira-relata-clima-na-espanha-apos-crise-migratoria.ghtm",
-    "photo": "https://imguol.com/c/home/fc/2026/07/31/mariana-matos-38-vive-em-barcelona-1785534434473_v2_300x225.jpg?1785534437984",
+    "title": "Ex-marido diz ter gratidão e respeito por Nivea Stelmann: 'Mulher incrível'",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/01/marcus-rocha-ex-marido-nivea-stelmann.ghtm",
+    "photo": "https://imguol.com/c/splash/c7/2026/07/31/quem-e-marcus-rocha-ex-marido-de-nivea-stelmann-1785529618613_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
     "relateds": []
-  },
-  {
-    "title": "Britney Spears exibe seios em vídeos de passeio a cavalo",
-    "link": "https://www.uol.com.br/splash/noticias/2026/07/31/britney-spears-exibe-seios-em-videos-a-cavalo-e-movimenta-as-redes-sociais.ghtm",
-    "photo": "https://imguol.com/c/splash/1a/2026/03/06/britney-spears-carregava-pilulas-em-carro-quando-foi-presa-1772827578806_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Infantino desiste de vender fatia da Copa do Mundo após divisão na Fifa",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/31/infantino-desiste-de-vender-fatia-da-copa-do-mundo-apos-divisao-na-fifa.ghtm",
-    "photo": "",
-    "source": "UOL",
-    "is_main": true,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Trump diz que não falou com Infantino sobre plano da Fifa para vender fatia da Copa",
-        "link": "https://www.uol.com.br/esporte/ultimas-noticias/agencia/2026/07/31/trump-diz-que-nao-conversou-com-infantino-sobre-plano-firmado-entre-fifa-e-figuroes-americanos.htm"
-      }
-    ]
   },
   {
     "title": "Virginia se inspira nos anos 2000 para look de festa de Vini Jr.",
@@ -606,16 +573,6 @@
     "title": "Macacos podem ter pets assim como os humanos, revela estudo de Oxford",
     "link": "https://noticias.uol.com.br/meio-ambiente/ultimas-noticias/redacao/2026/07/31/macacos-e-outros-primatas-podem-ter-pets-assim-como-humanos-sugere-estudo.ghtm",
     "photo": "https://imguol.com/c/noticias/cf/2026/07/31/macaco-carrega-filhote-de-cachorro-em-parque-em-dhaka-em-bangladesh-1785527671624_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Bugni: Susana Werner deixou a profissão por casamento; e você está deixando o quê?",
-    "link": "https://www.uol.com.br/splash/colunas/luciana-bugni/2026/07/31/susana-werner-deixou-a-profissao-por-casamento-e-voce-esta-deixando-o-que.htm",
-    "photo": "https://imguol.com/36/2024/04/26/julio-cesar-e-a-esposa-susana-werner-1714134634314_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -743,9 +700,9 @@
     "relateds": []
   },
   {
-    "title": "Sem opções e sob transfer ban, Santos renova com Escobar até o fim de 2027",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/31/sem-opcoes-e-sob-transfer-ban-santos-renova-com-escobar-ate-2028.ghtm",
-    "photo": "https://imguol.com/c/home/9e/2026/07/31/escobar-comemora-vitoria-do-santos-sobre-a-ucv-na-venezuela-1785530475282_v2_300x225.jpg",
+    "title": "Rio recebe Copa de triatlo 10 anos após Olimpíadas e na corrida por LA-2028",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/08/01/triatlo-copa-do-mundo-etapa-copacabana-10-anos-rio-2016.ghtm",
+    "photo": "https://imguol.com/c/esporte/1f/2026/07/31/copacabana-vai-receber-etapa-da-copa-do-mundo-de-triatlo-1785536609310_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -753,20 +710,20 @@
     "relateds": []
   },
   {
-    "title": "Inglaterra recebe primeira instalação ao ar livre de Hélio Oiticica na Europa",
-    "link": "https://www1.folha.uol.com.br/ilustrada/2026/07/inglaterra-recebe-primeira-instalacao-ao-ar-livre-de-helio-oiticica-na-europa.shtml",
-    "photo": "https://imguol.com/c/home/9e/2026/07/31/obra-a-invencao-da-cor-magic-square-3-de-helio-oitica-1785533772997_v2_300x300.jpg",
-    "source": "Folha",
+    "title": "Militar filipina vence Miss Supranational 2026; Brasil termina em terceiro lugar",
+    "link": "https://www.uol.com.br/splash/noticias/2026/07/31/final-miss-supranational-2026.ghtm",
+    "photo": "https://imguol.com/c/splash/40/2026/07/31/a-filipina-katrina-llegado-venceu-o-miss-supranational-2026-e-recebeu-coroa-da-brasileira-eduarda-braum-1785532250199_v2_300x300.jpg",
+    "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
   {
-    "title": "Militar filipina vence Miss Supranational 2026; Brasil termina em terceiro lugar",
-    "link": "https://www.uol.com.br/splash/noticias/2026/07/31/final-miss-supranational-2026.ghtm",
-    "photo": "https://imguol.com/c/splash/40/2026/07/31/a-filipina-katrina-llegado-venceu-o-miss-supranational-2026-e-recebeu-coroa-da-brasileira-eduarda-braum-1785532250199_v2_300x225.jpg",
-    "source": "UOL",
+    "title": "Massive Attack é banido de Singapura após exibir bandeira palestina",
+    "link": "https://www1.folha.uol.com.br/ilustrada/2026/08/massive-attack-e-banido-de-singapura-apos-exibir-bandeira-palestina.shtml",
+    "photo": "https://imguol.com/c/toca/e4/2025/09/18/telao-de-show-do-massive-attack-em-londres-exibe-bandeira-da-palestina-1758233496516_v2_300x225.jpg",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
@@ -793,20 +750,25 @@
     "relateds": []
   },
   {
-    "title": "Justiça determina ação urgente contra mortes entre indígenas em Minas Gerais",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/07/31/maxakali-crise-humanitaria-justica.ghtm",
-    "photo": "https://imguol.com/c/noticias/d0/2026/07/30/reuniao-para-discutir-a-crise-na-comunidade-maxakali-aconteceu-nesta-semana-1785442030826_v2_450x337.png",
+    "title": "Mendonça autoriza nova investigação sobre Lulinha a pedido da Polícia Federal",
+    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/31/mendonca-autoriza-nova-investigacao-sobre-lulinha-a-pedido-da-pf.ghtm",
+    "photo": "https://imguol.com/c/noticias/0f/2024/03/27/lobista-foi-condenado-a-indenizar-lulinha-filho-do-presidente-lula-1711543789105_v2_450x337.jpg",
     "source": "UOL",
     "is_main": true,
     "is_carousel": false,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "'Existem grupos na PF tentando interferir na eleição', diz advogado de Lulinha",
+        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/31/defesa-de-lulinha-ha-grupos-na-pf-tentando-interferir-na-eleicao.ghtm"
+      }
+    ]
   },
   {
-    "title": "Prefeitura publica decreto para criação do Parque do Bixiga, em São Paulo",
-    "link": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/07/31/parque-do-bixiga-tem-mais-um-avanco-entenda-os-proximos-passos.htm",
-    "photo": "https://imguol.com/c/noticias/e7/2026/01/23/croqui-mostra-estudo-para-parque-bixiga-1769196097393_v2_450x253.jpg",
-    "source": "UOL",
+    "title": "BRTs de R$ 1 bilhão começam a ganhar forma em SP após mais de uma década",
+    "link": "https://www1.folha.uol.com.br/cotidiano/2026/08/brts-de-r-1-bilhao-comecam-a-ganhar-forma-em-sao-paulo-apos-espera-de-mais-de-uma-decada.shtml",
+    "photo": "https://imguol.com/c/home/7c/2026/08/01/construcao-do-brt-radial-promessa-e-que-obras-civis-do-corredor-de-onibus-rapido-fiquem-prontas-ate-o-fim-do-ano-1785590515534_450x337.jpg",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
@@ -993,6 +955,16 @@
     "relateds": []
   },
   {
+    "title": "Keune ou Wella: qual máscara é melhor para cabelo poroso na perimenopausa?",
+    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/01/testamos-mascaras-premium-da-keune-e-wella-confira-os-resultados.htm",
+    "photo": "https://imguol.com/c/guia-de-compras/46/2026/06/01/cremes-keune-e-wella-1780328017990_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Por que celulares estilo passaporte, como o Galaxy Z Fold8, são tendência",
     "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/01/por-que-celulares-estilo-passaporte-como-o-galaxy-z-fold8-sao-tendencia.ghtm",
     "photo": "https://imguol.com/c/guia-de-compras/dd/2026/07/21/galaxy-z-fold8-1784683386321_v2_300x225.jpg",
@@ -1006,16 +978,6 @@
     "title": "Adidas, Puma e mais: tem desconto rolando na Netshoes e a gente garimpou",
     "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/07/31/adidas-olympikus-e-mais-confira-produtos-em-oferta-na-maratona-netshoes.ghtm",
     "photo": "https://imguol.com/c/guia-de-compras/43/2026/07/31/listamos-produtos-com-ate-59-de-desconto-na-maratona-de-descontos-netshoes-1785521526011_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Dia do Orgasmo: seleção reúne 12 sex toys para diferentes perfis e bolsos",
-    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/07/31/dia-do-orgasmo-estes-sex-toys-sao-otimos-para-estimular-o-ponto-g.ghtm",
-    "photo": "https://imguol.com/c/guia-de-compras/65/2026/07/31/listamos-sex-toys-para-liberar-o-prazer-no-dia-do-orgasmo-confira-selecao-1785523481820_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1046,6 +1008,16 @@
     "title": "Eclipses pede coragem para ser quem somos; a previsão do céu em agosto",
     "link": "https://www.uol.com.br/universa/horoscopo/noticias/redacao/2026/08/01/eclipses-pede-coragem-para-ser-quem-somos-a-previsao-do-ceu-em-agosto.ghtm",
     "photo": "https://imguol.com/c/entretenimento/e8/2025/12/28/mulher-feliz-1766955114605_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Dia do Orgasmo: seleção reúne 12 sex toys para diferentes perfis e bolsos",
+    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/07/31/dia-do-orgasmo-estes-sex-toys-sao-otimos-para-estimular-o-ponto-g.ghtm",
+    "photo": "https://imguol.com/c/guia-de-compras/65/2026/07/31/listamos-sex-toys-para-liberar-o-prazer-no-dia-do-orgasmo-confira-selecao-1785523481820_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1103,6 +1075,16 @@
     "relateds": []
   },
   {
+    "title": "O que Lula comeu esta semana e por que você também deveria comer",
+    "link": "https://www.uol.com.br/nossa/noticias/redacao/2026/08/01/o-que-lula-comeu-esta-semana-e-por-que-voce-tambem-deveria-comer.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/e0/2026/07/29/picadinho-do-tordesilhas-1785339771282_v2_450x253.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Como funcionava a engrenagem do golpe de R$ 3,8 bilhões na Fazenda de SP",
     "link": "https://tab.uol.com.br/noticias/redacao/2026/07/26/como-a-secretaria-da-fazenda-de-sp-descobriu-um-rombo-de-r-4-bilhoes.htm",
     "photo": "https://imguol.com/c/tab/df/2026/07/24/sede-da-sefaz-sp-secretaria-da-fazenda-de-sao-paulo-1784915808129_v2_300x300.jpg",
@@ -1149,6 +1131,146 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Tarcísio oficializa candidatura hoje com apoio de 95% dos prefeitos de São Paulo",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/07/31/tarcisio-oficializa-candidatura-hoje-com-o-apoio-de-95-dos-prefeitos-de-sp.htm",
+    "photo": "https://imguol.com/c/home/0b/2026/07/31/18dez2025---o-governador-de-sao-paulo-tarcisio-de-freitas-republicanos-em-evento-de-balanco-da-gestao-1785530000066_v2_300x225.jpg?1785530006302",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Moro lança chapa pura pelo PL e dá palanque para Flávio no Paraná",
+        "link": "https://noticias.uol.com.br/eleicoes/2026/07/31/lider-com-folga-moro-lanca-chapa-pura-pelo-pl-e-da-palanque-a-flavio-no-pr.ghtm"
+      }
+    ]
+  },
+  {
+    "title": "Suspeitos trocam tiros com a PF em área próxima ao aeroporto de Guarulhos, em SP",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/07/31/ocorrendia-no-aeroporto-de-guarulhos-em-sao-paulo.ghtm",
+    "photo": "https://imguol.com/c/noticias/eb/2026/07/31/carro-da-policia-federal-em-area-proxima-ao-aeroporto-de-guarulhos-sp-1785525276794_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Intoxicação por agrotóxico banido na Europa salta 1.100% em oito anos no Brasil",
+    "link": "https://noticias.uol.com.br/colunas/leonardo-sakamoto/2026/07/31/intoxicacao-por-agrotoxico-banido-na-europa-salta-1100-em-8-anos-no-brasil.htm",
+    "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Fim de semana em São Paulo deve ser com tempo firme e calor à tarde",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/07/31/fim-de-semana-em-sao-paulo-deve-ser-com-tempo-firme-e-calor-a-tarde-sem-chuva-veja-previsao.htm",
+    "photo": "https://imguol.com/c/noticias/66/2022/08/08/calor-deve-voltar-a-regiao-sul-e-sudeste-do-brasil-a-partir-da-proxima-semana-1660004123081_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "EUA barram importações de 43 empresas chinesas por trabalho forçado",
+    "link": "https://economia.uol.com.br/noticias/redacao/2026/07/31/china-eua-sancao-trabalhos-forcados.ghtm",
+    "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "'Já esperávamos': brasileira relata reações à crise migratória na Espanha",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/07/31/ja-esperavamos-brasileira-relata-clima-na-espanha-apos-crise-migratoria.ghtm",
+    "photo": "https://imguol.com/c/home/fc/2026/07/31/mariana-matos-38-vive-em-barcelona-1785534434473_v2_300x225.jpg?1785534437984",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Britney Spears exibe seios em vídeos de passeio a cavalo",
+    "link": "https://www.uol.com.br/splash/noticias/2026/07/31/britney-spears-exibe-seios-em-videos-a-cavalo-e-movimenta-as-redes-sociais.ghtm",
+    "photo": "https://imguol.com/c/splash/1a/2026/03/06/britney-spears-carregava-pilulas-em-carro-quando-foi-presa-1772827578806_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Infantino desiste de vender fatia da Copa do Mundo após divisão na Fifa",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/31/infantino-desiste-de-vender-fatia-da-copa-do-mundo-apos-divisao-na-fifa.ghtm",
+    "photo": "",
+    "source": "UOL",
+    "is_main": true,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Trump diz que não falou com Infantino sobre plano da Fifa para vender fatia da Copa",
+        "link": "https://www.uol.com.br/esporte/ultimas-noticias/agencia/2026/07/31/trump-diz-que-nao-conversou-com-infantino-sobre-plano-firmado-entre-fifa-e-figuroes-americanos.htm"
+      }
+    ]
+  },
+  {
+    "title": "Bugni: Susana Werner deixou a profissão por casamento; e você está deixando o quê?",
+    "link": "https://www.uol.com.br/splash/colunas/luciana-bugni/2026/07/31/susana-werner-deixou-a-profissao-por-casamento-e-voce-esta-deixando-o-que.htm",
+    "photo": "https://imguol.com/36/2024/04/26/julio-cesar-e-a-esposa-susana-werner-1714134634314_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Sem opções e sob transfer ban, Santos renova com Escobar até o fim de 2027",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/31/sem-opcoes-e-sob-transfer-ban-santos-renova-com-escobar-ate-2028.ghtm",
+    "photo": "https://imguol.com/c/home/9e/2026/07/31/escobar-comemora-vitoria-do-santos-sobre-a-ucv-na-venezuela-1785530475282_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Inglaterra recebe primeira instalação ao ar livre de Hélio Oiticica na Europa",
+    "link": "https://www1.folha.uol.com.br/ilustrada/2026/07/inglaterra-recebe-primeira-instalacao-ao-ar-livre-de-helio-oiticica-na-europa.shtml",
+    "photo": "https://imguol.com/c/home/9e/2026/07/31/obra-a-invencao-da-cor-magic-square-3-de-helio-oitica-1785533772997_v2_300x300.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Justiça determina ação urgente contra mortes entre indígenas em Minas Gerais",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/07/31/maxakali-crise-humanitaria-justica.ghtm",
+    "photo": "https://imguol.com/c/noticias/d0/2026/07/30/reuniao-para-discutir-a-crise-na-comunidade-maxakali-aconteceu-nesta-semana-1785442030826_v2_450x337.png",
+    "source": "UOL",
+    "is_main": true,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Prefeitura publica decreto para criação do Parque do Bixiga, em São Paulo",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/07/31/parque-do-bixiga-tem-mais-um-avanco-entenda-os-proximos-passos.htm",
+    "photo": "https://imguol.com/c/noticias/e7/2026/01/23/croqui-mostra-estudo-para-parque-bixiga-1769196097393_v2_450x253.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
