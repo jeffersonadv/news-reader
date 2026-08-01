@@ -1,28 +1,18 @@
 [
   {
-    "title": "Concorrência cresce, e vendas do Brasil para Argentina despencam",
-    "link": "https://www1.folha.uol.com.br/mercado/2026/07/concorrencia-cresce-e-vendas-do-brasil-a-argentina-despencam-no-1o-semestre.shtml",
-    "photo": "",
-    "source": "Folha",
+    "title": "Nunes pede voto das mulheres para Tarcísio durante convenção em SP",
+    "link": "https://noticias.uol.com.br/ao-vivo/2026/08/01/republicanos-convencao-tarcisio-sao-paulo.htm",
+    "photo": "https://imguol.com/c/noticias/be/2026/08/01/palco-da-convencao-do-republicanos-recebeu-superproducao-1785583235026_v2_300x225.jpg",
+    "source": "UOL",
     "is_main": true,
     "is_carousel": false,
     "is_video": false,
     "relateds": [
       {
-        "title": "Com China e atrito com Milei, Brasil perde espaço na Argentina",
-        "link": "https://economia.uol.com.br/noticias/redacao/2026/08/01/comercio-bilateral-brasil-argentina-milei-lula-china.ghtm"
+        "title": "Moro lança chapa pura pelo PL e dá palanque para Flávio no Paraná",
+        "link": "https://noticias.uol.com.br/eleicoes/2026/07/31/lider-com-folga-moro-lanca-chapa-pura-pelo-pl-e-da-palanque-a-flavio-no-pr.ghtm"
       }
     ]
-  },
-  {
-    "title": "Pesquisadores identificam 21 pegadas de espécie humana primitiva no Quênia",
-    "link": "https://www1.folha.uol.com.br/ciencia/2026/07/pesquisadores-identificam-21-pegadas-de-especie-humana-primitiva-no-quenia.shtml",
-    "photo": "https://imguol.com/c/home/42/2026/08/01/kevin-hatala-observa-pegadas-atribuidas-a-oito-individuos-da-especie-paranthropus-1785581197672_450x337.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
   },
   {
     "title": "Sua muito até parado? Pode ser mais do que só calor ou nervoso",
@@ -32,6 +22,16 @@
     "is_main": false,
     "is_carousel": true,
     "is_video": true,
+    "relateds": []
+  },
+  {
+    "title": "Pesquisadores identificam 21 pegadas de espécie humana primitiva no Quênia",
+    "link": "https://www1.folha.uol.com.br/ciencia/2026/07/pesquisadores-identificam-21-pegadas-de-especie-humana-primitiva-no-quenia.shtml",
+    "photo": "https://imguol.com/c/home/42/2026/08/01/kevin-hatala-observa-pegadas-atribuidas-a-oito-individuos-da-especie-paranthropus-1785581197672_450x337.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
     "relateds": []
   },
   {
@@ -92,7 +92,12 @@
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Federação Inglesa apoia Uefa em críticas à Fifa: 'Hora de uma revisão'",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/01/federacao-inglesa-apoia-uefa-em-criticas-a-fifa-hora-de-uma-revisao.ghtm"
+      }
+    ]
   },
   {
     "title": "O que está acontecendo em Ceuta? Entenda a crise migratória na Espanha",
@@ -130,17 +135,17 @@
     "relateds": []
   },
   {
-    "title": "Republicanos oficializa Tarcísio como candidato à reeleição em SP; acompanhe o evento",
-    "link": "https://noticias.uol.com.br/ao-vivo/2026/08/01/republicanos-convencao-tarcisio-sao-paulo.htm",
-    "photo": "https://imguol.com/c/noticias/be/2026/08/01/palco-da-convencao-do-republicanos-recebeu-superproducao-1785583235026_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
+    "title": "Concorrência cresce, e vendas do Brasil para Argentina despencam",
+    "link": "https://www1.folha.uol.com.br/mercado/2026/07/concorrencia-cresce-e-vendas-do-brasil-a-argentina-despencam-no-1o-semestre.shtml",
+    "photo": "https://imguol.com/c/home/85/2026/08/01/conteineres-aguardam-no-porto-de-buenos-aires---1785594086802_v2_300x225.jpg",
+    "source": "Folha",
+    "is_main": true,
     "is_carousel": false,
     "is_video": false,
     "relateds": [
       {
-        "title": "Moro lança chapa pura pelo PL e dá palanque para Flávio no Paraná",
-        "link": "https://noticias.uol.com.br/eleicoes/2026/07/31/lider-com-folga-moro-lanca-chapa-pura-pelo-pl-e-da-palanque-a-flavio-no-pr.ghtm"
+        "title": "Com China e atrito com Milei, Brasil perde espaço na Argentina",
+        "link": "https://economia.uol.com.br/noticias/redacao/2026/08/01/comercio-bilateral-brasil-argentina-milei-lula-china.ghtm"
       }
     ]
   },
@@ -195,23 +200,23 @@
     "relateds": []
   },
   {
-    "title": "Witzel tenta nova surpresa no RJ e busca carona em sucesso de governador interino",
-    "link": "https://www1.folha.uol.com.br/poder/2026/07/witzel-tenta-nova-surpresa-no-rj-e-busca-carona-em-sucesso-de-governador-interino.shtml",
-    "photo": "https://imguol.com/c/home/74/2026/08/01/wilson-witzel-ex-governador-do-rio-janeiro-durante-interrogatorio-no-tribunal-especial-misto-que-julgou-seu-processo-de-impeachment---1785582289310_v2_300x225.jpg",
+    "title": "Com 22%, torcida do Flamengo continua sendo a maior do país, diz Datafolha",
+    "link": "https://www1.folha.uol.com.br/esporte/2026/07/flamengo-continua-com-a-maior-torcida-do-brasil-com-22-aponta-datafolha.shtml",
+    "photo": "https://imguol.com/c/esporte/36/2026/07/11/torcida-do-flamengo-no-amistoso-entre-benfica-e-flamengo-em-portugal-1783798850189_v2_300x225.jpg",
     "source": "Folha",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
     "relateds": [
       {
-        "title": "Decisivo no RJ, eleitorado do interior cresce e vê o da capital diminuir",
-        "link": "https://noticias.uol.com.br/eleicoes/2026/08/01/decisivo-no-rio-eleitorado-do-interior-cresce-e-ve-o-da-capital-diminuir.htm"
+        "title": "Flamengo projeta volta de Paquetá em nova pausa no calendário após empates",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/01/como-leo-jardim-pretende-aproveitar-nova-pausa-no-calendario-do-flamengo.ghtm"
       }
     ]
   },
   {
-    "title": "Cade recomenda aprovar investimento da American Airlines na Azul",
-    "link": "https://economia.uol.com.br/noticias/redacao/2026/07/31/azul-cade-american.ghtm",
+    "title": "Recuperação fatia Raízen em duas; Shell e Cosan perdem controle majoritário",
+    "link": "https://economia.uol.com.br/noticias/redacao/2026/08/01/raizen---recuperacao-extrajudicial.ghtm",
     "photo": "",
     "source": "UOL",
     "is_main": false,
@@ -240,9 +245,9 @@
     "relateds": []
   },
   {
-    "title": "Acordo entre Osmar Stabile e CBF atrasou reforma do gramado do Corinthians",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/01/acordo-entre-osmar-stabile-e-cbf-atrasou-reforma-do-gramado-do-corinthians.ghtm",
-    "photo": "https://imguol.com/c/esporte/2c/2026/07/31/osmar-stabile-presidente-do-corinthians-antes-da-partida-contra-o-athletico-pelo-brasileirao-1785501831383_v2_300x225.jpg",
+    "title": "Veja como seguir o UOL e seu programa favorito em todas as redes sociais",
+    "link": "https://economia.uol.com.br/noticias/redacao/2026/07/31/veja-como-seguir-o-uol-e-seu-programa-favorito-em-todas-as-redes-sociais.htm",
+    "photo": "https://imguol.com/c/noticias/33/2026/07/31/uol-produtos-e-canais-1785531319308_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -255,19 +260,24 @@
     "photo": "https://imguol.com/c/noticias/3c/2026/06/19/bets-casa-de-apostas-apostador-1781872053869_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
   {
-    "title": "Veja como seguir o UOL e seu programa favorito em todas as redes sociais",
-    "link": "https://economia.uol.com.br/noticias/redacao/2026/07/31/veja-como-seguir-o-uol-e-seu-programa-favorito-em-todas-as-redes-sociais.htm",
-    "photo": "https://imguol.com/c/noticias/33/2026/07/31/uol-produtos-e-canais-1785531319308_v2_300x225.png",
-    "source": "UOL",
+    "title": "Witzel retira candidatura para apoiar Garotinho ao Governo do RJ",
+    "link": "https://www1.folha.uol.com.br/poder/2026/08/witzel-retira-candidatura-para-apoiar-garotinho-ao-governo-do-rj.shtml",
+    "photo": "https://imguol.com/c/home/74/2026/08/01/wilson-witzel-ex-governador-do-rio-janeiro-durante-interrogatorio-no-tribunal-especial-misto-que-julgou-seu-processo-de-impeachment---1785582289310_v2_300x225.jpg",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Decisivo no RJ, eleitorado do interior cresce e vê o da capital diminuir",
+        "link": "https://noticias.uol.com.br/eleicoes/2026/08/01/decisivo-no-rio-eleitorado-do-interior-cresce-e-ve-o-da-capital-diminuir.htm"
+      }
+    ]
   },
   {
     "title": "Proposta para educação poderia mesclar experiências cearense e chilena",
@@ -440,16 +450,6 @@
     "relateds": []
   },
   {
-    "title": "Eleitor indeciso teme Flávio radicalizado, mas não se empolga com Lula",
-    "link": "https://noticias.uol.com.br/colunas/a-hora/2026/07/31/eleitor-indeciso-teme-flavio-radicalizado-mas-nao-se-empolga-com-lula.htm",
-    "photo": "https://conteudo.imguol.com.br/c/home/a0/2025/05/23/a-hora-1748033136793_v2_100x100.png?1748033143450",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Que tristeza! Adeus, Franco Baresi!",
     "link": "https://www.uol.com.br/esporte/colunas/pvc/2026/07/31/que-tristeza-adeus-franco-baresi.htm",
     "photo": "https://conteudo.imguol.com.br/c/home/40/2019/01/14/pvc-1547459239301_100x100.jpg",
@@ -490,9 +490,29 @@
     "relateds": []
   },
   {
+    "title": "Funcionário mata três colegas na fábrica da Bombril em SP, diz polícia",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/01/mortes-funcionarios-fabrica-bombril-sao-bernardo-do-campo.ghtm",
+    "photo": "https://imguol.com/c/noticias/aa/2026/08/01/crime-aconteceu-na-fabrica-da-bombril-em-sao-bernardo-do-campo-1785590510098_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Ex-marido diz ter gratidão e respeito por Nivea Stelmann: 'Mulher incrível'",
     "link": "https://www.uol.com.br/splash/noticias/2026/08/01/marcus-rocha-ex-marido-nivea-stelmann.ghtm",
     "photo": "https://imguol.com/c/splash/c7/2026/07/31/quem-e-marcus-rocha-ex-marido-de-nivea-stelmann-1785529618613_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Após críticas, Xuxa 'esconde' virilha: 'Não vão conseguir ver'",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/01/apos-criticas-xuxa-esconde-virilha-e-provoca-nao-vao-conseguir-ver.ghtm",
+    "photo": "https://imguol.com/c/splash/69/2026/08/01/xuxa-escondeu-virilha-no-segundo-show-da-turne-o-ultimo-voo-da-nave-1785594628546_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -550,9 +570,9 @@
     "relateds": []
   },
   {
-    "title": "Ex-pesquisador da USP é condenado por estupro que levou aluna à morte",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/07/31/ex-pesquisador-da-usp-e-condenado-por-estupro-que-levou-aluna-a-morte.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/ff/2022/04/25/fachada-do-conjunto-residencial-da-universidade-de-sao-paulo-o-crusp-1650914285764_v2_300x225.jpg",
+    "title": "Proteger ou dar autonomia? O que fazer ao educar filhos para vida digital",
+    "link": "https://tab.uol.com.br/noticias/redacao/2026/08/01/proteger-ou-dar-autonomia-como-pais-tentam-educar-filhos-para-vida-digital.htm",
+    "photo": "https://imguol.com/c/tab/e6/2026/07/30/especialistas-defendem-que-a-educacao-digital-de-criancas-e-adolescentes-e-essencial-1785424616234_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -560,9 +580,9 @@
     "relateds": []
   },
   {
-    "title": "Jornalista diz que foi dopado e roubado ao deixar bar na Vila Madalena, em SP",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/07/31/ocorrencia-julho-2026-sao-paulo.ghtm",
-    "photo": "https://imguol.com/c/home/f5/2026/07/31/cameras-de-seguranca-flagraram-o-jornalista-e-o-amigo-acompanhados-pelo-trio-no-bar-1785541366233_v2_300x225.png?1785541382142",
+    "title": "Nirmal Purja, ícone do montanhismo mundial, morre em avalanche no Paquistão",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/01/nirmal-purja-icone-do-montanhismo-mundial-morre-em-avalanche-no-paquistao.ghtm",
+    "photo": "https://imguol.com/c/esporte/97/2019/10/29/nirmal-nims-purja-reivindica-recorde-no-alpinismo-1572352329281_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -570,19 +590,9 @@
     "relateds": []
   },
   {
-    "title": "Macacos podem ter pets assim como os humanos, revela estudo de Oxford",
-    "link": "https://noticias.uol.com.br/meio-ambiente/ultimas-noticias/redacao/2026/07/31/macacos-e-outros-primatas-podem-ter-pets-assim-como-humanos-sugere-estudo.ghtm",
-    "photo": "https://imguol.com/c/noticias/cf/2026/07/31/macaco-carrega-filhote-de-cachorro-em-parque-em-dhaka-em-bangladesh-1785527671624_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Jovem grávida é assassinada e tem bebê retirada do útero na Colômbia",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/07/31/jovem-gravida-e-assassinada-e-tem-bebe-retirada-do-utero-na-colombia.ghtm",
-    "photo": "https://imguol.com/c/home/56/2026/07/31/maria-camila-potosi-estava-no-oitavo-mes-de-gravidez-quando-foi-assassinada-em-cali-na-colombia-1785546325896_v2_300x225.jpg?1785546330665",
+    "title": "Por que celulares estilo passaporte, como o Galaxy Z Fold8, são tendência",
+    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/01/por-que-celulares-estilo-passaporte-como-o-galaxy-z-fold8-sao-tendencia.ghtm",
+    "photo": "https://imguol.com/c/guia-de-compras/dd/2026/07/21/galaxy-z-fold8-1784683386321_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -600,9 +610,9 @@
     "relateds": []
   },
   {
-    "title": "FAB intercepta avião suspeito vindo da Bolívia e força pouso com tiro em MS",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/07/31/fab-interceptacao-aeronave-bolivia-ms.ghtm",
-    "photo": "https://imguol.com/c/noticias/70/2026/07/31/aeronave-fez-um-pouso-forcado-a-cerca-de-200-quilometros-de-campo-grande-ms-1785535914508_v2_300x225.jpg",
+    "title": "Justiça dos EUA analisará caso de avião preso por levar fardo de cerveja",
+    "link": "https://economia.uol.com.br/colunas/todos-a-bordo/2026/08/01/justica-dos-eua-analisara-caso-de-aviao-preso-por-levar-fardo-de-cerveja.htm",
+    "photo": "https://imguol.com/c/colunas/43/2026/07/31/piloto-norte-americano-kenneth-jouppi-que-teve-um-aviao-avaliado-em-us-95-mil-apreendido-por-quase-transportar-cerveja-para-um-local-onde-bebidas-alcoolicas-sao-proibidas-1785516837248_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -620,19 +630,19 @@
     "relateds": []
   },
   {
-    "title": "IML identifica pescador morto durante ventania; vítimas chegam a 6 no RJ e em São Paulo",
-    "link": "https://www1.folha.uol.com.br/cotidiano/2026/07/pescador-morto-em-naufragio-durante-ventania-e-identificado-vitimas-chegam-a-6-no-rj-e-em-sp.shtml",
-    "photo": "https://imguol.com/c/home/2c/2026/07/31/celsom-costa-junior-mostra-peixe-capturado-no-mar-do-sul-fluminense-pescador-foi-encontrado-morto-apos-ventania-1785537216342_v2_300x225.jpg",
-    "source": "Folha",
+    "title": "Do campo para a luta: lenda do rúgbi derruba o tabu do HIV no esporte",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/08/01/gareth-thomas-rubgy-passagem-pelo-brasil.ghtm",
+    "photo": "https://imguol.com/c/esporte/00/2026/07/30/gareth-thomas-em-clinica-de-rugby-em-ipanema-1785424415829_v2_300x225.jpg",
+    "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
     "relateds": []
   },
   {
-    "title": "Vozinha enrolado no Chile, e Calleri perto de fechar a renovação com o São Paulo",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/31/mercado-vozinha-enrolado-no-chile-e-calleri-perto-de-renovar-com-sao-paulo.ghtm",
-    "photo": "https://imguol.com/c/esporte/1c/2026/07/08/vozinha-goleiro-de-cabo-verde-1783548516591_v2_450x337.jpg",
+    "title": "City perde 3 pênaltis seguidos, e Inter de Milão estraga estreia de Maresca",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/01/city-perde-3-penaltis-seguidos-e-inter-de-milao-estraga-estreia-de-maresca.ghtm",
+    "photo": "https://imguol.com/c/esporte/7a/2026/08/01/enzo-maresca-comandou-o-manchester-city-pela-1-vez-neste-sabado-1-1785591785569_v2_450x337.jpg",
     "source": "UOL",
     "is_main": true,
     "is_carousel": false,
@@ -650,11 +660,21 @@
     "relateds": []
   },
   {
-    "title": "Ancelotti faz homenagem a Baresi: 'Você será para sempre o meu capitão'",
-    "link": "https://www.uol.com.br/esporte/ultimas-noticias/agencia/2026/07/31/carlo-ancelotti-faz-homenagem-ao-companheiro-baresi-voce-sera-para-sempre-o-meu-capitao.htm",
-    "photo": "https://imguol.com/c/esporte/1a/2026/07/31/franco-baresi-e-carlo-ancelotti-comemoram-titulo-da-copa-intercontinental-de-1989-pelo-milan-1785529361874_v2_300x300.jpg",
+    "title": "Gustavo Gómez sofre lesão na coxa e vira desfalque no Palmeiras",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/31/gustavo-gomez-sofre-lesao-na-coxa-e-vira-desfalque-no-palmeiras.ghtm",
+    "photo": "https://imguol.com/c/esporte/54/2026/02/21/gustavo-gomez-do-palmeiras-em-acao-contra-o-guarani-pelo-campeonato-paulista-1771710545466_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Mercado da Bola: Vozinha enrolado no Chile, e Calleri perto de renovar com o São Paulo",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/31/mercado-vozinha-enrolado-no-chile-e-calleri-perto-de-renovar-com-sao-paulo.ghtm",
+    "photo": "https://imguol.com/c/esporte/1c/2026/07/08/vozinha-goleiro-de-cabo-verde-1783548516591_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": true,
     "is_carousel": true,
     "is_video": false,
     "relateds": []
@@ -670,19 +690,9 @@
     "relateds": []
   },
   {
-    "title": "Arnaldo: Corinthians trocou gramado porque só tem dinheiro para o Memphis",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/31/arnaldo-corinthians-trocou-gramado-porque-nao-tem-dinheiro-so-para-o-memphis.ghtm",
-    "photo": "https://imguol.com/c/esporte/c6/2026/06/11/corinthians-vai-reformar-gramado-da-neo-quimica-arena-entre-junho-e-julho-1781210176673_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Gustavo Gómez sofre lesão na coxa e vira desfalque no Palmeiras",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/31/gustavo-gomez-sofre-lesao-na-coxa-e-vira-desfalque-no-palmeiras.ghtm",
-    "photo": "https://imguol.com/c/esporte/54/2026/02/21/gustavo-gomez-do-palmeiras-em-acao-contra-o-guarani-pelo-campeonato-paulista-1771710545466_v2_300x225.jpg",
+    "title": "Acordo entre Osmar Stabile e CBF atrasou reforma do gramado do Corinthians",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/01/acordo-entre-osmar-stabile-e-cbf-atrasou-reforma-do-gramado-do-corinthians.ghtm",
+    "photo": "https://imguol.com/c/esporte/2c/2026/07/31/osmar-stabile-presidente-do-corinthians-antes-da-partida-contra-o-athletico-pelo-brasileirao-1785501831383_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -805,9 +815,9 @@
     "relateds": []
   },
   {
-    "title": "Caça americano cai perto de base militar na Califórnia; piloto se ejetou",
-    "link": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/07/31/caca-americano-cai-perto-de-base-militar-na-california.htm",
-    "photo": "https://imguol.com/c/noticias/9c/2026/07/31/31jul26---equipes-de-bombeiros-trabalham-ao-redor-dos-destrocos-de-um-caca-f-35b-do-corpo-de-fuzileiros-navais-dos-eua-apos-a-aeronave-cair-em-um-campo-proximo-a-base-aerea-de-miramar-em-san-diego-1785531339314_v2_300x225.png",
+    "title": "Empresa retoma passeios no Parque do Iguaçu após morte de turista holandês",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/01/retorno-operacoes-macuco-safari-pos-morte-turista-holandes.ghtm",
+    "photo": "https://imguol.com/c/noticias/8a/2026/07/28/o-macuco-safari-e-uma-das-atracoes-mais-procuradas-do-parque-nacional-do-iguacu-1785273315078_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -815,9 +825,9 @@
     "relateds": []
   },
   {
-    "title": "Datafolha: Raquel Lyra e João Campos empatam no 2º turno em PE",
-    "link": "https://www1.folha.uol.com.br/poder/2026/07/datafolha-raquel-lyra-e-joao-campos-empatam-no-2o-turno-em-pernambuco.shtml",
-    "photo": "https://imguol.com/c/home/ef/2026/07/31/raquel-lyra-1785538607133_300x225.jpg",
+    "title": "Médicos se dividem sobre tratamento com canetas emagrecedoras paraguaias",
+    "link": "https://www1.folha.uol.com.br/equilibrioesaude/2026/08/medicos-se-dividem-entre-acompanhar-ou-nao-pacientes-que-usam-canetas-emagrecedoras-paraguaias.shtml",
+    "photo": "https://imguol.com/c/home/5e/2026/08/01/canetas-emagracedoras-do-paruaguai-tirzedral-tg-lipoless-tirzec-e-gluconex-que-nao-possuem-registro-sanitario-junto-a-anvisa-e-sao-ilegais-no-brasil-1785591156166_300x225.jpg?1785591161645",
     "source": "Folha",
     "is_main": false,
     "is_carousel": false,
@@ -825,20 +835,20 @@
     "relateds": []
   },
   {
-    "title": "São Paulo reduz período de baixa pressão da água para 8 horas por dia",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/07/31/sp-reduz-periodo-de-baixa-pressao-da-agua-para-8-horas.ghtm",
-    "photo": "https://imguol.com/c/noticias/80/2022/02/04/vista-da-represa-na-cidade-de-mairipora-sp-a-represa-faz-parte-do-sistema-cantareira-1644003462151_v2_300x225.jpg",
-    "source": "UOL",
+    "title": "Terremoto de magnitude 4,7 deixa 21 feridos na Itália; dois estão em estado grave",
+    "link": "https://www1.folha.uol.com.br/mundo/2026/08/terremoto-de-magnitude-47-deixa-21-feridos-na-italia.shtml",
+    "photo": "https://imguol.com/c/home/b4/2026/08/01/viatura-da-policia-municipal-estacionada-atras-de-escombros-apos-o-terremoto-de-magnitude-47-atingir-a-regiao-de-campi-flegrei-na-via-pergolesi-italia-1785590770030_300x225.jpg?1785590773565",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
     "relateds": []
   },
   {
-    "title": "Igreja e pastores são condenados em SP por associar população LGBT à pedofilia",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/07/31/igreja-e-pastores-sao-condenados-por-associar-populacao-lgbt-a-pedofilia.ghtm",
-    "photo": "https://imguol.com/8e/2025/06/22/tradicional-bandeirao-da-parada-do-orgulho-lgbt-e-carregado-pela-avenida-paulista-1750635735342_v2_300x225.jpg",
-    "source": "UOL",
+    "title": "Conheça a mulher que pode herdar grande parte da fortuna de Jeffrey Epstein",
+    "link": "https://www1.folha.uol.com.br/mundo/2026/08/conheca-a-mulher-que-pode-herdar-grande-parte-da-fortuna-de-jeffrey-epstein.shtml",
+    "photo": "https://imguol.com/c/home/68/2026/08/01/karyna-shuliak-e-jeffrey-epstein-em-uma-fotografia-divulgada-pelo-departamento-de-justica-dos-eua-1785590982255_300x225.jpg?1785590985493",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
@@ -965,16 +975,6 @@
     "relateds": []
   },
   {
-    "title": "Por que celulares estilo passaporte, como o Galaxy Z Fold8, são tendência",
-    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/01/por-que-celulares-estilo-passaporte-como-o-galaxy-z-fold8-sao-tendencia.ghtm",
-    "photo": "https://imguol.com/c/guia-de-compras/dd/2026/07/21/galaxy-z-fold8-1784683386321_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Adidas, Puma e mais: tem desconto rolando na Netshoes e a gente garimpou",
     "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/07/31/adidas-olympikus-e-mais-confira-produtos-em-oferta-na-maratona-netshoes.ghtm",
     "photo": "https://imguol.com/c/guia-de-compras/43/2026/07/31/listamos-produtos-com-ate-59-de-desconto-na-maratona-de-descontos-netshoes-1785521526011_v2_300x225.png",
@@ -995,7 +995,7 @@
     "relateds": []
   },
   {
-    "title": "A nova cara do machismo é um meme. E ele funciona Conteúdo agendado",
+    "title": "A nova cara do machismo é um meme. E ele funciona",
     "link": "https://www.uol.com.br/universa/noticias/redacao/2026/08/01/pesquisa-da-ufba-aponta-misoginia-na-internet-como-piada-em-memes.ghtm",
     "photo": "https://imguol.com/c/geral/78/2026/07/31/gustavo-tubarao-1785532640948_v2_300x225.png",
     "source": "UOL",
@@ -1128,6 +1128,161 @@
     "title": "Segurança e privacidade",
     "link": "https://sobreuol.noticias.uol.com.br/normas-de-seguranca-e-privacidade.html",
     "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Witzel tenta nova surpresa no RJ e busca carona em sucesso de governador interino",
+    "link": "https://www1.folha.uol.com.br/poder/2026/07/witzel-tenta-nova-surpresa-no-rj-e-busca-carona-em-sucesso-de-governador-interino.shtml",
+    "photo": "https://imguol.com/c/home/74/2026/08/01/wilson-witzel-ex-governador-do-rio-janeiro-durante-interrogatorio-no-tribunal-especial-misto-que-julgou-seu-processo-de-impeachment---1785582289310_v2_300x225.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Decisivo no RJ, eleitorado do interior cresce e vê o da capital diminuir",
+        "link": "https://noticias.uol.com.br/eleicoes/2026/08/01/decisivo-no-rio-eleitorado-do-interior-cresce-e-ve-o-da-capital-diminuir.htm"
+      }
+    ]
+  },
+  {
+    "title": "Cade recomenda aprovar investimento da American Airlines na Azul",
+    "link": "https://economia.uol.com.br/noticias/redacao/2026/07/31/azul-cade-american.ghtm",
+    "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Eleitor indeciso teme Flávio radicalizado, mas não se empolga com Lula",
+    "link": "https://noticias.uol.com.br/colunas/a-hora/2026/07/31/eleitor-indeciso-teme-flavio-radicalizado-mas-nao-se-empolga-com-lula.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/a0/2025/05/23/a-hora-1748033136793_v2_100x100.png?1748033143450",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Ex-pesquisador da USP é condenado por estupro que levou aluna à morte",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/07/31/ex-pesquisador-da-usp-e-condenado-por-estupro-que-levou-aluna-a-morte.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/ff/2022/04/25/fachada-do-conjunto-residencial-da-universidade-de-sao-paulo-o-crusp-1650914285764_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Jornalista diz que foi dopado e roubado ao deixar bar na Vila Madalena, em SP",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/07/31/ocorrencia-julho-2026-sao-paulo.ghtm",
+    "photo": "https://imguol.com/c/home/f5/2026/07/31/cameras-de-seguranca-flagraram-o-jornalista-e-o-amigo-acompanhados-pelo-trio-no-bar-1785541366233_v2_300x225.png?1785541382142",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Macacos podem ter pets assim como os humanos, revela estudo de Oxford",
+    "link": "https://noticias.uol.com.br/meio-ambiente/ultimas-noticias/redacao/2026/07/31/macacos-e-outros-primatas-podem-ter-pets-assim-como-humanos-sugere-estudo.ghtm",
+    "photo": "https://imguol.com/c/noticias/cf/2026/07/31/macaco-carrega-filhote-de-cachorro-em-parque-em-dhaka-em-bangladesh-1785527671624_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Jovem grávida é assassinada e tem bebê retirada do útero na Colômbia",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/07/31/jovem-gravida-e-assassinada-e-tem-bebe-retirada-do-utero-na-colombia.ghtm",
+    "photo": "https://imguol.com/c/home/56/2026/07/31/maria-camila-potosi-estava-no-oitavo-mes-de-gravidez-quando-foi-assassinada-em-cali-na-colombia-1785546325896_v2_300x225.jpg?1785546330665",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "FAB intercepta avião suspeito vindo da Bolívia e força pouso com tiro em MS",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/07/31/fab-interceptacao-aeronave-bolivia-ms.ghtm",
+    "photo": "https://imguol.com/c/noticias/70/2026/07/31/aeronave-fez-um-pouso-forcado-a-cerca-de-200-quilometros-de-campo-grande-ms-1785535914508_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "IML identifica pescador morto durante ventania; vítimas chegam a 6 no RJ e em São Paulo",
+    "link": "https://www1.folha.uol.com.br/cotidiano/2026/07/pescador-morto-em-naufragio-durante-ventania-e-identificado-vitimas-chegam-a-6-no-rj-e-em-sp.shtml",
+    "photo": "https://imguol.com/c/home/2c/2026/07/31/celsom-costa-junior-mostra-peixe-capturado-no-mar-do-sul-fluminense-pescador-foi-encontrado-morto-apos-ventania-1785537216342_v2_300x225.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Ancelotti faz homenagem a Baresi: 'Você será para sempre o meu capitão'",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/agencia/2026/07/31/carlo-ancelotti-faz-homenagem-ao-companheiro-baresi-voce-sera-para-sempre-o-meu-capitao.htm",
+    "photo": "https://imguol.com/c/esporte/1a/2026/07/31/franco-baresi-e-carlo-ancelotti-comemoram-titulo-da-copa-intercontinental-de-1989-pelo-milan-1785529361874_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Arnaldo: Corinthians trocou gramado porque só tem dinheiro para o Memphis",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/31/arnaldo-corinthians-trocou-gramado-porque-nao-tem-dinheiro-so-para-o-memphis.ghtm",
+    "photo": "https://imguol.com/c/esporte/c6/2026/06/11/corinthians-vai-reformar-gramado-da-neo-quimica-arena-entre-junho-e-julho-1781210176673_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Caça americano cai perto de base militar na Califórnia; piloto se ejetou",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/07/31/caca-americano-cai-perto-de-base-militar-na-california.htm",
+    "photo": "https://imguol.com/c/noticias/9c/2026/07/31/31jul26---equipes-de-bombeiros-trabalham-ao-redor-dos-destrocos-de-um-caca-f-35b-do-corpo-de-fuzileiros-navais-dos-eua-apos-a-aeronave-cair-em-um-campo-proximo-a-base-aerea-de-miramar-em-san-diego-1785531339314_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Datafolha: Raquel Lyra e João Campos empatam no 2º turno em PE",
+    "link": "https://www1.folha.uol.com.br/poder/2026/07/datafolha-raquel-lyra-e-joao-campos-empatam-no-2o-turno-em-pernambuco.shtml",
+    "photo": "https://imguol.com/c/home/ef/2026/07/31/raquel-lyra-1785538607133_300x225.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "São Paulo reduz período de baixa pressão da água para 8 horas por dia",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/07/31/sp-reduz-periodo-de-baixa-pressao-da-agua-para-8-horas.ghtm",
+    "photo": "https://imguol.com/c/noticias/80/2022/02/04/vista-da-represa-na-cidade-de-mairipora-sp-a-represa-faz-parte-do-sistema-cantareira-1644003462151_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Igreja e pastores são condenados em SP por associar população LGBT à pedofilia",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/07/31/igreja-e-pastores-sao-condenados-por-associar-populacao-lgbt-a-pedofilia.ghtm",
+    "photo": "https://imguol.com/8e/2025/06/22/tradicional-bandeirao-da-parada-do-orgulho-lgbt-e-carregado-pela-avenida-paulista-1750635735342_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
