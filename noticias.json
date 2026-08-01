@@ -1,34 +1,13 @@
 [
   {
-    "title": "Tarcísio diz que ama Bolsonaro, defende legado e pede mais 4 anos em São Paulo",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/08/01/convencao-tarcisio-de-freitas-sp-republicanos.ghtm",
-    "photo": "https://imguol.com/c/noticias/f7/2026/08/01/tarcisio-oficializa-candidatura-a-reeleicao-em-sao-paulo-1785598095594_v2_450x337.jpg",
+    "title": "Vasco e Fluminense se enfrentam pela Copa do Brasil; siga",
+    "link": "https://placar.uol.com.br/esporte/futebol/copa-do-brasil/2026/08/01/vasco-x-fluminense.htm",
+    "photo": "https://imguol.com/c/esporte/94/2026/03/01/jogadores-disputam-bola-durante-fluminense-x-vasco-1772401927854_v2_450x600.jpg",
     "source": "UOL",
     "is_main": true,
-    "is_carousel": true,
+    "is_carousel": false,
     "is_video": false,
-    "relateds": [
-      {
-        "title": "Flávio Bolsonaro agradece por apoio de Marcos Pereira em busca de coligação",
-        "link": "https://noticias.uol.com.br/ao-vivo/2026/08/01/republicanos-convencao-tarcisio-sao-paulo.htm?c=card_496567250_1785596126599"
-      },
-      {
-        "title": "'Acho um ótimo nome', diz Tarcísio sobre Renata Abreu ser vice de Flávio",
-        "link": "https://noticias.uol.com.br/eleicoes/2026/08/01/acho-um-otimo-nome-diz-tarcisio-sobre-renata-abreu-ser-vice-de-flavio.ghtm"
-      },
-      {
-        "title": "Nunes pede voto das mulheres para Tarcísio durante convenção do Republicanos",
-        "link": "https://noticias.uol.com.br/ao-vivo/2026/08/01/republicanos-convencao-tarcisio-sao-paulo.htm?c=card_496567250_1785594662928"
-      },
-      {
-        "title": "Sakamoto: Convenção de Tarcísio pede voto feminino, mas não deixa mulher falar",
-        "link": "https://noticias.uol.com.br/colunas/leonardo-sakamoto/2026/08/01/convencao-de-tarcisio-pede-voto-feminino-mas-nao-deixa-mulher-falar.htm"
-      },
-      {
-        "title": "Tarcísio contrasta com Flávio e mostra que fez lição de casa, diz professor",
-        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/01/tarcisio-fez-a-licao-de-casa-diz-beto-vasques-sobre-aliancas.ghtm"
-      }
-    ]
+    "relateds": []
   },
   {
     "title": "Sua muito até parado? Pode ser mais do que só calor ou nervoso",
@@ -55,16 +34,6 @@
     "link": "https://www1.folha.uol.com.br/equilibrio/2026/08/idosas-aprendem-a-lutar-boxe-e-ganham-forca-equilibrio-e-autoestima.shtml",
     "photo": "https://imguol.com/c/home/19/2026/08/01/maria-alaide-a-dona-azul-73-participa-do-projeto-geracao-nocaute-no-bixiga-em-sao-paulo-que-oferece-aulas-de-boxe-para-idosas-como-forma-de-mante-las-ativas-e-combater-a-solidao-na-velhice-1785604146299_v2_450x253.jpg",
     "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Lentilha ou feijão: qual leguminosa é mais nutritiva?",
-    "link": "https://www.uol.com.br/vivabem/noticias/redacao/2026/08/01/lentilha-ou-feijao-qual-leguminosa-e-mais-nutritiva.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/bc/2020/07/20/lentilha-x-feijao-1595272515439_v2_300x300.jpg",
-    "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
@@ -121,6 +90,25 @@
     "relateds": []
   },
   {
+    "title": "Tarcísio diz que ama Bolsonaro, defende legado e pede mais 4 anos em São Paulo",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/08/01/convencao-tarcisio-de-freitas-sp-republicanos.ghtm",
+    "photo": "https://imguol.com/c/noticias/f7/2026/08/01/tarcisio-oficializa-candidatura-a-reeleicao-em-sao-paulo-1785598095594_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": true,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "'Acho um ótimo nome', diz Tarcísio sobre Renata Abreu ser vice de Flávio",
+        "link": "https://noticias.uol.com.br/eleicoes/2026/08/01/acho-um-otimo-nome-diz-tarcisio-sobre-renata-abreu-ser-vice-de-flavio.ghtm"
+      },
+      {
+        "title": "Nunes pede voto das mulheres para Tarcísio durante convenção do Republicanos",
+        "link": "https://noticias.uol.com.br/ao-vivo/2026/08/01/republicanos-convencao-tarcisio-sao-paulo.htm?c=card_496567250_1785594662928"
+      }
+    ]
+  },
+  {
     "title": "Em convenção na Bahia, Lula pede voto para Rui Costa e Jaques Wagner: 'O Senado está ruim'",
     "link": "https://noticias.uol.com.br/eleicoes/2026/08/01/lula-na-convencao-do-pt-na-bahia.ghtm",
     "photo": "https://imguol.com/c/noticias/52/2026/08/01/presidente-da-republica-luiz-inacio-lula-da-silva-durante-convencao-federacao-brasil-da-esperanca-no-parque-de-exposicoes-salvador-1785601987289_v2_300x225.jpg",
@@ -146,31 +134,6 @@
     "relateds": []
   },
   {
-    "title": "Palmeiras critica STJD e se diz perplexo com denúncia contra Maurício",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/01/palmeiras-critica-stjd-e-se-diz-perplexo-com-denuncia-contra-mauricio.ghtm",
-    "photo": "https://imguol.com/c/esporte/9c/2026/07/29/mauricio-do-palmeiras-atingiu-caca-do-vitoria-durante-jogo-do-brasileirao-1785375525602_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Uefa cita 'esquema secreto' e diz que perdeu confiança em Infantino na Fifa",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/01/uefa-cita-esquema-secreto-e-diz-que-perdeu-confianca-em-infantino-na-fifa.ghtm",
-    "photo": "https://imguol.com/c/esporte/3a/2026/02/19/gianni-infantino-presidente-da-fifa-ao-lado-de-aleksander-ceferin-presidente-da-uefa-1771529216393_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Sem 'venda da Copa', Fifa dá sequência a projeto de Mundial com 64 seleções",
-        "link": "https://www.uol.com.br/esporte/futebol/colunas/rodrigo-mattos/2026/08/01/como-conmebol-analisa-a-proposta-da-fifa-para-vender-fatia-da-copa.htm"
-      }
-    ]
-  },
-  {
     "title": "Estatal do governo Lula abriga 'exército' eleitoral em contrato de R$ 35 mi",
     "link": "https://tab.uol.com.br/noticias/redacao/2026/07/27/estatal-do-governo-lula-abriga-exercito-eleitoral-em-contrato-de-r-35-mi.htm",
     "photo": "https://conteudo.imguol.com.br/c/tab/8c/2026/07/24/prime---cabos-eleitorais-indice-prime-1784917959632_v2_544x682.jpg",
@@ -184,6 +147,16 @@
     "title": "Família de ministro do TCU venceu edital de R$ 1 bi no Porto de Santos",
     "link": "https://tab.uol.com.br/noticias/redacao/2026/07/17/familia-de-ministro-do-tcu-venceu-edital-de-r-1-bi-no-porto-de-santos.htm",
     "photo": "https://conteudo.imguol.com.br/c/tab/33/2026/07/16/prime---tcu-indice-1784242695712_v2_544x682.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Lentilha ou feijão: qual leguminosa é mais nutritiva?",
+    "link": "https://www.uol.com.br/vivabem/noticias/redacao/2026/08/01/lentilha-ou-feijao-qual-leguminosa-e-mais-nutritiva.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/bc/2020/07/20/lentilha-x-feijao-1595272515439_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -211,9 +184,9 @@
     "relateds": []
   },
   {
-    "title": "Assista a Fluminense x Bragantino pelo Campeonato Brasileiro Feminino",
-    "link": "https://www.uol.com.br/play/ao-vivo/canal-uol/3/",
-    "photo": "https://imguol.com/c/home/81/2026/08/01/fluminense-x-red-bull-bragantino-no-brasileirao-feminino-1785610420102_v2_150x112.jpg",
+    "title": "Assista a Grêmio x América -MG pelo Campeonato Brasileiro Feminino",
+    "link": "https://www.uol.com.br/play/ao-vivo/canal-uol/4/",
+    "photo": "https://imguol.com/c/esporte/0c/2026/03/31/brasileirao-femininopv-1774988063240_325x500.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -221,12 +194,22 @@
     "relateds": []
   },
   {
-    "title": "Assista a Grêmio x América -MG pelo Campeonato Brasileiro Feminino",
-    "link": "https://www.uol.com.br/play/ao-vivo/canal-uol/4/",
-    "photo": "https://imguol.com/c/esporte/0c/2026/03/31/brasileirao-femininopv-1774988063240_325x500.png",
+    "title": "Palmeiras critica STJD e se diz perplexo com denúncia contra Maurício",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/01/palmeiras-critica-stjd-e-se-diz-perplexo-com-denuncia-contra-mauricio.ghtm",
+    "photo": "https://imguol.com/c/esporte/9c/2026/07/29/mauricio-do-palmeiras-atingiu-caca-do-vitoria-durante-jogo-do-brasileirao-1785375525602_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Espanha critica resposta da União Europeia à crise em Ceuta: 'Egoísta'",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/01/espanha-critica-resposta-da-ue-apos-mortes-na-crise-em-ceuta.ghtm",
+    "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
     "is_video": false,
     "relateds": []
   },
@@ -261,9 +244,9 @@
     ]
   },
   {
-    "title": "Itamaraty veta cônsul de Israel em SP e aponta dupla nacionalidade como obstáculo",
-    "link": "https://www1.folha.uol.com.br/mundo/2026/07/itamaraty-veta-consul-de-israel-em-sao-paulo-e-aponta-obstaculo-de-dupla-nacionalidade.shtml",
-    "photo": "https://imguol.com/c/home/fe/2026/08/01/a-diplomata-israelense-vivian-aisen---1785582805939_v2_300x225.jpg",
+    "title": "Explosão mata ao menos três em restaurante de luxo em Moscou",
+    "link": "https://www1.folha.uol.com.br/mundo/2026/08/explosao-mata-ao-menos-3-em-restaurante-de-luxo-em-moscou.shtml",
+    "photo": "",
     "source": "Folha",
     "is_main": false,
     "is_carousel": false,
@@ -281,10 +264,20 @@
     "relateds": []
   },
   {
-    "title": "Hospital da Criança de São Luís é investigado por 297 mortes em dois anos e meio",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/01/mp-sus-e-policia-investigam-216-mortes-de-criancas-em-hospital-de-sao-luis.ghtm",
-    "photo": "https://imguol.com/c/noticias/ac/2026/07/28/protesto-de-maes-e-pais-de-criancas-mortas-em-sao-luis-colocou-cruzes-em-praca-na-frente-do-hospital-1785263964736_v2_300x225.jpg",
-    "source": "UOL",
+    "title": "Fogo ameaça complexo turístico na Grécia, e bombeiros lutam contra exaustão",
+    "link": "https://www1.folha.uol.com.br/ambiente/2026/08/fogo-ameaca-complexo-turistico-na-grecia-e-bombeiros-lutam-contra-exaustao.shtml",
+    "photo": "https://imguol.com/c/home/65/2026/08/01/bombeiro-com-equipamento-de-protecao-e-capacete-vermelho-ajoelhado-em-floresta-com-arvores-altas-cercado-por-fumaca-e-fogo-ao-fundo-bombeiro-descansa-em-meio-a-incendio-florestal-na-regiao-do-1785613481597_v2_300x225.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Um em cada três bolsistas de faculdade de elite leva família a voltar a estudar",
+    "link": "https://www1.folha.uol.com.br/educacao/2026/08/1-em-cada-3-bolsistas-de-faculdade-de-elite-leva-familia-a-voltar-a-estudar.shtml",
+    "photo": "",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
@@ -521,7 +514,7 @@
     "relateds": []
   },
   {
-    "title": "Mãe de apresentadora morreu logo após ser raptada, diz bilhete de resgate",
+    "title": "Mãe de apresentadora morreu logo após ser sequestrada, diz bilhete de resgate",
     "link": "https://www.uol.com.br/splash/noticias/2026/08/01/policia-divulga-bilhetes-de-resgate-seis-meses-apos-sumico-de-nancy-guthrie.ghtm",
     "photo": "https://imguol.com/c/splash/ee/2026/02/04/savannah-guthrie-apresentadora-de-tv-americana-e-a-mae-nancy-guthrie-que-esta-desaparecida-1770217761070_v2_300x225.jpg",
     "source": "UOL",
@@ -561,9 +554,9 @@
     "relateds": []
   },
   {
-    "title": "Oruam tem pedido de prisão revogado pela Justiça do RJ",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/01/revoga-prisao-oruam.htm",
-    "photo": "https://imguol.com/c/entretenimento/fa/2026/03/06/oruam-posta-foto-com-a-noiva-fernanda-valenca-1772843228847_v2_300x225.jpg",
+    "title": "Neymar explica gafe com roupa no casamento de Medina",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/01/neymar-explica-gafe-no-casamento-de-gabriel-medina-percebi-algo-errado.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/9b/2026/08/01/neymar-explica-gafe-no-casamento-de-gabriel-medina-percebi-algo-errado-1785600850506_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -751,7 +744,7 @@
     "relateds": []
   },
   {
-    "title": "Ronnie Wood, dos Rolling Stones, faz show único em SP em novembro",
+    "title": "Ronnie Wood, dos Stones, faz show único em SP em novembro",
     "link": "https://guia.folha.uol.com.br/shows/2026/08/ronnie-wood-dos-rolling-stones-faz-show-unico-em-sp-em-novembro.shtml",
     "photo": "https://imguol.com/c/entretenimento/25/2016/08/15/pecas-consideradas-femininas-para-eles---ronnie-wood-1471281818247_v2_300x225.jpg",
     "source": "Folha",
@@ -791,10 +784,10 @@
     "relateds": []
   },
   {
-    "title": "Médicos se dividem sobre tratamento com canetas emagrecedoras paraguaias",
-    "link": "https://www1.folha.uol.com.br/equilibrioesaude/2026/08/medicos-se-dividem-entre-acompanhar-ou-nao-pacientes-que-usam-canetas-emagrecedoras-paraguaias.shtml",
-    "photo": "https://imguol.com/c/home/5e/2026/08/01/canetas-emagracedoras-do-paruaguai-tirzedral-tg-lipoless-tirzec-e-gluconex-que-nao-possuem-registro-sanitario-junto-a-anvisa-e-sao-ilegais-no-brasil-1785591156166_300x225.jpg?1785591161645",
-    "source": "Folha",
+    "title": "Trump posta imagem de IA sobre 3º mandato, proibido pela Constituição",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/01/trump-terceiro-mandato.htm",
+    "photo": "https://imguol.com/c/home/f0/2026/08/01/1ago2026-presidente-dos-estados-unidos-donald-trump-publica-imagem-feita-com-ia-com-os-dizeres-trump-2028-indicando-uma-possivel-candidatura-que-e-proibida-pela-legislacao-1785616435945_v2_300x300.jpg",
+    "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
@@ -811,9 +804,9 @@
     "relateds": []
   },
   {
-    "title": "Empresa retoma passeios no Parque do Iguaçu após morte de turista holandês",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/01/retorno-operacoes-macuco-safari-pos-morte-turista-holandes.ghtm",
-    "photo": "https://imguol.com/c/noticias/8a/2026/07/28/o-macuco-safari-e-uma-das-atracoes-mais-procuradas-do-parque-nacional-do-iguacu-1785273315078_v2_300x225.png",
+    "title": "Rui Costa critica ACM Neto após opositor mudar de cor em registro no TSE",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/08/01/rui-costa-critica-acm-neto-por-mudanca-na-autodeclaracao-de-raca.ghtm",
+    "photo": "https://imguol.com/c/noticias/22/2025/09/08/o-ministro-chefe-da-casa-civil-rui-costa-no-desfile-de-7-de-setembro-1757363319651_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1149,6 +1142,81 @@
     "title": "Segurança e privacidade",
     "link": "https://sobreuol.noticias.uol.com.br/normas-de-seguranca-e-privacidade.html",
     "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Uefa cita 'esquema secreto' e diz que perdeu confiança em Infantino na Fifa",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/01/uefa-cita-esquema-secreto-e-diz-que-perdeu-confianca-em-infantino-na-fifa.ghtm",
+    "photo": "https://imguol.com/c/esporte/3a/2026/02/19/gianni-infantino-presidente-da-fifa-ao-lado-de-aleksander-ceferin-presidente-da-uefa-1771529216393_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Sem 'venda da Copa', Fifa dá sequência a projeto de Mundial com 64 seleções",
+        "link": "https://www.uol.com.br/esporte/futebol/colunas/rodrigo-mattos/2026/08/01/como-conmebol-analisa-a-proposta-da-fifa-para-vender-fatia-da-copa.htm"
+      }
+    ]
+  },
+  {
+    "title": "Assista a Fluminense x Bragantino pelo Campeonato Brasileiro Feminino",
+    "link": "https://www.uol.com.br/play/ao-vivo/canal-uol/3/",
+    "photo": "https://imguol.com/c/home/81/2026/08/01/fluminense-x-red-bull-bragantino-no-brasileirao-feminino-1785610420102_v2_150x112.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Itamaraty veta cônsul de Israel em SP e aponta dupla nacionalidade como obstáculo",
+    "link": "https://www1.folha.uol.com.br/mundo/2026/07/itamaraty-veta-consul-de-israel-em-sao-paulo-e-aponta-obstaculo-de-dupla-nacionalidade.shtml",
+    "photo": "https://imguol.com/c/home/fe/2026/08/01/a-diplomata-israelense-vivian-aisen---1785582805939_v2_300x225.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Hospital da Criança de São Luís é investigado por 297 mortes em dois anos e meio",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/01/mp-sus-e-policia-investigam-216-mortes-de-criancas-em-hospital-de-sao-luis.ghtm",
+    "photo": "https://imguol.com/c/noticias/ac/2026/07/28/protesto-de-maes-e-pais-de-criancas-mortas-em-sao-luis-colocou-cruzes-em-praca-na-frente-do-hospital-1785263964736_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Oruam tem pedido de prisão revogado pela Justiça do RJ",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/01/revoga-prisao-oruam.htm",
+    "photo": "https://imguol.com/c/entretenimento/fa/2026/03/06/oruam-posta-foto-com-a-noiva-fernanda-valenca-1772843228847_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Médicos se dividem sobre tratamento com canetas emagrecedoras paraguaias",
+    "link": "https://www1.folha.uol.com.br/equilibrioesaude/2026/08/medicos-se-dividem-entre-acompanhar-ou-nao-pacientes-que-usam-canetas-emagrecedoras-paraguaias.shtml",
+    "photo": "https://imguol.com/c/home/5e/2026/08/01/canetas-emagracedoras-do-paruaguai-tirzedral-tg-lipoless-tirzec-e-gluconex-que-nao-possuem-registro-sanitario-junto-a-anvisa-e-sao-ilegais-no-brasil-1785591156166_300x225.jpg?1785591161645",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Empresa retoma passeios no Parque do Iguaçu após morte de turista holandês",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/01/retorno-operacoes-macuco-safari-pos-morte-turista-holandes.ghtm",
+    "photo": "https://imguol.com/c/noticias/8a/2026/07/28/o-macuco-safari-e-uma-das-atracoes-mais-procuradas-do-parque-nacional-do-iguacu-1785273315078_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
