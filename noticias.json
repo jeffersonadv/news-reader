@@ -15,16 +15,6 @@
     ]
   },
   {
-    "title": "Sua muito até parado? Pode ser mais do que só calor ou nervoso",
-    "link": "https://videos.uol.com.br/view/17360881",
-    "photo": "https://thumb.mais.uol.com.br/17360881-large.jpg",
-    "source": "Canal UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": true,
-    "relateds": []
-  },
-  {
     "title": "Disputa acaba com casarão do Michael Jackson fechado e à venda em Salvador",
     "link": "https://noticias.uol.com.br/colunas/carlos-madeiro/2026/08/01/disputa-acaba-com-casarao-do-michael-jackson-fechado-e-a-venda-em-salvador.htm",
     "photo": "https://imguol.com/c/entretenimento/41/2019/06/25/michael-jackson-no-pelourinho-1561479312185_v2_450x253.jpg",
@@ -39,6 +29,26 @@
     "link": "https://www1.folha.uol.com.br/ciencia/2026/07/insetos-podem-fornecer-pistas-para-investigacoes-policiais.shtml",
     "photo": "https://imguol.com/c/home/ae/2026/08/01/a-perita-criminal-janyra-oliveira-da-costa-da-policia-civil-do-rio-de-janeiro-analisa-uma-larva-para-um-laudo-1785618001743_v2_450x253.jpg",
     "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Sua muito até parado? Pode ser mais do que só calor ou nervoso",
+    "link": "https://videos.uol.com.br/view/17360881",
+    "photo": "https://thumb.mais.uol.com.br/17360881-large.jpg",
+    "source": "Canal UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": true,
+    "relateds": []
+  },
+  {
+    "title": "Tarcísio faz de candidatura de Flávio coisa de amador",
+    "link": "https://noticias.uol.com.br/colunas/josias-de-souza/2026/08/01/amor-de-tarcisio-faz-do-projeto-de-bolsonaro-coisa-de-amador.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/c0/2019/04/01/josias-de-souza-1554165233531_100x100.jpg",
+    "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
@@ -75,16 +85,6 @@
     "relateds": []
   },
   {
-    "title": "A guerra tarifária de Trump não é irracional",
-    "link": "https://www1.folha.uol.com.br/colunas/demetriomagnoli/2026/07/paixao-por-tarifa.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/ed/2019/03/09/demetrio-magnoli---26112018-seminario-70-anos-da-declaracao-universal-dos-direitos-humanos-realizado-no-auditorio-folha-1552186314721_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Michelle Bolsonaro será candidata ao Senado, diz Bia Kicis",
     "link": "https://www1.folha.uol.com.br/poder/2026/08/michelle-bolsonaro-sera-candidata-ao-senado-diz-bia-kicis.shtml",
     "photo": "https://imguol.com/c/home/03/2026/07/03/prime-michelle-chamada-1783109109958_v2_300x225.jpg",
@@ -93,40 +93,6 @@
     "is_carousel": false,
     "is_video": false,
     "relateds": []
-  },
-  {
-    "title": "Muitas faltas, zero gol: Vasco e Fluminense empatam nas oitavas da Copa do Brasil",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/01/vasco-fluminense-copa-do-brasil.ghtm",
-    "photo": "https://imguol.com/c/home/d4/2026/08/01/paulo-henrique-e-guga-se-estranharam-durante-a-partida-entre-vasco-e-fluminense-pela-copa-do-brasil-1785623502699_v2_300x225.jpg?1785623508239",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "PVC: Flu joga melhor, mas para na defesa do Vasco",
-        "link": "https://www.uol.com.br/esporte/colunas/pvc/2026/08/01/fluminense-joga-melhor-mas-para-na-defesa-do-vasco-em-empate-no-maracana.htm"
-      },
-      {
-        "title": "Veja a tabela da competição",
-        "link": "https://www.uol.com.br/esporte/futebol/campeonatos/copa-do-brasil/"
-      }
-    ]
-  },
-  {
-    "title": "Tarcísio diz que ama Bolsonaro, defende legado e pede mais 4 anos em São Paulo",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/08/01/convencao-tarcisio-de-freitas-sp-republicanos.ghtm",
-    "photo": "https://imguol.com/c/noticias/f7/2026/08/01/tarcisio-oficializa-candidatura-a-reeleicao-em-sao-paulo-1785598095594_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": true,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "'Acho um ótimo nome', diz Tarcísio sobre Renata Abreu ser vice de Flávio",
-        "link": "https://noticias.uol.com.br/eleicoes/2026/08/01/acho-um-otimo-nome-diz-tarcisio-sobre-renata-abreu-ser-vice-de-flavio.ghtm"
-      }
-    ]
   },
   {
     "title": "Lula une esquerda pela 1ª vez, mas sofre com investigação contra filho",
@@ -144,14 +110,34 @@
     ]
   },
   {
-    "title": "Missão lança candidaturas e 'desafia' Lula e Flávio para debate com Renan",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/08/01/missao-renan-santos-candidatura-presidente-eleicoes-2026.ghtm",
-    "photo": "",
+    "title": "Renan chama Moro de 'vassalo' e diz que vai tirar Flávio do 2º turno",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/08/01/renan-chama-moro-de-vassalo-e-diz-que-vai-tirar-flavio-do-segundo-turno.htm",
+    "photo": "https://imguol.com/c/noticias/18/2026/08/01/renan-santos-disse-que-pretende-alcancar-flavio-bolsonaro-nas-pesquisas-nas-proximas-semanas-1785627068524_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Missão lança candidaturas e 'desafia' Lula e Flávio para debate com Renan",
+        "link": "https://noticias.uol.com.br/eleicoes/2026/08/01/missao-renan-santos-candidatura-presidente-eleicoes-2026.ghtm"
+      }
+    ]
+  },
+  {
+    "title": "Muitas faltas, zero gol: Vasco e Fluminense empatam nas oitavas da Copa do Brasil",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/01/vasco-fluminense-copa-do-brasil.ghtm",
+    "photo": "https://imguol.com/c/home/d4/2026/08/01/paulo-henrique-e-guga-se-estranharam-durante-a-partida-entre-vasco-e-fluminense-pela-copa-do-brasil-1785623502699_v2_300x225.jpg?1785623508239",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Veja a tabela da competição",
+        "link": "https://www.uol.com.br/esporte/futebol/campeonatos/copa-do-brasil/"
+      }
+    ]
   },
   {
     "title": "Estatal do governo Lula abriga 'exército' eleitoral em contrato de R$ 35 mi",
@@ -184,16 +170,6 @@
     "relateds": []
   },
   {
-    "title": "Assista ao congresso do Partido Missão com Renan Santos",
-    "link": "https://noticias.uol.com.br/ao-vivo/2026/07/31/renan-santos-fala-ao-vivo-em-congresso-do-partido-missao.htm",
-    "photo": "https://imguol.com/c/parceiros/ef/2026/07/13/renan-santos-pre-candidato-a-presidencia-da-republica-1783985954600_v2_150x112.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Autor de crime em fábrica da Bombril era 'quieto' e 'bom funcionário', diz colega",
     "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/01/autor-de-crime-na-bombril-era-quieto-e-bom-funcionario-diz-colega.htm",
     "photo": "https://imguol.com/c/noticias/aa/2026/08/01/crime-aconteceu-na-fabrica-da-bombril-em-sao-bernardo-do-campo-1785590510098_v2_300x225.jpg",
@@ -214,6 +190,31 @@
     "relateds": []
   },
   {
+    "title": "Ao menos 13 pessoas morrem em queda de avião com turistas no sul do Peru",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/08/01/pelo-menos-13-mortos-em-queda-de-aviao-com-turistas-no-sul-do-peru-policia.htm",
+    "photo": "https://imguol.com/c/noticias/31/2026/08/01/1ago2026-imagem-mais-proxima-mostra-acidente-com-aviao-de-turismo-que-sobrevoa-linhas-de-nazca-no-peru-13-pessoas-morreram-1785618219567_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Tarcísio diz que ama Bolsonaro, defende legado e pede mais 4 anos em São Paulo",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/08/01/convencao-tarcisio-de-freitas-sp-republicanos.ghtm",
+    "photo": "https://imguol.com/c/noticias/f7/2026/08/01/tarcisio-oficializa-candidatura-a-reeleicao-em-sao-paulo-1785598095594_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": true,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Veja a íntegra do discurso",
+        "link": "https://noticias.uol.com.br/eleicoes/2026/08/01/veja-integra-do-discurso-de-tarcisio-na-convencao-que-confirmou-candidatura.ghtm"
+      }
+    ]
+  },
+  {
     "title": "Palmeiras critica STJD e se diz perplexo com denúncia contra Maurício",
     "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/01/palmeiras-critica-stjd-e-se-diz-perplexo-com-denuncia-contra-mauricio.ghtm",
     "photo": "https://imguol.com/c/esporte/9c/2026/07/29/mauricio-do-palmeiras-atingiu-caca-do-vitoria-durante-jogo-do-brasileirao-1785375525602_v2_300x225.jpg",
@@ -226,7 +227,7 @@
   {
     "title": "Flamengo alega benefício da arbitragem ao Palmeiras e pede critérios claros",
     "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/01/flamengo-alega-beneficio-da-arbitragem-ao-palmeiras-e-pede-criterios-claros.ghtm",
-    "photo": "",
+    "photo": "https://imguol.com/c/esporte/40/2026/05/23/arias-do-palmeiras-e-paqueta-do-flamengo-disputam-bola-durante-partida-valida-pelo-brasileirao-1779582956432_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -236,7 +237,7 @@
   {
     "title": "Espanha critica resposta da União Europeia à crise em Ceuta: 'Egoísta'",
     "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/01/espanha-critica-resposta-da-ue-apos-mortes-na-crise-em-ceuta.ghtm",
-    "photo": "",
+    "photo": "https://imguol.com/c/noticias/6a/2026/07/31/31jul2026---pessoas-caminham-em-direcao-a-fronteira-com-o-marrocos-deixando-a-espanha-em-meio-a-travessias-em-massa-do-marrocos-para-ceuta-1785503238484_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -244,19 +245,19 @@
     "relateds": []
   },
   {
-    "title": "Ao menos 13 pessoas morrem em queda de avião com turistas no sul do Peru",
-    "link": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/08/01/pelo-menos-13-mortos-em-queda-de-aviao-com-turistas-no-sul-do-peru-policia.htm",
-    "photo": "https://imguol.com/c/noticias/31/2026/08/01/1ago2026-imagem-mais-proxima-mostra-acidente-com-aviao-de-turismo-que-sobrevoa-linhas-de-nazca-no-peru-13-pessoas-morreram-1785618219567_v2_300x225.jpg",
-    "source": "UOL",
+    "title": "Um em cada três bolsistas de faculdade de elite leva família a voltar a estudar",
+    "link": "https://www1.folha.uol.com.br/educacao/2026/08/1-em-cada-3-bolsistas-de-faculdade-de-elite-leva-familia-a-voltar-a-estudar.shtml",
+    "photo": "https://imguol.com/c/home/f9/2026/08/01/henrique-rocha-22-primeiro-da-familia-a-entrar-na-universidade-e-a-mae-vanessa-rocha-barbosa-em-sua-casa-zona-leste-de-sao-paulo-1785614056349_v2_300x225.jpg",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
     "relateds": []
   },
   {
-    "title": "Moro mira Lula e minimiza Flávio em caso Master ao se lançar no Paraná",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/08/01/convencao-moro-pl-parana.ghtm",
-    "photo": "https://imguol.com/c/noticias/0e/2026/08/01/1ago2026---ao-lado-da-mulher-rosangela-sergio-moro-e-oficializado-candidato-ao-governo-com-filipe-barros-pl-e-deltan-dallagnol-novo-ao-senado-durante-convencao-do-pl-em-curitiba-1785596757138_v2_300x225.jpg",
+    "title": "Xuxa, seu colã e a liberdade de envelhecer",
+    "link": "https://www.uol.com.br/esporte/colunas/milly-lacombe/2026/08/01/xuxa-seu-cola-e-a-liberdade-de-envelhecer.htm",
+    "photo": "https://conteudo.imguol.com.br/03/2021/01/29/milly-lacombe-autor-2-1611928982961_100x100.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -264,12 +265,12 @@
     "relateds": []
   },
   {
-    "title": "Um em cada três bolsistas de faculdade de elite leva família a voltar a estudar",
-    "link": "https://www1.folha.uol.com.br/educacao/2026/08/1-em-cada-3-bolsistas-de-faculdade-de-elite-leva-familia-a-voltar-a-estudar.shtml",
-    "photo": "",
-    "source": "Folha",
+    "title": "Convenção de Tarcísio pede voto feminino, mas não deixa mulher falar",
+    "link": "https://noticias.uol.com.br/colunas/leonardo-sakamoto/2026/08/01/convencao-de-tarcisio-pede-voto-feminino-mas-nao-deixa-mulher-falar.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/1e/2026/01/07/leonardo-sakamoto---colunista-1767818290321_v2_100x100.png",
+    "source": "UOL",
     "is_main": false,
-    "is_carousel": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
@@ -304,17 +305,7 @@
     "relateds": []
   },
   {
-    "title": "O futebol vai morrer pelas mãos de seus gestores",
-    "link": "https://www.uol.com.br/esporte/colunas/milly-lacombe/2026/07/31/o-futebol-vai-morrer-pelas-maos-de-seus-gestores.htm",
-    "photo": "https://conteudo.imguol.com.br/03/2021/01/29/milly-lacombe-autor-2-1611928982961_100x100.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Com nova ação em programa do Bial, publicidade quer interferir mais no conteúdo da TV",
+    "title": "Com ação em programa do Bial, publicidade quer interferir mais no conteúdo da TV",
     "link": "https://f5.folha.uol.com.br/colunistas/thiagostivaletti/2026/08/com-nova-acao-em-programa-do-bial-publicidade-quer-interferir-mais-no-conteudo-da-tv.shtml",
     "photo": "https://conteudo.imguol.com.br/c/home/cb/2022/07/01/thiago-stivaletti---150-1656674412774_v2_100x100.jpg",
     "source": "Folha",
@@ -374,6 +365,16 @@
     "relateds": []
   },
   {
+    "title": "Fluminense joga melhor, mas para na defesa do Vasco",
+    "link": "https://www.uol.com.br/esporte/colunas/pvc/2026/08/01/fluminense-joga-melhor-mas-para-na-defesa-do-vasco-em-empate-no-maracana.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/40/2019/01/14/pvc-1547459239301_100x100.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Não há santos na briga entre a Fifa e a Uefa",
     "link": "https://www.uol.com.br/esporte/futebol/colunas/juca-kfouri/2026/07/31/nao-ha-santos-na-briga-entre-a-fifa-e-a-uefa.htm",
     "photo": "https://conteudo.imguol.com.br/c/home/53/2019/01/10/juca-kfouri-1547134077409_100x100.jpg",
@@ -424,30 +425,10 @@
     "relateds": []
   },
   {
-    "title": "Jogo da polêmica teve menos bola rolando na minirrodada do Brasileiro",
-    "link": "https://www.uol.com.br/esporte/futebol/colunas/mauro-cezar-pereira/2026/07/31/jogo-da-polemica-teve-menos-bola-rolando-na-mini-rodada-do-brasileiro.htm",
-    "photo": "https://conteudo.imguol.com.br/3e/2021/02/10/mauro-cezar-150-colorida-1612960631293_100x100.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "O viajante que enxergou a humanidade",
     "link": "https://www1.folha.uol.com.br/colunas/viniciusmota/2026/08/o-viajante-que-enxergou-a-humanidade.shtml",
     "photo": "https://conteudo.imguol.com.br/c/home/da/2019/02/18/vinicius-mota-1550489737237_100x100.jpg",
     "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Claude diz que IA também atacou empresas e gera alerta em 'era de agentes'",
-    "link": "https://www.uol.com.br/tilt/colunas/iagora/2026/07/31/ia-fora-de-controle-apos-openai-anthropic-diz-que-seu-modelo-atacou-3-empresas.htm",
-    "photo": "https://conteudo.imguol.com.br/55/2026/03/27/o-agente---header-1774623749833_100x100.png",
-    "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
@@ -494,16 +475,6 @@
     "relateds": []
   },
   {
-    "title": "Qualis, Ruud e Shelton: prós e contras da chave de João Fonseca em Montreal",
-    "link": "https://www.uol.com.br/esporte/colunas/saque-e-voleio/2026/07/31/qualis-ruud-e-shelton-pros-e-contras-da-chave-de-joao-fonseca-em-montreal.htm",
-    "photo": "https://conteudo.imguol.com.br/c1/2026/04/15/saque-e-voleio-header-1776302734291_100x100.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Mãe de apresentadora morreu logo após ser sequestrada, diz bilhete de resgate",
     "link": "https://www.uol.com.br/splash/noticias/2026/08/01/policia-divulga-bilhetes-de-resgate-seis-meses-apos-sumico-de-nancy-guthrie.ghtm",
     "photo": "https://imguol.com/c/splash/ee/2026/02/04/savannah-guthrie-apresentadora-de-tv-americana-e-a-mae-nancy-guthrie-que-esta-desaparecida-1770217761070_v2_300x225.jpg",
@@ -534,20 +505,30 @@
     "relateds": []
   },
   {
-    "title": "Magreza de Ariana Grande em novo clipe deixa fãs preocupados",
-    "link": "https://www1.folha.uol.com.br/ilustrada/2026/08/magreza-de-ariana-grande-em-novo-clipe-petal-chama-atencao-de-fas.shtml",
-    "photo": "https://imguol.com/c/home/ee/2026/08/01/ariana-grande-no-clipe-de-petal-1785608794796_v2_300x225.jpg",
-    "source": "Folha",
+    "title": "Virginia Fonseca mostra festa de despedida de Vini Jr. do Brasil",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/01/virginia-fonseca-mostra-registros-de-festa-de-vini-jr-com-direito-a-beijos.ghtm",
+    "photo": "https://imguol.com/c/home/3c/2026/08/01/vini-jr-e-virginia-na-festa-de-despedida-do-jogador-1785625843099_v2_300x225.jpg",
+    "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
   {
-    "title": "Monique Evans faz piada sobre aparência após plástica",
-    "link": "https://www.uol.com.br/splash/noticias/2026/07/31/monique-evans-mostra-recuperacao-de-plastica-e-faz-piada-sobre-aparencia.ghtm",
-    "photo": "https://imguol.com/c/splash/76/2026/07/31/monique-evans-mostrou-o-rosto-apos-passar-por-um-minilifting-facial-1785545705203_v2_300x225.jpg",
+    "title": "Ivete Sangalo posa ao lado do namorado e filho na França",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/01/ivete-sangalo-posa-ao-lado-do-namorado-e-filho-em-balada-na-franca.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/e0/2026/08/01/ivete-sangalo-posa-ao-lado-do-namorado-e-filho-em-balada-na-franca-1785616988008_v2_300x225.png",
     "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Magreza de Ariana Grande em novo clipe deixa fãs preocupados",
+    "link": "https://www1.folha.uol.com.br/ilustrada/2026/08/magreza-de-ariana-grande-em-novo-clipe-petal-chama-atencao-de-fas.shtml",
+    "photo": "https://imguol.com/c/home/ee/2026/08/01/ariana-grande-no-clipe-de-petal-1785608794796_v2_300x225.jpg",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
@@ -564,9 +545,9 @@
     "relateds": []
   },
   {
-    "title": "Nando Reis relembra saída dos Titãs: 'Me senti excluído'",
-    "link": "https://www.uol.com.br/universa/noticias/redacao/2026/08/01/nando-reis-relembra-saida-dos-titas-me-senti-excluido.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/4d/2026/07/28/nando-reis-no-programa-desculpa-alguma-coisa-1785272979587_v2_300x225.jpg",
+    "title": "Lucca, do São Paulo, sofre acidente de carro e tem suspeita de fratura no rosto",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/01/sao-paulo-lucca-sofre-acidente-de-carro-e-tem-suspeita-de-fratura-no-rosto.ghtm",
+    "photo": "https://imguol.com/c/esporte/c2/2026/01/24/lucca-do-sao-paulo-durante-duelo-com-palmeiras-no-campeonato-paulista-1769299218924_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -589,29 +570,9 @@
     ]
   },
   {
-    "title": "Lucca, do São Paulo, sofre acidente de carro e tem suspeita de fratura no rosto",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/01/sao-paulo-lucca-sofre-acidente-de-carro-e-tem-suspeita-de-fratura-no-rosto.ghtm",
-    "photo": "https://imguol.com/c/esporte/c2/2026/01/24/lucca-do-sao-paulo-durante-duelo-com-palmeiras-no-campeonato-paulista-1769299218924_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Veja como seguir o UOL e seu programa favorito em todas as redes sociais",
     "link": "https://economia.uol.com.br/noticias/redacao/2026/07/31/veja-como-seguir-o-uol-e-seu-programa-favorito-em-todas-as-redes-sociais.htm",
     "photo": "https://imguol.com/c/noticias/33/2026/07/31/uol-produtos-e-canais-1785531319308_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Bruna Lombardi: 'Eu não me sentia a garota bonita da escola'",
-    "link": "https://noticias.uol.com.br/ultimas-noticias/redacao/2026/08/01/bruna-lombardi-eu-nao-me-sentia-a-garota-bonita-da-escola.ghtm",
-    "photo": "https://imguol.com/c/noticias/1a/2026/07/28/bruna-lombardi-no-programa-alt-tabet-1785280558319_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -728,32 +689,32 @@
     "relateds": []
   },
   {
+    "title": "Morre Vincent Pastore, ator de 'Família Soprano', aos 80 anos",
+    "link": "https://www1.folha.uol.com.br/ilustrada/2026/08/morre-vincent-pastore-ator-de-familia-soprano-aos-80-anos.shtml",
+    "photo": "https://imguol.com/c/home/c1/2026/08/01/o-ator-vincent-pastore-dando-vida-ao-personagem-salvatore-big-pussy-bonpensiero-em-cena-da-serie-familia-soprano-da-hbo-1785624723079_v2_450x253.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Ronnie Wood, dos Rolling Stones, faz show único em SP em novembro",
+    "link": "https://guia.folha.uol.com.br/shows/2026/08/ronnie-wood-dos-rolling-stones-faz-show-unico-em-sp-em-novembro.shtml",
+    "photo": "https://imguol.com/c/entretenimento/25/2016/08/15/pecas-consideradas-femininas-para-eles---ronnie-wood-1471281818247_v2_300x300.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Paulo Miklos cancela show após ser internado com pneumonia",
     "link": "https://www.uol.com.br/splash/noticias/2026/08/01/paulo-miklos-cancela-show-apos-ser-internado-com-pneumonia.ghtm",
     "photo": "https://imguol.com/c/splash/2a/2026/08/01/paulo-miklos-falou-sobre-seu-estado-de-saude-em-story-bo-instagram-1785609048758_v2_300x300.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Massive Attack é banido de Singapura após exibir bandeira palestina",
-    "link": "https://www1.folha.uol.com.br/ilustrada/2026/08/massive-attack-e-banido-de-singapura-apos-exibir-bandeira-palestina.shtml",
-    "photo": "https://imguol.com/c/toca/e4/2025/09/18/telao-de-show-do-massive-attack-em-londres-exibe-bandeira-da-palestina-1758233496516_v2_300x300.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Ronnie Wood, dos Stones, faz show único em SP em novembro",
-    "link": "https://guia.folha.uol.com.br/shows/2026/08/ronnie-wood-dos-rolling-stones-faz-show-unico-em-sp-em-novembro.shtml",
-    "photo": "https://imguol.com/c/entretenimento/25/2016/08/15/pecas-consideradas-femininas-para-eles---ronnie-wood-1471281818247_v2_300x225.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": false,
     "is_video": false,
     "relateds": []
   },
@@ -1149,6 +1110,126 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "A guerra tarifária de Trump não é irracional",
+    "link": "https://www1.folha.uol.com.br/colunas/demetriomagnoli/2026/07/paixao-por-tarifa.shtml",
+    "photo": "https://conteudo.imguol.com.br/c/home/ed/2019/03/09/demetrio-magnoli---26112018-seminario-70-anos-da-declaracao-universal-dos-direitos-humanos-realizado-no-auditorio-folha-1552186314721_100x100.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Missão lança candidaturas e 'desafia' Lula e Flávio para debate com Renan",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/08/01/missao-renan-santos-candidatura-presidente-eleicoes-2026.ghtm",
+    "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Assista ao congresso do Partido Missão com Renan Santos",
+    "link": "https://noticias.uol.com.br/ao-vivo/2026/07/31/renan-santos-fala-ao-vivo-em-congresso-do-partido-missao.htm",
+    "photo": "https://imguol.com/c/parceiros/ef/2026/07/13/renan-santos-pre-candidato-a-presidencia-da-republica-1783985954600_v2_150x112.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Moro mira Lula e minimiza Flávio em caso Master ao se lançar no Paraná",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/08/01/convencao-moro-pl-parana.ghtm",
+    "photo": "https://imguol.com/c/noticias/0e/2026/08/01/1ago2026---ao-lado-da-mulher-rosangela-sergio-moro-e-oficializado-candidato-ao-governo-com-filipe-barros-pl-e-deltan-dallagnol-novo-ao-senado-durante-convencao-do-pl-em-curitiba-1785596757138_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "O futebol vai morrer pelas mãos de seus gestores",
+    "link": "https://www.uol.com.br/esporte/colunas/milly-lacombe/2026/07/31/o-futebol-vai-morrer-pelas-maos-de-seus-gestores.htm",
+    "photo": "https://conteudo.imguol.com.br/03/2021/01/29/milly-lacombe-autor-2-1611928982961_100x100.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Jogo da polêmica teve menos bola rolando na minirrodada do Brasileiro",
+    "link": "https://www.uol.com.br/esporte/futebol/colunas/mauro-cezar-pereira/2026/07/31/jogo-da-polemica-teve-menos-bola-rolando-na-mini-rodada-do-brasileiro.htm",
+    "photo": "https://conteudo.imguol.com.br/3e/2021/02/10/mauro-cezar-150-colorida-1612960631293_100x100.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Claude diz que IA também atacou empresas e gera alerta em 'era de agentes'",
+    "link": "https://www.uol.com.br/tilt/colunas/iagora/2026/07/31/ia-fora-de-controle-apos-openai-anthropic-diz-que-seu-modelo-atacou-3-empresas.htm",
+    "photo": "https://conteudo.imguol.com.br/55/2026/03/27/o-agente---header-1774623749833_100x100.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Qualis, Ruud e Shelton: prós e contras da chave de João Fonseca em Montreal",
+    "link": "https://www.uol.com.br/esporte/colunas/saque-e-voleio/2026/07/31/qualis-ruud-e-shelton-pros-e-contras-da-chave-de-joao-fonseca-em-montreal.htm",
+    "photo": "https://conteudo.imguol.com.br/c1/2026/04/15/saque-e-voleio-header-1776302734291_100x100.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Monique Evans faz piada sobre aparência após plástica",
+    "link": "https://www.uol.com.br/splash/noticias/2026/07/31/monique-evans-mostra-recuperacao-de-plastica-e-faz-piada-sobre-aparencia.ghtm",
+    "photo": "https://imguol.com/c/splash/76/2026/07/31/monique-evans-mostrou-o-rosto-apos-passar-por-um-minilifting-facial-1785545705203_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Nando Reis relembra saída dos Titãs: 'Me senti excluído'",
+    "link": "https://www.uol.com.br/universa/noticias/redacao/2026/08/01/nando-reis-relembra-saida-dos-titas-me-senti-excluido.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/4d/2026/07/28/nando-reis-no-programa-desculpa-alguma-coisa-1785272979587_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Bruna Lombardi: 'Eu não me sentia a garota bonita da escola'",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/redacao/2026/08/01/bruna-lombardi-eu-nao-me-sentia-a-garota-bonita-da-escola.ghtm",
+    "photo": "https://imguol.com/c/noticias/1a/2026/07/28/bruna-lombardi-no-programa-alt-tabet-1785280558319_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Massive Attack é banido de Singapura após exibir bandeira palestina",
+    "link": "https://www1.folha.uol.com.br/ilustrada/2026/08/massive-attack-e-banido-de-singapura-apos-exibir-bandeira-palestina.shtml",
+    "photo": "https://imguol.com/c/toca/e4/2025/09/18/telao-de-show-do-massive-attack-em-londres-exibe-bandeira-da-palestina-1758233496516_v2_300x300.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
