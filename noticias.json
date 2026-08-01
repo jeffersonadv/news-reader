@@ -15,19 +15,9 @@
     ]
   },
   {
-    "title": "Do Titanic ao cosmos: cinco experiências imersivas que você pode visitar em SP",
-    "link": "https://www.uol.com.br/nossa/noticias/redacao/2026/07/31/do-titanic-ao-cosmos-5-experiencias-imersivas-que-voce-pode-visitar-em-sp.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/4b/2026/07/30/titanic-1785381129068_v2_450x253.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Entenda o hikikimori, fenômeno de isolamento social entre jovens",
-    "link": "https://www1.folha.uol.com.br/equilibrio/2026/07/entenda-o-hikikimori-fenomeno-de-isolamento-social-entre-jovens.shtml",
-    "photo": "https://imguol.com/c/home/86/2026/07/31/jovem-japonesa-oriental-japao-jovem-sozinha-solitaria-1785543104914_v2_450x253.jpg",
+    "title": "Pesquisadores identificam 21 pegadas de espécie humana primitiva no Quênia",
+    "link": "https://www1.folha.uol.com.br/ciencia/2026/07/pesquisadores-identificam-21-pegadas-de-especie-humana-primitiva-no-quenia.shtml",
+    "photo": "https://imguol.com/c/home/42/2026/08/01/kevin-hatala-observa-pegadas-atribuidas-a-oito-individuos-da-especie-paranthropus-1785581197672_450x337.jpg",
     "source": "Folha",
     "is_main": false,
     "is_carousel": true,
@@ -42,6 +32,16 @@
     "is_main": false,
     "is_carousel": true,
     "is_video": true,
+    "relateds": []
+  },
+  {
+    "title": "10 cidades brasileiras para visitar antes de ficarem 'superturísticas'",
+    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/01/cidades-brasileiras-para-visitar-antes-de-ficarem-super-turisticas.ghtm",
+    "photo": "https://imguol.com/c/guia-de-compras/b8/2026/07/30/aiuruoca-1785445095136_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
     "relateds": []
   },
   {
@@ -100,16 +100,6 @@
     ]
   },
   {
-    "title": "'Já esperávamos': brasileira relata reações à crise migratória na Espanha",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/07/31/ja-esperavamos-brasileira-relata-clima-na-espanha-apos-crise-migratoria.ghtm",
-    "photo": "https://imguol.com/c/home/fc/2026/07/31/mariana-matos-38-vive-em-barcelona-1785534434473_v2_300x225.jpg?1785534437984",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "O que está acontecendo em Ceuta? Entenda crise migratória na Espanha",
     "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/07/31/o-que-esta-acontecendo-em-ceuta-entenda-crise-migratoria-na-espanha.ghtm",
     "photo": "https://imguol.com/c/noticias/f9/2026/07/31/31jul2026---um-migrante-do-marrocos-reage-ao-chegar-a-fronteira-espanhola-em-ceuta-1785503424072_v2_300x225.jpg",
@@ -119,16 +109,34 @@
     "is_video": false,
     "relateds": [
       {
+        "title": "Marrocos prende ao menos 70 pessoas por violência após travessia para Ceuta",
+        "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/01/marrocos-prende-violencia-apos-travessia-em-massa-em-ceuta.ghtm"
+      },
+      {
         "title": "Cerca de 69,5 mil migrantes estão retornando ao Marrocos vindos de Ceuta",
         "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/01/cerca-de-69500-migrantes-estao-retornando-ao-marrocos-vindos-de-ceuta.ghtm"
+      },
+      {
+        "title": "'Já esperávamos': brasileira relata reações à crise migratória na Espanha",
+        "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/07/31/ja-esperavamos-brasileira-relata-clima-na-espanha-apos-crise-migratoria.ghtm"
       }
     ]
   },
   {
-    "title": "Paraguai entrega nota de repúdio a embaixador brasileiro, e vice diz não querer aprofundar rusga",
-    "link": "https://www1.folha.uol.com.br/mundo/2026/07/paraguai-entrega-nota-de-repudio-a-embaixador-brasileiro-e-vice-diz-nao-querer-aprofundar-rusga.shtml",
-    "photo": "https://imguol.com/c/home/76/2026/07/31/o-vice-presidente-do-paraguai-pedro-alliana-e-o-embaixador-do-brasil-em-assuncao-jose-antonio-marcondes-de-carvalho-encontram-se-apos-fala-do-presidente-lula-sobre-guerra-1785534304076_v2_300x225.jpg",
-    "source": "Folha",
+    "title": "Gasolina com 32% de etanol passa a valer hoje",
+    "link": "https://economia.uol.com.br/noticias/redacao/2026/08/01/gasolina-com-32-de-etanol-passa-a-valer-neste-sabado.ghtm",
+    "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Confiança na família despenca, aponta pesquisa; vício e bets destroem lares",
+    "link": "https://noticias.uol.com.br/colunas/a-hora/2026/08/01/confianca-na-familia-despenca-diz-pesquisa-vicio-e-bets-destroem-lares.htm",
+    "photo": "https://imguol.com/c/noticias/3c/2026/06/19/bets-casa-de-apostas-apostador-1781872053869_v2_300x225.jpg",
+    "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
@@ -170,9 +178,9 @@
     "relateds": []
   },
   {
-    "title": "Os quatro erros no jardim que podem atrair carrapatos sem você perceber",
-    "link": "https://noticias.uol.com.br/meio-ambiente/ultimas-noticias/redacao/2026/07/31/os-tipos-de-jardim-que-favorecem-carrapatos.ghtm",
-    "photo": "https://imguol.com/c/noticias/15/2026/07/27/carrapato-1785189258208_v2_300x300.jpg",
+    "title": "4 problemas comuns de visão após os 60 anos e como se prevenir",
+    "link": "https://www.uol.com.br/vivabem/noticias/redacao/2026/08/01/4-problemas-comuns-de-visao-apos-os-60-anos-e-como-se-prevenir.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/2b/2025/04/03/olho-macula-retina-dmri-visao-de-um-idoso-velho-terceira-idade-1743684983590_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -493,6 +501,16 @@
     "title": "Gigante recém-contratado é nova ameaça à permanência de Endrick no Real",
     "link": "https://www.uol.com.br/esporte/colunas/mercado-da-bola/2026/07/31/gigante-de-time-modesto-e-nova-ameaca-a-permanencia-de-endrick-no-real.htm",
     "photo": "https://conteudo.imguol.com.br/f6/2022/03/08/mercado-da-bola-1646766832319_100x100.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "'Já esperávamos': brasileira relata reações à crise migratória na Espanha",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/07/31/ja-esperavamos-brasileira-relata-clima-na-espanha-apos-crise-migratoria.ghtm",
+    "photo": "https://imguol.com/c/home/fc/2026/07/31/mariana-matos-38-vive-em-barcelona-1785534434473_v2_300x225.jpg?1785534437984",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -980,16 +998,6 @@
     "relateds": []
   },
   {
-    "title": "10 cidades brasileiras para visitar antes de ficarem 'superturísticas'",
-    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/01/cidades-brasileiras-para-visitar-antes-de-ficarem-super-turisticas.ghtm",
-    "photo": "https://imguol.com/c/guia-de-compras/b8/2026/07/30/aiuruoca-1785445095136_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Por que celulares estilo passaporte, como o Galaxy Z Fold8, são tendência",
     "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/01/por-que-celulares-estilo-passaporte-como-o-galaxy-z-fold8-sao-tendencia.ghtm",
     "photo": "https://imguol.com/c/guia-de-compras/dd/2026/07/21/galaxy-z-fold8-1784683386321_v2_300x225.jpg",
@@ -1013,16 +1021,6 @@
     "title": "Dia do Orgasmo: seleção reúne 12 sex toys para diferentes perfis e bolsos",
     "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/07/31/dia-do-orgasmo-estes-sex-toys-sao-otimos-para-estimular-o-ponto-g.ghtm",
     "photo": "https://imguol.com/c/guia-de-compras/65/2026/07/31/listamos-sex-toys-para-liberar-o-prazer-no-dia-do-orgasmo-confira-selecao-1785523481820_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "4 problemas comuns de visão após os 60 anos e como se prevenir",
-    "link": "https://www.uol.com.br/vivabem/noticias/redacao/2026/08/01/4-problemas-comuns-de-visao-apos-os-60-anos-e-como-se-prevenir.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/2b/2025/04/03/olho-macula-retina-dmri-visao-de-um-idoso-velho-terceira-idade-1743684983590_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1166,6 +1164,46 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Do Titanic ao cosmos: cinco experiências imersivas que você pode visitar em SP",
+    "link": "https://www.uol.com.br/nossa/noticias/redacao/2026/07/31/do-titanic-ao-cosmos-5-experiencias-imersivas-que-voce-pode-visitar-em-sp.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/4b/2026/07/30/titanic-1785381129068_v2_450x253.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Entenda o hikikimori, fenômeno de isolamento social entre jovens",
+    "link": "https://www1.folha.uol.com.br/equilibrio/2026/07/entenda-o-hikikimori-fenomeno-de-isolamento-social-entre-jovens.shtml",
+    "photo": "https://imguol.com/c/home/86/2026/07/31/jovem-japonesa-oriental-japao-jovem-sozinha-solitaria-1785543104914_v2_450x253.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Paraguai entrega nota de repúdio a embaixador brasileiro, e vice diz não querer aprofundar rusga",
+    "link": "https://www1.folha.uol.com.br/mundo/2026/07/paraguai-entrega-nota-de-repudio-a-embaixador-brasileiro-e-vice-diz-nao-querer-aprofundar-rusga.shtml",
+    "photo": "https://imguol.com/c/home/76/2026/07/31/o-vice-presidente-do-paraguai-pedro-alliana-e-o-embaixador-do-brasil-em-assuncao-jose-antonio-marcondes-de-carvalho-encontram-se-apos-fala-do-presidente-lula-sobre-guerra-1785534304076_v2_300x225.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Os quatro erros no jardim que podem atrair carrapatos sem você perceber",
+    "link": "https://noticias.uol.com.br/meio-ambiente/ultimas-noticias/redacao/2026/07/31/os-tipos-de-jardim-que-favorecem-carrapatos.ghtm",
+    "photo": "https://imguol.com/c/noticias/15/2026/07/27/carrapato-1785189258208_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   }
