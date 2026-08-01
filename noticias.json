@@ -5,11 +5,11 @@
     "photo": "https://imguol.com/c/noticias/f7/2026/08/01/tarcisio-oficializa-candidatura-a-reeleicao-em-sao-paulo-1785598095594_v2_450x337.jpg",
     "source": "UOL",
     "is_main": true,
-    "is_carousel": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": [
       {
-        "title": "Flávio Bolsonaro agradece apoio de Marcos Pereira em busca de coligação",
+        "title": "Flávio Bolsonaro agradece por apoio de Marcos Pereira em busca de coligação",
         "link": "https://noticias.uol.com.br/ao-vivo/2026/08/01/republicanos-convencao-tarcisio-sao-paulo.htm?c=card_496567250_1785596126599"
       },
       {
@@ -17,8 +17,16 @@
         "link": "https://noticias.uol.com.br/ao-vivo/2026/08/01/republicanos-convencao-tarcisio-sao-paulo.htm?c=card_1792706753_1785595656706"
       },
       {
-        "title": "Nunes pede voto das mulheres para Tarcísio durante convenção",
+        "title": "Nunes pede voto das mulheres para Tarcísio durante convenção do Republicanos",
         "link": "https://noticias.uol.com.br/ao-vivo/2026/08/01/republicanos-convencao-tarcisio-sao-paulo.htm?c=card_496567250_1785594662928"
+      },
+      {
+        "title": "Alexandre Borges: Em dia de Tarcísio, Flávio foi coadjuvante",
+        "link": "https://noticias.uol.com.br/ao-vivo/2026/08/01/republicanos-convencao-tarcisio-sao-paulo.htm?c=card_236845174_1785599490642"
+      },
+      {
+        "title": "Governador depende de Tarcísio para chegar no 2º turno, diz cientista político",
+        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/01/bolsonaro-depende-mais-de-tarcisio-diz-fabio-andrade.ghtm"
       }
     ]
   },
@@ -53,10 +61,20 @@
     "relateds": []
   },
   {
-    "title": "Lulinha não deveria ter ganhado foro privilegiado",
-    "link": "https://noticias.uol.com.br/colunas/walter-maierovitch/2026/07/31/lulinha-tem-foro-privilegiado.htm",
-    "photo": "https://conteudo.imguol.com.br/c/home/1a/2021/09/28/walter-maierovitch-150-1632837806803_100x100.jpg",
-    "source": "UOL",
+    "title": "Lula não deu sinal na direção de ajuste fiscal",
+    "link": "https://www1.folha.uol.com.br/colunas/adriana-fernandes/2026/07/os-rumos-da-economia-num-eventual-lula-4.shtml",
+    "photo": "https://conteudo.imguol.com.br/c/home/91/2024/11/05/brasilia-df-15-01-2024-a-nova-reporter-e-colunista-da-folha-adriana-fernandes-1730808068195_v2_100x100.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "A guerra tarifária de Trump não é irracional",
+    "link": "https://www1.folha.uol.com.br/colunas/demetriomagnoli/2026/07/paixao-por-tarifa.shtml",
+    "photo": "https://conteudo.imguol.com.br/c/home/ed/2019/03/09/demetrio-magnoli---26112018-seminario-70-anos-da-declaracao-universal-dos-direitos-humanos-realizado-no-auditorio-folha-1552186314721_100x100.jpg",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
@@ -79,26 +97,6 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Não há santos na briga entre Fifa e Uefa",
-    "link": "https://www.uol.com.br/esporte/futebol/colunas/juca-kfouri/2026/07/31/nao-ha-santos-na-briga-entre-a-fifa-e-a-uefa.htm",
-    "photo": "https://conteudo.imguol.com.br/c/home/53/2019/01/10/juca-kfouri-1547134077409_100x100.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Flávio Bolsonaro depende de Tarcísio para chegar no 2º turno, diz cientista político",
-    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/01/bolsonaro-depende-mais-de-tarcisio-diz-fabio-andrade.ghtm",
-    "photo": "",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
     "is_video": false,
     "relateds": []
   },
@@ -173,6 +171,16 @@
     "relateds": []
   },
   {
+    "title": "Nada de faca e secador: como tirar gelo do congelador sem danificar freezer",
+    "link": "https://www.uol.com.br/tilt/noticias/redacao/2026/08/01/nada-de-faca-e-secador-como-tirar-gelo-do-congelador-sem-danificar-freezer.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/5c/2017/10/26/freezer-1509053552583_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "4 problemas comuns de visão após os 60 anos e como se prevenir",
     "link": "https://www.uol.com.br/vivabem/noticias/redacao/2026/08/01/4-problemas-comuns-de-visao-apos-os-60-anos-e-como-se-prevenir.ghtm",
     "photo": "https://imguol.com/c/entretenimento/2b/2025/04/03/olho-macula-retina-dmri-visao-de-um-idoso-velho-terceira-idade-1743684983590_v2_300x300.jpg",
@@ -183,12 +191,12 @@
     "relateds": []
   },
   {
-    "title": "Estêvão marca após lesão, mas Tottenham bate Chelsea com gol de Richarlison",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/01/estevao-marca-apos-lesao-mas-tottenham-bate-chelsea-com-gol-de-richarlison.ghtm",
-    "photo": "https://imguol.com/c/esporte/ca/2026/08/01/estevao-do-chelsea-fez-seu-primeiro-gol-apos-a-lesao-que-o-tirou-da-copa-do-mundo-1785587507629_v2_300x225.jpg",
+    "title": "Funcionário mata três colegas em fábrica da Bombril em SP, diz polícia",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/01/mortes-funcionarios-fabrica-bombril-sao-bernardo-do-campo.ghtm",
+    "photo": "https://imguol.com/c/noticias/aa/2026/08/01/crime-aconteceu-na-fabrica-da-bombril-em-sao-bernardo-do-campo-1785590510098_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
@@ -238,19 +246,19 @@
     "relateds": []
   },
   {
-    "title": "Palmeiras aproveita pausa do Fla, e Abel deve poupar jogadores na Copa do Brasil",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/01/palmeiras-marca-flamengo-e-abel-prepara-mudancas-na-copa-do-brasil.ghtm",
-    "photo": "https://imguol.com/c/esporte/41/2026/07/24/abel-ferreira-comanda-treino-do-palmeiras-na-academia-de-futebol-1784924069033_v2_300x225.png",
+    "title": "STJD denuncia Maurício, do Palmeiras, e trio do Vitória por episódios",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/01/stjd-denuncia-mauricio-e-trio-do-vitoria-por-episodios-no-barradao.ghtm",
+    "photo": "https://imguol.com/c/esporte/b5/2026/07/29/luan-candido-foi-expulso-apos-fazer-gesto-de-roubo-durante-vitoria-x-palmeiras-1785373914300_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": true,
+    "is_carousel": false,
     "is_video": false,
     "relateds": []
   },
   {
-    "title": "Veja como seguir o UOL e seu programa favorito em todas as redes sociais",
-    "link": "https://economia.uol.com.br/noticias/redacao/2026/07/31/veja-como-seguir-o-uol-e-seu-programa-favorito-em-todas-as-redes-sociais.htm",
-    "photo": "https://imguol.com/c/noticias/33/2026/07/31/uol-produtos-e-canais-1785531319308_v2_300x225.png",
+    "title": "Estêvão marca após lesão, mas Tottenham bate Chelsea com gol de Richarlison",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/01/estevao-marca-apos-lesao-mas-tottenham-bate-chelsea-com-gol-de-richarlison.ghtm",
+    "photo": "https://imguol.com/c/esporte/ca/2026/08/01/estevao-do-chelsea-fez-seu-primeiro-gol-apos-a-lesao-que-o-tirou-da-copa-do-mundo-1785587507629_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -283,10 +291,30 @@
     ]
   },
   {
+    "title": "Foi-se Franco Baresi, 'o' líbero dos anos 1980 e 1990",
+    "link": "https://www1.folha.uol.com.br/blogs/o-mundo-e-uma-bola/2026/08/foi-se-franco-baresi-o-libero-dos-anos-1980-e-1990.shtml",
+    "photo": "https://conteudo.imguol.com.br/c/home/54/2022/12/15/luis-curro-1671112549126_100x100.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "O futebol vai morrer pelas mãos de seus gestores",
     "link": "https://www.uol.com.br/esporte/colunas/milly-lacombe/2026/07/31/o-futebol-vai-morrer-pelas-maos-de-seus-gestores.htm",
     "photo": "https://conteudo.imguol.com.br/03/2021/01/29/milly-lacombe-autor-2-1611928982961_100x100.png",
     "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Com nova ação em programa do Bial, publicidade quer interferir mais no conteúdo da TV",
+    "link": "https://f5.folha.uol.com.br/colunistas/thiagostivaletti/2026/08/com-nova-acao-em-programa-do-bial-publicidade-quer-interferir-mais-no-conteudo-da-tv.shtml",
+    "photo": "https://conteudo.imguol.com.br/c/home/cb/2022/07/01/thiago-stivaletti---150-1656674412774_v2_100x100.jpg",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
@@ -323,6 +351,16 @@
     "relateds": []
   },
   {
+    "title": "Não há santos na briga entre a Fifa e a Uefa",
+    "link": "https://www.uol.com.br/esporte/futebol/colunas/juca-kfouri/2026/07/31/nao-ha-santos-na-briga-entre-a-fifa-e-a-uefa.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/53/2019/01/10/juca-kfouri-1547134077409_100x100.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Um ato de lesa-banana",
     "link": "https://www1.folha.uol.com.br/colunas/ruycastro/2026/08/um-ato-de-lesa-banana.shtml",
     "photo": "https://conteudo.imguol.com.br/c/home/13/2025/01/15/retrato-de-ruy-castro-1736952999911_100x100.jpg",
@@ -343,27 +381,7 @@
     "relateds": []
   },
   {
-    "title": "Os rumos da economia num eventual Lula 4",
-    "link": "https://www1.folha.uol.com.br/colunas/adriana-fernandes/2026/07/os-rumos-da-economia-num-eventual-lula-4.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/91/2024/11/05/brasilia-df-15-01-2024-a-nova-reporter-e-colunista-da-folha-adriana-fernandes-1730808068195_v2_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Mostra de Cinema Coreano destaca cineastas iniciantes com sessões e debates grátis",
-    "link": "https://www1.folha.uol.com.br/blogs/k-cultura/2026/07/mostra-de-cinema-coreano-destaca-cineastas-iniciantes-com-sessoes-e-debates-gratis.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/fb/2024/12/13/nathalia-lima-durval---retratos-dos-integrantes-da-redacao-da-folha---colunista-blog-k-cultura-1734094897884_v2_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Jogo da polêmica teve menos bola rolando na mini-rodada do Brasileiro",
+    "title": "Jogo da polêmica teve menos bola rolando na minirrodada do Brasileiro",
     "link": "https://www.uol.com.br/esporte/futebol/colunas/mauro-cezar-pereira/2026/07/31/jogo-da-polemica-teve-menos-bola-rolando-na-mini-rodada-do-brasileiro.htm",
     "photo": "https://conteudo.imguol.com.br/3e/2021/02/10/mauro-cezar-150-colorida-1612960631293_100x100.jpg",
     "source": "UOL",
@@ -493,16 +511,6 @@
     "relateds": []
   },
   {
-    "title": "Funcionário mata três colegas na fábrica da Bombril em SP, diz polícia",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/01/mortes-funcionarios-fabrica-bombril-sao-bernardo-do-campo.ghtm",
-    "photo": "https://imguol.com/c/noticias/aa/2026/08/01/crime-aconteceu-na-fabrica-da-bombril-em-sao-bernardo-do-campo-1785590510098_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Ex-marido diz ter gratidão e respeito por Nivea Stelmann: 'Mulher incrível'",
     "link": "https://www.uol.com.br/splash/noticias/2026/08/01/marcus-rocha-ex-marido-nivea-stelmann.ghtm",
     "photo": "https://imguol.com/c/splash/c7/2026/07/31/quem-e-marcus-rocha-ex-marido-de-nivea-stelmann-1785529618613_v2_300x225.jpg",
@@ -513,7 +521,7 @@
     "relateds": []
   },
   {
-    "title": "Após críticas, Xuxa 'esconde' virilha: 'Não vão conseguir ver'",
+    "title": "Após críticas, Xuxa 'esconde' virilha e provoca: 'Não vão conseguir ver'",
     "link": "https://www.uol.com.br/splash/noticias/2026/08/01/apos-criticas-xuxa-esconde-virilha-e-provoca-nao-vao-conseguir-ver.ghtm",
     "photo": "https://imguol.com/c/splash/69/2026/08/01/xuxa-escondeu-virilha-no-segundo-show-da-turne-o-ultimo-voo-da-nave-1785594628546_v2_300x225.jpg",
     "source": "UOL",
@@ -563,9 +571,38 @@
     "relateds": []
   },
   {
-    "title": "Proteger ou dar autonomia? O que fazer ao educar filhos para vida digital",
-    "link": "https://tab.uol.com.br/noticias/redacao/2026/08/01/proteger-ou-dar-autonomia-como-pais-tentam-educar-filhos-para-vida-digital.htm",
-    "photo": "https://imguol.com/c/tab/e6/2026/07/30/especialistas-defendem-que-a-educacao-digital-de-criancas-e-adolescentes-e-essencial-1785424616234_v2_300x225.jpg",
+    "title": "Por que celulares estilo passaporte, como o Galaxy Z Fold8, são tendência",
+    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/01/por-que-celulares-estilo-passaporte-como-o-galaxy-z-fold8-sao-tendencia.ghtm",
+    "photo": "https://imguol.com/c/guia-de-compras/dd/2026/07/21/galaxy-z-fold8-1784683386321_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "'Confortável e muito macia': camiseta manga longa para treino sai a R$ 70",
+        "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/01/camiseta-de-treino-da-domyos-faz-sucesso-por-conforto-e-toque-macio.ghtm"
+      },
+      {
+        "title": "Keune ou Wella: qual máscara é melhor para cabelo poroso na perimenopausa",
+        "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/01/testamos-mascaras-premium-da-keune-e-wella-confira-os-resultados.htm"
+      }
+    ]
+  },
+  {
+    "title": "Bitcoin e Bolsa são investimentos com maior retorno em julho",
+    "link": "https://economia.uol.com.br/mais/colunas/silvio-crespo/2026/08/01/bitcoin-e-bolsa-sao-investimentos-com-maior-retorno-julho-veja-ranking.htm",
+    "photo": "https://imguol.com/c/noticias/04/2025/09/15/imagem-representativa-do-bitcoin-1757970554923_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "STJD denuncia Fernando Diniz, que pode pegar 3 jogos de gancho no Corinthians",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/01/stjd-denuncia-diniz-que-pode-pegar-tres-jogos-de-gancho-no-corinthians.ghtm",
+    "photo": "https://imguol.com/c/esporte/af/2026/07/30/fernando-diniz-durante-corinthians-x-athletico-1785457510585_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -583,19 +620,9 @@
     "relateds": []
   },
   {
-    "title": "Por que celulares estilo passaporte, como o Galaxy Z Fold8, são tendência",
-    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/01/por-que-celulares-estilo-passaporte-como-o-galaxy-z-fold8-sao-tendencia.ghtm",
-    "photo": "https://imguol.com/c/guia-de-compras/dd/2026/07/21/galaxy-z-fold8-1784683386321_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Bitcoin e Bolsa são investimentos com maior retorno em julho",
-    "link": "https://economia.uol.com.br/mais/colunas/silvio-crespo/2026/08/01/bitcoin-e-bolsa-sao-investimentos-com-maior-retorno-julho-veja-ranking.htm",
-    "photo": "https://imguol.com/c/noticias/04/2025/09/15/imagem-representativa-do-bitcoin-1757970554923_v2_300x225.jpg",
+    "title": "Veja como seguir o UOL e seu programa favorito em todas as redes sociais",
+    "link": "https://economia.uol.com.br/noticias/redacao/2026/07/31/veja-como-seguir-o-uol-e-seu-programa-favorito-em-todas-as-redes-sociais.htm",
+    "photo": "https://imguol.com/c/noticias/33/2026/07/31/uol-produtos-e-canais-1785531319308_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -613,9 +640,9 @@
     "relateds": []
   },
   {
-    "title": "Do campo para a luta: lenda do rúgbi derruba o tabu do HIV no esporte",
-    "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/08/01/gareth-thomas-rubgy-passagem-pelo-brasil.ghtm",
-    "photo": "https://imguol.com/c/esporte/00/2026/07/30/gareth-thomas-em-clinica-de-rugby-em-ipanema-1785424415829_v2_300x225.jpg",
+    "title": "Peugeot 2008 terá potência reduzida na linha 2027 para pagar menos imposto",
+    "link": "https://www.uol.com.br/carros/colunas/autos-segredos/2026/08/01/peugeot-2008-tera-potencia-reduzida-na-linha-2027-para-pagar-menos-imposto.htm",
+    "photo": "https://imguol.com/c/entretenimento/69/2026/01/06/peugeot-2008-gt-hybrid-2026-1767720838631_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -633,9 +660,9 @@
     "relateds": []
   },
   {
-    "title": "Vôlei de praia: Duda anuncia pausa para cuidar da saúde física e mental",
-    "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/07/31/volei-de-praia-duda-anuncia-pausa-para-cuidar-da-saude-fisica-e-mental.ghtm",
-    "photo": "https://imguol.com/c/esporte/5c/2026/07/31/duda-lisboa-campea-olimpica-no-volei-de-praia-nos-jogos-de-paris-2024-1785524720397_v2_450x253.jpg",
+    "title": "Feito para resistir ao fogo, o macacão da Fórmula 1 vale uma fortuna",
+    "link": "https://www3.uol.com.br/redirect-flash/f1-lifestyle-feito-para-resistir-ao-fogo-o-macacao-da-f1-vale-uma-fortuna.htm",
+    "photo": "https://imguol.com/c/esporte/2015/06/13/felipe-nasr-posa-com-macacao-da-sauber-na-formula-1-1434219901203_v2_450x253.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -683,9 +710,9 @@
     "relateds": []
   },
   {
-    "title": "Mauro Cezar critica dupla Bap e Boto no Flamengo: 'Nem em roteiro de Ted Lasso'",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/31/mauro-cezar-critica-dupla-bap-e-boto-no-flamengo-nem-em-roteiro-de-ted-lasso.ghtm",
-    "photo": "https://imguol.com/c/esporte/8e/2024/12/29/jose-boto-e-bap-no-ninho-do-urubu-ct-do-flamengo-1735494478664_v2_300x225.jpg",
+    "title": "Santos joga na Copa do Brasil com a 40ª escalação em 40 partidas no ano",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/01/santos-joga-na-copa-do-brasil-com-a-40-escalacao-em-40-partidas-no-ano.ghtm",
+    "photo": "https://imguol.com/c/esporte/77/2026/07/31/cuca-no-banco-de-reservas-do-couto-pereira-durante-santos-e-coritiba-1785547918949_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -698,6 +725,26 @@
     "photo": "https://imguol.com/c/esporte/1f/2026/07/31/copacabana-vai-receber-etapa-da-copa-do-mundo-de-triatlo-1785536609310_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Do campo para a luta: lenda do rúgbi derruba o tabu do HIV no esporte",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/08/01/gareth-thomas-rubgy-passagem-pelo-brasil.ghtm",
+    "photo": "https://imguol.com/c/esporte/00/2026/07/30/gareth-thomas-em-clinica-de-rugby-em-ipanema-1785424415829_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Homem-Aranha é super-humano, não super-herói, diz diretor do novo filme",
+    "link": "https://www1.folha.uol.com.br/ilustrada/2026/08/homem-aranha-e-super-humano-nao-super-heroi-diz-diretor-do-novo-filme.shtml",
+    "photo": "https://imguol.com/c/home/5c/2026/08/01/tom-holland-em-cena-do-filme-homem-aranha-um-novo-dia-1785601412956_450x337.jpg?1785601417999",
+    "source": "Folha",
+    "is_main": true,
     "is_carousel": false,
     "is_video": false,
     "relateds": []
@@ -733,16 +780,6 @@
     "relateds": []
   },
   {
-    "title": "Steven Spielberg e mais: o que ver na TV e no streaming neste sábado",
-    "link": "https://www1.folha.uol.com.br/ilustrada/2026/07/homem-aranha-e-steven-spielberg-o-que-ver-na-tv-e-no-streaming-neste-sabado.shtml",
-    "photo": "",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Mendonça autoriza nova investigação sobre Lulinha a pedido da Polícia Federal",
     "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/31/mendonca-autoriza-nova-investigacao-sobre-lulinha-a-pedido-da-pf.ghtm",
     "photo": "https://imguol.com/c/noticias/0f/2024/03/27/lobista-foi-condenado-a-indenizar-lulinha-filho-do-presidente-lula-1711543789105_v2_450x337.jpg",
@@ -768,6 +805,16 @@
     "relateds": []
   },
   {
+    "title": "Ele achava que um suplemento fitness era seguro, mas acabou em surto psicótico",
+    "link": "https://www1.folha.uol.com.br/equilibrio/2026/08/ele-achava-que-um-suplemento-fitness-era-seguro-mas-acabou-em-surto-psicotico.shtml",
+    "photo": "https://imguol.com/c/home/23/2026/08/01/homem-jovem-sentado-em-cadeira-sob-varanda-coberta-segurando-oculos-ao-fundo-lareira-de-pedra-e-balanco-verde-com-almofadas-ambiente-externo-com-arvores-e-luz-natural-daniel-murphy-passou-de-um-marido-1785600692602_300x300.jpg?1785600779818",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Médicos se dividem sobre tratamento com canetas emagrecedoras paraguaias",
     "link": "https://www1.folha.uol.com.br/equilibrioesaude/2026/08/medicos-se-dividem-entre-acompanhar-ou-nao-pacientes-que-usam-canetas-emagrecedoras-paraguaias.shtml",
     "photo": "https://imguol.com/c/home/5e/2026/08/01/canetas-emagracedoras-do-paruaguai-tirzedral-tg-lipoless-tirzec-e-gluconex-que-nao-possuem-registro-sanitario-junto-a-anvisa-e-sao-ilegais-no-brasil-1785591156166_300x225.jpg?1785591161645",
@@ -778,20 +825,10 @@
     "relateds": []
   },
   {
-    "title": "USP anuncia R$ 50 milhões para Hospital Universitário após anos de problemas estruturais",
-    "link": "https://www1.folha.uol.com.br/educacao/2026/07/usp-anuncia-r-50-milhoes-para-hospital-universitario-apos-anos-de-problemas-estruturais.shtml",
-    "photo": "https://imguol.com/c/parceiros/cc/2022/05/12/concurso-do-hu-usp-entrada-do-hospital-universitario-da-universidade-de-sao-paulo-1652373843640_v2_300x300.jpg",
+    "title": "Uso de IA para gerar falsa nudez se dissemina em sites e aplicativos sem controle efetivo",
+    "link": "https://www1.folha.uol.com.br/cotidiano/2026/08/uso-de-ia-para-gerar-falsa-nudez-se-dissemina-em-sites-e-aplicativos-sem-controle-efetivo.shtml",
+    "photo": "https://imguol.com/c/home/30/2026/08/01/outdoor-em-londres-acusa-o-grok-ferramenta-de-ia-do-x-de-permitir-a-criacao-de-imagens-de-pornografia-infanti-1785600997455_300x300.jpg",
     "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Ataque russo com mísseis na capital da Ucrânia deixa ao menos três mortos",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/07/31/explosoes-ucrania-russia-julho-2026.ghtm",
-    "photo": "https://imguol.com/c/noticias/8a/2026/07/30/fumaca-se-eleva-na-cidade-durante-um-ataque-com-misseis-russos-em-meio-a-ofensiva-da-russia-contra-a-ucrania-em-kiev-na-ucrania30-de-julho-de-2026-reutersgleb-garanich-1785414857323_v2_300x300.jpg",
-    "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
@@ -953,6 +990,16 @@
     "relateds": []
   },
   {
+    "title": "Dia do Orgasmo: seleção reúne 12 sex toys para diferentes perfis e bolsos",
+    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/07/31/dia-do-orgasmo-estes-sex-toys-sao-otimos-para-estimular-o-ponto-g.ghtm",
+    "photo": "https://imguol.com/c/guia-de-compras/65/2026/07/31/listamos-sex-toys-para-liberar-o-prazer-no-dia-do-orgasmo-confira-selecao-1785523481820_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "'Confortável e muito macia': camiseta manga longa para treino sai a R$ 70",
     "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/01/camiseta-de-treino-da-domyos-faz-sucesso-por-conforto-e-toque-macio.ghtm",
     "photo": "https://imguol.com/c/guia-de-compras/d6/2026/07/29/camiseta-de-treino-domyos-promete-elasticidade-para-facilitar-os-movimentos-1785351006393_v2_300x225.png",
@@ -983,6 +1030,16 @@
     "relateds": []
   },
   {
+    "title": "Boca tudo: o arsenal de batons que domina a redação do UOL",
+    "link": "https://www.uol.com.br/universa/noticias/redacao/2026/07/29/dia-do-batom-veja-os-produtos-que-dominam-o-necessaire-da-redacao.ghtm",
+    "photo": "https://imguol.com/c/parceiros/f7/2026/04/13/imagem-de-uma-boca-feminina-usando-batom-vermelho-1776116310885_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "A nova cara do machismo é um meme. E ele funciona",
     "link": "https://www.uol.com.br/universa/noticias/redacao/2026/08/01/pesquisa-da-ufba-aponta-misoginia-na-internet-como-piada-em-memes.ghtm",
     "photo": "https://imguol.com/c/geral/78/2026/07/31/gustavo-tubarao-1785532640948_v2_300x225.png",
@@ -1003,37 +1060,7 @@
     "relateds": []
   },
   {
-    "title": "Dia do Orgasmo: seleção reúne 12 sex toys para diferentes perfis e bolsos",
-    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/07/31/dia-do-orgasmo-estes-sex-toys-sao-otimos-para-estimular-o-ponto-g.ghtm",
-    "photo": "https://imguol.com/c/guia-de-compras/65/2026/07/31/listamos-sex-toys-para-liberar-o-prazer-no-dia-do-orgasmo-confira-selecao-1785523481820_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Boca tudo: o arsenal de batons que domina a redação do UOL",
-    "link": "https://www.uol.com.br/universa/noticias/redacao/2026/07/29/dia-do-batom-veja-os-produtos-que-dominam-o-necessaire-da-redacao.ghtm",
-    "photo": "https://imguol.com/c/parceiros/f7/2026/04/13/imagem-de-uma-boca-feminina-usando-batom-vermelho-1776116310885_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Peugeot 2008 terá potência reduzida na linha 2027 para pagar menos imposto",
-    "link": "https://www.uol.com.br/carros/colunas/autos-segredos/2026/08/01/peugeot-2008-tera-potencia-reduzida-na-linha-2027-para-pagar-menos-imposto.htm",
-    "photo": "https://imguol.com/c/entretenimento/69/2026/01/06/peugeot-2008-gt-hybrid-2026-1767720838631_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Nicolelis sobre chip cerebral de Musk: ?Não dá para competir com a China?",
+    "title": "Nicolelis sobre chip cerebral de Musk: 'Não dá para competir com a China'",
     "link": "https://www.uol.com.br/tilt/noticias/redacao/2026/08/01/nicolelis-sobre-chip-cerebral-de-musk-nao-da-para-competir-com-a-china.htm",
     "photo": "https://imguol.com/c/noticias/29/2025/08/13/elon-musk-ceo-da-tesla-durante-evento-viva-technology-realizado-em-paris-franca-em-2023-1755083251739_v2_450x253.jpg",
     "source": "UOL",
@@ -1085,7 +1112,7 @@
   {
     "title": "Apoio da CBF a jogadoras mães é avanço essencial",
     "link": "https://www.uol.com.br/ecoa/colunas/tony-marlon/2026/07/29/apoio-da-cbf-a-jogadoras-maes-e-avanco-essencial.htm",
-    "photo": "https://imguol.com/c/esporte/9e/2026/07/23/a-atacante-ketlen-do-santos-e-o-filho-lucca-1784844746357_v2_300x300.jpg",
+    "photo": "https://imguol.com/c/esporte/9e/2026/07/23/a-atacante-ketlen-do-santos-e-o-filho-lucca-1784844746357_v2_450x253.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1119,6 +1146,106 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Lulinha não deveria ter ganhado foro privilegiado",
+    "link": "https://noticias.uol.com.br/colunas/walter-maierovitch/2026/07/31/lulinha-tem-foro-privilegiado.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/1a/2021/09/28/walter-maierovitch-150-1632837806803_100x100.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Flávio Bolsonaro depende de Tarcísio para chegar no 2º turno, diz cientista político",
+    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/01/bolsonaro-depende-mais-de-tarcisio-diz-fabio-andrade.ghtm",
+    "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Palmeiras aproveita pausa do Fla, e Abel deve poupar jogadores na Copa do Brasil",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/01/palmeiras-marca-flamengo-e-abel-prepara-mudancas-na-copa-do-brasil.ghtm",
+    "photo": "https://imguol.com/c/esporte/41/2026/07/24/abel-ferreira-comanda-treino-do-palmeiras-na-academia-de-futebol-1784924069033_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Mostra de Cinema Coreano destaca cineastas iniciantes com sessões e debates grátis",
+    "link": "https://www1.folha.uol.com.br/blogs/k-cultura/2026/07/mostra-de-cinema-coreano-destaca-cineastas-iniciantes-com-sessoes-e-debates-gratis.shtml",
+    "photo": "https://conteudo.imguol.com.br/c/home/fb/2024/12/13/nathalia-lima-durval---retratos-dos-integrantes-da-redacao-da-folha---colunista-blog-k-cultura-1734094897884_v2_100x100.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Proteger ou dar autonomia? O que fazer ao educar filhos para vida digital",
+    "link": "https://tab.uol.com.br/noticias/redacao/2026/08/01/proteger-ou-dar-autonomia-como-pais-tentam-educar-filhos-para-vida-digital.htm",
+    "photo": "https://imguol.com/c/tab/e6/2026/07/30/especialistas-defendem-que-a-educacao-digital-de-criancas-e-adolescentes-e-essencial-1785424616234_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Vôlei de praia: Duda anuncia pausa para cuidar da saúde física e mental",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/07/31/volei-de-praia-duda-anuncia-pausa-para-cuidar-da-saude-fisica-e-mental.ghtm",
+    "photo": "https://imguol.com/c/esporte/5c/2026/07/31/duda-lisboa-campea-olimpica-no-volei-de-praia-nos-jogos-de-paris-2024-1785524720397_v2_450x253.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Mauro Cezar critica dupla Bap e Boto no Flamengo: 'Nem em roteiro de Ted Lasso'",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/07/31/mauro-cezar-critica-dupla-bap-e-boto-no-flamengo-nem-em-roteiro-de-ted-lasso.ghtm",
+    "photo": "https://imguol.com/c/esporte/8e/2024/12/29/jose-boto-e-bap-no-ninho-do-urubu-ct-do-flamengo-1735494478664_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Steven Spielberg e mais: o que ver na TV e no streaming neste sábado",
+    "link": "https://www1.folha.uol.com.br/ilustrada/2026/07/homem-aranha-e-steven-spielberg-o-que-ver-na-tv-e-no-streaming-neste-sabado.shtml",
+    "photo": "",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "USP anuncia R$ 50 milhões para Hospital Universitário após anos de problemas estruturais",
+    "link": "https://www1.folha.uol.com.br/educacao/2026/07/usp-anuncia-r-50-milhoes-para-hospital-universitario-apos-anos-de-problemas-estruturais.shtml",
+    "photo": "https://imguol.com/c/parceiros/cc/2022/05/12/concurso-do-hu-usp-entrada-do-hospital-universitario-da-universidade-de-sao-paulo-1652373843640_v2_300x300.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Ataque russo com mísseis na capital da Ucrânia deixa ao menos três mortos",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/07/31/explosoes-ucrania-russia-julho-2026.ghtm",
+    "photo": "https://imguol.com/c/noticias/8a/2026/07/30/fumaca-se-eleva-na-cidade-durante-um-ataque-com-misseis-russos-em-meio-a-ofensiva-da-russia-contra-a-ucrania-em-kiev-na-ucrania30-de-julho-de-2026-reutersgleb-garanich-1785414857323_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
