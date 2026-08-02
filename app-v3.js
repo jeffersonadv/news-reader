@@ -1635,6 +1635,7 @@ async function hybridNewsUpdate() {
                             linkLower.includes('/splash/') ||
                             linkLower.includes('/receitas/') ||
                             linkLower.includes('/vivabem/') ||
+                            linkLower.includes('/flash/') ||
                             linkLower.includes('/reportagem/') ||
                             linkLower.includes('videos.uol.com.br')
                         );

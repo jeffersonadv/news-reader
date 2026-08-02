@@ -70,6 +70,7 @@ def scrape_uol():
                         '/splash/' in link_lower or
                         '/receitas/' in link_lower or
                         '/vivabem/' in link_lower or
+                        '/flash/' in link_lower or
                         'redirect-flash' in link_lower or
                         '/reportagem/' in link_lower or
                         'videos.uol.com.br' in link_lower
