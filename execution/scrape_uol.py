@@ -79,7 +79,19 @@ def scrape_uol():
                         'videos.uol.com.br' in link_lower
                     )
                     
-                    if is_article and len(title) > 12 and not any(x in link_lower for x in ['/playlist/', '/videos/index', '/email/']):
+                    is_index = any(link_lower.endswith(x) for x in [
+                        '/receitas', '/receitas/', '/vivabem', '/vivabem/', '/esporte', '/esporte/', 
+                        '/nossa', '/nossa/', '/ecoa', '/ecoa/', '/splash', '/splash/', '/f5', '/f5/', 
+                        '/caras', '/caras/', '/opiniao', '/opiniao/', '/colunas', '/colunas/'
+                    ]) or link_lower.endswith('uol.com.br') or link_lower.endswith('uol.com.br/')
+                    
+                    is_blacklist_title = any(x in title.lower() for x in [
+                        'lista de receitas', 'busque sua receita', 'guia do supermercado', 
+                        'guia de doenças', 'remedios e tratamentos', 'iniciativas que inspiram', 
+                        'reportagens especiais', 'chás e seus benefícios', 'gripes e resfriados'
+                    ])
+                    
+                    if is_article and len(title) > 12 and not is_index and not is_blacklist_title and not any(x in link_lower for x in ['/playlist/', '/videos/index', '/email/']):
                         photo_url = ""
                         media_id = obj.get('mediaId')
                         if media_id and current_is_video:

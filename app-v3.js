@@ -1642,7 +1642,19 @@ async function hybridNewsUpdate() {
                             linkLower.includes('/reportagem/') ||
                             linkLower.includes('videos.uol.com.br')
                         );
-                        if (isArticle && title.length > 12) {
+                        const isIndex = [
+                            '/receitas', '/receitas/', '/vivabem', '/vivabem/', '/esporte', '/esporte/', 
+                            '/nossa', '/nossa/', '/ecoa', '/ecoa/', '/splash', '/splash/', '/f5', '/f5/', 
+                            '/caras', '/caras/', '/opiniao', '/opiniao/', '/colunas', '/colunas/'
+                        ].some(x => linkLower.endsWith(x)) || linkLower.endsWith('uol.com.br') || linkLower.endsWith('uol.com.br/');
+                        
+                        const isBlacklistTitle = [
+                            'lista de receitas', 'busque sua receita', 'guia do supermercado', 
+                            'guia de doenças', 'remedios e tratamentos', 'iniciativas que inspiram', 
+                            'reportagens especiais', 'chás e seus benefícios', 'gripes e resfriados'
+                        ].some(x => title.toLowerCase().includes(x));
+
+                        if (isArticle && title.length > 12 && !isIndex && !isBlacklistTitle) {
                             let photoUrl = "";
                             const mediaId = obj.mediaId;
                             if (mediaId && currentIsVideo) {
