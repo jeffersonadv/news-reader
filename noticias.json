@@ -9,7 +9,7 @@
     "is_video": false,
     "relateds": [
       {
-        "title": "Quem lançou candidatura? Veja os destaques das convenções de hoje",
+        "title": "Quem lançou candidatura? Veja os destaques das convenções deste sábado",
         "link": "https://www.uol.com.br/flash/?c=f95e3d81fe811ddd4fcea8d764f1b84420260801"
       }
     ]
@@ -45,6 +45,16 @@
     "relateds": []
   },
   {
+    "title": "Nem Neymar tira o zero do placar na Copa do Brasil",
+    "link": "https://www.uol.com.br/esporte/futebol/colunas/juca-kfouri/2026/08/01/nem-neymar-tira-o-zero-da-copa-do-brasil.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/53/2019/01/10/juca-kfouri-1547134077409_100x100.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Tarcísio faz de candidatura de Flávio coisa de amador",
     "link": "https://noticias.uol.com.br/colunas/josias-de-souza/2026/08/01/amor-de-tarcisio-faz-do-projeto-de-bolsonaro-coisa-de-amador.htm",
     "photo": "https://conteudo.imguol.com.br/c/home/c0/2019/04/01/josias-de-souza-1554165233531_100x100.jpg",
@@ -69,16 +79,6 @@
     "link": "https://noticias.uol.com.br/ao-vivo/2026/08/01/republicanos-convencao-tarcisio-sao-paulo.htm?c=card_236845174_1785599490642",
     "photo": "https://conteudo.imguol.com.br/c/home/a2/2025/11/20/alexandre-borges-1763663096379_100x100.png?1763663101104",
     "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Lula não deu sinal na direção de ajuste fiscal",
-    "link": "https://www1.folha.uol.com.br/colunas/adriana-fernandes/2026/07/os-rumos-da-economia-num-eventual-lula-4.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/91/2024/11/05/brasilia-df-15-01-2024-a-nova-reporter-e-colunista-da-folha-adriana-fernandes-1730808068195_v2_100x100.jpg",
-    "source": "Folha",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
@@ -130,7 +130,7 @@
     "photo": "https://imguol.com/c/esporte/fe/2026/08/01/neymar-durante-jogo-entre-santos-e-remo-1785636087226_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": [
       {
@@ -438,6 +438,16 @@
     "link": "https://noticias.uol.com.br/colunas/a-hora/2026/08/01/confianca-na-familia-despenca-diz-pesquisa-vicio-e-bets-destroem-lares.htm",
     "photo": "https://conteudo.imguol.com.br/c/home/a0/2025/05/23/a-hora-1748033136793_v2_100x100.png?1748033143450",
     "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Os rumos da economia num eventual Lula 4",
+    "link": "https://www1.folha.uol.com.br/colunas/adriana-fernandes/2026/07/os-rumos-da-economia-num-eventual-lula-4.shtml",
+    "photo": "https://conteudo.imguol.com.br/c/home/91/2024/11/05/brasilia-df-15-01-2024-a-nova-reporter-e-colunista-da-folha-adriana-fernandes-1730808068195_v2_100x100.jpg",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
