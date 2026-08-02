@@ -1633,6 +1633,8 @@ async function hybridNewsUpdate() {
                             linkLower.includes('/ecoa/') ||
                             linkLower.includes('/tab/') ||
                             linkLower.includes('/splash/') ||
+                            linkLower.includes('/receitas/') ||
+                            linkLower.includes('/vivabem/') ||
                             linkLower.includes('/reportagem/') ||
                             linkLower.includes('videos.uol.com.br')
                         );

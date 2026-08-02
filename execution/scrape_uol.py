@@ -68,6 +68,8 @@ def scrape_uol():
                         '/ecoa/' in link_lower or
                         '/tab/' in link_lower or
                         '/splash/' in link_lower or
+                        '/receitas/' in link_lower or
+                        '/vivabem/' in link_lower or
                         'redirect-flash' in link_lower or
                         '/reportagem/' in link_lower or
                         'videos.uol.com.br' in link_lower
