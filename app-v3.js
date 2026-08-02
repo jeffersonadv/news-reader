@@ -1640,14 +1640,22 @@ async function hybridNewsUpdate() {
                                 photoUrl = `https://thumb.mais.uol.com.br/${mediaId}-large.jpg`;
                             }
                             if (!photoUrl) {
-                                const photo = obj.photo || obj.image || obj.thumbnail;
+                                const photo = obj.photo || obj.image || obj.thumbnail || obj.thumbnails;
                                 if (typeof photo === 'string') photoUrl = photo;
                                 else if (photo && typeof photo === 'object') {
                                     const images = photo.images || [];
                                     if (images.length > 0 && typeof images[0] === 'object') {
                                         photoUrl = images[0].src || images[0].url || "";
                                     }
-                                    if (!photoUrl) photoUrl = photo.url || photo.src || "";
+                                    if (!photoUrl) photoUrl = photo.url || photo.src || photo.large || photo.medium || photo.small || "";
+                                }
+                            }
+                            if (!photoUrl) {
+                                for (const altKey of ['imageUrl', 'image_url', 'urlPhoto', 'url_photo', 'thumbUrl', 'thumb_url']) {
+                                    if (obj[altKey] && typeof obj[altKey] === 'string') {
+                                        photoUrl = obj[altKey];
+                                        break;
+                                    }
                                 }
                             }
                             if (!photoUrl) {

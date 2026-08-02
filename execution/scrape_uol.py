@@ -76,16 +76,24 @@ def scrape_uol():
                             photo_url = f"https://thumb.mais.uol.com.br/{media_id}-large.jpg"
                         
                         if not photo_url:
-                            photo = obj.get('photo') or obj.get('image') or obj.get('thumbnail')
+                            photo = obj.get('photo') or obj.get('image') or obj.get('thumbnail') or obj.get('thumbnails')
                             if isinstance(photo, str):
                                 photo_url = photo
                             elif isinstance(photo, dict):
+                                # Tenta extrair de coleções de imagens
                                 images = photo.get('images', [])
                                 if images and isinstance(images, list) and isinstance(images[0], dict):
                                     photo_url = images[0].get('src') or images[0].get('url') or ""
                                 if not photo_url:
-                                    photo_url = photo.get('url') or photo.get('src') or ""
+                                    photo_url = photo.get('url') or photo.get('src') or photo.get('large') or photo.get('medium') or photo.get('small') or ""
                                     
+                        if not photo_url:
+                            # Busca por chaves contendo imageUrl ou variações
+                            for alt_key in ['imageUrl', 'image_url', 'urlPhoto', 'url_photo', 'thumbUrl', 'thumb_url']:
+                                if obj.get(alt_key) and isinstance(obj[alt_key], str):
+                                    photo_url = obj[alt_key]
+                                    break
+
                         if not photo_url:
                             for k, v in obj.items():
                                 if any(x in k.lower() for x in ['img', 'image', 'photo', 'thumb', 'pic']):
