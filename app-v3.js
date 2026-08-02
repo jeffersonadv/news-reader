@@ -1629,10 +1629,14 @@ async function hybridNewsUpdate() {
                             linkLower.includes('/ao-vivo/') ||
                             linkLower.includes('/eleicoes/') ||
                             linkLower.includes('/politica/') ||
+                            linkLower.includes('/nossa/') ||
+                            linkLower.includes('/ecoa/') ||
+                            linkLower.includes('/tab/') ||
+                            linkLower.includes('/splash/') ||
                             linkLower.includes('/reportagem/') ||
                             linkLower.includes('videos.uol.com.br')
                         );
-                        if (isArticle && title.length > 20) {
+                        if (isArticle && title.length > 12) {
                             let photoUrl = "";
                             const mediaId = obj.mediaId;
                             if (mediaId && currentIsVideo) {

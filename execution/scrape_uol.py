@@ -64,12 +64,16 @@ def scrape_uol():
                         '/ao-vivo/' in link_lower or 
                         '/eleicoes/' in link_lower or
                         '/politica/' in link_lower or
+                        '/nossa/' in link_lower or
+                        '/ecoa/' in link_lower or
+                        '/tab/' in link_lower or
+                        '/splash/' in link_lower or
                         'redirect-flash' in link_lower or
                         '/reportagem/' in link_lower or
                         'videos.uol.com.br' in link_lower
                     )
                     
-                    if is_article and len(title) > 20 and not any(x in link_lower for x in ['/social/', '/playlist/', '/videos/index', '/email/']):
+                    if is_article and len(title) > 12 and not any(x in link_lower for x in ['/playlist/', '/videos/index', '/email/']):
                         photo_url = ""
                         media_id = obj.get('mediaId')
                         if media_id and current_is_video:
