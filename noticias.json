@@ -35,7 +35,7 @@
         "link": "https://noticias.uol.com.br/ao-vivo/2026/08/02/pt-convencao-lula-presidente.htm?c=card_1508657757_1785683115463"
       },
       {
-        "title": "Tebet alfineta Flávio: 'Tal pai, tal filho; uma vez golpista, sempre golpista'",
+        "title": "Tebet alfineta Flávio Bolsonaro: 'Tal pai, tal filho; uma vez golpista, sempre golpista'",
         "link": "https://noticias.uol.com.br/ao-vivo/2026/08/02/pt-convencao-lula-presidente.htm?c=card_1508657757_1785677546805"
       }
     ]
@@ -824,14 +824,19 @@
     "relateds": []
   },
   {
-    "title": "Opep acerta aumento na produção de petróleo a partir de setembro",
-    "link": "https://economia.uol.com.br/noticias/redacao/2026/08/02/opep-acerta-aumento-de-188-mil-bpd-na-producao-de-petroleo-em-setembro.ghtm",
-    "photo": "https://imguol.com/c/noticias/e7/2023/01/17/opep-pib-brasil-1673974469897_v2_450x337.jpg",
+    "title": "Assim como Lula ontem, Flávio Bolsonaro pediu votos antes do prazo legal",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/08/02/assim-como-lula-flavio-bolsonaro-pediu-votos-antes-do-prazo-legal.ghtm",
+    "photo": "https://imguol.com/c/noticias/35/2026/08/01/1ago2026---flavio-bolsonaro-com-o-governador-jorginho-mello-na-chegada-a-convencao-estadual-do-pl-em-sc-1785610420105_v2_450x337.jpg",
     "source": "UOL",
     "is_main": true,
     "is_carousel": false,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Mercadante rebate Flávio e diz que Lula investiu 80% mais em SP",
+        "link": "https://www1.folha.uol.com.br/colunas/painel/2026/08/mercadante-rebate-flavio-fala-em-omissao-do-governo-bolsonaro-e-diz-que-lula-investiu-80-mais-em-sp.shtml"
+      }
+    ]
   },
   {
     "title": "Incêndio em balsa na Indonésia deixa 5 mortos e 41 desaparecidos",
@@ -874,10 +879,10 @@
     "relateds": []
   },
   {
-    "title": "Voo dos EUA para Guarulhos pousa em Porto Rico por emergência médica",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/02/desvio-rota-voo-sao-paulo-ny.ghtm",
-    "photo": "https://imguol.com/c/noticias/20/2026/08/02/voo-da-delta-airlines-que-saiu-de-nova-york-para-sao-paulo-desviou-rota-no-meio-do-caminho-mostra-site-de-monitoramento-1785668202203_v2_300x225.jpg",
-    "source": "UOL",
+    "title": "Justiça Federal ordena ações urgentes para povo maxakali em MG, por colapso sanitário",
+    "link": "https://www1.folha.uol.com.br/cotidiano/2026/08/justica-federal-ordena-acoes-urgentes-para-povo-maxakali-em-minas-gerais-por-colapso-sanitario.shtml",
+    "photo": "https://imguol.com/c/home/b4/2026/08/02/criancas-dentro-da-terra-maxakali-no-vale-do-mucuri-em-minas-gerais-1785690346330_300x225.jpg",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
@@ -1184,19 +1189,24 @@
     "relateds": []
   },
   {
-    "title": "Assim como Lula, Flávio Bolsonaro pediu votos antes do prazo legal",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/08/02/assim-como-lula-flavio-bolsonaro-pediu-votos-antes-do-prazo-legal.ghtm",
-    "photo": "https://imguol.com/c/noticias/35/2026/08/01/1ago2026---flavio-bolsonaro-com-o-governador-jorginho-mello-na-chegada-a-convencao-estadual-do-pl-em-sc-1785610420105_v2_300x225.jpg",
+    "title": "Opep acerta aumento na produção de petróleo a partir de setembro",
+    "link": "https://economia.uol.com.br/noticias/redacao/2026/08/02/opep-acerta-aumento-de-188-mil-bpd-na-producao-de-petroleo-em-setembro.ghtm",
+    "photo": "https://imguol.com/c/noticias/e7/2023/01/17/opep-pib-brasil-1673974469897_v2_450x337.jpg",
+    "source": "UOL",
+    "is_main": true,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Voo dos EUA para Guarulhos pousa em Porto Rico por emergência médica",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/02/desvio-rota-voo-sao-paulo-ny.ghtm",
+    "photo": "https://imguol.com/c/noticias/20/2026/08/02/voo-da-delta-airlines-que-saiu-de-nova-york-para-sao-paulo-desviou-rota-no-meio-do-caminho-mostra-site-de-monitoramento-1785668202203_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": [
-      {
-        "title": "Mercadante rebate Flávio e diz que Lula investiu 80% mais em SP",
-        "link": "https://www1.folha.uol.com.br/colunas/painel/2026/08/mercadante-rebate-flavio-fala-em-omissao-do-governo-bolsonaro-e-diz-que-lula-investiu-80-mais-em-sp.shtml"
-      }
-    ]
+    "relateds": []
   },
   {
     "title": "Capital One diz que fechou contas da Trump Org após revisão antilavagem",
