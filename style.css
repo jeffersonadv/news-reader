@@ -650,7 +650,7 @@ body {
 }
 
 /* Botão de Atualização Manual no Topo */
-.update-trigger-btn {
+.update-trigger-btn, .refresh-local-btn {
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid var(--border-glass);
     color: var(--text-secondary);
@@ -665,7 +665,7 @@ body {
     transition: all var(--transition-speed) ease;
 }
 
-.update-trigger-btn:hover {
+.update-trigger-btn:hover, .refresh-local-btn:hover {
     color: var(--text-primary);
     background: rgba(255, 255, 255, 0.15);
     transform: scale(1.05);
