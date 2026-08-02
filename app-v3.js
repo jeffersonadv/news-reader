@@ -1577,13 +1577,50 @@ async function refreshNewsDirectly() {
     btnRefreshLocal.disabled = true;
 
     try {
-        console.log("Iniciando raspagem direta pelo navegador via AllOrigins...");
-        const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent('https://www.uol.com.br/')}&t=${Date.now()}`;
-        const res = await fetch(proxyUrl);
-        if (!res.ok) throw new Error("Erro de rede ao conectar ao proxy.");
-        
-        const resJson = await res.json();
-        const html = resJson.contents;
+        console.log("Iniciando raspagem direta pelo navegador...");
+        const targetUrl = 'https://www.uol.com.br/';
+        let html = '';
+        let fetchError = null;
+
+        // Lista de proxies CORS alternativos públicos
+        const proxies = [
+            // 1. AllOrigins (Padrão)
+            {
+                url: `https://api.allorigins.win/get?url=${encodeURIComponent(targetUrl)}&t=${Date.now()}`,
+                parser: (res) => res.json().then(data => data.contents)
+            },
+            // 2. Codetabs CORS Proxy
+            {
+                url: `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(targetUrl)}`,
+                parser: (res) => res.text()
+            },
+            // 3. Cors.bridged.cc / allorigins alternativo sem subdomínio api
+            {
+                url: `https://allorigins.win/get?url=${encodeURIComponent(targetUrl)}&t=${Date.now()}`,
+                parser: (res) => res.json().then(data => data.contents)
+            }
+        ];
+
+        for (const proxy of proxies) {
+            try {
+                console.log(`Tentando obter home do UOL via: ${proxy.url}`);
+                const res = await fetch(proxy.url);
+                if (res.ok) {
+                    html = await proxy.parser(res);
+                    if (html && html.includes('__INITIAL_STATE__')) {
+                        fetchError = null;
+                        break; // Sucesso!
+                    }
+                }
+            } catch (err) {
+                console.warn(`Falha ao obter dados pelo proxy: ${proxy.url}`, err);
+                fetchError = err;
+            }
+        }
+
+        if (fetchError || !html) {
+            throw new Error(fetchError ? fetchError.message : "Todos os proxies CORS falharam em retornar a página.");
+        }
 
         // Localiza a variável __INITIAL_STATE__
         const match = html.match(/__INITIAL_STATE__\s*=\s*(\{[\s\S]+?\});/);
