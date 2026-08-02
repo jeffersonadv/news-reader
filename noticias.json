@@ -19,6 +19,10 @@
     "is_video": false,
     "relateds": [
       {
+        "title": "Sakamoto: Lula salva evento de vexame ao chamar Janja para discursar no palco",
+        "link": "https://noticias.uol.com.br/colunas/leonardo-sakamoto/2026/08/02/lula-salva-evento-de-vexame-ao-chamar-janja-para-discursar-no-palco.htm"
+      },
+      {
         "title": "Alckmin reedita o hit 'Lula com chuchu'",
         "link": "https://noticias.uol.com.br/ao-vivo/2026/08/02/pt-convencao-lula-presidente.htm?c=card_1508657757_1785684298714"
       },
@@ -44,6 +48,16 @@
     "is_main": false,
     "is_carousel": true,
     "is_video": true,
+    "relateds": []
+  },
+  {
+    "title": "Quando uma menina precisou de remédio urgente, mandaram um caça entregar",
+    "link": "https://economia.uol.com.br/colunas/todos-a-bordo/2026/08/02/quando-essa-menina-precisou-de-remedio-urgente-mandaram-um-caca-entregar.htm",
+    "photo": "https://imguol.com/c/colunas/42/2026/07/31/piloto-jurgen-gundling-em-um-caca-lockheed-f-104-starfighter-o-mesmo-usado-para-a-missao-para-salvar-jessica-1785516175096_v2_450x253.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
     "relateds": []
   },
   {
@@ -123,6 +137,10 @@
       {
         "title": "Chefe da Fifa revelou plano de venda de ações a amigos na final da Copa, diz NYT",
         "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/02/nyt-infantino-revelou-plano-de-venda-de-acoes-a-amigos-na-final-da-copa.ghtm"
+      },
+      {
+        "title": "Infantino vive crise inédita na Fifa e vê clima de eleição antecipada na entidade",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/02/infantino-vive-crise-inedita-e-ve-clima-de-eleicao-antecipada-na-fifa.ghtm"
       }
     ]
   },
@@ -137,14 +155,23 @@
     "relateds": []
   },
   {
-    "title": "Palmeiras tem déficit de R$ 66 milhões e busca alívio com a Copa do Brasil",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/02/palmeiras-tem-deficit-de-r-66-milhoes-e-busca-alivio-na-copa-do-brasil.ghtm",
-    "photo": "https://imguol.com/c/esporte/96/2026/07/13/abel-ferreira-e-leila-pereira-durante-treinamento-do-palmeiras-na-academia-de-futebol-1783952823308_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
+    "title": "Adoecimento por bets afeta empresas com faltas e funcionários endividados",
+    "link": "https://www1.folha.uol.com.br/mercado/2026/08/adoecimento-por-bets-afeta-empresas-com-faltas-funcionarios-endividados-e-pedidos-de-adiantamento.shtml",
+    "photo": "https://imguol.com/c/noticias/47/2026/06/19/bets-casa-de-apostas-apostador-1781872228351_v2_300x225.jpg",
+    "source": "Folha",
+    "is_main": true,
     "is_carousel": false,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Demitir trabalhador por vício em bets traz custos a empresa e pode render ação na Justiça; entenda",
+        "link": "https://www1.folha.uol.com.br/mercado/2026/08/demitir-trabalhador-por-vicio-em-bets-traz-custos-a-empresa-e-pode-render-acao-na-justica-entenda.shtml"
+      },
+      {
+        "title": "Apostas online funcionam bem demais e isso é um problema, apontam economistas",
+        "link": "https://www1.folha.uol.com.br/mercado/2026/08/bets-funcionam-bem-demais-e-isso-e-um-problema-apontam-economistas.shtml"
+      }
+    ]
   },
   {
     "title": "Estatal do governo Lula abriga 'exército' eleitoral em contrato de R$ 35 mi",
@@ -197,29 +224,10 @@
     "relateds": []
   },
   {
-    "title": "Adoecimento por bets afeta empresas com faltas e funcionários endividados",
-    "link": "https://www1.folha.uol.com.br/mercado/2026/08/adoecimento-por-bets-afeta-empresas-com-faltas-funcionarios-endividados-e-pedidos-de-adiantamento.shtml",
-    "photo": "https://imguol.com/c/noticias/47/2026/06/19/bets-casa-de-apostas-apostador-1781872228351_v2_300x225.jpg",
-    "source": "Folha",
-    "is_main": true,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Demitir trabalhador por vício em bets traz custos a empresa e pode render ação na Justiça; entenda",
-        "link": "https://www1.folha.uol.com.br/mercado/2026/08/demitir-trabalhador-por-vicio-em-bets-traz-custos-a-empresa-e-pode-render-acao-na-justica-entenda.shtml"
-      },
-      {
-        "title": "Apostas online funcionam bem demais e isso é um problema, apontam economistas",
-        "link": "https://www1.folha.uol.com.br/mercado/2026/08/bets-funcionam-bem-demais-e-isso-e-um-problema-apontam-economistas.shtml"
-      }
-    ]
-  },
-  {
-    "title": "Contrabando do Paraguai rende lucro de até 500% ao crime organizado no Brasil",
-    "link": "https://www1.folha.uol.com.br/mercado/2026/08/contrabando-do-paraguai-rende-lucro-de-ate-500-ao-crime-organizado-no-brasil.shtml",
-    "photo": "https://imguol.com/c/home/26/2026/08/02/cigarros-paraguaios-apreendidos-aguardam-em-patio-da-receita-federal-em-foz-do-iguacu-o-envio-para-destruicao---1785668823017_v2_300x225.jpg",
-    "source": "Folha",
+    "title": "Palmeiras tem déficit de R$ 66 milhões e busca alívio com a Copa do Brasil",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/02/palmeiras-tem-deficit-de-r-66-milhoes-e-busca-alivio-na-copa-do-brasil.ghtm",
+    "photo": "https://imguol.com/c/esporte/96/2026/07/13/abel-ferreira-e-leila-pereira-durante-treinamento-do-palmeiras-na-academia-de-futebol-1783952823308_v2_300x225.jpg",
+    "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
@@ -230,6 +238,16 @@
     "link": "https://www.uol.com.br/nossa/colunas/vamos-de-vinho/2026/08/02/conheca-a-vinicola-chilena-que-se-recusa-a-seguir-o-caminho-facil.htm",
     "photo": "https://imguol.com/c/entretenimento/21/2026/07/27/enologo-canadense-derek-mossman-responsavel-pela-vinicola-garage-1785166171857_v2_300x225.jpg",
     "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Contrabando do Paraguai rende lucro de até 500% ao crime organizado no Brasil",
+    "link": "https://www1.folha.uol.com.br/mercado/2026/08/contrabando-do-paraguai-rende-lucro-de-ate-500-ao-crime-organizado-no-brasil.shtml",
+    "photo": "https://imguol.com/c/home/26/2026/08/02/cigarros-paraguaios-apreendidos-aguardam-em-patio-da-receita-federal-em-foz-do-iguacu-o-envio-para-destruicao---1785668823017_v2_300x225.jpg",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
@@ -276,6 +294,16 @@
     "relateds": []
   },
   {
+    "title": "Por que o direito ao descanso é o direito de sonhar com o amanhã?",
+    "link": "https://www.uol.com.br/vivabem/colunas/michelle-prazeres/2026/08/02/o-que-sera-o-futuro.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/42/2025/04/13/michelle-prazeres-autor-1744556207189_100x100.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Drica Moraes tem uma atuação incrível e impactante na peça 'Inter Alia'",
     "link": "https://www.uol.com.br/esporte/futebol/colunas/casagrande/2026/08/02/drica-moraes-tem-uma-atuacao-incrivel-e-impactante-na-peca-inter-alia.htm",
     "photo": "https://conteudo.imguol.com.br/c/home/e3/2022/07/18/walter-casagrande-junior-1658138987222_v2_100x100.jpg",
@@ -296,9 +324,9 @@
     "relateds": []
   },
   {
-    "title": "A pasteurização do negro",
-    "link": "https://www1.folha.uol.com.br/colunas/ana-cristina-rosa/2026/08/a-pasteurizacao-do-negro.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/a8/2021/02/15/ana-cristina-rosa-1613396987717_100x100.jpg",
+    "title": "Vestidas para instagramar",
+    "link": "https://www1.folha.uol.com.br/colunas/giovana-madalosso/2026/08/vestidas-para-instagramar.shtml",
+    "photo": "https://conteudo.imguol.com.br/c/home/02/2023/07/23/giovana-madalosso-colunista-da-folha-1690118890506_v2_100x100.jpg",
     "source": "Folha",
     "is_main": false,
     "is_carousel": true,
@@ -306,10 +334,10 @@
     "relateds": []
   },
   {
-    "title": "Em dia de Tarcísio, Flávio foi coadjuvante",
-    "link": "https://noticias.uol.com.br/ao-vivo/2026/08/01/republicanos-convencao-tarcisio-sao-paulo.htm?c=card_236845174_1785599490642",
-    "photo": "https://conteudo.imguol.com.br/c/home/a2/2025/11/20/alexandre-borges-1763663096379_100x100.png?1763663101104",
-    "source": "UOL",
+    "title": "A pasteurização do negro",
+    "link": "https://www1.folha.uol.com.br/colunas/ana-cristina-rosa/2026/08/a-pasteurizacao-do-negro.shtml",
+    "photo": "https://conteudo.imguol.com.br/c/home/a8/2021/02/15/ana-cristina-rosa-1613396987717_100x100.jpg",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
@@ -349,16 +377,6 @@
     "title": "O body expiatório da Xuxa",
     "link": "https://www1.folha.uol.com.br/colunas/becky-korich/2026/08/o-body-expiatorio-da-xuxa.shtml",
     "photo": "https://conteudo.imguol.com.br/c/home/16/2023/01/30/becky-s-korich-advogada-escritora-e-dramaturga---nova-colunista-de-cotidiano-1675079130917_v2_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Vestidas para instagramar",
-    "link": "https://www1.folha.uol.com.br/colunas/giovana-madalosso/2026/08/vestidas-para-instagramar.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/02/2023/07/23/giovana-madalosso-colunista-da-folha-1690118890506_v2_100x100.jpg",
     "source": "Folha",
     "is_main": false,
     "is_carousel": true,
@@ -486,16 +504,6 @@
     "relateds": []
   },
   {
-    "title": "Peugeot 2008 terá potência reduzida na linha 2027 para pagar menos imposto",
-    "link": "https://www.uol.com.br/carros/colunas/autos-segredos/2026/08/01/peugeot-2008-tera-potencia-reduzida-na-linha-2027-para-pagar-menos-imposto.htm",
-    "photo": "https://conteudo.imguol.com.br/c/home/1e/2022/12/08/marlos-ney-vidal-1670527421808_v2_100x100.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Fluminense joga melhor, mas para na defesa do Vasco",
     "link": "https://www.uol.com.br/esporte/colunas/pvc/2026/08/01/fluminense-joga-melhor-mas-para-na-defesa-do-vasco-em-empate-no-maracana.htm",
     "photo": "https://conteudo.imguol.com.br/c/home/40/2019/01/14/pvc-1547459239301_100x100.jpg",
@@ -516,6 +524,16 @@
     "relateds": []
   },
   {
+    "title": "Em dia de Tarcísio, Flávio foi coadjuvante",
+    "link": "https://noticias.uol.com.br/ao-vivo/2026/08/01/republicanos-convencao-tarcisio-sao-paulo.htm?c=card_236845174_1785599490642",
+    "photo": "https://conteudo.imguol.com.br/c/home/a2/2025/11/20/alexandre-borges-1763663096379_100x100.png?1763663101104",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Paula Fernandes posa de biquíni em Búzios e recebe elogios",
     "link": "https://www.uol.com.br/splash/noticias/2026/08/02/paula-fernandes-posa-de-biquini-em-buzios-e-recebe-elogios.ghtm",
     "photo": "https://imguol.com/c/entretenimento/1b/2026/08/02/paula-fernandes-posa-de-biquini-em-buzios-e-recebe-elogios-1785682684809_v2_300x225.png",
@@ -526,9 +544,9 @@
     "relateds": []
   },
   {
-    "title": "Virginia anuncia pausa nas redes sociais após filhas fazerem cirurgia",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/02/virginia-filhas-cirurgia.ghtm",
-    "photo": "https://imguol.com/c/splash/1b/2026/04/08/virginia-e-as-filhas-maria-alice-e-maria-flor-1775668832625_v2_300x225.jpg",
+    "title": "Ana Castela aposta em top 'cowgirl' e mostra abdômen definido",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/02/ana-castela-aposta-em-top-cowgirl-e-deixa-abdomen-definido-a-mostra.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/22/2026/08/02/ana-castela-aposta-em-top-cowgirl-e-deixa-abdomen-definido-a-mostra-1785686550573_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -536,9 +554,9 @@
     "relateds": []
   },
   {
-    "title": "Jônatas Faro faz aparição rara após sete anos longe da TV",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/02/jonatas-faro-reaparece-em-evento-no-rio-e-segue-longe-da-tv-desde-2019.ghtm",
-    "photo": "https://imguol.com/c/splash/9c/2026/08/02/jonatas-faro-fez-aparicao-rara-apos-sete-anos-longe-da-tv-1785672547880_v2_300x225.png",
+    "title": "Virginia anuncia pausa nas redes sociais após filhas fazerem cirurgia",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/02/virginia-filhas-cirurgia.ghtm",
+    "photo": "https://imguol.com/c/splash/1b/2026/04/08/virginia-e-as-filhas-maria-alice-e-maria-flor-1775668832625_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -566,9 +584,9 @@
     "relateds": []
   },
   {
-    "title": "Flamengo vai tratar de novos reforços só depois de resolver situação com Almada",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/02/flamengo-destravar-almada-antes-de-novas-negociacoes.ghtm",
-    "photo": "https://imguol.com/c/esporte/fa/2026/01/09/thiago-almada-durante-aquecimento-do-atletico-de-madri-antes-de-partida-contra-o-sevilla-1767991561141_v2_300x225.jpg",
+    "title": "OMS acusa marcas de ultraprocessados de barrar leis antiobesidade",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/02/oms-acusa-marcas-de-ultraprocessados-de-barrar-leis-contra-obesidade.ghtm",
+    "photo": "https://imguol.com/24/2024/05/25/tedros-adhanom-diretor-geral-da-oms-1716648081081_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -970,16 +988,6 @@
     "relateds": []
   },
   {
-    "title": "Por que o direito ao descanso é o direito de sonhar com o amanhã",
-    "link": "https://www.uol.com.br/vivabem/colunas/michelle-prazeres/2026/08/02/o-que-sera-o-futuro.htm",
-    "photo": "https://imguol.com/c/entretenimento/f3/2026/07/29/mulher-sonhando-acordada-1785346928045_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Como treinar a escuta para lidar melhor com opiniões diferentes",
     "link": "https://www.uol.com.br/vivabem/noticias/redacao/2026/08/02/como-treinar-a-escuta-para-lidar-melhor-com-opinioes-diferentes.htm",
     "photo": "https://imguol.com/c/entretenimento/ad/2021/03/30/criticar-discutir-discussao-1617139075415_v2_300x225.jpg",
@@ -1103,6 +1111,36 @@
     "title": "Segurança e privacidade",
     "link": "https://sobreuol.noticias.uol.com.br/normas-de-seguranca-e-privacidade.html",
     "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Peugeot 2008 terá potência reduzida na linha 2027 para pagar menos imposto",
+    "link": "https://www.uol.com.br/carros/colunas/autos-segredos/2026/08/01/peugeot-2008-tera-potencia-reduzida-na-linha-2027-para-pagar-menos-imposto.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/1e/2022/12/08/marlos-ney-vidal-1670527421808_v2_100x100.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Jônatas Faro faz aparição rara após sete anos longe da TV",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/02/jonatas-faro-reaparece-em-evento-no-rio-e-segue-longe-da-tv-desde-2019.ghtm",
+    "photo": "https://imguol.com/c/splash/9c/2026/08/02/jonatas-faro-fez-aparicao-rara-apos-sete-anos-longe-da-tv-1785672547880_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Flamengo vai tratar de novos reforços só depois de resolver situação com Almada",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/02/flamengo-destravar-almada-antes-de-novas-negociacoes.ghtm",
+    "photo": "https://imguol.com/c/esporte/fa/2026/01/09/thiago-almada-durante-aquecimento-do-atletico-de-madri-antes-de-partida-contra-o-sevilla-1767991561141_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
