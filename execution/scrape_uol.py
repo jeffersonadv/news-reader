@@ -73,6 +73,7 @@ def scrape_uol():
                         '/flash/' in link_lower or
                         '/f5/' in link_lower or
                         '/caras/' in link_lower or
+                        '/esporte/' in link_lower or
                         'redirect-flash' in link_lower or
                         '/reportagem/' in link_lower or
                         'videos.uol.com.br' in link_lower

@@ -1638,6 +1638,7 @@ async function hybridNewsUpdate() {
                             linkLower.includes('/flash/') ||
                             linkLower.includes('/f5/') ||
                             linkLower.includes('/caras/') ||
+                            linkLower.includes('/esporte/') ||
                             linkLower.includes('/reportagem/') ||
                             linkLower.includes('videos.uol.com.br')
                         );
