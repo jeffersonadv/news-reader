@@ -940,7 +940,7 @@ function createNewsCard(news, mode) {
         : '';
 
     const imgHtml = hasPhoto 
-        ? `<img src="${news.photo}" alt="Imagem da notícia" class="card-img" loading="lazy" referrerpolicy="no-referrer" onerror="if(this.src.startsWith('https://')){ this.src = this.src.replace('https://', 'http://'); } else { this.parentElement.classList.add('card-img-hidden'); }">`
+        ? `<img src="${news.photo}" alt="Imagem da notícia" class="card-img" loading="lazy" referrerpolicy="no-referrer" onerror="if(!this.src.includes('i0.wp.com')){ var cleanUrl = this.src.replace('https://','').replace('http://',''); this.src = 'https://i0.wp.com/' + cleanUrl; } else { this.parentElement.classList.add('card-img-hidden'); }">`
         : '';
 
     const imgWrapperHtml = hasPhoto
