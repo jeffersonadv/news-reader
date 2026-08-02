@@ -1628,6 +1628,8 @@ async function hybridNewsUpdate() {
                             linkLower.includes('/noticias/') ||
                             linkLower.includes('/colunas/') ||
                             linkLower.includes('/ao-vivo/') ||
+                            linkLower.includes('/eleicoes/') ||
+                            linkLower.includes('/politica/') ||
                             linkLower.includes('/reportagem/') ||
                             linkLower.includes('videos.uol.com.br')
                         );

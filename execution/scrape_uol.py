@@ -62,6 +62,8 @@ def scrape_uol():
                         '/noticias/' in link_lower or 
                         '/colunas/' in link_lower or 
                         '/ao-vivo/' in link_lower or 
+                        '/eleicoes/' in link_lower or
+                        '/politica/' in link_lower or
                         'redirect-flash' in link_lower or
                         '/reportagem/' in link_lower or
                         'videos.uol.com.br' in link_lower
