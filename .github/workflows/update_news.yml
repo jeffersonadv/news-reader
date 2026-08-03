@@ -32,5 +32,8 @@ jobs:
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git add noticias.json
         # Commit apenas se houver alterações
-        git diff-index --quiet HEAD || git commit -m "chore: atualiza feed de notícias [skip ci]"
-        git push
+        git diff-index --quiet HEAD || {
+          git commit -m "chore: atualiza feed de notícias [skip ci]"
+          git pull --rebase origin main
+          git push origin main
+        }
