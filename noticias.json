@@ -555,17 +555,17 @@
     "relateds": []
   },
   {
-    "title": "PVC: Nota do Flamengo sobre Palmeiras beneficiado põe Brasileirão em risco",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/03/pvc-raciocinio-e-leviano-ao-criticar-nota-do-flamengo-sobre-o-palmeiras.ghtm",
-    "photo": "https://imguol.com/c/esporte/e8/2025/12/08/bap-presidente-do-flamengo-1765239602672_v2_300x225.jpg",
+    "title": "'Melhor para todo mundo', Djokovic revela desejo por mudanças na pontuação do tênis",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/agencia/2026/08/03/djokovic-revela-desejo-por-mudancas-na-pontuacao-do-tenis-melhor-para-todo-mundo.htm",
+    "photo": "https://imguol.com/c/esporte/d2/2026/01/30/novak-djokovic-nas-semifinais-do-australian-open-de-2026-1769774264608_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": true,
+    "is_carousel": false,
     "is_video": false,
     "relateds": []
   },
   {
-    "title": "Republicanos diz a Flávio Bolsonaro que partido não quer aliança e ficará neutro",
+    "title": "Republicanos diz a Flávio Bolsonaro que partido não quer aliança",
     "link": "https://www1.folha.uol.com.br/poder/2026/08/flavio-bolsonaro-se-reune-com-republicanos-e-reforca-oferta-de-vaga-de-vice-mas-partido-ainda-resiste.shtml",
     "photo": "https://imguol.com/c/home/bb/2026/08/03/valdemar-costa-neto-e-flavio-bolsonaro-durante-convencao-do-pl-df-neste-domingo-2-1785807552562_v2_300x225.jpg",
     "source": "Folha",
@@ -580,14 +580,19 @@
     ]
   },
   {
-    "title": "PF pede abertura de 3º inquérito contra Lulinha, e Dino decidirá se abrirá investigação",
-    "link": "https://www1.folha.uol.com.br/poder/2026/08/pf-pede-ao-stf-abertura-de-3o-inquerito-contra-lulinha-sob-suspeita-de-trafico-de-influencia.shtml",
+    "title": "Trump afirma que EUA e Irã negociam, e alerta para 'última oportunidade'",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/08/03/trump-afirma-que-eua-e-ira-negociam-e-alerta-para-ultima-oportunidade.htm",
     "photo": "",
-    "source": "Folha",
+    "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Projétil desconhecido atinge navio em Hormuz, diz agência marítima",
+        "link": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/08/03/projetil-atinge-cargueiro-em-ormuz-diz-agencia-maritima-britanica.htm"
+      }
+    ]
   },
   {
     "title": "Procura pela primeira CNH salta 222% desde flexibilização das regras pelo governo Lula",
@@ -959,9 +964,9 @@
     "relateds": []
   },
   {
-    "title": "Projétil desconhecido atinge cargueiro em Hormuz, diz agência marítima",
-    "link": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/08/03/projetil-atinge-cargueiro-em-ormuz-diz-agencia-maritima-britanica.htm",
-    "photo": "https://imguol.com/c/noticias/ce/2026/08/03/03ago26---embarcacoes-no-estreito-de-hormuz-vistas-de-musandam-oma-1785805532155_v2_300x225.png",
+    "title": "'O termo canetas emagrecedoras não é recomendado', diz endocrinologista",
+    "link": "https://cultura.uol.com.br/noticias/74432_o-termo-canetas-emagrecedoras-nao-e-recomendado-diz-endocrinologista-bruno-halpern.html",
+    "photo": "https://imguol.com/c/parceiros/6c/2026/08/03/o-termo-canetas-emagrecedoras-nao-e-recomendado-diz-endocrinologista-bruno-halpern-1785808158115_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1696,6 +1701,36 @@
     "title": "Cloud Computing",
     "link": "https://www.uolhost.uol.com.br/uol-cloud-computing.html?utm_medium=uol.com.br&utm_source=interna&utm_campaign=rodapé_uol&utm_content=link_fixo&utm_term=cloud_computing",
     "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "PVC: Nota do Flamengo sobre Palmeiras beneficiado põe Brasileirão em risco",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/03/pvc-raciocinio-e-leviano-ao-criticar-nota-do-flamengo-sobre-o-palmeiras.ghtm",
+    "photo": "https://imguol.com/c/esporte/e8/2025/12/08/bap-presidente-do-flamengo-1765239602672_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "PF pede abertura de 3º inquérito contra Lulinha, e Dino decidirá se abrirá investigação",
+    "link": "https://www1.folha.uol.com.br/poder/2026/08/pf-pede-ao-stf-abertura-de-3o-inquerito-contra-lulinha-sob-suspeita-de-trafico-de-influencia.shtml",
+    "photo": "",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Projétil desconhecido atinge cargueiro em Hormuz, diz agência marítima",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/08/03/projetil-atinge-cargueiro-em-ormuz-diz-agencia-maritima-britanica.htm",
+    "photo": "https://imguol.com/c/noticias/ce/2026/08/03/03ago26---embarcacoes-no-estreito-de-hormuz-vistas-de-musandam-oma-1785805532155_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -5251,36 +5286,6 @@
     "link": "https://www1.folha.uol.com.br/ilustrada/2026/08/met-enfrenta-dilema-para-homenagear-o-controverso-estilista-john-galliano.shtml",
     "photo": "https://imguol.com/c/parceiros/cb/2024/12/11/john-galliano-deixa-direcao-criativa-da-maison-margiela-1733936138152_v2_300x225.png",
     "source": "Folha",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Opep acerta aumento na produção de petróleo a partir de setembro",
-    "link": "https://economia.uol.com.br/noticias/redacao/2026/08/02/opep-acerta-aumento-de-188-mil-bpd-na-producao-de-petroleo-em-setembro.ghtm",
-    "photo": "https://imguol.com/c/noticias/e7/2023/01/17/opep-pib-brasil-1673974469897_v2_450x337.jpg",
-    "source": "UOL",
-    "is_main": true,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Cientistas de EUA e Canadá têm mais estudos publicados nas principais revistas",
-    "link": "https://www1.folha.uol.com.br/ciencia/2026/08/cientistas-de-eua-e-canada-tem-mais-estudos-publicados-em-duas-das-principais-revistas-do-mundo.shtml",
-    "photo": "https://imguol.com/c/home/be/2026/08/02/pesquisador-em-laboratorio-em-xangai-grupos-liberados-por-cientistas-dos-eua-e-do-canada-tiveram-mais-sucesso-em-submissoes-do-que-grupos-com-lideres-da-china-1785671350327_300x225.jpg?1785671358163",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Podemos lança Geraldo Rufino como candidato ao Senado em SP colado em Tarcísio",
-    "link": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/08/02/podemos-lanca-candidato-ao-senado-em-sp-colado-em-tarcisio.htm",
-    "photo": "https://imguol.com/c/noticias/2014/10/17/empresario-geraldo-rufino-fundador-da-jr-diesel-desmanche-de-caminhoes-legalizado-em-osasco-sp-1413569696226_v2_300x225.jpg",
-    "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
