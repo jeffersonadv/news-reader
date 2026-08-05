@@ -333,12 +333,8 @@
         "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/04/justificativas-falsas-diz-brasil-sobre-eua-revogar-visto-de-embaixadora.ghtm"
       },
       {
-        "title": "João Paulo Charleaux: Diplomatas veem relação 'trincada' com os EUA e 'escalada em curso'",
-        "link": "https://noticias.uol.com.br/colunas/joao-paulo-charleaux/2026/08/04/diplomatas-veem-relacao-trincada-com-os-eua-e-escalada-em-curso.htm"
-      },
-      {
-        "title": "Diplomatas avaliam que decisão de revogar visto de embaixadora é anômala e gravíssima",
-        "link": "https://www1.folha.uol.com.br/mundo/2026/08/diplomatas-avaliam-que-decisao-de-revogar-visto-de-embaixadora-e-anomala-e-gravissima.shtml"
+        "title": "Saiba quem é a embaixadora brasileira que teve visto cancelado pelo governo Trump",
+        "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/04/quem-e-a-embaixadora-brasileira-que-teve-o-visto-cancelado-pelo-governo-trump.ghtm"
       }
     ]
   },
@@ -413,31 +409,6 @@
     "relateds": []
   },
   {
-    "title": "Neymar deixa banco, dá assistência, e Santos elimina Remo na Copa do Brasil",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/04/remo-x-santos-copa-do-brasil.ghtm",
-    "photo": "https://imguol.com/c/esporte/1c/2026/08/04/neymar-comemora-gol-de-rony-durante-remo-x-santos-pela-copa-do-brasil-1785896788123_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Incêndio em fábrica química em SP provoca fumaça 'ardida', explosões e evacuação",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/04/incendio-em-fabrica-quimica-provoca-fumaca-ardida-explosoes-e-evacuacao.htm",
-    "photo": "https://imguol.com/c/noticias/66/2026/08/04/incendio-em-itaquaquecetuba-1785888593251_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Incêndio de grandes proporções atinge indústria química em SP",
-        "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/04/incendio-de-grandes-proporcoes-atinge-industria-quimica-na-grande-sao-paulo.ghtm"
-      }
-    ]
-  },
-  {
     "title": "Itamaraty dispensa embaixador da Argentina no Brasil e rebaixa relação",
     "link": "https://www1.folha.uol.com.br/mundo/2026/08/itamaraty-rebaixa-relacao-com-argentina-apos-milei-renovar-ataques-a-lula.shtml",
     "photo": "",
@@ -453,7 +424,41 @@
     ]
   },
   {
-    "title": "Atlético-MG marca no fim, bate Juventude e vai às 4ªs da Copa do Brasil",
+    "title": "Neymar provoca Remo e presidente do clube rebate: 'Vagabundo'",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/05/neymar-provoca-remo-e-presidente-do-clube-rebate-apos-confusao-vagabundo.ghtm",
+    "photo": "https://imguol.com/c/esporte/1f/2026/08/05/neymar-celebra-vitoria-do-santos-sobre-o-remo-na-frente-de-adversarios-confusao-marcou-pos-jogo-1785902522208_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Santos elimina o Remo na Copa do Brasil",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/04/remo-x-santos-copa-do-brasil.ghtm"
+      },
+      {
+        "title": "Após classificação, Rony se diz emocionado por gol",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/05/apos-classificacao-do-santos-rony-se-diz-emocionado-por-gol-no-mangueirao.ghtm"
+      }
+    ]
+  },
+  {
+    "title": "Incêndio em fábrica química em SP provoca fumaça 'ardida', explosões e evacuação",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/04/incendio-em-fabrica-quimica-provoca-fumaca-ardida-explosoes-e-evacuacao.htm",
+    "photo": "https://imguol.com/c/noticias/66/2026/08/04/incendio-em-itaquaquecetuba-1785888593251_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Por que a fumaça do incêndio em indústria química de SP pode ser perigosa",
+        "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/04/fumaca-de-incendio-em-industria-quimica-pode-ser-toxica-veja-riscos.ghtm"
+      }
+    ]
+  },
+  {
+    "title": "Copa do Brasil: Atlético-MG bate Juventude e vai às quartas de final",
     "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/04/juventude-atletico-mg-copa-do-brasil-oitavas-de-final-como-foi.ghtm",
     "photo": "https://imguol.com/c/esporte/e6/2026/08/04/minda-comemora-gol-do-atletico-mg-sobre-o-juventude-em-duelo-da-copa-do-brasil-1785891273537_v2_300x225.jpg",
     "source": "UOL",
@@ -464,6 +469,10 @@
       {
         "title": "Veja a tabela do campeonato",
         "link": "https://www.uol.com.br/esporte/futebol/campeonatos/copa-do-brasil/#oitavas-de-final"
+      },
+      {
+        "title": "Yara Fantoni: Atlético-MG e o gol que venceu o relógio",
+        "link": "https://www.uol.com.br/esporte/colunas/yara-fantoni/2026/08/04/galo-o-gol-que-venceu-o-relogio.htm"
       }
     ]
   },
@@ -477,12 +486,12 @@
     "is_video": false,
     "relateds": [
       {
-        "title": "Rodízio é suspenso na quarta por causa da greve",
+        "title": "Rodízio é suspenso em SP",
         "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/04/rodizio-sp-agosto-2026.ghtm"
       },
       {
-        "title": "Passageiros encaram lentidão e plataformas cheias na volta para casa com greve",
-        "link": "https://www1.folha.uol.com.br/cotidiano/2026/08/passageiros-encaram-plataformas-cheias-e-lentidao-na-volta-para-casa-com-greve-na-cptm.shtml"
+        "title": "Tarcísio defende concessão da CPTM: 'Sistema ficou anos sem investimento'",
+        "link": "https://www.uol.com.br/flash/?c=be22dde36fd68f35774fadcb7bd59ecb20260805"
       }
     ]
   },
@@ -527,12 +536,12 @@
     "relateds": []
   },
   {
-    "title": "André Mendonça rejeita derrubar vídeo de Flávio que associa PT ao PCC e ao CV",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/08/04/mendonca-rejeita-derrubar-video-de-flavio-que-associa-pt-ao-pcc-e-ao-cv.ghtm",
-    "photo": "https://imguol.com/c/noticias/f8/2026/03/25/o-ministro-andre-mendonca-do-stf-1774481622448_v2_300x225.jpg",
+    "title": "Cossenza: Fonseca vai precisar usar bem a esquerda contra Tsitsipas em Montreal",
+    "link": "https://www.uol.com.br/flash/?c=b369b12bac2bb5137802a3cd1192ab320260805",
+    "photo": "https://imguol.com/c/parceiros/f9/2026/08/04/duelo-entre-fonseca-e-tsitsipas-acontecera-ao-meio-dia-desta-quarta-1785879254326_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": true,
+    "is_carousel": false,
     "is_video": false,
     "relateds": []
   },
@@ -566,17 +575,17 @@
     "relateds": []
   },
   {
-    "title": "Presidenciáveis atacam Lula após elo de assessor com amiga de investigada pela PF",
-    "link": "https://www1.folha.uol.com.br/poder/2026/08/presidenciaveis-atacam-lula-apos-elo-de-assessor-com-amiga-de-investigada-pela-pf.shtml",
-    "photo": "https://imguol.com/c/home/bc/2026/08/04/montagem-com-flavio-bolsonaro-ronaldo-caiado-romeu-zema-e-renan-santos-durante-sabatina-do-site-o-antagonista-e-da-g4-1785882992092_v2_300x225.jpg",
-    "source": "Folha",
+    "title": "CNJ afasta juíza Gabriela Hardt do cargo por dois anos por irregularidades na Lava Jato",
+    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/04/lava-jato-cnj-afasta-juiza-gabriela-hardt-do-cargo-por-dois-anos.ghtm",
+    "photo": "https://imguol.com/c/noticias/58/2021/12/08/substituta-de-moro-a-juiza-gabriela-hardt-condenou-lula-por-corrupcao-ativa-passiva-e-lavagem-de-dinheiro-no-caso-do-sitio-de-atibaia-1638960857025_v2_300x225.jpg",
+    "source": "UOL",
     "is_main": false,
-    "is_carousel": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": [
       {
-        "title": "Daniela Lima: Empréstimo de amiga de Lulinha deixa Lula com gosto de traição",
-        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/04/dani-lima-emprestimo-de-amiga-de-lulinha-deixa-lula-com-gosto-de-traicao.ghtm"
+        "title": "Conselho aprova fim de aposentadoria compulsória como pena máxima para juiz",
+        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/04/cnj-aposentadoria-compulsoria.ghtm"
       }
     ]
   },
@@ -601,19 +610,14 @@
     "relateds": []
   },
   {
-    "title": "CNJ afasta juíza Gabriela Hardt do cargo por dois anos por irregularidades na Lava Jato",
-    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/04/lava-jato-cnj-afasta-juiza-gabriela-hardt-do-cargo-por-dois-anos.ghtm",
-    "photo": "https://imguol.com/c/noticias/58/2021/12/08/substituta-de-moro-a-juiza-gabriela-hardt-condenou-lula-por-corrupcao-ativa-passiva-e-lavagem-de-dinheiro-no-caso-do-sitio-de-atibaia-1638960857025_v2_300x225.jpg",
+    "title": "Wagner Moura diz querer dialogar com a direita: 'Cansado de ser odiado'",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/05/wagner-moura-dialogar-direita.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/08/2026/08/04/wagner-moura-defendeu-pedir-justica-social-em-entrevista-para-pedro-bial-1785897644234_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": true,
+    "is_carousel": false,
     "is_video": false,
-    "relateds": [
-      {
-        "title": "Conselho aprova fim de aposentadoria compulsória como pena máxima para juiz",
-        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/04/cnj-aposentadoria-compulsoria.ghtm"
-      }
-    ]
+    "relateds": []
   },
   {
     "title": "Dona da Droga Raia reduz dívida em 28% e lucra R$ 432,7 milhões no trimestre",
@@ -879,6 +883,16 @@
     "relateds": []
   },
   {
+    "title": "Neymar deixa banco, dá assistência, e Santos elimina Remo na Copa do Brasil",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/04/remo-x-santos-copa-do-brasil.ghtm",
+    "photo": "https://imguol.com/c/esporte/1c/2026/08/04/neymar-comemora-gol-de-rony-durante-remo-x-santos-pela-copa-do-brasil-1785896788123_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Suspeito de induzir o suicídio de herdeira Sabine Boghici é preso no Rio",
     "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/04/policia-prende-suspeito-de-induzir-suicidio-de-herdeira-sabine-boghici.ghtm",
     "photo": "https://imguol.com/c/noticias/44/2023/09/15/sabine-boghici-1694784844868_v2_300x225.jpg",
@@ -949,12 +963,22 @@
     "relateds": []
   },
   {
-    "title": "Justiça nega recurso de homem exposto em 'chá revelação de traição' no Rio Grande do Sul",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/04/justica-nega-recurso-de-homem-exposto-em-cha-revelacao-de-traicao-no-rs.ghtm",
-    "photo": "https://imguol.com/c/home/ce/2026/03/06/natalia-transformou-o-cha-revelacao-do-bebe-do-casal-em-um-anuncio-publico-da-traicao-de-rafael-1772822954502_v2_300x225.jpg",
+    "title": "Justiça nega soltar PM preso por morte de estudante de medicina em SP",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/04/pm-reu-decisao-justica-sp-agosto-2026.ghtm",
+    "photo": "https://imguol.com/c/noticias/7a/2026/08/03/policial-militar-bruno-carvalho-do-prado-a-esq-um-dos-reus-pela-morte-do-estudante-de-medicina-marco-aurelio-cardenas-acosta-a-dir-1785789690022_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": true,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Frei Betto: 'Esquerda brasileira está igual à seleção depois da derrota para a Noruega'",
+    "link": "https://cultura.uol.com.br/noticias/74436_frei-betto-esquerda-brasileira-esta-igual-a-selecao-depois-da-derrrota-para-a-noruega.html",
+    "photo": "https://imguol.com/c/parceiros/de/2026/08/05/frei-betto-esquerda-brasileira-esta-igual-a-selecao-depois-da-derrrota-para-a-noruega-1785901453962_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
     "is_video": false,
     "relateds": []
   },
@@ -1728,6 +1752,41 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "André Mendonça rejeita derrubar vídeo de Flávio que associa PT ao PCC e ao CV",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/08/04/mendonca-rejeita-derrubar-video-de-flavio-que-associa-pt-ao-pcc-e-ao-cv.ghtm",
+    "photo": "https://imguol.com/c/noticias/f8/2026/03/25/o-ministro-andre-mendonca-do-stf-1774481622448_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Presidenciáveis atacam Lula após elo de assessor com amiga de investigada pela PF",
+    "link": "https://www1.folha.uol.com.br/poder/2026/08/presidenciaveis-atacam-lula-apos-elo-de-assessor-com-amiga-de-investigada-pela-pf.shtml",
+    "photo": "https://imguol.com/c/home/bc/2026/08/04/montagem-com-flavio-bolsonaro-ronaldo-caiado-romeu-zema-e-renan-santos-durante-sabatina-do-site-o-antagonista-e-da-g4-1785882992092_v2_300x225.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Daniela Lima: Empréstimo de amiga de Lulinha deixa Lula com gosto de traição",
+        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/04/dani-lima-emprestimo-de-amiga-de-lulinha-deixa-lula-com-gosto-de-traicao.ghtm"
+      }
+    ]
+  },
+  {
+    "title": "Justiça nega recurso de homem exposto em 'chá revelação de traição' no Rio Grande do Sul",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/04/justica-nega-recurso-de-homem-exposto-em-cha-revelacao-de-traicao-no-rs.ghtm",
+    "photo": "https://imguol.com/c/home/ce/2026/03/06/natalia-transformou-o-cha-revelacao-do-bebe-do-casal-em-um-anuncio-publico-da-traicao-de-rafael-1772822954502_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
@@ -5362,61 +5421,6 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Cataratas do Iguaçu vão fechar passarelas da Garganta do Diabo por 40 dias",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/03/cataratas-do-iguacu-vao-fechar-passarelas-da-garganta-do-diabo-por-40-dias.ghtm",
-    "photo": "https://imguol.com/c/noticias/3a/2026/08/03/o-parque-nacional-iguacu-anunciou-que-a-passarela-garganta-do-diabo-em-puerto-iguazu-do-lado-argentino-das-cataratas-do-iguacu-sera-fechada-temporariamente-1785767169933_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Família de holandês morto após barco virar relata falhas de segurança",
-        "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/03/sobreviventes-de-acidente-no-parque-nacional-do-iguacu-questionam-seguranca.ghtm"
-      }
-    ]
-  },
-  {
-    "title": "Corinthians: Memphis vem da Holanda para assinar, mas renovação ainda é incerta",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/03/memphis-viaja-para-assinar-mas-renovacao-com-corinthians-ainda-e-incerta.ghtm",
-    "photo": "https://imguol.com/c/esporte/db/2026/08/03/memphis-quer-renvovar-com-o-corinthians-1785790726433_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Ex-deputado Neno Razuk (PL) é preso na Bolívia depois de quase um mês foragido",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/03/ex-deputado-neno-razuk-e-preso-na-fronteira-com-a-bolivia.ghtm",
-    "photo": "https://imguol.com/c/noticias/68/2026/08/03/o-ex-deputado-neno-razuk-pl-1785776781455_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Sem vice, centrão ou foto com Michelle: os desafios para campanha de Flávio",
-    "link": "https://noticias.uol.com.br/colunas/leticia-casado/2026/08/03/campanha-flavio-bolsonaro.htm",
-    "photo": "https://conteudo.imguol.com.br/c/home/6c/2024/01/26/leticia-casado---autor-1706269688458_v2_100x100.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Porta-voz do feminismo, 'Malu Mulher' segue atual quase 50 anos depois",
-    "link": "https://f5.folha.uol.com.br/colunistas/thiagostivaletti/2026/08/porta-voz-do-feminismo-malu-mulher-segue-atual-quase-50-anos-depois.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/cb/2022/07/01/thiago-stivaletti---150-1656674412774_v2_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
     "is_video": false,
     "relateds": []
   }
