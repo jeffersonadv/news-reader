@@ -329,8 +329,16 @@
     "is_video": false,
     "relateds": [
       {
+        "title": "Diniz critica arbitragem, explica cruzamentos e vê Memphis perto de renovar",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/07/diniz-critica-arbitragem-explica-cruzamentos-e-ve-memphis-perto-de-renovar.ghtm"
+      },
+      {
         "title": "Assista aos gols de Corinthians 2 x 1 Inter",
         "link": "https://www.uol.com.br/flash/?c=b8ad5fa4664877ce71faf629bfd7e720260806"
+      },
+      {
+        "title": "Com comitiva e autógrafo, Memphis volta à Arena e vê jogo do Corinthians",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/06/com-comitiva-e-autografo-memphis-volta-a-arena-e-ve-jogo-do-corinthians.ghtm"
       },
       {
         "title": "Juca Kfouri: Inter segura a pressão e se classifica em Itaquera",
@@ -339,10 +347,6 @@
       {
         "title": "PVC: Inter se classifica defendendo-se da raça e da torcida do Corinthians",
         "link": "https://www.uol.com.br/esporte/colunas/pvc/2026/08/06/inter-se-classifica-defendendo-se-da-raca-e-da-torcida-do-corinthians.htm"
-      },
-      {
-        "title": "Veja os oito times classificados às quartas de final da Copa do Brasil",
-        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/06/copa-do-brasil-define-oito-classificados-para-as-quartas-de-final-veja.ghtm"
       }
     ]
   },
@@ -357,9 +361,9 @@
     "relateds": []
   },
   {
-    "title": "Gaspar vice de Flávio é admissão de derrota?",
-    "link": "https://noticias.uol.com.br/colunas/alexandre-borges/2026/08/06/gaspar-como-vice-e-admissao-de-derrota.htm",
-    "photo": "https://conteudo.imguol.com.br/c/home/a2/2025/11/20/alexandre-borges-1763663096379_100x100.png?1763663101104",
+    "title": "Diniz usa estratégia fraca, e Corinthians é eliminado",
+    "link": "https://www.uol.com.br/esporte/futebol/colunas/casagrande/2026/08/06/diniz-usa-estrategia-fraca-so-de-cruzamentos-e-corinthians-e-eliminado.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/e3/2022/07/18/walter-casagrande-junior-1658138987222_v2_100x100.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -397,16 +401,6 @@
     "relateds": []
   },
   {
-    "title": "Em virada incrível, Vitória atropela o Athletico e avança na Copa do Brasil",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/06/vitoria-atropela-athletico-vira-confronto-e-se-classifica-em-noite-heroica.ghtm",
-    "photo": "https://imguol.com/c/esporte/e7/2026/08/06/erick-do-vitoria-celebra-gol-marcado-sobre-o-athletico-pr-pela-copa-do-brasil-1786063188249_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Chegada de ciclone provoca tornado no RS; Inmet emite alerta vermelho",
     "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/06/primeiros-efeitos-do-ciclone-causam-granizo-no-sul-em-alerta-para-tornado.ghtm",
     "photo": "https://imguol.com/c/noticias/bf/2026/08/06/ciclone-em-pedro-osorio-no-rs-1786054350947_v2_300x225.jpg",
@@ -416,14 +410,43 @@
     "is_video": false,
     "relateds": [
       {
-        "title": "O que significa o alerta vermelho emitido para o RS",
-        "link": "https://noticias.uol.com.br/meio-ambiente/ultimas-noticias/redacao/2026/08/06/o-que-significa-o-alerta-vermelho-de-grande-risco-emitido-para-o-rio-grande-do-sul.ghtm"
+        "title": "Inmet emite alertas de vendaval para 11 estados; veja onde há risco",
+        "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/06/inmet-emite-alertas-de-vendaval-para-11-estados-veja-onde-ha-risco.ghtm"
+      },
+      {
+        "title": "Veja imagens do ciclone",
+        "link": "https://www.uol.com.br/flash/?c=27a4a9f9e22e7e46e137ab33acb1f8e420260806"
       },
       {
         "title": "RJ entra em Estágio 2",
         "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/06/rio-de-janeiro-entra-em-estagio-2-por-previsao-de-ventos-fortes.ghtm"
       }
     ]
+  },
+  {
+    "title": "Em virada incrível, Vitória atropela o Athletico e avança na Copa do Brasil",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/06/vitoria-atropela-athletico-vira-confronto-e-se-classifica-em-noite-heroica.ghtm",
+    "photo": "https://imguol.com/c/esporte/e7/2026/08/06/erick-do-vitoria-celebra-gol-marcado-sobre-o-athletico-pr-pela-copa-do-brasil-1786063188249_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Veja os oito times classificados às quartas de final da Copa do Brasil",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/06/copa-do-brasil-define-oito-classificados-para-as-quartas-de-final-veja.ghtm"
+      }
+    ]
+  },
+  {
+    "title": "Gaspar chega a Alagoas com festa, cita convite a vice e nega apoio a Lira",
+    "link": "https://noticias.uol.com.br/colunas/carlos-madeiro/2026/08/06/gaspar-chega-a-al-com-festa-cita-convite-a-vice-no-dia-e-nega-apoio-a-lira.htm",
+    "photo": "https://imguol.com/c/noticias/dd/2026/08/06/alfredo-e-carregado-por-apoiadores-na-chegada-a-maceio-um-dia-apos-ser-anunciado-vice-de-flavio-1786063442902_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "'Eram profissionais fazendo gambiarra', diz mãe de vítima de acidente da Voepass",
@@ -451,26 +474,7 @@
     ]
   },
   {
-    "title": "Letícia Casado: Campanha de Flávio diz que manterá vice apesar de polêmicas",
-    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/06/casado-campanha-de-flavio-bolsonaro-mantera-gaspar-como-vice-mesmo-com-polemicas.ghtm",
-    "photo": "https://imguol.com/c/noticias/ae/2026/08/06/6ago2026---o-secretario-geral-do-partido-liberal-pl-e-coordenador-da-campanha-presidencial-da-legenda-senador-rogerio-marinho-pl-rn-e-o-candidato-a-vice-presidente-da-republica-na-chapa-do-partido-1786042423397_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Vice de Flávio, Gaspar teve três projetos transformados em lei em quase quatro anos",
-        "link": "https://noticias.uol.com.br/eleicoes/2026/08/06/vice-de-flavio-gaspar-teve-3-projetos-transformados-em-lei.ghtm"
-      },
-      {
-        "title": "Flávio diz que indígena quer wi-fi: 'Não quer ser mais animal de zoológico'",
-        "link": "https://noticias.uol.com.br/eleicoes/2026/08/06/flavio-diz-que-indigena-quer-wi-fi-nao-quer-ser-mais-animal-de-zoologico.ghtm"
-      }
-    ]
-  },
-  {
-    "title": "Sergio Moro participa amanhã de sabatina do UOL e da Folha",
+    "title": "Sergio Moro participa nesta sexta de sabatina do UOL e da Folha",
     "link": "https://noticias.uol.com.br/eleicoes/2026/08/06/sergio-moro-participa-amanha-de-sabatina-do-uol-e-da-folha.ghtm",
     "photo": "",
     "source": "UOL",
@@ -600,6 +604,16 @@
     "relateds": []
   },
   {
+    "title": "A conversa fiada que candidatos contam à elite privilegiada por informação exclusiva",
+    "link": "https://www1.folha.uol.com.br/colunas/viniciustorres/2026/08/a-conversa-fiada-que-candidatos-contam-a-elite-privilegiada-por-informacao-exclusiva.shtml",
+    "photo": "https://conteudo.imguol.com.br/c/home/81/2023/01/10/vinicius-torres-freire-1673361669339_100x100.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Geraldão, você foi um dos maiores centroavantes da história do Corinthians",
     "link": "https://www.uol.com.br/esporte/futebol/colunas/casagrande/2026/08/06/geraldao-voce-foi-um-dos-maiores-centroavantes-da-historia-do-corinthians.htm",
     "photo": "https://conteudo.imguol.com.br/c/home/e3/2022/07/18/walter-casagrande-junior-1658138987222_v2_100x100.jpg",
@@ -610,9 +624,9 @@
     "relateds": []
   },
   {
-    "title": "Meta diz que IA também atacou e hackeou empresa: novo normal ou marketing?",
-    "link": "https://www.uol.com.br/tilt/colunas/iagora/2026/08/06/meta-diz-que-ia-tambem-atacou-e-hackeou-empresa-novo-normal-ou-marketing.htm",
-    "photo": "https://conteudo.imguol.com.br/55/2026/03/27/o-agente---header-1774623749833_100x100.png",
+    "title": "Mesmo quando o HIV parece 'zerado', ele aumenta o risco de demência",
+    "link": "https://www.uol.com.br/vivabem/colunas/lucia-helena/2026/08/06/mesmo-quando-o-hiv-parece-zerado-ele-aumenta-o-risco-de-demencia.htm",
+    "photo": "https://conteudo.imguol.com.br/08/2020/12/30/lucia-helena-150-2-1609336618677_100x100.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -624,6 +638,16 @@
     "link": "https://www1.folha.uol.com.br/colunas/tatibernardi/2026/08/altos-baixos-e-curvados.shtml",
     "photo": "https://conteudo.imguol.com.br/c/home/a3/2019/02/02/a-escritora-roteirista-e-blogueira-tati-bernardi-1549112624726_100x100.jpg",
     "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Meta diz que IA também atacou e hackeou empresa: novo normal ou marketing?",
+    "link": "https://www.uol.com.br/tilt/colunas/iagora/2026/08/06/meta-diz-que-ia-tambem-atacou-e-hackeou-empresa-novo-normal-ou-marketing.htm",
+    "photo": "https://conteudo.imguol.com.br/55/2026/03/27/o-agente---header-1774623749833_100x100.png",
+    "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
@@ -654,16 +678,6 @@
     "link": "https://www1.folha.uol.com.br/colunas/djamila-ribeiro/2026/08/assumir-o-leme-e-descobrir-destinos-que-dizem-estar-fora-de-nosso-alcance.shtml",
     "photo": "https://f.i.uol.com.br/fotografia/2024/02/23/170871471365d8ead9ad719_1708714713_3x2_md.jpg",
     "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Mesmo quando o HIV parece 'zerado', ele aumenta o risco de demência",
-    "link": "https://www.uol.com.br/vivabem/colunas/lucia-helena/2026/08/06/mesmo-quando-o-hiv-parece-zerado-ele-aumenta-o-risco-de-demencia.htm",
-    "photo": "https://conteudo.imguol.com.br/08/2020/12/30/lucia-helena-150-2-1609336618677_100x100.jpg",
-    "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
@@ -779,16 +793,6 @@
     "relateds": []
   },
   {
-    "title": "Auxílios e cotas para PCDs deveriam considerar grau de barreiras enfrentado",
-    "link": "https://www1.folha.uol.com.br/blogs/haja-vista/2026/08/auxilios-e-cotas-para-pcds-deveriam-considerar-grau-de-barreiras-enfrentado-por-cada-individuo.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/62/2021/05/31/filipe-oliveira-1622467014822_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Flávio parece determinado a perder mais votos de mulheres",
     "link": "https://noticias.uol.com.br/colunas/leonardo-sakamoto/2026/08/06/flavio-parece-determinado-a-perder-mais-votos-de-mulheres.htm",
     "photo": "https://conteudo.imguol.com.br/c/home/1e/2026/01/07/leonardo-sakamoto---colunista-1767818290321_v2_100x100.png",
@@ -839,6 +843,16 @@
     "relateds": []
   },
   {
+    "title": "Veja os oito times classificados às quartas de final da Copa do Brasil",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/06/copa-do-brasil-define-oito-classificados-para-as-quartas-de-final-veja.ghtm",
+    "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Gretchen defende Gagliasso em polêmica sobre fast food",
     "link": "https://www.uol.com.br/splash/noticias/2026/08/06/gretchen-diz-que-fechar-antes-da-hora-nao-justifica.ghtm",
     "photo": "https://imguol.com/c/home/67/2026/08/06/gretchen-relatou-possuir-uma-capacidade-de-cicatrizacao-acima-do-comum-e-sentidos-mais-agucados-apos-experiencia-com-ets-1786065935980_300x225.png",
@@ -859,16 +873,6 @@
     "relateds": []
   },
   {
-    "title": "Biancardi mostra dia com Neymar e filhas em iate de R$ 120 milhões",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/06/bruna-biancardi-passeio-iate-neymar-120-milhoes.ghtm",
-    "photo": "https://imguol.com/c/splash/fa/2026/08/06/bruna-biancardi-mostra-dia-com-neymar-e-filhas-em-iate-1786028057456_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Biancardi faz compras na 25 de Março para festa junina em agosto",
     "link": "https://www.uol.com.br/splash/noticias/2026/08/06/bruna-biancardi-faz-compras-na-25-de-marco-para-festa-junina-em-agosto.ghtm",
     "photo": "https://imguol.com/c/home/cc/2026/08/06/bruna-biancardi-faz-compras-na-25-de-marco-para-festa-junina-fora-de-epoca-1786066128646_300x225.jpg",
@@ -882,6 +886,16 @@
     "title": "Mariana Rios relata nova perda gestacional após gravidez natural",
     "link": "https://www.uol.com.br/splash/noticias/2026/08/06/mariana-rios-relata-perda-gestacional-apos-gravidez-natural.ghtm",
     "photo": "https://imguol.com/c/home/8e/2026/08/06/mariana-rios-1786066726487_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Filho de Rodriguinho, Gaab desabafa após críticas por perder 40 kg",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/06/gaab-rodriguinho-desabafo-perda-de-peso.ghtm",
+    "photo": "https://imguol.com/c/home/14/2026/08/06/o-cantor-gaab-perdeu-mais-de-20kg-e-reclamou-das-criticas-que-recebe-nas-redes-sociais-1786067791900_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -978,16 +992,16 @@
     "is_video": false,
     "relateds": [
       {
-        "title": "Allos tem lucro de R$ 341 mi no 2º tri, alta de 11,8%",
-        "link": "https://economia.uol.com.br/noticias/redacao/2026/08/06/allos-balanco-segundo-trimestre-2t26.ghtm"
+        "title": "Grendene vê lucro despencar 48,6% no 2º trimestre",
+        "link": "https://economia.uol.com.br/noticias/redacao/2026/08/06/grendene-lucra-r-953-milhoes-no-2tri-queda-de-486.ghtm"
       },
       {
-        "title": "Localiza lucra R$ 1 bilhão no 2º tri e rola R$ 7 bilhões em dívidas",
-        "link": "https://economia.uol.com.br/noticias/redacao/2026/08/06/localiza-balanco-segundo-trimestre-2t26.ghtm"
+        "title": "Renner lucra R$ 404 milhões no 2º trimestre, mas reduz projeção de receita",
+        "link": "https://economia.uol.com.br/noticias/redacao/2026/08/06/lojas-renner-balanco-segundo-trimestre-2t26.ghtm"
       },
       {
-        "title": "Farmacêutica Hypera lucra R$ 490 milhões no 2º tri",
-        "link": "https://economia.uol.com.br/noticias/redacao/2026/08/06/hypera-balanco-segundo-trimestre-2t26.ghtm"
+        "title": "Assaí vê lucro quase dobrar e atingir R$ 344 milhões no trimestre",
+        "link": "https://economia.uol.com.br/noticias/redacao/2026/08/06/assai-balanco-segundo-trimestre-2t26.ghtm"
       }
     ]
   },
@@ -1022,6 +1036,16 @@
     "relateds": []
   },
   {
+    "title": "Vinho: nova camisa 3 do Bragantino traz cor inédita e design clássico",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/06/vinho-e-sustentabilidade-o-novo-manto-do-bragantino-para-2026.ghtm",
+    "photo": "https://imguol.com/c/esporte/cb/2026/08/06/red-bull-bragantino-apresenta-sua-camisa-3-para-a-temporada-1786066426662_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Atlético-MG acerta com volante colombiano que jogou a Copa do Mundo",
     "link": "https://www.uol.com.br/esporte/colunas/mercado-da-bola/2026/08/06/atletico-mg-acerta-com-volante-colombiano-que-jogou-a-copa-do-mundo.htm",
     "photo": "https://imguol.com/c/esporte/23/2026/08/02/kevin-castano-durante-jogo-da-colombia-na-copa-do-mundo-2026-1785718915953_v2_300x300.jpg",
@@ -1035,16 +1059,6 @@
     "title": "'A ficha não caiu': quem é o brasileiro campeão mundial sub-20 de atletismo",
     "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/08/06/quem-e-alessandro-borges-campeao-mundial-sub-20-de-atletismo.ghtm",
     "photo": "https://imguol.com/c/esporte/bb/2026/08/06/alessandro-borges-campeao-mundial-sub-20-no-arremesso-de-peso-1786027675422_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Diretor conta plano da CBF para definir sede da final em jogo único da Copa do Brasil",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/06/copa-do-brasil-diretor-conta-plano-da-cbf-para-definir-sede-da-final-unica.ghtm",
-    "photo": "https://imguol.com/c/esporte/a9/2026/08/06/julio-avellar-diretor-de-competicoes-da-cbf-1786033779226_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -1092,19 +1106,19 @@
     "relateds": []
   },
   {
-    "title": "'Supergirl' deixa os cinemas como maior fracasso da DC em 16 anos",
-    "link": "https://f5.folha.uol.com.br/cinema-e-series/2026/08/supergirl-encerra-passagem-pelos-cinemas-como-maior-fracasso-da-dc-em-16-anos.shtml",
-    "photo": "https://imguol.com/c/splash/8e/2026/06/25/supergirl-1782415505278_v2_300x300.jpg",
-    "source": "Folha",
+    "title": "Davi Brito perde decisão sobre prêmio antes de casamento milionário",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/06/davi-brito-perde-decisao-sobre-premio-antes-de-casamento-milionario.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/03/2025/05/23/davi-brito-realizou-uma-lipo-hd-1748000168465_v2_300x300.jpg",
+    "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
   {
-    "title": "Carol Lekker volta ao Fofocalizando após dois dias e pede desculpas a Eliana no SBT",
-    "link": "https://f5.folha.uol.com.br/colunistas/outro-canal/2026/08/carol-lekker-volta-ao-fofocalizando-apos-dois-dias-e-pede-desculpas-a-eliana-no-sbt.shtml",
-    "photo": "https://imguol.com/c/parceiros/00/2026/08/06/carol-lekker-durante-o-fofocalizando-nesta-quinta-6-ela-ficou-dois-dias-afastada-do-programa-1786043114079_v2_300x300.jpg",
+    "title": "'Supergirl' deixa os cinemas como maior fracasso da DC em 16 anos",
+    "link": "https://f5.folha.uol.com.br/cinema-e-series/2026/08/supergirl-encerra-passagem-pelos-cinemas-como-maior-fracasso-da-dc-em-16-anos.shtml",
+    "photo": "https://imguol.com/c/splash/8e/2026/06/25/supergirl-1782415505278_v2_300x300.jpg",
     "source": "Folha",
     "is_main": false,
     "is_carousel": true,
@@ -1657,6 +1671,75 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Gaspar vice de Flávio é admissão de derrota?",
+    "link": "https://noticias.uol.com.br/colunas/alexandre-borges/2026/08/06/gaspar-como-vice-e-admissao-de-derrota.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/a2/2025/11/20/alexandre-borges-1763663096379_100x100.png?1763663101104",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Letícia Casado: Campanha de Flávio diz que manterá vice apesar de polêmicas",
+    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/06/casado-campanha-de-flavio-bolsonaro-mantera-gaspar-como-vice-mesmo-com-polemicas.ghtm",
+    "photo": "https://imguol.com/c/noticias/ae/2026/08/06/6ago2026---o-secretario-geral-do-partido-liberal-pl-e-coordenador-da-campanha-presidencial-da-legenda-senador-rogerio-marinho-pl-rn-e-o-candidato-a-vice-presidente-da-republica-na-chapa-do-partido-1786042423397_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Vice de Flávio, Gaspar teve três projetos transformados em lei em quase quatro anos",
+        "link": "https://noticias.uol.com.br/eleicoes/2026/08/06/vice-de-flavio-gaspar-teve-3-projetos-transformados-em-lei.ghtm"
+      },
+      {
+        "title": "Flávio diz que indígena quer wi-fi: 'Não quer ser mais animal de zoológico'",
+        "link": "https://noticias.uol.com.br/eleicoes/2026/08/06/flavio-diz-que-indigena-quer-wi-fi-nao-quer-ser-mais-animal-de-zoologico.ghtm"
+      }
+    ]
+  },
+  {
+    "title": "Auxílios e cotas para PCDs deveriam considerar grau de barreiras enfrentado",
+    "link": "https://www1.folha.uol.com.br/blogs/haja-vista/2026/08/auxilios-e-cotas-para-pcds-deveriam-considerar-grau-de-barreiras-enfrentado-por-cada-individuo.shtml",
+    "photo": "https://conteudo.imguol.com.br/c/home/62/2021/05/31/filipe-oliveira-1622467014822_100x100.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Biancardi mostra dia com Neymar e filhas em iate de R$ 120 milhões",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/06/bruna-biancardi-passeio-iate-neymar-120-milhoes.ghtm",
+    "photo": "https://imguol.com/c/splash/fa/2026/08/06/bruna-biancardi-mostra-dia-com-neymar-e-filhas-em-iate-1786028057456_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Diretor conta plano da CBF para definir sede da final em jogo único da Copa do Brasil",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/06/copa-do-brasil-diretor-conta-plano-da-cbf-para-definir-sede-da-final-unica.ghtm",
+    "photo": "https://imguol.com/c/esporte/a9/2026/08/06/julio-avellar-diretor-de-competicoes-da-cbf-1786033779226_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Carol Lekker volta ao Fofocalizando após dois dias e pede desculpas a Eliana no SBT",
+    "link": "https://f5.folha.uol.com.br/colunistas/outro-canal/2026/08/carol-lekker-volta-ao-fofocalizando-apos-dois-dias-e-pede-desculpas-a-eliana-no-sbt.shtml",
+    "photo": "https://imguol.com/c/parceiros/00/2026/08/06/carol-lekker-durante-o-fofocalizando-nesta-quinta-6-ela-ficou-dois-dias-afastada-do-programa-1786043114079_v2_300x300.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
@@ -5272,76 +5355,6 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Tiê conta bastidores do sucesso 'A Noite': 'Achei cafona, não queria fazer'",
-    "link": "https://www.uol.com.br/universa/noticias/redacao/2026/08/05/tie-no-desculpa-alguma-coisa.htm",
-    "photo": "https://imguol.com/c/entretenimento/25/2026/08/04/tie-no-programa-desculpa-alguma-coisa-1785871928936_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Cinema brasileiro gerou 90% do crescimento de público em 2024, segundo estudo",
-    "link": "https://www1.folha.uol.com.br/ilustrada/2026/08/cinema-brasileiro-gerou-90-do-crescimento-de-publico-em-2024-segundo-estudo.shtml",
-    "photo": "https://imguol.com/c/parceiros/04/2025/03/03/fernanda-torres-enalteceu-mikey-madison-alem-de-comparar-anora-com-ainda-estou-aqui-veja-1741051910076_v2_300x300.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Polícia tenta prender 98 membros do CV em ação contra roubo de veículos no Rio",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/05/policia-civil-faz-operacao-no-rio-contra-roubo-de-carros-ligado-ao-cv.ghtm",
-    "photo": "https://imguol.com/c/noticias/86/2026/08/05/5ago2026---blindado-deixa-cidade-da-policia-no-rio-para-operacao-contra-o-cv-1785937144605_v2_450x337.png",
-    "source": "UOL",
-    "is_main": true,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Ceuta alerta que situação dos menores migrantes é 'insustentável'",
-    "link": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/08/05/ceuta-alerta-que-situacao-dos-menores-migrantes-e-insustentavel.htm",
-    "photo": "https://imguol.com/c/noticias/5a/2026/07/31/jovem-marroquino-observa-embarcacao-da-guarda-civil-espanhola-em-ceuta-durante-travessia-em-massa-de-migrantes-1785548380160_v2_450x253.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Alliança Saúde pede recuperação extrajudicial para negociar R$ 1,1 bilhão",
-    "link": "https://economia.uol.com.br/noticias/redacao/2026/08/05/allianca-saude---recuperacao-judicial.ghtm",
-    "photo": "https://imguol.com/c/noticias/62/2016/02/17/plano-de-saude-despesas-medicas-estetoscopio-conta-do-hospital-1455739428538_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Ansiedade é a principal causa de incapacidade entre crianças de 5 a 9 anos, diz pesquisa",
-    "link": "https://www1.folha.uol.com.br/equilibrioesaude/2026/08/ansiedade-e-a-principal-causa-de-incapacidade-entre-criancas-brasileiras-de-5-a-9-anos.shtml",
-    "photo": "https://imguol.com/c/entretenimento/71/2024/04/02/saude-mental-infantil-ideacao-suicida-saude-mental-criancas-emocoes-ansiedade-depressao-1712068892633_v2_300x300.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Justiça de São Paulo aprova recuperação extrajudicial da Oncoclínicas",
-    "link": "https://economia.uol.com.br/noticias/redacao/2026/08/05/justica-de-sp-aprova-recuperacao-extrajudicial-da-oncoclinicas.ghtm",
-    "photo": "https://imguol.com/c/noticias/e9/2026/07/01/oncoclinicas-1782928625797_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
     "is_video": false,
     "relateds": []
   }
