@@ -320,19 +320,14 @@
     "relateds": []
   },
   {
-    "title": "Dono da Voepass disse à PF que sabia de omissão em panes",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/08/voepass-presidente-emprsario-omissao-aciente-depoimento-voo-2283.ghtm",
-    "photo": "https://imguol.com/c/noticias/b4/2024/08/09/jose-luiz-felicio-filho-presidente-ds-voepass-1723235304763_v2_300x225.png",
+    "title": "Grêmio e São Paulo se enfrentam pelo Brasileirão; siga",
+    "link": "https://placar.uol.com.br/esporte/futebol/brasileirao/2026/08/08/gremio-x-sao-paulo.htm",
+    "photo": "https://imguol.com/c/home/fa/2026/08/08/arena-do-gremio-1786212898619_450x600.jpg",
     "source": "UOL",
     "is_main": true,
-    "is_carousel": true,
+    "is_carousel": false,
     "is_video": false,
-    "relateds": [
-      {
-        "title": "Dois anos após queda de avião que matou 62 pessoas, mães e filhos vivem luto sem trégua",
-        "link": "https://www1.folha.uol.com.br/cotidiano/2026/08/dois-anos-apos-queda-de-aviao-da-voepass-maes-e-filhos-vivem-luto-sem-tregua.shtml"
-      }
-    ]
+    "relateds": []
   },
   {
     "title": "Sua muito até parado? Pode ser mais do que só calor ou nervoso",
@@ -342,6 +337,16 @@
     "is_main": false,
     "is_carousel": true,
     "is_video": true,
+    "relateds": []
+  },
+  {
+    "title": "Veto de Moraes sobre Dia dos Pais é descalibrado",
+    "link": "https://noticias.uol.com.br/colunas/walter-maierovitch/2026/08/08/flavio-visita-dia-dos-pais-decisao-moraes.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/1a/2021/09/28/walter-maierovitch-150-1632837806803_100x100.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
     "relateds": []
   },
   {
@@ -368,16 +373,6 @@
     "title": "Estamos eliminando os gerentes e futuros líderes",
     "link": "https://economia.uol.com.br/colunas/paulo-camargo/2026/08/08/a-ia-esta-acabando-com-os-chefes.htm",
     "photo": "https://conteudo.imguol.com.br/c/home/74/2025/10/10/paulo-camargo-1760123221734_v2_100x100.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Flávio não se ajuda e fez questão de cutucar a onça",
-    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/07/daniela-lima-flavio-nao-se-ajuda-e-coloca-dedo-na-ferida-ao-criticar-caciques.ghtm",
-    "photo": "https://conteudo.imguol.com.br/c/home/4a/2025/09/10/daniela-lima-1757545302507_100x100.jpg?1757545310353",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -413,10 +408,6 @@
     "is_video": false,
     "relateds": [
       {
-        "title": "Sakamoto: Vice de Flávio votou pelo fim da escala 6x1 que o senador tenta barrar",
-        "link": "https://noticias.uol.com.br/colunas/leonardo-sakamoto/2026/08/08/vice-de-flavio-votou-pelo-fim-da-6x1-que-o-senador-tenta-barrar.htm"
-      },
-      {
         "title": "Flávio concentrou emendas em segurança e deixou ciência e agricultura de fora",
         "link": "https://www1.folha.uol.com.br/poder/2026/08/flavio-bolsonaro-concentrou-emendas-em-seguranca-e-defesa-e-deixou-ciencia-e-agricultura-de-fora.shtml"
       }
@@ -438,7 +429,7 @@
     ]
   },
   {
-    "title": "Helicóptero cai em mata na zona norte do Rio; quatro mortes são confirmadas",
+    "title": "Helicóptero cai no Rio; quatro pessoas morrem",
     "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/08/helicoptero-cai-em-area-de-mata-na-zona-norte-do-rio.ghtm",
     "photo": "https://imguol.com/c/noticias/52/2026/08/08/equipes-fazem-busca-em-area-de-queda-de-helicoptero-na-vista-chinesa-rj-1786206367265_v2_300x225.jpg",
     "source": "UOL",
@@ -463,22 +454,27 @@
     ]
   },
   {
-    "title": "Heteropessimismo: elas têm medo de relações tóxicas; eles, de cancelamento",
-    "link": "https://tab.uol.com.br/noticias/redacao/2026/08/08/heteropessimismo-elas-tem-medo-de-relacoes-toxicas-eles-de-cancelamento.htm",
-    "photo": "https://imguol.com/c/entretenimento/de/2024/05/13/materna---relacionamentos-e-familia-1715614989235_v2_300x225.jpg",
+    "title": "Dono da Voepass disse à PF que sabia de omissão em panes",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/08/voepass-presidente-emprsario-omissao-aciente-depoimento-voo-2283.ghtm",
+    "photo": "https://imguol.com/c/noticias/b4/2024/08/09/jose-luiz-felicio-filho-presidente-ds-voepass-1723235304763_v2_300x225.png",
+    "source": "UOL",
+    "is_main": true,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Dois anos após queda de avião que matou 62 pessoas, mães e filhos vivem luto sem trégua",
+        "link": "https://www1.folha.uol.com.br/cotidiano/2026/08/dois-anos-apos-queda-de-aviao-da-voepass-maes-e-filhos-vivem-luto-sem-tregua.shtml"
+      }
+    ]
+  },
+  {
+    "title": "Irã pede indenização aos EUA e fim de guerra na Palestina para abrir o Estreito de Hormuz",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/08/ira-indenizacao-eua-guerra-palestina-ormuz.ghtm",
+    "photo": "https://imguol.com/c/noticias/87/2026/03/24/mohammad-baqer-zolqadr-foi-nomeado-como-sucessor-de-larinaji-no-comando-do-conselho-supremo-de-seguranca-nacional-do-ira-1774358179686_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Brasil à prova, e a prova do Brasil",
-    "link": "https://noticias.uol.com.br/colunas/a-hora/2026/08/08/brasil-a-prova-e-a-prova-do-brasil.htm",
-    "photo": "https://imguol.com/c/noticias/10/2026/05/12/escola-para-meninas-em-teera-tem-salas-de-aulas-permanentemente-vazias-com-a-eclosao-da-guerra-e-o-clima-de-inseguranca-na-capital-iraniana-as-aulas-passaram-a-ocorrer-em-formato-online-1778592193360_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
@@ -538,19 +534,14 @@
     ]
   },
   {
-    "title": "Um terço dos reconhecimentos de paternidade ocorre após a primeira infância",
-    "link": "https://www1.folha.uol.com.br/cotidiano/2026/08/um-terco-dos-reconhecimentos-de-paternidade-ocorre-apos-a-primeira-infancia.shtml",
-    "photo": "https://imguol.com/c/home/3a/2026/08/08/a-tecnica-em-enfermagem-evelin-da-silva-lemos-51-em-festa-do-aniversario-de-76-anos-de-seu-pai-o-pintor-salvador-tome-da-silva-1786207221728_v2_300x225.jpg",
-    "source": "Folha",
+    "title": "Heteropessimismo: elas têm medo de relações tóxicas; eles, de cancelamento",
+    "link": "https://tab.uol.com.br/noticias/redacao/2026/08/08/heteropessimismo-elas-tem-medo-de-relacoes-toxicas-eles-de-cancelamento.htm",
+    "photo": "https://imguol.com/c/entretenimento/de/2024/05/13/materna---relacionamentos-e-familia-1715614989235_v2_300x225.jpg",
+    "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": [
-      {
-        "title": "Paternidade ativa pode fazer parte de novo modelo de masculinidade, diz autora",
-        "link": "https://www1.folha.uol.com.br/equilibrio/2026/08/paternidade-ativa-pode-fazer-parte-de-novo-modelo-de-masculinidade-diz-autora-de-o-cerebro-do-pai.shtml"
-      }
-    ]
+    "relateds": []
   },
   {
     "title": "Vini ganha aumento de 35% no Real e vira o quinto jogador mais bem pago do mundo",
@@ -677,6 +668,16 @@
     "link": "https://f5.folha.uol.com.br/colunistas/outro-canal/2026/08/presidente-do-sbt-defende-ratinho-de-criticas-por-falas-homofobicas-ele-e-de-outro-tempo.shtml",
     "photo": "https://conteudo.imguol.com.br/28/2021/01/29/gabriel-vaquer-150-1611947425391_100x100.jpg",
     "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Brasil à prova, e a prova do Brasil",
+    "link": "https://noticias.uol.com.br/colunas/a-hora/2026/08/08/brasil-a-prova-e-a-prova-do-brasil.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/a0/2025/05/23/a-hora-1748033136793_v2_100x100.png?1748033143450",
+    "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
@@ -907,14 +908,19 @@
     "relateds": []
   },
   {
-    "title": "River Plate confirma contratação de Thiago Almada, que estava na mira do Flamengo",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/08/river-plate-confirma-contratacao-de-thiago-almada-alvo-do-flamengo.ghtm",
-    "photo": "https://imguol.com/c/esporte/92/2026/01/12/thiago-almada-meia-do-atletico-de-madri-1768259878144_v2_300x225.jpg",
-    "source": "UOL",
+    "title": "Um terço dos reconhecimentos de paternidade ocorre após a primeira infância",
+    "link": "https://www1.folha.uol.com.br/cotidiano/2026/08/um-terco-dos-reconhecimentos-de-paternidade-ocorre-apos-a-primeira-infancia.shtml",
+    "photo": "https://imguol.com/c/home/3a/2026/08/08/a-tecnica-em-enfermagem-evelin-da-silva-lemos-51-em-festa-do-aniversario-de-76-anos-de-seu-pai-o-pintor-salvador-tome-da-silva-1786207221728_v2_300x225.jpg",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Paternidade ativa pode fazer parte de novo modelo de masculinidade, diz autora",
+        "link": "https://www1.folha.uol.com.br/equilibrio/2026/08/paternidade-ativa-pode-fazer-parte-de-novo-modelo-de-masculinidade-diz-autora-de-o-cerebro-do-pai.shtml"
+      }
+    ]
   },
   {
     "title": "BYD Song Pro x GWM Haval H6: qual é a melhor opção entre SUVs híbridos flex",
@@ -943,6 +949,16 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Prefeitura de SP diz que quase 300 mil se vacinaram contra sarampo na 1ª semana",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/08/08/quase-300-mil-se-vacinaram-contra-o-sarampo-em-sp-na-1-semana-da-campanha-diz-prefeitura.htm",
+    "photo": "https://imguol.com/c/tab/dc/2026/08/07/fila-da-vacina-de-sarampo-na-ubs-santa-cecilia-1786118255008_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
     "is_video": false,
     "relateds": []
   },
@@ -1087,19 +1103,39 @@
     "relateds": []
   },
   {
-    "title": "Número de mortos em ataque a tiros em escola na Tailândia sobe para nove",
-    "link": "https://www1.folha.uol.com.br/mundo/2026/08/numero-de-mortos-em-tiroteio-em-escola-na-tailandia-sobe-para-9.shtml",
-    "photo": "https://imguol.com/c/home/ff/2026/08/08/familiares-buscam-informacoes-apos-tiroteio-em-uma-escola-no-distrito-de-bang-kruai-provincia-de-nonthaburi-ao-norte-de-bancoc-1786196384548_v2_450x337.jpg",
-    "source": "Folha",
+    "title": "EUA prometem ajuda de US$ 1 bilhão à Colômbia após posse de aliado de Trump",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/reuters/2026/08/08/eua-planejam-fornecer-us1-bi-em-assistencia-de-seguranca-ao-novo-governo-da-colombia.htm",
+    "photo": "https://imguol.com/c/noticias/fe/2026/08/07/novo-presidente-da-colombia-abelardo-de-la-espriella21-de-julho-de-2026reutersjuan-david-duque-1786140258575_v2_450x337.jpg",
+    "source": "UOL",
     "is_main": true,
     "is_carousel": false,
     "is_video": false,
     "relateds": []
   },
   {
+    "title": "Incêndios no Canadá: distrito declara emergência e envia ordem de evacuação",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/reuters/2026/08/08/distrito-da-columbia-britanica-declara-emergencia-e-emite-ordens-de-evacuacao-diante-de-incendios-florestais.htm",
+    "photo": "https://imguol.com/c/noticias/60/2026/08/08/fumaca-e-chamas-do-incendio-florestal-na-columbia-britanica-canada-1786214134441_v2_450x253.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Voluntário que resgatou corpos na guerra da Ucrânia morre durante missão",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/08/08/o-adeus-ao-voluntario-que-dedicou-sua-vida-a-recuperar-corpos-na-guerra-na-ucrania.htm",
+    "photo": "https://imguol.com/c/noticias/dd/2026/08/08/militares-ucranianos-carregam-o-caixao-de-oleksiy-yukov-chefe-da-unidade-de-busca-ucraniana-platsdarm-1786210814504_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Após crise em Ceuta, UE cobra da Meta e TikTok medidas contra desinformação",
     "link": "https://noticias.uol.com.br/ultimas-noticias/rfi/2026/08/08/apos-crise-migratoria-em-ceuta-ue-cobra-da-meta-e-do-tiktok-medidas-contra-desinformacao.htm",
-    "photo": "https://imguol.com/c/noticias/4e/2026/07/31/31jul26---soldados-espanhois-monitoram-retorno-de-migrantes-ao-marrocos-apos-estes-terem-atravessado-a-fronteira-para-entrar-em-ceuta-enclave-espanhol-no-norte-da-africa-1785529418209_v2_450x253.png",
+    "photo": "https://imguol.com/c/noticias/4e/2026/07/31/31jul26---soldados-espanhois-monitoram-retorno-de-migrantes-ao-marrocos-apos-estes-terem-atravessado-a-fronteira-para-entrar-em-ceuta-enclave-espanhol-no-norte-da-africa-1785529418209_v2_300x300.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -1110,26 +1146,6 @@
     "title": "Potências militares muçulmanas assinam pacto de defesa mútua, como a Otan",
     "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/08/tratato-auto-defesa-isla-arabia-saudita-paquistao-turquia-otan.ghtm",
     "photo": "https://imguol.com/c/noticias/ea/2026/08/08/da-esquerda-para-a-direita-o-presidente-turco-recep-tayyip-erdogan-o-principe-herdeiro-saudita-mohammed-bin-salman-e-o-primeiro-ministro-paquistanes-shehbaz-sharif-apos-a-assinatura-do-acordo-de-1786205036182_v2_300x300.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Morre porco clonado em projeto da USP para transplante de órgãos em humanos",
-    "link": "https://www1.folha.uol.com.br/ciencia/2026/08/morre-porco-clonado-em-projeto-da-usp-para-transplante-de-orgaos-em-humanos.shtml",
-    "photo": "https://imguol.com/c/home/e8/2026/08/08/no-ultimo-dia-28-pesquisadores-do-centro-de-ciencia-para-desenvolvimento-de-xenotransplantes-da-usp-realizaram-a-eutanasia-no-primeiro-porco-clonado-pelo-grupo-1786196638774_v2_300x300.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Irã diz estar perto de acordo com Omã sobre rota no Estreito de Ormuz",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/08/ira-diz-estar-perto-de-acordo-com-oma-sobre-rota-no-estreito-de-ormuz.ghtm",
-    "photo": "https://imguol.com/c/noticias/54/2026/07/30/o-ministro-das-relacoes-exteriores-do-ira-abbas-araqchi28-de-junho-de-2026reutersthaier-al-sudani-1785440656801_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -1157,11 +1173,11 @@
     "relateds": []
   },
   {
-    "title": "Indústria farmacêutica fatura R$ 3,9 bilhões no varejo no primeiro semestre do ano",
-    "link": "https://www1.folha.uol.com.br/colunas/painelsa/2026/08/industria-farmaceutica-fatura-r-39-bilhoes-no-varejo-no-primeiro-semestre.shtml",
-    "photo": "https://imguol.com/c/home/80/2026/08/08/assai-fama-dentro-de-atacarejo-da-empresa-em-sao-paulo-1786190747246_v2_300x225.jpg",
+    "title": "Dívida no consignado de servidores cai, enquanto a de trabalhadores privados sobe",
+    "link": "https://www1.folha.uol.com.br/mercado/2026/08/inadimplencia-no-consignado-de-servidores-cai-enquanto-a-de-trabalhadores-privados-sobe.shtml",
+    "photo": "https://imguol.com/c/noticias/64/2026/04/25/consumidores-aguardando-para-ser-atendidos-no-feirao-limpa-nome-da-serasa-1777129883359_v2_300x225.png",
     "source": "Folha",
-    "is_main": true,
+    "is_main": false,
     "is_carousel": false,
     "is_video": false,
     "relateds": []
@@ -1537,6 +1553,66 @@
     "photo": "",
     "source": "UOL",
     "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Flávio não se ajuda e fez questão de cutucar a onça",
+    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/07/daniela-lima-flavio-nao-se-ajuda-e-coloca-dedo-na-ferida-ao-criticar-caciques.ghtm",
+    "photo": "https://conteudo.imguol.com.br/c/home/4a/2025/09/10/daniela-lima-1757545302507_100x100.jpg?1757545310353",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "River Plate confirma contratação de Thiago Almada, que estava na mira do Flamengo",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/08/river-plate-confirma-contratacao-de-thiago-almada-alvo-do-flamengo.ghtm",
+    "photo": "https://imguol.com/c/esporte/92/2026/01/12/thiago-almada-meia-do-atletico-de-madri-1768259878144_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Número de mortos em ataque a tiros em escola na Tailândia sobe para nove",
+    "link": "https://www1.folha.uol.com.br/mundo/2026/08/numero-de-mortos-em-tiroteio-em-escola-na-tailandia-sobe-para-9.shtml",
+    "photo": "https://imguol.com/c/home/ff/2026/08/08/familiares-buscam-informacoes-apos-tiroteio-em-uma-escola-no-distrito-de-bang-kruai-provincia-de-nonthaburi-ao-norte-de-bancoc-1786196384548_v2_450x337.jpg",
+    "source": "Folha",
+    "is_main": true,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Morre porco clonado em projeto da USP para transplante de órgãos em humanos",
+    "link": "https://www1.folha.uol.com.br/ciencia/2026/08/morre-porco-clonado-em-projeto-da-usp-para-transplante-de-orgaos-em-humanos.shtml",
+    "photo": "https://imguol.com/c/home/e8/2026/08/08/no-ultimo-dia-28-pesquisadores-do-centro-de-ciencia-para-desenvolvimento-de-xenotransplantes-da-usp-realizaram-a-eutanasia-no-primeiro-porco-clonado-pelo-grupo-1786196638774_v2_300x300.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Irã diz estar perto de acordo com Omã sobre rota no Estreito de Ormuz",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/08/ira-diz-estar-perto-de-acordo-com-oma-sobre-rota-no-estreito-de-ormuz.ghtm",
+    "photo": "https://imguol.com/c/noticias/54/2026/07/30/o-ministro-das-relacoes-exteriores-do-ira-abbas-araqchi28-de-junho-de-2026reutersthaier-al-sudani-1785440656801_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Indústria farmacêutica fatura R$ 3,9 bilhões no varejo no primeiro semestre do ano",
+    "link": "https://www1.folha.uol.com.br/colunas/painelsa/2026/08/industria-farmaceutica-fatura-r-39-bilhoes-no-varejo-no-primeiro-semestre.shtml",
+    "photo": "https://imguol.com/c/home/80/2026/08/08/assai-fama-dentro-de-atacarejo-da-empresa-em-sao-paulo-1786190747246_v2_300x225.jpg",
+    "source": "Folha",
+    "is_main": true,
     "is_carousel": false,
     "is_video": false,
     "relateds": []
@@ -5179,95 +5255,6 @@
     "link": "https://www1.folha.uol.com.br/cotidiano/2026/08/eram-profissionais-fazendo-gambiarra-em-uma-aeronave-que-iria-matar-diz-mae-de-vitima-de-acidente-da-voepass.shtml",
     "photo": "https://imguol.com/c/home/29/2026/08/06/fatima-albuquerque-presidente-da-associacao-de-familiares-de-vitimas-de-acidente-com-aviao-da-voepass-em-frente-a-sede-da-policia-federal-em-sao-paulo-relatorio-indiciou-16-pessoas-1786061726124_v2_300x225.jpg",
     "source": "Folha",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Pai é preso suspeito de mandar matar filho por dívida de R$ 50 mil no interior de Goiás",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/06/pai-e-preso-suspeito-de-matar-filho-por-divida-de-r-50-mil-em-goias.ghtm",
-    "photo": "https://imguol.com/c/noticias/3f/2026/08/06/pai-e-preso-suspeito-de-mandar-matar-o-proprio-filho-por-divida-de-r-50-mil-em-trindade-1786044032954_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Ônibus bate contra muro e deixa seis pessoas feridas na zona norte de São Paulo",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/07/onibus-bate-contra-muro-zona-norte-de-sp.ghtm",
-    "photo": "https://imguol.com/c/noticias/43/2026/08/07/regiao-onde-ocorreu-o-acidente-7agosto2026-1786099166487_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Roubos a embarcações de empresas de combustíveis na região Norte caíram 34%",
-    "link": "https://www1.folha.uol.com.br/colunas/painelsa/2026/08/roubos-a-embarcacoes-de-empresas-de-combustiveis-na-regiao-norte-cairam-34-diz-instituto.shtml",
-    "photo": "https://imguol.com/c/home/8f/2026/08/07/navio-descarrega-combustivel-no-porto-de-santana-no-amapa-1786099552361_v2_300x225.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Gaspar chega a Alagoas com festa, cita convite a vice e nega apoio a Lira",
-    "link": "https://noticias.uol.com.br/colunas/carlos-madeiro/2026/08/06/gaspar-chega-a-al-com-festa-cita-convite-a-vice-no-dia-e-nega-apoio-a-lira.htm",
-    "photo": "https://imguol.com/c/noticias/dd/2026/08/06/alfredo-e-carregado-por-apoiadores-na-chegada-a-maceio-um-dia-apos-ser-anunciado-vice-de-flavio-1786063442902_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Maria da Penha vê misoginia online e grupos red pill como desafio para mulheres",
-    "link": "https://www1.folha.uol.com.br/cotidiano/2026/08/maria-da-penha-ve-misoginia-online-e-grupos-red-pill-como-desafio-na-protecao-das-mulheres.shtml",
-    "photo": "https://imguol.com/c/noticias/3c/2024/08/07/maria-da-penha-durante-evento-do-conselho-nacional-de-justica-1723056979128_v2_300x225.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Como feministas escreveram a primeira versão da lei",
-        "link": "https://www1.folha.uol.com.br/cotidiano/2026/08/nao-teve-mao-de-homem-como-feministas-escreveram-a-primeira-versao-da-lei-maria-da-penha.shtml"
-      },
-      {
-        "title": "Lei completa 20 anos",
-        "link": "https://www1.folha.uol.com.br/cotidiano/2026/08/lei-maria-da-penha-que-chega-a-20-anos-virou-marco-de-protecao-mas-tem-desafio-de-alcancar-mais-mulheres.shtml"
-      }
-    ]
-  },
-  {
-    "title": "Mega-Sena acumula, e prêmio sobe para R$ 165 milhões; veja as dezenas sorteadas",
-    "link": "https://noticias.uol.com.br/ultimas-noticias/redacao/2026/08/06/mega-sena-concurso-3041-sorteio-6-de-agosto.ghtm",
-    "photo": "https://imguol.com/c/noticias/20/2019/03/12/dinheiro-real-salario-minimo-notas-1552409212571_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Biancardi faz compras na 25 de Março para festa junina em agosto",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/06/bruna-biancardi-faz-compras-na-25-de-marco-para-festa-junina-em-agosto.ghtm",
-    "photo": "https://imguol.com/c/home/cc/2026/08/06/bruna-biancardi-faz-compras-na-25-de-marco-para-festa-junina-fora-de-epoca-1786066128646_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Por que a Anthropic busca profissionais para evitar o fim do mundo?",
-    "link": "https://www.uol.com.br/tilt/noticias/redacao/2026/08/07/por-que-a-anthropic-busca-profissionais-para-evitar-o-fim-do-mundo.ghtm",
-    "photo": "https://imguol.com/c/noticias/d3/2026/07/28/19fev2026---dario-amodei-ceo-da-anthropic-durante-evento-sobre-inteligencia-artificial-na-india-1785238932950_v2_300x300.jpg",
-    "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
