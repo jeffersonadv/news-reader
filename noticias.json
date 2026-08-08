@@ -390,7 +390,7 @@
     "photo": "https://imguol.com/c/noticias/85/2026/08/01/31jul2026---lula-em-convencao-do-pt-em-fortaleza-onde-foi-oficializada-a-campanha-de-reeleicao-do-governador-elmano-de-freitas-pelo-partido-1785605666421_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": [
       {
@@ -430,7 +430,12 @@
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Maierovitch: Decisão de Moraes é 'descalibrada'",
+        "link": "https://noticias.uol.com.br/colunas/walter-maierovitch/2026/08/08/flavio-visita-dia-dos-pais-decisao-moraes.htm"
+      }
+    ]
   },
   {
     "title": "Helicóptero cai em mata na zona norte do Rio; quatro mortes são confirmadas",
@@ -450,7 +455,12 @@
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Barcelona, Argentina, Real Madrid e outras entidades prestam homenagens",
+        "link": "https://www.uol.com.br/esporte/ultimas-noticias/agencia/2026/08/08/barcelona-argentina-real-madrid-e-outras-entidades-prestam-condolencias-a-pai-de-messi.htm"
+      }
+    ]
   },
   {
     "title": "Heteropessimismo: elas têm medo de relações tóxicas; eles, de cancelamento",
@@ -503,6 +513,16 @@
     "relateds": []
   },
   {
+    "title": "Brasil x EUA: assista ao amistoso da seleção feminina de rugby",
+    "link": "https://www.uol.com.br/esporte/ao-vivo/2026/08/08/brasil-x-eua-assista-ao-amistoso-da-selecao-feminina-de-rugby.htm",
+    "photo": "https://imguol.com/c/esporte/5f/2026/08/07/selecao-brasileira-feminina-de-rugbi-xv-encara-os-estados-unidos-falcons-1786139500098_v2_150x112.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Ciclone se distancia  da costa brasileira e está no Atlântico; veja imagens",
     "link": "https://www.uol.com.br/flash/?c=7f405147ba01788227404f9d317520260808",
     "photo": "https://imguol.com/c/noticias/6f/2026/08/08/o-ciclone-que-estava-no-brasil-entre-quinta-e-sexta-feira-aparece-no-atlantico-sul-as-10h50-deste-sabado-1786198251161_v2_300x225.png",
@@ -518,16 +538,6 @@
     ]
   },
   {
-    "title": "Vini ganha aumento de 35% no Real e vira o quinto jogador mais bem pago do mundo",
-    "link": "https://www.uol.com.br/esporte/futebol/colunas/rafael-reis/2026/08/08/vini-ganha-aumento-de-35-no-real-e-vira-5-jogador-mais-bem-pago-do-mundo.htm",
-    "photo": "https://imguol.com/c/esporte/58/2026/04/21/vini-jr-do-real-madrid-comemora-gol-contra-o-alaves-pelo-campeonato-espanhol-1776805373458_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Um terço dos reconhecimentos de paternidade ocorre após a primeira infância",
     "link": "https://www1.folha.uol.com.br/cotidiano/2026/08/um-terco-dos-reconhecimentos-de-paternidade-ocorre-apos-a-primeira-infancia.shtml",
     "photo": "https://imguol.com/c/home/3a/2026/08/08/a-tecnica-em-enfermagem-evelin-da-silva-lemos-51-em-festa-do-aniversario-de-76-anos-de-seu-pai-o-pintor-salvador-tome-da-silva-1786207221728_v2_300x225.jpg",
@@ -541,6 +551,16 @@
         "link": "https://www1.folha.uol.com.br/equilibrio/2026/08/paternidade-ativa-pode-fazer-parte-de-novo-modelo-de-masculinidade-diz-autora-de-o-cerebro-do-pai.shtml"
       }
     ]
+  },
+  {
+    "title": "Vini ganha aumento de 35% no Real e vira o quinto jogador mais bem pago do mundo",
+    "link": "https://www.uol.com.br/esporte/futebol/colunas/rafael-reis/2026/08/08/vini-ganha-aumento-de-35-no-real-e-vira-5-jogador-mais-bem-pago-do-mundo.htm",
+    "photo": "https://imguol.com/c/esporte/58/2026/04/21/vini-jr-do-real-madrid-comemora-gol-contra-o-alaves-pelo-campeonato-espanhol-1776805373458_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Filhos de Tarcísio viram sócios de empresário que opera créditos tributários",
@@ -563,10 +583,10 @@
     "relateds": []
   },
   {
-    "title": "Médico faz alerta sobre canetas emagrecedoras falsificadas: 'Organismo pode rejeitar'",
-    "link": "https://noticias.uol.com.br/ultimas-noticias/redacao/2026/08/08/organismo-pode-rejeitar-medico-faz-alerta-sobre-canetas-falsificadas.ghtm",
-    "photo": "https://imguol.com/c/noticias/3e/2026/08/05/paulo-gusmao-no-programa-alt-tabet-1785963748832_v2_300x225.jpg",
-    "source": "UOL",
+    "title": "Após concurso anulado, professor diz que cartas de ministros do STF não eram para pressionar",
+    "link": "https://www1.folha.uol.com.br/educacao/2026/08/cartas-de-ministros-do-stf-nao-buscavam-pressionar-diz-professor-apos-concurso-anulado-na-usp.shtml",
+    "photo": "https://imguol.com/c/home/51/2026/08/08/rafael-campos-soares-da-fonseca-a-dir-em-lancamento-de-livro-no-stj-ele-aparece-acompanhado-do-pai-reynaldo-soares-da-fonseca-a-esq-e-de-humberto-martins-centro-ministros-da-corte-1786211409021_v2_300x225.jpg",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
@@ -817,6 +837,26 @@
     "relateds": []
   },
   {
+    "title": "Cauã Reymond deixa repórter em saia justa ao perguntar sobre canudinho",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/08/caua-reymond-deixa-reporter-em-saia-justa-ao-perguntar-sobre-canudinho.ghtm",
+    "photo": "https://imguol.com/c/noticias/5d/2026/08/08/caua-e-dan-viana-protagonizaram-momento-divertido-na-tv-1786196285020_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Ana Castela responde no palco a recado enviado pelo ex",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/08/ana-castela-reage-a-beijo-de-ze-felipe-e-cita-goiano-no-palco.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/fb/2026/06/30/ana-castela-posa-de-top-preto-durante-treino-1782851532586_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Gisele Bündchen mostra momento fofo com filho caçula",
     "link": "https://www.uol.com.br/splash/noticias/2026/08/08/gisele-bundchen-mostra-momento-fofo-com-filho-cacula-que-presente.ghtm",
     "photo": "https://imguol.com/c/splash/19/2026/08/08/giselle-bundchen-e-o-filho-cacula-river-1786206898288_v2_300x225.jpg",
@@ -837,39 +877,19 @@
     "relateds": []
   },
   {
-    "title": "Britney Spears reclama de botox no olho esquerdo: 'Ficou ruim'",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/08/britney-spears-diz-que-botox-no-olho-esquerdo-ficou-muito-ruim.ghtm",
-    "photo": "https://imguol.com/c/home/07/2026/08/08/britney-spears-1786208140153_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Cauã Reymond deixa repórter em saia justa com pergunta",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/08/caua-reymond-deixa-reporter-em-saia-justa-ao-perguntar-sobre-canudinho.ghtm",
-    "photo": "https://imguol.com/c/noticias/5d/2026/08/08/caua-e-dan-viana-protagonizaram-momento-divertido-na-tv-1786196285020_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Ana Castela responde no palco a recado enviado pelo ex",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/08/ana-castela-reage-a-beijo-de-ze-felipe-e-cita-goiano-no-palco.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/fb/2026/06/30/ana-castela-posa-de-top-preto-durante-treino-1782851532586_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "De missionária a PRF: como estão os ex-membros do É o Tchan?",
     "link": "https://www.uol.com.br/splash/noticias/2026/08/08/por-onde-anda-ex-integrantes-de-e-o-tchan.ghtm",
     "photo": "https://imguol.com/c/entretenimento/12/2023/06/28/debora-brasil-deixou-o-axe-e-e-missionaria-1687981828047_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Rafa Justus presenteia irmã com boneca: 'Parece o Haaland'",
+    "link": "https://www.uol.com.br/flash/?c=29c1fcc9cc4288c6790458c8c3182b20260807",
+    "photo": "https://imguol.com/c/splash/8c/2026/08/07/rafa-justus-presenteou-a-irma-com-uma-boneca-realista-1786130661854_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -957,6 +977,16 @@
     "relateds": []
   },
   {
+    "title": "João Pedro marca dois e comanda vitória do Chelsea sobre o Milan em amistoso",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/agencia/2026/08/08/joao-pedro-marca-dois-e-comanda-vitoria-do-chelsea-sobre-o-milan.htm",
+    "photo": "https://imguol.com/c/esporte/43/2026/08/08/joao-pedro-marca-dois-em-amistoso-e-comanda-vitoria-do-chelsea-sobre-o-milan-1786206466505_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Arenas de Deodoro da Rio-2016 ficam fechadas com impasse entre ministério e Exército",
     "link": "https://www1.folha.uol.com.br/esporte/2026/08/arenas-de-deodoro-da-rio-2016-ficam-fechadas-com-impasse-entre-ministerio-do-esporte-e-exercito.shtml",
     "photo": "https://imguol.com/c/home/75/2026/08/08/vista-aerea-da-arena-cel-wenceslau-malta-antiga-arena-da-juventude-utilizada-na-rio-2016-nas-competicoes-de-basquete-feminino-esgrima-e-pentatlo-moderno-1786208461032_v2_300x300.jpg",
@@ -967,29 +997,9 @@
     "relateds": []
   },
   {
-    "title": "Santos marca reunião extraordinária para presidente explicar crise financeira",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/08/conselho-do-santos-agenda-reuniao-para-presidente-explicar-crise-financeira.ghtm",
-    "photo": "https://imguol.com/c/esporte/ec/2024/11/26/marcelo-teixeira-presidente-do-santos-1732661662699_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Pura elegância: veja os uniformes dos clubes italianos para a temporada 26/27",
-    "link": "https://www.uol.com.br/flash/?c=2c74248aa23c716af9a8c480a68b92ed20260808",
-    "photo": "https://imguol.com/c/esporte/b2/2026/08/05/jogadores-de-milan-x-inter-de-milao-em-amistoso-internacional-1785935999493_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "João Pedro marca dois e comanda vitória do Chelsea sobre o Milan em amistoso",
-    "link": "https://www.uol.com.br/esporte/ultimas-noticias/agencia/2026/08/08/joao-pedro-marca-dois-e-comanda-vitoria-do-chelsea-sobre-o-milan.htm",
-    "photo": "https://imguol.com/c/esporte/43/2026/08/08/joao-pedro-marca-dois-em-amistoso-e-comanda-vitoria-do-chelsea-sobre-o-milan-1786206466505_v2_300x225.jpg",
+    "title": "Arsenal anuncia contratação de Bruno Guimarães por 75 milhões de libras",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/reuters/2026/08/08/arsenal-contrata-brasileiro-bruno-guimaraes-do-newcastle.htm",
+    "photo": "https://imguol.com/c/esporte/5d/2026/08/08/arteta-e-bruno-guimaraes-no-anuncio-do-brasileiro-pelo-arsenal-1786212841351_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -997,11 +1007,11 @@
     "relateds": []
   },
   {
-    "title": "Nova diretoria não muda planejamento e mantém plano por reforços no São Paulo",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/08/nova-diretoria-nao-muda-receita-e-mantem-plano-por-reforcos-no-sao-paulo.ghtm",
-    "photo": "https://imguol.com/c/esporte/38/2026/06/28/rafinha-durante-apresentacao-como-gerente-esportivo-do-sao-paulo-no-ct-da-barra-funda-1782679620267_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": true,
+    "title": "Pressão pela renúncia de Infantino da Fifa surge em meio a onda de apoio",
+    "link": "https://www1.folha.uol.com.br/esporte/2026/08/pressao-pela-renuncia-de-infantino-surge-em-meio-a-onda-de-apoio.shtml",
+    "photo": "https://imguol.com/c/noticias/e8/2026/08/07/presidente-da-fifa-gianni-infantino-discursa-durante-congresso-da-uefa-em-bruxelas12-de-fevereiro-de-2026-reutersbenoit-tessier-1786104258940_v2_300x225.jpg",
+    "source": "Folha",
+    "is_main": false,
     "is_carousel": false,
     "is_video": false,
     "relateds": []
@@ -1087,10 +1097,20 @@
     "relateds": []
   },
   {
-    "title": "Para combater invasão de algas, Caribe aposta em barcos e biocombustível",
-    "link": "https://www1.folha.uol.com.br/ambiente/2026/08/para-combater-invasao-de-algas-caribe-aposta-em-barcos-barreiras-e-biocombustivel.shtml",
-    "photo": "https://imguol.com/c/home/8b/2026/08/08/funcionarios-municipais-recolhem-sargaco-de-uma-praia-na-zona-hoteleira-de-tulum-no-mexico-1786190085252_v2_450x253.jpg",
-    "source": "Folha",
+    "title": "Após crise em Ceuta, UE cobra da Meta e TikTok medidas contra desinformação",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/rfi/2026/08/08/apos-crise-migratoria-em-ceuta-ue-cobra-da-meta-e-do-tiktok-medidas-contra-desinformacao.htm",
+    "photo": "https://imguol.com/c/noticias/4e/2026/07/31/31jul26---soldados-espanhois-monitoram-retorno-de-migrantes-ao-marrocos-apos-estes-terem-atravessado-a-fronteira-para-entrar-em-ceuta-enclave-espanhol-no-norte-da-africa-1785529418209_v2_450x253.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Potências militares muçulmanas assinam pacto de defesa mútua, como a Otan",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/08/tratato-auto-defesa-isla-arabia-saudita-paquistao-turquia-otan.ghtm",
+    "photo": "https://imguol.com/c/noticias/ea/2026/08/08/da-esquerda-para-a-direita-o-presidente-turco-recep-tayyip-erdogan-o-principe-herdeiro-saudita-mohammed-bin-salman-e-o-primeiro-ministro-paquistanes-shehbaz-sharif-apos-a-assinatura-do-acordo-de-1786205036182_v2_300x300.png",
+    "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
@@ -1101,16 +1121,6 @@
     "link": "https://www1.folha.uol.com.br/ciencia/2026/08/morre-porco-clonado-em-projeto-da-usp-para-transplante-de-orgaos-em-humanos.shtml",
     "photo": "https://imguol.com/c/home/e8/2026/08/08/no-ultimo-dia-28-pesquisadores-do-centro-de-ciencia-para-desenvolvimento-de-xenotransplantes-da-usp-realizaram-a-eutanasia-no-primeiro-porco-clonado-pelo-grupo-1786196638774_v2_300x300.jpg",
     "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Tufão Dolphin atinge Japão, deixa feridos e faz China fechar portos",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/08/tufao-dolphin-atinge-japao-deixa-feridos-e-faz-china-fechar-portos.ghtm",
-    "photo": "https://imguol.com/c/noticias/eb/2026/08/08/7ago2026---carro-atravessa-ventos-fortes-e-chuva-enquanto-o-tufao-dolphin-se-aproxima-em-nazeasahicho-amami-kagoshima-japao-1786180480913_v2_300x300.jpg",
-    "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
@@ -1130,16 +1140,6 @@
     "title": "Homem é preso após tentar agredir passageiros durante voo para Las Vegas (EUA)",
     "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/08/passageiro-tenta-agredir-viajantes-antes-de-voo-para-las-vegas.ghtm",
     "photo": "https://imguol.com/c/noticias/bc/2026/08/08/passageiro-foi-contido-pela-tripulacao-durante-o-voo-1786194061057_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Filho de Biden diz que câncer do pai se espalhou mais: 'Muito doloroso'",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/08/hunter-e-jill-biden-relatam-avanco-do-cancer-de-joe-biden.ghtm",
-    "photo": "https://imguol.com/c/noticias/2d/2024/09/24/joe-biden-em-discurso-da-assembleia-geral-da-onu-1727190406184_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1525,6 +1525,86 @@
     "title": "Cloud Computing",
     "link": "https://www.uolhost.uol.com.br/uol-cloud-computing.html?utm_medium=uol.com.br&utm_source=interna&utm_campaign=rodapé_uol&utm_content=link_fixo&utm_term=cloud_computing",
     "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Médico faz alerta sobre canetas emagrecedoras falsificadas: 'Organismo pode rejeitar'",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/redacao/2026/08/08/organismo-pode-rejeitar-medico-faz-alerta-sobre-canetas-falsificadas.ghtm",
+    "photo": "https://imguol.com/c/noticias/3e/2026/08/05/paulo-gusmao-no-programa-alt-tabet-1785963748832_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Britney Spears reclama de botox no olho esquerdo: 'Ficou ruim'",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/08/britney-spears-diz-que-botox-no-olho-esquerdo-ficou-muito-ruim.ghtm",
+    "photo": "https://imguol.com/c/home/07/2026/08/08/britney-spears-1786208140153_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Santos marca reunião extraordinária para presidente explicar crise financeira",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/08/conselho-do-santos-agenda-reuniao-para-presidente-explicar-crise-financeira.ghtm",
+    "photo": "https://imguol.com/c/esporte/ec/2024/11/26/marcelo-teixeira-presidente-do-santos-1732661662699_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Pura elegância: veja os uniformes dos clubes italianos para a temporada 26/27",
+    "link": "https://www.uol.com.br/flash/?c=2c74248aa23c716af9a8c480a68b92ed20260808",
+    "photo": "https://imguol.com/c/esporte/b2/2026/08/05/jogadores-de-milan-x-inter-de-milao-em-amistoso-internacional-1785935999493_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Nova diretoria não muda planejamento e mantém plano por reforços no São Paulo",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/08/nova-diretoria-nao-muda-receita-e-mantem-plano-por-reforcos-no-sao-paulo.ghtm",
+    "photo": "https://imguol.com/c/esporte/38/2026/06/28/rafinha-durante-apresentacao-como-gerente-esportivo-do-sao-paulo-no-ct-da-barra-funda-1782679620267_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": true,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Para combater invasão de algas, Caribe aposta em barcos e biocombustível",
+    "link": "https://www1.folha.uol.com.br/ambiente/2026/08/para-combater-invasao-de-algas-caribe-aposta-em-barcos-barreiras-e-biocombustivel.shtml",
+    "photo": "https://imguol.com/c/home/8b/2026/08/08/funcionarios-municipais-recolhem-sargaco-de-uma-praia-na-zona-hoteleira-de-tulum-no-mexico-1786190085252_v2_450x253.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Tufão Dolphin atinge Japão, deixa feridos e faz China fechar portos",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/08/tufao-dolphin-atinge-japao-deixa-feridos-e-faz-china-fechar-portos.ghtm",
+    "photo": "https://imguol.com/c/noticias/eb/2026/08/08/7ago2026---carro-atravessa-ventos-fortes-e-chuva-enquanto-o-tufao-dolphin-se-aproxima-em-nazeasahicho-amami-kagoshima-japao-1786180480913_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Filho de Biden diz que câncer do pai se espalhou mais: 'Muito doloroso'",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/08/hunter-e-jill-biden-relatam-avanco-do-cancer-de-joe-biden.ghtm",
+    "photo": "https://imguol.com/c/noticias/2d/2024/09/24/joe-biden-em-discurso-da-assembleia-geral-da-onu-1727190406184_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -5189,76 +5269,6 @@
     "photo": "https://imguol.com/c/entretenimento/e2/2026/08/06/bruno-gagliasso-em-corrida-dos-bichos-1786035641358_v2_450x337.jpg",
     "source": "UOL",
     "is_main": true,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Luana Flores lança disco que imagina Nordeste futurista sem sair de seu território",
-    "link": "https://www1.folha.uol.com.br/ilustrada/2026/08/luana-flores-lanca-disco-que-imagina-nordeste-futurista-sem-sair-de-seu-territorio.shtml",
-    "photo": "https://imguol.com/c/home/50/2026/08/07/a-artista-luana-flores-1786098053003_v2_300x225.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Com mais de 4.000 casos, surto de ebola na RD Congo pode ter mutação do vírus",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/06/ebola-na-rdc-pode-sofrer-mutacao-casos-passam-de-4000.ghtm",
-    "photo": "https://imguol.com/c/noticias/af/2026/06/19/19jun26---equipes-preparam-enterro-de-orfao-que-morreu-de-ebola-em-um-orfanato-em-bunia-provincia-de-ituri-na-republica-democratica-do-congo-1781911212263_v2_450x253.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Projeto de lei em favor da propriedade privada gera protestos na Argentina",
-    "link": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/08/06/manifestantes-entram-em-confronto-com-policia-na-argentina-por-projeto-de-lei-em-favor-da-propriedade-privada.htm",
-    "photo": "https://imguol.com/c/noticias/db/2026/08/06/06ago26---manifestantes-protestam-em-frente-ao-congresso-nacional-em-buenos-aires-na-argentina-enquanto-senadores-debatem-um-projeto-de-lei-sobre-a-inviolabilidade-da-propriedade-privada-1786060977519_v2_300x300.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Justiça dos EUA multa Meta em US$ 567 milhões por riscos a crianças nas redes",
-    "link": "https://www.uol.com.br/tilt/noticias/redacao/2026/08/06/justica-dos-eua-multa-meta-em-us-567-mi-por-riscos-a-criancas-nas-redes.ghtm",
-    "photo": "https://imguol.com/c/noticias/0b/2026/08/05/presidente-executivo-da-meta-mark-zuckerberg18-de-fevereiro-de-2026reutersmike-blake-1785943800575_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Celular dobrável Samsung com formato inédito chega ao Brasil por R$ 12.599",
-    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/06/com-novo-design-de-passaporte-galaxy-z-fold8-chega-ao-brasil.htm",
-    "photo": "https://imguol.com/c/guia-de-compras/44/2026/07/21/galaxy-z-fold8-1784661175884_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Precisei transformar a cama em escritório e nunca mais larguei essa mesa",
-    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/06/mesa-portatil-para-notebook-facilita-o-trabalho-veja-minha-experiencia.htm",
-    "photo": "https://imguol.com/c/guia-de-compras/cc/2026/07/28/mesa-portatil-para-notebook-1785261629334_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Calvície em homens e mulheres se manifesta de formas diferentes",
-    "link": "https://www.uol.com.br/vivabem/noticias/redacao/2026/08/07/calvicie-em-homens-e-mulheres-se-manifesta-de-formas-diferentes-entenda.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/6d/2020/11/29/homem-calvo-careca-calvicie-1606668964714_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
     "is_carousel": false,
     "is_video": false,
     "relateds": []
