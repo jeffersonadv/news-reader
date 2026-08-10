@@ -492,14 +492,44 @@ async function executeSyncWithRepo() {
             body.sha = sha;
         }
 
-        // 4. Grava os dados finais de volta no repositório
-        const res = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${syncFilePath}`, {
-            method: 'PUT',
-            headers,
-            body: JSON.stringify(body)
-        });
+        // 4. Grava os dados finais de volta no repositório com recuperação automática de conflito de SHA (409)
+        let res;
+        let attempts = 0;
+        let currentSha = sha;
+        let success = false;
 
-        if (res.ok) {
+        while (attempts < 3 && !success) {
+            attempts++;
+            const currentBody = {
+                message: 'chore: update sync data [skip ci]',
+                content: b64Content
+            };
+            if (currentSha) {
+                currentBody.sha = currentSha;
+            }
+
+            res = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${syncFilePath}`, {
+                method: 'PUT',
+                headers,
+                body: JSON.stringify(currentBody)
+            });
+
+            if (res.ok) {
+                success = true;
+            } else if (res.status === 409) {
+                console.warn(`Conflito de SHA (409) detectado na tentativa ${attempts}. Buscando SHA atualizado na nuvem...`);
+                // Busca o SHA atualizado
+                const getRes = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${syncFilePath}?t=${Date.now()}`, { headers });
+                if (getRes.ok) {
+                    const getData = await getRes.json();
+                    currentSha = getData.sha;
+                }
+            } else {
+                break;
+            }
+        }
+
+        if (success) {
             const data = await res.json();
             localStorage.setItem('news_reader_sync_sha', data.content.sha);
             updateSyncStatusUI('success');
@@ -564,16 +594,43 @@ async function overwriteRepoSync() {
         };
 
         const b64Content = btoa(unescape(encodeURIComponent(JSON.stringify(syncData))));
-        const body = { message: 'chore: clear sync data [skip ci]', content: b64Content };
-        if (sha) body.sha = sha;
+        
+        let res;
+        let attempts = 0;
+        let currentSha = sha;
+        let success = false;
 
-        const res = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${syncFilePath}`, {
-            method: 'PUT',
-            headers,
-            body: JSON.stringify(body)
-        });
+        while (attempts < 3 && !success) {
+            attempts++;
+            const currentBody = {
+                message: 'chore: clear sync data [skip ci]',
+                content: b64Content
+            };
+            if (currentSha) {
+                currentBody.sha = currentSha;
+            }
 
-        if (res.ok) {
+            res = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${syncFilePath}`, {
+                method: 'PUT',
+                headers,
+                body: JSON.stringify(currentBody)
+            });
+
+            if (res.ok) {
+                success = true;
+            } else if (res.status === 409) {
+                console.warn(`Conflito de SHA (409) detectado na tentativa de sobrescrever ${attempts}. Buscando SHA atualizado na nuvem...`);
+                const getRes = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${syncFilePath}?t=${Date.now()}`, { headers });
+                if (getRes.ok) {
+                    const getData = await getRes.json();
+                    currentSha = getData.sha;
+                }
+            } else {
+                break;
+            }
+        }
+
+        if (success) {
             const data = await res.json();
             localStorage.setItem('news_reader_sync_sha', data.content.sha);
             updateSyncStatusUI('success', 'Dados limpos e sincronizados!');
