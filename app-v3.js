@@ -326,11 +326,37 @@ function updateSyncStatusUI(status, message = '') {
         miniSyncIndicator.title = miniTitle;
     }
 
-    // 3. Exibe ou oculta o banner de aviso geral de falta de Token
+    // 3. Exibe ou oculta o banner de aviso geral de falta ou erro de Token
     const warningBanner = document.getElementById('sync-warning-banner');
     if (warningBanner) {
         if (status === 'no_token') {
             warningBanner.style.display = 'flex';
+            const linkSpan = warningBanner.querySelector('span');
+            if (linkSpan) {
+                linkSpan.innerHTML = `Sincronização inativa. Configure seu Token nas <a href="#" id="link-go-settings">Configurações</a> para sincronizar as notícias e ler em múltiplos dispositivos.`;
+                // Re-associa o evento de clique após reinserir o HTML
+                const newLink = warningBanner.querySelector('#link-go-settings');
+                if (newLink) {
+                    newLink.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        switchSection(btnSettings, secSettings);
+                    });
+                }
+            }
+        } else if (status === 'error') {
+            warningBanner.style.display = 'flex';
+            const linkSpan = warningBanner.querySelector('span');
+            if (linkSpan) {
+                linkSpan.innerHTML = `Falha de sincronização. O Token do GitHub configurado falhou ou expirou. Redefina-o nas <a href="#" id="link-go-settings">Configurações</a>.`;
+                // Re-associa o evento de clique após reinserir o HTML
+                const newLink = warningBanner.querySelector('#link-go-settings');
+                if (newLink) {
+                    newLink.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        switchSection(btnSettings, secSettings);
+                    });
+                }
+            }
         } else {
             warningBanner.style.display = 'none';
         }
