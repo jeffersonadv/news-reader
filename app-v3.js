@@ -420,8 +420,20 @@ async function executeSyncWithRepo() {
             sha = getData.sha;
             localStorage.setItem('news_reader_sync_sha', sha);
             
-            // Decodifica o conteúdo remoto
-            const fileContent = decodeURIComponent(escape(atob(getData.content.replace(/\s/g, ''))));
+            let fileContent = '';
+            if (getData.content) {
+                fileContent = decodeURIComponent(escape(atob(getData.content.replace(/\s/g, ''))));
+            } else {
+                const rawRes = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${syncFilePath}?t=${new Date().getTime()}`, {
+                    headers: {
+                        'Authorization': `token ${githubToken}`,
+                        'Accept': 'application/vnd.github.v3.raw'
+                    }
+                });
+                if (rawRes.ok) {
+                    fileContent = await rawRes.text();
+                }
+            }
             if (fileContent) {
                 const remoteData = JSON.parse(fileContent);
                 if (remoteData.read && Array.isArray(remoteData.read)) {
@@ -672,11 +684,24 @@ async function loadSyncDataFromRepo() {
         }
 
         if (res.ok) {
-            const data = await res.json();
-            localStorage.setItem('news_reader_sync_sha', data.sha);
-            
-            // Decodifica Base64 em UTF-8 de forma segura
-            const fileContent = decodeURIComponent(escape(atob(data.content.replace(/\s/g, ''))));
+            let fileContent = '';
+            if (data.content) {
+                fileContent = decodeURIComponent(escape(atob(data.content.replace(/\s/g, ''))));
+            } else {
+                // Para arquivos maiores que 1MB, a API do GitHub omite o campo content.
+                // Usamos o cabeçalho raw ou download_url para obter o conteúdo completo do JSON.
+                console.log("Arquivo sync.json excede 1MB. Baixando via raw...");
+                const rawRes = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${syncFilePath}?t=${new Date().getTime()}`, {
+                    headers: {
+                        'Authorization': `token ${githubToken}`,
+                        'Accept': 'application/vnd.github.v3.raw'
+                    }
+                });
+                if (rawRes.ok) {
+                    fileContent = await rawRes.text();
+                }
+            }
+
             if (fileContent) {
                 const syncData = JSON.parse(fileContent);
 
