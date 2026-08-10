@@ -376,6 +376,7 @@ function updateSyncStatusUI(status, message = '') {
                 }
             }
         } else {
+            // Em caso de 'success' ou 'loading', força o ocultamento completo do banner
             warningBanner.style.display = 'none';
         }
     }
