@@ -579,9 +579,9 @@ async function executeSyncWithRepo() {
             if (dataChanged) {
                 updateHistoryCount();
                 updateSavedCount();
+                updateFeedCount();
                 const activeSection = document.querySelector('.content-section:not(.hidden)');
-                if (activeSection === secFeed) renderFeed();
-                else if (activeSection === secHistory) renderHistory();
+                if (activeSection === secHistory) renderHistory();
                 else if (activeSection === secSaved) renderSaved();
                 else if (activeSection === secSettings) {
                     renderMutedKeywords();
@@ -797,9 +797,9 @@ async function loadSyncDataFromRepo() {
                 if (changed) {
                     updateHistoryCount();
                     updateSavedCount();
+                    updateFeedCount();
                     const activeSection = document.querySelector('.content-section:not(.hidden)');
-                    if (activeSection === secFeed) renderFeed();
-                    else if (activeSection === secHistory) renderHistory();
+                    if (activeSection === secHistory) renderHistory();
                     else if (activeSection === secSaved) renderSaved();
                     else if (activeSection === secSettings) {
                         renderMutedKeywords();
@@ -835,23 +835,10 @@ function markAsRead(url, cardElement, immediateRemove = true) {
 
     if (cardElement) {
         cardElement.classList.add('is-read');
-        
-        // Se immediateRemove for true (ex: clique no botão), anima e remove
-        if (immediateRemove) {
-            cardElement.classList.add('read-fade-out');
-            setTimeout(() => {
-                cardElement.remove();
-                // Se o feed ficou vazio após remoção
-                const visibleCards = newsGrid.querySelectorAll('.news-card');
-                if (visibleCards.length === 0) {
-                    renderFeed();
-                }
-            }, 600);
-        } else {
-            // Se for via scroll, apenas adiciona um estilo sutil de "lido" (dimming)
-            // para não quebrar a rolagem abruptamente. A notícia desaparecerá na próxima carga.
-            cardElement.style.opacity = '0.35';
-        }
+        // Para garantir estabilidade total de leitura sem pulos de layout,
+        // o card marcado como lido apenas recebe opacidade reduzida, sem ser removido
+        // abruptamente do DOM durante a rolagem. Ele será limpo na próxima recarga/troca de aba.
+        cardElement.style.opacity = '0.4';
     }
 }
 
