@@ -235,8 +235,20 @@ function updateSavedCount() {
     }
 }
 
+// Garante que o Set não ultrapasse o limite máximo de itens (padrão: 3000), mantendo os mais recentes
+function trimSet(setInstance, maxLimit = 3000) {
+    if (setInstance.size <= maxLimit) return;
+    const items = Array.from(setInstance);
+    const overflow = items.length - maxLimit;
+    for (let i = 0; i < overflow; i++) {
+        setInstance.delete(items[i]);
+    }
+}
+
 // Salva o histórico de lidas no localStorage e sincroniza na nuvem
 function saveReadHistory(isDeletion = false) {
+    trimSet(readUrls, 3000);
+    trimSet(historyUrls, 3000);
     localStorage.setItem('news_reader_read', JSON.stringify(Array.from(readUrls)));
     localStorage.setItem('news_reader_history', JSON.stringify(Array.from(historyUrls)));
     updateHistoryCount();
@@ -491,6 +503,10 @@ async function executeSyncWithRepo() {
             localStorage.setItem('news_reader_muted', JSON.stringify(mutedKeywords));
             localStorage.setItem('news_reader_exceptions', JSON.stringify(exceptionKeywords));
         }
+
+        // Aplica o limite de 3.000 notícias lidas mais recentes para manter a nuvem leve
+        trimSet(readUrls, 3000);
+        trimSet(historyUrls, 3000);
 
         // 3. Prepara o payload com os dados mesclados finais
         const syncData = {
