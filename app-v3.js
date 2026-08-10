@@ -546,7 +546,6 @@ async function executeSyncWithRepo() {
             res = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${syncFilePath}`, {
                 method: 'PUT',
                 headers,
-                keepalive: true,
                 body: JSON.stringify(currentBody)
             });
 
