@@ -1,9 +1,25 @@
+// Garante que o Set não ultrapasse o limite máximo de itens (padrão: 3000), mantendo os mais recentes
+function trimSet(setInstance, maxLimit = 3000) {
+    if (!setInstance || setInstance.size <= maxLimit) return;
+    const items = Array.from(setInstance);
+    const overflow = items.length - maxLimit;
+    for (let i = 0; i < overflow; i++) {
+        setInstance.delete(items[i]);
+    }
+}
+
 // Configurações e Estado do App
 let newsData = [];
 let readUrls = new Set(JSON.parse(localStorage.getItem('news_reader_read') || '[]'));
 // historyUrls controla o que APARECE na aba Lidas (limpável pelo usuário).
 // readUrls controla o que NÃO APARECE no Feed (nunca limpo automaticamente).
 let historyUrls = new Set(JSON.parse(localStorage.getItem('news_reader_history') || '[]'));
+
+// Sanea o histórico local na inicialização para o limite de 3.000 itens mais recentes
+trimSet(readUrls, 3000);
+trimSet(historyUrls, 3000);
+localStorage.setItem('news_reader_read', JSON.stringify(Array.from(readUrls)));
+localStorage.setItem('news_reader_history', JSON.stringify(Array.from(historyUrls)));
 let savedUrls = new Set(JSON.parse(localStorage.getItem('news_reader_saved') || '[]'));
 let mutedKeywords = JSON.parse(localStorage.getItem('news_reader_muted') || '[]');
 // Exceções de notícias relevantes que ignoram o silenciamento
@@ -232,16 +248,6 @@ function updateFeedCount() {
 function updateSavedCount() {
     if (savedCountSpan) {
         savedCountSpan.textContent = savedUrls.size;
-    }
-}
-
-// Garante que o Set não ultrapasse o limite máximo de itens (padrão: 3000), mantendo os mais recentes
-function trimSet(setInstance, maxLimit = 3000) {
-    if (setInstance.size <= maxLimit) return;
-    const items = Array.from(setInstance);
-    const overflow = items.length - maxLimit;
-    for (let i = 0; i < overflow; i++) {
-        setInstance.delete(items[i]);
     }
 }
 
