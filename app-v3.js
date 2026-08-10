@@ -387,6 +387,13 @@ async function syncWithRepo() {
 }
 
 async function executeSyncWithRepo() {
+    // Bloqueia qualquer gravação na nuvem antes de completar a leitura/mesclagem inicial.
+    // Evita que o navegador com estado local desatualizado sobrescreva a nuvem durante a inicialização.
+    if (!isInitialized) {
+        console.warn('executeSyncWithRepo bloqueado: inicialização ainda em curso.');
+        isSyncing = false;
+        return;
+    }
     isSyncing = true;
     updateSyncStatusUI('loading', 'Sincronizando com o repositório...');
     try {
