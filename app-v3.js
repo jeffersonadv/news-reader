@@ -16,6 +16,7 @@ let lastClearTime = 0;
 let syncTimeoutId = null;
 let isSyncing = false;
 let syncPending = false;
+let isInitialized = false;
 
 // Palavras funcionais a serem ignoradas na sugestão de bloqueio
 const STOP_WORDS = new Set([
@@ -192,9 +193,9 @@ async function loadNews() {
         updateSavedCount();
 
         // IMPORTANTE: Aguarda a sincronização com a nuvem ANTES de renderizar o feed.
-        // Sem o await, o feed era renderizado com o localStorage local (vazio em dispositivos
-        // novos), e notícias já lidas em outro dispositivo apareciam indevidamente como não lidas.
         await loadSyncDataFromRepo();
+        
+        isInitialized = true;
 
         renderFeed();
     } catch (error) {
@@ -239,6 +240,7 @@ function saveReadHistory(isDeletion = false) {
     localStorage.setItem('news_reader_read', JSON.stringify(Array.from(readUrls)));
     localStorage.setItem('news_reader_history', JSON.stringify(Array.from(historyUrls)));
     updateHistoryCount();
+    if (!isInitialized) return; // Evita subir historico antes de baixar e consolidar a nuvem
     if (isDeletion) {
         overwriteRepoSync();
     } else {
@@ -250,6 +252,7 @@ function saveReadHistory(isDeletion = false) {
 function saveSavedHistory(isDeletion = false) {
     localStorage.setItem('news_reader_saved', JSON.stringify(Array.from(savedUrls)));
     updateSavedCount();
+    if (!isInitialized) return; // Evita subir historico antes de baixar e consolidar a nuvem
     if (isDeletion) {
         overwriteRepoSync();
     } else {
@@ -576,41 +579,34 @@ async function loadSyncDataFromRepo() {
             if (fileContent) {
                 const syncData = JSON.parse(fileContent);
 
-                // A nuvem é a fonte de verdade. Substitui o estado local completamente
-                // em vez de mesclar. Isso garante que operações de limpeza feitas em
-                // qualquer dispositivo se propaguem corretamente para todos os outros.
+                // Consolida o estado local e o remoto usando União Acumulativa (Union).
+                // Isso garante que notícias marcadas como lidas/salvas em qualquer dispositivo
+                // sejam preservadas e propagadas, evitando que estados desatualizados ressurgam.
                 let changed = false;
 
                 if (Array.isArray(syncData.read)) {
-                    const cloudRead = new Set(syncData.read);
-                    const localIsIdentical = readUrls.size === cloudRead.size &&
-                        [...cloudRead].every(url => readUrls.has(url));
-                    if (!localIsIdentical) {
-                        readUrls = cloudRead;
-                        localStorage.setItem('news_reader_read', JSON.stringify(syncData.read));
+                    const beforeSize = readUrls.size;
+                    syncData.read.forEach(url => readUrls.add(url));
+                    if (readUrls.size !== beforeSize) {
+                        localStorage.setItem('news_reader_read', JSON.stringify(Array.from(readUrls)));
                         changed = true;
                     }
                 }
 
-                // history: substitui local pelo da nuvem (propaga limpezas entre dispositivos)
                 if (Array.isArray(syncData.history)) {
-                    const cloudHistory = new Set(syncData.history);
-                    const localIsIdentical = historyUrls.size === cloudHistory.size &&
-                        [...cloudHistory].every(url => historyUrls.has(url));
-                    if (!localIsIdentical) {
-                        historyUrls = cloudHistory;
-                        localStorage.setItem('news_reader_history', JSON.stringify(syncData.history));
+                    const beforeSize = historyUrls.size;
+                    syncData.history.forEach(url => historyUrls.add(url));
+                    if (historyUrls.size !== beforeSize) {
+                        localStorage.setItem('news_reader_history', JSON.stringify(Array.from(historyUrls)));
                         changed = true;
                     }
                 }
 
                 if (Array.isArray(syncData.saved)) {
-                    const cloudSaved = new Set(syncData.saved);
-                    const localIsIdentical = savedUrls.size === cloudSaved.size &&
-                        [...cloudSaved].every(url => savedUrls.has(url));
-                    if (!localIsIdentical) {
-                        savedUrls = cloudSaved;
-                        localStorage.setItem('news_reader_saved', JSON.stringify(syncData.saved));
+                    const beforeSize = savedUrls.size;
+                    syncData.saved.forEach(url => savedUrls.add(url));
+                    if (savedUrls.size !== beforeSize) {
+                        localStorage.setItem('news_reader_saved', JSON.stringify(Array.from(savedUrls)));
                         changed = true;
                     }
                 }
@@ -648,6 +644,8 @@ async function loadSyncDataFromRepo() {
                         renderMutedKeywords();
                         renderExceptionKeywords();
                     }
+                    // Salva silenciosamente o estado consolidado de volta na nuvem
+                    overwriteRepoSync().catch(err => console.error("Erro ao consolidar uniao na nuvem:", err));
                 }
             } else {
                 updateSyncStatusUI('success', 'Nuvem vazia.');
