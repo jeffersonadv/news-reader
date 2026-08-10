@@ -706,6 +706,9 @@ async function loadSyncDataFromRepo() {
         }
 
         if (res.ok) {
+            const data = await res.json();
+            localStorage.setItem('news_reader_sync_sha', data.sha);
+            
             let fileContent = '';
             if (data.content) {
                 fileContent = decodeURIComponent(escape(atob(data.content.replace(/\s/g, ''))));
