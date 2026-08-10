@@ -37,6 +37,12 @@
     </header>
 
     <main class="app-main">
+        <!-- Alerta de Sincronização Inativa -->
+        <div id="sync-warning-banner" class="sync-warning-banner" style="display: none;">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            <span>Sincronização inativa. Configure seu Token nas <a href="#" id="link-go-settings">Configurações</a> para sincronizar as notícias e ler em múltiplos dispositivos.</span>
+        </div>
+
         <div class="search-box global-search">
             <i class="fa-solid fa-magnifying-glass search-icon"></i>
             <input type="text" id="search-input" placeholder="Buscar notícias...">
@@ -161,7 +167,7 @@
     </div>
 
     <footer class="app-footer">
-        <p>&copy; 2026 News Reader. Feito para Jefferson. &mdash; <small style="opacity:0.5">v5.3</small></p>
+        <p>&copy; 2026 News Reader. Feito para Jefferson. &mdash; <small style="opacity:0.5">v5.4</small></p>
     </footer>
 
     <!-- Overlay de Carregamento para Atualização Remota -->
@@ -177,6 +183,6 @@
         </div>
     </div>
 
-    <script src="app-v3.js?v=5.3"></script>
+    <script src="app-v3.js?v=5.4"></script>
 </body>
 </html>

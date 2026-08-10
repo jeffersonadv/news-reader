@@ -325,6 +325,16 @@ function updateSyncStatusUI(status, message = '') {
         miniSyncIndicator.style.color = miniColor;
         miniSyncIndicator.title = miniTitle;
     }
+
+    // 3. Exibe ou oculta o banner de aviso geral de falta de Token
+    const warningBanner = document.getElementById('sync-warning-banner');
+    if (warningBanner) {
+        if (status === 'no_token') {
+            warningBanner.style.display = 'flex';
+        } else {
+            warningBanner.style.display = 'none';
+        }
+    }
 }
 
 async function syncWithRepo() {
@@ -1867,5 +1877,14 @@ document.addEventListener('DOMContentLoaded', () => {
         updateSyncStatusUI('no_token');
     } else {
         updateSyncStatusUI('loading', 'Aguardando carregamento inicial...');
+    }
+
+    // Ação do link do banner de sincronização inativa
+    const linkGoSettings = document.getElementById('link-go-settings');
+    if (linkGoSettings) {
+        linkGoSettings.addEventListener('click', (e) => {
+            e.preventDefault();
+            switchSection(btnSettings, secSettings);
+        });
     }
 });
