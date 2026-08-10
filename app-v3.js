@@ -1881,52 +1881,18 @@ async function hybridNewsUpdate() {
 // Evento de clique para pular para a próxima notícia
 btnNextNews.addEventListener('click', scrollToNextUnread);
 
-// Botão de Sincronização Manual (Forçar Sincronização)
+// Botão de Sincronização Manual — faz merge acumulativo (nunca apaga estado local)
 btnForceSync.addEventListener('click', async () => {
     const icon = btnForceSync.querySelector('i');
     if (icon) icon.classList.add('fa-spin');
     btnForceSync.disabled = true;
     try {
-        console.log("Forçando sincronização limpa de via dupla...");
-        // 1. Guarda um backup local temporário
-        const backupRead = Array.from(readUrls);
-        const backupHistory = Array.from(historyUrls);
-        const backupSaved = Array.from(savedUrls);
-
-        // 2. Limpa o estado local em memória e localStorage para forçar download limpo
-        readUrls.clear();
-        historyUrls.clear();
-        savedUrls.clear();
-        localStorage.removeItem('news_reader_read');
-        localStorage.removeItem('news_reader_history');
-        localStorage.removeItem('news_reader_saved');
-
-        // 3. Baixa os dados da nuvem
+        // Baixa os dados da nuvem e mescla com o estado local (união acumulativa)
         await loadSyncDataFromRepo();
-
-        // 4. Se a nuvem estava vazia por algum erro, restaura o backup local
-        if (readUrls.size === 0 && backupRead.length > 0) {
-            backupRead.forEach(url => readUrls.add(url));
-            backupHistory.forEach(url => historyUrls.add(url));
-            backupSaved.forEach(url => savedUrls.add(url));
-            localStorage.setItem('news_reader_read', JSON.stringify(backupRead));
-            localStorage.setItem('news_reader_history', JSON.stringify(backupHistory));
-            localStorage.setItem('news_reader_saved', JSON.stringify(backupSaved));
-            console.log("Nuvem retornou vazia, restaurado backup local.");
-        } else {
-            console.log("Sincronização limpa concluída. Dados da nuvem assimilados:", readUrls.size);
-        }
-
-        // 5. Salva e re-renderiza
-        updateHistoryCount();
-        updateSavedCount();
-        renderFeed();
-        
-        // 6. Faz o upload consolidado de volta
+        // Envia o estado consolidado de volta para a nuvem
         await syncWithRepo();
-
     } catch (err) {
-        console.error("Erro ao forçar sincronização:", err);
+        console.error('Erro ao sincronizar:', err);
     } finally {
         if (icon) icon.classList.remove('fa-spin');
         btnForceSync.disabled = false;
