@@ -772,6 +772,16 @@ async function loadSyncDataFromRepo() {
                     }
                 }
 
+                // Aplica a limitação de 3.000 itens em memória e recalcula se houve corte
+                const sizeBeforeTrim = readUrls.size;
+                trimSet(readUrls, 3000);
+                trimSet(historyUrls, 3000);
+                if (readUrls.size !== sizeBeforeTrim) {
+                    localStorage.setItem('news_reader_read', JSON.stringify(Array.from(readUrls)));
+                    localStorage.setItem('news_reader_history', JSON.stringify(Array.from(historyUrls)));
+                    changed = true;
+                }
+
                 updateSyncStatusUI('success');
 
                 if (changed) {
