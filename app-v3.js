@@ -518,6 +518,7 @@ async function executeSyncWithRepo() {
             res = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${syncFilePath}`, {
                 method: 'PUT',
                 headers,
+                keepalive: true,
                 body: JSON.stringify(currentBody)
             });
 
@@ -1978,5 +1979,26 @@ document.addEventListener('DOMContentLoaded', () => {
             e.preventDefault();
             switchSection(btnSettings, secSettings);
         });
+    }
+});
+
+// Força o envio imediato e sem atraso dos dados para a nuvem sempre que a aba perder o foco ou o usuário mudar de aplicativo/navegador
+document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden' && isInitialized && githubToken) {
+        if (syncTimeoutId) {
+            clearTimeout(syncTimeoutId);
+            syncTimeoutId = null;
+        }
+        executeSyncWithRepo().catch(err => console.error("Erro na sincronização de visibilidade:", err));
+    }
+});
+
+window.addEventListener('beforeunload', () => {
+    if (isInitialized && githubToken) {
+        if (syncTimeoutId) {
+            clearTimeout(syncTimeoutId);
+            syncTimeoutId = null;
+        }
+        executeSyncWithRepo().catch(err => console.error("Erro no unload sync:", err));
     }
 });
