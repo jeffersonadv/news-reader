@@ -350,31 +350,14 @@
     "relateds": []
   },
   {
-    "title": "Terremoto na Colômbia deixa 132 mortos e afeta ao menos 1.575 imóveis",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/10/terremoto-na-colombia-deixa-132-mortos-e-afeta-1575-moradias.ghtm",
-    "photo": "https://imguol.com/c/noticias/d5/2026/08/10/10ago2026-moradores-e-equipes-de-emergencia-nos-escombros-de-um-predio-apos-terremoto-em-pereira-colombia-1786381169739_v2_450x337.png",
+    "title": "Juiz determina que Garotinho cumpra sentença que o deixa inelegível",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/08/11/juiz-determina-que-garotinho-cumpra-sentenca-que-o-deixa-inelegivel.ghtm",
+    "photo": "https://imguol.com/c/noticias/bc/2026/08/06/garotinho-e-candidato-ao-governo-do-rio-pelo-republicanos-1786034805406_v2_300x225.jpg",
     "source": "UOL",
     "is_main": true,
-    "is_carousel": false,
+    "is_carousel": true,
     "is_video": false,
-    "relateds": [
-      {
-        "title": "Terremoto derruba prédio de Hospital Universitário em Cali; veja",
-        "link": "https://www.uol.com.br/flash/?c=49503f3780be1f80c9bcc6b6c4bc224220260810"
-      },
-      {
-        "title": "Ministros do TCU estavam em evento na Colômbia durante o terremoto: 'Susto grande'",
-        "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/10/em-evento-na-colombia-ministros-do-tcu-enfrentam-terremoto-susto-grande.ghtm"
-      },
-      {
-        "title": "Brasil pode sofrer terremotos como os que atingiram Colômbia e Venezuela?",
-        "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/10/brasil-pode-sofrer-terremotos-como-os-que-atingiram-colombia-e-venezuela.ghtm"
-      },
-      {
-        "title": "Jogos da Libertadores e da Sul-Americana na Colômbia são adiados pela Conmebol",
-        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/10/terremoto-na-colombia-conmebol-suspende-jogos-da-libertadores-e-sul-americana.ghtm"
-      }
-    ]
+    "relateds": []
   },
   {
     "title": "Sua muito até parado? Pode ser mais do que só calor ou nervoso",
@@ -526,6 +509,52 @@
     ]
   },
   {
+    "title": "Terremoto na Colômbia deixa 132 mortos e afeta ao menos 1.575 imóveis",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/10/terremoto-na-colombia-deixa-132-mortos-e-afeta-1575-moradias.ghtm",
+    "photo": "https://imguol.com/c/noticias/d5/2026/08/10/10ago2026-moradores-e-equipes-de-emergencia-nos-escombros-de-um-predio-apos-terremoto-em-pereira-colombia-1786381169739_v2_300x225.png",
+    "source": "UOL",
+    "is_main": true,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Terremoto derruba prédio de Hospital Universitário em Cali; veja",
+        "link": "https://www.uol.com.br/flash/?c=49503f3780be1f80c9bcc6b6c4bc224220260810"
+      },
+      {
+        "title": "Ministros do TCU estavam em evento na Colômbia durante o terremoto: 'Susto grande'",
+        "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/10/em-evento-na-colombia-ministros-do-tcu-enfrentam-terremoto-susto-grande.ghtm"
+      },
+      {
+        "title": "Brasil pode sofrer terremotos como os que atingiram Colômbia e Venezuela?",
+        "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/10/brasil-pode-sofrer-terremotos-como-os-que-atingiram-colombia-e-venezuela.ghtm"
+      },
+      {
+        "title": "Jogos da Libertadores e da Sul-Americana na Colômbia são adiados pela Conmebol",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/10/terremoto-na-colombia-conmebol-suspende-jogos-da-libertadores-e-sul-americana.ghtm"
+      }
+    ]
+  },
+  {
+    "title": "Kim Kataguiri: Bolsonaristas copiaram comunicação do MBL, mas não conteúdo",
+    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/10/kim-kataguiri-bolsonaristas-copiaram-a-nossa-forma-de-comunicacao-mas-nao-o-conteudo.ghtm",
+    "photo": "https://imguol.com/c/noticias/4b/2023/08/16/deputado-kim-kataguiri-uniao-sp-1692210758887_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Deputado defende Brasil ter bomba atômica: 'Questão de soberania'",
+        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/10/kataguiri-defende-brasil-ter-bomba-atomica-questao-de-soberania.ghtm"
+      },
+      {
+        "title": "Kataguiri: Slogan 'Prendeu, matou' é provocação proposital e sem catástrofe",
+        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/10/kataguiri-slogan-prendeu-matou-e-provocacao-proposital-e-sem-catastrofe.ghtm"
+      }
+    ]
+  },
+  {
     "title": "Tribunal reverte decisão de juíza e suspende bloqueio de R$ 54 bi no caso Americanas",
     "link": "https://www1.folha.uol.com.br/mercado/2026/08/tribunal-reverte-decisao-de-juiza-e-suspende-bloqueio-de-r-54-bi-no-caso-americanas.shtml",
     "photo": "https://imguol.com/c/home/5a/2026/08/10/fachada-das-lojas-americanas-na-regiao-de-pinheiros-em-sao-paulo-1786405198895_v2_300x225.jpg",
@@ -561,35 +590,6 @@
     "relateds": []
   },
   {
-    "title": "Juiz determina que Garotinho cumpra sentença que o deixa inelegível",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/08/11/juiz-determina-que-garotinho-cumpra-sentenca-que-o-deixa-inelegivel.ghtm",
-    "photo": "https://imguol.com/c/noticias/bc/2026/08/06/garotinho-e-candidato-ao-governo-do-rio-pelo-republicanos-1786034805406_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Kim Kataguiri: Bolsonaristas copiaram comunicação do MBL, mas não conteúdo",
-    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/10/kim-kataguiri-bolsonaristas-copiaram-a-nossa-forma-de-comunicacao-mas-nao-o-conteudo.ghtm",
-    "photo": "https://imguol.com/c/noticias/4b/2023/08/16/deputado-kim-kataguiri-uniao-sp-1692210758887_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Deputado defende Brasil ter bomba atômica: 'Questão de soberania'",
-        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/10/kataguiri-defende-brasil-ter-bomba-atomica-questao-de-soberania.ghtm"
-      },
-      {
-        "title": "Kataguiri: Slogan 'Prendeu, matou' é provocação proposital e sem catástrofe",
-        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/10/kataguiri-slogan-prendeu-matou-e-provocacao-proposital-e-sem-catastrofe.ghtm"
-      }
-    ]
-  },
-  {
     "title": "Estatal do governo Lula abriga 'exército' eleitoral em contrato de R$ 35 mi",
     "link": "https://tab.uol.com.br/noticias/redacao/2026/07/27/estatal-do-governo-lula-abriga-exercito-eleitoral-em-contrato-de-r-35-mi.htm",
     "photo": "https://conteudo.imguol.com.br/c/tab/8c/2026/07/24/prime---cabos-eleitorais-indice-prime-1784917959632_v2_544x682.jpg",
@@ -620,7 +620,7 @@
     "relateds": []
   },
   {
-    "title": "'Brasileiros não confiam nas urnas eletrônicas', diz CEO do Instituto IDEIA",
+    "title": "'Número impressionante de brasileiros não acredita na urna', diz CEO do Ideia",
     "link": "https://cultura.uol.com.br/noticias/74447_brasileiros-nao-confiam-nas-urnas-eletronicas-diz-ceo-do-instituto-ideia.html",
     "photo": "https://imguol.com/c/parceiros/9d/2026/08/11/brasileiros-nao-confiam-nas-urnas-eletronicas-diz-ceo-do-instituto-ideia-1786419557388_v2_300x225.png",
     "source": "UOL",
@@ -660,27 +660,14 @@
     "relateds": []
   },
   {
-    "title": "Flávio trava presença em debate à espera de Lula, diz diretor da Band",
-    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/10/flavio-trava-presenca-em-debate-a-espera-de-lula-diz-diretor-da-band.ghtm",
-    "photo": "https://imguol.com/c/noticias/f2/2026/08/03/lula-pt-e-flavio-bolsonaro-pl-disputam-a-presidencia-da-republica-1785772760097_v2_300x225.jpg",
+    "title": "Trump usou caminhão e voo secreto na Turquia após ameaça do Irã",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/11/por-ameaca-do-ira-trump-se-escondeu-em-caminhao-e-fez-voo-secreto-diz-wp.ghtm",
+    "photo": "https://imguol.com/c/noticias/aa/2026/07/17/17jul26---o-presidente-dos-eua-donald-trump-ao-embarcar-no-novo-air-force-one--um-presente-do-qatar--rumo-a-nova-york-na-base-conjunta-andrews-em-maryland-eua-1784333875812_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": false,
+    "is_carousel": true,
     "is_video": false,
-    "relateds": [
-      {
-        "title": "Flávio Bolsonaro define slogan: 'O Brasil vai vencer'",
-        "link": "https://noticias.uol.com.br/eleicoes/2026/08/10/flavio-bolsonaro-define-slogan-de-campanha-o-brasil-vai-vencer.ghtm"
-      },
-      {
-        "title": "A empresários, Caiado cita governo Temer como exemplo para baixar juro",
-        "link": "https://economia.uol.com.br/colunas/graciliano-rocha/2026/08/10/caiado-cita-governo-temer-como-exemplo-a-empresarios.htm"
-      },
-      {
-        "title": "Por que Renan aparece com 10% em pesquisa Palver feita pela internet",
-        "link": "https://noticias.uol.com.br/eleicoes/2026/08/10/pesquisa-palver-renan-santos.ghtm"
-      }
-    ]
+    "relateds": []
   },
   {
     "title": "Rede define apoio de federação a Kalil em Minas Gerais, mas PSOL promete recorrer",
@@ -953,29 +940,9 @@
     "relateds": []
   },
   {
-    "title": "Sexo depois do infarto é seguro? Saiba quando dá para voltar",
-    "link": "https://www.uol.com.br/vivabem/noticias/redacao/2026/08/10/sexo-depois-do-infarto-e-seguro-saiba-quando-da-para-retomar.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/e0/2024/09/03/sexo-na-terceira-idade-1725370623624_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Laudos indicam piora de doença mental na prisão, e líder do PCC é transferido a hospital",
-    "link": "https://noticias.uol.com.br/colunas/josmar-jozino/2026/08/10/transferencia-de-preso-para-sao-paulo.htm",
-    "photo": "https://imguol.com/c/home/f7/2026/08/10/paulo-cesar-souza-nascimento-junior-o-paulinho-neblina-1786389261096_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Brasil pode sofrer terremotos como os que atingiram Colômbia e Venezuela?",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/10/brasil-pode-sofrer-terremotos-como-os-que-atingiram-colombia-e-venezuela.ghtm",
-    "photo": "",
+    "title": "Como é viver em Paris? Max Petterson revela prós e contras",
+    "link": "https://www.uol.com.br/flash/?c=ccea1b908169b64a5c9bef061c241720260810",
+    "photo": "https://imguol.com/c/entretenimento/fb/2026/08/10/max-petterson-paris-1786401571383_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -986,6 +953,16 @@
     "title": "Padre é excomungado após aderir a grupo ultraconservador em SP",
     "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/10/padre-e-excomungado-apos-aderir-a-grupo-conservador-em-sp.ghtm",
     "photo": "https://imguol.com/c/noticias/27/2026/08/10/padre-rodrigo-de-oliveira-silva-foi-excomungado-da-igreja-catolica-1786392058416_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Brasil pode sofrer terremotos como os que atingiram Colômbia e Venezuela?",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/10/brasil-pode-sofrer-terremotos-como-os-que-atingiram-colombia-e-venezuela.ghtm",
+    "photo": "",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -1142,9 +1119,9 @@
     ]
   },
   {
-    "title": "'Uma terapia vai bem': Márcia Sensitiva ajuda mulher a se encontrar",
-    "link": "https://www.uol.com.br/universa/noticias/redacao/2026/08/10/daniela-e-gabriela-no-qee.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/31/2026/08/07/daniela-demito-marcia-sensitiva-e-gabriela-demito-no-que-energia-e-essa-1786123034393_v2_300x225.jpg",
+    "title": "Linha 12-Safira da CPTM opera com lentidão após problema em SP",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/11/linha-safira-cptm-problemas.ghtm",
+    "photo": "https://imguol.com/c/noticias/53/2026/04/02/22mar2025---imagem-de-arquivo-mostra-trem-da-linha-12-safira-da-cptm-1775121784465_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1152,9 +1129,9 @@
     "relateds": []
   },
   {
-    "title": "Renovação de Memphis está 'avançada', mas não foi fechada, diz diretor",
-    "link": "https://www.uol.com.br/flash/?c=3386faf892051defbeb8959f8fb6ee20260810",
-    "photo": "https://imguol.com/c/esporte/4a/2026/08/07/memphis-depay-vive-impassse-sobre-renovacao-com-o-corinthians-1786077541579_v2_450x337.jpg",
+    "title": "Em meio a jejum, Sul-Americana pode salvar a temporada do São Paulo",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/11/sao-paulo-ve-sul-americana-como-salvacao-da-temporada-em-meio-a-jejum.ghtm",
+    "photo": "https://imguol.com/c/esporte/f5/2026/08/10/arboleda-do-sao-paulo-lamenta-durante-derrota-para-o-gremio-no-rio-grande-do-sul-1786401683741_v2_450x337.jpg",
     "source": "UOL",
     "is_main": true,
     "is_carousel": false,
@@ -1701,9 +1678,19 @@
     "relateds": []
   },
   {
+    "title": "Juiz acusa Meta de negligência por destruir evidências em processo de publicidade fraudulenta",
+    "link": "https://www.uol.com.br/tilt/noticias/afp/2026/08/11/juiz-acusa-meta-de-negligencia-por-destruir-evidencias-em-processo-de-publicidade-fraudulenta.htm",
+    "photo": "https://imguol.com/c/noticias/9b/2026/08/10/ilustracao-com-o-logotipo-da-meta-20-de-julho-de-2026reutersdado-ruvic-1786366173862_v2_450x253.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "China 'cria' cidade para 'ONU da IA' e enfrenta problema: robôs demais",
     "link": "https://www.uol.com.br/tilt/noticias/redacao/2026/08/11/deu-tilt-ep-79.ghtm",
-    "photo": "https://imguol.com/c/noticias/4c/2026/07/17/presidente-da-china-xi-jinping-acena-ao-chegar-a-cerimonia-de-abertura-da-conferencia-mundial-de-ia-em-xangai17-de-julho-de-2026-ng-han-guanpool-via-reuters-1784289857715_v2_450x253.jpg",
+    "photo": "https://imguol.com/c/noticias/4c/2026/07/17/presidente-da-china-xi-jinping-acena-ao-chegar-a-cerimonia-de-abertura-da-conferencia-mundial-de-ia-em-xangai17-de-julho-de-2026-ng-han-guanpool-via-reuters-1784289857715_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1714,26 +1701,6 @@
     "title": "Eclipse solar total raro acontece esta semana; veja horário e como assistir",
     "link": "https://www.uol.com.br/tilt/noticias/redacao/2026/08/10/eclipse-solar-total-raro-acontece-esta-semana-veja-horario-e-como-assistir.ghtm",
     "photo": "https://imguol.com/c/noticias/38/2024/07/02/eclipse-solar-total-1719959184784_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Meta, Google e TikTok devem enfrentar processos por vício em redes sociais nos EUA",
-    "link": "https://www.uol.com.br/tilt/noticias/reuters/2026/08/10/tribunal-dos-eua-decide-que-meta-e-outras-empresas-de-tecnologia-devem-enfrentar-milhares-de-processos-sobre-vicio-em-redes-sociais.htm",
-    "photo": "https://imguol.com/c/noticias/08/2026/07/17/logotipo-da-meta-porte-de-versailles-em-paris-franca11-de-junho-de-2025reutersgonzalo-fuentes-1784311788915_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Como é viver em Paris? Max Petterson revela prós e contras",
-    "link": "https://www.uol.com.br/flash/?c=ccea1b908169b64a5c9bef061c241720260810",
-    "photo": "https://imguol.com/c/entretenimento/fb/2026/08/10/max-petterson-paris-1786401571383_v2_450x253.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1849,6 +1816,79 @@
     "title": "Cloud Computing",
     "link": "https://www.uolhost.uol.com.br/uol-cloud-computing.html?utm_medium=uol.com.br&utm_source=interna&utm_campaign=rodapé_uol&utm_content=link_fixo&utm_term=cloud_computing",
     "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Flávio trava presença em debate à espera de Lula, diz diretor da Band",
+    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/10/flavio-trava-presenca-em-debate-a-espera-de-lula-diz-diretor-da-band.ghtm",
+    "photo": "https://imguol.com/c/noticias/f2/2026/08/03/lula-pt-e-flavio-bolsonaro-pl-disputam-a-presidencia-da-republica-1785772760097_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Flávio Bolsonaro define slogan: 'O Brasil vai vencer'",
+        "link": "https://noticias.uol.com.br/eleicoes/2026/08/10/flavio-bolsonaro-define-slogan-de-campanha-o-brasil-vai-vencer.ghtm"
+      },
+      {
+        "title": "A empresários, Caiado cita governo Temer como exemplo para baixar juro",
+        "link": "https://economia.uol.com.br/colunas/graciliano-rocha/2026/08/10/caiado-cita-governo-temer-como-exemplo-a-empresarios.htm"
+      },
+      {
+        "title": "Por que Renan aparece com 10% em pesquisa Palver feita pela internet",
+        "link": "https://noticias.uol.com.br/eleicoes/2026/08/10/pesquisa-palver-renan-santos.ghtm"
+      }
+    ]
+  },
+  {
+    "title": "Sexo depois do infarto é seguro? Saiba quando dá para voltar",
+    "link": "https://www.uol.com.br/vivabem/noticias/redacao/2026/08/10/sexo-depois-do-infarto-e-seguro-saiba-quando-da-para-retomar.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/e0/2024/09/03/sexo-na-terceira-idade-1725370623624_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Laudos indicam piora de doença mental na prisão, e líder do PCC é transferido a hospital",
+    "link": "https://noticias.uol.com.br/colunas/josmar-jozino/2026/08/10/transferencia-de-preso-para-sao-paulo.htm",
+    "photo": "https://imguol.com/c/home/f7/2026/08/10/paulo-cesar-souza-nascimento-junior-o-paulinho-neblina-1786389261096_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "'Uma terapia vai bem': Márcia Sensitiva ajuda mulher a se encontrar",
+    "link": "https://www.uol.com.br/universa/noticias/redacao/2026/08/10/daniela-e-gabriela-no-qee.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/31/2026/08/07/daniela-demito-marcia-sensitiva-e-gabriela-demito-no-que-energia-e-essa-1786123034393_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Renovação de Memphis está 'avançada', mas não foi fechada, diz diretor",
+    "link": "https://www.uol.com.br/flash/?c=3386faf892051defbeb8959f8fb6ee20260810",
+    "photo": "https://imguol.com/c/esporte/4a/2026/08/07/memphis-depay-vive-impassse-sobre-renovacao-com-o-corinthians-1786077541579_v2_450x337.jpg",
+    "source": "UOL",
+    "is_main": true,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Meta, Google e TikTok devem enfrentar processos por vício em redes sociais nos EUA",
+    "link": "https://www.uol.com.br/tilt/noticias/reuters/2026/08/10/tribunal-dos-eua-decide-que-meta-e-outras-empresas-de-tecnologia-devem-enfrentar-milhares-de-processos-sobre-vicio-em-redes-sociais.htm",
+    "photo": "https://imguol.com/c/noticias/08/2026/07/17/logotipo-da-meta-porte-de-versailles-em-paris-franca11-de-junho-de-2025reutersgonzalo-fuentes-1784311788915_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -5239,50 +5279,5 @@
         "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/09/abel-ve-palmeiras-pouco-inspirado-e-diz-que-inter-estacionou-o-onibus.ghtm"
       }
     ]
-  },
-  {
-    "title": "Tamara Klink se retrata após pedido para não comprarem seu livro: 'Precisamos da leitura'",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/09/tamara-klink-se-retrata-apos-pedir-que-leitores-parassem-de-comprar-livro.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/b1/2023/10/04/historias-do-mar---tamara-klink---foto-2-1696433564932_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Lista de Flávio para candidatos ao Senado tem 15% de mulheres e 30% do centrão",
-    "link": "https://www1.folha.uol.com.br/poder/2026/08/lista-de-flavio-bolsonaro-para-candidatos-ao-senado-tem-15-de-mulheres-e-30-do-centrao.shtml",
-    "photo": "https://imguol.com/c/noticias/c5/2026/08/02/o-candidato-a-presidente-flavio-bolsonaro-em-convencao-do-partido-liberal-em-sao-paulo-1785712776218_v2_300x225.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Flávio escreve carta a Bolsonaro e chora após ter visita negada no Dia dos Pais",
-        "link": "https://www1.folha.uol.com.br/poder/2026/08/flavio-escreve-carta-a-bolsonaro-chora-e-diz-que-proibir-visita-no-dia-dos-pais-e-desumano.shtml"
-      }
-    ]
-  },
-  {
-    "title": "'Sou um pai carinhoso', diz Cauã Reymond sobre criação da filha",
-    "link": "https://f5.folha.uol.com.br/celebridades/2026/08/sou-um-pai-carinhoso-diz-caua-reymond-a-criacao-da-filha-adolescente.shtml",
-    "photo": "https://imguol.com/c/home/e9/2026/08/09/sou-um-pai-carinhoso-diz-caua-reymond-a-criacao-da-filha-1786273670913_v2_300x225.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Lucas Lima posta vídeo raro com o filho e agradece Sandy",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/09/lucas-lima-mostra-filho-de-12-anos-e-agradece-a-sandy.ghtm",
-    "photo": "https://imguol.com/c/home/f4/2026/08/09/lucas-lima-1786281512423_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
   }
 ]
