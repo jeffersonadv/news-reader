@@ -350,14 +350,19 @@
     "relateds": []
   },
   {
-    "title": "Quaest: Lula e Flávio voltam a ficar empatados no segundo turno",
+    "title": "Quaest: Lula e Flávio voltam a ficar tecnicamente empatados no 2º turno",
     "link": "https://noticias.uol.com.br/eleicoes/2026/08/14/quaest-presidencial-agosto.ghtm",
     "photo": "",
     "source": "UOL",
     "is_main": true,
     "is_carousel": true,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Agregador de pesquisas do UOL: campanha começa com distância de 4 pontos entre Lula e Flávio",
+        "link": "https://noticias.uol.com.br/eleicoes/2026/08/14/agregador-campanha-comeca-com-distancia-de-4-pontos-entre-lula-e-flavio.ghtm"
+      }
+    ]
   },
   {
     "title": "Sua muito até parado? Pode ser mais do que só calor ou nervoso",
@@ -489,19 +494,9 @@
     ]
   },
   {
-    "title": "PVC: Fluminense deixa jogador que comemorou demissão de Zubeldía fora contra o Palmeiras",
-    "link": "https://www.uol.com.br/esporte/colunas/pvc/2026/08/14/fluminense-deixa-riquelme-fora-contra-o-palmeiras-apos-saida-de-zubeldia.htm",
-    "photo": "https://imguol.com/c/esporte/b5/2025/02/08/ayrton-lucas-e-riquelme-felipe-em-acao-durante-jogo-entre-fluminense-e-flamengo-pelo-campeonato-carioca-1739047866350_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Vôlei brasileiro muda regras e exige teste genético que bane mulheres trans",
     "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/08/14/volei-brasileiro-muda-regras-e-passa-a-exigir-teste-genetico-de-atletas.ghtm",
-    "photo": "https://imguol.com/c/esporte/29/2026/03/01/tifanny-comemora-ponto-marcado-pelo-osasco-1772374299755_v2_300x225.jpg",
+    "photo": "https://imguol.com/c/home/aa/2022/04/25/tifanny-abreu-em-ensaio-fotografico-1650896817003_300x225.jpg?98222",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -515,6 +510,16 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Justiça suspende edital da Prefeitura de SP para entregar gestão de escolas a entidades",
+    "link": "https://www1.folha.uol.com.br/educacao/2026/08/justica-suspende-edital-da-prefeitura-de-sp-para-entregar-gestao-de-escolas-a-entidades.shtml",
+    "photo": "https://imguol.com/c/home/69/2026/08/14/o-prefeito-ricardo-nunes-e-o-secretario-de-educacao-fernando-padula-em-visita-a-escola-municipal-1786745467298_v2_300x225.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": false,
     "is_video": false,
     "relateds": []
   },
@@ -534,19 +539,14 @@
     ]
   },
   {
-    "title": "Pixbet usava CPF de mortos, laranjas e offshore para lavar dinheiro, diz PF",
-    "link": "https://noticias.uol.com.br/colunas/artur-rodrigues/2026/08/14/pixbet-usava-cpf-de-mortos-laranjas-e-offshore-para-lavar-dinheiro-diz-pf.htm",
+    "title": "Investigação sobre Lulinha deixa Mendonça e STF à beira de crise",
+    "link": "https://www.uol.com.br/flash/?c=5f5ad74d51bcff2edd698937eeb981920260814",
     "photo": "",
     "source": "UOL",
-    "is_main": true,
+    "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": [
-      {
-        "title": "Pixbet controla prefeitura e apoia pai de Motta e mais 5 nas eleições da Paraíba",
-        "link": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/08/14/pixbet-alvo-da-pf-controla-prefeitura-e-apoia-pai-de-motta-e-mais-5-nas-eleicoes-da-paraiba.htm"
-      }
-    ]
+    "relateds": []
   },
   {
     "title": "Douglas Ruas (PL) diz desaprovar gestão Castro no RJ e poupa aliados investigados",
@@ -598,9 +598,9 @@
     "relateds": []
   },
   {
-    "title": "Tênis casual Olympikus está por R$ 153; projetor de vídeos sai a R$ 180",
+    "title": "Purificador Midea com água gelada tem desconto de 30%",
     "link": "https://www.uol.com.br/guia-de-compras/ao-vivo/2025/06/18/monitor-de-ofertas-uol.htm",
-    "photo": "https://imguol.com/c/guia-de-compras/13/2026/08/14/olympikus-only-2-azul-1786710769373_v2_150x112.png",
+    "photo": "https://imguol.com/c/guia-de-compras/98/2026/07/10/purificador-de-agua-midea-branco-slim-pure-jdd2580tw-1783733996993_v2_150x112.png",
     "source": "UOL",
     "is_main": true,
     "is_carousel": true,
@@ -656,17 +656,22 @@
     ]
   },
   {
-    "title": "Em busca do quarto mandato, Lula aumenta participação no bastidor da campanha",
-    "link": "https://noticias.uol.com.br/colunas/tatiana-farah/2026/08/14/atras-do-4-mandato-lula-aumenta-participacao-no-bastidor-da-campanha.htm",
+    "title": "Pixbet usava CPF de mortos, laranjas e offshore para lavar dinheiro, diz PF",
+    "link": "https://noticias.uol.com.br/colunas/artur-rodrigues/2026/08/14/pixbet-usava-cpf-de-mortos-laranjas-e-offshore-para-lavar-dinheiro-diz-pf.htm",
     "photo": "",
     "source": "UOL",
-    "is_main": false,
+    "is_main": true,
     "is_carousel": false,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Pixbet controla prefeitura e apoia pai de Motta e mais 5 nas eleições da Paraíba",
+        "link": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/08/14/pixbet-alvo-da-pf-controla-prefeitura-e-apoia-pai-de-motta-e-mais-5-nas-eleicoes-da-paraiba.htm"
+      }
+    ]
   },
   {
-    "title": "Patrimônio de Caiado passa de R$ 52 milhões e mais que dobra em quatro anos",
+    "title": "Patrimônio de Caiado passa de R$ 52 mi; mais que dobra em 4 anos",
     "link": "https://noticias.uol.com.br/eleicoes/2026/08/14/patrimonio-de-caiado-passa-de-r-52-mi-e-mais-que-dobra-em-4-anos.ghtm",
     "photo": "",
     "source": "UOL",
@@ -685,10 +690,20 @@
     ]
   },
   {
-    "title": "Livro de Tamara Klink passa a vender mais após autora pedir para não o comprarem",
-    "link": "https://www1.folha.uol.com.br/colunas/walter-porto/2026/08/livro-de-tamara-klink-passa-a-vender-mais-apos-autora-pedir-para-nao-o-comprarem.shtml",
-    "photo": "https://imguol.com/c/splash/37/2026/08/10/tamara-klink-e-seu-livro-bom-dia-inverno-1786363566465_v2_300x225.jpg",
+    "title": "Rede que promovia violência no Discord usou quatro plataformas para articular ações",
+    "link": "https://www1.folha.uol.com.br/cotidiano/2026/08/rede-que-promovia-violencia-no-discord-usou-quatro-plataformas-para-articular-acoes-e-divulgar-conteudo.shtml",
+    "photo": "",
     "source": "Folha",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Marco Aurélio Cunha é alvo de gangue do quebra-vidro em SP e fratura cinco costelas",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/14/marco-aurelio-cunha-ocorrencia-sp.ghtm",
+    "photo": "https://imguol.com/c/esporte/2f/2019/07/23/marco-aurelio-cunha-e-coordenador-de-futebol-feminino-da-cbf-1563920001860_v2_300x225.jpg",
+    "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
@@ -950,6 +965,16 @@
     "relateds": []
   },
   {
+    "title": "PVC: Fluminense deixa jogador que comemorou demissão de Zubeldía fora contra o Palmeiras",
+    "link": "https://www.uol.com.br/esporte/colunas/pvc/2026/08/14/fluminense-deixa-riquelme-fora-contra-o-palmeiras-apos-saida-de-zubeldia.htm",
+    "photo": "https://imguol.com/c/esporte/b5/2025/02/08/ayrton-lucas-e-riquelme-felipe-em-acao-durante-jogo-entre-fluminense-e-flamengo-pelo-campeonato-carioca-1739047866350_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Brasileira é morta pelo filho de 15 anos em Portugal",
     "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/14/morte-brasileira-ifilho-portugal.ghtm",
     "photo": "https://imguol.com/c/noticias/fd/2026/08/14/gabriela-barbosa-morreu-assassinada-pelo-proprio-filho-segundo-a-policia-portuguesa-1786714502662_v2_300x225.jpg",
@@ -1005,16 +1030,6 @@
     "relateds": []
   },
   {
-    "title": "Ana Maria alfineta lente de contato em dente de convidado: 'Piano'",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/14/ana-maria-alfineta-lente-de-contato-em-dente-de-convidado-piano-na-boca.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/5c/2026/08/14/ana-maria-alfineta-lentes-de-contato-de-convidado-no-mais-voce-1786717755535_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Xuxa anuncia quarto show da turnê 'O Último Voo da Nave' em SP",
     "link": "https://www1.folha.uol.com.br/ilustrada/2026/08/xuxa-anuncia-quarto-show-da-turne-o-ultimo-voo-da-nave-em-sao-paulo.shtml",
     "photo": "https://imguol.com/c/splash/e2/2026/07/31/xuxa-na-turne-o-ultimo-voo-da-nave-1785511305176_v2_300x225.jpg",
@@ -1030,20 +1045,20 @@
     ]
   },
   {
-    "title": "Brasileira casada com soldado americano é deportada dos EUA, mas depois levada de volta",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/14/brasileira-e-retirada-de-voo-de-deportacao-e-volta-aos-eua.ghtm",
-    "photo": "https://imguol.com/c/home/35/2026/08/14/maisa-lopes-eliaser-e-casada-com-um-soldado-norte-americano-1786722827463_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Brasileiro morre após sofrer acidente enquanto esquiava na Argentina",
     "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/14/brasileiro-morre-apos-sofrer-acidente-enquanto-esquiava-na-argentina.ghtm",
     "photo": "https://imguol.com/c/home/75/2026/08/14/a-empresa-da-qual-tiago-era-socio-divulgou-uma-nota-de-pesar-sobre-a-morte-do-empresario-1786735542101_v2_300x225.jpg?1786735548148",
     "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "São Paulo limita bikes e autopropelidos a 20 km/h em ciclovias; veja as novas regras",
+    "link": "https://www1.folha.uol.com.br/cotidiano/2026/08/sao-paulo-limita-bikes-e-autopropelidos-a-20-kmh-em-ciclovias-veja-novas-regras.shtml",
+    "photo": "https://imguol.com/c/home/7c/2026/08/14/ciclistas-em-bicicleta-eletrica-e-comum-circulam-na-ciclovia-da-avenida-paulista-em-sao-paulo-1786744434518_v2_300x225.jpg",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
@@ -1060,9 +1075,9 @@
     "relateds": []
   },
   {
-    "title": "Em SP, influenciador é condenado por difamar ex com perfis falsos",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/14/influenciador-e-condenado-por-difamar-ex-com-perfis-falsos-em-sp.ghtm",
-    "photo": "https://imguol.com/c/home/55/2026/08/14/o-influenciador-victor-oliveira-condenado-por-difamar-o-ex-namorado-em-perfis-falsos-1786741812105_v2_300x225.png",
+    "title": "'Ao me ver, chore': a história das 'pedras da fome' da Europa",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/deutschewelle/2026/08/14/ao-me-ver-chore-a-historia-por-tras-das-pedras-da-fome-da-europa.htm",
+    "photo": "https://imguol.com/c/noticias/7d/2026/08/14/pedras-como-esta-no-rio-elba-trazem-as-marcas-nos-niveis-da-agua-em-anos-diferentes-1786721614445_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1080,34 +1095,9 @@
     "relateds": []
   },
   {
-    "title": "Faça você mesmo: kit de brocas e ponteiras da Bosch está com 57% off",
-    "link": "https://www.uol.com.br/flash/?c=b6f0a4ead74aa82959ca41edaba5ce2420260813",
-    "photo": "https://imguol.com/c/guia-de-compras/07/2026/08/13/faca-voce-mesmo-este-conjunto-de-brocas-ajuda-em-reparos-e-instalacoes-1786630716552_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Indicado para treinos, tênis Under Armour tem 33% off",
-        "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/14/indicado-para-musculacao-e-crossfit-tenis-da-under-armour-tem-33-off.ghtm"
-      }
-    ]
-  },
-  {
-    "title": "Vendas de carros chineses estão em alta em quase todos os lugares, exceto na China",
-    "link": "https://www1.folha.uol.com.br/mercado/2026/08/vendas-de-carros-chineses-estao-em-alta-em-quase-todos-os-lugares-exceto-no-proprio-pais.shtml",
-    "photo": "https://imguol.com/c/home/f8/2026/08/14/carros-chineses-1786728916657_v2_300x225.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Homem agride idosa que usava muleta e rouba bolsa em MG",
-    "link": "https://www.uol.com.br/flash/?c=8bf611215147254e15f9a7541041f1a120260814",
-    "photo": "https://imguol.com/c/home/56/2026/08/14/idosa-roubada-1786735170195_v2_300x225.png",
+    "title": "Tênis Adidas Urban Court sai por apenas R$ 162 para leitores do UOL",
+    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/14/tenis-adidas-urban-court-sai-por-r-162-para-leitores-do-uol-com-cupom.ghtm",
+    "photo": "https://imguol.com/c/guia-de-compras/59/2026/08/14/tenis-urban-court-1786720091343_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1115,19 +1105,34 @@
     "relateds": []
   },
   {
-    "title": "Fifa define data para divulgar locais de jogos do Brasil na Copa Feminina",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/14/fifa-calendario-copa-feminina-pre-repescagem.ghtm",
-    "photo": "https://imguol.com/c/esporte/6a/2026/04/12/kerolin-apos-marcar-na-goleada-por-5-a-1-da-selecao-feminina-sobre-a-coreia-do-sul-1775965465582_v2_450x337.jpg",
+    "title": "Turista de SP está desaparecido há uma semana após deixar hostel em Florianópolis",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/14/turista-de-sp-desaparece-apos-deixar-hostel-em-bairro-de-florianopolis.ghtm",
+    "photo": "https://imguol.com/c/noticias/14/2026/08/14/o-bancario-vinicius-valente-da-silva-desapareceu-em-florianopolis-1786728316135_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Em SP, influenciador é condenado por difamar ex com perfis falsos",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/14/influenciador-e-condenado-por-difamar-ex-com-perfis-falsos-em-sp.ghtm",
+    "photo": "https://imguol.com/c/home/55/2026/08/14/o-influenciador-victor-oliveira-condenado-por-difamar-o-ex-namorado-em-perfis-falsos-1786741812105_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Holandês vence, e Fonseca conhece adversário da estreia em Cincinnati (EUA)",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/08/14/fonseca-adversario-masters-1000-cincinnati-quem-e.ghtm",
+    "photo": "https://imguol.com/c/esporte/56/2026/08/07/joao-fonseca-na-terceira-rodada-do-masters-1000-de-montreal-em-2026-1786148622546_v2_450x337.jpg",
     "source": "UOL",
     "is_main": true,
     "is_carousel": false,
     "is_video": false,
-    "relateds": [
-      {
-        "title": "Copa do Mundo Feminina, que será no Brasil, já registra 750 mil interessados em ingressos",
-        "link": "https://economia.uol.com.br/noticias/redacao/2026/08/14/copa-do-mundo-feminina-alcanca-750-mil-interessados-em-ingressos.htm"
-      }
-    ]
+    "relateds": []
   },
   {
     "title": "Reforço argentino do Vasco projeta duelo com Neymar: 'Um dos melhores'",
@@ -1170,9 +1175,9 @@
     "relateds": []
   },
   {
-    "title": "Atlético-MG anuncia contratação de Fred, que estava no Fenerbahce: 'A novela acabou'",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/14/fred-atletico-mg.ghtm",
-    "photo": "https://imguol.com/c/esporte/be/2026/08/14/fred-e-anunciado-pelo-atletico-mg-1786717559415_v2_300x225.jpg",
+    "title": "Memphis foi mais buscado no Google que presidenciáveis após não renovar",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/14/memphis-pesquisas-google.ghtm",
+    "photo": "https://imguol.com/c/esporte/16/2025/12/21/memphis-do-corinthians-em-acao-durante-jogo-contra-o-vasco-pela-final-da-copa-do-brasil-1766352945011_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1205,9 +1210,9 @@
     ]
   },
   {
-    "title": "Qual é a história e o elenco de 'Por Você'? Novela começa com morte trágica",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/14/qual-e-a-historia-e-o-elenco-de-por-voce-novela-comeca-com-morte-tragica.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/09/2026/08/13/juli-lucy-ramos-e-bela-juli-lucy-ramos-em-por-voce-1786669694450_v2_450x337.jpg",
+    "title": "Maglore une Lô Borges e Palestina em disco: 'A gente sempre escreveu sobre tudo'",
+    "link": "https://www.uol.com.br/flash/?c=3a2c9c1431629d634028958cf0185920260814",
+    "photo": "https://imguol.com/c/toca/1b/2026/08/14/maglore-1786737020421_v2_450x337.jpg",
     "source": "UOL",
     "is_main": true,
     "is_carousel": false,
@@ -1475,16 +1480,6 @@
     "relateds": []
   },
   {
-    "title": "Tênis Adidas Urban Court sai por apenas R$ 162 para leitores do UOL",
-    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/14/tenis-adidas-urban-court-sai-por-r-162-para-leitores-do-uol-com-cupom.ghtm",
-    "photo": "https://imguol.com/c/guia-de-compras/59/2026/08/14/tenis-urban-court-1786720091343_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Huawei Band 11 Pro reúne recursos raros entre smartbands; veja nosso teste",
     "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/14/quase-um-smartwatch-smartband-da-huawei-se-destaca-por-funcoes-e-bateria.htm",
     "photo": "https://imguol.com/c/noticias/a2/2026/08/11/o-smartwatch-huawei-band-11-pro-1786479798804_v2_300x225.jpg",
@@ -1610,9 +1605,19 @@
     "relateds": []
   },
   {
+    "title": "Tribunal da França bloqueia lei que proibia redes sociais para menores",
+    "link": "https://www.uol.com.br/tilt/noticias/reuters/2026/08/14/tribunal-da-franca-suspende-proibicao-do-uso-de-redes-sociais-para-menores-de-15-anos.htm",
+    "photo": "https://imguol.com/c/noticias/ad/2026/04/30/adolescente-de-14-anos-mexe-no-celular-redes-sociais-1777574747153_v2_450x253.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Nvidia faz parcerias de meio trilhão para financiamento de infraestrutura de IA",
     "link": "https://www.uol.com.br/tilt/noticias/reuters/2026/08/14/nvidia-faz-parcerias-de-meio-trilhao-para-financinanciamento-de-chips.htm",
-    "photo": "https://imguol.com/c/noticias/c3/2026/08/10/ilustracao-com-o-logotipo-da-nvidia11-de-junho-de-2026reutersdado-ruvic-1786383262956_v2_450x253.jpg",
+    "photo": "https://imguol.com/c/noticias/c3/2026/08/10/ilustracao-com-o-logotipo-da-nvidia11-de-junho-de-2026reutersdado-ruvic-1786383262956_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1623,16 +1628,6 @@
     "title": "IA chinesa rivaliza com Mythos 5, da Anthropic, em teste de cibersegurança",
     "link": "https://www.uol.com.br/tilt/noticias/reuters/2026/08/14/chinesa-zai-diz-que-novo-modelo-se-aproxima-do-mythos-5-da-anthropic.htm",
     "photo": "https://imguol.com/c/noticias/c6/2026/08/14/sede-da-zhipu-ai-atualmente-conhecida-como-zai-em-pequim-na-china-1786731684074_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Tribunal da França bloqueia lei que proibia redes sociais para menores",
-    "link": "https://www.uol.com.br/tilt/noticias/reuters/2026/08/14/tribunal-da-franca-suspende-proibicao-do-uso-de-redes-sociais-para-menores-de-15-anos.htm",
-    "photo": "https://imguol.com/c/noticias/84/2026/06/10/crianca-com-fone-de-ouvido-jogando-em-celular-1781092408430_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1745,6 +1740,116 @@
     "photo": "",
     "source": "UOL",
     "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Em busca do quarto mandato, Lula aumenta participação no bastidor da campanha",
+    "link": "https://noticias.uol.com.br/colunas/tatiana-farah/2026/08/14/atras-do-4-mandato-lula-aumenta-participacao-no-bastidor-da-campanha.htm",
+    "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Livro de Tamara Klink passa a vender mais após autora pedir para não o comprarem",
+    "link": "https://www1.folha.uol.com.br/colunas/walter-porto/2026/08/livro-de-tamara-klink-passa-a-vender-mais-apos-autora-pedir-para-nao-o-comprarem.shtml",
+    "photo": "https://imguol.com/c/splash/37/2026/08/10/tamara-klink-e-seu-livro-bom-dia-inverno-1786363566465_v2_300x225.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Ana Maria alfineta lente de contato em dente de convidado: 'Piano'",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/14/ana-maria-alfineta-lente-de-contato-em-dente-de-convidado-piano-na-boca.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/5c/2026/08/14/ana-maria-alfineta-lentes-de-contato-de-convidado-no-mais-voce-1786717755535_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Brasileira casada com soldado americano é deportada dos EUA, mas depois levada de volta",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/14/brasileira-e-retirada-de-voo-de-deportacao-e-volta-aos-eua.ghtm",
+    "photo": "https://imguol.com/c/home/35/2026/08/14/maisa-lopes-eliaser-e-casada-com-um-soldado-norte-americano-1786722827463_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Faça você mesmo: kit de brocas e ponteiras da Bosch está com 57% off",
+    "link": "https://www.uol.com.br/flash/?c=b6f0a4ead74aa82959ca41edaba5ce2420260813",
+    "photo": "https://imguol.com/c/guia-de-compras/07/2026/08/13/faca-voce-mesmo-este-conjunto-de-brocas-ajuda-em-reparos-e-instalacoes-1786630716552_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Indicado para treinos, tênis Under Armour tem 33% off",
+        "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/14/indicado-para-musculacao-e-crossfit-tenis-da-under-armour-tem-33-off.ghtm"
+      }
+    ]
+  },
+  {
+    "title": "Vendas de carros chineses estão em alta em quase todos os lugares, exceto na China",
+    "link": "https://www1.folha.uol.com.br/mercado/2026/08/vendas-de-carros-chineses-estao-em-alta-em-quase-todos-os-lugares-exceto-no-proprio-pais.shtml",
+    "photo": "https://imguol.com/c/home/f8/2026/08/14/carros-chineses-1786728916657_v2_300x225.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Homem agride idosa que usava muleta e rouba bolsa em MG",
+    "link": "https://www.uol.com.br/flash/?c=8bf611215147254e15f9a7541041f1a120260814",
+    "photo": "https://imguol.com/c/home/56/2026/08/14/idosa-roubada-1786735170195_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Fifa define data para divulgar locais de jogos do Brasil na Copa Feminina",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/14/fifa-calendario-copa-feminina-pre-repescagem.ghtm",
+    "photo": "https://imguol.com/c/esporte/6a/2026/04/12/kerolin-apos-marcar-na-goleada-por-5-a-1-da-selecao-feminina-sobre-a-coreia-do-sul-1775965465582_v2_450x337.jpg",
+    "source": "UOL",
+    "is_main": true,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Copa do Mundo Feminina, que será no Brasil, já registra 750 mil interessados em ingressos",
+        "link": "https://economia.uol.com.br/noticias/redacao/2026/08/14/copa-do-mundo-feminina-alcanca-750-mil-interessados-em-ingressos.htm"
+      }
+    ]
+  },
+  {
+    "title": "Atlético-MG anuncia contratação de Fred, que estava no Fenerbahce: 'A novela acabou'",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/14/fred-atletico-mg.ghtm",
+    "photo": "https://imguol.com/c/esporte/be/2026/08/14/fred-e-anunciado-pelo-atletico-mg-1786717559415_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Qual é a história e o elenco de 'Por Você'? Novela começa com morte trágica",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/14/qual-e-a-historia-e-o-elenco-de-por-voce-novela-comeca-com-morte-tragica.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/09/2026/08/13/juli-lucy-ramos-e-bela-juli-lucy-ramos-em-por-voce-1786669694450_v2_450x337.jpg",
+    "source": "UOL",
+    "is_main": true,
     "is_carousel": false,
     "is_video": false,
     "relateds": []
@@ -5196,111 +5301,6 @@
     "source": "UOL",
     "is_main": true,
     "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Defesa Civil alerta para onda de calor e risco de incêndio florestal em SP",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/13/veranico-sp-alerta.ghtm",
-    "photo": "",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Super El Niño pode atingir níveis históricos em 2026",
-        "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/13/super-el-nino-ganha-forca-e-pode-atingir-niveis-historicos-ainda-em-2026.ghtm"
-      }
-    ]
-  },
-  {
-    "title": "'Omissão não é uma opção diante da tragédia', diz Janja sobre lives no Discord",
-    "link": "https://noticias.uol.com.br/colunas/daniela-lima/2026/08/13/omissao-nao-e-uma-opcao-diante-da-tragedia-diz-janja-sobre-discord.htm",
-    "photo": "https://imguol.com/c/noticias/dd/2026/08/03/2ago2026---a-primeira-dama-janja-da-silva-em-convencao-do-pt-em-sp-em-que-lula-foi-oficializado-para-concorrer-a-reeleicao-1785776835908_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Veja números de Zubeldía no Fluminense e a repercussão da demissão do técnico",
-    "link": "https://www.uol.com.br/flash/?c=faa9198fb775ec9b5d9d22701754af20260813",
-    "photo": "https://imguol.com/c/esporte/97/2026/02/16/luis-zubeldia-tecnico-do-sao-paulo-1771280375288_v2_450x253.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Galatasaray faz oferta de quase R$ 270 milhões por Martinelli, diz NYT",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/13/galatasaray-faz-oferta-de-45-milhoes-de-euros-por-martinelli-diz-the-athletic.ghtm",
-    "photo": "https://imguol.com/c/esporte/1b/2025/04/16/gabriel-martinelli-comemora-gol-marcado-pelo-arsenal-contra-o-real-madrid-na-champions-1744837535125_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Homem de atestado é demitido após ir à Oktoberfest: 'Dançando de muletas'",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/13/justa-causa-decisao-homem-oktoberfest.ghtm",
-    "photo": "https://imguol.com/c/noticias/ca/2026/08/13/imagem-de-arquivo-mostra-oktoberfest-de-2025-1786626520671_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Explosão em porto de Roterdã, na Holanda, deixa um morto e vários feridos",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/13/explosao-em-porto-de-roterda.ghtm",
-    "photo": "https://imguol.com/c/noticias/ab/2026/08/13/uma-explosao-no-porto-de-roterda-deixou-um-morto-e-varios-feridos-1786626042548_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Guatemalteco morre após emergência médica em centro do ICE, nos EUA",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/13/guatemalteco-morre-apos-emergencia-medica-em-centro-do-ice.ghtm",
-    "photo": "https://imguol.com/c/noticias/dd/2026/07/07/cracha-de-um-agente-do-ice-e-visto-durante-uma-operacao-em-que-migrantes-sao-transferidos-para-um-aviao-1783463336671_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Atual surto de ebola na África se propaga mais rapidamente do que os anteriores",
-    "link": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/08/13/surto-de-ebola-se-propaga-mais-rapidamente-do-que-os-anteriores-e-oms-espera-reverter-tendencia.htm",
-    "photo": "https://imguol.com/c/noticias/96/2026/05/28/28mai26---em-meio-a-um-surto-de-ebola-mulher-usa-mascara-em-abrigo-no-campo-de-kigonze-em-bunia-no-leste-da-republica-democratica-do-congo-1779994018470_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "MST diz ser responsável por muro pichado da embaixada dos EUA em Brasília",
-    "link": "https://www1.folha.uol.com.br/mundo/2026/08/muro-da-embaixada-dos-eua-em-brasilia-e-pichado-com-criticas-ao-pais.shtml",
-    "photo": "https://imguol.com/c/home/8a/2026/08/13/embaixada-americana-e-vandalizada-em-brasilia-acao-teria-acontecido-durante-a-madrugada-1786634381956_v2_300x225.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Nelson Wilians vira arroz de festa em inquéritos",
-    "link": "https://noticias.uol.com.br/colunas/josias-de-souza/2026/08/13/nelson-wilians-virou-arroz-de-festa-em-inqueritos-ruidosos.htm",
-    "photo": "https://conteudo.imguol.com.br/c/home/c0/2019/04/01/josias-de-souza-1554165233531_100x100.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
     "is_video": false,
     "relateds": []
   }
