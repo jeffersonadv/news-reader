@@ -460,9 +460,9 @@
     "relateds": []
   },
   {
-    "title": "Libertadores do empate liberta das derrotas",
-    "link": "https://www.uol.com.br/esporte/colunas/pvc/2026/08/14/libertadores-do-empate-liberta-das-derrotas.htm",
-    "photo": "https://conteudo.imguol.com.br/c/home/40/2019/01/14/pvc-1547459239301_100x100.jpg",
+    "title": "Todo mundo já usa IA. O que acontece agora?",
+    "link": "https://www.uol.com.br/tilt/colunas/luiz-henrique-matos/2026/08/14/todo-mundo-ja-usa-ia-o-que-acontece-agora.ghtm",
+    "photo": "https://conteudo.imguol.com.br/c/home/5d/2026/05/05/luiz-henrique-matos-header-1777984279991_100x100.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -499,43 +499,48 @@
     "relateds": []
   },
   {
-    "title": "PT patrocina posts pró-governo, e PL impulsiona ataques a Lula nas redes",
+    "title": "PT paga postagens pró-governo, e PL impulsiona ataques a Lula nas redes",
     "link": "https://www1.folha.uol.com.br/poder/2026/08/pt-patrocina-posts-enaltecendo-governo-e-pl-impulsiona-conteudo-para-desgastar-lula.shtml",
     "photo": "https://imguol.com/c/home/6a/2026/08/14/da-esq-p-dir-o-presidente-lula-candidato-a-reeleicao-e-o-candidato-do-pl-flavio-bolsonaro---1786709463423_v2_300x225.jpg",
     "source": "Folha",
     "is_main": true,
     "is_carousel": false,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Lula aumenta participação no bastidor da campanha",
+        "link": "https://noticias.uol.com.br/colunas/tatiana-farah/2026/08/14/atras-do-4-mandato-lula-aumenta-participacao-no-bastidor-da-campanha.htm"
+      },
+      {
+        "title": "Projeto de Flávio explora caso do INSS",
+        "link": "https://www1.folha.uol.com.br/poder/2026/08/plano-de-flavio-bolsonaro-usa-escandalo-do-inss-para-desgastar-lula.shtml"
+      }
+    ]
   },
   {
     "title": "Daniela Lima: Corrupção no MA está no centro da apuração de assassinato sob investigação no STF",
     "link": "https://noticias.uol.com.br/colunas/daniela-lima/2026/08/14/corrupcao-esta-no-centro-da-apuracao-de-assassinato-sob-investigacao-no-stf.htm",
-    "photo": "",
+    "photo": "https://conteudo.imguol.com.br/c/home/4a/2025/09/10/daniela-lima-1757545302507_100x100.jpg?1757545310353",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Dino deve começar a se preocupar com atiradores, diz influencer de direita",
+        "link": "https://noticias.uol.com.br/colunas/daniela-lima/2026/08/14/dino-deve-comecar-a-se-preocupar-com-atiradores-diz-influencer-de-direita.htm"
+      }
+    ]
+  },
+  {
+    "title": "Inadimplência no Brasil bate recorde e atinge quase metade dos adultos",
+    "link": "https://economia.uol.com.br/noticias/redacao/2026/08/14/inadimplencia---julho-2026.ghtm",
+    "photo": "https://imguol.com/c/noticias/9f/2023/02/06/dividas-sobem-para-43-dos-inadimplentes-1675699113643_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
     "relateds": []
-  },
-  {
-    "title": "Sem Memphis, Diniz evita desculpa e cobra Corinthians para valorizar elenco",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/14/sem-memphis-diniz-evita-desculpa-e-cobra-corinthians-para-valorizar-elenco.ghtm",
-    "photo": "https://imguol.com/c/esporte/0b/2026/08/14/diniz-durante-empate-do-corinthians-com-o-rosario-central-na-argentina-1786682992293_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Estrela do Rosario Central, Di María 'culpa' vento após empate",
-        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/14/di-maria-almiron-rosario-corinthians.ghtm"
-      },
-      {
-        "title": "Corinthians repudia racismo contra Hugo Souza e cobra punição: 'Revoltante'",
-        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/14/corinthians-hugo-souza-racismo.ghtm"
-      }
-    ]
   },
   {
     "title": "Ministro de Minas e Energia devolveu R$ 6,3 mi após comprador de imóvel virar réu",
@@ -543,7 +548,7 @@
     "photo": "https://imguol.com/c/colunas/06/2026/08/13/ministro-de-minas-e-energia-alexandre-silveira-e-terreno-que-vendeu-a-lobista-por-r-63-milhoes-1786647912026_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
@@ -558,7 +563,7 @@
     "relateds": []
   },
   {
-    "title": "Candidato ao governo do RJ, Douglas Ruas será sabatinado por UOL e Folha hoje, às 12h30",
+    "title": "Candidato ao governo do RJ, Douglas Ruas (PL) será sabatinado por UOL e Folha às 12h30",
     "link": "https://noticias.uol.com.br/eleicoes/2026/08/13/douglas-ruas-e-sabatinado-por-uol-e-folha-amanha-as-12h30.ghtm",
     "photo": "https://imguol.com/c/noticias/f2/2026/04/23/deputado-douglas-ruas-presidente-da-alerj-recem-eleito-por-voto-indireto-concede-entrevista-coletiva-1776979014807_v2_300x225.jpg",
     "source": "UOL",
@@ -598,19 +603,9 @@
     "relateds": []
   },
   {
-    "title": "Neymar quer resgate da Vila em busca de conexão com torcida",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/14/missao-alcapao-neymar-quer-resgate-da-vila-em-busca-de-conexao-com-torcida.ghtm",
-    "photo": "https://imguol.com/c/esporte/30/2026/08/14/neymar-celebra-gol-durante-santos-x-macara-jogo-da-sul-americana-1786681232113_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Léo Derik, do Athletico, é condenado a 13 anos de prisão por estupro",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/14/leo-derik-do-athletico-pega-13-anos-de-prisao-por-estupro-de-ex-ficante.ghtm",
-    "photo": "https://imguol.com/c/esporte/b9/2025/05/31/leo-derik-lateral-do-athletico-1748717693456_v2_300x225.jpg",
+    "title": "Tênis casual Olympikus está por R$ 153; projetor de vídeos sai a R$ 180",
+    "link": "https://www.uol.com.br/guia-de-compras/ao-vivo/2025/06/18/monitor-de-ofertas-uol.htm",
+    "photo": "https://imguol.com/c/guia-de-compras/13/2026/08/14/olympikus-only-2-azul-1786710769373_v2_150x112.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -618,9 +613,9 @@
     "relateds": []
   },
   {
-    "title": "Por que as ações do BB desabaram mesmo com lucro bilionário",
-    "link": "https://economia.uol.com.br/noticias/redacao/2026/08/14/banco-do-brasil-impacto-balanco-mercado.ghtm",
-    "photo": "",
+    "title": "Rodrigo Caetano: CBF quer passar para a base dos clubes o molde do jogador ideal na seleção",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/14/caetano-selecao-busca-perfil-ideal-de-jogador-e-fara-imersao-na-base.ghtm",
+    "photo": "https://imguol.com/c/esporte/79/2026/08/13/rodrigo-caetano-coordenador-da-selecao-1786654009594_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -638,19 +633,9 @@
     "relateds": []
   },
   {
-    "title": "Drone entra na Letônia, aciona alerta e é abatido por caças da Otan",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/14/cacas-da-otan-abatem-drone-na-letonia-e-acionam-alerta-na-fronteira.ghtm",
-    "photo": "https://imguol.com/c/parceiros/8e/2026/05/07/incidente-em-rzekne-danificou-tanques-de-combustivel-mobilizou-forcas-de-seguranca-e-levou-ao-acionamento-de-cacas-da-otan-no-espaco-aereo-letao-1778154814690_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "MPF apura denúncia de 'vantagens indevidas' em entidade do 5G",
-    "link": "https://tab.uol.com.br/noticias/redacao/2026/08/14/mpf-apura-denuncia-de-vantagens-indevidas-em-entidade-bilionaria-do-5g.htm",
-    "photo": "",
+    "title": "Josimar: Após pedir para sair do Michelin, restaurante perde estrelas no guia",
+    "link": "https://www.uol.com.br/nossa/colunas/josimar-melo/2026/08/14/depois-de-pedir-para-sair-do-michelin-restaurante-perde-estrelas-no-guia.htm",
+    "photo": "https://imguol.com/c/entretenimento/f7/2026/08/13/le-suquet-1786649941085_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -658,23 +643,24 @@
     "relateds": []
   },
   {
-    "title": "Única sobrevivente, trigêmea perde pais e irmãs em terremoto na Colômbia",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/14/unica-sobrevivente-trigemea-perde-pais-e-irmas-em-terremoto-na-colombia.ghtm",
-    "photo": "https://imguol.com/c/noticias/df/2026/08/14/ana-maria-sobreviveu-ao-desastre-ao-se-proteger-debaixo-de-uma-mesa-de-madeira-macica-1786696686155_v2_300x225.jpg",
+    "title": "Mãe morre ao voltar a prédio para salvar filha em terremoto na Colômbia",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/14/mae-morre-ao-voltar-a-predio-para-salvar-filha-em-terremoto-na-colombia.ghtm",
+    "photo": "https://imguol.com/c/noticias/95/2026/08/14/magnolia-garcia-lugo-morreu-ao-tentar-salvar-filha-de-terremoto-na-colombia-1786711635703_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": [
-      {
-        "title": "Após 72 horas, buscas por sobreviventes diminuem",
-        "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/14/apos-72-horas-buscas-por-sobreviventes-diminuem-na-colombia.ghtm"
-      },
-      {
-        "title": "Com medo de saques, colombianos ainda dormem nas ruas",
-        "link": "https://www1.folha.uol.com.br/mundo/2026/08/com-medo-de-saques-colombianos-ainda-dormem-nas-ruas-dias-apos-terremoto.shtml"
-      }
-    ]
+    "relateds": []
+  },
+  {
+    "title": "Murilo Garavello: Pare (de verdade) para ler um livro",
+    "link": "https://tab.uol.com.br/colunas/missao-saber/2026/08/14/pare-de-verdade-pra-ler-um-livro.htm",
+    "photo": "https://imguol.com/c/noticias/3c/2026/08/09/julian-fuks-fala-de-habitos-de-leitura-no-missao-saber-1786328496344_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Jatinho de Vorcaro continuou voando após prisão do ex-banqueiro e fixa base no Paraguai",
@@ -683,6 +669,56 @@
     "source": "Folha",
     "is_main": false,
     "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Ferrari toma dianteira em inovações de 2026 e promete mais em retorno da Fórmula 1",
+    "link": "https://www.uol.com.br/esporte/colunas/pole-position/2026/08/14/formula-1-ferrari-atualizacoes.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/f2/2022/06/21/julianne-cerasoli-autor-colorida-1655820371335_v2_100x100.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Mercado da Bola: cinco brasileiros com futuro ainda em aberto na Europa",
+    "link": "https://www.uol.com.br/esporte/futebol/colunas/rafael-reis/2026/08/14/mercado-da-bola-5-brasileiros-com-futuro-em-aberto-na-europa.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/8a/2026/01/07/rafael-reis---colunista---janeiro2026-1767819644398_v2_100x100.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Flávio Bolsonaro atrofia confiança do eleitor ao usar 'bomba' no currículo",
+    "link": "https://noticias.uol.com.br/colunas/leonardo-sakamoto/2026/08/13/flavio-atrofia-confianca-do-eleitor-ao-usar-bomba-no-curriculo.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/1e/2026/01/07/leonardo-sakamoto---colunista-1767818290321_v2_100x100.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Lula grava programa eleitoral com João Campos para Pernambuco",
+    "link": "https://noticias.uol.com.br/colunas/tatiana-farah/2026/08/13/fim-do-dilema-lula-grava-programa-eleitoral-com-joao-campos.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/62/2026/05/15/tatiana-farah-1778882868920_100x100.png?1778882875545",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Por que é tão difícil para o Palmeiras criticar Abel Ferreira?",
+    "link": "https://www.uol.com.br/esporte/colunas/alicia-klein/2026/08/13/por-que-e-tao-dificil-para-o-palmeiras-criticar-abel.htm",
+    "photo": "https://conteudo.imguol.com.br/fa/2020/10/20/alicia-klein-150-1603243605874_100x100.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
@@ -807,20 +843,20 @@
     "relateds": []
   },
   {
-    "title": "Avisamos: plano de prefeito comunista faz aluguéis em Manhattan, em NY, dispararem",
-    "link": "https://noticias.uol.com.br/colunas/alexandre-borges/2026/08/13/alugueis-em-manhattan-disparam-sim-avisamos.htm",
-    "photo": "https://conteudo.imguol.com.br/c/home/a2/2025/11/20/alexandre-borges-1763663096379_100x100.png?1763663101104",
-    "source": "UOL",
+    "title": "É tarde demais para salvar a democracia liberal?",
+    "link": "https://www1.folha.uol.com.br/colunas/martinwolf/2026/08/e-tarde-demais-para-salvar-a-democracia-liberal.shtml",
+    "photo": "https://conteudo.imguol.com.br/c/home/a1/2015/07/01/martin-wolf-comentarista-chefe-de-economia-no-jornal-ingles-financial-times-1435792092102_100x100.jpg",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
   {
-    "title": "É tarde demais para salvar a democracia liberal?",
-    "link": "https://www1.folha.uol.com.br/colunas/martinwolf/2026/08/e-tarde-demais-para-salvar-a-democracia-liberal.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/a1/2015/07/01/martin-wolf-comentarista-chefe-de-economia-no-jornal-ingles-financial-times-1435792092102_100x100.jpg",
-    "source": "Folha",
+    "title": "Avisamos: plano de prefeito comunista faz aluguéis em Manhattan, em NY, dispararem",
+    "link": "https://noticias.uol.com.br/colunas/alexandre-borges/2026/08/13/alugueis-em-manhattan-disparam-sim-avisamos.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/a2/2025/11/20/alexandre-borges-1763663096379_100x100.png?1763663101104",
+    "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
@@ -847,86 +883,6 @@
     "relateds": []
   },
   {
-    "title": "Troca de comando na Gol: Andre Fehlauer assume como CEO da companhia aérea",
-    "link": "https://economia.uol.com.br/colunas/mariana-barbosa/2026/08/13/troca-de-comando-na-gol.htm",
-    "photo": "https://conteudo.imguol.com.br/c/home/8b/2025/03/21/mariana-barbosa-150-1742554794971_100x100.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Por que um a cada três Renault Kwid feitos no Brasil é vendido em Curitiba",
-    "link": "https://www.uol.com.br/carros/colunas/paula-gama/2026/08/13/por-que-um-a-cada-tres-renault-kwid-sao-vendidos-em-curitiba.htm",
-    "photo": "https://conteudo.imguol.com.br/8a/2021/05/12/paula-gama---autor-1620827756029_100x100.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Demissão de Zubeldía foi decisão amadora do Fluminense",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/13/decisao-amadora-diz-juca-kfouri-sobre-demissao-de-zubeldia-no-fluminense.ghtm",
-    "photo": "https://conteudo.imguol.com.br/49/2020/09/29/julio-gomes-150-1601411079441_100x100.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Vamos naturalizar as violências praticadas pelo Cerro Porteño?",
-    "link": "https://www.uol.com.br/esporte/colunas/milly-lacombe/2026/08/13/vamos-naturalizar-as-violencias-praticadas-pelo-cerro.htm",
-    "photo": "https://conteudo.imguol.com.br/03/2021/01/29/milly-lacombe-autor-2-1611928982961_100x100.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Licença para postar: cresce reação contra influencers de comida pelo mundo",
-    "link": "https://www.uol.com.br/nossa/colunas/rafael-tonon/2026/08/13/proibido-postar-cresce-a-reacao-contra-influencers-de-comida-pelo-mundo.htm",
-    "photo": "https://conteudo.imguol.com.br/64/2023/02/13/rafael-tonon---autor-1676312824115_80x80.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "O futebol não pode mais silenciar diante da violência contra as mulheres",
-    "link": "https://www.uol.com.br/ecoa/colunas/tony-marlon/2026/08/13/em-dias-de-jogo-violencia-contra-mulheres-de-15-a-29-anos-aumenta-44.htm",
-    "photo": "https://conteudo.imguol.com.br/c/home/27/2024/05/13/tony-marlon-1715623424849_100x100.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Verstappen gera dúvidas e será 'peça de dominó' no mercado de pilotos da Fórmula 1",
-    "link": "https://www.uol.com.br/esporte/colunas/pole-position/2026/08/13/verstappen-formula-1.htm",
-    "photo": "https://conteudo.imguol.com.br/c/home/f2/2022/06/21/julianne-cerasoli-autor-colorida-1655820371335_v2_100x100.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Por que é tão difícil para o Palmeiras criticar Abel?",
-    "link": "https://www.uol.com.br/esporte/colunas/alicia-klein/2026/08/13/por-que-e-tao-dificil-para-o-palmeiras-criticar-abel.htm",
-    "photo": "https://conteudo.imguol.com.br/fa/2020/10/20/alicia-klein-150-1603243605874_100x100.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Tosse seca e dor no peito são sinais de câncer de pulmão? Entenda a doença",
     "link": "https://www.uol.com.br/vivabem/noticias/redacao/2026/08/14/tosse-seca-e-dor-no-peito-sao-sinais-de-cancer-de-pulmao-entenda-a-doenca.htm",
     "photo": "https://imguol.com/c/noticias/64/2024/07/17/tosse-homem-tossindo-1721245415004_v2_300x300.png",
@@ -937,9 +893,9 @@
     "relateds": []
   },
   {
-    "title": "Orgia, nu frontal: todas as cenas 'proibidonas' de 'Jogada de Risco'",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/13/orgia-bdsm-nu-frontal-todas-as-cenas-proibidonas-de-jogada-de-risco.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/27/2026/08/13/bruna-griphao-e-caue-campos-em-cena-quente-de-jogada-de-risco-1786640936081_v2_300x225.png",
+    "title": "Halle Berry celebra 60 anos com ensaio sensual: 'Tô nem aí'",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/14/halle-berry-celebra-60-anos-com-ensaio-sensual-to-nem-ai.ghtm",
+    "photo": "https://imguol.com/c/splash/50/2026/08/14/halle-berry-celebra-60-anos-com-ensaio-sensual-1786707613406_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -947,9 +903,9 @@
     "relateds": []
   },
   {
-    "title": "Bunda de Virginia 'vai explodir', brinca amiga após harmonização",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/13/bunda-de-virginia-vai-explodir-brinca-amiga-apos-harmonizacao.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/09/2026/08/11/virginia-fonseca-faz-revisao-em-harmonizacao-glutea-1786493160447_v2_300x225.jpg",
+    "title": "Léo Derik, do Athletico-PR, é condenado a 13 anos de prisão por estupro",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/14/leo-derik-do-athletico-pega-13-anos-de-prisao-por-estupro-de-ex-ficante.ghtm",
+    "photo": "https://imguol.com/c/esporte/b9/2025/05/31/leo-derik-lateral-do-athletico-1748717693456_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -957,20 +913,10 @@
     "relateds": []
   },
   {
-    "title": "Bela e Flor Gil combinam biquínis em dia de praia em família",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/13/bela-e-flor-gil-combinam-biquinis-em-dia-de-praia-em-familia-gemeas.ghtm",
-    "photo": "https://imguol.com/c/home/dd/2026/08/13/mae-e-filha-bela-gil-e-flor-gil-usaram-biquinis-da-mesma-cor-na-praia-1786671481199_300x225.jpg",
+    "title": "Drone entra na Letônia, aciona alerta e é abatido por caças da Otan",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/14/cacas-da-otan-abatem-drone-na-letonia-e-acionam-alerta-na-fronteira.ghtm",
+    "photo": "https://imguol.com/c/parceiros/8e/2026/05/07/incidente-em-rzekne-danificou-tanques-de-combustivel-mobilizou-forcas-de-seguranca-e-levou-ao-acionamento-de-cacas-da-otan-no-espaco-aereo-letao-1778154814690_v2_300x225.jpg",
     "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Bruna Biancardi mostra detalhes do iate de R$ 120 milhões de Neymar",
-    "link": "https://f5.folha.uol.com.br/celebridades/2026/08/bruna-biancardi-mostra-detalhes-do-iate-de-r-120-milhoes-de-neymar-veja-video.shtml",
-    "photo": "https://imguol.com/c/esporte/2d/2026/07/14/enejota-o-novo-iate-de-neymar-1784047522547_v2_300x225.png",
-    "source": "Folha",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
@@ -982,14 +928,54 @@
     "photo": "https://imguol.com/c/esporte/6f/2026/08/14/o-boxeador-prichard-colon-em-combate-em-abril-de-2015-1786678810406_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
   {
-    "title": "Bolsa perde R$ 279 bi em 7 pregões: é hora de comprar ou vender?",
-    "link": "https://economia.uol.com.br/noticias/redacao/2026/08/14/bolsa-perde-r-279-bi-o-que-fazer.ghtm",
-    "photo": "https://imguol.com/c/noticias/a4/2023/10/16/bolsa-de-valores-b3-mercados-investimentos-investimento-acoes-acao-1697466740403_v2_300x225.jpg",
+    "title": "Francisco Gil posa sem camisa na Índia após perder 35 kg",
+    "link": "https://cenapop.uol.com.br/noticias/famosos/fran-gil-sem-camisa.html",
+    "photo": "https://imguol.com/c/splash/f2/2026/08/14/francisco-gil-posa-sem-camisa-na-india-1786710380576_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Paula Braun diz 'meu namoro sou eu' após separação de Solano",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/14/paula-braun-diz-que-meu-namoro-sou-eu-apos-separacao-de-solano.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/bb/2025/12/04/paula-braun-faz-reflexao-1764847088639_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Viih Tube descobre que filha está com piolho às vésperas de casamento",
+    "link": "https://www.uol.com.br/flash/?c=6a7f00904d797c0593917987",
+    "photo": "https://conteudo.imguol.com.br/c/flash/geral/5e/2026/08/14/viih-tube-descobriu-que-a-filha-lua-esta-com-piolho-1786708091450_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Cariúcha se oferece para substituir posto de Virginia na Grande Rio",
+    "link": "https://cenapop.uol.com.br/noticias/famosos/cariucha-rainha-grande-rio.html",
+    "photo": "https://imguol.com/c/entretenimento/f6/2024/08/09/cariucha-se-nega-a-tirar-foto-com-dado-dolabella-1723216756994_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "'Nos envergonha': o que botafoguenses falaram após goleada do Cienciano",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/14/o-que-falaram-botafogo-cienciano.ghtm",
+    "photo": "https://imguol.com/c/esporte/13/2026/08/14/jogadores-do-botafogo-lamentam-goleada-sofrida-para-o-cienciano-na-copa-sul-americana-1786678217966_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1017,24 +1003,24 @@
     "relateds": []
   },
   {
-    "title": "Testamos: vale a pena pagar mais de R$ 300 em uma garrafa térmica Le Creuset?",
-    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/14/garrafa-termica-le-creuset-une-estilo-e-funcionalidade-para-o-dia-a-dia.htm",
-    "photo": "https://imguol.com/c/guia-de-compras/f3/2026/08/13/garrafa-termica-otg-le-creuset-1786634941832_v2_300x225.jpg",
+    "title": "Huawei Band 11 Pro reúne recursos raros entre smartbands; veja nosso teste",
+    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/14/quase-um-smartwatch-smartband-da-huawei-se-destaca-por-funcoes-e-bateria.htm",
+    "photo": "https://imguol.com/c/noticias/a2/2026/08/11/o-smartwatch-huawei-band-11-pro-1786479798804_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
     "relateds": [
       {
-        "title": "O guia definitivo para montar seu cronograma capilar e salvar seus cabelos",
-        "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/14/mascaras-capilares-nao-sao-todas-iguais-como-montar-um-cronograma-capilar.ghtm"
+        "title": "Testamos: vale a pena pagar mais de R$ 300 em uma garrafa térmica Le Creuset?",
+        "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/14/garrafa-termica-le-creuset-une-estilo-e-funcionalidade-para-o-dia-a-dia.htm"
       }
     ]
   },
   {
-    "title": "Gustavo Gómez renova com o Palmeiras até dezembro de 2030",
-    "link": "https://www.uol.com.br/esporte/colunas/mercado-da-bola/2026/08/14/gustavo-gomez-renova-com-o-palmeiras-ate-dezembro-de-2030.htm",
-    "photo": "https://imguol.com/c/esporte/97/2026/04/19/gustavo-gomez-celebra-gol-em-palmeiras-x-athletico-pelo-brasileirao-1776640193681_v2_300x225.jpg",
+    "title": "Bolsa perde R$ 279 bi em 7 pregões: é hora de comprar ou vender?",
+    "link": "https://economia.uol.com.br/noticias/redacao/2026/08/14/bolsa-perde-r-279-bi-o-que-fazer.ghtm",
+    "photo": "https://imguol.com/c/noticias/a4/2023/10/16/bolsa-de-valores-b3-mercados-investimentos-investimento-acoes-acao-1697466740403_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1042,9 +1028,19 @@
     "relateds": []
   },
   {
-    "title": "Azul prevê corte de capacidade no 3º trimestre",
-    "link": "https://economia.uol.com.br/noticias/reuters/2026/08/14/azul-preve-novo-corte-de-capacidade-no-3-tri-antes-de-retomar-crescimento.htm",
+    "title": "Por que as ações do BB desabaram mesmo com lucro bilionário",
+    "link": "https://economia.uol.com.br/noticias/redacao/2026/08/14/banco-do-brasil-impacto-balanco-mercado.ghtm",
     "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Quem é Léo Derik, lateral do Athletico condenado a 13 anos por estupro",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/14/quem-e-leo-derik-athletico-condenado-estupro.ghtm",
+    "photo": "https://imguol.com/c/esporte/23/2026/08/14/leo-derik-lateral-do-athletico-durante-jogo-contra-o-amazonas-pela-serie-b-1786706991147_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1062,19 +1058,9 @@
     "relateds": []
   },
   {
-    "title": "O que é a IAI?: Itaú adota IA pra cativar cliente e fazer Pix para ele",
-    "link": "https://www.uol.com.br/tilt/noticias/redacao/2026/08/14/o-que-e-a-iai-itau-adota-ia-pra-cativar-cliente-e-fazer-pix-para-ele.ghtm",
-    "photo": "https://imguol.com/c/noticias/c9/2026/08/13/itau-muda-logo-em-agencia-para-lancar-sua-inteligencia-artificial-no-aplicativo-1786657078470_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Avaliação: Ford Territory amadurece com conforto e 'recheio' para encarar onda chinesa",
-    "link": "https://www.uol.com.br/carros/avaliacao/avaliacao-ford-territory.htm",
-    "photo": "https://imguol.com/c/entretenimento/f5/2026/08/13/ford-territory-titanium-2026-1786652464775_v2_300x225.jpg",
+    "title": "Brasileira é morta com mata-leão pelo filho de 15 anos em Portugal",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/14/morte-brasileira-ifilho-portugal.ghtm",
+    "photo": "https://imguol.com/c/noticias/fd/2026/08/14/gabriela-barbosa-morreu-assassinada-pelo-proprio-filho-segundo-a-policia-portuguesa-1786714502662_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1092,9 +1078,9 @@
     "relateds": []
   },
   {
-    "title": "Mais dois navios são atacados no Estreito de Hormuz em meio a impasse entre EUA e Irã",
-    "link": "https://noticias.uol.com.br/ultimas-noticias/reuters/2026/08/14/eua-alertam-ira-para-aumento-de-pressao-economica-mais-dois-navios-sao-atacados-no-estreito-de-ormuz.htm",
-    "photo": "https://imguol.com/c/noticias/ae/2026/08/09/estreito-de-hormuz-1786301414432_v2_300x225.jpg",
+    "title": "O que é a IAI? Itaú adota IA pra cativar cliente e fazer Pix para ele",
+    "link": "https://www.uol.com.br/tilt/noticias/redacao/2026/08/14/o-que-e-a-iai-itau-adota-ia-pra-cativar-cliente-e-fazer-pix-para-ele.ghtm",
+    "photo": "https://imguol.com/c/noticias/c9/2026/08/13/itau-muda-logo-em-agencia-para-lancar-sua-inteligencia-artificial-no-aplicativo-1786657078470_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1102,9 +1088,9 @@
     "relateds": []
   },
   {
-    "title": "Libertadores tem rodada de empates, e duelos ficam abertos para a volta",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/14/libertadores-oitavas-jogos-empatados.ghtm",
-    "photo": "https://imguol.com/c/esporte/1c/2026/08/12/arias-em-acao-durante-palmeiras-x-cerro-porteno-jogo-da-libertadores-1786578165436_v2_450x337.jpg",
+    "title": "Agência da CBF já analisa pré-acordo Lamacchia e Vasco por fair play",
+    "link": "https://www.uol.com.br/esporte/futebol/colunas/rodrigo-mattos/2026/08/14/agencia-da-cbf-ja-analisa-pre-acordo-lamacchia-e-vasco-por-fair-play.htm",
+    "photo": "https://imguol.com/c/esporte/2a/2024/11/14/pedrinho-presidente-do-vasco-em-entrevista-coletiva-1731611968562_v2_450x337.jpg",
     "source": "UOL",
     "is_main": true,
     "is_carousel": false,
@@ -1112,39 +1098,28 @@
     "relateds": []
   },
   {
-    "title": "Mercado da Bola: cinco brasileiros com futuro ainda em aberto na Europa",
-    "link": "https://www.uol.com.br/esporte/futebol/colunas/rafael-reis/2026/08/14/mercado-da-bola-5-brasileiros-com-futuro-em-aberto-na-europa.htm",
-    "photo": "https://imguol.com/c/esporte/59/2026/05/30/martinelli-em-acao-durante-psg-x-arsenal-final-da-champions-league-1780164373982_v2_450x253.jpg",
+    "title": "Sem Memphis, Diniz evita desculpa e cobra Corinthians para valorizar elenco",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/14/sem-memphis-diniz-evita-desculpa-e-cobra-corinthians-para-valorizar-elenco.ghtm",
+    "photo": "https://imguol.com/c/esporte/0b/2026/08/14/diniz-durante-empate-do-corinthians-com-o-rosario-central-na-argentina-1786682992293_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Estrela do Rosario Central, Di María 'culpa' vento após empate",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/14/di-maria-almiron-rosario-corinthians.ghtm"
+      },
+      {
+        "title": "Corinthians repudia racismo contra Hugo Souza e cobra punição: 'Revoltante'",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/14/corinthians-hugo-souza-racismo.ghtm"
+      }
+    ]
   },
   {
-    "title": "Algoz de Fonseca, Shelton vence compatriota e é bicampeão do Masters 1000 do Canadá",
-    "link": "https://www.uol.com.br/esporte/ultimas-noticias/afp/2026/08/13/algoz-de-fonseca-shelton-vence-compatriota-e-e-bicampeao-do-masters-1000-do-canada.htm",
-    "photo": "https://imguol.com/c/esporte/ca/2026/08/13/ben-shelton-comemora-contra-brandon-nakashima-na-final-do-masters-1000-de-montreal-1786672520943_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Iga Swiatek vence Elena Rybakina e conquista o WTA 1000 de Toronto",
-    "link": "https://www.uol.com.br/esporte/ultimas-noticias/afp/2026/08/13/iga-swiatek-vence-elena-rybakina-e-conquista-o-wta-1000-de-toronto.htm",
-    "photo": "https://imguol.com/c/esporte/8c/2026/08/13/iga-swiatek-vence-elena-rybakina-na-final-do-wta-1000-de-toronto-1786670083922_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Babi brilha na Alemanha e avança à final do Mundial de Ginástica Rítmica",
-    "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/08/13/barbara-domingos-brilha-na-alemanha-e-avanca-a-final-do-mundial.ghtm",
-    "photo": "https://imguol.com/c/esporte/46/2026/08/13/barbara-domingos-com-a-bola-no-mundial-de-ginastica-ritmica-2026-1786660494795_v2_300x300.jpg",
+    "title": "Neymar quer resgate da Vila em busca de conexão com torcida",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/14/missao-alcapao-neymar-quer-resgate-da-vila-em-busca-de-conexao-com-torcida.ghtm",
+    "photo": "https://imguol.com/c/esporte/30/2026/08/14/neymar-celebra-gol-durante-santos-x-macara-jogo-da-sul-americana-1786681232113_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -1154,7 +1129,17 @@
   {
     "title": "Por que Barcelona e Real Madrid já terão folga na 1ª rodada do Espanhol",
     "link": "https://www.uol.com.br/esporte/futebol/colunas/rafael-reis/2026/08/14/por-que-barcelona-e-real-madrid-ja-ganharam-folga-na-1-rodada-do-espanhol.htm",
-    "photo": "https://imguol.com/c/esporte/00/2026/08/10/endrick-em-acao-pelo-real-madrid-durante-amistoso-contra-o-ferencvaros-hun-1786401012624_v2_300x225.jpg",
+    "photo": "https://imguol.com/c/esporte/00/2026/08/10/endrick-em-acao-pelo-real-madrid-durante-amistoso-contra-o-ferencvaros-hun-1786401012624_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Gustavo Gómez renova com o Palmeiras até dezembro de 2030",
+    "link": "https://www.uol.com.br/esporte/colunas/mercado-da-bola/2026/08/14/gustavo-gomez-renova-com-o-palmeiras-ate-dezembro-de-2030.htm",
+    "photo": "https://imguol.com/c/esporte/97/2026/04/19/gustavo-gomez-celebra-gol-em-palmeiras-x-athletico-pelo-brasileirao-1776640193681_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1165,16 +1150,6 @@
     "title": "Ex-presidente da CBF, Caboclo costura acordo e embaralha eleição no São Paulo",
     "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/14/ex-presidente-da-cbf-costura-acordo-e-embaralha-a-eleicao-do-sao-paulo.ghtm",
     "photo": "https://imguol.com/c/esporte/dc/2026/08/13/rogerio-caboclo-ex-mandatario-da-cbf-disputa-a-presidencia-do-sao-paulo-1786674352178_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Ferrari toma dianteira em inovações de 2026 e promete mais em retorno da F1",
-    "link": "https://www.uol.com.br/esporte/colunas/pole-position/2026/08/14/formula-1-ferrari-atualizacoes.htm",
-    "photo": "https://imguol.com/c/esporte/07/2026/06/14/lewis-hamilton-da-ferrari-durante-o-gp-de-barcelona-1781445961252_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1242,9 +1217,9 @@
     "relateds": []
   },
   {
-    "title": "Linha 8-Diamante volta a funcionar após remoção de trem que descarrilou em SP",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/14/funcionamento-linha-diamante-pos-descarrilamento.ghtm",
-    "photo": "https://imguol.com/c/noticias/55/2025/03/06/a-viamobilidade-entregou-hoje-o-36-trem-para-operacao-nas-linhas-8-diamante-e-9-esmeralda-em-sao-paulo-1741290458444_v2_450x253.jpg",
+    "title": "MPF apura denúncia de 'vantagens indevidas' em entidade bilionária do 5G",
+    "link": "https://tab.uol.com.br/noticias/redacao/2026/08/14/mpf-apura-denuncia-de-vantagens-indevidas-em-entidade-bilionaria-do-5g.htm",
+    "photo": "https://imguol.com/c/parceiros/f0/2021/11/05/leilao-da-anatel-continua-nesta-sexta-5-governo-promete-5g-nas-capital-ate-julho-de-2022-1636109312487_v2_450x253.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -1252,9 +1227,9 @@
     "relateds": []
   },
   {
-    "title": "Parlamento da Suécia aprova redução da maioridade penal para 14 anos",
-    "link": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/08/13/parlamento-sueco-reduz-maioridade-penal-para-14-anos.htm",
-    "photo": "https://imguol.com/c/noticias/40/2026/08/13/parlamento-da-suecia-1786649487078_v2_300x300.png",
+    "title": "Ex-comandante de submarino ucraniano morre em explosão de bomba na Crimeia",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/14/ex-comandante-de-submarino-ucraniano-morre-em-bomba-na-crimeia.ghtm",
+    "photo": "https://imguol.com/c/noticias/8a/2026/08/14/robert-shageyev-ex-comandante-do-unico-submarino-da-marinha-da-ucrania-que-desertou-para-a-russia-1786692175462_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -1262,9 +1237,9 @@
     "relateds": []
   },
   {
-    "title": "Air India impõe testes antidrogas obrigatórios a pilotos após incidente em voo",
-    "link": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/08/13/air-india-impoe-testes-antidrogas-obrigatorios-a-pilotos-apos-incidente.htm",
-    "photo": "https://imguol.com/c/noticias/d2/2025/06/12/um-boeing-787-8-dreamliner-da-air-india-1749757086033_v2_300x300.jpg",
+    "title": "Chuvas torrenciais 'sem precedentes' deixam ao menos 8 mortos no Japão",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/08/14/chuvas-torrenciais-sem-precedentes-deixam-ao-menos-4-mortos-no-japao.htm",
+    "photo": "https://imguol.com/c/noticias/37/2026/08/14/14ago2026---japao-1786705681649_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -1272,9 +1247,9 @@
     "relateds": []
   },
   {
-    "title": "Equipes pedem silêncio para achar sobreviventes sob escombros na Colômbia",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/13/equipes-pedem-silencio-para-achar-sobreviventes-sob-escombros-na-colombia.ghtm",
-    "photo": "https://imguol.com/c/noticias/d8/2026/08/12/equipes-de-resgate-procuram-sobreviventes-entre-escombros-de-predios-destruidos-apos-um-terremoto-em-cali-na-colombia12-de-agosto-de-2026-reutersraquel-cunha-1786549168525_v2_300x300.jpg",
+    "title": "Russo é preso na Polônia suspeito de planejar morte de cidadão dos EUA",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/14/polonia-detem-suspeito-de-plano-russo-para-matar-americano.ghtm",
+    "photo": "https://imguol.com/c/noticias/6e/2025/09/10/primeiro-ministro-da-polonia-donald-tusk-em-reuniao-em-varsovia-apos-invasao-de-drones-russos-1757503001797_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -1297,6 +1272,26 @@
     ]
   },
   {
+    "title": "BC vê 'graves violações' e liquida administradora e financeira da Simpala",
+    "link": "https://economia.uol.com.br/noticias/redacao/2026/08/14/liquidacao---simpala-consorcios.ghtm",
+    "photo": "https://imguol.com/c/noticias/00/2026/08/14/simpala-consorcios-1786707274446_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Empresário é denunciado por violência sexual contra 11 adolescentes em RO",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/13/empresario-e-denunciado-por-violencia-sexual-contra-11-adolescentes-em-ro.ghtm",
+    "photo": "https://imguol.com/c/noticias/f6/2026/08/13/ministerio-publico-de-rondonia-1786647458628_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Bolívia lança plano para conter expansão de grupos criminosos do Brasil em seu território",
     "link": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/08/13/bolivia-lanca-plano-para-conter-expansao-de-grupos-criminosos-do-brasil.htm",
     "photo": "https://imguol.com/97/2025/06/26/pcc-em-pichacao-em-joinville-sc-1750929322631_v2_300x225.jpg",
@@ -1305,35 +1300,6 @@
     "is_carousel": false,
     "is_video": false,
     "relateds": []
-  },
-  {
-    "title": "Ex-comandante de submarino ucraniano morre em explosão de bomba na Crimeia",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/14/ex-comandante-de-submarino-ucraniano-morre-em-bomba-na-crimeia.ghtm",
-    "photo": "https://imguol.com/c/noticias/8a/2026/08/14/robert-shageyev-ex-comandante-do-unico-submarino-da-marinha-da-ucrania-que-desertou-para-a-russia-1786692175462_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "TSE suspende novas filiações após o caso de Flávio Bolsonaro",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/08/13/tse-suspende-processamento-de-novas-filiacoes-apos-caso-flavio-bolsonaro.ghtm",
-    "photo": "https://imguol.com/c/noticias/26/2020/07/06/fachada-do-tse-tribunal-superior-eleitoral-1594045418998_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Flávio diz que seu gabinete achou que e-mails do Missão eram spam",
-        "link": "https://www.uol.com.br/flash/?c=88302f5e15ce7ea5368012ea94908ce220260813"
-      },
-      {
-        "title": "Flávio Bolsonaro declara R$ 8,1 milhões em bens",
-        "link": "https://noticias.uol.com.br/eleicoes/2026/08/13/flavio-bolsonaro-registra-candidatura-a-presidencia-e-declara-bens.ghtm"
-      }
-    ]
   },
   {
     "title": "Furadeira e parafusadeira WAP é ideal para quem é o 'faz-tudo' da casa",
@@ -1456,16 +1422,6 @@
     "relateds": []
   },
   {
-    "title": "Indicado para crossfit e musculação, tênis da Under Armour tem 33% off hoje",
-    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/14/indicado-para-musculacao-e-crossfit-tenis-da-under-armour-tem-33-off.ghtm",
-    "photo": "https://imguol.com/c/guia-de-compras/99/2026/07/17/tenis-tribase-reps-under-armour-1784294977438_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "O guia definitivo para montar seu cronograma capilar e salvar seus cabelos",
     "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/14/mascaras-capilares-nao-sao-todas-iguais-como-montar-um-cronograma-capilar.ghtm",
     "photo": "https://imguol.com/c/entretenimento/c0/2026/02/25/ha-varias-maneiras-de-tratar-o-cabelo-fino-e-quebradico-1772033900048_v2_300x225.jpg",
@@ -1476,19 +1432,24 @@
     "relateds": []
   },
   {
-    "title": "5 produtos de skincare que 'bombam' no Japão e que você pode usar no Brasil",
-    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/13/testei-5-produtos-de-skincare-que-fazem-sucesso-no-japao-veja-o-que-vale.htm",
-    "photo": "https://imguol.com/c/guia-de-compras/24/2026/08/11/produtos-japoneses-prometem-hidratacao-controle-da-oleosidade-e-melhora-na-textura-da-pele-1786496852915_v2_300x225.jpg",
+    "title": "Faça você mesmo: kit de brocas e ponteiras da Bosch está com 57% off",
+    "link": "https://www.uol.com.br/flash/?c=b6f0a4ead74aa82959ca41edaba5ce2420260813",
+    "photo": "https://imguol.com/c/guia-de-compras/07/2026/08/13/faca-voce-mesmo-este-conjunto-de-brocas-ajuda-em-reparos-e-instalacoes-1786630716552_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": [
-      {
-        "title": "Quer uma TV 4K grande sem gastar muito? Testamos uma Philips de 50 polegadas",
-        "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/13/testamos-a-tv-philips-4k-7300-de-50-polegadas-e-custo-acessivel.htm"
-      }
-    ]
+    "relateds": []
+  },
+  {
+    "title": "Indicado para crossfit e musculação, tênis da Under Armour tem 33% off hoje",
+    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/14/indicado-para-musculacao-e-crossfit-tenis-da-under-armour-tem-33-off.ghtm",
+    "photo": "https://imguol.com/c/guia-de-compras/99/2026/07/17/tenis-tribase-reps-under-armour-1784294977438_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Esmalte escuro fortalece as unhas? Entenda o que acontece",
@@ -1561,6 +1522,16 @@
     "relateds": []
   },
   {
+    "title": "Ford Territory amadurece com conforto e 'recheio' para encarar onda chinesa",
+    "link": "https://www.uol.com.br/carros/avaliacao/avaliacao-ford-territory.htm",
+    "photo": "https://imguol.com/c/entretenimento/f5/2026/08/13/ford-territory-titanium-2026-1786652464775_v2_450x253.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "'Luz do obrigado': ator propõe novo item nos carros e ideia vai à Câmara",
     "link": "https://www.uol.com.br/carros/colunas/paula-gama/2026/08/14/ator-de-pantanal-propoe-luz-do-obrigado-nos-carros-ideia-vai-a-camara.htm",
     "photo": "https://imguol.com/c/entretenimento/72/2026/08/13/ator-marcos-winter-instalou-a-luz-do-obrigado-em-seu-fusca-de-forma-experimental-1786648794004_v2_300x300.jpg",
@@ -1571,9 +1542,9 @@
     "relateds": []
   },
   {
-    "title": "Discord sem lives é como se padaria não pudesse vender mais pães",
-    "link": "https://www.uol.com.br/tilt/colunas/carlos-affonso-de-souza/2026/08/14/discord-sem-lives-e-como-se-padaria-nao-pudesse-vender-mais-paes.htm",
-    "photo": "https://imguol.com/c/noticias/bc/2026/08/12/ilustracao-com-o-logotipo-do-discord11-de-setembro-de-2025reutersdado-ruvicilustracao-1786548856013_v2_450x253.jpg",
+    "title": "Apple treina modelo de IA próprio para o mercado na China",
+    "link": "https://www.uol.com.br/tilt/noticias/reuters/2026/08/14/apple-treina-modelo-proprio-de-ia-para-mercado-chines-com-apoio-do-alibaba-dizem-fontes.htm",
+    "photo": "https://imguol.com/c/noticias/b0/2025/05/06/pessoas-caminham-em-frente-a-loja-da-apple-em-nova-york-nos-eua-1746560432622_v2_450x253.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1581,9 +1552,9 @@
     "relateds": []
   },
   {
-    "title": "Apple envia alertas sobre \"ataques espiões\" na tela de iPhones; entenda",
-    "link": "https://www.uol.com.br/tilt/noticias/redacao/2026/08/14/alerta-da-apple-sobre-spyware-exige-acao-imediata-entenda.ghtm",
-    "photo": "https://imguol.com/c/noticias/f0/2026/08/14/aviso-de-ataque-spyware-em-iphones-1786706967404_v2_300x300.png",
+    "title": "Como os novos óculos inteligentes com IA ajudam pessoas com deficiência",
+    "link": "https://www.uol.com.br/tilt/noticias/afp/2026/08/14/como-os-novos-oculos-inteligentes-com-ia-ajudam-pessoas-com-deficiencia.htm",
+    "photo": "https://imguol.com/c/noticias/e0/2026/08/14/mulher-observa-capa-de-livro-usando-oculos-inteligentes-da-meta-1786714525195_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1591,9 +1562,9 @@
     "relateds": []
   },
   {
-    "title": "Como robôs inspirados em animais estão ajudando a explorar os oceanos",
-    "link": "https://www.uol.com.br/flash/?c=3e6110f9441d35264ee3c29e8473bcf220260811",
-    "photo": "https://imguol.com/c/noticias/ba/2018/07/09/o-sofi-peixe-robo-do-mit-1531173970419_300x300.jpg",
+    "title": "Nos EUA, Apple propõe cobrar taxas de até 15% em compras fora da App Store",
+    "link": "https://www.uol.com.br/tilt/noticias/redacao/2026/08/14/nos-eua-apple-propoe-cobrar-taxas-de-ate-15-em-compras-fora-da-app-store.ghtm",
+    "photo": "https://imguol.com/c/noticias/e7/2026/08/03/icone-da-app-store-a-loja-de-aplicativos-da-apple-1785759792170_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1603,17 +1574,7 @@
   {
     "title": "Você sabia? Dentro da Rocinha tem trilha com cachoeira, mata e belas vistas",
     "link": "https://www.uol.com.br/flash/?c=6a7e1abbd8fbcc036f8e895c",
-    "photo": "https://imguol.com/c/entretenimento/cc/2026/08/13/eduardo-trilha-na-rocinha-1786654195208_v2_450x253.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Depois de pedir para sair do Michelin, restaurante perde estrelas no guia",
-    "link": "https://www.uol.com.br/nossa/colunas/josimar-melo/2026/08/14/depois-de-pedir-para-sair-do-michelin-restaurante-perde-estrelas-no-guia.htm",
-    "photo": "https://imguol.com/c/entretenimento/f7/2026/08/13/le-suquet-1786649941085_v2_300x300.jpg",
+    "photo": "https://imguol.com/c/entretenimento/cc/2026/08/13/eduardo-trilha-na-rocinha-1786654195208_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1647,6 +1608,16 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "O futebol não pode mais silenciar diante da violência contra as mulheres",
+    "link": "https://www.uol.com.br/ecoa/colunas/tony-marlon/2026/08/13/em-dias-de-jogo-violencia-contra-mulheres-de-15-a-29-anos-aumenta-44.htm",
+    "photo": "https://imguol.com/2f/2023/05/31/mulher-vitima-violencia-domestica-1685540050797_v2_450x253.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
@@ -1704,6 +1675,314 @@
     "title": "Cloud Computing",
     "link": "https://www.uolhost.uol.com.br/uol-cloud-computing.html?utm_medium=uol.com.br&utm_source=interna&utm_campaign=rodapé_uol&utm_content=link_fixo&utm_term=cloud_computing",
     "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Libertadores do empate liberta das derrotas",
+    "link": "https://www.uol.com.br/esporte/colunas/pvc/2026/08/14/libertadores-do-empate-liberta-das-derrotas.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/40/2019/01/14/pvc-1547459239301_100x100.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Única sobrevivente, trigêmea perde pais e irmãs em terremoto na Colômbia",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/14/unica-sobrevivente-trigemea-perde-pais-e-irmas-em-terremoto-na-colombia.ghtm",
+    "photo": "https://imguol.com/c/noticias/df/2026/08/14/ana-maria-sobreviveu-ao-desastre-ao-se-proteger-debaixo-de-uma-mesa-de-madeira-macica-1786696686155_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Após 72 horas, buscas por sobreviventes diminuem",
+        "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/14/apos-72-horas-buscas-por-sobreviventes-diminuem-na-colombia.ghtm"
+      },
+      {
+        "title": "Com medo de saques, colombianos ainda dormem nas ruas",
+        "link": "https://www1.folha.uol.com.br/mundo/2026/08/com-medo-de-saques-colombianos-ainda-dormem-nas-ruas-dias-apos-terremoto.shtml"
+      }
+    ]
+  },
+  {
+    "title": "Troca de comando na Gol: Andre Fehlauer assume como CEO da companhia aérea",
+    "link": "https://economia.uol.com.br/colunas/mariana-barbosa/2026/08/13/troca-de-comando-na-gol.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/8b/2025/03/21/mariana-barbosa-150-1742554794971_100x100.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Por que um a cada três Renault Kwid feitos no Brasil é vendido em Curitiba",
+    "link": "https://www.uol.com.br/carros/colunas/paula-gama/2026/08/13/por-que-um-a-cada-tres-renault-kwid-sao-vendidos-em-curitiba.htm",
+    "photo": "https://conteudo.imguol.com.br/8a/2021/05/12/paula-gama---autor-1620827756029_100x100.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Demissão de Zubeldía foi decisão amadora do Fluminense",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/13/decisao-amadora-diz-juca-kfouri-sobre-demissao-de-zubeldia-no-fluminense.ghtm",
+    "photo": "https://conteudo.imguol.com.br/49/2020/09/29/julio-gomes-150-1601411079441_100x100.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Vamos naturalizar as violências praticadas pelo Cerro Porteño?",
+    "link": "https://www.uol.com.br/esporte/colunas/milly-lacombe/2026/08/13/vamos-naturalizar-as-violencias-praticadas-pelo-cerro.htm",
+    "photo": "https://conteudo.imguol.com.br/03/2021/01/29/milly-lacombe-autor-2-1611928982961_100x100.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Licença para postar: cresce reação contra influencers de comida pelo mundo",
+    "link": "https://www.uol.com.br/nossa/colunas/rafael-tonon/2026/08/13/proibido-postar-cresce-a-reacao-contra-influencers-de-comida-pelo-mundo.htm",
+    "photo": "https://conteudo.imguol.com.br/64/2023/02/13/rafael-tonon---autor-1676312824115_80x80.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Verstappen gera dúvidas e será 'peça de dominó' no mercado de pilotos da Fórmula 1",
+    "link": "https://www.uol.com.br/esporte/colunas/pole-position/2026/08/13/verstappen-formula-1.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/f2/2022/06/21/julianne-cerasoli-autor-colorida-1655820371335_v2_100x100.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Orgia, nu frontal: todas as cenas 'proibidonas' de 'Jogada de Risco'",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/13/orgia-bdsm-nu-frontal-todas-as-cenas-proibidonas-de-jogada-de-risco.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/27/2026/08/13/bruna-griphao-e-caue-campos-em-cena-quente-de-jogada-de-risco-1786640936081_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Bunda de Virginia 'vai explodir', brinca amiga após harmonização",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/13/bunda-de-virginia-vai-explodir-brinca-amiga-apos-harmonizacao.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/09/2026/08/11/virginia-fonseca-faz-revisao-em-harmonizacao-glutea-1786493160447_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Bela e Flor Gil combinam biquínis em dia de praia em família",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/13/bela-e-flor-gil-combinam-biquinis-em-dia-de-praia-em-familia-gemeas.ghtm",
+    "photo": "https://imguol.com/c/home/dd/2026/08/13/mae-e-filha-bela-gil-e-flor-gil-usaram-biquinis-da-mesma-cor-na-praia-1786671481199_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Bruna Biancardi mostra detalhes do iate de R$ 120 milhões de Neymar",
+    "link": "https://f5.folha.uol.com.br/celebridades/2026/08/bruna-biancardi-mostra-detalhes-do-iate-de-r-120-milhoes-de-neymar-veja-video.shtml",
+    "photo": "https://imguol.com/c/esporte/2d/2026/07/14/enejota-o-novo-iate-de-neymar-1784047522547_v2_300x225.png",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Testamos: vale a pena pagar mais de R$ 300 em uma garrafa térmica Le Creuset?",
+    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/14/garrafa-termica-le-creuset-une-estilo-e-funcionalidade-para-o-dia-a-dia.htm",
+    "photo": "https://imguol.com/c/guia-de-compras/f3/2026/08/13/garrafa-termica-otg-le-creuset-1786634941832_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "O guia definitivo para montar seu cronograma capilar e salvar seus cabelos",
+        "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/14/mascaras-capilares-nao-sao-todas-iguais-como-montar-um-cronograma-capilar.ghtm"
+      }
+    ]
+  },
+  {
+    "title": "Azul prevê corte de capacidade no 3º trimestre",
+    "link": "https://economia.uol.com.br/noticias/reuters/2026/08/14/azul-preve-novo-corte-de-capacidade-no-3-tri-antes-de-retomar-crescimento.htm",
+    "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Mais dois navios são atacados no Estreito de Hormuz em meio a impasse entre EUA e Irã",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/reuters/2026/08/14/eua-alertam-ira-para-aumento-de-pressao-economica-mais-dois-navios-sao-atacados-no-estreito-de-ormuz.htm",
+    "photo": "https://imguol.com/c/noticias/ae/2026/08/09/estreito-de-hormuz-1786301414432_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Libertadores tem rodada de empates, e duelos ficam abertos para a volta",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/14/libertadores-oitavas-jogos-empatados.ghtm",
+    "photo": "https://imguol.com/c/esporte/1c/2026/08/12/arias-em-acao-durante-palmeiras-x-cerro-porteno-jogo-da-libertadores-1786578165436_v2_450x337.jpg",
+    "source": "UOL",
+    "is_main": true,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Algoz de Fonseca, Shelton vence compatriota e é bicampeão do Masters 1000 do Canadá",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/afp/2026/08/13/algoz-de-fonseca-shelton-vence-compatriota-e-e-bicampeao-do-masters-1000-do-canada.htm",
+    "photo": "https://imguol.com/c/esporte/ca/2026/08/13/ben-shelton-comemora-contra-brandon-nakashima-na-final-do-masters-1000-de-montreal-1786672520943_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Iga Swiatek vence Elena Rybakina e conquista o WTA 1000 de Toronto",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/afp/2026/08/13/iga-swiatek-vence-elena-rybakina-e-conquista-o-wta-1000-de-toronto.htm",
+    "photo": "https://imguol.com/c/esporte/8c/2026/08/13/iga-swiatek-vence-elena-rybakina-na-final-do-wta-1000-de-toronto-1786670083922_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Babi brilha na Alemanha e avança à final do Mundial de Ginástica Rítmica",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/08/13/barbara-domingos-brilha-na-alemanha-e-avanca-a-final-do-mundial.ghtm",
+    "photo": "https://imguol.com/c/esporte/46/2026/08/13/barbara-domingos-com-a-bola-no-mundial-de-ginastica-ritmica-2026-1786660494795_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Linha 8-Diamante volta a funcionar após remoção de trem que descarrilou em SP",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/14/funcionamento-linha-diamante-pos-descarrilamento.ghtm",
+    "photo": "https://imguol.com/c/noticias/55/2025/03/06/a-viamobilidade-entregou-hoje-o-36-trem-para-operacao-nas-linhas-8-diamante-e-9-esmeralda-em-sao-paulo-1741290458444_v2_450x253.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Parlamento da Suécia aprova redução da maioridade penal para 14 anos",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/08/13/parlamento-sueco-reduz-maioridade-penal-para-14-anos.htm",
+    "photo": "https://imguol.com/c/noticias/40/2026/08/13/parlamento-da-suecia-1786649487078_v2_300x300.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Air India impõe testes antidrogas obrigatórios a pilotos após incidente em voo",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/08/13/air-india-impoe-testes-antidrogas-obrigatorios-a-pilotos-apos-incidente.htm",
+    "photo": "https://imguol.com/c/noticias/d2/2025/06/12/um-boeing-787-8-dreamliner-da-air-india-1749757086033_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Equipes pedem silêncio para achar sobreviventes sob escombros na Colômbia",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/13/equipes-pedem-silencio-para-achar-sobreviventes-sob-escombros-na-colombia.ghtm",
+    "photo": "https://imguol.com/c/noticias/d8/2026/08/12/equipes-de-resgate-procuram-sobreviventes-entre-escombros-de-predios-destruidos-apos-um-terremoto-em-cali-na-colombia12-de-agosto-de-2026-reutersraquel-cunha-1786549168525_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "TSE suspende novas filiações após o caso de Flávio Bolsonaro",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/08/13/tse-suspende-processamento-de-novas-filiacoes-apos-caso-flavio-bolsonaro.ghtm",
+    "photo": "https://imguol.com/c/noticias/26/2020/07/06/fachada-do-tse-tribunal-superior-eleitoral-1594045418998_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Flávio diz que seu gabinete achou que e-mails do Missão eram spam",
+        "link": "https://www.uol.com.br/flash/?c=88302f5e15ce7ea5368012ea94908ce220260813"
+      },
+      {
+        "title": "Flávio Bolsonaro declara R$ 8,1 milhões em bens",
+        "link": "https://noticias.uol.com.br/eleicoes/2026/08/13/flavio-bolsonaro-registra-candidatura-a-presidencia-e-declara-bens.ghtm"
+      }
+    ]
+  },
+  {
+    "title": "5 produtos de skincare que 'bombam' no Japão e que você pode usar no Brasil",
+    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/13/testei-5-produtos-de-skincare-que-fazem-sucesso-no-japao-veja-o-que-vale.htm",
+    "photo": "https://imguol.com/c/guia-de-compras/24/2026/08/11/produtos-japoneses-prometem-hidratacao-controle-da-oleosidade-e-melhora-na-textura-da-pele-1786496852915_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Quer uma TV 4K grande sem gastar muito? Testamos uma Philips de 50 polegadas",
+        "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/13/testamos-a-tv-philips-4k-7300-de-50-polegadas-e-custo-acessivel.htm"
+      }
+    ]
+  },
+  {
+    "title": "Discord sem lives é como se padaria não pudesse vender mais pães",
+    "link": "https://www.uol.com.br/tilt/colunas/carlos-affonso-de-souza/2026/08/14/discord-sem-lives-e-como-se-padaria-nao-pudesse-vender-mais-paes.htm",
+    "photo": "https://imguol.com/c/noticias/bc/2026/08/12/ilustracao-com-o-logotipo-do-discord11-de-setembro-de-2025reutersdado-ruvicilustracao-1786548856013_v2_450x253.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Apple envia alertas sobre \"ataques espiões\" na tela de iPhones; entenda",
+    "link": "https://www.uol.com.br/tilt/noticias/redacao/2026/08/14/alerta-da-apple-sobre-spyware-exige-acao-imediata-entenda.ghtm",
+    "photo": "https://imguol.com/c/noticias/f0/2026/08/14/aviso-de-ataque-spyware-em-iphones-1786706967404_v2_300x300.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Como robôs inspirados em animais estão ajudando a explorar os oceanos",
+    "link": "https://www.uol.com.br/flash/?c=3e6110f9441d35264ee3c29e8473bcf220260811",
+    "photo": "https://imguol.com/c/noticias/ba/2018/07/09/o-sofi-peixe-robo-do-mit-1531173970419_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1781,26 +2060,6 @@
     "relateds": []
   },
   {
-    "title": "Flávio atrofia confiança do eleitor ao 'bombar' currículo",
-    "link": "https://noticias.uol.com.br/colunas/leonardo-sakamoto/2026/08/13/flavio-atrofia-confianca-do-eleitor-ao-usar-bomba-no-curriculo.htm",
-    "photo": "https://conteudo.imguol.com.br/c/home/1e/2026/01/07/leonardo-sakamoto---colunista-1767818290321_v2_100x100.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Lula grava programa eleitoral com João Campos",
-    "link": "https://noticias.uol.com.br/colunas/tatiana-farah/2026/08/13/fim-do-dilema-lula-grava-programa-eleitoral-com-joao-campos.htm",
-    "photo": "https://conteudo.imguol.com.br/c/home/62/2026/05/15/tatiana-farah-1778882868920_100x100.png?1778882875545",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Botafogo perde por 6 a 1 para Cienciano e precisa de milagre para avançar na Sul-Americana",
     "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/13/sul-americana-cienciano-x-botafogo.ghtm",
     "photo": "https://imguol.com/c/esporte/29/2026/08/13/succar-comemora-gol-do-cienciano-sobre-o-botafogo-em-duelo-da-sul-americana-1786674199665_v2_300x225.jpg",
@@ -1861,16 +2120,6 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Empresário é denunciado por violência sexual contra 11 adolescentes em RO",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/13/empresario-e-denunciado-por-violencia-sexual-contra-11-adolescentes-em-ro.ghtm",
-    "photo": "https://imguol.com/c/noticias/f6/2026/08/13/ministerio-publico-de-rondonia-1786647458628_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
     "is_video": false,
     "relateds": []
   },
@@ -2318,16 +2567,6 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Cozedor de ovos sai a R$ 40; sérum anticelulite L?Occitane tem 40% off",
-    "link": "https://www.uol.com.br/guia-de-compras/ao-vivo/2025/06/18/monitor-de-ofertas-uol.htm",
-    "photo": "https://imguol.com/c/guia-de-compras/45/2026/08/06/cozedor-eletrico-de-ovos-a-vapor-1786037202873_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
@@ -5011,249 +5250,6 @@
     "title": "Bolsonaro não foi inocentado das acusações feitas pela CPI da Covid",
     "link": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/08/12/falso-jair-bolsonaro-inocentado-cpi-covid.ghtm",
     "photo": "https://imguol.com/c/noticias/e2/2026/08/11/stf-arquivou-noticia-crime-sobre-suposta-interferencia-de-bolsonaro-mas-inquerito-baseado-no-relatorio-final-da-cpi-da-covid-19-continua-em-andamento-1786472964894_v2_300x300.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Sérum Neutrogena tem 65% off hoje; nós testamos e contamos se vale a pena",
-    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/12/serum-antimarcas-hydro-boost-neutrogena-desconto-promocao.htm",
-    "photo": "https://imguol.com/c/guia-de-compras/58/2025/10/22/hydro-boost-serum-antimarcas-possui-niacinamida-e-acido-hialuronico-1761178970040_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Cleusa Uenaka: Suas experiências de vida não vão para o lixo",
-    "link": "https://www.uol.com.br/flash/?c=8deb82af412e8321b4e4e15f7ed532e20260812",
-    "photo": "https://imguol.com/c/noticias/5f/2026/08/12/cleusa-uenaka-1786565887572_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Creatina para mulheres acima dos 40: vale a pena investir no suplemento?",
-    "link": "https://www.uol.com.br/vivabem/colunas/veronica-laino/2026/08/11/creatina-para-mulheres-acima-dos-40-anos.htm",
-    "photo": "https://imguol.com/c/noticias/19/2026/08/10/creatina-ha-novas-evidencias-para-uso-quando-o-assunto-e-saude-da-mulher-1786389994585_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Grupo de defesa alemão apresenta queixa criminal contra óculos de IA da Meta",
-    "link": "https://www.uol.com.br/tilt/noticias/reuters/2026/08/12/grupo-de-defesa-alemao-apresenta-queixa-criminal-contra-oculos-de-ia-da-meta.htm",
-    "photo": "https://imguol.com/c/noticias/6f/2022/04/26/visitantes-da-meta-store-poderao-experimentar-o-ray-ban-stories-os-oculos-com-camera-da-meta-1651006180574_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Flu está sendo sucateado para ser vendido?",
-    "link": "https://www.uol.com.br/esporte/colunas/milly-lacombe/2026/08/12/o-fluminense-esta-sendo-sucateado-para-poder-ser-vendido.htm",
-    "photo": "https://conteudo.imguol.com.br/03/2021/01/29/milly-lacombe-autor-2-1611928982961_100x100.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Político que monitorou Dino no MA é alvo no STF em apuração de assassinato",
-    "link": "https://noticias.uol.com.br/colunas/daniela-lima/2026/08/12/politico-que-monitorou-dino-no-ma-e-alvo-em-apuracao-de-assassinato-no-stf.htm",
-    "photo": "https://imguol.com/c/noticias/cf/2026/08/12/raimundo-cutrim-1786557474577_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Alvo de busca por ações contra Dino é ex-aliado e tinha 26 armas em casa",
-        "link": "https://noticias.uol.com.br/colunas/carlos-madeiro/2026/08/12/raimundo-cutrim-falvio-dino-perseguicao-stf.htm"
-      }
-    ]
-  },
-  {
-    "title": "Cruzeiro e Flamengo empatam no Mineirão após golaço de Arroyo e efeito Paquetá",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/12/cruzeiro-x-flamengo-libertadores-2026.ghtm",
-    "photo": "https://imguol.com/c/home/a7/2026/08/12/gol-de-arroyo-na-partida-entre-cruzeiro-e-flamengo-pelo-jogo-de-ida-das-oitavas-de-final-da-copa-libertadores-2026-partida-aconteceu-no-estadio-do-mineirao-em-belo-horizonte-mg-nesta-noite-de-1786588487798_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": true,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Jardim analisa reação de cruzeirenses: 'Ninguém pode dizer não ao Flamengo'",
-        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/13/jardim-analisa-reacao-de-cruzeirenses-ninguem-pode-dizer-nao-ao-flamengo.ghtm"
-      },
-      {
-        "title": "Era para vermelho? Ex-árbitros analisam polêmicas de Cruzeiro x Flamengo",
-        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/12/cruzeiro-x-flamengo-matheus-henrique-opiniao-ex-arbitros.ghtm"
-      },
-      {
-        "title": "Veja todos os resultados das oitavas de final da Libertadores",
-        "link": "https://www.uol.com.br/esporte/futebol/campeonatos/libertadores/#oitavas-de-final"
-      }
-    ]
-  },
-  {
-    "title": "Carlos Miguel vacila no fim, e Palmeiras só empata com o Cerro Porteño em casa",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/12/palmeiras-x-cerro-porteno-copa-libertadores-oitavas-de-final-ida.ghtm",
-    "photo": "https://imguol.com/c/home/54/2026/08/12/soccer-football---copa-libertadores---round-of-16---first-leg---palmeiras-v-cerro-porteno---nubank-parque-sao-paulo-brazil---august-12-2026-palmeiras-carlos-miguel-scores-an-own-goal-and-cerro-1786579469859_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Veja gols e melhores momentos de Palmeiras x Cerro Porteño",
-        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/12/libertadores-veja-gols-e-melhores-momentos-de-palmeiras-x-cerro-porteno.ghtm"
-      }
-    ]
-  },
-  {
-    "title": "Família de ministro do TCU ganhou leilão bilionário no Porto de Santos",
-    "link": "https://noticias.uol.com.br/videos/2026/08/13/uol-prime-135-tcu.htm",
-    "photo": "https://imguol.com/c/tab/b6/2026/07/15/area-prevista-para-instalacao-de-um-novo-patio-de-caminhoes-no-porto-de-santos-1784126842164_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Rubio e Bessent ficaram no Air Force One após Trump trocar de avião por segurança",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/13/rubio-e-bessent-ficaram-no-air-force-one-apos-trump-trocar-de-aviao.ghtm",
-    "photo": "https://imguol.com/c/noticias/62/2026/05/27/27mai26---o-presidente-dos-eua-donald-trump-a-direita-e-o-secretario-de-estado-marco-rubio-participam-de-reuniao-na-sala-do-gabinete-da-casa-branca-em-washington-dc-eua-1779920738005_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Justiça rejeita denúncia contra integrantes do MTST por invadirem Itaú",
-    "link": "https://noticias.uol.com.br/colunas/artur-rodrigues/2026/08/12/justica-rejeita-denuncia-contra-integrantes-do-mtst-por-invasao-ao-itau.htm",
-    "photo": "https://imguol.com/c/tab/e4/2026/08/12/integrantes-do-movimento-frente-popular-o-povo-sem-medo-ocupam-predio-do-itau-na-avenida-faria-lima-em-sao-paulo-para-protestar-a-favor-da-taxacao-de-super-ricos-em-2025-1786569411631_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Diretor do BC diz à PF que servidores resistiram a analisar fraude no BRB",
-    "link": "https://noticias.uol.com.br/colunas/natalia-portinari/2026/08/12/diretor-do-bc-diz-a-pf-que-servidores-resistiram-a-analise-de-fraude-no-brb.htm",
-    "photo": "https://imguol.com/c/noticias/42/2023/07/04/ailton-aquino-em-sabatina-no-senado-para-a-diretoria-de-fiscalizacao-do-banco-central-1688512793365_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "PGR se manifesta contra visitas de Flávio a Bolsonaro",
-    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/12/pgr-visitas-flavio.ghtm",
-    "photo": "https://imguol.com/c/noticias/2d/2026/07/07/flavio-bolsonaro-pl-em-entrevista-1783438051248_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Câmara aprova suspensão de CNH para quem abandonar animal",
-    "link": "https://noticias.uol.com.br/meio-ambiente/ultimas-noticias/redacao/2026/08/12/camara-aprova-suspensao-e-cassacao-de-cnh-para-quem-abandonar-animal-na-rua.ghtm",
-    "photo": "",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Apex Partners e Guilherme Paulus alteram estatuto da CVC para escapar de OPA",
-    "link": "https://economia.uol.com.br/colunas/mariana-barbosa/2026/08/12/cvc-alterou-estatuto-apos-entrada-de-fundo-da-apex-para-evitar-opa.htm",
-    "photo": "https://conteudo.imguol.com.br/c/home/8b/2025/03/21/mariana-barbosa-150-1742554794971_100x100.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "China resgata o mundo de uma crise de energia e vai salvando Cuba",
-    "link": "https://noticias.uol.com.br/colunas/nelson-de-sa/2026/08/12/china-resgata-o-mundo-de-uma-crise-de-energia-e-vai-salvando-cuba.htm",
-    "photo": "https://conteudo.imguol.com.br/c/home/04/2025/09/27/colunista-nelson-de-sa-1758968951517_100x100.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Ameaça mostra que Memphis vê o Corinthians como refém",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/12/casagrande-ameaca-de-memphis-mostra-que-para-ele-o-corinthians-e-refem.ghtm",
-    "photo": "https://conteudo.imguol.com.br/c/home/e3/2022/07/18/walter-casagrande-junior-1658138987222_v2_100x100.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "A reunião indecente de políticos e magistrados",
-    "link": "https://noticias.uol.com.br/colunas/marco-antonio-sabino/2026/08/12/a-reuniao-indecente-de-politicos-e-magistrados.htm",
-    "photo": "https://conteudo.imguol.com.br/a3/2025/04/17/marco-antonio-sabino-autor-1744898714279_100x100.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "O terraplanismo fiscal de Lula e a herança maldita para 2027",
-    "link": "https://noticias.uol.com.br/colunas/jose-fucs/2026/08/12/o-terraplanismo-fiscal-de-lula-e-a-heranca-maldita-para-2027.htm",
-    "photo": "https://conteudo.imguol.com.br/c/home/f7/2026/01/08/jose-fucs-autor-1767916445399_v2_100x100.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Por que 'Coração Acelerado' não emplacou no Ibope?",
-    "link": "https://www.uol.com.br/splash/colunas/ricky-hiraoka/2026/08/12/por-que-coracao-acelerado-nao-emplacou-no-ibope.htm",
-    "photo": "https://conteudo.imguol.com.br/c/home/ac/2024/05/27/ricky-hiraoka-e-o-novo-colunista-de-splash-1716832588709_100x100.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Nova gasolina: por que abastecer com etanol passou a valer mais a pena",
-    "link": "https://www.uol.com.br/carros/colunas/paula-gama/2026/08/12/regra-dos-70-ficou-velha-e32-muda-conta-para-abastecer-com-etanol.htm",
-    "photo": "https://conteudo.imguol.com.br/8a/2021/05/12/paula-gama---autor-1620827756029_100x100.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Niclas Eliasson é o novo reforço do Internacional",
-    "link": "https://www.uol.com.br/esporte/colunas/mercado-da-bola/2026/08/12/niclas-eliasson-e-o-novo-reforco-do-internacional.htm",
-    "photo": "https://conteudo.imguol.com.br/f6/2022/03/08/mercado-da-bola-1646766832319_100x100.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
