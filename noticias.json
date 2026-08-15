@@ -370,10 +370,30 @@
     "relateds": []
   },
   {
-    "title": "Uma conversa contra a crueza do mundo",
-    "link": "https://www.uol.com.br/ecoa/colunas/julian-fuks/2026/08/15/retrato-falado-na-manha-de-domingo-uma-conversa-contra-a-crueza-do-mundo.htm",
-    "photo": "https://conteudo.imguol.com.br/c/home/0f/2024/04/29/julian-fuks-1714423546680_100x100.jpg",
+    "title": "Campanha eleitoral ganha cara de MMA",
+    "link": "https://noticias.uol.com.br/colunas/josias-de-souza/2026/08/15/campanha-ganha-cara-de-mma.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/c0/2019/04/01/josias-de-souza-1554165233531_100x100.jpg",
     "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "O vôlei brasileiro declara guerra a todas as mulheres",
+    "link": "https://www.uol.com.br/esporte/colunas/milly-lacombe/2026/08/15/o-volei-brasileiro-declara-guerra-a-todas-as-mulheres.htm",
+    "photo": "https://conteudo.imguol.com.br/03/2021/01/29/milly-lacombe-autor-2-1611928982961_100x100.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "'Argh' a 'Zema': abecedário do pôr do sol do que somos",
+    "link": "https://www1.folha.uol.com.br/colunas/mariosergioconti/2026/08/de-argh-a-zema-um-abecedario-do-por-do-sol-do-que-somos.shtml",
+    "photo": "https://conteudo.imguol.com.br/c/home/7d/2019/01/19/mario-sergio-conti-1547896698028_100x100.jpg",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
@@ -383,26 +403,6 @@
     "title": "BK sentava com o Méqui. E você, conversa com quem?",
     "link": "https://economia.uol.com.br/colunas/paulo-camargo/2026/08/15/o-burger-king-sentava-com-o-mequi-e-voce-conversa-com-quem.htm",
     "photo": "https://conteudo.imguol.com.br/c/home/74/2025/10/10/paulo-camargo-1760123221734_v2_100x100.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "'A Última Casa' é uma odisseia no lar",
-    "link": "https://noticias.uol.com.br/colunas/andre-santana/2026/08/15/wagner-moura-cumpre-a-expectativa-em-a-ultima-casa-uma-odisseia-no-lar.htm",
-    "photo": "https://conteudo.imguol.com.br/25/2020/07/30/andre-santana-150-1596111055162_100x100.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Palmeiras volta a vencer ou o Fla se aproxima",
-    "link": "https://www.uol.com.br/esporte/colunas/pvc/2026/08/15/palmeiras-volta-a-vencer-ou-flamengo-se-aproxima-informacoes-e-palpites.htm",
-    "photo": "https://conteudo.imguol.com.br/c/home/40/2019/01/14/pvc-1547459239301_100x100.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -450,7 +450,7 @@
     "photo": "https://imguol.com/c/esporte/29/2026/03/01/tifanny-comemora-ponto-marcado-pelo-osasco-1772374299755_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
@@ -595,9 +595,9 @@
     "relateds": []
   },
   {
-    "title": "'Sou fã do seu pai': Lúcio Mauro Filho reflete rótulo de 'nepobaby'",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/15/sou-fa-do-seu-pai-lucio-mauro-filho-reflete-sobre-o-rotulo-de-nepobaby.htm",
-    "photo": "https://imguol.com/c/splash/65/2026/08/11/lucio-mauro-filho-no-programa-alt-tabet-1786487284374_v2_300x225.jpg",
+    "title": "Filme de 'Bluey' em 3D divide opiniões: 'Risco de ficar igual ao resto'",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/15/bluey-filme-3d.ghtm",
+    "photo": "https://imguol.com/c/splash/6c/2026/08/15/filme-derivado-de-bluey-divide-opinioes-com-animacao-em-3d-1786808836237_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -612,7 +612,12 @@
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Brasil se classifica para duas finais do Mundial",
+        "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/08/15/brasil-finais-mundial-ginastica-ritmica.ghtm"
+      }
+    ]
   },
   {
     "title": "Bombardeios dos EUA na América Latina entram em perigosa normalização",
@@ -658,6 +663,26 @@
     "title": "Festival da Cultura Coreana leva shows grátis, k-beauty e gastronomia ao Bom Retiro",
     "link": "https://www1.folha.uol.com.br/blogs/k-cultura/2026/08/festival-da-cultura-coreana-leva-shows-gratis-k-beauty-e-gastronomia-ao-bom-retiro.shtml",
     "photo": "https://conteudo.imguol.com.br/c/home/fb/2024/12/13/nathalia-lima-durval---retratos-dos-integrantes-da-redacao-da-folha---colunista-blog-k-cultura-1734094897884_v2_100x100.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Confraria de interesses se une a Lula",
+    "link": "https://www1.folha.uol.com.br/colunas/dora-kramer/2026/08/confraria-de-interesses-se-une-a-lula.shtml",
+    "photo": "https://conteudo.imguol.com.br/c/home/73/2024/10/31/retrato-da-jornalista-e-colunista-dora-kramer-da-folha-de-sao-paulo-1730403329433_100x100.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "O futuro político da lata de lixo",
+    "link": "https://www1.folha.uol.com.br/colunas/ricardo-araujo-pereira/2026/08/o-futuro-politico-da-lata-de-lixo.shtml",
+    "photo": "https://conteudo.imguol.com.br/c/tab/60/2021/06/28/ricardo-araujo-pereira-humorista-e-cronista-portugues-1624888046836_v2_100x100.jpg",
     "source": "Folha",
     "is_main": false,
     "is_carousel": true,
@@ -725,16 +750,6 @@
     "relateds": []
   },
   {
-    "title": "'Coração Acelerado' termina sem converter o sertanejo em sucesso",
-    "link": "https://f5.folha.uol.com.br/colunistas/thiagostivaletti/2026/08/coracao-acelerado-termina-sem-converter-o-sertanejo-em-sucesso.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/cb/2022/07/01/thiago-stivaletti---150-1656674412774_v2_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Neymar, o generoso",
     "link": "https://www.uol.com.br/esporte/colunas/alicia-klein/2026/08/14/neymar-o-generoso.htm",
     "photo": "https://conteudo.imguol.com.br/fa/2020/10/20/alicia-klein-150-1603243605874_100x100.jpg",
@@ -758,26 +773,6 @@
     "title": "TJ mantém decisão que obriga SBT a exibir resposta de Erika Hilton no Programa do Ratinho",
     "link": "https://www1.folha.uol.com.br/colunas/monicabergamo/2026/08/tj-mantem-decisao-que-obriga-sbt-a-exibir-resposta-de-erika-hilton-no-programa-do-ratinho.shtml",
     "photo": "https://conteudo.imguol.com.br/5a/2021/03/16/monica-bergamo-2-150-1615895781060_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Quem define os rumos da campanha eleitoral?",
-    "link": "https://www1.folha.uol.com.br/blogs/claudio-hebdo/2026/08/quem-define-os-rumos-da-campanha-eleitoral.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/6c/2022/12/15/claudio-hebdo-1671112940124_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "De 'Argh' a 'Zema', um abecedário do pôr do sol do que somos",
-    "link": "https://www1.folha.uol.com.br/colunas/mariosergioconti/2026/08/de-argh-a-zema-um-abecedario-do-por-do-sol-do-que-somos.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/7d/2019/01/19/mario-sergio-conti-1547896698028_100x100.jpg",
     "source": "Folha",
     "is_main": false,
     "is_carousel": true,
@@ -815,10 +810,10 @@
     "relateds": []
   },
   {
-    "title": "'Sofri agressões das mais diversas formas', diz ex-mulher de Latino",
-    "link": "https://www1.folha.uol.com.br/ilustrada/2026/08/sofri-agressoes-das-mais-diversas-formas-diz-ex-mulher-de-latino.shtml",
-    "photo": "https://imguol.com/c/splash/7c/2025/05/22/latino-e-noiva-raffa-rarbbie-1747917803335_v2_300x225.png",
-    "source": "Folha",
+    "title": "Ex de Latino acusa cantor de agressões contra ela e a mãe: 'Dói'",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/14/ex-de-latino-aucsa-cantor-agressoes.ghtm",
+    "photo": "https://imguol.com/c/home/20/2026/08/15/raffa-rarbbie-faz-acusacoes-contra-latino-1786814673152_v2_300x225.png",
+    "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
@@ -845,9 +840,9 @@
     "relateds": []
   },
   {
-    "title": "'Não fomos rápidos o suficiente', diz Discord sobre adolescente morta",
-    "link": "https://www.uol.com.br/tilt/noticias/redacao/2026/08/15/nao-fomos-rapidos-o-suficiente-diz-discord-sobre-adolescente-morta.ghtm",
-    "photo": "https://imguol.com/c/noticias/a1/2026/02/09/logotipo-da-plataforma-discord-1770653163263_v2_300x225.jpg",
+    "title": "Lei do ex? Palmeiras aposta em Arias diante de Fluminense com 'coringa' no banco",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/15/lei-do-ex-palmeiras-aposta-em-arias-diante-de-flu-com-tecnico-coringa.ghtm",
+    "photo": "https://imguol.com/c/esporte/10/2026/02/26/arias-em-acao-durante-palmeiras-x-fluminense-jogo-do-brasileirao-1772075110643_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -866,17 +861,13 @@
       {
         "title": "'Marcante': perfume da Versace está com 25% off",
         "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/15/perfume-masculino-da-versace-esta-em-oferta-confira-o-que-diz-quem-comprou.ghtm"
-      },
-      {
-        "title": "Kit Sylvanian Families com 37 peças tem 20% off",
-        "link": "https://www.uol.com.br/flash/?c=5371c958ff473fedbcbfa9ea186c5f20260813"
       }
     ]
   },
   {
-    "title": "Série D define quatro acessos neste final de semana; veja cenários",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/15/serie-d-brasileirao-acessos-final-de-semana.ghtm",
-    "photo": "https://imguol.com/c/esporte/72/2026/08/14/luiz-fernando-comemora-gol-marcado-pelo-abc-contra-o-nacional-am-na-serie-d-1786712392067_v2_300x225.jpg",
+    "title": "Times que entram em recuperação judicial são até rebaixados",
+    "link": "https://www.uol.com.br/esporte/futebol/colunas/mauro-cezar-pereira/2026/08/15/times-que-entram-em-recuperacao-judicial-sao-penalizados-e-ate-rebaixados.htm",
+    "photo": "https://imguol.com/c/parceiros/52/2018/05/18/hoje-na-terceirona-ha-uma-decada-o-portsmouth-conquistava-a-fa-cup-cheio-de-medalhoes-1526612505930_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -884,19 +875,9 @@
     "relateds": []
   },
   {
-    "title": "Lei do ex? Palmeiras aposta em Arias diante de Fluminense com 'coringa' no banco",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/15/lei-do-ex-palmeiras-aposta-em-arias-diante-de-flu-com-tecnico-coringa.ghtm",
-    "photo": "https://imguol.com/c/esporte/10/2026/02/26/arias-em-acao-durante-palmeiras-x-fluminense-jogo-do-brasileirao-1772075110643_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "USP continua como a melhor universidade da América Latina",
-    "link": "https://noticias.uol.com.br/ultimas-noticias/rfi/2026/08/15/usp-segue-como-a-melhor-da-america-latina-no-ranking-de-xangai-paris-lidera-fora-do-eixo-eua-reino-unido.htm",
-    "photo": "",
+    "title": "'Não fomos rápidos o suficiente', diz Discord sobre adolescente morta",
+    "link": "https://www.uol.com.br/tilt/noticias/redacao/2026/08/15/nao-fomos-rapidos-o-suficiente-diz-discord-sobre-adolescente-morta.ghtm",
+    "photo": "https://imguol.com/c/noticias/a1/2026/02/09/logotipo-da-plataforma-discord-1770653163263_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -934,9 +915,9 @@
     "relateds": []
   },
   {
-    "title": "'Lanternas' é uma das melhores séries do ano; veja o que mais chegou nos streamings",
-    "link": "https://www.uol.com.br/flash/?c=137584f110f64afc236590d1122ba20260814",
-    "photo": "https://imguol.com/c/parceiros/6a/2026/08/07/aaron-pierre-e-john-stewart-e-kyle-chandler-vive-hal-jordan-na-serie-lanternas-da-hbo-1786136473776_v2_300x225.jpg",
+    "title": "Terminou 'Jogada de Risco'? Veja cinco séries para os órfãos do fenômeno da Globoplay",
+    "link": "https://www.uol.com.br/flash/?c=a24569fd94f5e1fac754e60bb2b499b20260814",
+    "photo": "https://imguol.com/c/entretenimento/99/2026/07/23/bruna-griphao-em-jogada-de-risco-1784828603036_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -944,10 +925,10 @@
     "relateds": []
   },
   {
-    "title": "Sylvia Sussekind: Alice in Chains traduziu em riffs densos a realidade de uma geração",
-    "link": "https://www.uol.com.br/flash/?c=ab2197563da43ad8ae55aebd78215c20260814",
-    "photo": "https://imguol.com/c/blogs/ca/2018/08/30/alice-in-chains-1535660195394_v2_300x225.jpg",
-    "source": "UOL",
+    "title": "CEO do Rei do Mate compara a redução da 6x1 a criança: 'Prefere ir menos à escola'",
+    "link": "https://www1.folha.uol.com.br/colunas/painelsa/2026/08/e-facil-querer-mudar-escala-6x1-assim-como-a-crianca-vai-preferir-ir-menos-a-escola-diz-ceo-do-rei-do-mate.shtml",
+    "photo": "https://imguol.com/c/home/74/2026/08/15/ceo-do-rei-do-mate-1786815782769_v2_300x225.jpg",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
@@ -964,19 +945,14 @@
     "relateds": []
   },
   {
-    "title": "Favoritos, brasileiros e agenda: o que você precisa saber antes da 1ª rodada da La Liga",
-    "link": "https://www.uol.com.br/flash/?c=6a7f58c20f936dcebf85ccf9",
-    "photo": "https://imguol.com/c/esporte/57/2026/08/06/diomande-em-acao-durante-jogo-entre-leganes-e-real-madrid-no-campeonato-espanhol-1786028351522_v2_450x337.jpg",
+    "title": "Memphis: Corinthians não crê em renovação, mas espera acordo sobre dívida",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/15/corinthians-e-pessimista-sobre-renovacao-mas-cre-em-acordo-com-memphis.ghtm",
+    "photo": "https://imguol.com/c/esporte/70/2026/02/02/memphis-depay-do-corinthians-em-jogo-contra-o-flamengo-pela-supercopa-do-brasil-1770048826502_v2_450x337.jpg",
     "source": "UOL",
     "is_main": true,
     "is_carousel": false,
     "is_video": false,
-    "relateds": [
-      {
-        "title": "La Liga vai aderir à 'Lei Vini Jr'? Veja qual é a recomendação sobre regra",
-        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/15/la-liga-lei-vini-jr-campeonato-espanhol.ghtm"
-      }
-    ]
+    "relateds": []
   },
   {
     "title": "Argentino River Plate aposta em elenco estrelado para encerrar seca de títulos",
@@ -989,9 +965,19 @@
     "relateds": []
   },
   {
+    "title": "João Pedro marca duas vezes na vitória do Chelsea sobre o Real Sociedad",
+    "link": "https://www.uol.com.br/flash/?c=6a80a478597fd657381c82f1",
+    "photo": "https://conteudo.imguol.com.br/c/flash/geral/bd/2026/08/15/joao-pedro-comemora-durante-partida-entre-chelsea-x-real-sociedade-em-amistoso-pre-temporada-1786815624060_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Ucraniano Shakhtar quer mandar jogos da Champions em estádio do Chelsea",
     "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/15/shakhtar-quer-mandar-jogos-da-champions-em-estadio-do-chelsea-entenda.ghtm",
-    "photo": "https://imguol.com/c/esporte/a2/2022/06/30/stamford-bridge-a-casa-do-chelsea-1656603899494_v2_450x450.jpg",
+    "photo": "https://imguol.com/c/esporte/a2/2022/06/30/stamford-bridge-a-casa-do-chelsea-1656603899494_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -1009,9 +995,19 @@
     "relateds": []
   },
   {
-    "title": "Rosario Central acusa torcida do Corinthians de discriminação e rebate Hugo Souza",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/15/rosario-central-acusa-torcida-do-corinthians-de-racismo-e-rebate-hugo-souza.ghtm",
-    "photo": "https://imguol.com/c/esporte/9c/2026/08/13/torcedores-do-rosario-central-fazem-festa-antes-de-duelo-contra-o-corinthians-pela-libertadores-1786668431500_v2_300x225.jpg",
+    "title": "Endrick fica fora de último amistoso do Real antes de estreia no Espanhol",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/15/endrick-fora-amistoso-real-madrid.ghtm",
+    "photo": "https://imguol.com/c/esporte/46/2026/08/03/endrick-iniciou-pre-temporada-do-real-madrid-balancando-as-redes-mas-futuro-e-incerto-1785781797369_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Série D define quatro acessos neste final de semana; veja cenários",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/15/serie-d-brasileirao-acessos-final-de-semana.ghtm",
+    "photo": "https://imguol.com/c/esporte/72/2026/08/14/luiz-fernando-comemora-gol-marcado-pelo-abc-contra-o-nacional-am-na-serie-d-1786712392067_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1049,20 +1045,10 @@
     "relateds": []
   },
   {
-    "title": "Quem é quem em 'Por Você': veja os personagens da novela das 7 da Globo",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/15/quem-e-quem-na-novela-por-voce-veja-os-personagens-da-nova-trama-das-7.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/2d/2026/08/13/da-esquerda-para-direita-italo-fabricio-assis-peixe-caue-campos-juli-lucy-ramos-bela-sheron-menezzes-glorinha-laura-luz-e-samuca-kadu-spinola-em-por-voce-1786669924950_v2_450x253.jpg",
+    "title": "'Lanternas' é uma das melhores séries do ano; veja o que mais chegou nos streamings",
+    "link": "https://www.uol.com.br/flash/?c=137584f110f64afc236590d1122ba20260814",
+    "photo": "https://imguol.com/c/home/ed/2026/08/15/aaron-pierre-e-john-stewart-e-kyle-chandler-vive-hal-jordan-na-serie-lanternas-da-hbo-1786817233164_v2_80x80.jpg",
     "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Opinião: 'Odisseia' de Nolan não está preocupada com fidelidade a Homero",
-    "link": "https://www1.folha.uol.com.br/ilustrada/2026/08/odisseia-de-nolan-nao-esta-preocupada-com-a-grecia-antiga-ou-com-fidelidade-a-homero.shtml",
-    "photo": "https://imguol.com/c/home/7a/2026/08/15/cena-do-filme-a-odisseia-de-christopher-nolan-1786804333520_v2_300x300.jpg",
-    "source": "Folha",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
@@ -1082,6 +1068,16 @@
     "title": "Joia, plano de vingança, pegação: Adriana tem dia de 'cão' com Iuri em 'Quem Ama Cuida'",
     "link": "https://www.uol.com.br/splash/noticias/2026/08/15/pilar-expulsa-brigitte-de-casa-e-adriana-acha-pista-no-anel-em-quem-ama-cuida.ghtm",
     "photo": "https://imguol.com/c/splash/db/2026/08/15/iuri-jose-loreto-e-adriana-leticia-colin-em-quem-ama-cuida-1786810215042_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "'Sou fã do seu pai': Lúcio Mauro Filho reflete sobre rótulo de 'nepobaby'",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/15/sou-fa-do-seu-pai-lucio-mauro-filho-reflete-sobre-o-rotulo-de-nepobaby.htm",
+    "photo": "https://imguol.com/c/splash/65/2026/08/11/lucio-mauro-filho-no-programa-alt-tabet-1786487284374_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1299,9 +1295,9 @@
     "relateds": []
   },
   {
-    "title": "'Marcante' e com 'boa fixação': perfume da Versace está com 25% de desconto",
-    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/15/perfume-masculino-da-versace-esta-em-oferta-confira-o-que-diz-quem-comprou.ghtm",
-    "photo": "https://imguol.com/c/guia-de-compras/fe/2026/07/22/perfume-blue-jeans-da-versace-1784743133968_v2_300x225.png",
+    "title": "Fofura! Kit minipadaria Sylvanian Families com 37 peças tem 20% off",
+    "link": "https://www.uol.com.br/flash/?c=5371c958ff473fedbcbfa9ea186c5f20260813",
+    "photo": "https://imguol.com/c/guia-de-compras/61/2026/08/13/kit-sylvanian-families-convida-criancas-a-brincar-de-padaria-e-fazer-paezinhos-1786634794929_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1309,9 +1305,9 @@
     "relateds": []
   },
   {
-    "title": "Fofura! Kit minipadaria Sylvanian Families com 37 peças tem 20% off",
-    "link": "https://www.uol.com.br/flash/?c=5371c958ff473fedbcbfa9ea186c5f20260813",
-    "photo": "https://imguol.com/c/guia-de-compras/61/2026/08/13/kit-sylvanian-families-convida-criancas-a-brincar-de-padaria-e-fazer-paezinhos-1786634794929_v2_300x225.png",
+    "title": "'Marcante' e com 'boa fixação': perfume da Versace está com 25% de desconto",
+    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/15/perfume-masculino-da-versace-esta-em-oferta-confira-o-que-diz-quem-comprou.ghtm",
+    "photo": "https://imguol.com/c/guia-de-compras/fe/2026/07/22/perfume-blue-jeans-da-versace-1784743133968_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1529,6 +1525,16 @@
     "relateds": []
   },
   {
+    "title": "Retrato falado na manhã de domingo: uma conversa contra a crueza do mundo",
+    "link": "https://www.uol.com.br/ecoa/colunas/julian-fuks/2026/08/15/retrato-falado-na-manha-de-domingo-uma-conversa-contra-a-crueza-do-mundo.htm",
+    "photo": "https://imguol.com/c/noticias/a2/2023/09/01/ilustracao---invencao-ideia-criatividade-1693592686031_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Márcia Sensitiva fala sobre elevação espiritual",
     "link": "https://www.uol.com.br/play/videos/universa/2026/05/19/marcia-sensitiva-fala-sobre-elevacao-espiritual.htm",
     "photo": "https://imguol.com/c/entretenimento/02/2025/05/27/para-de-ser-doida---marcia-sensitiva-1748369165703_v2_450x253.png",
@@ -1579,8 +1585,58 @@
     "relateds": []
   },
   {
-    "title": "Empresas rejeitam retaliação e cobram diálogo com os EUA",
-    "link": "https://economia.uol.com.br/noticias/redacao/2026/08/15/reciprocidade---setores.ghtm",
+    "title": "'A Última Casa' é uma odisseia no lar",
+    "link": "https://noticias.uol.com.br/colunas/andre-santana/2026/08/15/wagner-moura-cumpre-a-expectativa-em-a-ultima-casa-uma-odisseia-no-lar.htm",
+    "photo": "https://conteudo.imguol.com.br/25/2020/07/30/andre-santana-150-1596111055162_100x100.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Palmeiras volta a vencer ou o Fla se aproxima",
+    "link": "https://www.uol.com.br/esporte/colunas/pvc/2026/08/15/palmeiras-volta-a-vencer-ou-flamengo-se-aproxima-informacoes-e-palpites.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/40/2019/01/14/pvc-1547459239301_100x100.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "'Coração Acelerado' termina sem converter o sertanejo em sucesso",
+    "link": "https://f5.folha.uol.com.br/colunistas/thiagostivaletti/2026/08/coracao-acelerado-termina-sem-converter-o-sertanejo-em-sucesso.shtml",
+    "photo": "https://conteudo.imguol.com.br/c/home/cb/2022/07/01/thiago-stivaletti---150-1656674412774_v2_100x100.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Quem define os rumos da campanha eleitoral?",
+    "link": "https://www1.folha.uol.com.br/blogs/claudio-hebdo/2026/08/quem-define-os-rumos-da-campanha-eleitoral.shtml",
+    "photo": "https://conteudo.imguol.com.br/c/home/6c/2022/12/15/claudio-hebdo-1671112940124_100x100.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "'Sofri agressões das mais diversas formas', diz ex-mulher de Latino",
+    "link": "https://www1.folha.uol.com.br/ilustrada/2026/08/sofri-agressoes-das-mais-diversas-formas-diz-ex-mulher-de-latino.shtml",
+    "photo": "https://imguol.com/c/splash/7c/2025/05/22/latino-e-noiva-raffa-rarbbie-1747917803335_v2_300x225.png",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "USP continua como a melhor universidade da América Latina",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/rfi/2026/08/15/usp-segue-como-a-melhor-da-america-latina-no-ranking-de-xangai-paris-lidera-fora-do-eixo-eua-reino-unido.htm",
     "photo": "",
     "source": "UOL",
     "is_main": false,
@@ -1589,9 +1645,64 @@
     "relateds": []
   },
   {
-    "title": "Corinthians crê em acordo com Memphis mesmo sem renovação",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/15/corinthians-e-pessimista-sobre-renovacao-mas-cre-em-acordo-com-memphis.ghtm",
-    "photo": "https://imguol.com/c/esporte/70/2026/02/02/memphis-depay-do-corinthians-em-jogo-contra-o-flamengo-pela-supercopa-do-brasil-1770048826502_v2_300x225.jpg",
+    "title": "Sylvia Sussekind: Alice in Chains traduziu em riffs densos a realidade de uma geração",
+    "link": "https://www.uol.com.br/flash/?c=ab2197563da43ad8ae55aebd78215c20260814",
+    "photo": "https://imguol.com/c/blogs/ca/2018/08/30/alice-in-chains-1535660195394_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Favoritos, brasileiros e agenda: o que você precisa saber antes da 1ª rodada da La Liga",
+    "link": "https://www.uol.com.br/flash/?c=6a7f58c20f936dcebf85ccf9",
+    "photo": "https://imguol.com/c/esporte/57/2026/08/06/diomande-em-acao-durante-jogo-entre-leganes-e-real-madrid-no-campeonato-espanhol-1786028351522_v2_450x337.jpg",
+    "source": "UOL",
+    "is_main": true,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "La Liga vai aderir à 'Lei Vini Jr'? Veja qual é a recomendação sobre regra",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/15/la-liga-lei-vini-jr-campeonato-espanhol.ghtm"
+      }
+    ]
+  },
+  {
+    "title": "Rosario Central acusa torcida do Corinthians de discriminação e rebate Hugo Souza",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/15/rosario-central-acusa-torcida-do-corinthians-de-racismo-e-rebate-hugo-souza.ghtm",
+    "photo": "https://imguol.com/c/esporte/9c/2026/08/13/torcedores-do-rosario-central-fazem-festa-antes-de-duelo-contra-o-corinthians-pela-libertadores-1786668431500_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Quem é quem em 'Por Você': veja os personagens da novela das 7 da Globo",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/15/quem-e-quem-na-novela-por-voce-veja-os-personagens-da-nova-trama-das-7.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/2d/2026/08/13/da-esquerda-para-direita-italo-fabricio-assis-peixe-caue-campos-juli-lucy-ramos-bela-sheron-menezzes-glorinha-laura-luz-e-samuca-kadu-spinola-em-por-voce-1786669924950_v2_450x253.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Opinião: 'Odisseia' de Nolan não está preocupada com fidelidade a Homero",
+    "link": "https://www1.folha.uol.com.br/ilustrada/2026/08/odisseia-de-nolan-nao-esta-preocupada-com-a-grecia-antiga-ou-com-fidelidade-a-homero.shtml",
+    "photo": "https://imguol.com/c/home/7a/2026/08/15/cena-do-filme-a-odisseia-de-christopher-nolan-1786804333520_v2_300x300.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Empresas rejeitam retaliação e cobram diálogo com os EUA",
+    "link": "https://economia.uol.com.br/noticias/redacao/2026/08/15/reciprocidade---setores.ghtm",
+    "photo": "",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -5105,130 +5216,6 @@
     "title": "Parlamento da Suécia aprova redução da maioridade penal para 14 anos",
     "link": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/08/13/parlamento-sueco-reduz-maioridade-penal-para-14-anos.htm",
     "photo": "https://imguol.com/c/noticias/40/2026/08/13/parlamento-da-suecia-1786649487078_v2_300x300.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Air India impõe testes antidrogas obrigatórios a pilotos após incidente em voo",
-    "link": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/08/13/air-india-impoe-testes-antidrogas-obrigatorios-a-pilotos-apos-incidente.htm",
-    "photo": "https://imguol.com/c/noticias/d2/2025/06/12/um-boeing-787-8-dreamliner-da-air-india-1749757086033_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Equipes pedem silêncio para achar sobreviventes sob escombros na Colômbia",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/13/equipes-pedem-silencio-para-achar-sobreviventes-sob-escombros-na-colombia.ghtm",
-    "photo": "https://imguol.com/c/noticias/d8/2026/08/12/equipes-de-resgate-procuram-sobreviventes-entre-escombros-de-predios-destruidos-apos-um-terremoto-em-cali-na-colombia12-de-agosto-de-2026-reutersraquel-cunha-1786549168525_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "TSE suspende novas filiações após o caso de Flávio Bolsonaro",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/08/13/tse-suspende-processamento-de-novas-filiacoes-apos-caso-flavio-bolsonaro.ghtm",
-    "photo": "https://imguol.com/c/noticias/26/2020/07/06/fachada-do-tse-tribunal-superior-eleitoral-1594045418998_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Flávio diz que seu gabinete achou que e-mails do Missão eram spam",
-        "link": "https://www.uol.com.br/flash/?c=88302f5e15ce7ea5368012ea94908ce220260813"
-      },
-      {
-        "title": "Flávio Bolsonaro declara R$ 8,1 milhões em bens",
-        "link": "https://noticias.uol.com.br/eleicoes/2026/08/13/flavio-bolsonaro-registra-candidatura-a-presidencia-e-declara-bens.ghtm"
-      }
-    ]
-  },
-  {
-    "title": "5 produtos de skincare que 'bombam' no Japão e que você pode usar no Brasil",
-    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/13/testei-5-produtos-de-skincare-que-fazem-sucesso-no-japao-veja-o-que-vale.htm",
-    "photo": "https://imguol.com/c/guia-de-compras/24/2026/08/11/produtos-japoneses-prometem-hidratacao-controle-da-oleosidade-e-melhora-na-textura-da-pele-1786496852915_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Quer uma TV 4K grande sem gastar muito? Testamos uma Philips de 50 polegadas",
-        "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/13/testamos-a-tv-philips-4k-7300-de-50-polegadas-e-custo-acessivel.htm"
-      }
-    ]
-  },
-  {
-    "title": "Como robôs inspirados em animais estão ajudando a explorar os oceanos",
-    "link": "https://www.uol.com.br/flash/?c=3e6110f9441d35264ee3c29e8473bcf220260811",
-    "photo": "https://imguol.com/c/noticias/ba/2018/07/09/o-sofi-peixe-robo-do-mit-1531173970419_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Frase polêmica vira TCC de direito com nota 10 1",
-    "link": "https://www.uol.com.br/flash/?c=273440bf226c65eddfc34c80f3da820260813&i=1",
-    "photo": "http://conteudo.imguol.com.br/c/entretenimento/flash/ed/2026/08/13/frase-polemica-vira-tcc-de-direito-com-nota-10-1-1786667764334_v2_1080x1350.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Frase polêmica vira TCC de direito com nota 10 2",
-    "link": "https://www.uol.com.br/flash/?c=273440bf226c65eddfc34c80f3da820260813&i=2",
-    "photo": "http://conteudo.imguol.com.br/c/entretenimento/flash/0a/2026/08/13/frase-polemica-vira-tcc-de-direito-com-nota-10-2-1786667779880_v2_1080x1350.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Frase polêmica vira TCC de direito com nota 10 3",
-    "link": "https://www.uol.com.br/flash/?c=273440bf226c65eddfc34c80f3da820260813&i=3",
-    "photo": "http://conteudo.imguol.com.br/c/entretenimento/flash/fc/2026/08/13/frase-polemica-vira-tcc-de-direito-com-nota-10-3-1786667795304_v2_1080x1350.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Frase polêmica vira TCC de direito com nota 10 4",
-    "link": "https://www.uol.com.br/flash/?c=273440bf226c65eddfc34c80f3da820260813&i=4",
-    "photo": "http://conteudo.imguol.com.br/c/entretenimento/flash/41/2026/08/13/frase-polemica-vira-tcc-de-direito-com-nota-10-4-1786667807155_v2_1080x1350.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Frase polêmica vira TCC de direito com nota 10 5",
-    "link": "https://www.uol.com.br/flash/?c=273440bf226c65eddfc34c80f3da820260813&i=5",
-    "photo": "http://conteudo.imguol.com.br/c/entretenimento/flash/ae/2026/08/13/frase-polemica-vira-tcc-de-direito-com-nota-10-5-1786667835451_v2_1080x1350.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Frase polêmica vira TCC de direito com nota 10 6",
-    "link": "https://www.uol.com.br/flash/?c=273440bf226c65eddfc34c80f3da820260813&i=6",
-    "photo": "http://conteudo.imguol.com.br/c/entretenimento/flash/b1/2026/08/13/frase-polemica-vira-tcc-de-direito-com-nota-10-6-1786667859900_v2_1080x1350.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
