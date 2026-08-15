@@ -363,12 +363,12 @@
         "link": "https://noticias.uol.com.br/eleicoes/2026/08/14/agregador-campanha-comeca-com-distancia-de-4-pontos-entre-lula-e-flavio.ghtm"
       },
       {
-        "title": "Veja o que dizem as últimas pesquisas para presidente da República",
-        "link": "https://noticias.uol.com.br/eleicoes/2026/08/14/o-que-dizem-as-ultimas-pesquisas-para-presidente-veja-numeros-atualizados.ghtm"
-      },
-      {
         "title": "Quem subiu e quem caiu na nova pesquisa Quaest para presidente?",
         "link": "https://noticias.uol.com.br/eleicoes/2026/08/14/quem-subiu-e-quem-caiu-na-nova-pesquisa-quaest-para-presidente.ghtm"
+      },
+      {
+        "title": "Veja o que dizem as últimas pesquisas para presidente da República",
+        "link": "https://noticias.uol.com.br/eleicoes/2026/08/14/o-que-dizem-as-ultimas-pesquisas-para-presidente-veja-numeros-atualizados.ghtm"
       }
     ]
   },
@@ -493,6 +493,41 @@
     "relateds": []
   },
   {
+    "title": "Gestão Tarcísio divulga vídeo que contradiz versão de Haddad sobre ação da PM",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/08/14/novo-video-haddad-pm.ghtm",
+    "photo": "https://imguol.com/c/noticias/e3/2026/08/14/viatura-da-pm-passa-por-carro-de-haddad-em-frente-a-hotel-na-vila-mariana-em-sao-paulo-1786751842489_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Juiz cita humilhação após vencimento cair para R$ 41 mil: 'Fui às lágrimas'",
+    "link": "https://noticias.uol.com.br/colunas/carlos-madeiro/2026/08/14/juiz-cita-humilhacao-apos-salario-cair-para-r-41-mil-fui-as-lagrimas.htm",
+    "photo": "https://imguol.com/c/home/18/2026/08/14/juiz-mario-marcio-de-almeida-sousa-8-vara-civel-de-sao-luis-1786746819949_v2_300x225.jpg?1786746823998",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Frente fria muda tempo em SP, mas calorão já tem data para voltar",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/08/14/frente-fria-muda-o-tempo-em-sao-paulo-mas-calorao-ja-tem-data-para-voltar-veja-a-previsao.htm",
+    "photo": "https://imguol.com/c/noticias/2014/09/09/9set2014---foto-mostra-camada-de-poluicao-no-centro-de-sao-paulo-a-cidade-entrou-em-estado-de-atencao-na-tarde-desta-terca-feira-9-por-causa-da-baixa-umidade-do-ar-em-torno-de-30-a-regiao-da-1410292002394_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Defesa Civil diz que alerta severo de ciclone em Niterói (RJ) é falso",
+        "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/14/defesa-civil-diz-que-alerta-severo-de-ciclone-em-niteroi-e-falso.ghtm"
+      }
+    ]
+  },
+  {
     "title": "Vôlei brasileiro muda regras e exige teste genético que bane mulheres trans",
     "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/08/14/volei-brasileiro-muda-regras-e-passa-a-exigir-teste-genetico-de-atletas.ghtm",
     "photo": "https://imguol.com/c/home/aa/2022/04/25/tifanny-abreu-em-ensaio-fotografico-1650896817003_300x225.jpg?98222",
@@ -531,46 +566,6 @@
     "is_carousel": false,
     "is_video": false,
     "relateds": []
-  },
-  {
-    "title": "Juiz cita humilhação após vencimento cair para R$ 41 mil: 'Fui às lágrimas'",
-    "link": "https://noticias.uol.com.br/colunas/carlos-madeiro/2026/08/14/juiz-cita-humilhacao-apos-salario-cair-para-r-41-mil-fui-as-lagrimas.htm",
-    "photo": "https://imguol.com/c/home/18/2026/08/14/juiz-mario-marcio-de-almeida-sousa-8-vara-civel-de-sao-luis-1786746819949_v2_300x225.jpg?1786746823998",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Frente fria muda tempo em SP, mas calorão já tem data para voltar",
-    "link": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/08/14/frente-fria-muda-o-tempo-em-sao-paulo-mas-calorao-ja-tem-data-para-voltar-veja-a-previsao.htm",
-    "photo": "https://imguol.com/c/noticias/2014/09/09/9set2014---foto-mostra-camada-de-poluicao-no-centro-de-sao-paulo-a-cidade-entrou-em-estado-de-atencao-na-tarde-desta-terca-feira-9-por-causa-da-baixa-umidade-do-ar-em-torno-de-30-a-regiao-da-1410292002394_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Defesa Civil diz que alerta severo de ciclone em Niterói (RJ) é falso",
-        "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/14/defesa-civil-diz-que-alerta-severo-de-ciclone-em-niteroi-e-falso.ghtm"
-      }
-    ]
-  },
-  {
-    "title": "Kassab diz que centrão está com Lula e vê 'chance zero' de Flávio Bolsonaro se eleger",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/08/14/kassab-caiado-centrao-flavio-lula.htm",
-    "photo": "https://imguol.com/c/home/c9/2026/08/14/o-candidato-a-presidencia-da-republica-ronaldo-caiado-psd-ao-lado-do-presidente-do-psd-gilberto-kassab-no-clube-monte-libano-em-sao-paulo-1786727514921_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Marinho diz que PSD age como linha auxiliar de Lula",
-        "link": "https://noticias.uol.com.br/eleicoes/2026/08/14/marinho-diz-que-caiado-nao-disputa-para-valer-e-mira-kassab.ghtm"
-      }
-    ]
   },
   {
     "title": "Estatal do governo Lula abriga 'exército' eleitoral em contrato de R$ 35 mi",
@@ -668,29 +663,20 @@
     ]
   },
   {
-    "title": "MP Eleitoral cobra governo Tarcísio e pede câmeras sobre abordagem a Haddad",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/08/14/mp-eleitoral-pede-explicacoes-governo-tarcisio-sobre-abordagem-pm-a-haddad.ghtm",
-    "photo": "https://imguol.com/c/noticias/a1/2026/08/13/video-mostra-viatura-da-pm-passando-por-haddad-enquanto-ele-entrava-em-casa-1786628438848_v2_300x225.jpg",
+    "title": "Trump pede que americanos aceitem preços mais altos da gasolina",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/reuters/2026/08/14/trump-exorta-norte-americanos-a-aceitarem-precos-mais-altos-da-gasolina-enquanto-intensifica-retorica-contra-ira.htm",
+    "photo": "",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": [
-      {
-        "title": "Ouvidor vê irregularidade em ação: 'Fora do protocolo'",
-        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/14/ouvidor-ve-irregularidade-em-acao-de-pms-com-haddad-fora-do-protocolo.ghtm"
-      },
-      {
-        "title": "Após analisar 40 câmeras, PM diz não ter visto abordagem irregular",
-        "link": "https://noticias.uol.com.br/eleicoes/2026/08/13/pm-diz-nao-ter-visto-abordagem-irregular-a-haddad-apos-analisar-40-cameras.ghtm"
-      }
-    ]
+    "relateds": []
   },
   {
-    "title": "Rede que promovia violência no Discord usou quatro plataformas para articular ações",
-    "link": "https://www1.folha.uol.com.br/cotidiano/2026/08/rede-que-promovia-violencia-no-discord-usou-quatro-plataformas-para-articular-acoes-e-divulgar-conteudo.shtml",
+    "title": "Região Sul tem alerta de tempestade e acumulado de chuva no fim de semana",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/14/regiao-sul-tem-alerta-de-tempestade-e-acumulado-de-chuva-no-fim-de-semana.ghtm",
     "photo": "",
-    "source": "Folha",
+    "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
@@ -947,9 +933,9 @@
     "relateds": []
   },
   {
-    "title": "Melatonina funciona para a insônia? Entenda quando ela é indicada",
-    "link": "https://www.uol.com.br/vivabem/noticias/redacao/2026/08/14/melatonina-funciona-para-insonia-entenda-quando-ela-e-indicada.htm",
-    "photo": "https://imguol.com/c/entretenimento/69/2023/09/06/zolpidem-remedio-para-dormir-insonia-1694030145754_v2_300x300.jpg",
+    "title": "Como os novos óculos inteligentes com IA ajudam pessoas com deficiência",
+    "link": "https://www.uol.com.br/tilt/noticias/afp/2026/08/14/como-os-novos-oculos-inteligentes-com-ia-ajudam-pessoas-com-deficiencia.htm",
+    "photo": "https://imguol.com/c/noticias/e0/2026/08/14/mulher-observa-capa-de-livro-usando-oculos-inteligentes-da-meta-1786714525195_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -977,9 +963,9 @@
     "relateds": []
   },
   {
-    "title": "Secco diz que ex a trancou para impedir que ela comesse",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/14/deborah-secco-diz-que-ex-a-trancou-para-impedir-que-comesse.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/09/2025/04/17/deborah-secco-usa-vestido-decotado-de-r-16-mil-em-evento-em-sao-paulo-1744897128772_v2_300x225.png",
+    "title": "Ana Maria se irrita com Juliane Massaoka: 'Tá falando com criança?'",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/14/ana-maria-se-irrita-com-juliane-massaoka-ao-vivo-ta-falando-com-crianca.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/7a/2026/08/14/ana-maria-braga-e-juliane-massaoka-1786734286685_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -987,9 +973,9 @@
     "relateds": []
   },
   {
-    "title": "Viih Tube e Eliezer se casam no interior de SP após perrengue",
-    "link": "https://www.uol.com.br/flash/?c=5b1b3194c42020d8193a98d1f87a2020260814",
-    "photo": "https://imguol.com/c/home/dd/2026/08/14/viih-tube-e-eliezer-se-casam-no-civil-no-interior-de-sp-1786753966188_300x225.jpg",
+    "title": "Secco diz que ex a trancou para impedir que ela comesse",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/14/deborah-secco-diz-que-ex-a-trancou-para-impedir-que-comesse.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/09/2025/04/17/deborah-secco-usa-vestido-decotado-de-r-16-mil-em-evento-em-sao-paulo-1744897128772_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -1007,9 +993,9 @@
     "relateds": []
   },
   {
-    "title": "Ana Maria se irrita com Juliane Massaoka: 'Tá falando com criança?'",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/14/ana-maria-se-irrita-com-juliane-massaoka-ao-vivo-ta-falando-com-crianca.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/7a/2026/08/14/ana-maria-braga-e-juliane-massaoka-1786734286685_v2_300x225.png",
+    "title": "Viih Tube e Eliezer se casam no interior de SP após perrengue",
+    "link": "https://www.uol.com.br/flash/?c=5b1b3194c42020d8193a98d1f87a2020260814",
+    "photo": "https://imguol.com/c/home/dd/2026/08/14/viih-tube-e-eliezer-se-casam-no-civil-no-interior-de-sp-1786753966188_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -1122,9 +1108,9 @@
     "relateds": []
   },
   {
-    "title": "'Adoravam salsa', diz primo da sobrevivente de família devastada por terremoto na Colômbia",
-    "link": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/08/14/adoravam-salsa-diz-primo-da-unica-sobrevivente-de-familia-devastada-por-terremoto-na-colombia.htm",
-    "photo": "https://imguol.com/c/noticias/df/2026/08/14/ana-maria-sobreviveu-ao-desastre-ao-se-proteger-debaixo-de-uma-mesa-de-madeira-macica-1786696686155_v2_300x225.jpg",
+    "title": "Urias celebra um ano do álbum Carranca com show no Toca Sessions",
+    "link": "https://www.uol.com.br/toca/noticias/2026/08/14/urias-celebra-um-ano-do-album-carranca-com-show-no-toca-sessions.ghtm",
+    "photo": "https://imguol.com/c/noticias/aa/2026/08/13/toca-sessions---urias-1786651220831_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1202,9 +1188,19 @@
     "relateds": []
   },
   {
-    "title": "Corinthians estampa patrocínio sem contrato na camisa em oito jogos",
-    "link": "https://www.uol.com.br/esporte/colunas/samir-carvalho/2026/08/14/corinthians-estampa-patrocinio-sem-contrato-na-camisa-em-8-jogos.htm",
-    "photo": "https://imguol.com/c/esporte/eb/2026/08/09/pedro-raul-do-corinthians-em-acao-durante-jogo-contra-o-bragantino-pelo-brasileirao-1786315789906_v2_300x225.jpg",
+    "title": "Federação da Nova Zelândia retira apoio a Infantino na Fifa",
+    "link": "https://www1.folha.uol.com.br/esporte/2026/08/federacao-da-nova-zelandia-retira-apoio-a-infantino.shtml",
+    "photo": "https://imguol.com/c/noticias/a5/2026/08/05/presidente-da-fifa-gianni-infantino12022026reutersbenoit-tessierfoto-de-arquivo-1785973475790_v2_300x225.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Diniz quer usar caso Memphis para cobrar salários atrasados dos jogadores",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/14/fabio-lazaro-diniz-quer-usar-caso-memphis-para-cobrar-salario.ghtm",
+    "photo": "https://imguol.com/c/esporte/78/2026/08/09/fernando-diniz-tecnico-do-corinthians-durante-partida-contra-o-bragantino-pela-22-rodada-1786315468989_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1262,10 +1258,10 @@
     "relateds": []
   },
   {
-    "title": "Julio Rocha mostra pela primeira vez o rosto da filha recém-nascida Esther",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/14/julio-rocha-mostra-pela-primeira-vez-o-rosto-da-filha-recem-nascida-esther.ghtm",
-    "photo": "https://imguol.com/c/home/eb/2026/08/14/julio-rocha-compartilhou-fotos-do-nascimento-da-quarta-filha-esther-1786746211471_300x225.jpg",
-    "source": "UOL",
+    "title": "MC Ryan SP é condenado por violação de direitos autorais de 34 músicas",
+    "link": "https://www1.folha.uol.com.br/ilustrada/2026/08/mc-ryan-sp-e-condenado-por-violacao-de-direitos-autorais-de-34-musicas.shtml",
+    "photo": "https://imguol.com/c/parceiros/0b/2026/05/13/mc-ryan-sp-em-foto-publicada-nas-redes-sociais-o-funkeiro-esta-preso-desde-15-de-abril-1778714183665_v2_300x225.jpg",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
@@ -1317,9 +1313,9 @@
     "relateds": []
   },
   {
-    "title": "Mangione se declarou culpado para fugir da pena de morte? Entenda a hipótese",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/14/mangione-confessou-para-fugir-da-pena-de-morte-entenda-suposta-estrategia.ghtm",
-    "photo": "https://imguol.com/c/noticias/56/2025/04/18/luigi-mangione-1744986678132_v2_300x300.jpg",
+    "title": "Controlador evita colisão ao notar dois aviões com mesmo número nos Estados Unidos",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/14/controlador-evita-colisao-ao-perceber-2-avioes-com-o-mesmo-numero-de-voo.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/24/2020/07/01/american-airlines-1593633367995_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -1327,9 +1323,9 @@
     "relateds": []
   },
   {
-    "title": "Vazamento de gás em estaleiro de desmonte de navios em Bangladesh mata 8 pessoas",
-    "link": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/08/14/vazamento-de-gas-em-estaleiro-de-desmonte-de-navios-em-bangladesh-mata-oito-pessoas.htm",
-    "photo": "https://imguol.com/c/noticias/c9/2026/08/14/familiares-lamentam-apos-um-vazamento-de-gas-toxico-matar-pessoas-no-estaleiro-de-desmonte-e-fabrica-de-reciclagem-de-navios-ferdous-steel-em-chittagong-bangladesh-em-14-de-agosto-de-2026-1786717397009_v2_300x300.jpg",
+    "title": "Mangione se declarou culpado para fugir da pena de morte? Entenda a hipótese",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/14/mangione-confessou-para-fugir-da-pena-de-morte-entenda-suposta-estrategia.ghtm",
+    "photo": "https://imguol.com/c/noticias/56/2025/04/18/luigi-mangione-1744986678132_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -1777,6 +1773,100 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Kassab diz que centrão está com Lula e vê 'chance zero' de Flávio Bolsonaro se eleger",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/08/14/kassab-caiado-centrao-flavio-lula.htm",
+    "photo": "https://imguol.com/c/home/c9/2026/08/14/o-candidato-a-presidencia-da-republica-ronaldo-caiado-psd-ao-lado-do-presidente-do-psd-gilberto-kassab-no-clube-monte-libano-em-sao-paulo-1786727514921_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Marinho diz que PSD age como linha auxiliar de Lula",
+        "link": "https://noticias.uol.com.br/eleicoes/2026/08/14/marinho-diz-que-caiado-nao-disputa-para-valer-e-mira-kassab.ghtm"
+      }
+    ]
+  },
+  {
+    "title": "MP Eleitoral cobra governo Tarcísio e pede câmeras sobre abordagem a Haddad",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/08/14/mp-eleitoral-pede-explicacoes-governo-tarcisio-sobre-abordagem-pm-a-haddad.ghtm",
+    "photo": "https://imguol.com/c/noticias/a1/2026/08/13/video-mostra-viatura-da-pm-passando-por-haddad-enquanto-ele-entrava-em-casa-1786628438848_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Ouvidor vê irregularidade em ação: 'Fora do protocolo'",
+        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/14/ouvidor-ve-irregularidade-em-acao-de-pms-com-haddad-fora-do-protocolo.ghtm"
+      },
+      {
+        "title": "Após analisar 40 câmeras, PM diz não ter visto abordagem irregular",
+        "link": "https://noticias.uol.com.br/eleicoes/2026/08/13/pm-diz-nao-ter-visto-abordagem-irregular-a-haddad-apos-analisar-40-cameras.ghtm"
+      }
+    ]
+  },
+  {
+    "title": "Rede que promovia violência no Discord usou quatro plataformas para articular ações",
+    "link": "https://www1.folha.uol.com.br/cotidiano/2026/08/rede-que-promovia-violencia-no-discord-usou-quatro-plataformas-para-articular-acoes-e-divulgar-conteudo.shtml",
+    "photo": "",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Melatonina funciona para a insônia? Entenda quando ela é indicada",
+    "link": "https://www.uol.com.br/vivabem/noticias/redacao/2026/08/14/melatonina-funciona-para-insonia-entenda-quando-ela-e-indicada.htm",
+    "photo": "https://imguol.com/c/entretenimento/69/2023/09/06/zolpidem-remedio-para-dormir-insonia-1694030145754_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "'Adoravam salsa', diz primo da sobrevivente de família devastada por terremoto na Colômbia",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/08/14/adoravam-salsa-diz-primo-da-unica-sobrevivente-de-familia-devastada-por-terremoto-na-colombia.htm",
+    "photo": "https://imguol.com/c/noticias/df/2026/08/14/ana-maria-sobreviveu-ao-desastre-ao-se-proteger-debaixo-de-uma-mesa-de-madeira-macica-1786696686155_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Corinthians estampa patrocínio sem contrato na camisa em oito jogos",
+    "link": "https://www.uol.com.br/esporte/colunas/samir-carvalho/2026/08/14/corinthians-estampa-patrocinio-sem-contrato-na-camisa-em-8-jogos.htm",
+    "photo": "https://imguol.com/c/esporte/eb/2026/08/09/pedro-raul-do-corinthians-em-acao-durante-jogo-contra-o-bragantino-pelo-brasileirao-1786315789906_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Julio Rocha mostra pela primeira vez o rosto da filha recém-nascida Esther",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/14/julio-rocha-mostra-pela-primeira-vez-o-rosto-da-filha-recem-nascida-esther.ghtm",
+    "photo": "https://imguol.com/c/home/eb/2026/08/14/julio-rocha-compartilhou-fotos-do-nascimento-da-quarta-filha-esther-1786746211471_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Vazamento de gás em estaleiro de desmonte de navios em Bangladesh mata 8 pessoas",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/08/14/vazamento-de-gas-em-estaleiro-de-desmonte-de-navios-em-bangladesh-mata-oito-pessoas.htm",
+    "photo": "https://imguol.com/c/noticias/c9/2026/08/14/familiares-lamentam-apos-um-vazamento-de-gas-toxico-matar-pessoas-no-estaleiro-de-desmonte-e-fabrica-de-reciclagem-de-navios-ferdous-steel-em-chittagong-bangladesh-em-14-de-agosto-de-2026-1786717397009_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
@@ -3719,16 +3809,6 @@
     "relateds": []
   },
   {
-    "title": "Como os novos óculos inteligentes com IA ajudam pessoas com deficiência",
-    "link": "https://www.uol.com.br/tilt/noticias/afp/2026/08/14/como-os-novos-oculos-inteligentes-com-ia-ajudam-pessoas-com-deficiencia.htm",
-    "photo": "https://imguol.com/c/noticias/e0/2026/08/14/mulher-observa-capa-de-livro-usando-oculos-inteligentes-da-meta-1786714525195_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Nos EUA, Apple propõe cobrar taxas de até 15% em compras fora da App Store",
     "link": "https://www.uol.com.br/tilt/noticias/redacao/2026/08/14/nos-eua-apple-propoe-cobrar-taxas-de-ate-15-em-compras-fora-da-app-store.ghtm",
     "photo": "https://imguol.com/c/noticias/e7/2026/08/03/icone-da-app-store-a-loja-de-aplicativos-da-apple-1785759792170_v2_300x300.jpg",
@@ -5224,86 +5304,6 @@
     "link": "https://www.uol.com.br/vivabem/noticias/redacao/2026/08/13/estudo-usado-por-ceticos-da-vacina-e-retraido-por-desinformacao.ghtm",
     "photo": "https://imguol.com/c/entretenimento/c1/2022/05/31/vacina-covid-19-coronavirus-1654002424140_v2_300x300.jpg",
     "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Equipes de emergência atendem a descarrilamento de trem na Inglaterra",
-    "link": "https://noticias.uol.com.br/ultimas-noticias/reuters/2026/08/13/servicos-de-emergencia-do-reino-unido-atendem-a-descarrilamento-de-trem-no-sudeste-da-inglaterra.htm",
-    "photo": "https://imguol.com/c/noticias/6f/2026/08/13/13ago26---policia-britanica-de-transportes-informou-que-policiais-e-outras-equipes-de-emergencia-estavam-atendendo-ao-descarrilamento-de-um-trem-de-passageiros-proximo-a-estacao-ferroviaria-de-lewes-no-1786645774674_v2_300x300.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Caminhoneiro morre após ponte desabar e veículo cair em rio no Mato Grosso do Sul",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/13/caminhoneiro-morre-apos-queda-de-ponte-em-mato-grosso-do-sul.ghtm",
-    "photo": "https://imguol.com/c/home/a9/2026/08/13/ponte-desaba-e-caminhao-fica-submerso-no-rio-taquari-ms-1786663082825_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Como é o treino que fez Tom Holland alcançar o shape do Homem-Aranha",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/13/como-e-o-treino-que-fez-tom-holland-alcancar-o-shape-do-homem-aranha.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/81/2026/08/13/tom-holland-em-homem-aranha-um-novo-dia-1786632960023_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Dupla brasileira Orlando Luz e Rafael Matos disputa a final do Masters de Montreal",
-    "link": "https://www.uol.com.br/esporte/ao-vivo/2026/08/13/ao-vivo-luzmatos-x-pavicarevalo-no-masters-1000-de-montreal.htm",
-    "photo": "https://imguol.com/c/esporte/18/2026/08/12/orlando-luz-esquerda-e-rafael-matos-direita-avancaram-a-final-de-duplas-masculinas-no-masters-1000-de-montreal-1786581531304_v2_150x112.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Bebê dado como morto por hospital há um mês recebe alta em SP",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/13/bebe-dado-como-morto-volta-para-casa-apos-alta-no-interior-de-sp.ghtm",
-    "photo": "https://imguol.com/c/noticias/b8/2026/07/19/noah-gabriel-da-cruz-santos-1784498147510_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Sadovski: 'O Fim da Rua' quer ser um blockbuster decente; e o filme é",
-    "link": "https://www.uol.com.br/flash/?c=4dadedaa2e9a186cf5a2d37db55638f420260812",
-    "photo": "https://imguol.com/c/parceiros/aa/2026/03/30/o-fim-da-rua-1774884515079_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Há 30 anos, bar Original é doce lar do chope bem tirado",
-    "link": "https://www1.folha.uol.com.br/blogs/copo-cheio/2026/08/ha-30-anos-bar-original-e-doce-lar-do-chope-bem-tirado.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/4a/2022/04/29/retrato-de-sandro-macedo-do-blog-copo-cheio-na-folha-1651258397588_v2_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "As máquinas de vender banana são o futuro?",
-    "link": "https://www1.folha.uol.com.br/blogs/cozinha-bruta/2026/08/as-maquinas-de-vender-banana-sao-o-futuro.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/06/2019/01/13/marcos-nogueira-cozinha-bruta-folha-1547379580003_100x100.jpg",
-    "source": "Folha",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
