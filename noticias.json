@@ -503,14 +503,23 @@
     "relateds": []
   },
   {
-    "title": "De R$ 33 mil a R$ 242 milhões: veja o patrimônio declarado pelos presidenciáveis",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/08/15/de-r-33-mil-a-r-242-mi-veja-patrimonio-declarado-por-presidenciaveis.ghtm",
-    "photo": "https://imguol.com/c/noticias/68/2026/08/06/lula-flavio-bolsonaro-romeu-zema-e-ronaldo-caiado-candidatos-a-presidencia-2026-1786028634552_v2_300x225.png",
+    "title": "Tifanny admite 'momento difícil' após veto da CBV, mas promete: 'Vou lutar'",
+    "link": "https://www.uol.com.br/flash/?c=4a412df53188e48b7ec7c20aefcc420260816",
+    "photo": "https://imguol.com/c/esporte/5c/2026/08/15/tifanny-em-quadra-em-osasco-x-pinheiros-no-campeonato-paulista-de-volei-1786849157526_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": true,
+    "is_carousel": false,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Jogadora se diz 'muito abalada' com regra da CBV sobre teste genético",
+        "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/08/16/tifanny-diz-estar-muito-abalada-com-regra-da-cbv-sobre-teste-genetico.htm"
+      },
+      {
+        "title": "Pinheiros bate Osasco no tie-break em noite de apoio da torcida a Tifanny",
+        "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/08/16/paulista-de-volei-feminino---osasco-x-pinheiros.ghtm"
+      }
+    ]
   },
   {
     "title": "Programas de Lula e Flávio fazem promessas sem dizer como vão bancar gastos",
@@ -532,12 +541,12 @@
     ]
   },
   {
-    "title": "Tifanny recebe apoio da torcida do Osasco em jogo pelo Paulista: 'Ela nos representa'",
-    "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/08/15/tifanny-volei-manifestacao-apoio-torcida-osasco-x-pinheiros.ghtm",
-    "photo": "https://imguol.com/c/esporte/eb/2026/08/15/tifanny-faz-coracao-para-a-torcida-do-osasco-em-jogo-contra-pinheiros-no-paulista-de-volei-1786843769497_v2_300x225.jpg",
+    "title": "De R$ 33 mil a R$ 242 milhões: veja o patrimônio declarado pelos presidenciáveis",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/08/15/de-r-33-mil-a-r-242-mi-veja-patrimonio-declarado-por-presidenciaveis.ghtm",
+    "photo": "https://imguol.com/c/noticias/68/2026/08/06/lula-flavio-bolsonaro-romeu-zema-e-ronaldo-caiado-candidatos-a-presidencia-2026-1786028634552_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
@@ -970,16 +979,6 @@
     "relateds": []
   },
   {
-    "title": "Siga em tempo real o evento, que tem Makhachev x Machado Garry na luta principal",
-    "link": "https://www.uol.com.br/esporte/ao-vivo/2026/08/14/ufc-330-makhachev-vs-machado-garry.htm",
-    "photo": "",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "EUA dirão a parceiros que terão de escolher um lado na corrida da IA com a China",
     "link": "https://noticias.uol.com.br/ultimas-noticias/reuters/2026/08/15/eua-dirao-a-parceiros-que-terao-de-escolher-um-lado-na-corrida-da-ia-com-a-china.htm",
     "photo": "https://imguol.com/c/noticias/ae/2026/08/05/logotipos-das-empresas-de-inteligencia-artificial-openai-e-da-anthropic-1785929927556_v2_300x225.jpg",
@@ -1045,9 +1044,9 @@
     ]
   },
   {
-    "title": "Vicente Luque batalha e arranca dente de rival americano, mas perde no UFC 330",
-    "link": "https://www.uol.com.br/esporte/ultimas-noticias/ag-fight/2026/08/15/vicente-luque-batalha-e-arranca-dente-de-rival-americano-mas-perde-no-ufc-330.htm",
-    "photo": "https://imguol.com/c/esporte/60/2026/08/15/vicente-luque-calcao-amarelo-durante-luta-contra-tresean-gore-calcao-preto-no-ufc-330-1786839174056_v2_300x225.jpg",
+    "title": "UFC 330: Makhachev vence Ian Garry, mantém título e quebra recorde de Anderson Silva",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/ag-fight/2026/08/16/ufc-330-makhachev-vence-ian-garry-mantem-cinturao-e-quebra-recorde-de-anderson-silva.htm",
+    "photo": "https://imguol.com/c/home/66/2026/08/16/makhachev-vence-ian-garry-mantem-titulo-do-ufc-1786855573947_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1618,6 +1617,36 @@
     "title": "Cloud Computing",
     "link": "https://www.uolhost.uol.com.br/uol-cloud-computing.html?utm_medium=uol.com.br&utm_source=interna&utm_campaign=rodapé_uol&utm_content=link_fixo&utm_term=cloud_computing",
     "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Tifanny recebe apoio da torcida do Osasco em jogo pelo Paulista: 'Ela nos representa'",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/08/15/tifanny-volei-manifestacao-apoio-torcida-osasco-x-pinheiros.ghtm",
+    "photo": "https://imguol.com/c/esporte/eb/2026/08/15/tifanny-faz-coracao-para-a-torcida-do-osasco-em-jogo-contra-pinheiros-no-paulista-de-volei-1786843769497_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Siga em tempo real o evento, que tem Makhachev x Machado Garry na luta principal",
+    "link": "https://www.uol.com.br/esporte/ao-vivo/2026/08/14/ufc-330-makhachev-vs-machado-garry.htm",
+    "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Vicente Luque batalha e arranca dente de rival americano, mas perde no UFC 330",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/ag-fight/2026/08/15/vicente-luque-batalha-e-arranca-dente-de-rival-americano-mas-perde-no-ufc-330.htm",
+    "photo": "https://imguol.com/c/esporte/60/2026/08/15/vicente-luque-calcao-amarelo-durante-luta-contra-tresean-gore-calcao-preto-no-ufc-330-1786839174056_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -5186,26 +5215,6 @@
     "link": "https://www1.folha.uol.com.br/colunas/lucianacoelho/2026/08/furia-na-disney-e-mais-uma-maravilha-da-autora-de-morrendo-por-sexo.shtml",
     "photo": "https://conteudo.imguol.com.br/c/home/e4/2023/03/23/luciana-coelho-1679621618625_100x100.jpg",
     "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Robbie Williams descobre autismo aos 52: 'Explica muita coisa'",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/14/robbie-williams-revela-diagnostico-de-autismo-aos-52-anos.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/f1/2023/04/20/robbie-williams-vendeu-tres-mansoes-de-sua-propriedade-1682013120822_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Francisco Gil posa sem camisa na Índia após perder 35 kg",
-    "link": "https://cenapop.uol.com.br/noticias/famosos/fran-gil-sem-camisa.html",
-    "photo": "https://imguol.com/c/splash/f2/2026/08/14/francisco-gil-posa-sem-camisa-na-india-1786710380576_v2_300x225.jpg",
-    "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
