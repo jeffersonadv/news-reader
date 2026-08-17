@@ -542,17 +542,17 @@
     ]
   },
   {
-    "title": "'Estamos crescendo', avalia técnico do Flamengo após goleada sobre o Mirassol",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/16/estamos-crescendo-avalia-tecnico-do-flamengo-apos-goleada-sobre-mirassol.ghtm",
-    "photo": "https://imguol.com/c/esporte/f6/2026/08/12/leonardo-jardim-tecnico-do-flamengo-durante-jogo-contra-o-cruzeiro-1786586953337_v2_300x225.jpg",
+    "title": "Com dívidas de R$ 17,3 bilhões, Casas Bahia entra em recuperação judicial",
+    "link": "https://economia.uol.com.br/noticias/redacao/2026/08/17/casas-bahia-entra-em-recuperacao-judicial-para-renegociar-dividas.ghtm",
+    "photo": "https://imguol.com/c/parceiros/7d/2024/04/29/com-casas-bahia-brasil-tem-default-em-divida-esg-1714422522642_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
     "relateds": [
       {
-        "title": "Fla goleia o Mirassol, cola no Palmeiras e esquenta briga no Brasileirão; veja os gols",
-        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/16/brasileiro-mirassol-x-flamengo---como-foi-o-jogo.ghtm"
+        "title": "O que explica o prejuízo de R$ 10 bi da Casas Bahia no 2º trimestre",
+        "link": "https://economia.uol.com.br/noticias/redacao/2026/08/16/casas-bahia-tem-prejuizo-de-r-101-bi-e-cogita-nova-recuperacao.ghtm"
       }
     ]
   },
@@ -652,14 +652,19 @@
     "relateds": []
   },
   {
-    "title": "O que explica o prejuízo de R$ 10 bi das Casas Bahia no 2º trimestre",
-    "link": "https://economia.uol.com.br/noticias/redacao/2026/08/16/casas-bahia-tem-prejuizo-de-r-101-bi-e-cogita-nova-recuperacao.ghtm",
-    "photo": "https://imguol.com/c/noticias/4a/2024/04/29/loja-casas-bahia-1714420721675_v2_300x225.jpg",
+    "title": "'Estamos crescendo', avalia técnico do Flamengo após goleada sobre o Mirassol",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/16/estamos-crescendo-avalia-tecnico-do-flamengo-apos-goleada-sobre-mirassol.ghtm",
+    "photo": "https://imguol.com/c/esporte/f6/2026/08/12/leonardo-jardim-tecnico-do-flamengo-durante-jogo-contra-o-cruzeiro-1786586953337_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": true,
+    "is_carousel": false,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Fla goleia o Mirassol, cola no Palmeiras e esquenta briga no Brasileirão; veja os gols",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/16/brasileiro-mirassol-x-flamengo---como-foi-o-jogo.ghtm"
+      }
+    ]
   },
   {
     "title": "Candidatos declaram ter R$ 116,7 milhões em aeronaves nas eleições",
@@ -691,8 +696,8 @@
     "relateds": []
   },
   {
-    "title": "Flávio volta ao cenário da facada em Bolsonaro; Lula viaja com Alcolumbre",
-    "link": "https://noticias.uol.com.br/colunas/pra-comecar-a-semana/2026/08/16/flavio-volta-ao-cenario-da-facada-de-bolsonaro-lula-viaja-com-alcolumbre.htm",
+    "title": "BTG/Nexus: Lula e Flávio estabilizam com empate técnico no 2º turno",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/08/17/btgnexus-pesquisa-presidencial.ghtm",
     "photo": "",
     "source": "UOL",
     "is_main": false,
@@ -949,6 +954,16 @@
     "title": "Confira a classificação atualizada e os próximos jogos do Campeonato Brasileiro",
     "link": "https://www.uol.com.br/esporte/futebol/campeonatos/brasileirao/",
     "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "O que explica o prejuízo de R$ 10 bilhões da Casas Bahia no segundo trimestre",
+    "link": "https://economia.uol.com.br/noticias/redacao/2026/08/16/casas-bahia-tem-prejuizo-de-r-101-bi-e-cogita-nova-recuperacao.ghtm",
+    "photo": "https://imguol.com/c/noticias/4a/2024/04/29/loja-casas-bahia-1714420721675_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -1803,6 +1818,16 @@
   {
     "title": "Cloud Computing",
     "link": "https://www.uolhost.uol.com.br/uol-cloud-computing.html?utm_medium=uol.com.br&utm_source=interna&utm_campaign=rodapé_uol&utm_content=link_fixo&utm_term=cloud_computing",
+    "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Flávio volta ao cenário da facada em Bolsonaro; Lula viaja com Alcolumbre",
+    "link": "https://noticias.uol.com.br/colunas/pra-comecar-a-semana/2026/08/16/flavio-volta-ao-cenario-da-facada-de-bolsonaro-lula-viaja-com-alcolumbre.htm",
     "photo": "",
     "source": "UOL",
     "is_main": false,
@@ -5277,26 +5302,6 @@
     "title": "'Coração Acelerado' termina sem converter o sertanejo em sucesso",
     "link": "https://f5.folha.uol.com.br/colunistas/thiagostivaletti/2026/08/coracao-acelerado-termina-sem-converter-o-sertanejo-em-sucesso.shtml",
     "photo": "https://conteudo.imguol.com.br/c/home/cb/2022/07/01/thiago-stivaletti---150-1656674412774_v2_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Quem define os rumos da campanha eleitoral?",
-    "link": "https://www1.folha.uol.com.br/blogs/claudio-hebdo/2026/08/quem-define-os-rumos-da-campanha-eleitoral.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/6c/2022/12/15/claudio-hebdo-1671112940124_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "'Sofri agressões das mais diversas formas', diz ex-mulher de Latino",
-    "link": "https://www1.folha.uol.com.br/ilustrada/2026/08/sofri-agressoes-das-mais-diversas-formas-diz-ex-mulher-de-latino.shtml",
-    "photo": "https://imguol.com/c/splash/7c/2025/05/22/latino-e-noiva-raffa-rarbbie-1747917803335_v2_300x225.png",
     "source": "Folha",
     "is_main": false,
     "is_carousel": true,
