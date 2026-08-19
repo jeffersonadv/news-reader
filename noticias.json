@@ -335,6 +335,10 @@
       {
         "title": "Informações preliminares apontam que carreta teria invadido a contramão, segundo a PRF",
         "link": "https://www.uol.com.br/flash/?c=3c5010f6efa03be285b6249b4f4f533f20260819"
+      },
+      {
+        "title": "IML do Paraná mobiliza três cidades para identificação das vítimas",
+        "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/19/operacao-corpos-vitimas-acidente-br-373.ghtm"
       }
     ]
   },
@@ -404,9 +408,9 @@
     ]
   },
   {
-    "title": "Trump suspende tarifas de 50% sobre produtos do Canadá por três dias",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/19/trump-suspende-tarifas-50-sobre-produtos-importandos-do-canada.ghtm",
-    "photo": "https://imguol.com/c/noticias/b6/2025/05/06/mark-carney-com-donald-trump-na-casa-branca-1746557301612_v2_300x225.jpg",
+    "title": "Greve de bancários em SP não adia vencimento de contas nem recebimento de salários",
+    "link": "https://economia.uol.com.br/noticias/redacao/2026/08/19/greve-dos-bancarios-nao-adia-vencimento-de-contas.ghtm",
+    "photo": "",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -431,7 +435,12 @@
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Velório será reservado à familia e aos amigos",
+        "link": "https://www.uol.com.br/splash/noticias/2026/08/19/gloria-menezes-tera-cerimonia-de-despedida-reservada-a-familia-e-aos-amigos.ghtm"
+      }
+    ]
   },
   {
     "title": "Crise na Casas Bahia mostra que parcela não cabe mais no bolso, dizem analistas",
@@ -445,10 +454,6 @@
       {
         "title": "Caso atinge renda fixa",
         "link": "https://economia.uol.com.br/noticias/redacao/2026/08/19/casas-bahia---renda-fixa.ghtm"
-      },
-      {
-        "title": "Multi estima perda de R$ 20 milhões em valores que tinha a receber da Casas Bahia",
-        "link": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/08/19/multilaser-provisiona-r-20-milhoes-em-perdas-com-recebiveis-do-grupo-casas-bahia.htm"
       }
     ]
   },
@@ -468,17 +473,22 @@
     ]
   },
   {
-    "title": "'Deu força': ator Jaffar Bambirra fez 'Dias Perfeitos' em meio a doença da mãe",
-    "link": "https://www.uol.com.br/universa/noticias/redacao/2026/08/19/jaffar-bambirra-no-desculpa-alguma-coisa.htm",
-    "photo": "https://imguol.com/c/entretenimento/81/2026/08/18/jaffar-bambirra-no-programa-desculpa-alguma-coisa-com-tati-bernardi-1787079695682_v2_300x225.jpg",
+    "title": "Quando 'terminar' com um amigo? Entenda o luto do fim de uma amizade",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/19/ex-amigo-terminar-uma-amizade-doi-mais-que-terminar-um-relacionamento.ghtm",
+    "photo": "https://imguol.com/c/splash/ff/2026/08/18/amauri-mazzuco-no-100-amigos-1787084649896_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Mazzuco procura 100 amigos em novo programa do UOL",
+        "link": "https://economia.uol.com.br/noticias/redacao/2026/08/19/amauri-mazzuco-vai-as-ruas-de-sao-paulo-em-busca-de-novas-amizades.ghtm"
+      }
+    ]
   },
   {
-    "title": "Russos retiram bilhões de bancos por medo de confisco de Putin",
+    "title": "Russos retiram quase R$ 80 bilhões de bancos desde junho por medo de confisco de Putin",
     "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/19/russos-retiram-bilhoes-de-bancos-por-medo-de-confisco-de-putin.ghtm",
     "photo": "",
     "source": "UOL",
@@ -486,6 +496,25 @@
     "is_carousel": true,
     "is_video": false,
     "relateds": []
+  },
+  {
+    "title": "Os 'espiões' de Vorcaro: como o dono do Master usava aliados dentro do BC",
+    "link": "https://tab.uol.com.br/noticias/redacao/2026/08/18/os-espioes-de-vorcaro-como-dono-do-master-usava-grupo-de-aliados-no-bc.htm",
+    "photo": "https://conteudo.imguol.com.br/c/tab/e4/2026/08/17/prime-vorcaro-bc---indice-1787012846037_v2_544x682.jpg",
+    "source": "UOL",
+    "is_main": true,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Daniela Lima: Troca de mensagens de Vorcaro com 'espiões' no Banco Central é escandalosa",
+        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/18/daniela-lima-troca-de-mensagens-de-vorcaro-com-espioes-no-banco-central-e-escandalosa.ghtm"
+      },
+      {
+        "title": "Com anos de atraso, CVM julgará principal ação envolvendo Master",
+        "link": "https://economia.uol.com.br/colunas/mariana-barbosa/2026/08/18/apos-anos-de-atraso-cvm-pauta-julgamento-de-principal-processo-do-master.htm"
+      }
+    ]
   },
   {
     "title": "O gestor que fez aporte no MST virar fenômeno entre pequenos investidores",
@@ -498,29 +527,9 @@
     "relateds": []
   },
   {
-    "title": "Estatal do governo Lula abriga 'exército' eleitoral em contrato de R$ 35 mi",
-    "link": "https://tab.uol.com.br/noticias/redacao/2026/07/27/estatal-do-governo-lula-abriga-exercito-eleitoral-em-contrato-de-r-35-mi.htm",
-    "photo": "https://conteudo.imguol.com.br/c/tab/8c/2026/07/24/prime---cabos-eleitorais-indice-prime-1784917959632_v2_544x682.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Veja como fazer flexão corretamente para definir peitoral e braços",
     "link": "https://www.uol.com.br/vivabem/noticias/redacao/2026/08/19/como-fazer-flexao-corretamente-para-definir-peitoral-e-bracos.ghtm",
     "photo": "https://imguol.com/c/entretenimento/8b/2022/05/27/focado-no-treino-flexao-de-braco-1653682954193_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Marina Sena se pronuncia sobre término; Rico se revolta no Rancho do Maia",
-    "link": "https://www.uol.com.br/play/ao-vivo/canal-uol/2/",
-    "photo": "https://imguol.com/c/splash/1d/2026/01/24/marina-sena-sobre-juliano-floss-no-bbb-1769295598883_v2_150x112.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -573,19 +582,14 @@
     "relateds": []
   },
   {
-    "title": "RealTime Big Data: Michelle aparece à frente na disputa pelo Senado no DF",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/08/19/realtime-big-data-michelle-aparece-a-frente-na-disputa-pelo-senado-no-df.ghtm",
-    "photo": "https://imguol.com/c/noticias/a1/2026/04/05/a-ex-primeira-dama-do-brasil-michelle-bolsonaro-discursa-durante-o-encontro-nacional-de-mandatos-do-partido-liberal-mulher-em-brasilia-em-6-de-junho-de-2025-1775433630453_v2_300x225.jpg",
+    "title": "Homem morre espancado após ser confundido com ladrão em Copacabana, no Rio",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/19/homem-morre-espancado-apos-ser-confundido-com-ladrao-em-copacabana.ghtm",
+    "photo": "https://imguol.com/c/home/a6/2026/08/19/claudio-rafael-landeiro-moreira-1787147470158_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
-    "relateds": [
-      {
-        "title": "Celina Leão lidera corrida pelo governo do DF, diz RealTime Big Data",
-        "link": "https://noticias.uol.com.br/eleicoes/2026/08/19/realtime-big-data-celina-leao-lidera-corrida-pelo-governo-do-df.ghtm"
-      }
-    ]
+    "relateds": []
   },
   {
     "title": "Paraná Pesquisas: Tarcísio tem 50%, e Haddad, 34%, para o governo de SP",
@@ -603,29 +607,29 @@
     ]
   },
   {
-    "title": "Barrichello corre atrás de nova missão longe da F1: 'Fome zero'",
-    "link": "https://www.uol.com.br/nossa/colunas/josimar-melo/2026/08/19/rubinho-barrichello-corre-atras-de-nova-missao-longe-da-f1-fome-zero.htm",
-    "photo": "https://imguol.com/c/entretenimento/75/2026/08/18/rubens-barrichello-e-ara-mirim-yvoty-1787071829268_v2_300x225.jpg",
+    "title": "RealTime: No DF, Michelle aparece à frente na disputa pelo Senado",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/08/19/realtime-big-data-michelle-aparece-a-frente-na-disputa-pelo-senado-no-df.ghtm",
+    "photo": "https://imguol.com/c/noticias/a1/2026/04/05/a-ex-primeira-dama-do-brasil-michelle-bolsonaro-discursa-durante-o-encontro-nacional-de-mandatos-do-partido-liberal-mulher-em-brasilia-em-6-de-junho-de-2025-1775433630453_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Celina Leão lidera corrida pelo governo do DF, diz RealTime Big Data",
+        "link": "https://noticias.uol.com.br/eleicoes/2026/08/19/realtime-big-data-celina-leao-lidera-corrida-pelo-governo-do-df.ghtm"
+      }
+    ]
   },
   {
-    "title": "Quando 'terminar' com um amigo? Entenda o luto do fim de uma amizade",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/19/ex-amigo-terminar-uma-amizade-doi-mais-que-terminar-um-relacionamento.ghtm",
-    "photo": "https://imguol.com/c/splash/ff/2026/08/18/amauri-mazzuco-no-100-amigos-1787084649896_v2_300x225.png",
+    "title": "'Deu força': ator Jaffar Bambirra fez 'Dias Perfeitos' em meio a doença da mãe",
+    "link": "https://www.uol.com.br/universa/noticias/redacao/2026/08/19/jaffar-bambirra-no-desculpa-alguma-coisa.htm",
+    "photo": "https://imguol.com/c/entretenimento/81/2026/08/18/jaffar-bambirra-no-programa-desculpa-alguma-coisa-com-tati-bernardi-1787079695682_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": [
-      {
-        "title": "Mazzuco procura 100 amigos em novo programa do UOL",
-        "link": "https://economia.uol.com.br/noticias/redacao/2026/08/19/amauri-mazzuco-vai-as-ruas-de-sao-paulo-em-busca-de-novas-amizades.ghtm"
-      }
-    ]
+    "relateds": []
   },
   {
     "title": "Quando a dívida em reais pressiona o dólar",
@@ -692,6 +696,16 @@
     "link": "https://www1.folha.uol.com.br/colunas/mauricio-portugal-ribeiro/2026/08/nossos-museus-salas-de-concerto-e-teatros-queimam-por-falta-de-contratos.shtml",
     "photo": "https://conteudo.imguol.com.br/c/home/be/2025/04/24/mauricio-portugal-ribeiro-portugal-ribeiro--jordao-advogados-participa-do-evento-p3c-sobre-parceria-publico-privada-ppps-e-concessoes-1745494588424_v2_100x100.jpg",
     "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Rubinho Barrichello corre atrás de nova missão longe da F1: 'Fome zero'",
+    "link": "https://www.uol.com.br/nossa/colunas/josimar-melo/2026/08/19/rubinho-barrichello-corre-atras-de-nova-missao-longe-da-f1-fome-zero.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/13/2023/02/01/josimar-melo-1675279172018_100x100.jpg",
+    "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
@@ -828,16 +842,6 @@
     "relateds": []
   },
   {
-    "title": "Motorista que derrubou passarela e matou dois na Fernão Dias é preso",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/18/preso-motorista-que-derrubou-passarela-e-matou-duas-pessoas-na-fernao-dias.ghtm",
-    "photo": "https://imguol.com/c/noticias/85/2026/08/18/carro-e-atingido-apos-passarela-desabar-na-rodovia-fernao-dias-em-vargem-sp-1787064685426_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Robinho Jr. busca recomeço na Europa após plano frustrado e aval do Santos",
     "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/19/erro-na-transicao-de-robinho-jr-traz-prejuizo-ao-santos-e-atrasa-o-jogador.ghtm",
     "photo": "https://imguol.com/c/home/0a/2026/08/19/robinho-jr-no-banco-do-santos-em-um-dos-jogos-da-temporada-de-2026raul-barett-1787146507077_300x225.jpg",
@@ -898,19 +902,9 @@
     "relateds": []
   },
   {
-    "title": "Bancários de SP rejeitam reajuste e definem paralisação por 24 horas amanhã",
-    "link": "https://economia.uol.com.br/noticias/redacao/2026/08/19/greve-dos-bancarios---agosto-de-2026.ghtm",
-    "photo": "",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "VAR reverte escanteios em jogo da Série B, mas regra só valerá em 2027",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/19/var-ceara-nautico-serie-b.ghtm",
-    "photo": "https://imguol.com/c/esporte/8b/2026/08/19/jogadores-do-ceara-reclamam-com-arbitro-afro-rocha-durante-jogo-contra-o-nautico-na-serie-b-1787138065230_v2_300x225.jpg",
+    "title": "Trump suspende tarifas de 50% sobre produtos do Canadá por três dias",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/19/trump-suspende-tarifas-50-sobre-produtos-importandos-do-canada.ghtm",
+    "photo": "https://imguol.com/c/noticias/b6/2025/05/06/mark-carney-com-donald-trump-na-casa-branca-1746557301612_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -948,7 +942,7 @@
     "relateds": []
   },
   {
-    "title": "Padre Júlio sobre condenação de Gentili por ofensas: 'Importante pedagogicamente'",
+    "title": "Padre Júlio diz que condenação de Danilo Gentili por ofensas serve de exemplo",
     "link": "https://www.uol.com.br/splash/noticias/2026/08/19/padre-julio-reage-a-condenacao-de-danilo-gentili-doloroso-ser-atingido.ghtm",
     "photo": "https://imguol.com/c/entretenimento/cc/2022/12/05/o-humorista-danilo-gentili-atacou-o-padre-julio-lancellotti-1670272498552_v2_300x225.jpg",
     "source": "UOL",
@@ -978,9 +972,29 @@
     "relateds": []
   },
   {
+    "title": "João Fonseca volta para o Rio para fazer tratamento antes do US Open",
+    "link": "https://www1.folha.uol.com.br/esporte/2026/08/joao-fonseca-volta-para-o-rio-para-fazer-tratamento-antes-do-us-open.shtml",
+    "photo": "https://imguol.com/c/esporte/42/2026/08/18/joao-fonseca-nas-oitavas-de-final-do-masters-1000-de-montreal-em-2026-1787022218199_v2_450x337.jpg",
+    "source": "Folha",
+    "is_main": true,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Flamengo de Jardim testa versão copeira contra o Cruzeiro após frustrações",
     "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/19/flamengo-de-jardim-tem-modo-copeiro-a-prova-contra-o-cruzeiro.ghtm",
     "photo": "https://imguol.com/c/esporte/0e/2026/08/09/erick-pulgar-e-abracado-apos-marcar-em-flamengo-x-vitoria-pelo-brasileirao-1786321088499_v2_450x253.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Tenista Nick Kyrgios é suspenso após testar positivo para cocaína",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/afp/2026/08/19/tenista-nick-kyrgios-e-suspenso-apos-testar-positivo-para-cocaina.htm",
+    "photo": "https://imguol.com/c/esporte/8b/2026/07/16/nick-kyrgios-em-acao-no-uts-rio-1784250178737_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -998,29 +1012,9 @@
     "relateds": []
   },
   {
-    "title": "Musetti: Organizada do Santos se irrita com jornalistas em viagem ao Equador",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/18/musetti-organizada-do-santos-se-irrita-com-jornalistas-em-viagem.ghtm",
-    "photo": "https://imguol.com/c/esporte/e8/2026/08/14/torcida-do-santos-durante-partida-contra-macara-no-estadio-vila-belmiro-1786678831403_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Edson Barboza abre o jogo e explica aposentadoria: \"Corpo não é mais o mesmo\"",
-    "link": "https://www.uol.com.br/esporte/ultimas-noticias/ag-fight/2026/08/18/edson-barboza-abre-o-jogo-e-explica-aposentadoria-corpo-nao-e-mais-o-mesmo.htm",
-    "photo": "https://imguol.com/c/esporte/42/2024/05/16/edson-barboza-antes-de-entrar-no-octogono-em-luta-do-ufc-1715875189911_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Tenista Nick Kyrgios é suspenso após testar positivo para cocaína",
-    "link": "https://www.uol.com.br/esporte/ultimas-noticias/afp/2026/08/19/tenista-nick-kyrgios-e-suspenso-apos-testar-positivo-para-cocaina.htm",
-    "photo": "https://imguol.com/c/esporte/8b/2026/07/16/nick-kyrgios-em-acao-no-uts-rio-1784250178737_v2_300x225.jpg",
+    "title": "Maracanã é favorito para abrir Copa Feminina, apesar de tentativa paulista",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/19/maracana-e-favorito-para-abrir-copa-feminina-apesar-de-tentativa-paulista.ghtm",
+    "photo": "https://imguol.com/c/esporte/2d/2026/08/18/maracana-no-rio-de-janeiro-1787106619698_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1028,9 +1022,9 @@
     "relateds": []
   },
   {
-    "title": "Hortência lidera votação de maior da história da Copa do Mundo de Basquete",
-    "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/08/18/hortencia-lidera-votacao-de-maior-da-historia-da-copa-do-mundo-de-basquete.ghtm",
-    "photo": "https://imguol.com/c/esporte/a0/2026/08/18/hortencia-1787090921548_v2_300x225.jpg",
+    "title": "VAR reverte escanteios em jogo da Série B, mas regra só valerá em 2027",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/19/var-ceara-nautico-serie-b.ghtm",
+    "photo": "https://imguol.com/c/esporte/8b/2026/08/19/jogadores-do-ceara-reclamam-com-arbitro-afro-rocha-durante-jogo-contra-o-nautico-na-serie-b-1787138065230_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1038,9 +1032,9 @@
     "relateds": []
   },
   {
-    "title": "Campeão do Super Bowl encaminha contratação de jogador acusado de sequestro e roubo",
-    "link": "https://www.uol.com.br/esporte/ultimas-noticias/agencia/2026/08/18/atual-campeao-do-super-bowl-encaminha-contratacao-de-jogador-acusado-de-sequestro-e-roubo.htm",
-    "photo": "https://imguol.com/c/esporte/f0/2026/08/18/terrion-arnold-em-acao-com-a-camisa-do-detroit-lions-na-nfl-1787093357561_v2_300x225.jpg",
+    "title": "Monaco rescinde contrato de Pogba depois de apenas seis jogos",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/19/monaco-rescinde-contrato-de-paul-pogba-apos-uma-temporada.ghtm",
+    "photo": "https://imguol.com/c/esporte/37/2025/11/21/paul-pogba-em-treino-do-monaco-1763763297598_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1132,9 +1126,9 @@
     ]
   },
   {
-    "title": "Simpar assume 100% de empresa que faz gestão de terminais urbanos em SP",
-    "link": "https://economia.uol.com.br/noticias/redacao/2026/08/19/simpar-descruza-participacoes-com-terra-transportes.ghtm",
-    "photo": "https://imguol.com/c/noticias/01/2022/12/15/simpar-1671109638206_v2_450x253.jpg",
+    "title": "Paraná Pesquisas: Tebet, Marina e Derrite lideram para o Senado em SP",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/08/19/parana-pesquisas-tebet-marina-e-derrite-lideram-para-o-senado-em-sp.ghtm",
+    "photo": "https://imguol.com/c/noticias/2d/2026/07/28/simone-tebet-psb-marina-silva-rede-e-guilherme-derrite-pp-1785285590555_v2_450x253.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -1142,9 +1136,9 @@
     "relateds": []
   },
   {
-    "title": "'Vou quebrar sua cara': advogada vira ré por golpe e ameaça a cliente no DF",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/18/vou-quebrar-sua-cara-advogada-vira-re-por-golpe-e-ameaca-a-cliente-no-df.ghtm",
-    "photo": "https://imguol.com/c/noticias/cb/2026/08/18/gessyka-domenique-messias-araujo-de-pietro-virou-re-por-quatro-estelionatos-e-ameaca-no-df-1787093096934_v2_300x300.jpg",
+    "title": "Democrata progressista da Flórida surpreende ao vencer primárias para Senado dos EUA",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/reuters/2026/08/19/em-resultado-surpreendente-democrata-progressista-da-florida-vence-primarias-para-senado-dos-eua.htm",
+    "photo": "https://imguol.com/c/home/3d/2026/08/19/a-candidata-democrata-ao-senado-dos-eua-angie-nixon-1787149232567_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -1165,6 +1159,16 @@
     "title": "Ataques russos na Ucrânia deixam ao menos seis mortos e 14 feridos",
     "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/19/ataques-russia-ucrania-19-de-agosto.ghtm",
     "photo": "https://imguol.com/c/noticias/5e/2026/08/19/19ago2026---um-morador-caminha-pelo-local-de-uma-feira-de-rua-atingida-por-um-drone-russo-em-meio-ao-ataque-da-russia-a-ucrania-em-zaporizhzhia-ucrania-1787138119010_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Motorista que derrubou passarela e matou dois na Fernão Dias é preso",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/18/preso-motorista-que-derrubou-passarela-e-matou-duas-pessoas-na-fernao-dias.ghtm",
+    "photo": "https://imguol.com/c/noticias/85/2026/08/18/carro-e-atingido-apos-passarela-desabar-na-rodovia-fernao-dias-em-vargem-sp-1787064685426_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -1558,6 +1562,96 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Estatal do governo Lula abriga 'exército' eleitoral em contrato de R$ 35 mi",
+    "link": "https://tab.uol.com.br/noticias/redacao/2026/07/27/estatal-do-governo-lula-abriga-exercito-eleitoral-em-contrato-de-r-35-mi.htm",
+    "photo": "https://conteudo.imguol.com.br/c/tab/8c/2026/07/24/prime---cabos-eleitorais-indice-prime-1784917959632_v2_544x682.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Marina Sena se pronuncia sobre término; Rico se revolta no Rancho do Maia",
+    "link": "https://www.uol.com.br/play/ao-vivo/canal-uol/2/",
+    "photo": "https://imguol.com/c/splash/1d/2026/01/24/marina-sena-sobre-juliano-floss-no-bbb-1769295598883_v2_150x112.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Bancários de SP rejeitam reajuste e definem paralisação por 24 horas amanhã",
+    "link": "https://economia.uol.com.br/noticias/redacao/2026/08/19/greve-dos-bancarios---agosto-de-2026.ghtm",
+    "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Musetti: Organizada do Santos se irrita com jornalistas em viagem ao Equador",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/18/musetti-organizada-do-santos-se-irrita-com-jornalistas-em-viagem.ghtm",
+    "photo": "https://imguol.com/c/esporte/e8/2026/08/14/torcida-do-santos-durante-partida-contra-macara-no-estadio-vila-belmiro-1786678831403_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Edson Barboza abre o jogo e explica aposentadoria: \"Corpo não é mais o mesmo\"",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/ag-fight/2026/08/18/edson-barboza-abre-o-jogo-e-explica-aposentadoria-corpo-nao-e-mais-o-mesmo.htm",
+    "photo": "https://imguol.com/c/esporte/42/2024/05/16/edson-barboza-antes-de-entrar-no-octogono-em-luta-do-ufc-1715875189911_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Hortência lidera votação de maior da história da Copa do Mundo de Basquete",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/08/18/hortencia-lidera-votacao-de-maior-da-historia-da-copa-do-mundo-de-basquete.ghtm",
+    "photo": "https://imguol.com/c/esporte/a0/2026/08/18/hortencia-1787090921548_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Campeão do Super Bowl encaminha contratação de jogador acusado de sequestro e roubo",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/agencia/2026/08/18/atual-campeao-do-super-bowl-encaminha-contratacao-de-jogador-acusado-de-sequestro-e-roubo.htm",
+    "photo": "https://imguol.com/c/esporte/f0/2026/08/18/terrion-arnold-em-acao-com-a-camisa-do-detroit-lions-na-nfl-1787093357561_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Simpar assume 100% de empresa que faz gestão de terminais urbanos em SP",
+    "link": "https://economia.uol.com.br/noticias/redacao/2026/08/19/simpar-descruza-participacoes-com-terra-transportes.ghtm",
+    "photo": "https://imguol.com/c/noticias/01/2022/12/15/simpar-1671109638206_v2_450x253.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "'Vou quebrar sua cara': advogada vira ré por golpe e ameaça a cliente no DF",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/18/vou-quebrar-sua-cara-advogada-vira-re-por-golpe-e-ameaca-a-cliente-no-df.ghtm",
+    "photo": "https://imguol.com/c/noticias/cb/2026/08/18/gessyka-domenique-messias-araujo-de-pietro-virou-re-por-quatro-estelionatos-e-ameaca-no-df-1787093096934_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
@@ -2560,25 +2654,6 @@
       {
         "title": "Glória Menezes não se chamava assim; saiba qual era o seu verdadeiro nome",
         "link": "https://www.uol.com.br/splash/noticias/2026/08/18/nome-verdadeiro-de-gloria-menezes-era-nilcedes-entenda-origem.ghtm"
-      }
-    ]
-  },
-  {
-    "title": "Mensagens mostram que ex-diretores do BC revisavam documentos para Vorcaro, diz PF",
-    "link": "https://tab.uol.com.br/noticias/redacao/2026/08/18/os-espioes-de-vorcaro-como-dono-do-master-usava-grupo-de-aliados-no-bc.htm",
-    "photo": "https://imguol.com/c/home/38/2026/08/18/uol-prime-vorcaro-e-ex-diretores-do-bc-1787077397025_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": true,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Daniela Lima: Troca de mensagens de Vorcaro com 'espiões' no Banco Central é escandalosa",
-        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/18/daniela-lima-troca-de-mensagens-de-vorcaro-com-espioes-no-banco-central-e-escandalosa.ghtm"
-      },
-      {
-        "title": "Com anos de atraso, CVM julgará principal ação envolvendo Master",
-        "link": "https://economia.uol.com.br/colunas/mariana-barbosa/2026/08/18/apos-anos-de-atraso-cvm-pauta-julgamento-de-principal-processo-do-master.htm"
       }
     ]
   },
@@ -5221,81 +5296,6 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "João Fonseca desiste de Cincinnati após sentir incômodo no abdômen",
-    "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/08/17/joao-fonseca-desiste-do-masters-1000-de-cincinnati-por-lesao-abdominal.ghtm",
-    "photo": "https://imguol.com/c/esporte/d4/2026/08/09/joao-fonseca-se-lamenta-durante-jogo-contra-ben-shelton-em-montreal-1786319793040_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Flávio faz campanha em Minas Gerais e promete mais agendas no estado",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/08/17/flavio-foca-em-mg-no-comeco-da-campanha-e-tera-mais-agendas-no-estado.ghtm",
-    "photo": "",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Remo empata com gol de falta no último lance e complica vida do Inter",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/17/internacional-remo-campeonato-brasileiro-como-foi-o-jogo.ghtm",
-    "photo": "https://imguol.com/c/esporte/68/2026/08/17/remo-arrancou-empate-do-inter-com-gol-no-ultimo-minuto-1787014605473_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Veja a tabela do Brasileirão",
-        "link": "https://www.uol.com.br/esporte/futebol/campeonatos/brasileirao/"
-      }
-    ]
-  },
-  {
-    "title": "Gota d'água: Adriana não aguenta e destrói o dia de Bruna em 'Quem Ama Cuida'",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/17/adriana-procura-bruna-em-quem-ama-cuida.ghtm",
-    "photo": "https://imguol.com/c/splash/f4/2026/08/17/adriana-leticia-colin-e-bruna-nanda-marques-em-quem-ama-cuida-1786989622789_v2_450x337.jpg",
-    "source": "UOL",
-    "is_main": true,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Ana Hickmann se emociona com música que simboliza romance com Edu Guedes",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/17/ana-hickmann-se-emociona-em-cha-de-lingerie-ao-falar-de-edu-guedes.ghtm",
-    "photo": "https://imguol.com/c/splash/ab/2026/08/17/ana-hickmann-se-emocionou-ao-revelar-detalhe-da-relacao-com-edu-guedes-1787015070298_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Wagner Moura e João Bosco reagem à patrulha ideológica digital dentro da esquerda",
-    "link": "https://www1.folha.uol.com.br/ilustrada/2026/08/wagner-moura-e-joao-bosco-reagem-a-patrulha-ideologica-digital-dentro-da-esquerda.shtml",
-    "photo": "https://imguol.com/c/parceiros/cd/2026/08/05/wagner-moura-no-conversa-com-bial-ator-falou-sobre-polarizacao-politica-e-ataques-que-recebe-1785927313921_v2_300x300.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Grávida, Lucy Ramos diz que Globo consultou obstetra para gravar acidente",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/17/gravida-lucy-ramos-diz-que-globo-consultou-obstetra-para-gravar-acidente.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/09/2026/08/13/juli-lucy-ramos-e-bela-juli-lucy-ramos-em-por-voce-1786669694450_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
     "is_video": false,
     "relateds": []
   }
