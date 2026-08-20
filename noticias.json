@@ -333,16 +333,16 @@
         "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/19/flamengo-cruzeiro-oitavas-libertadores-melhores-momentos.ghtm"
       },
       {
+        "title": "Jardim elogia Pedro e explica time contra Cruzeiro: 'Opção estratégica'",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/20/jardim-elogia-pedro-e-explica-time-contra-cruzeiro-opcao-estrategica.ghtm"
+      },
+      {
         "title": "De 'foi incrível' a 'descuido': o que atletas falaram após Flamengo x Cruzeiro",
         "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/19/flamengo-cruzeiro-falas.ghtm"
       },
       {
         "title": "Juca Kfouri: Flamengo não se limita a vencer; convence, encanta e guerreia",
         "link": "https://www.uol.com.br/esporte/futebol/colunas/juca-kfouri/2026/08/19/flamengo-nao-se-limita-a-vencer-convence-e-encanta.htm"
-      },
-      {
-        "title": "Mauro Cezar: Fla domina 1º tempo, Cruzeiro reage, mas rubro-negros avançam; grande jogo",
-        "link": "https://www.uol.com.br/esporte/futebol/colunas/mauro-cezar-pereira/2026/08/19/flamengo-cruzeiro.htm"
       },
       {
         "title": "Cinco times estão confirmados nas quartas de final da Libertadores; veja detalhes",
@@ -428,8 +428,8 @@
         "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/19/gustavo-gomez-gols-palmeiras-libertadores.ghtm"
       },
       {
-        "title": "Lavieri: Palmeiras fez o que precisava para recuperar confiança",
-        "link": "https://www.uol.com.br/esporte/colunas/danilo-lavieri/2026/08/19/palmeiras-fez-o-que-precisava-para-recuperar-confianca-e-voltar-a-jogar-bem.htm"
+        "title": "'É para porcos': Palmeiras tira onda com o Corinthians após classificação",
+        "link": "https://www.uol.com.br/flash/?c=ecfb298e5b2a7cd6cee3db75f9c47e20260820"
       },
       {
         "title": "Mauro Cezar: Classificação não esconde o pobre futebol de um rico Palmeiras",
@@ -617,6 +617,26 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Fla domina 1º tempo, Cruzeiro reage, mas rubro-negros avançam; grande jogo",
+    "link": "https://www.uol.com.br/esporte/futebol/colunas/mauro-cezar-pereira/2026/08/19/flamengo-cruzeiro.htm",
+    "photo": "https://conteudo.imguol.com.br/3e/2021/02/10/mauro-cezar-150-colorida-1612960631293_100x100.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Palmeiras fez o que precisava para recuperar confiança",
+    "link": "https://www.uol.com.br/esporte/colunas/danilo-lavieri/2026/08/19/palmeiras-fez-o-que-precisava-para-recuperar-confianca-e-voltar-a-jogar-bem.htm",
+    "photo": "https://conteudo.imguol.com.br/aa/2020/09/22/danilo-lavieri-share-1600783945672_100x100.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
@@ -841,26 +861,6 @@
     "relateds": []
   },
   {
-    "title": "Hadjar tem lesão, perde GP da Holanda e será substituído por Lawson",
-    "link": "https://www.uol.com.br/esporte/colunas/pole-position/2026/08/19/hadjar-tem-lesao-perde-gp-da-holanda-e-sera-substituido-por-lawson.htm",
-    "photo": "https://conteudo.imguol.com.br/c/home/f2/2022/06/21/julianne-cerasoli-autor-colorida-1655820371335_v2_100x100.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Peugeot chinês? Parceria com marca asiática anima rede após queda em vendas",
-    "link": "https://www.uol.com.br/carros/colunas/paula-gama/2026/08/19/peugeot-chines-carros-feitos-com-dongfeng-animam-rede-apos-queda-de-vendas.htm",
-    "photo": "https://conteudo.imguol.com.br/8a/2021/05/12/paula-gama---autor-1620827756029_100x100.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Como achar focos e ninhos de escorpião-amarelo e mais três tipos em casa",
     "link": "https://noticias.uol.com.br/meio-ambiente/ultimas-noticias/redacao/2026/08/18/como-achar-focos-e-ninhos-de-escorpiao-amarelo-e-mais-3-tipos-em-casa.ghtm",
     "photo": "https://conteudo.imguol.com.br/c/noticias/70/2025/02/18/escorpiao-amarelo-do-nordeste-tityus-stigmurus-1739914696362_v2_300x300.jpg",
@@ -971,9 +971,9 @@
     "relateds": []
   },
   {
-    "title": "Americano ganha US$ 10 mil na loteria no dia de seu aniversário",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/19/jovem-ganha-us-10-mil-em-loteria-no-dia-em-que-faz-18-anos.ghtm",
-    "photo": "",
+    "title": "MP denuncia ex-tutora de cadela que engoliu 55 pedras de crack em SC",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/19/mp-denuncia-ex-tutora-de-filhote-que-engoliu-55-pedras-de-crack-em-sc.ghtm",
+    "photo": "https://imguol.com/c/home/c2/2026/08/19/mpsc-denuncia-ex-tutora-de-cadela-que-engoliu-55-pedras-de-crack-por-maus-tratos-1787191955369_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1031,9 +1031,9 @@
     "relateds": []
   },
   {
-    "title": "MP denuncia ex-tutora de cadela que engoliu 55 pedras de crack em SC",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/19/mp-denuncia-ex-tutora-de-filhote-que-engoliu-55-pedras-de-crack-em-sc.ghtm",
-    "photo": "https://imguol.com/c/home/c2/2026/08/19/mpsc-denuncia-ex-tutora-de-cadela-que-engoliu-55-pedras-de-crack-por-maus-tratos-1787191955369_v2_300x225.png",
+    "title": "China: fundador de incorporadora imobiliária é condenado à prisão perpétua",
+    "link": "https://economia.uol.com.br/noticias/redacao/2026/08/20/fundador-da-evergrande-e-condenado-a-prisao-perpetua-na-china.ghtm",
+    "photo": "https://imguol.com/c/noticias/25/2026/08/20/hui-ka-yan-fundador-da-evergrande-participa-de-uma-coletiva-de-imprensa-sobre-os-resultados-anuais-da-incorporadora-imobiliaria-em-hong-kong-1787205652301_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1051,9 +1051,9 @@
     "relateds": []
   },
   {
-    "title": "Empresas são condenadas após mandarem fiscal negro cortar o cabelo em SP",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/19/empresas-sao-condenadas-apos-mandarem-fiscal-negro-cortar-o-cabelo-em-sp.ghtm",
-    "photo": "https://imguol.com/c/noticias/33/2026/07/17/justica-1784319578843_v2_300x225.jpg",
+    "title": "Piloto morre após avião bater em helicóptero da polícia durante voo nos Estados Unidos",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/20/piloto-morre-apos-aviao-bater-em-helicoptero-da-policia-durante-voo-nos-eua.ghtm",
+    "photo": "https://imguol.com/c/noticias/a1/2026/08/20/202082026---acidente-aereo-entre-aviao-e-helicoptero-perto-do-aeroporto-de-carlisle-nos-eua-1787203012672_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1281,9 +1281,9 @@
     "relateds": []
   },
   {
-    "title": "Político leva homem fantasiado de cachorro à audiência para protestar na Índia",
-    "link": "https://www.uol.com.br/flash/?c=d89d553fa1a4df66d43914456ec501720260819",
-    "photo": "https://imguol.com/c/home/7d/2026/08/19/politico-leva-homem-fantasiado-de-cachorro-a-audiencia-para-protestar-contra-ataques-de-caes-na-india-1787184994006_v2_374x209.jpg",
+    "title": "Empresas são condenadas após mandarem fiscal negro cortar o cabelo em SP",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/19/empresas-sao-condenadas-apos-mandarem-fiscal-negro-cortar-o-cabelo-em-sp.ghtm",
+    "photo": "https://imguol.com/c/noticias/33/2026/07/17/justica-1784319578843_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -1291,9 +1291,9 @@
     "relateds": []
   },
   {
-    "title": "PMs são denunciados por morte de jovem que sumiu após abordagem na Bahia",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/19/jovem-some-apos-abordagem-pms-sao-denunciados-por-execucao.ghtm",
-    "photo": "https://imguol.com/c/noticias/d9/2020/10/20/policia-militar-da-bahia-policiais-militares-pm-da-bahia-pm-ba-1603230756199_v2_300x300.jpg",
+    "title": "Político leva homem fantasiado de cachorro à audiência para protestar na Índia",
+    "link": "https://www.uol.com.br/flash/?c=d89d553fa1a4df66d43914456ec501720260819",
+    "photo": "https://imguol.com/c/home/7d/2026/08/19/politico-leva-homem-fantasiado-de-cachorro-a-audiencia-para-protestar-contra-ataques-de-caes-na-india-1787184994006_v2_374x209.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -1601,6 +1601,16 @@
     "relateds": []
   },
   {
+    "title": "Peugeot chinês? Parceria com marca asiática anima rede após queda em vendas",
+    "link": "https://www.uol.com.br/carros/colunas/paula-gama/2026/08/19/peugeot-chines-carros-feitos-com-dongfeng-animam-rede-apos-queda-de-vendas.htm",
+    "photo": "https://imguol.com/c/guia-de-compras/d7/2026/08/18/os-concepts-6-e-8-antecipam-a-nova-geracao-de-peugeot-que-sera-desenvolvida-com-tecnologia-da-dongfeng-1787081801648_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Preso com 22 carros, influenciador Razuk movimentou R$ 100 mi em rifas",
     "link": "https://www.uol.com.br/carros/colunas/paula-gama/2026/08/19/preso-com-frota-de-r-20-mi-influencer-razuk-movimentou-r-100-mi-em-rifas.htm",
     "photo": "https://imguol.com/c/entretenimento/31/2026/08/19/porsche-911-turbo-s-cabriolet-e-um-dos-mais-caros-da-garagem-do-razuk-avaliado-em-r-17-milhao-1787150571755_v2_300x300.jpg",
@@ -1757,6 +1767,36 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Hadjar tem lesão, perde GP da Holanda e será substituído por Lawson",
+    "link": "https://www.uol.com.br/esporte/colunas/pole-position/2026/08/19/hadjar-tem-lesao-perde-gp-da-holanda-e-sera-substituido-por-lawson.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/f2/2022/06/21/julianne-cerasoli-autor-colorida-1655820371335_v2_100x100.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Americano ganha US$ 10 mil na loteria no dia de seu aniversário",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/19/jovem-ganha-us-10-mil-em-loteria-no-dia-em-que-faz-18-anos.ghtm",
+    "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "PMs são denunciados por morte de jovem que sumiu após abordagem na Bahia",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/19/jovem-some-apos-abordagem-pms-sao-denunciados-por-execucao.ghtm",
+    "photo": "https://imguol.com/c/noticias/d9/2020/10/20/policia-militar-da-bahia-policiais-militares-pm-da-bahia-pm-ba-1603230756199_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
@@ -5299,46 +5339,6 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Como é o apartamento em que Juliano Floss morava com Marina",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/18/como-e-o-apartamento-em-que-juliano-floss-e-marina-sena-moravam-em-sp.ghtm",
-    "photo": "https://imguol.com/c/parceiros/49/2026/08/18/juliano-floss-e-marina-sena-casal-tinha-iniciado-relacionamento-apos-viagem-internacional-1787051712460_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Marina Sena sobre término com Juliano Floss: 'Relação se transformou'",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/18/marina-sena-confirma-fim-do-namoro-com-juliano-floss.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/48/2026/08/18/marina-sena-e-juliano-floss-1787066336657_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "C6 Bank tem lucro de R$ 1,25 bilhão no primeiro semestre, alta de 20%",
-    "link": "https://economia.uol.com.br/noticias/reuters/2026/08/18/lucro-do-c6-cresce-20-com-receita-recorde-mas-inadimplencia-sobe-e-roe-recua.htm",
-    "photo": "",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Tênis Adidas com 50% off e camiseta Insider por R$ 90",
-    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/18/tenis-adidas-com-50-off-e-camiseta-insider-por-r4-90-as-ofertas-da-semana.htm",
-    "photo": "https://imguol.com/c/entretenimento/ff/2025/05/23/tenis-de-corrida-1748033371389_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
     "is_video": false,
     "relateds": []
   }
