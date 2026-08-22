@@ -613,7 +613,7 @@
     "photo": "https://imguol.com/c/noticias/fe/2026/08/21/novos-videos-do-espancamento-de-claudio-rafael-landeiro-circulam-nas-redes-sociais-1787365667645_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": [
       {
@@ -1022,10 +1022,10 @@
     "relateds": []
   },
   {
-    "title": "Suspeitos de tráfico usam carro-bomba pela 1ª vez no Rio, diz PM",
-    "link": "https://www1.folha.uol.com.br/cotidiano/2026/08/suspeitos-de-trafico-usam-carro-bomba-pela-1a-vez-no-rio-diz-pm.shtml",
+    "title": "Barco de migrantes afunda na Tunísia e deixa 13 desaparecidos",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/22/barco-naufragio-tunisia.ghtm",
     "photo": "",
-    "source": "Folha",
+    "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
@@ -1763,6 +1763,16 @@
     "link": "https://www.uolhost.uol.com.br/uol-cloud-computing.html?utm_medium=uol.com.br&utm_source=interna&utm_campaign=rodapé_uol&utm_content=link_fixo&utm_term=cloud_computing",
     "photo": "",
     "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Suspeitos de tráfico usam carro-bomba pela 1ª vez no Rio, diz PM",
+    "link": "https://www1.folha.uol.com.br/cotidiano/2026/08/suspeitos-de-trafico-usam-carro-bomba-pela-1a-vez-no-rio-diz-pm.shtml",
+    "photo": "",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
@@ -5422,16 +5432,6 @@
     "link": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/08/20/mdic-e-fazenda-publicam-portaria-para-ampliar-alcance-do-programa-move-brasil-taxi-e-apps.htm",
     "photo": "",
     "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Justiça considera ilegal regra que autoriza dentistas a fazerem harmonização facial",
-    "link": "https://www1.folha.uol.com.br/equilibrioesaude/2026/08/justica-considera-ilegal-regra-que-autoriza-dentistas-a-fazer-harmonizacao-facial.shtml",
-    "photo": "",
-    "source": "Folha",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
