@@ -343,7 +343,7 @@
         "link": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/08/22/caiado-chama-adversarios-de-fujoes-e-amareloes-por-provavel-ausencia-em-debate-presidencial.htm"
       },
       {
-        "title": "Em jingle com IA, Zema crítica Lula e coloca ministros do STF na prisão",
+        "title": "Em jingle com IA, Zema critica Lula e coloca ministros do STF na prisão",
         "link": "https://noticias.uol.com.br/eleicoes/2026/08/22/zema-lanca-jingle-com-lula-e-ministros-do-stf-na-prisao.ghtm"
       },
       {
@@ -472,27 +472,42 @@
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Clipe amplia histórico de atritos entre Memphis e diretoria do Corinthians",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/22/clipe-amplia-historico-de-atritos-entre-memphis-e-diretoria-do-corinthians.ghtm"
+      }
+    ]
   },
   {
-    "title": "Real Madrid sofre, mas vence com brilho de estreante na volta de Mourinho",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/22/real-madrid-espanyol-la-liga.ghtm",
-    "photo": "https://imguol.com/c/esporte/18/2026/08/22/carlos-espi-do-real-madrid-durante-partida-contra-o-espanyol-em-la-liga-1787433865238_v2_300x225.jpg",
+    "title": "'Vini não é santo, mas o que fazem com ele é um absurdo', diz Mourinho",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/22/mourinho-diz-que-vini-sofre-bullying-na-espanha-batem-desde-o-1-minuto.ghtm",
+    "photo": "https://imguol.com/c/esporte/fa/2026/08/22/vini-jr-em-partida-contra-o-espanyol-pelo-campeonato-espanhol-1787437851953_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Real sofre, mas vence com brilho de estreante na volta de Mourinho",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/22/real-madrid-espanyol-la-liga.ghtm"
+      }
+    ]
   },
   {
-    "title": "Humberto Gessinger revela timidez por trás de fama de antipático",
-    "link": "https://www.uol.com.br/flash/?c=6a88e6e01ebbb46b0161d6f5",
-    "photo": "https://imguol.com/c/parceiros/27/2018/09/04/humberto-gessinger-1536102183778_v2_300x225.jpg",
+    "title": "Fla tem Paquetá e Arrascaeta juntos em reencontro com Cruzeiro; veja times",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/22/cruzeiro-x-flamengo---escalacoes.ghtm",
+    "photo": "",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Saiba onde assistir à partida",
+        "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/08/22/onde-vai-passar-cruzeiro-x-flamengo-pelo-brasileirao-como-assistir-ao-vivo.ghtm"
+      }
+    ]
   },
   {
     "title": "Os 'espiões' de Vorcaro: como o dono do Master usava aliados dentro do BC",
@@ -527,26 +542,6 @@
     "title": "Amaciante com álcool: para que serve a mistura e quais cuidados tomar",
     "link": "https://www.uol.com.br/tilt/noticias/redacao/2026/08/22/amaciante-com-alcool-para-que-serve-a-mistura-e-quais-cuidados-tomar.ghtm",
     "photo": "https://imguol.com/c/entretenimento/da/2020/11/11/amaciante-em-excesso-pode-prejudicar-funcionamento-da-maquina-de-lavar-roupas-ao-longo-do-tempo-1605117945485_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Siga Ferroviária x Fluminense pelo Brasileirão Feminino",
-    "link": "https://www.uol.com.br/esporte/ao-vivo/2026/08/22/ferroviaria-x-fluminense---brasileirao-feminino.htm",
-    "photo": "",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Bahia x Juventude jogam pelo Brasileiro Feminino; assista",
-    "link": "https://www.uol.com.br/esporte/ao-vivo/2026/08/22/bahia-x-juventude---17-rodada-do-campeonato-brasileiro-feminino.htm",
-    "photo": "",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -594,9 +589,9 @@
     "relateds": []
   },
   {
-    "title": "Nunes diz que tentou convencer esposa a não ser candidata",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/08/22/nunes-dizque-tentou-convencer-primeira-dama-a-nao-ser-candidata-a-deputada.ghtm",
-    "photo": "",
+    "title": "Humberto Gessinger revela timidez por trás de fama de antipático",
+    "link": "https://www.uol.com.br/flash/?c=6a88e6e01ebbb46b0161d6f5",
+    "photo": "https://imguol.com/c/parceiros/27/2018/09/04/humberto-gessinger-1536102183778_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -604,25 +599,30 @@
     "relateds": []
   },
   {
-    "title": "Lando Norris é o pole do GP da Holanda; Bortoleto larga em 9º",
-    "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/08/22/grid-de-largada-gp-da-holanda-de-f1.ghtm",
-    "photo": "https://imguol.com/c/esporte/69/2026/08/22/norris-ficou-com-a-pole-position-do-gp-da-holanda-1787410636000_v2_300x225.jpg",
+    "title": "Mulher encontrada acorrentada em GO diz que ex colocou panos com ácido na boca dela",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/22/ocorrencia-prisao-goias-agosto-2026.ghtm",
+    "photo": "https://imguol.com/c/home/55/2026/08/22/itens-e-medicamentos-encontrados-no-cativeiro-em-aguas-lindas-de-goias-em-goias-1787437434468_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": [
-      {
-        "title": "Para ficar na frente do grid, tem que avançar ainda mais, diz Bortoleto sobre carro",
-        "link": "https://www.uol.com.br/esporte/colunas/pole-position/2026/08/22/bortoleto-e-melhor-do-resto-apos-tem-tapa-no-capacete-e-volta-por-cima.htm"
-      }
-    ]
+    "relateds": []
   },
   {
-    "title": "Esposa de Lito diz que o youtuber está na 'lista de espera' para estudo da Universidade de Harvard",
-    "link": "https://www.uol.com.br/flash/?c=fa8aee6d4a75cbec1c89251533a3c3bd20260822",
-    "photo": "https://imguol.com/c/splash/f2/2026/08/21/lito-sousa-e-a-espoa-mila-seidl-1787324571545_v2_300x225.jpg",
+    "title": "O Sobrenatural do Efeito evitou catástrofe no Maracanã",
+    "link": "https://www.uol.com.br/esporte/futebol/colunas/juca-kfouri/2026/08/22/o-sobrenatural-do-efeito-evitou-catastrofe-no-maracana.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/53/2019/01/10/juca-kfouri-1547134077409_100x100.jpg",
     "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Os filhos picaretas dos presidentes",
+    "link": "https://www1.folha.uol.com.br/colunas/celso-rocha-de-barros/2026/08/os-filhos-picaretas-dos-presidentes.shtml",
+    "photo": "https://conteudo.imguol.com.br/c/home/17/2020/08/17/celso-rocha-de-barros-colorida-para-blogs-1597668527235_100x100.jpg",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
@@ -729,16 +729,6 @@
     "relateds": []
   },
   {
-    "title": "Morte no Discord levanta debate sobre quem deve regular plataformas",
-    "link": "https://noticias.uol.com.br/colunas/a-hora/2026/08/22/morte-no-discord-levanta-debate-sobre-quem-deve-regular-plataformas.htm",
-    "photo": "https://conteudo.imguol.com.br/c/home/a0/2025/05/23/a-hora-1748033136793_v2_100x100.png?1748033143450",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Pontes de corda salvam macacos ameaçados de extinção na Amazônia",
     "link": "https://www.uol.com.br/ecoa/colunas/noticias-da-floresta/2026/08/22/pontes-de-corda-salvam-macacos-ameacados-de-extincao-na-amazonia.htm",
     "photo": "https://conteudo.imguol.com.br/c/home/9e/2025/05/17/noticias-da-floresta-1747503677509_v2_100x100.jpg",
@@ -763,16 +753,6 @@
     "link": "https://noticias.uol.com.br/colunas/carlos-madeiro/2026/08/22/advogado-e-lider-religioso-e-preso-apos-10-menores-relatarem-estupros-em-se.htm",
     "photo": "https://conteudo.imguol.com.br/c/home/65/2026/05/29/carlos-madeiro-header-1780071007014_100x100.png",
     "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Depois do fenômeno 'Arrume-se Comigo', tenho medo do próximo passo",
-    "link": "https://www1.folha.uol.com.br/colunas/ricardo-araujo-pereira/2026/08/depois-do-fenomeno-arrume-se-comigo-tenho-medo-do-proximo-passo.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/tab/60/2021/06/28/ricardo-araujo-pereira-humorista-e-cronista-portugues-1624888046836_v2_100x100.jpg",
-    "source": "Folha",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
@@ -894,6 +874,16 @@
     "relateds": []
   },
   {
+    "title": "Esposa de Lito diz que ele está em lista para teste em Harvard",
+    "link": "https://www.uol.com.br/flash/?c=fa8aee6d4a75cbec1c89251533a3c3bd20260822",
+    "photo": "https://imguol.com/c/splash/f2/2026/08/21/lito-sousa-e-a-espoa-mila-seidl-1787324571545_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Fiuk põe picape Silverado à venda por R$ 250 mil: 'Não tá fácil'",
     "link": "https://www.uol.com.br/splash/noticias/2026/08/22/fiuk-poe-silverado-a-venda-por-r-250-mil-apos-crise-financeira.ghtm",
     "photo": "https://imguol.com/c/splash/05/2026/08/22/fiuk-coloca-picape-silverado-v8-a-venda-1787425513390_v2_300x225.jpg",
@@ -924,16 +914,6 @@
     "relateds": []
   },
   {
-    "title": "Esposa de Gabriel Medina nada com tubarões em ilha",
-    "link": "https://cenapop.uol.com.br/noticias/famosos/isabella-arantes-tubarao.html",
-    "photo": "https://imguol.com/c/parceiros/1f/2026/08/21/isabella-arantes-nadou-com-tubaroes-no-mar-da-polinesia-francesa-1787341759086_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Internato onde filho de Galisteu estudará custa R$ 760 mil por ano",
     "link": "https://www.uol.com.br/splash/noticias/2026/08/22/filho-de-adriane-galisteu-vai-estudar-em-internato-na-suica.ghtm",
     "photo": "https://imguol.com/c/splash/fd/2026/08/22/adriane-e-alexandre-se-despediram-do-filho-que-vai-morar-na-suica-1787399270270_v2_300x225.jpg",
@@ -944,9 +924,9 @@
     "relateds": []
   },
   {
-    "title": "Fabi Justus agradece presença de doador de medula em cerimônia",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/22/fabiana-justus-celebra-uniao-na-bahia-com-doador-de-medula.ghtm",
-    "photo": "https://imguol.com/c/splash/a9/2026/08/22/fabiana-justus-em-sua-primeira-noite-de-renovacao-dos-votos-1787396347660_v2_300x225.jpg",
+    "title": "Huck, Sophie Charlotte e mais: os famosos no show de Anitta",
+    "link": "https://www.uol.com.br/flash/?c=cf8cadff6ce9e93f12a579bf19e1665f20260822",
+    "photo": "https://imguol.com/c/home/49/2026/08/22/luciano-huck-e-angelica-chegam-para-show-da-anitta-no-rio-de-janeiro-1787437697078_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -954,9 +934,19 @@
     "relateds": []
   },
   {
-    "title": "Brasileira é encontrada morta em apartamento na Irlanda; polícia investiga homicídio",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/22/brasileira-e-encontrada-morta-na-irlanda-policia-investiga-homicidio.ghtm",
-    "photo": "https://imguol.com/c/noticias/84/2026/08/22/jady-cristine-vivia-ha-cerca-de-tres-anos-em-limerick-na-irlanda-1787425570848_v2_300x225.jpg",
+    "title": "Esposa de Gabriel Medina nada com tubarões em ilha",
+    "link": "https://cenapop.uol.com.br/noticias/famosos/isabella-arantes-tubarao.html",
+    "photo": "https://imguol.com/c/parceiros/1f/2026/08/21/isabella-arantes-nadou-com-tubaroes-no-mar-da-polinesia-francesa-1787341759086_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Sobe para 27 mil casos de 'diarreia explosiva' causada por alface mexicano nos EUA",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/22/diarreia-explosiva-por-alface-tem-27-mil-casos-nos-eua.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/05/2023/08/12/salada-pre-higienizada-salada-no-mercado-salada-pronta-para-consumo-1691868395701_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -964,9 +954,9 @@
     "relateds": []
   },
   {
-    "title": "Palmeiras acerta renovação com Flaco López até 2030",
-    "link": "https://www.uol.com.br/esporte/colunas/mercado-da-bola/2026/08/22/palmeiras-acerta-renovacao-de-contrato-com-flaco-lopez-ate-2030.htm",
-    "photo": "https://imguol.com/c/esporte/03/2026/08/12/flaco-lopez-comemora-gol-em-palmeiras-x-cerro-porteno-pela-libertadores-1786578697757_v2_300x225.jpg",
+    "title": "Brasileira é encontrada morta em apartamento na Irlanda; polícia investiga homicídio",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/22/brasileira-e-encontrada-morta-na-irlanda-policia-investiga-homicidio.ghtm",
+    "photo": "https://imguol.com/c/noticias/84/2026/08/22/jady-cristine-vivia-ha-cerca-de-tres-anos-em-limerick-na-irlanda-1787425570848_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -984,10 +974,10 @@
     "relateds": []
   },
   {
-    "title": "Caí do sétimo andar, perdi a visão e parte da perna após uso de zolpidem, diz médico",
-    "link": "https://www1.folha.uol.com.br/equilibrioesaude/2026/08/cai-do-setimo-andar-perdi-a-visao-e-parte-da-perna-apos-uso-de-zolpidem-diz-medico.shtml",
-    "photo": "https://imguol.com/c/home/fd/2026/08/22/o-medico-vitor-piva-34-faz-exercicios-com-a-especialista-em-reabilitacao-fisica-taynah-souza-ribeiro-na-academia-do-predio-onde-mora-em-sao-paulo-1787409837234_v2_300x225.jpg",
-    "source": "Folha",
+    "title": "Homem é preso após tentar vender o filho de três anos em praça de Belo Horizonte",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/22/homem-e-preso-apos-tentar-vender-filho-de-3-anos-por-r-10-em-bh.ghtm",
+    "photo": "https://imguol.com/c/noticias/a4/2026/08/22/homem-foi-detido-na-praca-sete-em-belo-horizonte-1787429658448_v2_300x225.png",
+    "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
@@ -1014,8 +1004,8 @@
     "relateds": []
   },
   {
-    "title": "Mercado de marmitas cresce e aposta em cardápio sob medida",
-    "link": "https://www1.folha.uol.com.br/mercado/2026/08/mercado-de-marmitas-cresce-e-aposta-em-cardapio-sob-medida-para-a-era-das-canetas-emagrecedoras.shtml",
+    "title": "Por que as crianças de fazendas costumam ter menos alergias",
+    "link": "https://www1.folha.uol.com.br/equilibrioesaude/2026/08/por-que-as-criancas-de-fazendas-costumam-ter-menos-alergias.shtml",
     "photo": "",
     "source": "Folha",
     "is_main": false,
@@ -1024,10 +1014,10 @@
     "relateds": []
   },
   {
-    "title": "Sobe para 27 mil casos de 'diarreia explosiva' causada por alface mexicano nos EUA",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/22/diarreia-explosiva-por-alface-tem-27-mil-casos-nos-eua.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/05/2023/08/12/salada-pre-higienizada-salada-no-mercado-salada-pronta-para-consumo-1691868395701_v2_300x225.jpg",
-    "source": "UOL",
+    "title": "Caí do sétimo andar, perdi a visão e parte da perna após uso de zolpidem, diz médico",
+    "link": "https://www1.folha.uol.com.br/equilibrioesaude/2026/08/cai-do-setimo-andar-perdi-a-visao-e-parte-da-perna-apos-uso-de-zolpidem-diz-medico.shtml",
+    "photo": "https://imguol.com/c/home/fd/2026/08/22/o-medico-vitor-piva-34-faz-exercicios-com-a-especialista-em-reabilitacao-fisica-taynah-souza-ribeiro-na-academia-do-predio-onde-mora-em-sao-paulo-1787409837234_v2_300x225.jpg",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
@@ -1134,9 +1124,9 @@
     "relateds": []
   },
   {
-    "title": "Time que revelou Zidane, Bordeaux dá calotes, se endivida e pode ser extinto",
-    "link": "https://www.uol.com.br/esporte/futebol/colunas/mauro-cezar-pereira/2026/08/22/time-grande-que-revelou-zidane-da-calotes-se-endivida-e-pode-ser-extinto.htm",
-    "photo": "https://imguol.com/c/esporte/56/2024/08/02/idolo-frances-zidane-foi-jogador-do-bordeaux-durante-4-temporadas-1722625001948_v2_300x225.jpg",
+    "title": "Palmeiras acerta renovação com Flaco López até 2030",
+    "link": "https://www.uol.com.br/esporte/colunas/mercado-da-bola/2026/08/22/palmeiras-acerta-renovacao-de-contrato-com-flaco-lopez-ate-2030.htm",
+    "photo": "https://imguol.com/c/esporte/03/2026/08/12/flaco-lopez-comemora-gol-em-palmeiras-x-cerro-porteno-pela-libertadores-1786578697757_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1194,19 +1184,19 @@
     "relateds": []
   },
   {
-    "title": "Valentina Herszage vive enfermeira em série: 'Não teria sangue frio para ser uma'",
-    "link": "https://f5.folha.uol.com.br/televisao/2026/08/valentina-herszage-vive-enfermeira-em-serie-nao-teria-sangue-frio-para-ser-uma.shtml",
-    "photo": "https://imguol.com/c/home/2f/2026/08/22/valentina-herszage-interpreta-a-enfermeira-manuela-bastos-em-emergencia-53-1787424191669_v2_300x225.jpg",
-    "source": "Folha",
+    "title": "Mãe de Hayden Panettiere questiona versão do namorado sobre morte",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/22/mae-de-hayden-panettiere-questiona-versao-de-namorado-sobre-morte.ghtm",
+    "photo": "https://imguol.com/c/noticias/e3/2020/07/17/hayden-panettiere-1595016216607_v2_300x225.jpg",
+    "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
     "relateds": []
   },
   {
-    "title": "Cenário 'diferentão' chama a atenção em show da estrela country Kacey Musgraves",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/22/coracao-espelhado-vira-saco-do-cavalo-da-beyonce-em-show.ghtm",
-    "photo": "https://imguol.com/c/splash/b0/2026/08/22/kacey-musgraves-1787421194269_v2_300x225.jpg",
+    "title": "Em passagem por SP, Terry Crews elogia culinária brasileira: 'Não vou parar de comer'",
+    "link": "https://www.uol.com.br/flash/?c=b1ffefb7e379b8c271bebb3da21f89f20260822",
+    "photo": "https://imguol.com/c/entretenimento/e1/2026/08/22/terry-crews-prova-pao-de-queijo-durante-passagem-por-sao-paulo-1787438765088_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1254,6 +1244,16 @@
     "relateds": []
   },
   {
+    "title": "Nunes diz que tentou convencer esposa a não ser candidata",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/08/22/nunes-dizque-tentou-convencer-primeira-dama-a-nao-ser-candidata-a-deputada.ghtm",
+    "photo": "https://imguol.com/c/noticias/fb/2026/08/22/nunes-durante-lancamento-da-candidatura-da-primeira-dama-regina-1787416437797_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Justiça do RJ mantém prisão de suspeitos de espancar ciclista até a morte",
     "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/22/audiencia-de-custodia---espancamento-de-ciclista.ghtm",
     "photo": "https://imguol.com/c/noticias/e2/2026/08/20/camera-de-seguranca-registrou-agressoes-em-copacabana-contra-claudio-rafael-landeiro-11agosto2026-1787232245941_v2_300x300.png",
@@ -1267,16 +1267,6 @@
     "title": "França anuncia envio de mísseis interceptadores à Ucrânia",
     "link": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/08/22/presidente-da-franca-anuncia-envio-de-misseis-interceptadores-a-ucrania.htm",
     "photo": "https://imguol.com/c/noticias/2a/2025/11/17/ucrania-assina-carta-de-intencao-com-a-franca-para-adquirir-equipamentos-militares-da-base-industrial-e-tecnologica-de-defesa-do-pais-1763388611677_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Colisão envolvendo viatura policial deixa sete pessoas mortas na Inglaterra",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/22/colisao-com-viatura-policial-deixa-varias-pessoas-mortas-na-inglaterra.ghtm",
-    "photo": "https://imguol.com/c/noticias/0a/2026/08/22/uma-viatura-da-policia-de-cleveland-1787389931707_v2_300x300.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -1710,6 +1700,131 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Real Madrid sofre, mas vence com brilho de estreante na volta de Mourinho",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/22/real-madrid-espanyol-la-liga.ghtm",
+    "photo": "https://imguol.com/c/esporte/18/2026/08/22/carlos-espi-do-real-madrid-durante-partida-contra-o-espanyol-em-la-liga-1787433865238_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Siga Ferroviária x Fluminense pelo Brasileirão Feminino",
+    "link": "https://www.uol.com.br/esporte/ao-vivo/2026/08/22/ferroviaria-x-fluminense---brasileirao-feminino.htm",
+    "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Bahia x Juventude jogam pelo Brasileiro Feminino; assista",
+    "link": "https://www.uol.com.br/esporte/ao-vivo/2026/08/22/bahia-x-juventude---17-rodada-do-campeonato-brasileiro-feminino.htm",
+    "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Lando Norris é o pole do GP da Holanda; Bortoleto larga em 9º",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/08/22/grid-de-largada-gp-da-holanda-de-f1.ghtm",
+    "photo": "https://imguol.com/c/esporte/69/2026/08/22/norris-ficou-com-a-pole-position-do-gp-da-holanda-1787410636000_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Para ficar na frente do grid, tem que avançar ainda mais, diz Bortoleto sobre carro",
+        "link": "https://www.uol.com.br/esporte/colunas/pole-position/2026/08/22/bortoleto-e-melhor-do-resto-apos-tem-tapa-no-capacete-e-volta-por-cima.htm"
+      }
+    ]
+  },
+  {
+    "title": "Morte no Discord levanta debate sobre quem deve regular plataformas",
+    "link": "https://noticias.uol.com.br/colunas/a-hora/2026/08/22/morte-no-discord-levanta-debate-sobre-quem-deve-regular-plataformas.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/a0/2025/05/23/a-hora-1748033136793_v2_100x100.png?1748033143450",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Depois do fenômeno 'Arrume-se Comigo', tenho medo do próximo passo",
+    "link": "https://www1.folha.uol.com.br/colunas/ricardo-araujo-pereira/2026/08/depois-do-fenomeno-arrume-se-comigo-tenho-medo-do-proximo-passo.shtml",
+    "photo": "https://conteudo.imguol.com.br/c/tab/60/2021/06/28/ricardo-araujo-pereira-humorista-e-cronista-portugues-1624888046836_v2_100x100.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Fabi Justus agradece presença de doador de medula em cerimônia",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/22/fabiana-justus-celebra-uniao-na-bahia-com-doador-de-medula.ghtm",
+    "photo": "https://imguol.com/c/splash/a9/2026/08/22/fabiana-justus-em-sua-primeira-noite-de-renovacao-dos-votos-1787396347660_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Mercado de marmitas cresce e aposta em cardápio sob medida",
+    "link": "https://www1.folha.uol.com.br/mercado/2026/08/mercado-de-marmitas-cresce-e-aposta-em-cardapio-sob-medida-para-a-era-das-canetas-emagrecedoras.shtml",
+    "photo": "",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Time que revelou Zidane, Bordeaux dá calotes, se endivida e pode ser extinto",
+    "link": "https://www.uol.com.br/esporte/futebol/colunas/mauro-cezar-pereira/2026/08/22/time-grande-que-revelou-zidane-da-calotes-se-endivida-e-pode-ser-extinto.htm",
+    "photo": "https://imguol.com/c/esporte/56/2024/08/02/idolo-frances-zidane-foi-jogador-do-bordeaux-durante-4-temporadas-1722625001948_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Valentina Herszage vive enfermeira em série: 'Não teria sangue frio para ser uma'",
+    "link": "https://f5.folha.uol.com.br/televisao/2026/08/valentina-herszage-vive-enfermeira-em-serie-nao-teria-sangue-frio-para-ser-uma.shtml",
+    "photo": "https://imguol.com/c/home/2f/2026/08/22/valentina-herszage-interpreta-a-enfermeira-manuela-bastos-em-emergencia-53-1787424191669_v2_300x225.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Cenário 'diferentão' chama a atenção em show da estrela country Kacey Musgraves",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/22/coracao-espelhado-vira-saco-do-cavalo-da-beyonce-em-show.ghtm",
+    "photo": "https://imguol.com/c/splash/b0/2026/08/22/kacey-musgraves-1787421194269_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Colisão envolvendo viatura policial deixa sete pessoas mortas na Inglaterra",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/22/colisao-com-viatura-policial-deixa-varias-pessoas-mortas-na-inglaterra.ghtm",
+    "photo": "https://imguol.com/c/noticias/0a/2026/08/22/uma-viatura-da-policia-de-cleveland-1787389931707_v2_300x300.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
@@ -5244,106 +5359,6 @@
     "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/21/ataque-espada-escola-suecia.ghtm",
     "photo": "https://imguol.com/c/noticias/3b/2026/08/21/brinellskolan-na-cidade-de-fagersta-onde-ataque-com-espada-aconteceu-1787320635738_v2_300x300.jpg",
     "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Mulher é condenada por vender restos humanos do necrotério de Harvard, nos EUA",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/21/mulher-e-presa-por-vender-restos-humanos-do-necroterio-de-harvard.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/b2/2023/06/26/katrina-maclean-esta-sendo-acusada-de-comprar-cranio-humano-1687809797435_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "'Braço direito' de líder do Comando Vermelho é preso enquanto treinava em academia no Rio",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/21/operador-de-batman-e-preso-enquanto-treinava-em-academia-no-rio.ghtm",
-    "photo": "https://imguol.com/c/noticias/a2/2026/08/21/prisao-no-meio-da-academia-foi-filmada-pelos-agentes-20agosto2026-1787318640659_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Muthu Master: a viúva que viveu como homem por 37 anos para se proteger",
-    "link": "https://www.uol.com.br/universa/noticias/redacao/2026/08/19/viuva-indiana-viveu-como-homem-por-37-anos-para-se-proteger-de-estupro.ghtm",
-    "photo": "https://imguol.com/c/geral/f6/2026/08/18/muthu-master-1787077563401_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Copa do Mundo",
-    "link": "https://www.uol.com.br/esporte/futebol/campeonatos/copa-do-mundo/",
-    "photo": "",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Moraes e Dino erram em série em caso envolvendo Luís Pablo",
-    "link": "https://www1.folha.uol.com.br/colunas/marcosaugustogoncalves/2026/08/moraes-e-dino-erram-em-serie-em-caso-envolvendo-luis-pablo.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/22/2023/08/01/marcos-augusto-goncalves-1690912231947_v2_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Nas minhas férias no Brasil, faço de tudo, menos descansar",
-    "link": "https://www1.folha.uol.com.br/colunas/juliana-de-albuquerque/2026/08/nas-minhas-ferias-no-brasil-faco-de-tudo-menos-descansar.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/86/2019/06/04/juliana-de-albuquerque-colunista-da-folha-de-spaulo-1559670420556_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "O delírio vocal da burocracia da arte em peça de Michel Melamed",
-    "link": "https://www1.folha.uol.com.br/blogs/mise-en-scene/2026/08/o-delirio-vocal-da-burocracia-da-arte-em-peca-de-michel-melamed.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/02/2025/03/07/sao-paulo---sp---brasil---18-09-2024---retrato-de-andre-marcondes-designer-grafico-do-impresso-e-coordenador-de-diagramacao-da-folha-para-o-perfil-do-autor-no-blog-mise-en-scene-1741357021201_v2_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "O primeiro ouro a gente nunca esquece",
-    "link": "https://www1.folha.uol.com.br/blogs/o-mundo-e-uma-bola/2026/08/o-primeiro-ouro-a-gente-nunca-esquece.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/54/2022/12/15/luis-curro-1671112549126_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Mamãe modelo e peão influenciador são os campeões do Miss e Mister Rodeio Brasil 2026",
-    "link": "https://f5.folha.uol.com.br/colunistas/de-faixa-a-coroa/2026/08/mamae-modelo-e-peao-influenciador-sao-os-campeoes-do-miss-e-mister-rodeio-brasil-2026.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/ec/2025/08/16/fabio-luis-de-paula---de-faixa-a-coroa-1755365765964_v2_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Carminho leva ao Cultura Artística, em São Paulo, fado em renovação",
-    "link": "https://www1.folha.uol.com.br/blogs/musica-em-letras/2026/08/carminho-leva-ao-cultura-artistica-em-sao-paulo-fado-em-renovacao.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/14/2026/08/10/carlos-bozzo-junior-autor-da-coluna-muica-em-letras-da-folha-de-spaulo-1786371838605_v2_100x100.jpg",
-    "source": "Folha",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
