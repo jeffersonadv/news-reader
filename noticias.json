@@ -335,24 +335,24 @@
     "photo": "https://imguol.com/c/esporte/eb/2026/08/23/flaco-lopez-e-vitor-roque-comemoram-gol-do-palmeiras-contra-o-vasco-pelo-brasileirao-1787517093665_v2_450x337.jpg",
     "source": "UOL",
     "is_main": true,
-    "is_carousel": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": [
       {
-        "title": "Leila e enteado posam com camisa do Vasco em meio a debate por SAF no time carioca",
-        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/leila-e-enteado-posam-com-camisa-do-vasco-em-meio-a-debate-por-saf.ghtm"
+        "title": "Golaço de Flaco, aula de contra-ataque: veja os principais lances da partida",
+        "link": "https://www.uol.com.br/flash/?c=1e119e937bd2f8e0e88e99bc5192d2c20260823"
       },
       {
-        "title": "Em tarde de homenagem a Gómez, atacantes voltam a resolver para o Palmeiras",
-        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/em-tarde-de-homenagem-a-gomez-atacantes-voltam-a-resolver-para-o-palmeiras.ghtm"
+        "title": "Leila e enteado posam com camisa do Vasco em meio a debate por SAF no time carioca",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/leila-e-enteado-posam-com-camisa-do-vasco-em-meio-a-debate-por-saf.ghtm"
       },
       {
         "title": "Lavieri: Palmeiras faz 1º tempo assustador, mas se recupera com show de Flaco",
         "link": "https://www.uol.com.br/esporte/colunas/danilo-lavieri/2026/08/23/palmeiras-faz-1-tempo-assustador-mas-se-recupera-com-show-de-flaco.htm"
       },
       {
-        "title": "PVC: Domingo Nu Parque vai de esperança do Vasco a goleada do Palmeiras líder",
-        "link": "https://www.uol.com.br/esporte/colunas/pvc/2026/08/23/domingo-nu-parque-comeca-com-esperanca-do-vasco-e-fecha-com.htm"
+        "title": "Yara Fantoni: Flaco López vira o dono dos golaços do Palmeiras",
+        "link": "https://www.uol.com.br/esporte/colunas/yara-fantoni/2026/08/23/flaco-lopez-o-dono-dos-golacos-na-noite-do-palmeiras.htm"
       },
       {
         "title": "Veja a classificação atualizada e os jogos da 24ª rodada do Campeonato Brasileiro",
@@ -368,6 +368,16 @@
     "is_main": false,
     "is_carousel": true,
     "is_video": true,
+    "relateds": []
+  },
+  {
+    "title": "Palmeiras rumo ao título; Vasco rumo à Série B",
+    "link": "https://www.uol.com.br/esporte/futebol/colunas/casagrande/2026/08/23/palmeiras-viaja-rumo-ao-titulo-enquanto-o-vasco-viaja-para-a-serie-b.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/e3/2022/07/18/walter-casagrande-junior-1658138987222_v2_100x100.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
     "relateds": []
   },
   {
@@ -401,16 +411,6 @@
     "relateds": []
   },
   {
-    "title": "Supremo não responde a crise com autocontenção",
-    "link": "https://www1.folha.uol.com.br/colunas/marcus-melo/2026/08/quando-os-arbitros-entram-no-jogo-o-jantar-da-desordem-institucional.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/8e/2020/01/27/marcus-andre-melo-cientista-politico-e-colunista-do-jornal-folha-de-spaulo-1580128942928_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Debate da Band vai ter seis púlpitos mesmo com ausências de Lula, Flávio e Zema",
     "link": "https://www.uol.com.br/flash/?c=4ea8fe86a3f29323edcc83dabe9660c220260823",
     "photo": "",
@@ -420,8 +420,8 @@
     "is_video": false,
     "relateds": [
       {
-        "title": "Lulistas e bolsonaristas são menos radicais que o rival supõe, diz estudo",
-        "link": "https://noticias.uol.com.br/colunas/leonardo-sakamoto/2026/08/23/lulistas-e-bolsonaristas-sao-menos-radicais-que-o-rival-supoe-diz-pesquisa.htm"
+        "title": "Renan leva fraldas para criticar ausências de Lula e Flávio em debate",
+        "link": "https://www.uol.com.br/flash/?c=a1ffd50491517ca156b98e4152c3320260823"
       },
       {
         "title": "Haddad participa de sabatina do UOL e da Folha amanhã",
@@ -440,10 +440,10 @@
     "relateds": []
   },
   {
-    "title": "Bragantino marca nos acréscimos e deixa Grêmio a dois pontos da zona da degola",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/bragantino-x-gremio-24-rodada-campeonato-brasileiro.ghtm",
-    "photo": "https://imguol.com/c/esporte/dc/2026/08/23/villasanti-durante-partida-entre-gremio-e-bragantino-pelo-brasileirao-2026-1787515054712_v2_300x225.jpg",
-    "source": "UOL",
+    "title": "Datafolha: 50% dos brasileiros veem chance de interferência estrangeira nas eleições",
+    "link": "https://www1.folha.uol.com.br/poder/2026/08/datafolha-50-dos-brasileiros-veem-chance-de-interferencia-estrangeira-nas-eleicoes.shtml",
+    "photo": "",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
@@ -465,10 +465,10 @@
     ]
   },
   {
-    "title": "Governo Trump diz que guerra comercial terá impacto devastador para o Canadá",
-    "link": "https://www1.folha.uol.com.br/mercado/2026/08/governo-trump-diz-que-guerra-comercial-tera-impacto-devastador-para-o-canada.shtml",
-    "photo": "",
-    "source": "Folha",
+    "title": "Bragantino marca nos acréscimos e deixa Grêmio a dois pontos da zona da degola",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/bragantino-x-gremio-24-rodada-campeonato-brasileiro.ghtm",
+    "photo": "https://imguol.com/c/esporte/dc/2026/08/23/villasanti-durante-partida-entre-gremio-e-bragantino-pelo-brasileirao-2026-1787515054712_v2_300x225.jpg",
+    "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
@@ -553,6 +553,16 @@
     "relateds": []
   },
   {
+    "title": "Raphinha dá show, e Barcelona goleia Elche na estreia do Campeonato Espanhol",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/elche-barcelona-primeira-rodada-espanhol-como-foi.ghtm",
+    "photo": "https://imguol.com/c/esporte/27/2026/08/23/raphinha-comemora-gol-pelo-barcelona-contra-o-elche-na-primeira-rodada-do-campeonato-espanhol-1787515574360_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Dino anula emendas de verbas solicitadas ou indicadas por presidentes de partidos",
     "link": "https://www1.folha.uol.com.br/poder/2026/08/dino-anula-emendas-parlamentares-solicitadas-ou-indicadas-por-presidentes-de-partidos.shtml",
     "photo": "https://imguol.com/c/home/1c/2026/08/23/o-ministro-flavio-dino-em-sessao-plenaria-do-stf-em-brasilia---gustavo-moreno-1787499430024_v2_300x225.jpg",
@@ -563,18 +573,18 @@
     "relateds": []
   },
   {
-    "title": "Luz e Matos vencem dupla europeia e conquistam Masters 1000 de Cincinnati",
-    "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/08/23/final-duplas-tenis.ghtm",
-    "photo": "https://imguol.com/c/esporte/17/2026/08/23/orlando-luz-e-rafael-matos-na-final-do-masters-1000-de-cincinatti-1787512820887_v2_300x225.jpg",
-    "source": "UOL",
+    "title": "José Dirceu: Reduzir juros altíssimos exige enfrentar rentismo",
+    "link": "https://www1.folha.uol.com.br/ilustrissima/2026/08/reduzir-os-juros-altissimos-do-brasil-exige-enfrentar-o-rentismo.shtml",
+    "photo": "",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
     "relateds": []
   },
   {
-    "title": "José Dirceu: Reduzir juros altíssimos exige enfrentar rentismo",
-    "link": "https://www1.folha.uol.com.br/ilustrissima/2026/08/reduzir-os-juros-altissimos-do-brasil-exige-enfrentar-o-rentismo.shtml",
+    "title": "Governo Trump diz que guerra comercial terá impacto devastador para o Canadá",
+    "link": "https://www1.folha.uol.com.br/mercado/2026/08/governo-trump-diz-que-guerra-comercial-tera-impacto-devastador-para-o-canada.shtml",
     "photo": "",
     "source": "Folha",
     "is_main": false,
@@ -608,10 +618,65 @@
     "relateds": []
   },
   {
+    "title": "Lulistas e bolsonaristas são menos radicais do que o rival supõe, diz pesquisa",
+    "link": "https://noticias.uol.com.br/colunas/leonardo-sakamoto/2026/08/23/lulistas-e-bolsonaristas-sao-menos-radicais-que-o-rival-supoe-diz-pesquisa.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/1e/2026/01/07/leonardo-sakamoto---colunista-1767818290321_v2_100x100.png",
+    "source": "UOL",
+    "is_main": true,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "A Hora: Eleitores de direita e de esquerda concordam sobre Estado forte na economia",
+        "link": "https://noticias.uol.com.br/colunas/a-hora/2026/08/23/nao-tem-espaco-politico-para-uma-terceira-via-liberal-diz-toledo.htm"
+      }
+    ]
+  },
+  {
+    "title": "Domingo Nu Parque vai de esperança do Vasco a goleada do Palmeiras líder",
+    "link": "https://www.uol.com.br/esporte/colunas/pvc/2026/08/23/domingo-nu-parque-comeca-com-esperanca-do-vasco-e-fecha-com.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/40/2019/01/14/pvc-1547459239301_100x100.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Palmeiras faz 1º tempo assustador, mas se recupera com show de Flaco",
+    "link": "https://www.uol.com.br/esporte/colunas/danilo-lavieri/2026/08/23/palmeiras-faz-1-tempo-assustador-mas-se-recupera-com-show-de-flaco.htm",
+    "photo": "https://conteudo.imguol.com.br/aa/2020/09/22/danilo-lavieri-share-1600783945672_100x100.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Flaco López, o dono dos golaços na noite do Palmeiras",
+    "link": "https://www.uol.com.br/esporte/colunas/yara-fantoni/2026/08/23/flaco-lopez-o-dono-dos-golacos-na-noite-do-palmeiras.htm",
+    "photo": "https://conteudo.imguol.com.br/e6/2024/05/20/yara-fantoni-150-1716218084796_80x80.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Convenções que já não decidem",
     "link": "https://www1.folha.uol.com.br/colunas/lara-mesquita/2026/08/convencoes-que-ja-nao-decidem.shtml",
     "photo": "https://conteudo.imguol.com.br/c/home/fd/2025/03/10/retrato-da-cientista-politica-e-professora-da-fgv-lara-mesquita-nova-colunista-da-editoria-de-politica-lara-posa-para-foto-no-predio-fgv-eesp-predio-economia-e-direito-no-bairro-da-bela-vista-1741607959772_v2_100x100.jpg",
     "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Palmeiras goleia o Vasco e agora voa em céu de brigadeiro",
+    "link": "https://www.uol.com.br/esporte/colunas/milton-neves/2026/08/23/palmeiras-goleia-o-vasco-e-agora-voa-em-ceu-de-brigadeiro.htm",
+    "photo": "https://conteudo.imguol.com.br/3c/2021/05/13/milton-neves-nova-150-1620927754530_100x100.jpg",
+    "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
@@ -678,16 +743,6 @@
     "relateds": []
   },
   {
-    "title": "Acha que é bom um time ter dono? Entenda o boicote dos torcedores da Lazio",
-    "link": "https://www.uol.com.br/esporte/futebol/colunas/mauro-cezar-pereira/2026/08/23/acha-que-e-bom-um-time-ter-dono-entenda-o-boicote-dos-torcedores-da-lazio.htm",
-    "photo": "https://conteudo.imguol.com.br/3e/2021/02/10/mauro-cezar-150-colorida-1612960631293_100x100.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Como cultivar onze-horas, flor que abre sob o sol forte",
     "link": "https://www1.folha.uol.com.br/blogs/tudo-mais-um-pouco/2026/08/como-cultivar-onze-horas-flor-que-abre-sob-o-sol-forte.shtml",
     "photo": "https://conteudo.imguol.com.br/c/home/c0/2024/11/09/a-jornalista-carolina-muniz-que-escreve-para-o-blog-tudo--um-pouco-1731174425181_v2_100x100.jpg",
@@ -702,31 +757,6 @@
     "link": "https://www1.folha.uol.com.br/colunas/ruycastro/2026/08/novo-vaso-nova-vida.shtml",
     "photo": "https://conteudo.imguol.com.br/c/home/13/2025/01/15/retrato-de-ruy-castro-1736952999911_100x100.jpg",
     "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Lula e Flávio fazem guerra de preços de comida nas redes sociais",
-    "link": "https://noticias.uol.com.br/colunas/tatiana-farah/2026/08/23/lula-e-flavio-fazem-guerra-de-precos-de-comida-nas-redes-sociais.htm",
-    "photo": "https://conteudo.imguol.com.br/c/home/62/2026/05/15/tatiana-farah-1778882868920_100x100.png?1778882875545",
-    "source": "UOL",
-    "is_main": true,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Lulistas e bolsonaristas são menos radicais que o rival supõe, diz pesquisa",
-        "link": "https://noticias.uol.com.br/colunas/leonardo-sakamoto/2026/08/23/lulistas-e-bolsonaristas-sao-menos-radicais-que-o-rival-supoe-diz-pesquisa.htm"
-      }
-    ]
-  },
-  {
-    "title": "Fim de uma era: Alagoas tem 1ª eleição estadual sem Collor nem sucessor",
-    "link": "https://noticias.uol.com.br/colunas/carlos-madeiro/2026/08/23/fim-da-era-alagoas-tem-primeira-eleicao-estadual-sem-collor-e-sem-sucessor.htm",
-    "photo": "https://conteudo.imguol.com.br/c/home/65/2026/05/29/carlos-madeiro-header-1780071007014_100x100.png",
-    "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
@@ -773,16 +803,6 @@
     "relateds": []
   },
   {
-    "title": "Endrick, Bruno G., Vitor Roque: o último reforço brasileiro de cada europeu",
-    "link": "https://www.uol.com.br/esporte/futebol/colunas/rafael-reis/2026/08/23/endrick-bruno-g-vitor-roque-o-ultimo-reforco-brasileiro-de-cada-europeu.htm",
-    "photo": "https://conteudo.imguol.com.br/c/home/8a/2026/01/07/rafael-reis---colunista---janeiro2026-1767819644398_v2_100x100.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Ter tirado as Forças Armadas da frigideira foi a maior proeza de Lula 3",
     "link": "https://www1.folha.uol.com.br/colunas/eliogaspari/2026/08/ter-tirado-as-forcas-armadas-da-frigideira-foi-a-maior-proeza-de-lula-3.shtml",
     "photo": "https://conteudo.imguol.com.br/90/2021/03/16/elio-gaspari-2-150-1615900047316_100x100.jpg",
@@ -797,16 +817,6 @@
     "link": "https://www1.folha.uol.com.br/colunas/alvaro-machado-dias/2026/08/o-que-torna-a-ia-inteligente.shtml",
     "photo": "https://conteudo.imguol.com.br/c/home/51/2022/08/14/alvaro-machado-dias-colunista-folha-1660479965728_v2_100x100.jpg",
     "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Atraso na entrega de aviões custa R$ 15 bi a mais em combustível às aéreas",
-    "link": "https://economia.uol.com.br/colunas/todos-a-bordo/2026/08/23/atraso-na-entrega-de-avioes-custa-r-15-bi-a-mais-em-combustivel-as-aereas.htm",
-    "photo": "https://conteudo.imguol.com.br/e9/2018/08/13/blog-todos-a-bordo-1534201104975_80x80.png",
-    "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
@@ -833,9 +843,9 @@
     "relateds": []
   },
   {
-    "title": "Máquina de lavar roupa cheirando mal? Dicas de limpeza para evitar odor",
-    "link": "https://www.uol.com.br/tilt/noticias/redacao/2026/08/23/maquina-de-lavar-roupa-cheirando-mal-dicas-de-limpeza-para-evitar-odor.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/7c/2023/05/15/homem-lavando-roupa-lavar-roupa-1684158140243_v2_300x300.jpg",
+    "title": "Por que o bullying é tão comum entre crianças e adolescentes",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/deutschewelle/2026/08/23/por-que-o-bullying-e-tao-comum-entre-criancas-e-adolescentes-e-como-mudar-esse-cenario.htm",
+    "photo": "https://imguol.com/c/entretenimento/79/2024/09/03/adolescente-depressao-tristeza-na-escola-ansiedade-bullying-1725372424222_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -843,9 +853,29 @@
     "relateds": []
   },
   {
-    "title": "'Perereca' de Malhação concilia carreira de ator com day trade",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/23/marcio-kieling-diz-que-volta-de-agora-e-que-sao-elas-no-globoplay-foi-antecipada.ghtm",
-    "photo": "https://imguol.com/c/splash/f2/2025/05/07/marcio-kieling-ficou-conhecido-por-interpretar-o-personagem-perereca-1746632092167_v2_300x225.jpg",
+    "title": "Veja a classificação atualizada e os jogos da 24ª rodada do Campeonato Brasileiro",
+    "link": "https://www.uol.com.br/esporte/futebol/campeonatos/brasileirao/",
+    "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Leila e enteado posam com camisa do Vasco em meio a debate por SAF no time carioca",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/leila-e-enteado-posam-com-camisa-do-vasco-em-meio-a-debate-por-saf.ghtm",
+    "photo": "https://imguol.com/c/esporte/52/2026/08/23/marcos-lamacchia-admar-lopes-e-leila-pereira-no-gramado-do-nubank-parque-1787512164608_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Xuxa discute com o carnavalesco Cahê Rodrigues",
+    "link": "https://www.uol.com.br/splash/noticias/estadao-conteudo/2026/08/23/xuxa-discute-com-carnavalesco-cahe-rodrigues-deselegante-ser-cobrada.htm",
+    "photo": "https://imguol.com/c/entretenimento/f7/2026/08/16/xuxa-meneghel-se-defende-de-ataques-por-criticas-aos-looks-em-sua-turne-1786915475732_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -863,9 +893,9 @@
     "relateds": []
   },
   {
-    "title": "Em nova fase, Thais Carla brinca sobre a vida de solteira",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/23/thais-carla-solteira.ghtm",
-    "photo": "https://imguol.com/c/splash/9d/2026/08/23/thais-carla-1787514103181_v2_300x225.jpg",
+    "title": "'Perereca' de Malhação concilia carreira de ator com day trade",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/23/marcio-kieling-diz-que-volta-de-agora-e-que-sao-elas-no-globoplay-foi-antecipada.ghtm",
+    "photo": "https://imguol.com/c/splash/f2/2025/05/07/marcio-kieling-ficou-conhecido-por-interpretar-o-personagem-perereca-1746632092167_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -873,9 +903,9 @@
     "relateds": []
   },
   {
-    "title": "Xuxa discute com o carnavalesco Cahê Rodrigues",
-    "link": "https://www.uol.com.br/splash/noticias/estadao-conteudo/2026/08/23/xuxa-discute-com-carnavalesco-cahe-rodrigues-deselegante-ser-cobrada.htm",
-    "photo": "https://imguol.com/c/entretenimento/f7/2026/08/16/xuxa-meneghel-se-defende-de-ataques-por-criticas-aos-looks-em-sua-turne-1786915475732_v2_300x225.jpg",
+    "title": "Em nova fase, Thais Carla brinca sobre a vida de solteira",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/23/thais-carla-solteira.ghtm",
+    "photo": "https://imguol.com/c/splash/9d/2026/08/23/thais-carla-1787514103181_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -1017,44 +1047,39 @@
     "relateds": []
   },
   {
-    "title": "Norris supera Antonelli no GP da Holanda de F1 e vence segunda corrida consecutiva",
-    "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/08/23/f1-gp-da-holanda.ghtm",
-    "photo": "https://imguol.com/c/esporte/81/2026/08/23/lando-norris-kimi-antonelli-e-george-russell-no-podio-do-gp-da-holanda-1787500553716_v2_450x337.jpg",
+    "title": "Palmeiras encaminha venda do goleiro Kaique ao Sporting por R$ 24 milhões",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/palmeiras-encaminha-venda-de-goleiro-por-r-24-milhoes-e-busca-reposicao.ghtm",
+    "photo": "https://imguol.com/c/esporte/68/2026/06/25/o-goleiro-kaique-foi-uma-das-novidades-na-reapresentacao-do-elenco-do-palmeiras-1782394203558_v2_450x337.jpg",
     "source": "UOL",
     "is_main": true,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Ferran Torres estreia com dois gols, mas PSG só empata com Rennes no Francês",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/afp/2026/08/23/ferran-torres-estreia-com-dois-gols-e-psg-fica-so-no-empate-com-rennes.htm",
+    "photo": "https://imguol.com/c/esporte/bd/2026/08/23/ferran-torres-comemora-gol-pelo-psg-contra-o-rennes-na-primeira-rodada-do-campeonato-frances-1787521821332_v2_450x253.jpg",
+    "source": "UOL",
+    "is_main": false,
     "is_carousel": true,
     "is_video": false,
-    "relateds": [
-      {
-        "title": "Russell assume a vice-liderança; veja como ficou a classificação da F1",
-        "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/08/23/russell-assume-a-vice-lideranca-veja-como-ficou-a-classificacao-da-f1.ghtm"
-      }
-    ]
+    "relateds": []
+  },
+  {
+    "title": "Chay Suede e João Vicente encaram astros do Spaten Fight Night em treino no Rio",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/ag-fight/2026/08/23/chay-suede-e-joao-vicente-desafiam-estrelas-do-spaten-fight-night-3-em-treino-aberto-no-rio.htm",
+    "photo": "https://imguol.com/c/home/35/2026/08/23/joao-vicente-a-direita-contra-glover-1787521383512_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Liverpool arranca empate com Newcastle com gol de pênalti no último lance",
     "link": "https://www.uol.com.br/esporte/ultimas-noticias/agencia/2026/08/23/liverpool-arranca-empate-com-newcastle-com-gol-de-penalti-no-ultimo-lance.htm",
-    "photo": "https://imguol.com/c/esporte/ce/2026/08/23/szoboszlai-comemora-empate-com-iraola-novo-tecnico-do-liverpool-1787508760895_v2_450x253.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Valter Walker debocha de vitória de Vitor Petrino no UFC Sacramento: 'Luta chata'",
-    "link": "https://www.uol.com.br/esporte/ultimas-noticias/ag-fight/2026/08/23/valter-walker-debocha-de-vitoria-de-vitor-petrino-no-ufc-sacramento-luta-chata-da-noite.htm",
-    "photo": "https://imguol.com/c/esporte/99/2024/04/05/valter-walker-durante-pesagem-para-sua-estreia-no-ufc-1712337702271_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Países nórdicos afirmam ter perdido a confiança em Infantino e na gestão da Fifa",
-    "link": "https://www.uol.com.br/esporte/ultimas-noticias/reuters/2026/08/23/paises-nordicos-afirmam-ter-perdido-a-confianca-em-infantino-e-na-gestao-da-fifa.htm",
-    "photo": "https://imguol.com/c/esporte/45/2026/08/23/infantino-tem-perdido-apoio-de-paises-europeus-1787504087661_v2_300x300.png",
+    "photo": "https://imguol.com/c/esporte/ce/2026/08/23/szoboszlai-comemora-empate-com-iraola-novo-tecnico-do-liverpool-1787508760895_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -1072,9 +1097,9 @@
     "relateds": []
   },
   {
-    "title": "Monaco vence Le Havre em estreia do técnico Filipe Luís no Campeonato Francês",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/le-havre-monaco-filipe-luis.ghtm",
-    "photo": "https://imguol.com/c/esporte/f3/2026/08/23/filipe-luis-no-banco-de-reservas-na-sua-estreia-pelo-monaco-na-ligue-1-1787505079683_v2_300x225.jpg",
+    "title": "Luz e Matos vencem dupla europeia e conquistam Masters 1000 de Cincinnati",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/08/23/final-duplas-tenis.ghtm",
+    "photo": "https://imguol.com/c/esporte/17/2026/08/23/orlando-luz-e-rafael-matos-na-final-do-masters-1000-de-cincinatti-1787512820887_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1092,14 +1117,19 @@
     "relateds": []
   },
   {
-    "title": "Al-Hilal quer contratar atacante Martinelli, e Arsenal define valor para venda, diz jornal",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/al-hilal-negocia-com-arsenal-e-tenta-contratar-gabriel-martinelli.ghtm",
-    "photo": "https://imguol.com/c/esporte/16/2025/11/26/gabriel-martinelli-comemora-apos-marcar-para-o-arsenal-contra-o-bayern-de-munique-pela-champions-league-1764195824838_v2_300x225.jpg",
+    "title": "Norris supera Antonelli no GP da Holanda de F1 e vence segunda corrida consecutiva",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/08/23/f1-gp-da-holanda.ghtm",
+    "photo": "https://imguol.com/c/esporte/81/2026/08/23/lando-norris-kimi-antonelli-e-george-russell-no-podio-do-gp-da-holanda-1787500553716_v2_300x225.jpg",
     "source": "UOL",
-    "is_main": false,
+    "is_main": true,
     "is_carousel": true,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Russell assume a vice-liderança; veja como ficou a classificação da F1",
+        "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/08/23/russell-assume-a-vice-lideranca-veja-como-ficou-a-classificacao-da-f1.ghtm"
+      }
+    ]
   },
   {
     "title": "Etíope Yomif Kejelcha bate recorde mundial na meia-maratona de Buenos Aires",
@@ -1162,6 +1192,16 @@
     "relateds": []
   },
   {
+    "title": "Tom Cruise pretende ter 'cara a cara' com Nicole Kidman após ser citado em entrevista",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/23/tom-cruise-quer-conversar-com-nicole-kidman-apos-citacao-em-entrevista-diz-revista.ghtm",
+    "photo": "https://imguol.com/c/noticias/8b/2018/10/16/tom-cruise-e-nicole-kidman-em-divulgacao-do-filme-de-olhos-bem-fechados-1999-1539739188947_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Meghan Markle impõe condição para trégua entre Harry e William, diz revista",
     "link": "https://www.uol.com.br/splash/noticias/2026/08/23/meghan-impoe-condicao-para-tregua-entre-harry-e-william-diz-revista.ghtm",
     "photo": "https://imguol.com/c/splash/05/2026/08/23/cotswolds-e-apontado-como-o-possivel-novo-lar-de-harry-e-meghan-na-inglaterra-1787490445086_v2_300x225.jpg",
@@ -1182,10 +1222,10 @@
     "relateds": []
   },
   {
-    "title": "América Latina, de Nicarágua de Ortega a Chile de Kast, cede a exigências de Trump",
-    "link": "https://www1.folha.uol.com.br/mundo/2026/08/america-latina-de-nicaragua-de-ortega-a-chile-de-kast-cede-a-exigencias-de-trump.shtml",
-    "photo": "https://imguol.com/c/home/49/2026/08/23/presidentes-donald-trump-eua-luis-abinader-republica-dominicana-javier-milei-argentina-nayib-bukele-el-salvador-mohamed-irfaan-ali-guiana-rodrigo-chaves-costa-rica-rodrigo-paz-1787514801641_v2_450x337.jpg",
-    "source": "Folha",
+    "title": "Israel diz ter matado comandante do Hamas em ataque na Faixa de Gaza",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/23/israel-diz-matar-comandante-do-hamas-e-atacar-fabrica-de-armas.ghtm",
+    "photo": "https://imguol.com/c/noticias/89/2026/08/09/area-destruida-em-khan-yunis-no-sul-da-faixa-de-gaza-1786302301885_v2_450x337.jpg",
+    "source": "UOL",
     "is_main": true,
     "is_carousel": false,
     "is_video": false,
@@ -1232,9 +1272,9 @@
     "relateds": []
   },
   {
-    "title": "Violinista Elisa Fukuda é feita refém em São Paulo e tem instrumentos roubados",
-    "link": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/08/22/violinista-elisa-fukuda-e-feita-refem-em-assalto-em-sp-e-tem-instrumentos-italianos-roubados.htm",
-    "photo": "https://imguol.com/c/noticias/73/2026/08/23/a-violonista-elisa-fukuda-1787484032466_v2_300x225.jpg",
+    "title": "Miguel, de 8 anos, vence doença e ganha ‘Carreata da Vitória’ em São Bernardo (SP)",
+    "link": "https://www.uol.com.br/flash/?c=caef6bd3827bb0f651c4211642c8763620260823",
+    "photo": "https://imguol.com/c/home/f5/2026/08/23/miguel-de-8-anos-vence-doenca-1787521979296_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1637,6 +1677,141 @@
     "relateds": []
   },
   {
+    "title": "Supremo não responde a crise com autocontenção",
+    "link": "https://www1.folha.uol.com.br/colunas/marcus-melo/2026/08/quando-os-arbitros-entram-no-jogo-o-jantar-da-desordem-institucional.shtml",
+    "photo": "https://conteudo.imguol.com.br/c/home/8e/2020/01/27/marcus-andre-melo-cientista-politico-e-colunista-do-jornal-folha-de-spaulo-1580128942928_100x100.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Acha que é bom um time ter dono? Entenda o boicote dos torcedores da Lazio",
+    "link": "https://www.uol.com.br/esporte/futebol/colunas/mauro-cezar-pereira/2026/08/23/acha-que-e-bom-um-time-ter-dono-entenda-o-boicote-dos-torcedores-da-lazio.htm",
+    "photo": "https://conteudo.imguol.com.br/3e/2021/02/10/mauro-cezar-150-colorida-1612960631293_100x100.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Lula e Flávio fazem guerra de preços de comida nas redes sociais",
+    "link": "https://noticias.uol.com.br/colunas/tatiana-farah/2026/08/23/lula-e-flavio-fazem-guerra-de-precos-de-comida-nas-redes-sociais.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/62/2026/05/15/tatiana-farah-1778882868920_100x100.png?1778882875545",
+    "source": "UOL",
+    "is_main": true,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Lulistas e bolsonaristas são menos radicais que o rival supõe, diz pesquisa",
+        "link": "https://noticias.uol.com.br/colunas/leonardo-sakamoto/2026/08/23/lulistas-e-bolsonaristas-sao-menos-radicais-que-o-rival-supoe-diz-pesquisa.htm"
+      }
+    ]
+  },
+  {
+    "title": "Fim de uma era: Alagoas tem 1ª eleição estadual sem Collor nem sucessor",
+    "link": "https://noticias.uol.com.br/colunas/carlos-madeiro/2026/08/23/fim-da-era-alagoas-tem-primeira-eleicao-estadual-sem-collor-e-sem-sucessor.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/65/2026/05/29/carlos-madeiro-header-1780071007014_100x100.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Endrick, Bruno G., Vitor Roque: o último reforço brasileiro de cada europeu",
+    "link": "https://www.uol.com.br/esporte/futebol/colunas/rafael-reis/2026/08/23/endrick-bruno-g-vitor-roque-o-ultimo-reforco-brasileiro-de-cada-europeu.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/8a/2026/01/07/rafael-reis---colunista---janeiro2026-1767819644398_v2_100x100.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Atraso na entrega de aviões custa R$ 15 bi a mais em combustível às aéreas",
+    "link": "https://economia.uol.com.br/colunas/todos-a-bordo/2026/08/23/atraso-na-entrega-de-avioes-custa-r-15-bi-a-mais-em-combustivel-as-aereas.htm",
+    "photo": "https://conteudo.imguol.com.br/e9/2018/08/13/blog-todos-a-bordo-1534201104975_80x80.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Máquina de lavar roupa cheirando mal? Dicas de limpeza para evitar odor",
+    "link": "https://www.uol.com.br/tilt/noticias/redacao/2026/08/23/maquina-de-lavar-roupa-cheirando-mal-dicas-de-limpeza-para-evitar-odor.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/7c/2023/05/15/homem-lavando-roupa-lavar-roupa-1684158140243_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Valter Walker debocha de vitória de Vitor Petrino no UFC Sacramento: 'Luta chata'",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/ag-fight/2026/08/23/valter-walker-debocha-de-vitoria-de-vitor-petrino-no-ufc-sacramento-luta-chata-da-noite.htm",
+    "photo": "https://imguol.com/c/esporte/99/2024/04/05/valter-walker-durante-pesagem-para-sua-estreia-no-ufc-1712337702271_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Países nórdicos afirmam ter perdido a confiança em Infantino e na gestão da Fifa",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/reuters/2026/08/23/paises-nordicos-afirmam-ter-perdido-a-confianca-em-infantino-e-na-gestao-da-fifa.htm",
+    "photo": "https://imguol.com/c/esporte/45/2026/08/23/infantino-tem-perdido-apoio-de-paises-europeus-1787504087661_v2_300x300.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Monaco vence Le Havre em estreia do técnico Filipe Luís no Campeonato Francês",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/le-havre-monaco-filipe-luis.ghtm",
+    "photo": "https://imguol.com/c/esporte/f3/2026/08/23/filipe-luis-no-banco-de-reservas-na-sua-estreia-pelo-monaco-na-ligue-1-1787505079683_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Al-Hilal quer contratar atacante Martinelli, e Arsenal define valor para venda, diz jornal",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/al-hilal-negocia-com-arsenal-e-tenta-contratar-gabriel-martinelli.ghtm",
+    "photo": "https://imguol.com/c/esporte/16/2025/11/26/gabriel-martinelli-comemora-apos-marcar-para-o-arsenal-contra-o-bayern-de-munique-pela-champions-league-1764195824838_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "América Latina, de Nicarágua de Ortega a Chile de Kast, cede a exigências de Trump",
+    "link": "https://www1.folha.uol.com.br/mundo/2026/08/america-latina-de-nicaragua-de-ortega-a-chile-de-kast-cede-a-exigencias-de-trump.shtml",
+    "photo": "https://imguol.com/c/home/49/2026/08/23/presidentes-donald-trump-eua-luis-abinader-republica-dominicana-javier-milei-argentina-nayib-bukele-el-salvador-mohamed-irfaan-ali-guiana-rodrigo-chaves-costa-rica-rodrigo-paz-1787514801641_v2_450x337.jpg",
+    "source": "Folha",
+    "is_main": true,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Violinista Elisa Fukuda é feita refém em São Paulo e tem instrumentos roubados",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/08/22/violinista-elisa-fukuda-e-feita-refem-em-assalto-em-sp-e-tem-instrumentos-italianos-roubados.htm",
+    "photo": "https://imguol.com/c/noticias/73/2026/08/23/a-violonista-elisa-fukuda-1787484032466_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Palmeiras faz dois gols em 5 minutos contra o Vasco; siga",
     "link": "https://placar.uol.com.br/esporte/futebol/brasileirao/2026/08/23/palmeiras-x-vasco.htm",
     "photo": "https://imguol.com/c/home/41/2026/08/23/flaco-lopez-contra-o-vasco-1787515368673_450x600.jpg",
@@ -1664,16 +1839,6 @@
         "link": "https://noticias.uol.com.br/eleicoes/2026/08/21/haddad-participa-de-sabatina-do-uol-e-da-folha-na-segunda-feira-as-12h30.ghtm"
       }
     ]
-  },
-  {
-    "title": "Leila e enteado posam com camisa do Vasco em meio a debate por SAF no time carioca",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/leila-e-enteado-posam-com-camisa-do-vasco-em-meio-a-debate-por-saf.ghtm",
-    "photo": "https://imguol.com/c/esporte/52/2026/08/23/marcos-lamacchia-admar-lopes-e-leila-pereira-no-gramado-do-nubank-parque-1787512164608_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
   },
   {
     "title": "Sobre calotes implícitos",
@@ -1774,21 +1939,6 @@
     "is_carousel": false,
     "is_video": false,
     "relateds": []
-  },
-  {
-    "title": "Lulistas e bolsonaristas são menos radicais que o rival supõe, diz estudo",
-    "link": "https://noticias.uol.com.br/colunas/leonardo-sakamoto/2026/08/23/lulistas-e-bolsonaristas-sao-menos-radicais-que-o-rival-supoe-diz-pesquisa.htm",
-    "photo": "",
-    "source": "UOL",
-    "is_main": true,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "A Hora: Eleitores de direita e de esquerda concordam sobre Estado forte na economia",
-        "link": "https://noticias.uol.com.br/colunas/a-hora/2026/08/23/nao-tem-espaco-politico-para-uma-terceira-via-liberal-diz-toledo.htm"
-      }
-    ]
   },
   {
     "title": "Credencial de lobista era o nome de Lulinha",
@@ -2355,16 +2505,6 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Veja a classificação atualizada e os jogos da 24ª rodada do Campeonato Brasileiro",
-    "link": "https://www.uol.com.br/esporte/futebol/campeonatos/brasileirao/",
-    "photo": "",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
@@ -5193,160 +5333,6 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "'Como é que estão as eleições?', perguntou Trump a Lula no telefone",
-    "link": "https://noticias.uol.com.br/colunas/daniela-lima/2026/08/21/como-e-que-estao-as-eleicoes-perguntou-trump-a-lula-no-telefone.htm",
-    "photo": "https://imguol.com/c/home/39/2026/05/12/trump-e-lula-em-fotografia-na-casa-branca-1778614061395_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Daniela Lima: Lula ficou surpreso com tom de Trump em conversa",
-        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/21/daniela-lima-lula-ficou-surpreso-com-tom-de-trump-em-conversa.ghtm"
-      }
-    ]
-  },
-  {
-    "title": "Barco de migrantes afunda na Tunísia e deixa 13 desaparecidos",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/22/barco-naufragio-tunisia.ghtm",
-    "photo": "",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Uefa e Concacaf discutem Liga das Nações conjunta com 96 seleções a partir de 2028",
-    "link": "https://www.uol.com.br/esporte/ultimas-noticias/agencia/2026/08/21/uefa-e-concacaf-discutem-liga-das-nacoes-conjunta-com-96-selecoes-a-partir-de-2028.htm",
-    "photo": "https://imguol.com/c/esporte/d6/2023/03/23/aleksander-ceferin-presidente-da-uefa-1679583263214_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "HBO Max divulga teaser da 3ª temporada de 'The Pitt'; saiba quando estreia",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/21/the-pitt-trailer-terceira-temporada.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/e1/2026/08/21/noah-wyle-em-primeiras-imagens-da-3-temporada-de-the-pitt-1787343538784_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Festival The Town, em São Paulo, anuncia datas da edição de 2027",
-    "link": "https://www1.folha.uol.com.br/ilustrada/2026/08/festival-the-town-em-sao-paulo-anuncia-datas-da-edicao-de-2027.shtml",
-    "photo": "https://imguol.com/c/noticias/76/2025/11/16/palco-quebrada-no-festival-the-town-em-sao-paulo-1763314310891_v2_300x225.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Ritmo mais ouvido no México, corrido tumbado também toca no Brasil; conheça artistas",
-    "link": "https://www.uol.com.br/flash/?c=6a88853dc20ae2e3149f2edc",
-    "photo": "https://conteudo.imguol.com.br/c/flash/geral/f1/2026/08/21/peso-pluma-1787333839368_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Prime Video é o varejo do streaming, afirma diretor da Amazon",
-    "link": "https://www.uol.com.br/splash/colunas/na-sua-tela/2026/08/21/amazon-prime-video-modelo-de-negocio-varejo-streaming.htm",
-    "photo": "https://imguol.com/c/splash/a9/2026/08/21/kelly-day-vice-presidente-internacional-do-prime-video-apresenta-canais-e-servicos-disponiveis-dentro-da-plataforma-oferta-de-conteudo-de-terceiros-e-parte-da-estrategia-da-amazon-para-concentrar-o-1787331006171_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Nova geração do pagode resgata influência da black music dos anos 1990",
-    "link": "https://www1.folha.uol.com.br/ilustrada/2026/08/nova-geracao-do-pagode-resgata-influencia-da-black-music-dos-anos-1990.shtml",
-    "photo": "",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Advogado de Deolane Bezerra vê prisão ilegal e espera revisão em 90 dias",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/21/advogado-de-deolane-ve-prisao-ilegal-e-espera-revisao-em-90-dias.ghtm",
-    "photo": "https://imguol.com/c/parceiros/b9/2026/07/07/deolane-bezerra-defesa-questionou-as-condicoes-da-penitenciaria-em-que-a-advogada-esta-presa-1783454676476_v2_450x337.jpg",
-    "source": "UOL",
-    "is_main": true,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "O que diz a decisão que manda Lagoinha pagar imposto por evento religioso em SP",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/21/justica-sp-decisao-igreja-lagoinha-show-estadio.ghtm",
-    "photo": "https://imguol.com/c/noticias/30/2026/03/24/pastor-andre-valadao-1774361943653_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "UE cita 'terror premeditado' da Rússia após ataque que matou 16 em shopping na Ucrânia",
-    "link": "https://noticias.uol.com.br/ultimas-noticias/rfi/2026/08/22/ue-denuncia-terror-premeditado-da-russia-apos-ataque-que-matou-16-pessoas-em-shopping-na-ucrania.htm",
-    "photo": "https://imguol.com/c/noticias/a5/2026/08/21/shopping-ucraniano-ficou-destruido-em-ataque-com-drones-russos-1787334611149_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Jovem mata namorada e pede ajuda à mãe para se livrar do corpo nos Estados Unidos",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/21/jovem-mata-namorada-e-pede-ajuda-a-mae-para-se-livrar-do-corpo-nos-eua.ghtm",
-    "photo": "https://imguol.com/c/noticias/01/2026/08/21/karoline-heintz-18-integrava-o-time-feminino-de-futebol-da-universidade-pennwest-california-1787329606293_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Análise: Huawei Nova 15 Max compensa falta de NFC com preço e superbateria?",
-    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/21/huawei-nova-15-max-tem-bateria-de-8500-mah-que-dura-mais-de-dois-dias.ghtm",
-    "photo": "https://imguol.com/c/guia-de-compras/60/2026/07/15/huawei-nova-15-max-1784145515114_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Pele oleosa? Testamos 2 lencinhos que tiram brilho sem estragar a make",
-        "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/21/pele-muito-oleosa-testamos-o-lencos-da-needs-e-ricca.htm"
-      },
-      {
-        "title": "Mocassim com sola tratorada está com 42% off, por R$ 70; vale a pena?",
-        "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/21/mocassim-com-sola-tratorada-da-toque-fashion-ao-look-veja-oferta.ghtm"
-      }
-    ]
-  },
-  {
-    "title": "Roundnet: brincadeira virou esporte e reúne novas amizades em parque de SP",
-    "link": "https://www.uol.com.br/vivabem/noticias/redacao/2026/08/22/roundnet-atrai-praticantes-no-ibirapuera-e-cresce-em-sao-paulo.ghtm",
-    "photo": "https://imguol.com/c/noticias/44/2026/08/21/roundnet-se-joga-com-uma-bolinha-maleavel-e-um-set-1787325558313_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
     "is_video": false,
     "relateds": []
   }
