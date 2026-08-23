@@ -457,7 +457,7 @@
     "photo": "https://imguol.com/c/splash/f2/2026/08/21/lito-sousa-e-a-espoa-mila-seidl-1787324571545_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
@@ -467,7 +467,7 @@
     "photo": "",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
@@ -528,7 +528,12 @@
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Irã permitirá passagem de petroleiros iraquianos pelo Estreito de Hormuz",
+        "link": "https://noticias.uol.com.br/ultimas-noticias/deutschewelle/2026/08/22/ira-permitira-passagem-de-varios-petroleiros-iraquianos-por-ormuz.htm"
+      }
+    ]
   },
   {
     "title": "Mais de 50 estudantes foram expostas em 'ranking sexual' de faculdade em SP",
@@ -856,16 +861,6 @@
     "relateds": []
   },
   {
-    "title": "Juca Kfouri: Palestra Itália mineiro ajuda o paulista ao parar o Flamengo",
-    "link": "https://www.uol.com.br/esporte/futebol/colunas/juca-kfouri/2026/08/22/o-palestra-italia-mineiro-ajuda-o-paulista-ao-parar-o-flamengo.htm",
-    "photo": "",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Delegado é roubado, PM de folga vê, dispara e suspeito morre em SP",
     "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/22/policial-civil-folga-pm-morte-osasco-sp.ghtm",
     "photo": "https://imguol.com/c/noticias/34/2026/08/22/o-suspeito-foi-atingido-por-disparos-na-rua-antonio-jose-nurchis-em-osasco-na-regiao-metropolitana-de-sao-paulo-1787438479644_v2_300x225.png",
@@ -936,9 +931,19 @@
     "relateds": []
   },
   {
-    "title": "Sobe para 27 mil casos de 'diarreia explosiva' causada por alface mexicano nos EUA",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/22/diarreia-explosiva-por-alface-tem-27-mil-casos-nos-eua.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/05/2023/08/12/salada-pre-higienizada-salada-no-mercado-salada-pronta-para-consumo-1691868395701_v2_300x225.jpg",
+    "title": "Gusttavo Lima brilha na volta a Barretos (SP), exalta família e ignora manifestação política",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/23/gusttavo-lima-volta-a-barretos.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/be/2026/08/23/gusttavo-lima-voltou-a-festa-do-peao-de-barretos-em-2026-apos-tres-anos-1787455302655_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Maçaneta oculta da Tesla gera recall de quatro milhões de carros na China",
+    "link": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/08/22/tesla-e-montadoras-chinesas-fazem-recall-de-mais-de-4-milhoes-de-veiculos-por-falha-em-macaneta.htm",
+    "photo": "https://imguol.com/c/entretenimento/6d/2026/01/14/macaneta-retratil-1768437319133_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -976,6 +981,16 @@
     "relateds": []
   },
   {
+    "title": "São Paulo aplica mais de 222 mil doses de vacina contra o sarampo em 'Dia D'",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/22/sao-paulo-aplica-2687-mil-doses-no-dia-d-de-multivacinacao.ghtm",
+    "photo": "https://imguol.com/c/tab/be/2026/08/07/fila-da-vacina-de-sarampo-no-tatuape-1786118450178_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Policial civil suspeito de sequestro com falsa viatura é preso em SP",
     "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/22/policial-civil-prisao-sp.ghtm",
     "photo": "https://imguol.com/c/home/e6/2026/08/22/cameras-de-seguranca-registraram-o-momento-em-que-homem-foi-sequestrado-no-bairro-de-artur-alvim-na-zona-leste-de-sao-paulo-1787436612675_300x225.jpg",
@@ -989,16 +1004,6 @@
     "title": "Com filho em moto, PM reage a tentativa de assalto e mata suspeito em São Paulo",
     "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/22/pm-zona-leste-agosto-2026.ghtm",
     "photo": "https://imguol.com/c/noticias/87/2026/08/22/caso-ocorreu-no-bairro-sao-rafael-na-zona-leste-de-sao-paulo-1787449421949_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Gusttavo Lima brilha na volta a Barretos (SP), exalta família e ignora manifestação política",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/23/gusttavo-lima-volta-a-barretos.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/be/2026/08/23/gusttavo-lima-voltou-a-festa-do-peao-de-barretos-em-2026-apos-tres-anos-1787455302655_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1216,6 +1221,16 @@
     "relateds": []
   },
   {
+    "title": "Sobe para 27 mil casos de 'diarreia explosiva' causada por alface mexicana nos EUA",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/22/diarreia-explosiva-por-alface-tem-27-mil-casos-nos-eua.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/05/2023/08/12/salada-pre-higienizada-salada-no-mercado-salada-pronta-para-consumo-1691868395701_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Brasileira é encontrada morta em apartamento na Irlanda; polícia investiga homicídio",
     "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/22/brasileira-e-encontrada-morta-na-irlanda-policia-investiga-homicidio.ghtm",
     "photo": "https://imguol.com/c/noticias/84/2026/08/22/jady-cristine-vivia-ha-cerca-de-tres-anos-em-limerick-na-irlanda-1787425570848_v2_300x300.jpg",
@@ -1229,16 +1244,6 @@
     "title": "Pai abandona filho de 7 anos no Monte Fuji, no Japão, para seguir trilha",
     "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/22/pai-abandona-filho-de-7-anos-no-monte-fuji-para-seguir-trilha.ghtm",
     "photo": "https://imguol.com/c/entretenimento/16/2022/09/22/horizonte-do-monte-fuji-e-toquio-1663877143077_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Nunes diz que tentou convencer esposa a não ser candidata",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/08/22/nunes-dizque-tentou-convencer-primeira-dama-a-nao-ser-candidata-a-deputada.ghtm",
-    "photo": "https://imguol.com/c/noticias/fb/2026/08/22/nunes-durante-lancamento-da-candidatura-da-primeira-dama-regina-1787416437797_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -1692,6 +1697,26 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Juca Kfouri: Palestra Itália mineiro ajuda o paulista ao parar o Flamengo",
+    "link": "https://www.uol.com.br/esporte/futebol/colunas/juca-kfouri/2026/08/22/o-palestra-italia-mineiro-ajuda-o-paulista-ao-parar-o-flamengo.htm",
+    "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Nunes diz que tentou convencer esposa a não ser candidata",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/08/22/nunes-dizque-tentou-convencer-primeira-dama-a-nao-ser-candidata-a-deputada.ghtm",
+    "photo": "https://imguol.com/c/noticias/fb/2026/08/22/nunes-durante-lancamento-da-candidatura-da-primeira-dama-regina-1787416437797_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
@@ -5324,26 +5349,6 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Hapvida mantém revisão de contratos e diz não ter sido notificada pela ANS",
-    "link": "https://economia.uol.com.br/noticias/redacao/2026/08/21/hapvida-mantem-revisao-de-contratos-e-diz-nao-ter-sido-notificada.ghtm",
-    "photo": "https://imguol.com/c/parceiros/9e/2023/03/28/acoes-da-hapvida-sobem-cerca-de-20-hoje-039esquema-familiar039-explica-1680028407842_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Vereador de Tanguá (RJ) é assassinado a tiros em bar na cidade",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/21/2-mais-votado-de-tangua-vereador-e-assassinado-a-tiros.ghtm",
-    "photo": "https://imguol.com/c/noticias/11/2026/08/21/o-vereador-sandrinho-do-som-foi-morto-em-tangua-rj-1787320390253_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
     "is_video": false,
     "relateds": []
   }
