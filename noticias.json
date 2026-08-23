@@ -438,7 +438,7 @@
     "photo": "https://imguol.com/c/esporte/92/2026/08/22/lucas-paqueta-do-flamengo-durante-partida-contra-o-cruzeiro-pelo-brasileirao-1787453532670_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": [
       {
@@ -477,14 +477,14 @@
     "photo": "https://imguol.com/c/parceiros/d0/2026/01/14/felca-influenciador-que-denunciou-supostos-abusos-de-hytalo-santos-da-depoimento-na-justica-1768397037279_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
   {
     "title": "'A gente tolera por carência': o desafio de fazer e manter amigos na vida adulta",
     "link": "https://www.uol.com.br/splash/noticias/2026/08/23/a-vida-adulta-nao-da-pra-ficar-ali-muito-tempo-no-celular-diz-camille-sobre-amizades.ghtm",
-    "photo": "https://imguol.com/c/noticias/d6/2026/08/17/amauri-mazzuco-100-amigos-1786980869541_v2_300x225.png",
+    "photo": "https://imguol.com/c/home/72/2026/08/23/amauri-mazzuco-1787480114072_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -556,6 +556,16 @@
     ]
   },
   {
+    "title": "Vitor Roque vive jejum de 12 jogos e reencontra sua 1ª vítima pelo Palmeiras",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/vitor-roque-vive-jejum-de-12-jogos-e-reencontra-1-vitima-no-palmeiras.ghtm",
+    "photo": "https://imguol.com/c/esporte/79/2026/08/09/vitor-roque-se-lamenta-durante-palmeiras-x-inter-pelo-brasileirao-1786326745259_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Brasileirão Feminino: veja os gols de todos os jogos da última rodada da primeira fase",
     "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/brasileirao-feminino-17-rodada-todos-os-gols-assista.ghtm",
     "photo": "https://imguol.com/c/esporte/db/2026/08/22/sao-paulo-comemora-lideranca-e-classificacao-no-brasileirao-feminino-1787445420603_v2_300x225.jpg",
@@ -569,16 +579,6 @@
         "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/22/brasileirao-feminino-ultima-rodada-times-classificados.ghtm"
       }
     ]
-  },
-  {
-    "title": "Vitor Roque vive jejum de 12 jogos e reencontra sua 1ª vítima pelo Palmeiras",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/vitor-roque-vive-jejum-de-12-jogos-e-reencontra-1-vitima-no-palmeiras.ghtm",
-    "photo": "https://imguol.com/c/esporte/79/2026/08/09/vitor-roque-se-lamenta-durante-palmeiras-x-inter-pelo-brasileirao-1786326745259_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
   },
   {
     "title": "Gregory Robocop vence na luta principal do UFC Sacramento",
@@ -851,9 +851,9 @@
     "relateds": []
   },
   {
-    "title": "Amaciante com álcool: para que serve a mistura e quais cuidados tomar",
-    "link": "https://www.uol.com.br/tilt/noticias/redacao/2026/08/22/amaciante-com-alcool-para-que-serve-a-mistura-e-quais-cuidados-tomar.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/da/2020/11/11/amaciante-em-excesso-pode-prejudicar-funcionamento-da-maquina-de-lavar-roupas-ao-longo-do-tempo-1605117945485_v2_300x300.jpg",
+    "title": "Atraso na entrega de aviões custa R$ 15 bilhões a mais em combustível às aéreas",
+    "link": "https://economia.uol.com.br/colunas/todos-a-bordo/2026/08/23/atraso-na-entrega-de-avioes-custa-r-15-bi-a-mais-em-combustivel-as-aereas.htm",
+    "photo": "https://imguol.com/c/parceiros/16/2020/02/22/aviao-decola-do-aeroporto-de-gatwick-ing-1582409674805_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -871,50 +871,9 @@
     "relateds": []
   },
   {
-    "title": "Cruzeiro vira no fim contra o Flamengo, e Palmeiras pode abrir vantagem",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/22/cruzeiro-x-flamengo---brasileirao.ghtm",
-    "photo": "https://imguol.com/c/esporte/e2/2026/08/22/arroyo-do-cruzeiro-comemora-gol-contra-o-flamengo-pelo-brasileirao-1787447018841_v2_450x337.jpg",
-    "source": "UOL",
-    "is_main": true,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Juca Kfouri: Palestra Itália mineiro ajuda o paulista ao parar o Flamengo",
-        "link": "https://www.uol.com.br/esporte/futebol/colunas/juca-kfouri/2026/08/22/o-palestra-italia-mineiro-ajuda-o-paulista-ao-parar-o-flamengo.htm"
-      },
-      {
-        "title": "Mauro Cezar: nem título(s) corrige(m) erro de BAP e Boto ao contratarem Jardim",
-        "link": "https://www.uol.com.br/esporte/futebol/colunas/mauro-cezar-pereira/2026/08/23/flamengo-nem-titulos-corrigirao-erro-de-bap-e-boto-ao-contratarem-jardim.htm"
-      },
-      {
-        "title": "Varela lamenta derrota no fim: 'Quando não mata o jogo, tem risco'",
-        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/22/varela-lamenta-derrota-no-lance-final-quando-nao-mata-o-jogo-tem-risco.ghtm"
-      },
-      {
-        "title": "Jardim cobra eficiência do Fla e diminui 2º tempo ruim: 'Derrota é a mesma'",
-        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/22/cruzeiro-x-flamengo-leonardo-jardim-coletiva.ghtm"
-      },
-      {
-        "title": "Veja a classificação atualizada e os jogos da 24ª rodada do Campeonato Brasileiro",
-        "link": "https://www.uol.com.br/esporte/futebol/campeonatos/brasileirao/"
-      }
-    ]
-  },
-  {
-    "title": "Delegado é roubado, PM de folga vê, dispara e suspeito morre em SP",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/22/policial-civil-folga-pm-morte-osasco-sp.ghtm",
-    "photo": "https://imguol.com/c/noticias/34/2026/08/22/o-suspeito-foi-atingido-por-disparos-na-rua-antonio-jose-nurchis-em-osasco-na-regiao-metropolitana-de-sao-paulo-1787438479644_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Canadá e Estados Unidos declaram guerra comercial aberta",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/22/canada-e-eua-declaram-guerra-comercial-aberta.ghtm",
-    "photo": "",
+    "title": "Gusttavo Lima brilha na volta a Barretos (SP), exalta família e ignora protesto",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/23/gusttavo-lima-volta-a-barretos.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/be/2026/08/23/gusttavo-lima-voltou-a-festa-do-peao-de-barretos-em-2026-apos-tres-anos-1787455302655_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -982,9 +941,9 @@
     "relateds": []
   },
   {
-    "title": "Gusttavo Lima brilha na volta a Barretos (SP), exalta família e ignora manifestação política",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/23/gusttavo-lima-volta-a-barretos.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/be/2026/08/23/gusttavo-lima-voltou-a-festa-do-peao-de-barretos-em-2026-apos-tres-anos-1787455302655_v2_300x225.jpg",
+    "title": "Ataque de drones ucranianos atinge a 'Amazon russa', que evacua mais de 300",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/23/ataque-a-amazon-russa-evacua-300-embaixador-deixa-londres.ghtm",
+    "photo": "https://imguol.com/c/noticias/00/2026/08/23/fumaca-sobe-de-um-dos-armazens-da-ozon-apos-um-ataque-de-drone-ucraniano-em-chapayevsk-na-regiao-de-samara-russia-em-22-de-agosto-de-2026-1787474803396_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -992,9 +951,9 @@
     "relateds": []
   },
   {
-    "title": "Maçaneta oculta da Tesla gera recall de quatro milhões de carros na China",
-    "link": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/08/22/tesla-e-montadoras-chinesas-fazem-recall-de-mais-de-4-milhoes-de-veiculos-por-falha-em-macaneta.htm",
-    "photo": "https://imguol.com/c/entretenimento/6d/2026/01/14/macaneta-retratil-1768437319133_v2_300x225.jpg",
+    "title": "Sylvia Design descarta ida para A Fazenda: 'Não posso deixar meus negócios'",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/23/sylvia-design-descarta-ida-para-a-fazenda-nao-posso-deixar-meus-negocios.ghtm",
+    "photo": "https://imguol.com/c/splash/e3/2026/08/19/sylvia-design-no-o-povo-quer-saber-1787162662330_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1002,19 +961,9 @@
     "relateds": []
   },
   {
-    "title": "Torcedores invadem campo e protagonizam briga generalizada na Colômbia",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/22/torcedores-invadem-campo-e-protagonizam-briga-generalizada-na-colombia.ghtm",
-    "photo": "https://imguol.com/c/esporte/43/2026/08/22/torcidas-de-indepediente-santa-fe-e-america-de-cali-entraram-em-confronto-em-bogota-1787451961648_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Fundador do PDT e ministro no governo Dilma, Manoel Dias morre aos 88 anos",
-    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/22/manoel-dias-morte-2026.ghtm",
-    "photo": "https://imguol.com/c/noticias/f5/2026/08/22/ex-deputado-manoel-dias-em-sessao-especial-na-alesc-assembleia-legislativa-do-estado-de-santa-catarina-em-2019-1787451504840_v2_300x225.jpg",
+    "title": "TRF, Rede Sarah, universidades e mais órgãos: concursos têm 29,9 mil vagas",
+    "link": "https://economia.uol.com.br/empregos-e-carreiras/noticias/redacao/2026/08/23/concursos-publicos.htm",
+    "photo": "https://imguol.com/c/noticias/48/2016/10/26/fila-de-pessoas-escrevendo-prova-concurso-1477489575681_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1032,9 +981,9 @@
     "relateds": []
   },
   {
-    "title": "São Paulo aplica mais de 222 mil doses de vacina contra o sarampo em 'Dia D'",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/22/sao-paulo-aplica-2687-mil-doses-no-dia-d-de-multivacinacao.ghtm",
-    "photo": "https://imguol.com/c/tab/be/2026/08/07/fila-da-vacina-de-sarampo-no-tatuape-1786118450178_v2_300x225.jpg",
+    "title": "Maçaneta oculta da Tesla gera recall de quatro milhões de carros na China",
+    "link": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/08/22/tesla-e-montadoras-chinesas-fazem-recall-de-mais-de-4-milhoes-de-veiculos-por-falha-em-macaneta.htm",
+    "photo": "https://imguol.com/c/entretenimento/6d/2026/01/14/macaneta-retratil-1768437319133_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1042,14 +991,39 @@
     "relateds": []
   },
   {
-    "title": "Governador mexicano acusado de narcotráfico pelos EUA anuncia que deixará o cargo de novo",
-    "link": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/08/22/governador-mexicano-acusado-de-narcotrafico-pelos-eua-diz-que-vai-deixar-o-cargo-novamente.htm",
-    "photo": "https://imguol.com/c/noticias/1c/2026/04/29/riben-rocha-moya-governador-do-estado-mexicano-de-sinaloa-1777506466630_v2_300x225.jpg",
+    "title": "Fundador do PDT e ministro no governo Dilma, Manoel Dias morre aos 88 anos",
+    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/22/manoel-dias-morte-2026.ghtm",
+    "photo": "https://imguol.com/c/noticias/f5/2026/08/22/ex-deputado-manoel-dias-em-sessao-especial-na-alesc-assembleia-legislativa-do-estado-de-santa-catarina-em-2019-1787451504840_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
     "relateds": []
+  },
+  {
+    "title": "Delegado é roubado, PM de folga vê, dispara e suspeito morre em SP",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/22/policial-civil-folga-pm-morte-osasco-sp.ghtm",
+    "photo": "https://imguol.com/c/noticias/34/2026/08/22/o-suspeito-foi-atingido-por-disparos-na-rua-antonio-jose-nurchis-em-osasco-na-regiao-metropolitana-de-sao-paulo-1787438479644_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Kit com manta e quatro capas de almofada está por R$ 63: 'Deu vida ao ambiente'",
+    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/23/kit-com-manta-e-4-capas-de-almofada-tem-30-off-por-r-6290.ghtm",
+    "photo": "https://imguol.com/c/guia-de-compras/6f/2026/08/10/kit-de-manta-para-sofa-com-4-capas-de-almofada-1786370263843_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Semana da Máquina de Lavar: Guia de Compras reúne dicas e reviews",
+        "link": "https://economia.uol.com.br/noticias/redacao/2026/08/23/semana-da-maquina-de-lavar-acompanhe-dicas-reviews-e-ofertas-especiais.ghtm"
+      }
+    ]
   },
   {
     "title": "Com filho em moto, PM reage a tentativa de assalto e mata suspeito em São Paulo",
@@ -1069,15 +1043,35 @@
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Artistas cantam ‘Lança Perfume’ em tributo a Rita Lee no C6 no Rock",
+        "link": "https://www.uol.com.br/flash/?c=6a8a546b3de67592eb009392"
+      }
+    ]
+  },
+  {
+    "title": "Inter e Atlético-MG empatam sem gols, e gaúchos podem terminar rodada no Z4",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/22/inter-atletico-mg-campeonato-brasileiro-como-foi-o-jogo.ghtm",
+    "photo": "https://imguol.com/c/esporte/74/2026/08/22/vitinho-do-inter-e-renan-lodi-do-galo-disputam-a-bola-pelo-campeonato-brasileiro-1787439822517_v2_450x337.jpg",
+    "source": "UOL",
+    "is_main": true,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Goleiro do Inter bate cabeça na trave, e juiz aciona protocolo de concussão",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/22/goleiro-do-inter-bate-cabeca-na-trave-e-juiz-aciona-protocolo-de-concussao.ghtm"
+      }
+    ]
   },
   {
     "title": "Fluminense supera vaias, vira sobre Remo e continua invicto com Marcão",
     "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/22/fluminense-remo-brasileirao-24a-rodada-como-foi.ghtm",
-    "photo": "https://imguol.com/c/esporte/e5/2026/08/22/serna-comemora-gol-marcado-pelo-fluminense-contra-o-remo-pelo-brasileirao-no-maracana-1787432744242_v2_450x337.jpg",
+    "photo": "https://imguol.com/c/esporte/e5/2026/08/22/serna-comemora-gol-marcado-pelo-fluminense-contra-o-remo-pelo-brasileirao-no-maracana-1787432744242_v2_450x253.jpg",
     "source": "UOL",
     "is_main": true,
-    "is_carousel": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": [
       {
@@ -1087,19 +1081,24 @@
     ]
   },
   {
-    "title": "Inter de Milão goleia o Monza e inicia defesa de título no Italiano com vitória",
-    "link": "https://www.uol.com.br/esporte/ultimas-noticias/agencia/2026/08/22/inter-de-milao-inicia-defesa-do-titulo-do-italiano-goleando-o-monza.htm",
-    "photo": "https://imguol.com/c/esporte/30/2026/08/22/jogadores-da-inter-de-milao-comemoram-gol-contra-o-monza-pelo-campeonato-italiano-1787434317599_v2_450x253.jpg",
+    "title": "'Vini não é santo, mas o que fazem com ele é um absurdo', diz Mourinho",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/22/mourinho-diz-que-vini-sofre-bullying-na-espanha-batem-desde-o-1-minuto.ghtm",
+    "photo": "https://imguol.com/c/esporte/fa/2026/08/22/vini-jr-em-partida-contra-o-espanyol-pelo-campeonato-espanhol-1787437851953_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Real sofre, mas vence com brilho de estreante na volta de Mourinho",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/22/real-madrid-espanyol-la-liga.ghtm"
+      }
+    ]
   },
   {
-    "title": "Márcio Ticotô nocauteia Ryan Kuse, vence mais um e segue invicto no UFC",
-    "link": "https://www.uol.com.br/esporte/ultimas-noticias/ag-fight/2026/08/22/toque-da-morte-marcio-ticoto-nocauteia-mais-um-e-segue-invicto-no-ufc.htm",
-    "photo": "https://imguol.com/c/esporte/3d/2026/08/22/marcio-ticoto-barbosa-comemora-vitoria-conrta-ryan-kuse-no-ufc-fight-night-1787439271821_v2_300x300.jpg",
+    "title": "Torcedores invadem campo e protagonizam briga generalizada na Colômbia",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/22/torcedores-invadem-campo-e-protagonizam-briga-generalizada-na-colombia.ghtm",
+    "photo": "https://imguol.com/c/esporte/43/2026/08/22/torcidas-de-indepediente-santa-fe-e-america-de-cali-entraram-em-confronto-em-bogota-1787451961648_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -1110,16 +1109,6 @@
     "title": "Jamall Emmers nocauteia Lerryan Douglas, que perde a primeira no UFC",
     "link": "https://www.uol.com.br/esporte/ultimas-noticias/ag-fight/2026/08/22/lerryan-douglas-e-nocauteado-por-jamall-emmers-no-ufc-sacramento.htm",
     "photo": "https://imguol.com/c/esporte/bd/2026/08/22/jammall-emmers-comemora-vitoria-sobre-lerryan-douglas-no-ufc-sacramento-1787444280658_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Incidentes em partida da Copa da Alemanha deixam 85 pessoas feridas",
-    "link": "https://www.uol.com.br/esporte/ultimas-noticias/afp/2026/08/22/incidentes-em-jogo-da-copa-da-alemanha-deixam-cerca-de-100-feridos.htm",
-    "photo": "https://imguol.com/c/esporte/b5/2026/08/22/ultras-do-wladhof-invadiram-o-campo-no-jogo-contra-o-kaiserslautern-pela-copa-da-alemanha-1787416824650_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -1252,14 +1241,19 @@
     "relateds": []
   },
   {
-    "title": "Estiagem reduz navegabilidade em rios na Amazônia, e navios têm sobretaxa",
-    "link": "https://www1.folha.uol.com.br/mercado/2026/08/estiagem-reduz-navegabilidade-de-rios-na-amazonia-e-donos-de-navios-aplicam-sobretaxa.shtml",
-    "photo": "https://imguol.com/c/home/ed/2026/08/22/operacao-em-pier-temporario-do-grupo-chibatao-em-itacoatiara-am-1787431112457_v2_450x337.jpg",
-    "source": "Folha",
+    "title": "Canadá e Estados Unidos declaram guerra comercial aberta",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/22/canada-e-eua-declaram-guerra-comercial-aberta.ghtm",
+    "photo": "",
+    "source": "UOL",
     "is_main": true,
-    "is_carousel": false,
+    "is_carousel": true,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Estados Unidos taxam Canadá, e premiê promete retaliação 'dólar por dólar'",
+        "link": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/08/22/apos-eua-aplicarem-tarifas-de-50-ao-canada-premie-diz-que-pais-vai-retaliar-dolar-por-dolar.htm"
+      }
+    ]
   },
   {
     "title": "Policial civil suspeito de sequestro com falsa viatura é preso em São Paulo",
@@ -1292,12 +1286,32 @@
     "relateds": []
   },
   {
-    "title": "Pai abandona filho de 7 anos no Monte Fuji, no Japão, para seguir trilha",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/22/pai-abandona-filho-de-7-anos-no-monte-fuji-para-seguir-trilha.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/16/2022/09/22/horizonte-do-monte-fuji-e-toquio-1663877143077_v2_300x300.jpg",
+    "title": "Homem é preso em SC por suspeita de violência sexual contra adolescente",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/22/homem-fingi-ser-mulher-para-praticar-violencia-sexual-online-a-adolescente.ghtm",
+    "photo": "https://imguol.com/c/home/d6/2026/08/22/homem-e-preso-por-violencia-sexual-online-1787449313466_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Mais de 50 estudantes foram expostas em 'ranking sexual' de faculdade em SP",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/22/mais-de-50-mulheres-foram-expostas-em-ranking-sexual-de-faculdade-em-sp.ghtm",
+    "photo": "https://imguol.com/c/noticias/c6/2026/08/21/suposta-lista-sexual-de-colegas-foi-compartilhada-por-alunos-da-unoeste-no-interior-de-sao-paulo-1787345218944_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Homem é preso após tentar vender o filho de três anos em praça de Belo Horizonte",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/22/homem-e-preso-apos-tentar-vender-filho-de-3-anos-por-r-10-em-bh.ghtm",
+    "photo": "https://imguol.com/c/noticias/a4/2026/08/22/homem-foi-detido-na-praca-sete-em-belo-horizonte-1787429658448_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
     "is_video": false,
     "relateds": []
   },
@@ -1312,29 +1326,9 @@
     "relateds": []
   },
   {
-    "title": "Trabalhadores da Boeing rejeitam proposta e abrem caminho para greve",
-    "link": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/08/22/profunda-desconfianca-sobre-lideres-da-boeing-continua-diz-sindicato.htm",
-    "photo": "https://imguol.com/c/colunas/a0/2026/06/26/linha-de-montagem-do-737-max-em-renton-eua-boeing-deve-inaugurar-em-julho-quarta-linha-de-montagem-do-737-em-everett-e-projeta-producao-de-52-aeronaves-do-modelo-por-mes-1782488299511_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Professor que mandou 204 e-mails a aluna mantém emprego no Reino Unido",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/22/professor-troca-204-e-mails-com-aluna-e-mantem-emprego-no-reino-unido.ghtm",
-    "photo": "https://imguol.com/c/noticias/d0/2023/02/21/homem-teclando-em-computador-com-ilustracoes-de-chatbot-1677001204650_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Homem é preso em SC por suspeita de violência sexual contra adolescente",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/22/homem-fingi-ser-mulher-para-praticar-violencia-sexual-online-a-adolescente.ghtm",
-    "photo": "https://imguol.com/c/home/d6/2026/08/22/homem-e-preso-por-violencia-sexual-online-1787449313466_v2_300x225.jpg",
+    "title": "Governador mexicano acusado de narcotráfico pelos EUA anuncia que deixará o cargo de novo",
+    "link": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/08/22/governador-mexicano-acusado-de-narcotrafico-pelos-eua-diz-que-vai-deixar-o-cargo-novamente.htm",
+    "photo": "https://imguol.com/c/noticias/1c/2026/04/29/riben-rocha-moya-governador-do-estado-mexicano-de-sinaloa-1777506466630_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1465,16 +1459,6 @@
     "title": "'Diminuiu o desbotamento': máscara para cabelo Wella sai por menos de R$ 15",
     "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/23/diminuiu-muito-o-desbotamento-mascara-color-brilliance-vale-a-pena.ghtm",
     "photo": "https://imguol.com/c/guia-de-compras/cc/2026/07/15/mascara-color-brilliance-possui-tecnologia-que-mantem-a-cor-vibrante-no-cabelo-1784136287245_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Kit com manta e 4 capas de almofada está por R$ 63: 'Deu vida ao ambiente'",
-    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/08/23/kit-com-manta-e-4-capas-de-almofada-tem-30-off-por-r-6290.ghtm",
-    "photo": "https://imguol.com/c/guia-de-compras/6f/2026/08/10/kit-de-manta-para-sofa-com-4-capas-de-almofada-1786370263843_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1757,6 +1741,127 @@
     "relateds": []
   },
   {
+    "title": "Amaciante com álcool: para que serve a mistura e quais cuidados tomar",
+    "link": "https://www.uol.com.br/tilt/noticias/redacao/2026/08/22/amaciante-com-alcool-para-que-serve-a-mistura-e-quais-cuidados-tomar.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/da/2020/11/11/amaciante-em-excesso-pode-prejudicar-funcionamento-da-maquina-de-lavar-roupas-ao-longo-do-tempo-1605117945485_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Cruzeiro vira no fim contra o Flamengo, e Palmeiras pode abrir vantagem",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/22/cruzeiro-x-flamengo---brasileirao.ghtm",
+    "photo": "https://imguol.com/c/esporte/e2/2026/08/22/arroyo-do-cruzeiro-comemora-gol-contra-o-flamengo-pelo-brasileirao-1787447018841_v2_450x337.jpg",
+    "source": "UOL",
+    "is_main": true,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Juca Kfouri: Palestra Itália mineiro ajuda o paulista ao parar o Flamengo",
+        "link": "https://www.uol.com.br/esporte/futebol/colunas/juca-kfouri/2026/08/22/o-palestra-italia-mineiro-ajuda-o-paulista-ao-parar-o-flamengo.htm"
+      },
+      {
+        "title": "Mauro Cezar: nem título(s) corrige(m) erro de BAP e Boto ao contratarem Jardim",
+        "link": "https://www.uol.com.br/esporte/futebol/colunas/mauro-cezar-pereira/2026/08/23/flamengo-nem-titulos-corrigirao-erro-de-bap-e-boto-ao-contratarem-jardim.htm"
+      },
+      {
+        "title": "Varela lamenta derrota no fim: 'Quando não mata o jogo, tem risco'",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/22/varela-lamenta-derrota-no-lance-final-quando-nao-mata-o-jogo-tem-risco.ghtm"
+      },
+      {
+        "title": "Jardim cobra eficiência do Fla e diminui 2º tempo ruim: 'Derrota é a mesma'",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/22/cruzeiro-x-flamengo-leonardo-jardim-coletiva.ghtm"
+      },
+      {
+        "title": "Veja a classificação atualizada e os jogos da 24ª rodada do Campeonato Brasileiro",
+        "link": "https://www.uol.com.br/esporte/futebol/campeonatos/brasileirao/"
+      }
+    ]
+  },
+  {
+    "title": "São Paulo aplica mais de 222 mil doses de vacina contra o sarampo em 'Dia D'",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/22/sao-paulo-aplica-2687-mil-doses-no-dia-d-de-multivacinacao.ghtm",
+    "photo": "https://imguol.com/c/tab/be/2026/08/07/fila-da-vacina-de-sarampo-no-tatuape-1786118450178_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Inter de Milão goleia o Monza e inicia defesa de título no Italiano com vitória",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/agencia/2026/08/22/inter-de-milao-inicia-defesa-do-titulo-do-italiano-goleando-o-monza.htm",
+    "photo": "https://imguol.com/c/esporte/30/2026/08/22/jogadores-da-inter-de-milao-comemoram-gol-contra-o-monza-pelo-campeonato-italiano-1787434317599_v2_450x253.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Márcio Ticotô nocauteia Ryan Kuse, vence mais um e segue invicto no UFC",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/ag-fight/2026/08/22/toque-da-morte-marcio-ticoto-nocauteia-mais-um-e-segue-invicto-no-ufc.htm",
+    "photo": "https://imguol.com/c/esporte/3d/2026/08/22/marcio-ticoto-barbosa-comemora-vitoria-conrta-ryan-kuse-no-ufc-fight-night-1787439271821_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Incidentes em partida da Copa da Alemanha deixam 85 pessoas feridas",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/afp/2026/08/22/incidentes-em-jogo-da-copa-da-alemanha-deixam-cerca-de-100-feridos.htm",
+    "photo": "https://imguol.com/c/esporte/b5/2026/08/22/ultras-do-wladhof-invadiram-o-campo-no-jogo-contra-o-kaiserslautern-pela-copa-da-alemanha-1787416824650_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Estiagem reduz navegabilidade em rios na Amazônia, e navios têm sobretaxa",
+    "link": "https://www1.folha.uol.com.br/mercado/2026/08/estiagem-reduz-navegabilidade-de-rios-na-amazonia-e-donos-de-navios-aplicam-sobretaxa.shtml",
+    "photo": "https://imguol.com/c/home/ed/2026/08/22/operacao-em-pier-temporario-do-grupo-chibatao-em-itacoatiara-am-1787431112457_v2_450x337.jpg",
+    "source": "Folha",
+    "is_main": true,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Pai abandona filho de 7 anos no Monte Fuji, no Japão, para seguir trilha",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/22/pai-abandona-filho-de-7-anos-no-monte-fuji-para-seguir-trilha.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/16/2022/09/22/horizonte-do-monte-fuji-e-toquio-1663877143077_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Trabalhadores da Boeing rejeitam proposta e abrem caminho para greve",
+    "link": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/08/22/profunda-desconfianca-sobre-lideres-da-boeing-continua-diz-sindicato.htm",
+    "photo": "https://imguol.com/c/colunas/a0/2026/06/26/linha-de-montagem-do-737-max-em-renton-eua-boeing-deve-inaugurar-em-julho-quarta-linha-de-montagem-do-737-em-everett-e-projeta-producao-de-52-aeronaves-do-modelo-por-mes-1782488299511_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Professor que mandou 204 e-mails a aluna mantém emprego no Reino Unido",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/08/22/professor-troca-204-e-mails-com-aluna-e-mantem-emprego-no-reino-unido.ghtm",
+    "photo": "https://imguol.com/c/noticias/d0/2023/02/21/homem-teclando-em-computador-com-ilustracoes-de-chatbot-1677001204650_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Ovacionado em Barretos (SP), Flávio Bolsonaro faz discurso para o agro e não cita Lula",
     "link": "https://noticias.uol.com.br/eleicoes/2026/08/22/flavio-bolsonaro-barretos.ghtm",
     "photo": "https://imguol.com/c/noticias/21/2026/08/22/22ago2026---o-candidato-a-presidencia-flavio-bolsonaro-visita-a-festa-do-peao-de-boiadeiro-em-barretos-no-interior-de-sao-paulo-1787448811538_v2_300x225.jpg",
@@ -1776,52 +1881,12 @@
     ]
   },
   {
-    "title": "'Vini não é santo, mas o que fazem com ele é um absurdo', diz Mourinho",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/22/mourinho-diz-que-vini-sofre-bullying-na-espanha-batem-desde-o-1-minuto.ghtm",
-    "photo": "https://imguol.com/c/esporte/fa/2026/08/22/vini-jr-em-partida-contra-o-espanyol-pelo-campeonato-espanhol-1787437851953_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Real sofre, mas vence com brilho de estreante na volta de Mourinho",
-        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/22/real-madrid-espanyol-la-liga.ghtm"
-      }
-    ]
-  },
-  {
-    "title": "Internacional e Atlético-MG empatam sem gols, e gaúchos podem terminar rodada no Z4",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/22/inter-atletico-mg-campeonato-brasileiro-como-foi-o-jogo.ghtm",
-    "photo": "https://imguol.com/c/esporte/74/2026/08/22/vitinho-do-inter-e-renan-lodi-do-galo-disputam-a-bola-pelo-campeonato-brasileiro-1787439822517_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Goleiro do Inter bate cabeça na trave, e juiz aciona protocolo de concussão",
-        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/22/goleiro-do-inter-bate-cabeca-na-trave-e-juiz-aciona-protocolo-de-concussao.ghtm"
-      }
-    ]
-  },
-  {
     "title": "'Estou subindo aí': peguei recepcionista do hotel, e ele ficou doido por mim",
     "link": "https://www.uol.com.br/splash/noticias/aba-anonima/2026/08/22/estou-subindo-ai-peguei-recepcionista-do-hotel-e-ele-ficou-doido-por-mim.htm",
     "photo": "https://imguol.com/c/entretenimento/d4/2026/08/21/aba-anonima-estou-subindo-ai-peguei-recepcionista-do-hotel-e-ele-ficou-doido-por-mim-1787343820136_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Mais de 50 estudantes foram expostas em 'ranking sexual' de faculdade em SP",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/22/mais-de-50-mulheres-foram-expostas-em-ranking-sexual-de-faculdade-em-sp.ghtm",
-    "photo": "https://imguol.com/c/noticias/c6/2026/08/21/suposta-lista-sexual-de-colegas-foi-compartilhada-por-alunos-da-unoeste-no-interior-de-sao-paulo-1787345218944_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
@@ -1852,16 +1917,6 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Homem é preso após tentar vender o filho de três anos em praça de Belo Horizonte",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/22/homem-e-preso-apos-tentar-vender-filho-de-3-anos-por-r-10-em-bh.ghtm",
-    "photo": "https://imguol.com/c/noticias/a4/2026/08/22/homem-foi-detido-na-praca-sete-em-belo-horizonte-1787429658448_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
     "is_video": false,
     "relateds": []
   },
@@ -5329,46 +5384,6 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Empresário morre durante 'lifting facial' em clínica de Fortaleza",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/21/empresario-morre-durante-procedimento-estetico-em-clinica-de-fortaleza.ghtm",
-    "photo": "https://imguol.com/c/noticias/de/2026/08/21/joao-victor-batista-pinheiro-1787322984618_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Rafael Reis: Por que Beraldo, no banco no PSG, pode virar solução para a seleção?",
-    "link": "https://www.uol.com.br/esporte/futebol/colunas/rafael-reis/2026/08/21/por-que-beraldo-mesmo-no-banco-no-psg-pode-virar-solucao-para-a-selecao.htm",
-    "photo": "https://imguol.com/c/esporte/0f/2026/08/20/ex-zagueiro-lucas-beraldo-foi-transformado-em-volante-pelo-paris-saint-germain-1787253349232_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Filipe Luís, Ancelottinho e reforços do PSG: o que você precisa saber a volta do Francês",
-    "link": "https://www.uol.com.br/flash/?c=6a885850686c2e4ef77496e6&amp",
-    "photo": "https://imguol.com/c/esporte/ab/2026/04/22/kvaratskhelia-marca-golaco-para-o-psg-na-ligue-1-contra-o-nantes-1776882442183_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Zuckerberg compra castelo gótico de R$ 180 milhões na Irlanda",
-    "link": "https://www.uol.com.br/tilt/noticias/redacao/2026/08/21/zuckerberg-compra-castelo-na-irlanda-por-cerca-de--20-milhoes-diz-jornal.ghtm",
-    "photo": "https://imguol.com/c/noticias/24/2026/08/21/20ago2026---castelo-strancally-que-foi-recentemente-comprado-por-mark-zuckerberg-em-waterford-na-irlanda-1787316050364_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
     "is_video": false,
     "relateds": []
   }
