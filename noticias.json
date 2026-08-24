@@ -335,12 +335,16 @@
     "photo": "https://imguol.com/c/noticias/df/2026/08/23/os-candidatos-a-presidencia-ronaldo-caiado-psd-renan-santos-missao-e-augusto-cury-avante-participam-do-primeiro-debate-presidencial-das-eleicoes-de-2026-nos-estudios-da-band-que-nao-teve-lula-1787528563387_v2_450x337.jpg",
     "source": "UOL",
     "is_main": true,
-    "is_carousel": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": [
       {
         "title": "Flávio falta a debate e critica Lula: 'Quem está lá não é meu adversário'",
         "link": "https://noticias.uol.com.br/eleicoes/2026/08/23/flavio-bolsonaro-debate-agosto-2026.htm"
+      },
+      {
+        "title": "Caiado questiona tensão com os EUA e diz que Itamaraty 'passou a ser porta-voz do PT'",
+        "link": "https://www.uol.com.br/flash/?c=1c725c20fbd4ac961a27423a98656a220260823&i=5"
       },
       {
         "title": "Renan chama Lula e seus eleitores de canalhas: 'Não quero seu voto'",
@@ -351,8 +355,12 @@
         "link": "https://www.uol.com.br/flash/?c=57e09c7035f05fd112609851afbaf1ca20260823"
       },
       {
-        "title": "Caiado critica ausências de Lula e Flávio: 'Dark horse x dark lobby'",
-        "link": "https://www.uol.com.br/flash/?c=30e91fb25466ddc6aa32b212df23e66020260823"
+        "title": "O que os candidatos disseram no debate? Veja os principais momentos",
+        "link": "https://www.uol.com.br/flash/?c=1c725c20fbd4ac961a27423a98656a220260823"
+      },
+      {
+        "title": "Kassab é flagrado dormindo durante o debate da Band",
+        "link": "https://www.uol.com.br/flash/?c=aa6fd3d42fbf45e2a8b4e6d9d82b1b420260823"
       }
     ]
   },
@@ -407,8 +415,8 @@
     "relateds": []
   },
   {
-    "title": "Lula diz que não interfere na PF e defende investigação sobre Lulinha",
-    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/23/lula-entrevista-investigacao-lulinha.ghtm",
+    "title": "'Os setores todos vão quebrar', diz Renan Santos sobre o fim da escala 6x1",
+    "link": "https://www.uol.com.br/flash/?c=1c725c20fbd4ac961a27423a98656a220260823&i=6",
     "photo": "",
     "source": "UOL",
     "is_main": false,
@@ -416,12 +424,8 @@
     "is_video": false,
     "relateds": [
       {
-        "title": "Petista diz sentir saudades de disputar eleições contra o PSDB",
-        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/23/lula-diz-sentir-saudades-de-disputar-eleicoes-contra-psdb.ghtm"
-      },
-      {
-        "title": "Lulinha, Trump e mais: veja o que Lula disse em entrevista à Record",
-        "link": "https://www.uol.com.br/flash/?c=13abfc651a21a9c9eaaeb95cbbb1cd720260823"
+        "title": "Augusto Cury propõe tratar corrupção como crime violento no Brasil",
+        "link": "https://www.uol.com.br/flash/?c=1c725c20fbd4ac961a27423a98656a220260823&i=7"
       }
     ]
   },
@@ -445,46 +449,51 @@
     ]
   },
   {
-    "title": "Coritiba vence Corinthians pouco inspirado e escala tabela do Brasileirão",
+    "title": "Coritiba vence Corinthians pouco inspirado e escala tabela",
     "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/coritiba-x-corinthians---brasileirao.ghtm",
     "photo": "https://imguol.com/c/esporte/f3/2026/08/23/pedro-rocha-do-coritiba-comemora-gol-contra-o-corinthians-pelo-brasileirao-1787527297336_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Assista aos gols da partida",
+        "link": "https://www.uol.com.br/flash/?c=478163b946907732d3a7c662fa34a20260823"
+      }
+    ]
   },
   {
-    "title": "Chapecoense ganha a segunda no Brasileirão e deixa o São Paulo a três pontos do Z4",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/chapecoense-sao-paulo-campeonato-brasileiro-como-foi-o-jogo.ghtm",
-    "photo": "https://imguol.com/c/esporte/b2/2026/08/23/bruno-pacheco-da-chapecoense-comemora-gol-contra-o-sao-paulo-pelo-campeonato-brasileiro-1787524250916_v2_300x225.jpg",
+    "title": "'Inadmissível' e 'vergonhoso': Dorival desabafa após derrota do São Paulo",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/inadmissivel-e-vergonhoso-dorival-desabafa-apos-derrota-do-sao-paulo.ghtm",
+    "photo": "https://imguol.com/c/esporte/cc/2026/08/23/dorival-junior-comandando-o-sao-paulo-contra-a-chapecoense-pelo-campeonato-brasileiro-1787529607726_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
     "relateds": [
       {
-        "title": "PVC: São Paulo vai brigar para não cair, mas não pelas razões que Crespo citou",
-        "link": "https://www.uol.com.br/esporte/colunas/pvc/2026/08/23/sao-paulo-vai-brigar-para-nao-cair-mas-nao-pelas-razoes-que-crespo-citou.htm"
+        "title": "Chapecoense vence e deixa o São Paulo a três pontos da zona de rebaixamento",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/chapecoense-sao-paulo-campeonato-brasileiro-como-foi-o-jogo.ghtm"
       },
       {
-        "title": "Juca Kfouri: São Paulo conseguiu perder; quer cair?",
-        "link": "https://www.uol.com.br/esporte/futebol/colunas/juca-kfouri/2026/08/23/s.htm"
+        "title": "PVC: São Paulo vai brigar para não cair, mas não pelas razões que Crespo citou",
+        "link": "https://www.uol.com.br/esporte/colunas/pvc/2026/08/23/sao-paulo-vai-brigar-para-nao-cair-mas-nao-pelas-razoes-que-crespo-citou.htm"
       }
     ]
   },
   {
-    "title": "Datafolha: 50% dos brasileiros veem chance de interferência estrangeira nas eleições",
-    "link": "https://www1.folha.uol.com.br/poder/2026/08/datafolha-50-dos-brasileiros-veem-chance-de-interferencia-estrangeira-nas-eleicoes.shtml",
+    "title": "Lula diz que não interfere na PF e defende investigação sobre Lulinha",
+    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/23/lula-entrevista-investigacao-lulinha.ghtm",
     "photo": "",
-    "source": "Folha",
+    "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
     "relateds": [
       {
-        "title": "Pra Começar a Semana: Horário eleitoral começa nesta semana; Globo entrevistará Lula e Flávio",
-        "link": "https://noticias.uol.com.br/colunas/pra-comecar-a-semana/2026/08/23/horario-eleitoral-comeca-nesta-semana-globo-entrevistara-lula-e-flavio.htm"
+        "title": "Lulinha, Trump e mais: veja o que Lula disse em entrevista à Record",
+        "link": "https://www.uol.com.br/flash/?c=13abfc651a21a9c9eaaeb95cbbb1cd720260823"
       }
     ]
   },
@@ -572,14 +581,23 @@
     "relateds": []
   },
   {
-    "title": "Raphinha dá show, e Barcelona goleia Elche na estreia do Campeonato Espanhol",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/elche-barcelona-primeira-rodada-espanhol-como-foi.ghtm",
-    "photo": "https://imguol.com/c/esporte/27/2026/08/23/raphinha-comemora-gol-pelo-barcelona-contra-o-elche-na-primeira-rodada-do-campeonato-espanhol-1787515574360_v2_300x225.jpg",
-    "source": "UOL",
+    "title": "Datafolha: 50% dos brasileiros veem chance de interferência estrangeira nas eleições",
+    "link": "https://www1.folha.uol.com.br/poder/2026/08/datafolha-50-dos-brasileiros-veem-chance-de-interferencia-estrangeira-nas-eleicoes.shtml",
+    "photo": "",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Pra Começar a Semana: Horário eleitoral começa nesta semana; Globo entrevistará Lula e Flávio",
+        "link": "https://noticias.uol.com.br/colunas/pra-comecar-a-semana/2026/08/23/horario-eleitoral-comeca-nesta-semana-globo-entrevistara-lula-e-flavio.htm"
+      },
+      {
+        "title": "Haddad participa de sabatina do UOL e da Folha nesta segunda-feira",
+        "link": "https://noticias.uol.com.br/eleicoes/2026/08/21/haddad-participa-de-sabatina-do-uol-e-da-folha-na-segunda-feira-as-12h30.ghtm"
+      }
+    ]
   },
   {
     "title": "Rússia enfrenta crise de agosto: falta de combustível e desgaste na guerra",
@@ -602,9 +620,9 @@
     "relateds": []
   },
   {
-    "title": "Corinthians perde mais uma, e foco volta a ser fuga do Z-4",
-    "link": "https://www.uol.com.br/esporte/colunas/milton-neves/2026/08/23/corinthians-perde-mais-uma-e-foco-volta-a-ser-fuga-do-z-4.htm",
-    "photo": "https://conteudo.imguol.com.br/3c/2021/05/13/milton-neves-nova-150-1620927754530_100x100.jpg",
+    "title": "O Palmeiras é mesmo muy amigo do Vasco",
+    "link": "https://www.uol.com.br/esporte/futebol/colunas/juca-kfouri/2026/08/23/o-palmeiras-e-mesmo-muy-amigo-do-vasco.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/53/2019/01/10/juca-kfouri-1547134077409_100x100.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -612,9 +630,9 @@
     "relateds": []
   },
   {
-    "title": "O Palmeiras é mesmo muy amigo do Vasco",
-    "link": "https://www.uol.com.br/esporte/futebol/colunas/juca-kfouri/2026/08/23/o-palmeiras-e-mesmo-muy-amigo-do-vasco.htm",
-    "photo": "https://conteudo.imguol.com.br/c/home/53/2019/01/10/juca-kfouri-1547134077409_100x100.jpg",
+    "title": "Dupla San-São segue flertando com o perigo",
+    "link": "https://www.uol.com.br/esporte/colunas/milton-neves/2026/08/23/dupla-san-sao-segue-flertando-com-o-perigo.htm",
+    "photo": "https://conteudo.imguol.com.br/3c/2021/05/13/milton-neves-nova-150-1620927754530_100x100.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -857,42 +875,14 @@
     "relateds": []
   },
   {
-    "title": "Lito Sousa aparece pela primeira vez após diagnóstico e faz apelo por vaga em estudo",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/23/influenciador-lito-souza-pede-para-entrar-em-tratamento-experimental.ghtm",
-    "photo": "https://imguol.com/c/splash/11/2026/08/23/o-influenciador-lito-sousa-faz-apelo-nas-redes-sociais-1787508238145_v2_300x225.jpg",
+    "title": "Kassab é flagrado dormindo durante o debate da Band",
+    "link": "https://www.uol.com.br/flash/?c=aa6fd3d42fbf45e2a8b4e6d9d82b1b420260823",
+    "photo": "",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
-    "relateds": [
-      {
-        "title": "Ministro da Saúde diz estar em contato com instituições para ajudar Lito",
-        "link": "https://www.uol.com.br/splash/noticias/2026/08/23/ministro-da-saude-lito-souza.ghtm"
-      }
-    ]
-  },
-  {
-    "title": "Sem Lula, Flávio e Zema, candidatos fazem primeiro debate à Presidência",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/08/23/sem-lula-flavio-e-zema-candidatos-fazem-primeiro-debate-a-presidencia.ghtm",
-    "photo": "",
-    "source": "UOL",
-    "is_main": true,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Augusto Cury volta atrás e diz que vai participar de debate na Band",
-        "link": "https://noticias.uol.com.br/eleicoes/2026/08/23/augusto-cury-desiste-de-participar-de-debate-na-band.ghtm"
-      },
-      {
-        "title": "Caiado critica ausências de Lula e Flávio: 'Dark horse x dark lobby'",
-        "link": "https://www.uol.com.br/flash/?c=30e91fb25466ddc6aa32b212df23e66020260823"
-      },
-      {
-        "title": "Renan leva fraldas para criticar ausências de Lula e Flávio em debate",
-        "link": "https://www.uol.com.br/flash/?c=a1ffd50491517ca156b98e4152c3320260823"
-      }
-    ]
+    "relateds": []
   },
   {
     "title": "Andressa Suita mostra trailer de luxo em Barretos com os filhos",
@@ -925,9 +915,9 @@
     "relateds": []
   },
   {
-    "title": "Ary Fontoura mostra jiboia que apareceu em sua casa no Rio",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/23/ary-fontoura-mostra-jiboia-que-apareceu-em-sua-casa-no-rio.ghtm",
-    "photo": "https://imguol.com/c/splash/6a/2026/02/10/ary-fontoura-mostra-sua-colecao-de-cd-e-dvd-1770740321114_v2_300x225.png",
+    "title": "Rafa Kalimann e Nattan combinam looks em noite na Festa do Peão",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/23/rafa-kalimann-e-nattan-combinam-looks-em-noite-na-festa-do-peao.ghtm",
+    "photo": "https://imguol.com/c/home/d6/2026/08/23/rafa-kalimann-e-nattan-curtem-domingo-de-shows-no-festival-de-barretos-1787536027871_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -935,9 +925,9 @@
     "relateds": []
   },
   {
-    "title": "Sabrina exibe barriga de grávida em foto com Nicolas Prattes",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/23/sabrina-sato-biquini-gravida.ghtm",
-    "photo": "https://imguol.com/c/splash/0c/2026/06/26/sabrina-sato-exibe-barriguinha-da-gravidez-1782516282117_v2_300x225.png",
+    "title": "Mariana Ximenes troca mensagens ao vivo com namorado no Domingão",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/23/mariana-ximenes-namorado-domingao-com-huck.ghtm",
+    "photo": "https://imguol.com/c/splash/ff/2026/08/23/mariana-ximenes-no-domingao-com-huck-1787532852995_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -985,10 +975,20 @@
     "relateds": []
   },
   {
-    "title": "Jovens negros 'furam bolha' e conquistam bolsa para graduação no exterior",
-    "link": "https://www1.folha.uol.com.br/educacao/2026/08/jovens-negros-furam-bolha-e-conquistam-bolsa-para-graduacao-no-exterior.shtml",
-    "photo": "https://imguol.com/c/home/70/2026/08/23/negros-1787512228625_300x225.jpg",
-    "source": "Folha",
+    "title": "Mais de 20 cães mortos são encontrados em terreno no interior de Santa Catarina",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/23/cerca-de-25-caes-mortos-sao-enterrados-apos-descarte-em-lages.ghtm",
+    "photo": "https://imguol.com/c/noticias/35/2026/08/23/animais-foram-encontrados-em-acesso-rural-do-bairro-santa-clara-em-lages-1787532572759_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "C6 no Rock: Marina Lima abre os braços para Lobão na bateria de 'Me Chama'",
+    "link": "https://www.uol.com.br/flash/?c=6a8b8cf2ec29ecac18c44fed",
+    "photo": "https://imguol.com/c/home/a4/2026/08/23/marina-lima-1787534700070_300x225.png",
+    "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
@@ -1005,19 +1005,14 @@
     "relateds": []
   },
   {
-    "title": "Segurança que linchou ciclista no Rio disse à polícia que agiu por instinto em 'ato insano'",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/23/depoimento-seguranca-davi-morte-claudio-rafael.ghtm",
-    "photo": "https://imguol.com/c/home/7a/2026/08/20/davi-santos-machado-a-esquerda-e-claudio-rafael-landeiro-moreira-a-direita-1787256615903_v2_300x225.png",
-    "source": "UOL",
+    "title": "'Não vou deixar cair no esquecimento', diz irmã de homem linchado em Copacabana",
+    "link": "https://www1.folha.uol.com.br/cotidiano/2026/08/nao-vou-deixar-cair-no-esquecimento-diz-irma-de-homem-linchado-em-copacabana.shtml",
+    "photo": "https://imguol.com/c/home/b2/2026/08/23/claudio-rafael-landeiro-1787535298203_300x225.jpg",
+    "source": "Folha",
     "is_main": false,
-    "is_carousel": true,
+    "is_carousel": false,
     "is_video": false,
-    "relateds": [
-      {
-        "title": "Justiça mantém prisão de entregadores suspeitos de matar ciclista",
-        "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/23/audiencias-de-custodia---claudio-rafael-landeiro.ghtm"
-      }
-    ]
+    "relateds": []
   },
   {
     "title": "Amigos de brasileira morta na Irlanda fazem vaquinha para sepultá-la no interior de São Paulo",
@@ -1055,6 +1050,16 @@
     "relateds": []
   },
   {
+    "title": "Raphinha dá show, e Barcelona goleia Elche na estreia do Campeonato Espanhol",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/elche-barcelona-primeira-rodada-espanhol-como-foi.ghtm",
+    "photo": "https://imguol.com/c/esporte/27/2026/08/23/raphinha-comemora-gol-pelo-barcelona-contra-o-elche-na-primeira-rodada-do-campeonato-espanhol-1787515574360_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Bahia bate Vitória fora de casa e quebra jejum após cinco empates",
     "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/vitoria-x-bahia---brasileirao.ghtm",
     "photo": "https://imguol.com/c/esporte/f6/2026/08/23/alejo-veliz-do-bahia-comemora-gol-contra-o-vitoria-pelo-brasileirao-1787518124770_v2_300x300.jpg",
@@ -1068,16 +1073,6 @@
     "title": "Avaí bate a Ponte Preta, vence 3ª seguida e afunda adversário na Série B",
     "link": "https://www.uol.com.br/esporte/ultimas-noticias/agencia/2026/08/23/avai-bate-a-ponte-preta-vence-terceira-seguida-e-afunda-adversario-na-serie-b.htm",
     "photo": "https://imguol.com/c/esporte/36/2026/08/23/jean-lucas-comemora-gol-do-avai-contra-a-ponte-preta-na-serie-b-1787523179936_v2_300x300.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Chay Suede e João Vicente encaram astros do Spaten Fight Night em treino no Rio",
-    "link": "https://www.uol.com.br/esporte/ultimas-noticias/ag-fight/2026/08/23/chay-suede-e-joao-vicente-desafiam-estrelas-do-spaten-fight-night-3-em-treino-aberto-no-rio.htm",
-    "photo": "https://imguol.com/c/home/35/2026/08/23/joao-vicente-a-direita-contra-glover-1787521383512_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -1195,9 +1190,9 @@
     "relateds": []
   },
   {
-    "title": "Meghan Markle impõe condição para trégua entre Harry e William, diz revista",
-    "link": "https://www.uol.com.br/splash/noticias/2026/08/23/meghan-impoe-condicao-para-tregua-entre-harry-e-william-diz-revista.ghtm",
-    "photo": "https://imguol.com/c/splash/05/2026/08/23/cotswolds-e-apontado-como-o-possivel-novo-lar-de-harry-e-meghan-na-inglaterra-1787490445086_v2_300x225.jpg",
+    "title": "Ana Paula Renault revela por que não assistiu aos vídeos do BBB que venceu",
+    "link": "https://www.uol.com.br/splash/noticias/estadao-conteudo/2026/08/23/ana-paula-renault-revela-por-que-nao-assistiu-a-videos-do-seu-proprio-bbb.htm",
+    "photo": "https://imguol.com/c/splash/ca/2026/04/29/ana-paula-renault-participa-do-saia-justa-1777513750799_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1672,6 +1667,138 @@
     "title": "Cloud Computing",
     "link": "https://www.uolhost.uol.com.br/uol-cloud-computing.html?utm_medium=uol.com.br&utm_source=interna&utm_campaign=rodapé_uol&utm_content=link_fixo&utm_term=cloud_computing",
     "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Chapecoense ganha a segunda no Brasileirão e deixa o São Paulo a três pontos do Z4",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/chapecoense-sao-paulo-campeonato-brasileiro-como-foi-o-jogo.ghtm",
+    "photo": "https://imguol.com/c/esporte/b2/2026/08/23/bruno-pacheco-da-chapecoense-comemora-gol-contra-o-sao-paulo-pelo-campeonato-brasileiro-1787524250916_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "PVC: São Paulo vai brigar para não cair, mas não pelas razões que Crespo citou",
+        "link": "https://www.uol.com.br/esporte/colunas/pvc/2026/08/23/sao-paulo-vai-brigar-para-nao-cair-mas-nao-pelas-razoes-que-crespo-citou.htm"
+      },
+      {
+        "title": "Juca Kfouri: São Paulo conseguiu perder; quer cair?",
+        "link": "https://www.uol.com.br/esporte/futebol/colunas/juca-kfouri/2026/08/23/s.htm"
+      }
+    ]
+  },
+  {
+    "title": "Corinthians perde mais uma, e foco volta a ser fuga do Z-4",
+    "link": "https://www.uol.com.br/esporte/colunas/milton-neves/2026/08/23/corinthians-perde-mais-uma-e-foco-volta-a-ser-fuga-do-z-4.htm",
+    "photo": "https://conteudo.imguol.com.br/3c/2021/05/13/milton-neves-nova-150-1620927754530_100x100.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Lito Sousa aparece pela primeira vez após diagnóstico e faz apelo por vaga em estudo",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/23/influenciador-lito-souza-pede-para-entrar-em-tratamento-experimental.ghtm",
+    "photo": "https://imguol.com/c/splash/11/2026/08/23/o-influenciador-lito-sousa-faz-apelo-nas-redes-sociais-1787508238145_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Ministro da Saúde diz estar em contato com instituições para ajudar Lito",
+        "link": "https://www.uol.com.br/splash/noticias/2026/08/23/ministro-da-saude-lito-souza.ghtm"
+      }
+    ]
+  },
+  {
+    "title": "Sem Lula, Flávio e Zema, candidatos fazem primeiro debate à Presidência",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/08/23/sem-lula-flavio-e-zema-candidatos-fazem-primeiro-debate-a-presidencia.ghtm",
+    "photo": "",
+    "source": "UOL",
+    "is_main": true,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Augusto Cury volta atrás e diz que vai participar de debate na Band",
+        "link": "https://noticias.uol.com.br/eleicoes/2026/08/23/augusto-cury-desiste-de-participar-de-debate-na-band.ghtm"
+      },
+      {
+        "title": "Caiado critica ausências de Lula e Flávio: 'Dark horse x dark lobby'",
+        "link": "https://www.uol.com.br/flash/?c=30e91fb25466ddc6aa32b212df23e66020260823"
+      },
+      {
+        "title": "Renan leva fraldas para criticar ausências de Lula e Flávio em debate",
+        "link": "https://www.uol.com.br/flash/?c=a1ffd50491517ca156b98e4152c3320260823"
+      }
+    ]
+  },
+  {
+    "title": "Ary Fontoura mostra jiboia que apareceu em sua casa no Rio",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/23/ary-fontoura-mostra-jiboia-que-apareceu-em-sua-casa-no-rio.ghtm",
+    "photo": "https://imguol.com/c/splash/6a/2026/02/10/ary-fontoura-mostra-sua-colecao-de-cd-e-dvd-1770740321114_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Sabrina exibe barriga de grávida em foto com Nicolas Prattes",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/23/sabrina-sato-biquini-gravida.ghtm",
+    "photo": "https://imguol.com/c/splash/0c/2026/06/26/sabrina-sato-exibe-barriguinha-da-gravidez-1782516282117_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Jovens negros 'furam bolha' e conquistam bolsa para graduação no exterior",
+    "link": "https://www1.folha.uol.com.br/educacao/2026/08/jovens-negros-furam-bolha-e-conquistam-bolsa-para-graduacao-no-exterior.shtml",
+    "photo": "https://imguol.com/c/home/70/2026/08/23/negros-1787512228625_300x225.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Segurança que linchou ciclista no Rio disse à polícia que agiu por instinto em 'ato insano'",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/23/depoimento-seguranca-davi-morte-claudio-rafael.ghtm",
+    "photo": "https://imguol.com/c/home/7a/2026/08/20/davi-santos-machado-a-esquerda-e-claudio-rafael-landeiro-moreira-a-direita-1787256615903_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Justiça mantém prisão de entregadores suspeitos de matar ciclista",
+        "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/23/audiencias-de-custodia---claudio-rafael-landeiro.ghtm"
+      }
+    ]
+  },
+  {
+    "title": "Chay Suede e João Vicente encaram astros do Spaten Fight Night em treino no Rio",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/ag-fight/2026/08/23/chay-suede-e-joao-vicente-desafiam-estrelas-do-spaten-fight-night-3-em-treino-aberto-no-rio.htm",
+    "photo": "https://imguol.com/c/home/35/2026/08/23/joao-vicente-a-direita-contra-glover-1787521383512_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Meghan Markle impõe condição para trégua entre Harry e William, diz revista",
+    "link": "https://www.uol.com.br/splash/noticias/2026/08/23/meghan-impoe-condicao-para-tregua-entre-harry-e-william-diz-revista.ghtm",
+    "photo": "https://imguol.com/c/splash/05/2026/08/23/cotswolds-e-apontado-como-o-possivel-novo-lar-de-harry-e-meghan-na-inglaterra-1787490445086_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -5280,106 +5407,6 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "O risco de enaltecer o Flamengo por qualquer coisa",
-    "link": "https://www.uol.com.br/esporte/colunas/alicia-klein/2026/08/21/o-risco-de-enaltecer-o-flamengo-por-qualquer-coisa.htm",
-    "photo": "https://conteudo.imguol.com.br/fa/2020/10/20/alicia-klein-150-1603243605874_100x100.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "ChatGPT escorrega na regra do TSE",
-    "link": "https://www.uol.com.br/tilt/colunas/diogo-cortiz/2026/08/21/chatgpt-escorrega-na-regra-do-tse-e-tem-candidato-preferido-a-presidencia.htm",
-    "photo": "https://conteudo.imguol.com.br/c/home/28/2023/12/14/diogo-cortiz---autor---jupiter-1702553880906_v2_100x100.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Burnout: por que 7 em cada 10 casos no Brasil atingem mulheres?",
-    "link": "https://www.uol.com.br/flash/?c=337931744ff7d344cc3fa35305ce01120260820",
-    "photo": "https://imguol.com/c/entretenimento/c3/2026/01/23/burnoutestresse-1769181362516_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Santos deposita parte dos direitos de imagem antes de encarar o Palmeiras",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/22/santos-deposita-parte-dos-direitos-de-imagem-antes-de-encarar-o-palmeiras.ghtm",
-    "photo": "https://imguol.com/c/esporte/cc/2025/12/07/marcelo-teixeira-presidente-do-santos-fez-pronunciamento-apos-encerramento-do-brasileirao-1765147097484_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "São Paulo vê Enzo Díaz fora dos planos e aguarda propostas pelo lateral",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/22/sao-paulo-ve-enzo-diaz-fora-dos-planos-e-aguarda-propostas-pelo-lateral.ghtm",
-    "photo": "https://imguol.com/c/esporte/c6/2026/08/19/fora-dos-planos-enzo-diaz-pode-deixar-o-sao-paulo-neste-meio-de-temporada-1787191420011_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Jaffar Bambirra lembra relação com Chay Suede em novela: 'Shippavam a gente'",
-    "link": "https://www.uol.com.br/universa/noticias/redacao/2026/08/22/shippavam-a-gente-jaffar-bambirra-fala-de-relacao-com-chay-em-novela.htm",
-    "photo": "https://imguol.com/c/entretenimento/98/2026/08/18/jaffar-bambirra-no-programa-desculpa-alguma-coisa-com-tati-bernardi-1787080864331_v2_450x253.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "'Sobrenatural': Roberto Sadovski dá nota para os filmes da saga moderna de terror",
-    "link": "https://www.uol.com.br/flash/?c=fc2093c7f36883b33a214959fd31763720260821",
-    "photo": "https://imguol.com/c/parceiros/87/2023/07/05/sobrenatural-a-porta-vermelha-esta-em-cartaz-nos-cinemas-1688592861897_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Vice que virou governador em MT tem patrimônio de R$ 575,6 milhões; veja ranking",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/08/22/vice-que-virou-governador-em-mt-tem-patrimonio-de-r-5756-mi-veja-ranking.ghtm",
-    "photo": "https://imguol.com/c/noticias/14/2026/08/18/otaviano-pivetta-republicanos-assumiu-o-governo-do-mato-grosso-apos-o-governador-mauro-mendes-uniao-brasil-renunciar-ao-cargo-para-disputar-o-senado-1787099715328_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Daniela Lima: Lula ficou surpreso com tom de Trump em conversa",
-    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/21/daniela-lima-lula-ficou-surpreso-com-tom-de-trump-em-conversa.ghtm",
-    "photo": "",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Russell vence a sprint na Holanda, McLarens sofrem e Bortoleto é nono",
-    "link": "https://www.uol.com.br/esporte/colunas/pole-position/2026/08/22/sprint-gp-da-holanda.htm",
-    "photo": "https://imguol.com/c/esporte/20/2026/08/22/george-russell-venceu-a-sprint-do-gp-da-holanda-1787395396652_v2_450x337.jpg",
-    "source": "UOL",
-    "is_main": true,
-    "is_carousel": false,
     "is_video": false,
     "relateds": []
   }
