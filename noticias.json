@@ -413,7 +413,7 @@
   {
     "title": "Sakamoto: Lula e Flávio vencem o debate sem nem aparecer",
     "link": "https://noticias.uol.com.br/colunas/leonardo-sakamoto/2026/08/23/lula-e-flavio-vencem-o-debate-sem-nem-aparecer.htm",
-    "photo": "",
+    "photo": "https://imguol.com/c/noticias/38/2026/08/23/pulpitos-de-lula-e-flavio-bolsonaro-vazios-apos-os-dois-candidatos-nao-comparecerem-ao-debate-da-band-1787528876345_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -422,11 +422,15 @@
       {
         "title": "Kassab é flagrado dormindo durante o debate da Band",
         "link": "https://www.uol.com.br/flash/?c=aa6fd3d42fbf45e2a8b4e6d9d82b1b420260823"
+      },
+      {
+        "title": "Renan Santos ataca Record por exibir entrevista com Lula durante debate da Band",
+        "link": "https://noticias.uol.com.br/eleicoes/2026/08/23/renan-ataca-record-durante-debate.ghtm"
       }
     ]
   },
   {
-    "title": "Palmeiras resolve em 10 minutos, goleia o Vasco e abre vantagem na liderança",
+    "title": "Palmeiras goleia Vasco e abre vantagem na liderança do Brasileirão",
     "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/palmeiras-vasco-brasileirao-24a-rodada-como-foi.ghtm",
     "photo": "https://imguol.com/c/esporte/eb/2026/08/23/flaco-lopez-e-vitor-roque-comemoram-gol-do-palmeiras-contra-o-vasco-pelo-brasileirao-1787517093665_v2_300x225.jpg",
     "source": "UOL",
@@ -435,24 +439,24 @@
     "is_video": false,
     "relateds": [
       {
-        "title": "Golaço de Flaco e mais: veja os principais lances do jogo",
+        "title": "Veja o golaço de Flaco Lopes",
         "link": "https://www.uol.com.br/flash/?c=1e119e937bd2f8e0e88e99bc5192d2c20260823"
-      },
-      {
-        "title": "Veja a tabela do Brasileirão",
-        "link": "https://www.uol.com.br/esporte/futebol/campeonatos/brasileirao/"
       }
     ]
   },
   {
-    "title": "Coritiba vence Corinthians pouco inspirado e escala tabela",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/coritiba-x-corinthians---brasileirao.ghtm",
-    "photo": "https://imguol.com/c/esporte/f3/2026/08/23/pedro-rocha-do-coritiba-comemora-gol-contra-o-corinthians-pelo-brasileirao-1787527297336_v2_300x225.jpg",
+    "title": "Diniz explica derrota após vaga na Libertadores: 'Não íamos estar 100%'",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/coritiba-x-corinthians-coletiva-fernando-diniz.ghtm",
+    "photo": "https://imguol.com/c/esporte/76/2026/08/23/fernando-diniz-tecnico-do-corinthians-durante-partida-contra-o-coritiba-pelo-brasileirao-1787528157006_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
     "relateds": [
+      {
+        "title": "Coritiba vence Corinthians e sobe na tabela",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/coritiba-x-corinthians---brasileirao.ghtm"
+      },
       {
         "title": "Assista aos gols da partida",
         "link": "https://www.uol.com.br/flash/?c=478163b946907732d3a7c662fa34a20260823"
@@ -469,12 +473,16 @@
     "is_video": false,
     "relateds": [
       {
-        "title": "Chapecoense vence e deixa o São Paulo a três pontos da zona de rebaixamento",
+        "title": "Chapecoense vence e deixa São Paulo a 3 pontos do Z4",
         "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/chapecoense-sao-paulo-campeonato-brasileiro-como-foi-o-jogo.ghtm"
       },
       {
-        "title": "PVC: São Paulo vai brigar para não cair, mas não pelas razões que Crespo citou",
-        "link": "https://www.uol.com.br/esporte/colunas/pvc/2026/08/23/sao-paulo-vai-brigar-para-nao-cair-mas-nao-pelas-razoes-que-crespo-citou.htm"
+        "title": "'Não tem explicação', diz Domingos Duarte após derrota para Chapecoense",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/domingos-duarte-desabafa-apos-derrota-para-chape-nao-tem-explicacao.ghtm"
+      },
+      {
+        "title": "Veja a tabela do Brasileirão",
+        "link": "https://www.uol.com.br/esporte/futebol/campeonatos/brasileirao/"
       }
     ]
   },
@@ -1668,6 +1676,21 @@
     "is_carousel": false,
     "is_video": false,
     "relateds": []
+  },
+  {
+    "title": "Coritiba vence Corinthians pouco inspirado e escala tabela",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/23/coritiba-x-corinthians---brasileirao.ghtm",
+    "photo": "https://imguol.com/c/esporte/f3/2026/08/23/pedro-rocha-do-coritiba-comemora-gol-contra-o-corinthians-pelo-brasileirao-1787527297336_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Assista aos gols da partida",
+        "link": "https://www.uol.com.br/flash/?c=478163b946907732d3a7c662fa34a20260823"
+      }
+    ]
   },
   {
     "title": "'Os setores todos vão quebrar', diz Renan Santos sobre o fim da escala 6x1",
@@ -5395,20 +5418,5 @@
     "is_carousel": false,
     "is_video": false,
     "relateds": []
-  },
-  {
-    "title": "Lula diz que sugeriu a Trump encontro com Xi e Putin na Flórida",
-    "link": "https://www1.folha.uol.com.br/mundo/2026/08/lula-diz-que-sugeriu-a-trump-encontro-com-xi-e-putin-em-resort-na-florida.shtml",
-    "photo": "",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Daniela Lima: Lula ficou surpreso com tom de Trump",
-        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/21/daniela-lima-lula-ficou-surpreso-com-tom-de-trump-em-conversa.ghtm"
-      }
-    ]
   }
 ]
