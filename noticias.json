@@ -351,16 +351,12 @@
         "link": "https://noticias.uol.com.br/eleicoes/2026/08/23/debate-band-agosto-2026.ghtm"
       },
       {
-        "title": "Augusto Cury critica assistencialismo: 'Bolsa Família precisa ser ajustado'",
-        "link": "https://www.uol.com.br/flash/?c=57e09c7035f05fd112609851afbaf1ca20260823"
+        "title": "Augusto Cury propõe tratar corrupção como crime violento no Brasil",
+        "link": "https://www.uol.com.br/flash/?c=1c725c20fbd4ac961a27423a98656a220260823&i=7"
       },
       {
         "title": "O que os candidatos disseram no debate? Veja os principais momentos",
         "link": "https://www.uol.com.br/flash/?c=1c725c20fbd4ac961a27423a98656a220260823"
-      },
-      {
-        "title": "Kassab é flagrado dormindo durante o debate da Band",
-        "link": "https://www.uol.com.br/flash/?c=aa6fd3d42fbf45e2a8b4e6d9d82b1b420260823"
       }
     ]
   },
@@ -415,8 +411,8 @@
     "relateds": []
   },
   {
-    "title": "'Os setores todos vão quebrar', diz Renan Santos sobre o fim da escala 6x1",
-    "link": "https://www.uol.com.br/flash/?c=1c725c20fbd4ac961a27423a98656a220260823&i=6",
+    "title": "Sakamoto: Lula e Flávio vencem o debate sem nem aparecer",
+    "link": "https://noticias.uol.com.br/colunas/leonardo-sakamoto/2026/08/23/lula-e-flavio-vencem-o-debate-sem-nem-aparecer.htm",
     "photo": "",
     "source": "UOL",
     "is_main": false,
@@ -424,8 +420,8 @@
     "is_video": false,
     "relateds": [
       {
-        "title": "Augusto Cury propõe tratar corrupção como crime violento no Brasil",
-        "link": "https://www.uol.com.br/flash/?c=1c725c20fbd4ac961a27423a98656a220260823&i=7"
+        "title": "Kassab é flagrado dormindo durante o debate da Band",
+        "link": "https://www.uol.com.br/flash/?c=aa6fd3d42fbf45e2a8b4e6d9d82b1b420260823"
       }
     ]
   },
@@ -1672,6 +1668,21 @@
     "is_carousel": false,
     "is_video": false,
     "relateds": []
+  },
+  {
+    "title": "'Os setores todos vão quebrar', diz Renan Santos sobre o fim da escala 6x1",
+    "link": "https://www.uol.com.br/flash/?c=1c725c20fbd4ac961a27423a98656a220260823&i=6",
+    "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Augusto Cury propõe tratar corrupção como crime violento no Brasil",
+        "link": "https://www.uol.com.br/flash/?c=1c725c20fbd4ac961a27423a98656a220260823&i=7"
+      }
+    ]
   },
   {
     "title": "Chapecoense ganha a segunda no Brasileirão e deixa o São Paulo a três pontos do Z4",
@@ -5399,15 +5410,5 @@
         "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/08/21/daniela-lima-lula-ficou-surpreso-com-tom-de-trump-em-conversa.ghtm"
       }
     ]
-  },
-  {
-    "title": "Fla tem Cruzeiro como aliado enquanto enfrenta Palmeiras e Vasco",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/22/flamengo-tem-cruzeiro-como-aliado-enquanto-luta-contra-palmeiras-e-vasco.ghtm",
-    "photo": "https://imguol.com/c/esporte/63/2025/04/10/bap-presidente-do-flamengo-1744320626911_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
   }
 ]
