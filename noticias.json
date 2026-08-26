@@ -414,16 +414,6 @@
     ]
   },
   {
-    "title": "Veja as datas e onde assistir aos próximos debates para presidente",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/08/25/quais-sao-os-proximos-debates-para-presidente.ghtm",
-    "photo": "",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Governo Trump pausa processos de vistos para imigrantes em todo o mundo",
     "link": "https://www1.folha.uol.com.br/mundo/2026/08/governo-trump-pausa-processos-de-vistos-para-imigrantes-em-todo-o-mundo.shtml",
     "photo": "https://imguol.com/c/home/79/2026/03/09/o-presidente-dos-eua-donald-trump-durante-monitoramento-dos-ataques-ao-ira---1773086950713_v2_300x225.jpg",
@@ -441,10 +431,15 @@
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Salário do STF dá 'condição média' de vida, diz Mendonça",
+        "link": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/08/25/salario-do-stf-da-condicao-media-de-vida-diz-andre-mendonca.htm"
+      }
+    ]
   },
   {
-    "title": "Caiado promete encaminhar ao Congresso anistia aos envolvidos no 8/1",
+    "title": "Caiado promete enviar ao Congresso anistia aos envolvidos no 8/1",
     "link": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/08/25/caiado-encaminharei-ao-congresso-anistia-geral-ampla-e-irrestrita.htm",
     "photo": "https://imguol.com/c/noticias/ca/2026/08/25/candidato-a-presidencia-pelo-psd-ronaldo-caiado-participa-de-sabatina-no-jornal-nacional-da-tv-globo-1787705986836_v2_300x225.jpg",
     "source": "UOL",
@@ -465,6 +460,14 @@
       {
         "title": "Veja a tabela da competição",
         "link": "https://www.uol.com.br/esporte/futebol/campeonatos/copa-do-brasil/#quartas-de-final"
+      },
+      {
+        "title": "Messi e mais dois: Arroyo revela em quem se inspira para marcar golaços",
+        "link": "https://www.uol.com.br/flash/?c=6a8e5c5535f68ec02771a670"
+      },
+      {
+        "title": "Veja os gols do 1º clássico entre Cruzeiro e Atlético-MG na Copa do Brasil",
+        "link": "https://www.uol.com.br/flash/?c=6a8e4f153de67573f100944a"
       }
     ]
   },
@@ -537,7 +540,7 @@
     "relateds": []
   },
   {
-    "title": "Novo Tiggo 7 chega com novo visual e preço agressivo; veja o que muda",
+    "title": "Novo Tiggo 7 chega com novo visual e preço agressivo; confira",
     "link": "https://www.uol.com.br/carros/noticias/redacao/2026/08/25/novo-tiggo-7-chega-com-novo-visual-e-preco-agressivo-veja-o-que-muda.ghtm",
     "photo": "https://imguol.com/c/entretenimento/75/2026/08/25/caoa-chery-tiggo-7-1787701678459_v2_300x225.jpg",
     "source": "UOL",
@@ -557,7 +560,7 @@
     "relateds": []
   },
   {
-    "title": "Elmano de Freitas, candidato ao governo do CE, será sabatinado por UOL e Folha amanhã",
+    "title": "Elmano de Freitas, candidato ao governo do CE, será sabatinado por UOL e Folha hoje",
     "link": "https://noticias.uol.com.br/eleicoes/2026/08/25/elmano-freitas-e-sabatinado-por-uol-e-folha-amanha-as-12h30.ghtm",
     "photo": "",
     "source": "UOL",
@@ -602,7 +605,7 @@
     "relateds": []
   },
   {
-    "title": "STF cria penduricalho que dá adicional de até 22,5% para chefes de gabinete de ministros",
+    "title": "STF cria adicional de até 22,5% para chefes de gabinete de ministros",
     "link": "https://www1.folha.uol.com.br/poder/2026/08/stf-criam-penduricalho-que-da-adicional-de-ate-225-para-chefes-de-gabinete-de-ministros.shtml",
     "photo": "https://imguol.com/c/home/f7/2026/08/25/ministros-sentados-em-semicirculo-no-plenario-do-supremo-tribunal-federal-com-publico-observando-bandeira-do-brasil-e-simbolos-oficiais-ao-fundo-plenario-do-supremo-tribunal-federal-1787709208615_v2_300x225.jpg",
     "source": "Folha",
@@ -907,7 +910,7 @@
     "relateds": []
   },
   {
-    "title": "Sul, Sudeste e Centro-Oeste têm chances de tempestades amanhã",
+    "title": "Sul, Sudeste e Centro-Oeste têm chances de tempestades hoje",
     "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/25/inmet-previsao-tempestades.ghtm",
     "photo": "https://imguol.com/c/noticias/4c/2026/04/25/11mar2025---mulher-com-guarda-chuva-durante-tempo-chuvoso-caminha-por-calcada-na-cidade-de-sao-paulo-1777146086054_v2_300x225.jpg",
     "source": "UOL",
@@ -1630,6 +1633,16 @@
   {
     "title": "Cloud Computing",
     "link": "https://www.uolhost.uol.com.br/uol-cloud-computing.html?utm_medium=uol.com.br&utm_source=interna&utm_campaign=rodapé_uol&utm_content=link_fixo&utm_term=cloud_computing",
+    "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Veja as datas e onde assistir aos próximos debates para presidente",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/08/25/quais-sao-os-proximos-debates-para-presidente.ghtm",
     "photo": "",
     "source": "UOL",
     "is_main": false,
