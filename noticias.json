@@ -351,10 +351,6 @@
         "link": "https://noticias.uol.com.br/opiniao/coluna/2026/09/18/divida-equilibrio-fiscal-e-inclusao-social-desafios-da-politica-economica.htm"
       },
       {
-        "title": "Sakamoto: Reajuste do Bolsa Família e fim da 6x1 são eleitoreiros, mas o povo agradece",
-        "link": "https://noticias.uol.com.br/colunas/leonardo-sakamoto/2026/09/18/reajuste-do-bolsa-e-fim-da-6x1-sao-eleitoreiros-mas-o-povo-agradece.htm"
-      },
-      {
         "title": "UOL Confere: anúncio de reajuste do Bolsa Família gera desinformação nas redes sociais",
         "link": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/09/18/reajuste-bolsa-familia-tse-pl-flavio-bolsonaro-lula-eleicoes-desinformacao.ghtm"
       }
@@ -401,33 +397,14 @@
     "relateds": []
   },
   {
-    "title": "Com caso Master, ambiente no Supremo está zero",
-    "link": "https://www.uol.com.br/flash/?c=6aad642af2a0f7e448f909b1",
-    "photo": "https://conteudo.imguol.com.br/c/home/4a/2025/09/10/daniela-lima-1757545302507_100x100.jpg?1757545310353",
+    "title": "Campanha de Flávio sabe que falar de urna traz riscos",
+    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/09/18/casado-campanha-de-flavio-sabe-que-falar-de-urnas-eletronicas-e-risco-para-ele.ghtm",
+    "photo": "https://conteudo.imguol.com.br/c/home/6c/2024/01/26/leticia-casado---autor-1706269688458_v2_100x100.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
     "relateds": []
-  },
-  {
-    "title": "Trump diz que EUA fecharam acordo para controlar a segurança da Groenlândia",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/09/18/trump-diz-que-eua-fecharam-acordo-para-seguranca-da-groenlandia.ghtm",
-    "photo": "https://imguol.com/c/noticias/e2/2026/09/13/presidente-dos-eua-donald-trump-durante-visita-a-irlanda13-de-setembro-de-2026-reuterscathal-mcnaughton-1789317865615_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Trump diz que vai banir CNN, MS NOW e Politico da Casa Branca",
-        "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/09/18/trump-diz-que-vai-banir-cnn-ms-now-e-politico-da-casa-branca.ghtm"
-      },
-      {
-        "title": "Justiça proíbe Trump de deportar imigrantes para países diferentes da sua origem",
-        "link": "https://www1.folha.uol.com.br/mundo/2026/09/justica-proibe-trump-de-deportar-imigrantes-para-paises-diferentes-da-sua-origem.shtml"
-      }
-    ]
   },
   {
     "title": "Lula cita Flamengo e Corinthians e diz estar decidido a 'acabar com as bets'",
@@ -439,8 +416,8 @@
     "is_video": false,
     "relateds": [
       {
-        "title": "Número de brasileiros que já apostaram em bets cresce 75,2% em 8 meses, e receita de sites sobe 5,9%",
-        "link": "https://c-level.folha.uol.com.br/negocios/2026/09/numero-de-brasileiros-inscritos-em-bets-aumenta-752-em-8-meses-e-receita-dos-sites-sobe-59.shtml"
+        "title": "Presidente brinca ao citar campeões do mundo sem as bets: 'Só Palmeiras não foi'",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/09/18/lula-palmeiras-bet-campeao-mundo.ghtm"
       }
     ]
   },
@@ -460,6 +437,25 @@
       {
         "title": "PGR se diz a favor de saída do pai de Vorcaro da prisão para fazer exames",
         "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/09/18/pgr-se-manifesta-favoravel-a-saida-do-pai-de-vorcaro-para-fazer-exames.ghtm"
+      }
+    ]
+  },
+  {
+    "title": "Trump diz que EUA fecharam acordo para controlar a segurança da Groenlândia",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/09/18/trump-diz-que-eua-fecharam-acordo-para-seguranca-da-groenlandia.ghtm",
+    "photo": "https://imguol.com/c/noticias/e2/2026/09/13/presidente-dos-eua-donald-trump-durante-visita-a-irlanda13-de-setembro-de-2026-reuterscathal-mcnaughton-1789317865615_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Trump diz que vai banir CNN, MS NOW e Politico da Casa Branca",
+        "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/09/18/trump-diz-que-vai-banir-cnn-ms-now-e-politico-da-casa-branca.ghtm"
+      },
+      {
+        "title": "Justiça proíbe Trump de deportar imigrantes para países diferentes da sua origem",
+        "link": "https://www1.folha.uol.com.br/mundo/2026/09/justica-proibe-trump-de-deportar-imigrantes-para-paises-diferentes-da-sua-origem.shtml"
       }
     ]
   },
@@ -493,25 +489,17 @@
     ]
   },
   {
-    "title": "Datafolha: Desconfiança no STF cresce, vai a 48% e atinge recorde",
-    "link": "https://www1.folha.uol.com.br/poder/2026/09/datafolha-desconfianca-no-stf-dispara-vai-a-48-e-atinge-recorde.shtml",
-    "photo": "",
+    "title": "Foto extraída do celular de Vorcaro traz Gonet ao lado de ex-banqueiro",
+    "link": "https://www1.folha.uol.com.br/poder/2026/09/conversas-extraidas-do-celular-de-vorcaro-mostram-gonet-e-ex-banqueiro-em-noite-de-charutos-e-uisque-em-londres.shtml",
+    "photo": "https://imguol.com/c/noticias/9f/2026/09/19/conversa-extraida-do-celular-de-vorcaro-esq-mostra-foto-de-gonet-dir-advogado-ciro-soares-segundo-da-dir-para-esq-e-ex-banqueiro-em-noite-de-charutos-e-uisque-em-londres-1789787194332_v2_300x225.png",
     "source": "Folha",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
     "relateds": [
       {
-        "title": "34% dizem que maioria dos envolvidos no caso Master é de esquerda; 27%, de direita",
-        "link": "https://www1.folha.uol.com.br/poder/2026/09/datafolha-34-dizem-que-maioria-dos-envolvidos-no-caso-master-e-de-esquerda-e-27-citam-direita.shtml"
-      },
-      {
-        "title": "47% dizem que crise no STF terá alguma influência no voto para presidente",
-        "link": "https://www1.folha.uol.com.br/poder/2026/09/datafolha-47-dizem-que-crise-no-stf-tera-alguma-influencia-no-voto-para-presidente.shtml"
-      },
-      {
-        "title": "Aumento de desconfiança no STF destoa da de outras instituições, diz pesquisa",
-        "link": "https://www1.folha.uol.com.br/poder/2026/09/datafolha-aumento-de-desconfianca-no-stf-destoa-de-outras-instituicoes.shtml"
+        "title": "Paulo Gonet aparece fumando charuto em foto tirada em Londres",
+        "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/09/19/daniel-vorcaro-paulo-gonet-foto-charuto-uisque.ghtm"
       }
     ]
   },
@@ -551,7 +539,7 @@
     "photo": "https://imguol.com/c/home/2f/2025/11/15/o-deputado-eduardo-bolsonaro-pl-sp-que-esta-nos-estados-unidos---1763212716251_300x225.jpg",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
@@ -571,18 +559,18 @@
     ]
   },
   {
-    "title": "MPT pede R$ 5 milhões de Rico Melquíades por constranger empregada que vota no PT",
-    "link": "https://noticias.uol.com.br/colunas/carlos-madeiro/2026/09/18/mpt-pede-r-5-mi-de-rico-melquiades-por-demitir-empregada-que-vota-no-pt.htm",
-    "photo": "https://imguol.com/c/entretenimento/e5/2023/11/09/rico-melquiades-1699528206629_v2_300x225.jpg",
+    "title": "Sul terá chuva e temporais no fim da semana; calor predomina no Brasil",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/09/18/sul-tera-chuva-e-temporais-no-fim-da-semana-brasil-tera-calor.ghtm",
+    "photo": "https://imguol.com/c/noticias/b6/2026/09/18/sul-deve-receber-chuva-volumosa-no-fim-de-semana-ja-o-calor-predomina-em-boa-parte-do-pais-1789783844211_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": true,
+    "is_carousel": false,
     "is_video": false,
     "relateds": []
   },
   {
     "title": "Marina confunde seu número para a eleição com o de Salles em ato de Lula em São Paulo",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/09/18/marina-confunde-numero-de-urna-com-o-de-salles-em-ato.ghtm",
+    "link": "https://www.uol.com.br/flash/?c=6aadedc5ae329120a787271b",
     "photo": "https://imguol.com/c/noticias/84/2026/09/18/marina-silva-rede-candidata-ao-senado-por-sao-paulo-1789774409663_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
@@ -590,15 +578,19 @@
     "is_video": false,
     "relateds": [
       {
-        "title": "Em comício, Tebet acena a mulheres, ataca Derrite e associa Flávio a Master",
+        "title": "Tebet ataca Derrite e associa Flávio a Master",
         "link": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/09/18/em-comicio-tebet-acena-a-mulheres-ataca-derrite-e-associa-flavio-a-master.htm"
+      },
+      {
+        "title": "Com Marina e Tebet, Lula diz que votar em mulheres de direita não dá certo",
+        "link": "https://noticias.uol.com.br/eleicoes/2026/09/18/lula-diz-que-votar-em-mulheres-de-direita-nao-da-certo.ghtm"
       }
     ]
   },
   {
-    "title": "'Não é a IA que vai redefinir sua empresa, são suas decisões', diz CEO do UOL",
-    "link": "https://economia.uol.com.br/noticias/redacao/2026/09/18/ceo-do-uol-nao-e-a-ia-que-vai-redefinir-sua-empresa-sao-suas-decisoes.htm",
-    "photo": "https://imguol.com/c/galeria/2b/2026/09/18/reproducaouol-1789758735590_v2_300x225.jpg",
+    "title": "Cury e Zema trocam elogios, atacam STF e confrontam Samara em debate em São Paulo",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/09/18/zema-e-cury-trocam-elogios-e-confrontam-samara-em-debate-esvaziado.ghtm",
+    "photo": "https://imguol.com/c/home/df/2026/09/18/augusto-cury-romeu-zema-e-samara-martins-1789780534863_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -606,10 +598,10 @@
     "relateds": []
   },
   {
-    "title": "Grupo investigado por suicídio de menina de 13 anos em MS passou por várias plataformas",
-    "link": "https://www1.folha.uol.com.br/cotidiano/2026/09/grupo-investigado-por-suicidio-de-menina-de-13-anos-incluia-amiga-e-passou-por-diferentes-plataformas.shtml",
-    "photo": "https://imguol.com/c/home/72/2026/09/18/discord-foi-alvo-de-medidas-do-governo-brasileiro-apos-morte-de-adolescente-1789776241654_v2_300x225.jpg",
-    "source": "Folha",
+    "title": "'Não é a IA que vai redefinir sua empresa, são suas decisões', diz CEO do UOL",
+    "link": "https://economia.uol.com.br/noticias/redacao/2026/09/18/ceo-do-uol-nao-e-a-ia-que-vai-redefinir-sua-empresa-sao-suas-decisoes.htm",
+    "photo": "https://imguol.com/c/galeria/2b/2026/09/18/reproducaouol-1789758735590_v2_300x225.jpg",
+    "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
@@ -680,6 +672,16 @@
     "link": "https://www1.folha.uol.com.br/colunas/tostao/2026/09/a-espetacularizacao-do-futebol-brasileiro.shtml",
     "photo": "https://conteudo.imguol.com.br/c/noticias/d3/2019/04/01/tostao-1554157180893_v2_100x100.jpg",
     "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "MPT pede R$ 5 milhões de Rico Melquíades por 'demitir' empregada que vota no PT",
+    "link": "https://noticias.uol.com.br/colunas/carlos-madeiro/2026/09/18/mpt-pede-r-5-mi-de-rico-melquiades-por-demitir-empregada-que-vota-no-pt.htm",
+    "photo": "https://conteudo.imguol.com.br/c/home/65/2026/05/29/carlos-madeiro-header-1780071007014_100x100.png",
+    "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
@@ -886,6 +888,16 @@
     "relateds": []
   },
   {
+    "title": "Paolla Oliveira posta vídeo sambando e faz mistério: 'Onde vai ser?'",
+    "link": "https://www.uol.com.br/flash/?c=6aadba4934e2fe03627845b8",
+    "photo": "https://imguol.com/c/home/ce/2026/09/18/paolla-oliveira-posta-video-sambando-em-dia-de-disputa-de-samba-enredo-na-imperatriz-1789780347807_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Parou de atuar? Veja como vive hoje a atriz Vanessa Lóes",
     "link": "https://www.uol.com.br/splash/noticias/2026/09/18/por-onde-anda-a-atriz-vanessa-loes-mulher-de-thiago-lacerda.ghtm",
     "photo": "https://imguol.com/c/home/3a/2026/09/18/vanessa-loes-em-malhacao-1789753666276_v2_300x225.jpg",
@@ -906,29 +918,9 @@
     "relateds": []
   },
   {
-    "title": "Ciro Gomes ganha 29 minutos de propaganda do PT no Ceará por ser associado a Bolsonaro",
-    "link": "https://noticias.uol.com.br/colunas/carlos-madeiro/2026/09/18/ce-ciro-ganha-29-minutos-de-propaganda-do-pt-por-ser-associado-a-bolsonaro.htm",
-    "photo": "https://imguol.com/c/home/68/2026/09/18/o-ex-ministro-da-integracao-nacional-ciro-gomes-em-evento-em-maceio-1789771494294_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Brasil tem 33 hospitais entre os melhores do mundo em ranking internacional",
-    "link": "https://www1.folha.uol.com.br/equilibrioesaude/2026/09/brasil-tem-33-hospitais-entre-os-melhores-do-mundo-em-ranking-internacional-da-newsweek.shtml",
-    "photo": "",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "MP requer apuração de suborno e calote bilionário de gigante coreana no Ceará",
-    "link": "https://noticias.uol.com.br/colunas/carlos-madeiro/2026/09/18/mp-apura-acusacao-de-suborno-e-calote-bilionario-de-gigante-coreana-no-ce.htm",
-    "photo": "https://imguol.com/c/noticias/9c/2026/01/16/sede-da-posco-internacional-em-incheon-na-coreia-do-sul-1768576123736_v2_300x225.png",
+    "title": "Autista passa em concurso para juiz em SC, mas TJ o impede de assumir cargo",
+    "link": "https://tnonline.uol.com.br/noticias/cotidiano/autista-passa-em-concurso-para-juiz-em-sc-mas-tj-o-impede-de-assumir-cargo-1147564",
+    "photo": "https://imguol.com/c/home/75/2026/09/19/o-advogado-marcio-leonardo-almeida-das-virgens-foi-aprovado-no-concurso-publico-para-o-cargo-de-juiz-leigo-do-tj-sc-na-cota-destinada-a-pessoas-com-deficiencia-pcd-mas-teve-a-nomeacao-barrada-pela-1789791828091_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -946,8 +938,8 @@
     "relateds": []
   },
   {
-    "title": "Cade vê compra da Medley pela EMS como 'complexa' e frustra empresas",
-    "link": "https://c-level.folha.uol.com.br/negocios/2026/09/cade-ve-compra-da-medley-pela-ems-como-complexa-frustra-empresas-e-vai-aprofundar-analise.shtml",
+    "title": "Brasil tem 33 hospitais entre os melhores do mundo em ranking internacional",
+    "link": "https://www1.folha.uol.com.br/equilibrioesaude/2026/09/brasil-tem-33-hospitais-entre-os-melhores-do-mundo-em-ranking-internacional-da-newsweek.shtml",
     "photo": "",
     "source": "Folha",
     "is_main": false,
@@ -956,9 +948,39 @@
     "relateds": []
   },
   {
-    "title": "CE: jovens são baleados pela PM ao simularem assalto de brincadeira",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/09/18/jovens-sao-baleados-pela-pm-enquanto-faziam-novelinha-sobre-crime-no-ce.ghtm",
-    "photo": "https://imguol.com/c/home/61/2026/09/18/adolescentes-publicaram-video-da-novelinha-em-redes-sociais-1789760540586_v2_300x225.png",
+    "title": "Caranguejo invade quintal segurando lâmina e assusta homem na Flórida (EUA)",
+    "link": "https://noticias.uol.com.br/meio-ambiente/ultimas-noticias/redacao/2026/09/18/caranguejo-invade-quintal-segurando-lamina-e-assusta-homem-nos-eua.ghtm",
+    "photo": "https://imguol.com/c/home/7a/2026/09/18/caranguejo-e-flagrado-segurando-lamina-entre-as-pincas-1789778817030_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Clima quente! Ruffy e Tsarukyan precisam ser separados em encarada para o UFC 331",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/ag-fight/2026/09/18/clima-quente-ruffy-e-tsarukyan-precisam-ser-separados-em-encarada-para-o-ufc-331-veja.htm",
+    "photo": "https://imguol.com/c/esporte/dd/2026/09/19/mauricio-ruffy-a-direita-e-arman-tsarukyan-se-estranham-em-encarada-pre-ufc-331-1789792461914_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "MP requer apuração de suborno e calote bilionário de gigante coreana no Ceará",
+    "link": "https://noticias.uol.com.br/colunas/carlos-madeiro/2026/09/18/mp-apura-acusacao-de-suborno-e-calote-bilionario-de-gigante-coreana-no-ce.htm",
+    "photo": "https://imguol.com/c/noticias/9c/2026/01/16/sede-da-posco-internacional-em-incheon-na-coreia-do-sul-1768576123736_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Temporal forte com granizo atinge Ipatinga, em Minas Gerais",
+    "link": "https://www.uol.com.br/flash/?c=6aade26eae329103dc872713",
+    "photo": "https://conteudo.imguol.com.br/c/flash/geral/7d/2026/09/18/temporal-forte-com-granizo-atinge-ipatinga-em-minas-gerais-1789780555924_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -976,20 +998,20 @@
     "relateds": []
   },
   {
-    "title": "Caranguejo invade quintal segurando lâmina e assusta homem na Flórida (EUA)",
-    "link": "https://noticias.uol.com.br/meio-ambiente/ultimas-noticias/redacao/2026/09/18/caranguejo-invade-quintal-segurando-lamina-e-assusta-homem-nos-eua.ghtm",
-    "photo": "https://imguol.com/c/home/7a/2026/09/18/caranguejo-e-flagrado-segurando-lamina-entre-as-pincas-1789778817030_v2_300x225.png",
-    "source": "UOL",
+    "title": "Ministério Público requisita inquérito policial contra Ratinho por fala homofóbica",
+    "link": "https://www1.folha.uol.com.br/colunas/monicabergamo/2026/09/ministerio-publico-pede-inquerito-policial-contra-ratinho-por-fala-homofobica.shtml",
+    "photo": "https://imguol.com/c/home/66/2026/09/18/ratinho-e-o-cantor-tiago-piquilo-1789779084244_v2_300x225.jpg",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
     "relateds": []
   },
   {
-    "title": "Montadoras pressionam Trump para impedir entrada de marcas chinesas nos EUA",
-    "link": "https://economia.uol.com.br/noticias/reuters/2026/09/18/industria-automobilistica-pressiona-trump-para-manter-montadoras-chinesas-fora-do-pais-antes-do-encontro-com-xi.htm",
-    "photo": "https://imguol.com/c/parceiros/8f/2026/04/07/byd---fabrica-de-carros-eletricos-1775580511110_v2_300x225.jpg",
-    "source": "UOL",
+    "title": "Grupo investigado por suicídio de menina de 13 anos em MS passou por várias plataformas",
+    "link": "https://www1.folha.uol.com.br/cotidiano/2026/09/grupo-investigado-por-suicidio-de-menina-de-13-anos-incluia-amiga-e-passou-por-diferentes-plataformas.shtml",
+    "photo": "https://imguol.com/c/home/72/2026/09/18/discord-foi-alvo-de-medidas-do-governo-brasileiro-apos-morte-de-adolescente-1789776241654_v2_300x225.jpg",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
@@ -1006,9 +1028,9 @@
     "relateds": []
   },
   {
-    "title": "Pele com acne? Máscara da Océane reduz a vermelhidão",
-    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/09/18/review-mascara-de-argila-com-centella-da-oceane-limpa-poros-e-acalma-pele.htm",
-    "photo": "https://imguol.com/c/home/e8/2026/09/18/com-a-cica-mask-a-esq-e-apos-o-uso-da-mascara-a-dir-1789768730282_v2_300x225.png",
+    "title": "Montadoras pressionam Trump para impedir entrada de marcas chinesas nos EUA",
+    "link": "https://economia.uol.com.br/noticias/reuters/2026/09/18/industria-automobilistica-pressiona-trump-para-manter-montadoras-chinesas-fora-do-pais-antes-do-encontro-com-xi.htm",
+    "photo": "https://imguol.com/c/parceiros/8f/2026/04/07/byd---fabrica-de-carros-eletricos-1775580511110_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1096,6 +1118,16 @@
     "relateds": []
   },
   {
+    "title": "Miguel Pupo brilha no fim, vence Igarashi e é campeão da etapa de Trestles",
+    "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/09/18/igarashi-miguel-pupo-trestles-wsl.ghtm",
+    "photo": "https://imguol.com/c/esporte/ff/2026/09/18/miguel-pupo-comemora-o-titulo-da-etapa-de-trestles-da-wsl-1789776251297_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Rio habitado por crocodilos receberá remo e canoagem nos Jogos de Brisbane 2032",
     "link": "https://www.uol.com.br/esporte/ultimas-noticias/afp/2026/09/18/rio-habitado-por-crocodilos-recebera-remo-e-canoagem-nos-jogos-de-brisbane-2032.htm",
     "photo": "https://imguol.com/c/esporte/08/2026/09/18/rio-fitzroy-em-rockhampton-na-australia-recebera-remo-e-canoagem-nas-olimpiadas-de-2032-1789755235016_v2_300x225.jpg",
@@ -1106,17 +1138,17 @@
     "relateds": []
   },
   {
-    "title": "Arthur teve três amantes? Mulher inusitada abre segredo em 'Quem Ama Cuida'",
-    "link": "https://www.uol.com.br/splash/noticias/2026/09/18/amante-de-arthur-brandao-quem-ama-cuida.ghtm",
-    "photo": "https://imguol.com/c/splash/1a/2026/08/10/arthur-antonio-fagundes-em-quem-ama-cuida-1786382553776_v2_450x337.jpg",
+    "title": "A Fazenda 18: Primeiro Poder da Chama Vermelha pode alterar votação da casa",
+    "link": "https://www.uol.com.br/splash/noticias/2026/09/19/a-fazenda-18-primeiro-poder-da-chama-vermelha-pode-alterar-votacao-da-casa.ghtm",
+    "photo": "https://imguol.com/c/splash/4b/2026/09/18/a-fazenda-18-primeiro-poder-da-chama-vermelha-vai-interferir-no-indicado-da-sede-1789786320877_v2_450x337.jpg",
     "source": "UOL",
     "is_main": true,
     "is_carousel": false,
     "is_video": false,
     "relateds": [
       {
-        "title": "Francesca revela a Otoniel que está 'presa' à casa de Arthur",
-        "link": "https://noticiasdatv.uol.com.br/noticia/novelas/francesca-esta-presa-a-casa-de-arthur-e-quem-ama-cuida-da-pista-importante-156795"
+        "title": "Sinal? Após atitude de Marino, Darlin acha que não é querida pelo público",
+        "link": "https://www.uol.com.br/splash/noticias/2026/09/19/apos-atitude-de-convidados-darlin-acha-que-nao-e-querida-pelo-publico.ghtm"
       }
     ]
   },
@@ -1141,10 +1173,10 @@
     "relateds": []
   },
   {
-    "title": "Áudios de Renata Sorrah preocupada com febre de filha médica viralizam: 'Come feijão'",
-    "link": "https://f5.folha.uol.com.br/celebridades/2026/09/audios-de-renata-sorrah-preocupada-com-febre-de-filha-medica-viraliza-come-feijao.shtml",
-    "photo": "https://imguol.com/c/home/7b/2026/09/18/mariana-simoes-e-renata-sorrah-no-rock-in-rio-1789755848985_v2_300x300.jpg",
-    "source": "Folha",
+    "title": "Péricles revela quando se sentiu bem-sucedido pela primeira vez na carreira",
+    "link": "https://www.uol.com.br/splash/noticias/2026/09/18/pericles-carreira.ghtm",
+    "photo": "https://imguol.com/c/entretenimento/e4/2026/09/18/pericles-analisa-trajetoria-na-musica-1789759547982_v2_300x300.jpg",
+    "source": "UOL",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
@@ -1154,16 +1186,6 @@
     "title": "André Marques deixa 'aposentadoria' por Angélica e diz que ela quer namorada para ele",
     "link": "https://www.uol.com.br/flash/?c=6aad6af5be812cca923babd7",
     "photo": "https://imguol.com/c/entretenimento/57/2025/10/24/andre-marques-1761344860704_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Péricles revela quando se sentiu bem-sucedido pela primeira vez na carreira",
-    "link": "https://www.uol.com.br/splash/noticias/2026/09/18/pericles-carreira.ghtm",
-    "photo": "https://imguol.com/c/entretenimento/e4/2026/09/18/pericles-analisa-trajetoria-na-musica-1789759547982_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1231,20 +1253,10 @@
     "relateds": []
   },
   {
-    "title": "Bolsa Família será pago normalmente com greve da Caixa; saiba como sacar",
-    "link": "https://economia.uol.com.br/noticias/redacao/2026/09/18/greve-da-caixa-bolsa-familia-sera-pago-normalmente-entenda.ghtm",
-    "photo": "https://imguol.com/c/noticias/ee/2023/03/22/22mar2023---nova-versao-do-aplicativo-bolsa-familia-ja-esta-disponivel-para-download-1679491539204_v2_300x225.jpg",
+    "title": "Ciro Gomes ganha 29 minutos de propaganda do PT no Ceará por ser associado a Bolsonaro",
+    "link": "https://noticias.uol.com.br/colunas/carlos-madeiro/2026/09/18/ce-ciro-ganha-29-minutos-de-propaganda-do-pt-por-ser-associado-a-bolsonaro.htm",
+    "photo": "https://imguol.com/c/home/68/2026/09/18/o-ex-ministro-da-integracao-nacional-ciro-gomes-em-evento-em-maceio-1789771494294_v2_300x225.jpg",
     "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Escola vizinha a obra da construtora do prédio que caiu é interditada em São Paulo",
-    "link": "https://www1.folha.uol.com.br/cotidiano/2026/09/escola-vizinha-a-obra-da-construtora-do-predio-que-caiu-e-interditada-em-sp.shtml",
-    "photo": "https://imguol.com/c/home/e8/2026/09/18/imagem-de-2024-mostra-obra-da-new-home-ao-lado-da-escola-infantil-a-direita-1789774609382_v2_300x225.jpg",
-    "source": "Folha",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
@@ -1387,6 +1399,16 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Pele com acne? Máscara da Océane com argila e centella diminui vermelhidão",
+    "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/09/18/review-mascara-de-argila-com-centella-da-oceane-limpa-poros-e-acalma-pele.htm",
+    "photo": "https://imguol.com/c/guia-de-compras/d4/2026/09/15/com-a-cica-mask-a-esq-e-apos-o-uso-da-mascara-a-dir-1789517218130_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
     "is_video": false,
     "relateds": []
   },
@@ -1665,6 +1687,119 @@
     "link": "https://www.uolhost.uol.com.br/uol-cloud-computing.html?utm_medium=uol.com.br&utm_source=interna&utm_campaign=rodapé_uol&utm_content=link_fixo&utm_term=cloud_computing",
     "photo": "",
     "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Com caso Master, ambiente no Supremo está zero",
+    "link": "https://www.uol.com.br/flash/?c=6aad642af2a0f7e448f909b1",
+    "photo": "https://conteudo.imguol.com.br/c/home/4a/2025/09/10/daniela-lima-1757545302507_100x100.jpg?1757545310353",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Datafolha: Desconfiança no STF cresce, vai a 48% e atinge recorde",
+    "link": "https://www1.folha.uol.com.br/poder/2026/09/datafolha-desconfianca-no-stf-dispara-vai-a-48-e-atinge-recorde.shtml",
+    "photo": "",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "34% dizem que maioria dos envolvidos no caso Master é de esquerda; 27%, de direita",
+        "link": "https://www1.folha.uol.com.br/poder/2026/09/datafolha-34-dizem-que-maioria-dos-envolvidos-no-caso-master-e-de-esquerda-e-27-citam-direita.shtml"
+      },
+      {
+        "title": "47% dizem que crise no STF terá alguma influência no voto para presidente",
+        "link": "https://www1.folha.uol.com.br/poder/2026/09/datafolha-47-dizem-que-crise-no-stf-tera-alguma-influencia-no-voto-para-presidente.shtml"
+      },
+      {
+        "title": "Aumento de desconfiança no STF destoa da de outras instituições, diz pesquisa",
+        "link": "https://www1.folha.uol.com.br/poder/2026/09/datafolha-aumento-de-desconfianca-no-stf-destoa-de-outras-instituicoes.shtml"
+      }
+    ]
+  },
+  {
+    "title": "Marina confunde seu número para a eleição com o de Salles em ato de Lula em São Paulo",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/09/18/marina-confunde-numero-de-urna-com-o-de-salles-em-ato.ghtm",
+    "photo": "https://imguol.com/c/noticias/84/2026/09/18/marina-silva-rede-candidata-ao-senado-por-sao-paulo-1789774409663_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Em comício, Tebet acena a mulheres, ataca Derrite e associa Flávio a Master",
+        "link": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/09/18/em-comicio-tebet-acena-a-mulheres-ataca-derrite-e-associa-flavio-a-master.htm"
+      }
+    ]
+  },
+  {
+    "title": "Cade vê compra da Medley pela EMS como 'complexa' e frustra empresas",
+    "link": "https://c-level.folha.uol.com.br/negocios/2026/09/cade-ve-compra-da-medley-pela-ems-como-complexa-frustra-empresas-e-vai-aprofundar-analise.shtml",
+    "photo": "",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "CE: jovens são baleados pela PM ao simularem assalto de brincadeira",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/09/18/jovens-sao-baleados-pela-pm-enquanto-faziam-novelinha-sobre-crime-no-ce.ghtm",
+    "photo": "https://imguol.com/c/home/61/2026/09/18/adolescentes-publicaram-video-da-novelinha-em-redes-sociais-1789760540586_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Arthur teve três amantes? Mulher inusitada abre segredo em 'Quem Ama Cuida'",
+    "link": "https://www.uol.com.br/splash/noticias/2026/09/18/amante-de-arthur-brandao-quem-ama-cuida.ghtm",
+    "photo": "https://imguol.com/c/splash/1a/2026/08/10/arthur-antonio-fagundes-em-quem-ama-cuida-1786382553776_v2_450x337.jpg",
+    "source": "UOL",
+    "is_main": true,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Francesca revela a Otoniel que está 'presa' à casa de Arthur",
+        "link": "https://noticiasdatv.uol.com.br/noticia/novelas/francesca-esta-presa-a-casa-de-arthur-e-quem-ama-cuida-da-pista-importante-156795"
+      }
+    ]
+  },
+  {
+    "title": "Áudios de Renata Sorrah preocupada com febre de filha médica viralizam: 'Come feijão'",
+    "link": "https://f5.folha.uol.com.br/celebridades/2026/09/audios-de-renata-sorrah-preocupada-com-febre-de-filha-medica-viraliza-come-feijao.shtml",
+    "photo": "https://imguol.com/c/home/7b/2026/09/18/mariana-simoes-e-renata-sorrah-no-rock-in-rio-1789755848985_v2_300x300.jpg",
+    "source": "Folha",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Bolsa Família será pago normalmente com greve da Caixa; saiba como sacar",
+    "link": "https://economia.uol.com.br/noticias/redacao/2026/09/18/greve-da-caixa-bolsa-familia-sera-pago-normalmente-entenda.ghtm",
+    "photo": "https://imguol.com/c/noticias/ee/2023/03/22/22mar2023---nova-versao-do-aplicativo-bolsa-familia-ja-esta-disponivel-para-download-1679491539204_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Escola vizinha a obra da construtora do prédio que caiu é interditada em São Paulo",
+    "link": "https://www1.folha.uol.com.br/cotidiano/2026/09/escola-vizinha-a-obra-da-construtora-do-predio-que-caiu-e-interditada-em-sp.shtml",
+    "photo": "https://imguol.com/c/home/e8/2026/09/18/imagem-de-2024-mostra-obra-da-new-home-ao-lado-da-escola-infantil-a-direita-1789774609382_v2_300x225.jpg",
+    "source": "Folha",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
@@ -5281,126 +5416,6 @@
     "title": "STF vive 8 de janeiro das togas",
     "link": "https://noticias.uol.com.br/colunas/josias-de-souza/2026/09/16/stf-vive-8-de-janeiro-das-togas.htm",
     "photo": "https://conteudo.imguol.com.br/c/home/c0/2019/04/01/josias-de-souza-1554165233531_100x100.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Além da crise no STF, mal-estar com economia cresce no eleitorado",
-    "link": "https://economia.uol.com.br/colunas/graciliano-rocha/2026/09/17/alem-da-crise-no-stf-mal-estar-com-economia-cresce-no-eleitorado.htm",
-    "photo": "https://conteudo.imguol.com.br/c/home/c5/2022/08/01/graciliano-rocha-1659390300140_100x100.png?1659390307282",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Para que serve Memphis Depay",
-    "link": "https://www.uol.com.br/esporte/colunas/alicia-klein/2026/09/17/para-que-serve-memphis-depay.htm",
-    "photo": "https://conteudo.imguol.com.br/fa/2020/10/20/alicia-klein-150-1603243605874_100x100.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Super El Niño e 'IA assassina': preparado para o fim do mundo?",
-    "link": "https://economia.uol.com.br/colunas/gustavo-miller/2026/09/17/voce-esta-preparado-para-o-fim-do-mundo.htm",
-    "photo": "https://conteudo.imguol.com.br/c/home/49/2026/02/19/gustavo-miller-1771516680703_v2_100x100.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Os efeitos da crise de confiança pública em nossas relações privadas",
-    "link": "https://www1.folha.uol.com.br/colunas/amor-cronico/2026/09/os-efeitos-da-crise-de-confianca-publica-em-nossas-relacoes-privadas.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/61/2025/03/26/carol-tilkian-e-psicanalista-pesquisadora-de-relacionamentos-escritora-e-palestrante-1743011701637_v2_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Aumento do apoio à democracia é boa notícia?",
-    "link": "https://www1.folha.uol.com.br/colunas/maria-herminia-tavares/2026/09/aumento-do-apoio-a-democracia-e-boa-noticia.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/a2/2021/10/14/maria-herminia-tavares-de-almeida-1634234051934_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "O modus operandi de fuga da realidade do futebol brasileiro",
-    "link": "https://www1.folha.uol.com.br/colunas/marcelo-bechler/2026/09/o-modus-operandis-de-fuga-da-realidade-do-futebol-brasileiro.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/ee/2025/11/19/marcelo-bechler-1763585747897_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Com a IA, será tarde demais para dizer 'eu avisei'",
-    "link": "https://www1.folha.uol.com.br/colunas/martinwolf/2026/09/com-a-ia-sera-tarde-demais-para-dizer-eu-avisei.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/a1/2015/07/01/martin-wolf-comentarista-chefe-de-economia-no-jornal-ingles-financial-times-1435792092102_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Volta ao Rio completa tríplice coroa de trilhas de longo curso do Brasil",
-    "link": "https://www1.folha.uol.com.br/blogs/e-logo-ali/2026/09/volta-ao-rio-completa-triplice-coroa-de-trilhas-de-longo-curso-do-brasil.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/f1/2022/02/04/retrato-da-jornalista-da-folha-luiza-pastor-que-estreara-no-site-da-folha-o-blog-e-logo-ali-para-quem-gosta-de-caminhar-trilhar-escalar-e-bater-perna-por-ai-1643976387726_v2_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Se uma tartaruga morder o dedão do pé de Bolsonaro é porque deve ser comunista",
-    "link": "https://www1.folha.uol.com.br/colunas/ruycastro/2026/09/eu-e-o-comunismo.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/13/2025/01/15/retrato-de-ruy-castro-1736952999911_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Renascença psicodélica recicla misticismo ultrapassado",
-    "link": "https://www1.folha.uol.com.br/blogs/virada-psicodelica/2026/09/renascenca-psicodelica-recicla-misticismo-ultrapassado.shtml",
-    "photo": "https://conteudo.imguol.com.br/dd/2021/03/16/marcelo-leite-2-150-1615893684842_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "STF desmoralizado é presente para a extrema direita e Trump",
-    "link": "https://www1.folha.uol.com.br/colunas/marcosaugustogoncalves/2026/09/stf-desmoralizado-e-presente-para-a-extrema-direita-e-trump.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/22/2023/08/01/marcos-augusto-goncalves-1690912231947_v2_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "A vergonhosa classificação do Palmeiras",
-    "link": "https://www.uol.com.br/esporte/futebol/colunas/mauro-cezar-pereira/2026/09/16/a-vergonhosa-classificacao-do-palmeiras.htm",
-    "photo": "https://conteudo.imguol.com.br/3e/2021/02/10/mauro-cezar-150-colorida-1612960631293_100x100.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
