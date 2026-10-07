@@ -265,7 +265,7 @@
     "photo": "https://imguol.com/c/esporte/3b/2026/10/06/lionel-messi-da-argentina-comemora-gol-marcado-em-despedida-da-selecao-em-buenos-aires-1791335579850_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
-    "is_carousel": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": [
       {
@@ -802,9 +802,9 @@
     "relateds": []
   },
   {
-    "title": "'Lésbica bolsonarista': quem é Jessicão, a deputada estadual mais votada do Paraná",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/10/06/quem-e-jessicao-deputada-estadual-mais-votada-do-parana.ghtm",
-    "photo": "https://imguol.com/c/noticias/fa/2026/10/06/jessica-ramos-moreno-a-jessicao-1791314857141_v2_300x225.png",
+    "title": "A Fazenda 18: Ariela, Jottapê, Renê e Thaíde estão na 3ª Roça",
+    "link": "https://www.uol.com.br/splash/noticias/2026/10/07/terceira-roca-a-fazenda-18-formacao.ghtm",
+    "photo": "https://imguol.com/c/splash/6d/2026/10/07/a-fazenda-18-terceira-roca-comecou-a-ser-formada-1791342252925_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1014,7 +1014,7 @@
   {
     "title": "Ex-esposa acusa astro da NFL de tentar socar sua barriga durante gravidez",
     "link": "https://www.uol.com.br/esporte/ultimas-noticias/2026/10/06/ex-esposa-acusa-tyreek-hill-de-tentar-soco-durante-gravidez.ghtm",
-    "photo": "",
+    "photo": "https://imguol.com/c/esporte/b8/2026/10/06/tyreek-hill-ja-jogou-por-kansas-city-chiefs-e-miami-dolphins-atualmente-esta-sem-time-1791328633951_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1590,6 +1590,16 @@
     "title": "Cloud Computing",
     "link": "https://www.uolhost.uol.com.br/uol-cloud-computing.html?utm_medium=uol.com.br&utm_source=interna&utm_campaign=rodapé_uol&utm_content=link_fixo&utm_term=cloud_computing",
     "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "'Lésbica bolsonarista': quem é Jessicão, a deputada estadual mais votada do Paraná",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/10/06/quem-e-jessicao-deputada-estadual-mais-votada-do-parana.ghtm",
+    "photo": "https://imguol.com/c/noticias/fa/2026/10/06/jessica-ramos-moreno-a-jessicao-1791314857141_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -5395,16 +5405,6 @@
     "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/10/05/justica-do-rio-nega-liminar-para-vasco-usar-maracana-contra-o-boca.ghtm",
     "photo": "https://imguol.com/c/esporte/9e/2026/09/26/maracana-na-vespera-do-jogo-da-nfl-1790436324958_v2_300x225.jpg",
     "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Atlético-MG, Vasco e Palmeiras começam maratona de decisões e clássicos",
-    "link": "https://www1.folha.uol.com.br/esporte/2026/10/palmeiras-atletico-mg-e-vasco-comecam-maratona-de-decisoes-e-classicos-10-jogos-em-1-mes.shtml",
-    "photo": "https://imguol.com/c/home/a2/2026/10/05/fotomontagem-com-vitor-roque-palmeiras-vitor-hugo-atletico-mg-e-andres-gomez-vasco-os-tres-clubes-vao-enfrentar-maratona-de-jogos-em-outubro-e-novembro-1791206286108_v2_300x225.jpg",
-    "source": "Folha",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
