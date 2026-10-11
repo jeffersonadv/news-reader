@@ -210,14 +210,27 @@
     "relateds": []
   },
   {
-    "title": "Ataque em aeroporto saudita deixa ao menos 12 mortos e suspende voos",
-    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/10/10/ataque-aeroporto-arabia-saudita.ghtm",
-    "photo": "",
+    "title": "Calleri decide, São Paulo bate Vitória na volta de Lucas e respira no Brasileiro",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/10/10/sao-paulo-x-vitoria---30-rodada-do-brasileirao.htm",
+    "photo": "https://imguol.com/c/esporte/dc/2026/10/10/calleri-do-sao-paulo-comemora-gol-marcado-contra-o-vitoria-pelo-brasileirao-1791678567353_v2_450x337.jpg",
     "source": "UOL",
     "is_main": true,
     "is_carousel": true,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Juca Kfouri: São Paulo respira com a volta de Lucas",
+        "link": "https://www.uol.com.br/esporte/futebol/colunas/juca-kfouri/2026/10/10/sao-paulo.htm"
+      },
+      {
+        "title": "PVC: Calleri é herói em retorno de Lucas; faltam seis pontos para meta de Crespo",
+        "link": "https://www.uol.com.br/esporte/colunas/pvc/2026/10/10/sao-paulo-entrega-vantagem-pela-quarta-vez-em-dez-jogos-no-morumbi-pos-copa.htm"
+      },
+      {
+        "title": "Veja a classificação e a rodada do Campeonato do Brasileiro",
+        "link": "https://www.uol.com.br/esporte/futebol/campeonatos/brasileirao/"
+      }
+    ]
   },
   {
     "title": "Sua muito até parado? Pode ser mais do que só calor ou nervoso",
@@ -289,6 +302,16 @@
     ]
   },
   {
+    "title": "Ataque em aeroporto saudita deixa ao menos 12 mortos e suspende voos",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/10/10/ataque-aeroporto-arabia-saudita.ghtm",
+    "photo": "https://imguol.com/c/noticias/95/2026/10/10/o-episodio-ocorreu-em-meio-a-escalada-de-ataques-com-misseis-contra-a-arabia-saudita-pelo-grupo-rebelde-houthi-do-iemen-1791670783113_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": true,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "TSE determina que Meta esclareça em 48 h restrições a posts da campanha de Lula",
     "link": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/10/10/tse-determina-que-dona-do-facebook-esclareca-em-48h-restricoes-a-posts-da-campanha-de-lula.htm",
     "photo": "https://imguol.com/c/noticias/82/2026/10/09/9out2026---o-presidente-lula-faz-selfie-em-ato-em-apoio-ao-petista-leandro-grass-candidato-ao-governo-do-df-1791576898422_v2_300x225.jpg",
@@ -308,42 +331,14 @@
     ]
   },
   {
-    "title": "Vasco empata com o Remo sob olhares de Flávio Bolsonaro e vê o Z4 ainda perto",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/10/10/vasco-x-remo-pelo-campeonato-brasileiro.ghtm",
-    "photo": "https://imguol.com/c/esporte/79/2026/10/10/andres-gomez-e-ze-ricardo-disputam-jogada-durante-jogo-entre-vasco-e-remo-pelo-brasileirao-1791672007246_v2_300x225.jpg",
+    "title": "Telma de Souza, ex-prefeita de Santos, morre aos 82 anos",
+    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/10/11/telma-de-souza-ex-prefeita-de-santos-morre-aos-82-anos.ghtm",
+    "photo": "https://imguol.com/c/noticias/51/2026/10/11/ex-prefeita-de-santos-telma-de-souza-morre-aos-82-anos-1791687816264_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": [
-      {
-        "title": "Veja a classificação",
-        "link": "https://www.uol.com.br/esporte/futebol/campeonatos/brasileirao/"
-      }
-    ]
-  },
-  {
-    "title": "TRE-RJ retotaliza votos, e Douglas Ruas é eleito governador no primeiro turno",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/10/10/tre-rj-douglas-ruas.ghtm",
-    "photo": "https://imguol.com/c/home/b7/2026/10/10/o-candidato-do-pl-a-presidencia-da-republica-flavio-bolsonaro-acompanhado-do-governador-eleito-do-rio-de-janeiro-douglas-ruas-pl-1791659019745_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": true,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": [
-      {
-        "title": "Eleito governador, Ruas vai a evento evangélico e diz que Rio 'precisa de fé'",
-        "link": "https://noticias.uol.com.br/eleicoes/2026/10/10/eleito-governador-ruas-vai-a-evento-evangelico-diz-que-rio-precisa-de-fe.htm"
-      },
-      {
-        "title": "Próximo de Castro, investigado pelo MP e eleito no Rio: quem é Douglas Ruas",
-        "link": "https://noticias.uol.com.br/eleicoes/2026/10/10/quem-e-ruas-eleito-governo-rio.ghtm"
-      },
-      {
-        "title": "Quem é Fernanda Louback, a ex-'Zorra Total' que será vice-governadora do Rio de Janeiro",
-        "link": "https://www.uol.com.br/flash/?c=768b528e3ddd1fffcb75d12fd5654f20261010"
-      }
-    ]
+    "relateds": []
   },
   {
     "title": "Com gol de bicicleta de Geyse, Brasil vence Argentina em amistoso",
@@ -359,6 +354,16 @@
         "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/10/10/torcedores-entoam-gritos-de-apoio-a-lula-em-amistoso-da-selecao-feminina.ghtm"
       }
     ]
+  },
+  {
+    "title": "'Ela é uma delícia': meu marido realizou fantasia e trouxe um amigo para transar comigo",
+    "link": "https://www.uol.com.br/splash/noticias/aba-anonima/2026/10/10/ela-e-uma-delicia-meu-marido-atendeu-fantasia-e-trouxe-amigo-para-me-comer.htm",
+    "photo": "https://conteudo.imguol.com.br/c/entretenimento/bd/2026/02/10/aba-anonima-meu-marido-atendeu-fantasia-e-trouxe-amigo-para-me-comer-1770758497703_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
   },
   {
     "title": "Mancuso e o golpe das licenças de treinador",
@@ -445,14 +450,19 @@
     "relateds": []
   },
   {
-    "title": "SP tem 24 alertas de chuva; 16,5 mil imóveis estão sem energia na capital",
-    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/10/10/alertas-chuvas-alagamentos-sp.ghtm",
-    "photo": "https://imguol.com/c/noticias/36/2026/01/07/ceu-com-nuvens-carregadas-fez-cair-forte-chuva-na-regiao-do-centro-da-cidade-de-sao-paulo-nesta-quarta-feira-7-1767819887182_v2_300x225.jpg",
+    "title": "Vasco empata com o Remo sob olhares de Flávio Bolsonaro e vê o Z4 ainda perto",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/10/10/vasco-x-remo-pelo-campeonato-brasileiro.ghtm",
+    "photo": "https://imguol.com/c/esporte/79/2026/10/10/andres-gomez-e-ze-ricardo-disputam-jogada-durante-jogo-entre-vasco-e-remo-pelo-brasileirao-1791672007246_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Veja a classificação",
+        "link": "https://www.uol.com.br/esporte/futebol/campeonatos/brasileirao/"
+      }
+    ]
   },
   {
     "title": "Pastor é preso por suspeita de estupro contra crianças no RJ",
@@ -754,16 +764,6 @@
     "relateds": []
   },
   {
-    "title": "Grupo do PL no WhatsApp publica imagem de Flávio com referência a Mussolini",
-    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/10/10/grupo-do-pl-no-whatsapp-publica-imagem-de-flavio-com-referencia-a-mussolini.ghtm",
-    "photo": "",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
     "title": "Gianecchini declara voto nas eleições: 'Nossa democracia'",
     "link": "https://www.uol.com.br/splash/noticias/2026/10/10/reynaldo-gianecchini.ghtm",
     "photo": "https://imguol.com/c/entretenimento/d8/2026/10/10/reynaldo-gianecchini-fala-sobre-eleicoes-presidenciais-de-2026-1791669735917_v2_300x225.jpg",
@@ -847,6 +847,16 @@
     "title": "10.10 do Mercado Livre tem celular Jovi Y19s a R$ 809; veja destaques",
     "link": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2026/10/10/celular-jovi-y19s-chega-ao-brasil-com-256-gb-de-memoria-por-r-809.ghtm",
     "photo": "https://imguol.com/c/guia-de-compras/e6/2026/10/07/smartphone-jovi-y19s-1791400349724_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Em comício, apoiadores de Trump defendem execução ao vivo",
+    "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/10/10/em-comicio-apoiadores-de-trump-defendem-execucao-ao-vivo.ghtm",
+    "photo": "https://imguol.com/c/noticias/e6/2026/10/10/9out2026---o-presidente-dos-eua-donald-trump-participa-de-um-comicio-de-campanha-em-syracuse-nova-york-1791605475379_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1535,6 +1545,49 @@
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "TRE-RJ retotaliza votos, e Douglas Ruas é eleito governador no primeiro turno",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/10/10/tre-rj-douglas-ruas.ghtm",
+    "photo": "https://imguol.com/c/home/b7/2026/10/10/o-candidato-do-pl-a-presidencia-da-republica-flavio-bolsonaro-acompanhado-do-governador-eleito-do-rio-de-janeiro-douglas-ruas-pl-1791659019745_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": true,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Eleito governador, Ruas vai a evento evangélico e diz que Rio 'precisa de fé'",
+        "link": "https://noticias.uol.com.br/eleicoes/2026/10/10/eleito-governador-ruas-vai-a-evento-evangelico-diz-que-rio-precisa-de-fe.htm"
+      },
+      {
+        "title": "Próximo de Castro, investigado pelo MP e eleito no Rio: quem é Douglas Ruas",
+        "link": "https://noticias.uol.com.br/eleicoes/2026/10/10/quem-e-ruas-eleito-governo-rio.ghtm"
+      },
+      {
+        "title": "Quem é Fernanda Louback, a ex-'Zorra Total' que será vice-governadora do Rio de Janeiro",
+        "link": "https://www.uol.com.br/flash/?c=768b528e3ddd1fffcb75d12fd5654f20261010"
+      }
+    ]
+  },
+  {
+    "title": "SP tem 24 alertas de chuva; 16,5 mil imóveis estão sem energia na capital",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/10/10/alertas-chuvas-alagamentos-sp.ghtm",
+    "photo": "https://imguol.com/c/noticias/36/2026/01/07/ceu-com-nuvens-carregadas-fez-cair-forte-chuva-na-regiao-do-centro-da-cidade-de-sao-paulo-nesta-quarta-feira-7-1767819887182_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Grupo do PL no WhatsApp publica imagem de Flávio com referência a Mussolini",
+    "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/10/10/grupo-do-pl-no-whatsapp-publica-imagem-de-flavio-com-referencia-a-mussolini.ghtm",
+    "photo": "",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
@@ -5335,45 +5388,5 @@
         "link": "https://noticias.uol.com.br/eleicoes/2026/10/08/moleque-leite-com-pera-que-representa-o-atraso-diz-boulos-sobre-pavanato.ghtm"
       }
     ]
-  },
-  {
-    "title": "Savarino marca três, e Fluminense goleia Coritiba no Maracanã",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/10/08/fluminense-coritiba-29-rodada-brasileirao.ghtm",
-    "photo": "https://imguol.com/c/esporte/d8/2026/10/08/millan-savarino-e-hulk-comemoram-gol-do-fluminense-contra-coritiba-no-brasileirao-1791508812597_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Mega-Sena acumula, e prêmio chega a R$ 112 milhões; veja as dezenas sorteadas",
-    "link": "https://noticias.uol.com.br/ultimas-noticias/redacao/2026/10/08/mega-sena-concurso-3068-sorteio-08-de-outubro.htm",
-    "photo": "https://imguol.com/c/noticias/ce/2025/05/06/mega-sena-concurso-da-mega-sena-jogos-da-mega-sena-loteria-da-mega-sena---volantes-da-mega-sena-sendo-preenchidos-para-apostas-em-casas-lotericas-da-caixa-1746559458611_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "UFF relata à Polícia Federal suposta ameaça de incêndio criminoso",
-    "link": "https://www1.folha.uol.com.br/cotidiano/2026/10/uff-relata-a-pf-suposta-ameaca-de-incendio-criminoso-e-pede-reforco-na-seguranca.shtml",
-    "photo": "",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Invadimos o ensaio de Urias para o show do TOCA Sessions hoje",
-    "link": "https://www.uol.com.br/flash/?c=6ac7f96880379b6e42123eb6",
-    "photo": "https://imguol.com/c/toca/15/2025/10/07/urias-lanca-novo-disco-carranca-1759873281077_v2_300x225.jpg",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
   }
 ]
