@@ -210,25 +210,25 @@
     "relateds": []
   },
   {
-    "title": "Flávio tem 51%, e Lula, 49% dos votos válidos no Datafolha e na Quaest",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/10/24/quaest-e-datafolha-presidencial-segundo-turno.ghtm",
+    "title": "Brasil escolhe hoje entre o retorno de um Bolsonaro e o 4º mandato de Lula",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/10/25/brasil-escolhe-hoje-entre-volta-dos-bolsonaro-e-mais-4-anos-para-lula.ghtm",
     "photo": "",
     "source": "UOL",
     "is_main": true,
-    "is_carousel": true,
+    "is_carousel": false,
     "is_video": false,
     "relateds": [
+      {
+        "title": "Flávio tem 51%, e Lula, 49% dos votos válidos no Datafolha e na Quaest",
+        "link": "https://noticias.uol.com.br/eleicoes/2026/10/24/quaest-e-datafolha-presidencial-segundo-turno.ghtm"
+      },
       {
         "title": "Agregador de pesquisas: distância entre Flávio e Lula é a menor desde o primeiro turno",
         "link": "https://noticias.uol.com.br/eleicoes/2026/10/24/agregador-pesquisas-uol-24-de-outubro.ghtm"
       },
       {
-        "title": "Flávio Bolsonaro tem vantagem entre mais propensos a votar, diz análise do Datafolha",
-        "link": "https://www1.folha.uol.com.br/poder/2026/10/flavio-bolsonaro-tem-vantagem-entre-mais-propensos-a-votar-diz-analise-do-datafolha.shtml"
-      },
-      {
-        "title": "Boghossian: Com diferença mínima entre Flávio e Lula, quem sair de casa vai decidir o 2º turno",
-        "link": "https://www1.folha.uol.com.br/poder/2026/10/datafolha-com-diferenca-minima-entre-flavio-e-lula-quem-sair-de-casa-vai-decidir-o-2o-turno.shtml"
+        "title": "Que horas começa a votação? Veja horário de abertura das seções hoje",
+        "link": "https://noticias.uol.com.br/eleicoes/2026/10/25/que-horas-comeca-a-votacao-veja-horario-de-abertura-das-secoes-hoje.ghtm"
       }
     ]
   },
@@ -319,6 +319,10 @@
         "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/10/24/neymar-nestor-expulsao.ghtm"
       },
       {
+        "title": "Neymar se pronuncia após expulsão, chama Nestor de idiota e cita 'safadeza'",
+        "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/10/25/neymar-se-pronuncia-apos-expulsao-chama-nestor-de-idiota-e-cita-safadeza.ghtm"
+      },
+      {
         "title": "Juca Kfouri: As novas gracinhas do menino Ney",
         "link": "https://www.uol.com.br/esporte/futebol/colunas/juca-kfouri/2026/10/24/as-novas-gracinhas-do-menino-ney.htm"
       },
@@ -329,14 +333,19 @@
     ]
   },
   {
-    "title": "Ventos de até 90 km/h: onde vai chover forte no domingo de eleição?",
-    "link": "https://noticias.uol.com.br/eleicoes/2026/10/24/ventos-de-ate-90-kmh-onde-vai-chover-forte-no-domingo-de-eleicao.ghtm",
-    "photo": "https://imguol.com/c/noticias/4c/2026/04/25/11mar2025---mulher-com-guarda-chuva-durante-tempo-chuvoso-caminha-por-calcada-na-cidade-de-sao-paulo-1777146086054_v2_300x225.jpg",
+    "title": "Cidade de SP entra em estado de atenção para alagamentos",
+    "link": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/10/25/estado-de-atencao-para-alagamentos-na-cidade-de-sao-paulo.ghtm",
+    "photo": "https://imguol.com/c/noticias/3b/2026/02/07/23out2024---ceu-escuro-pre-chuva-forte-no-final-de-tarde-na-cidade-de-sao-paulo-1770489003985_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Onde chove forte hoje",
+        "link": "https://noticias.uol.com.br/eleicoes/2026/10/24/ventos-de-ate-90-kmh-onde-vai-chover-forte-no-domingo-de-eleicao.ghtm"
+      }
+    ]
   },
   {
     "title": "Vasco vira em dois minutos, frustra Seedorf e põe Corinthians no Z4 em jogo heroico",
@@ -951,14 +960,19 @@
     "relateds": []
   },
   {
-    "title": "Vitória empata com o Athletico-PR em 1 a 1 em jogo com expulsão no final",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/10/24/vitoria-empata-com-athletico-em-jogo-com-expulsao-no-fim-cruzeiro-agradece.ghtm",
-    "photo": "https://imguol.com/c/esporte/57/2026/10/24/viveros-do-athletico-e-matheusinho-do-vitoria-disputam-a-bola-em-jogo-do-brasileirao-1792874465569_v2_450x337.jpg",
+    "title": "Palmeiras abre 2 a 0, leva empate e cai na Libertadores Feminina na disputa por pênaltis",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/10/24/palmeiras-x-santa-fe.ghtm",
+    "photo": "https://imguol.com/c/esporte/70/2026/10/24/ortegon-comemora-gol-do-santa-fe-diante-do-palmeiras-na-libertadores-feminina-1792878857068_v2_450x337.png",
     "source": "UOL",
     "is_main": true,
     "is_carousel": false,
     "is_video": false,
-    "relateds": []
+    "relateds": [
+      {
+        "title": "Palmeiras eliminado: veja as cobranças das palestrinas na derrota para o Santa Fe",
+        "link": "https://www.uol.com.br/flash/?c=6add73fdec8e2e36bfdc1b64"
+      }
+    ]
   },
   {
     "title": "City perde invencibilidade, Tottenham embala e Magalhães decide no Inglês",
@@ -971,19 +985,19 @@
     "relateds": []
   },
   {
-    "title": "Brasil bate Noruega com golaço de Carol e avança em 1º na Copa Sub-17",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/10/24/brasil-x-noruega---copa-do-mundo-feminina-sub-17.ghtm",
-    "photo": "https://imguol.com/c/esporte/c3/2026/10/24/selecao-brasileira-feminina-comemora-gol-na-copa-do-mundo-sub-17-1792860061622_v2_300x300.jpg",
+    "title": "Vitória empata com o Athletico-PR em 1 a 1 em jogo com expulsão no final",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/10/24/vitoria-empata-com-athletico-em-jogo-com-expulsao-no-fim-cruzeiro-agradece.ghtm",
+    "photo": "https://imguol.com/c/esporte/57/2026/10/24/viveros-do-athletico-e-matheusinho-do-vitoria-disputam-a-bola-em-jogo-do-brasileirao-1792874465569_v2_300x300.jpg",
     "source": "UOL",
-    "is_main": false,
+    "is_main": true,
     "is_carousel": true,
     "is_video": false,
     "relateds": []
   },
   {
-    "title": "Seleção do Uruguai divulga pré-lista com trios de Flamengo e Palmeiras; veja",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/10/24/uruguai-divulga-pre-lista-com-oito-jogadores-do-brasileirao-para-data-fifa.ghtm",
-    "photo": "https://imguol.com/c/esporte/e4/2025/11/16/joaquin-piquerez-durante-o-empate-do-uruguai-por-0-a-0-contra-o-mexico-em-amistoso-1763297250915_v2_300x300.jpg",
+    "title": "Brasil bate Noruega com golaço de Carol e avança em 1º na Copa Sub-17",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/10/24/brasil-x-noruega---copa-do-mundo-feminina-sub-17.ghtm",
+    "photo": "https://imguol.com/c/esporte/c3/2026/10/24/selecao-brasileira-feminina-comemora-gol-na-copa-do-mundo-sub-17-1792860061622_v2_300x300.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": true,
@@ -1081,9 +1095,9 @@
     "relateds": []
   },
   {
-    "title": "Thaíde diz que não gosta de Darlin após provocação em A Fazenda 18",
-    "link": "https://www.uol.com.br/splash/noticias/2026/10/24/thaide-diz-que-nao-gosta-de-darlin-apos-provocacao-em-a-fazenda-18.ghtm",
-    "photo": "https://imguol.com/c/splash/cd/2026/10/24/thaide-falou-para-darlin-que-nao-gosta-dela-1792885646915_v2_300x225.png",
+    "title": "A Fazenda 18: Darlin desabafa após Daniel Erthal chamá-la de alcoólatra: 'É grave'",
+    "link": "https://www.uol.com.br/splash/noticias/2026/10/24/a-fazenda-18-darlin-desabafa-apos-erthal-chama-la-de-alcoolatra-e-grave.ghtm",
+    "photo": "https://imguol.com/c/splash/cd/2026/10/24/darlin-e-tina-conversam-sobre-erthal-em-a-fazenda-1792896070006_v2_300x225.jpg",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -1591,6 +1605,59 @@
     "relateds": []
   },
   {
+    "title": "Flávio tem 51%, e Lula, 49% dos votos válidos no Datafolha e na Quaest",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/10/24/quaest-e-datafolha-presidencial-segundo-turno.ghtm",
+    "photo": "",
+    "source": "UOL",
+    "is_main": true,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": [
+      {
+        "title": "Agregador de pesquisas: distância entre Flávio e Lula é a menor desde o primeiro turno",
+        "link": "https://noticias.uol.com.br/eleicoes/2026/10/24/agregador-pesquisas-uol-24-de-outubro.ghtm"
+      },
+      {
+        "title": "Flávio Bolsonaro tem vantagem entre mais propensos a votar, diz análise do Datafolha",
+        "link": "https://www1.folha.uol.com.br/poder/2026/10/flavio-bolsonaro-tem-vantagem-entre-mais-propensos-a-votar-diz-analise-do-datafolha.shtml"
+      },
+      {
+        "title": "Boghossian: Com diferença mínima entre Flávio e Lula, quem sair de casa vai decidir o 2º turno",
+        "link": "https://www1.folha.uol.com.br/poder/2026/10/datafolha-com-diferenca-minima-entre-flavio-e-lula-quem-sair-de-casa-vai-decidir-o-2o-turno.shtml"
+      }
+    ]
+  },
+  {
+    "title": "Ventos de até 90 km/h: onde vai chover forte no domingo de eleição?",
+    "link": "https://noticias.uol.com.br/eleicoes/2026/10/24/ventos-de-ate-90-kmh-onde-vai-chover-forte-no-domingo-de-eleicao.ghtm",
+    "photo": "https://imguol.com/c/noticias/4c/2026/04/25/11mar2025---mulher-com-guarda-chuva-durante-tempo-chuvoso-caminha-por-calcada-na-cidade-de-sao-paulo-1777146086054_v2_300x225.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Seleção do Uruguai divulga pré-lista com trios de Flamengo e Palmeiras; veja",
+    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/10/24/uruguai-divulga-pre-lista-com-oito-jogadores-do-brasileirao-para-data-fifa.ghtm",
+    "photo": "https://imguol.com/c/esporte/e4/2025/11/16/joaquin-piquerez-durante-o-empate-do-uruguai-por-0-a-0-contra-o-mexico-em-amistoso-1763297250915_v2_300x300.jpg",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": true,
+    "is_video": false,
+    "relateds": []
+  },
+  {
+    "title": "Thaíde diz que não gosta de Darlin após provocação em A Fazenda 18",
+    "link": "https://www.uol.com.br/splash/noticias/2026/10/24/thaide-diz-que-nao-gosta-de-darlin-apos-provocacao-em-a-fazenda-18.ghtm",
+    "photo": "https://imguol.com/c/splash/cd/2026/10/24/thaide-falou-para-darlin-que-nao-gosta-dela-1792885646915_v2_300x225.png",
+    "source": "UOL",
+    "is_main": false,
+    "is_carousel": false,
+    "is_video": false,
+    "relateds": []
+  },
+  {
     "title": "Acompanhe as últimas notícias da véspera do segundo turno",
     "link": "https://noticias.uol.com.br/ao-vivo/2026/10/24/eleicoes-2026-acompanhe-o-que-acontece-pelo-pais.htm",
     "photo": "",
@@ -1740,16 +1807,6 @@
     "title": "AL: criança fica presa à fiação elétrica após cair do 2º andar de imóvel",
     "link": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/10/23/crianca-fica-presa-a-fiacao-eletrica-apos-cair-da-janela-do-2-andar-de-imovel-em-alagoas.htm",
     "photo": "https://imguol.com/c/home/43/2026/10/24/crianca-fica-presa-a-fiacao-eletrica-apos-cair-do-2-andar-de-imovel-em-al-1792855926077_v2_300x225.png",
-    "source": "UOL",
-    "is_main": false,
-    "is_carousel": false,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Palmeiras abre 2 a 0, leva empate e cai nos pênaltis na Libertadores Feminina",
-    "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/10/24/palmeiras-x-santa-fe.ghtm",
-    "photo": "https://imguol.com/c/esporte/70/2026/10/24/ortegon-comemora-gol-do-santa-fe-diante-do-palmeiras-na-libertadores-feminina-1792878857068_v2_300x225.png",
     "source": "UOL",
     "is_main": false,
     "is_carousel": false,
@@ -5484,36 +5541,6 @@
     "link": "https://www.uol.com.br/esporte/futebol/colunas/mauro-cezar-pereira/2026/10/22/rodada-bate-uma-hora-de-bola-rolando-mas-diferenca-entre-jogos-segue-alta.htm",
     "photo": "https://conteudo.imguol.com.br/3e/2021/02/10/mauro-cezar-150-colorida-1612960631293_100x100.jpg",
     "source": "UOL",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Para conseguir dormir nestas eleições",
-    "link": "https://www1.folha.uol.com.br/colunas/suzanaherculanohouzel/2026/10/para-conseguir-dormir-nestas-eleicoes.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/b8/2019/04/09/suzana-herculano-houzel-1554827937055_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Soja e bovinos têm os melhores desempenhos no campo neste ano",
-    "link": "https://www1.folha.uol.com.br/colunas/vaivem/2026/10/soja-e-bovinos-tem-os-melhores-desempenhos-no-campo-neste-ano.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/71/2016/08/19/mauro-zafalon-colunista-da-folha-vaivem-das-commodities-1471652898900_100x100.jpg",
-    "source": "Folha",
-    "is_main": false,
-    "is_carousel": true,
-    "is_video": false,
-    "relateds": []
-  },
-  {
-    "title": "Como você pode perder 30% investindo em renda fixa?",
-    "link": "https://www1.folha.uol.com.br/blogs/de-grao-em-grao/2026/10/como-voce-pode-perder-30-investindo-em-renda-fixa.shtml",
-    "photo": "https://conteudo.imguol.com.br/c/home/05/2023/02/01/michael-viriato-1675278301712_100x100.jpg",
-    "source": "Folha",
     "is_main": false,
     "is_carousel": true,
     "is_video": false,
